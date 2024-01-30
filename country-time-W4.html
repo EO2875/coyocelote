@@ -7,15 +7,52 @@
 </head>
 
 <body>
-  <div id="map"></div>
+  <h1>Coalition Size Index <span id="year">2020</span></h1>
+  <div id="map">
+    <div class="color-legend" id="color-legend">
+      <!-- <div class="color-legend-cont-number">
+        <div>1</div>
+        <div>0</div>
+      </div>
+      <div class="color-legend-cont-color"></div> -->
+    </div>
+  </div>
+  <!-- <div id="color-legend-2">
+  </div> -->
   <div class="slidecontainer">
     <input type="range" min="1789" max="2020" value="2020" class="slider" id="slider">
   </div>
-  <div id="year" style="font-size: 24px; font-weight: bold;">2020</div>
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-  <script src="./NewWmeasure.js"></script>
   <script src="./viz.js"></script>
+  <script src="./w4ToJson.js"></script>
+  <!-- main -->
+  <script>
+    doViz(w4, 2015);
+    const colorLegend = document.getElementById('color-legend');
+    for (let i = 0; i < colorScale.length; i++) {
+      const color = colorScale[i];
+      const colorbox = document.createElement('div');
+
+      colorbox.style.backgroundColor = color
+      const s = String((i / colorScale.length).toFixed(2))
+      const e = String(((i + 1) / colorScale.length).toFixed(2))
+      colorbox.innerHTML =  s + ' - ' + e
+
+      colorbox.classList.add('color-legend-box')
+      colorLegend.appendChild(colorbox)
+    }
+    /* const total = 8
+    for (let i = 0; i < total; i++) {
+      const colorbox = document.createElement('div')
+      const red = 240 * (i/total)
+      const blue = 240 - red
+      colorbox.style.backgroundColor = `rgb(${red},55,${blue})`
+      colorbox.innerHTML = `${i}/${total}`
+      colorbox.classList.add('color-legend-box')
+      document.getElementById('color-legend-2').appendChild(colorbox)
+    } */
+  </script>
 </body>
 
 </html>

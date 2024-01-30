@@ -51,3 +51,26 @@
     background: #04AA6D;
     cursor: pointer;
 }
+
+.color-legend {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.color-legend-cont-number {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.color-legend-cont-color {
+    width: 10px;
+    height: 150px;
+    background-image: linear-gradient(rgb(0, 55, 240), rgb(240, 55,0));
+}
+
+.color-legend-box {
+    padding: 2px 5px;
+}

@@ -1,0 +1,26441 @@
+const w4csv = `country_name,year,W4
+United States of America,1789,0.7708264
+United States of America,1790,0.7708264
+United States of America,1791,0.7708264
+United States of America,1792,0.7708264
+United States of America,1793,0.7708264
+United States of America,1794,0.7708264
+United States of America,1795,0.7708264
+United States of America,1796,0.7708264
+United States of America,1797,0.7708264
+United States of America,1798,0.7708264
+United States of America,1799,0.7708264
+United States of America,1800,0.7708264
+United States of America,1801,0.7708264
+United States of America,1802,0.7708264
+United States of America,1803,0.7708264
+United States of America,1804,0.7708264
+United States of America,1805,0.7708264
+United States of America,1806,0.7708264
+United States of America,1807,0.7708264
+United States of America,1808,0.7708264
+United States of America,1809,0.7708264
+United States of America,1810,0.7708264
+United States of America,1811,0.7708264
+United States of America,1812,0.7708264
+United States of America,1813,0.7708264
+United States of America,1814,0.7708264
+United States of America,1815,0.7708264
+United States of America,1816,0.7708264
+United States of America,1817,0.7708264
+United States of America,1818,0.7708264
+United States of America,1819,0.7708264
+United States of America,1820,0.7708264
+United States of America,1821,0.7708264
+United States of America,1822,0.7708264
+United States of America,1823,0.7708264
+United States of America,1824,0.7708264
+United States of America,1825,0.7708264
+United States of America,1826,0.7708264
+United States of America,1827,0.7708264
+United States of America,1828,0.7708264
+United States of America,1829,0.7708264
+United States of America,1830,0.7708264
+United States of America,1831,0.7708264
+United States of America,1832,0.7708264
+United States of America,1833,0.7708264
+United States of America,1834,0.7708264
+United States of America,1835,0.7708264
+United States of America,1836,0.7708264
+United States of America,1837,0.7708264
+United States of America,1838,0.7708264
+United States of America,1839,0.7708264
+United States of America,1840,0.7708264
+United States of America,1841,0.7708264
+United States of America,1842,0.7708264
+United States of America,1843,0.7708264
+United States of America,1844,0.7708264
+United States of America,1845,0.7708264
+United States of America,1846,0.7708264
+United States of America,1847,0.7708264
+United States of America,1848,0.7708264
+United States of America,1849,0.7708264
+United States of America,1850,0.7708264
+United States of America,1851,0.7708264
+United States of America,1852,0.7708264
+United States of America,1853,0.7708264
+United States of America,1854,0.7708264
+United States of America,1855,0.7708264
+United States of America,1856,0.7708264
+United States of America,1857,0.7708264
+United States of America,1858,0.7708264
+United States of America,1859,0.7708264
+United States of America,1860,0.7708264
+United States of America,1861,0.7708264
+United States of America,1862,0.7708264
+United States of America,1863,0.7708264
+United States of America,1864,0.7708264
+United States of America,1865,0.7708264
+United States of America,1866,0.7708264
+United States of America,1867,0.7708264
+United States of America,1868,0.7708264
+United States of America,1869,0.7708264
+United States of America,1870,0.7708264
+United States of America,1871,0.7708264
+United States of America,1872,0.7708264
+United States of America,1873,0.7708264
+United States of America,1874,0.7708264
+United States of America,1875,0.7708264
+United States of America,1876,0.7708264
+United States of America,1877,0.7708264
+United States of America,1878,0.7708264
+United States of America,1879,0.7708264
+United States of America,1880,0.7708264
+United States of America,1881,0.7708264
+United States of America,1882,0.7708264
+United States of America,1883,0.7708264
+United States of America,1884,0.7708264
+United States of America,1885,0.7708264
+United States of America,1886,0.7708264
+United States of America,1887,0.7708264
+United States of America,1888,0.7708264
+United States of America,1889,0.7708264
+United States of America,1890,0.7708264
+United States of America,1891,0.7708264
+United States of America,1892,0.7708264
+United States of America,1893,0.7708264
+United States of America,1894,0.7708264
+United States of America,1895,0.8188805
+United States of America,1896,0.8188805
+United States of America,1897,0.8188805
+United States of America,1898,0.8188805
+United States of America,1899,0.8188805
+United States of America,1900,0.80710453
+United States of America,1901,0.80710453
+United States of America,1902,0.80710453
+United States of America,1903,0.80710453
+United States of America,1904,0.80710453
+United States of America,1905,0.80710453
+United States of America,1906,0.80710453
+United States of America,1907,0.80710453
+United States of America,1908,0.80710453
+United States of America,1909,0.80710453
+United States of America,1910,0.80710453
+United States of America,1911,0.80710453
+United States of America,1912,0.80710453
+United States of America,1913,0.80710453
+United States of America,1914,0.79077011
+United States of America,1915,0.79077011
+United States of America,1916,0.79077011
+United States of America,1917,0.79077011
+United States of America,1918,0.79077011
+United States of America,1919,0.79077011
+United States of America,1920,0.79839045
+United States of America,1921,0.79708201
+United States of America,1922,0.79708201
+United States of America,1923,0.79708201
+United States of America,1924,0.79708201
+United States of America,1925,0.79708201
+United States of America,1926,0.79708201
+United States of America,1927,0.79708201
+United States of America,1928,0.79708201
+United States of America,1929,0.79708201
+United States of America,1930,0.79708201
+United States of America,1931,0.79708201
+United States of America,1932,0.79708201
+United States of America,1933,0.79708201
+United States of America,1934,0.79708201
+United States of America,1935,0.79708201
+United States of America,1936,0.79708201
+United States of America,1937,0.79708201
+United States of America,1938,0.79708201
+United States of America,1939,0.79708201
+United States of America,1940,0.81586677
+United States of America,1941,0.81586677
+United States of America,1942,0.81586677
+United States of America,1943,0.81586677
+United States of America,1944,0.81586677
+United States of America,1945,0.85343635
+United States of America,1946,0.85343635
+United States of America,1947,0.85915917
+United States of America,1948,0.85915917
+United States of America,1949,0.83938593
+United States of America,1950,0.83938593
+United States of America,1951,0.83938593
+United States of America,1952,0.83938593
+United States of America,1953,0.83938593
+United States of America,1954,0.8568145
+United States of America,1955,0.8568145
+United States of America,1956,0.8568145
+United States of America,1957,0.8568145
+United States of America,1958,0.8568145
+United States of America,1959,0.8568145
+United States of America,1960,0.8568145
+United States of America,1961,0.8568145
+United States of America,1962,0.8568145
+United States of America,1963,0.8568145
+United States of America,1964,0.8568145
+United States of America,1965,0.8568145
+United States of America,1966,0.8568145
+United States of America,1967,0.8568145
+United States of America,1968,0.8568145
+United States of America,1969,0.8568145
+United States of America,1970,0.88066679
+United States of America,1971,0.88066679
+United States of America,1972,0.88066679
+United States of America,1973,0.88066679
+United States of America,1974,0.88066679
+United States of America,1975,0.9150036
+United States of America,1976,0.9150036
+United States of America,1977,0.95755911
+United States of America,1978,0.95755911
+United States of America,1979,0.95755911
+United States of America,1980,0.95755911
+United States of America,1981,0.95755911
+United States of America,1982,0.95755911
+United States of America,1983,0.95755911
+United States of America,1984,0.95755911
+United States of America,1985,0.95755911
+United States of America,1986,0.95755911
+United States of America,1987,0.95755911
+United States of America,1988,0.95755911
+United States of America,1989,0.95755911
+United States of America,1990,0.95755911
+United States of America,1991,0.95755911
+United States of America,1992,0.95755911
+United States of America,1993,0.95755911
+United States of America,1994,0.95755911
+United States of America,1995,0.95755911
+United States of America,1996,0.95755911
+United States of America,1997,0.95755911
+United States of America,1998,0.95755911
+United States of America,1999,0.95755911
+United States of America,2000,0.96612149
+United States of America,2001,0.96612149
+United States of America,2002,0.96612149
+United States of America,2003,0.96612149
+United States of America,2004,0.96612149
+United States of America,2005,0.97266364
+United States of America,2006,0.97266364
+United States of America,2007,0.97266364
+United States of America,2008,0.97681379
+United States of America,2009,0.97681379
+United States of America,2010,0.97681379
+United States of America,2011,0.97681379
+United States of America,2012,0.97681379
+United States of America,2013,0.983356
+United States of America,2014,0.96950769
+United States of America,2015,0.96950769
+United States of America,2016,0.95956349
+United States of America,2017,0.94207537
+United States of America,2018,0.95405024
+United States of America,2019,0.94876426
+United States of America,2020,0.94880795
+Canada,1841,0.68309665
+Canada,1842,0.68309665
+Canada,1843,0.68309665
+Canada,1844,0.68309665
+Canada,1845,0.68309665
+Canada,1846,0.68309665
+Canada,1847,0.68309665
+Canada,1848,0.68309665
+Canada,1849,0.68309665
+Canada,1850,0.68309665
+Canada,1851,0.68309665
+Canada,1852,0.68309665
+Canada,1853,0.68309665
+Canada,1854,0.68309665
+Canada,1855,0.68309665
+Canada,1856,0.68309665
+Canada,1857,0.68309665
+Canada,1858,0.68309665
+Canada,1859,0.68309665
+Canada,1860,0.68309665
+Canada,1861,0.68309665
+Canada,1862,0.68309665
+Canada,1863,0.68309665
+Canada,1864,0.68309665
+Canada,1865,0.68309665
+Canada,1866,0.68309665
+Canada,1867,0.68309665
+Canada,1868,0.68309665
+Canada,1869,0.68309665
+Canada,1870,0.68309665
+Canada,1871,0.68309665
+Canada,1872,0.68309665
+Canada,1873,0.68309665
+Canada,1874,0.68309665
+Canada,1875,0.68309665
+Canada,1876,0.68309665
+Canada,1877,0.68309665
+Canada,1878,0.68309665
+Canada,1879,0.68309665
+Canada,1880,0.68309665
+Canada,1881,0.68309665
+Canada,1882,0.68309665
+Canada,1883,0.68309665
+Canada,1884,0.68309665
+Canada,1885,0.68309665
+Canada,1886,0.68309665
+Canada,1887,0.68309665
+Canada,1888,0.68309665
+Canada,1889,0.68309665
+Canada,1890,0.68309665
+Canada,1891,0.68309665
+Canada,1892,0.68309665
+Canada,1893,0.68309665
+Canada,1894,0.68309665
+Canada,1895,0.68309665
+Canada,1896,0.68309665
+Canada,1897,0.68309665
+Canada,1898,0.68309665
+Canada,1899,0.68309665
+Canada,1900,0.79536104
+Canada,1901,0.79536104
+Canada,1902,0.79536104
+Canada,1903,0.79536104
+Canada,1904,0.79536104
+Canada,1905,0.79536104
+Canada,1906,0.79536104
+Canada,1907,0.79536104
+Canada,1908,0.79536104
+Canada,1909,0.79536104
+Canada,1910,0.79536104
+Canada,1911,0.79536104
+Canada,1912,0.79536104
+Canada,1913,0.79536104
+Canada,1914,0.79536104
+Canada,1915,0.79536104
+Canada,1916,0.79536104
+Canada,1917,0.79536104
+Canada,1918,0.79536104
+Canada,1919,0.79536104
+Canada,1920,0.83528966
+Canada,1921,0.83637595
+Canada,1922,0.83637595
+Canada,1923,0.83637595
+Canada,1924,0.83637595
+Canada,1925,0.85509408
+Canada,1926,0.85509408
+Canada,1927,0.85509408
+Canada,1928,0.85509408
+Canada,1929,0.85509408
+Canada,1930,0.85509408
+Canada,1931,0.83719659
+Canada,1932,0.83719659
+Canada,1933,0.83719659
+Canada,1934,0.83719659
+Canada,1935,0.85575843
+Canada,1936,0.85575843
+Canada,1937,0.85575843
+Canada,1938,0.8795566
+Canada,1939,0.8795566
+Canada,1940,0.84821647
+Canada,1941,0.84821647
+Canada,1942,0.84821647
+Canada,1943,0.84821647
+Canada,1944,0.84821647
+Canada,1945,0.84821647
+Canada,1946,0.87764186
+Canada,1947,0.87764186
+Canada,1948,0.87764186
+Canada,1949,0.87764186
+Canada,1950,0.87764186
+Canada,1951,0.87764186
+Canada,1952,0.87764186
+Canada,1953,0.87764186
+Canada,1954,0.87764186
+Canada,1955,0.87764186
+Canada,1956,0.87764186
+Canada,1957,0.87764186
+Canada,1958,0.87764186
+Canada,1959,0.87764186
+Canada,1960,0.87764186
+Canada,1961,0.87764186
+Canada,1962,0.87764186
+Canada,1963,0.87764186
+Canada,1964,0.87764186
+Canada,1965,0.87764186
+Canada,1966,0.87764186
+Canada,1967,0.87764186
+Canada,1968,0.87764186
+Canada,1969,0.87764186
+Canada,1970,0.89935356
+Canada,1971,0.89935356
+Canada,1972,0.89935356
+Canada,1973,0.89935356
+Canada,1974,0.86797428
+Canada,1975,0.86797428
+Canada,1976,0.86797428
+Canada,1977,0.86797428
+Canada,1978,0.86797428
+Canada,1979,0.86797428
+Canada,1980,0.86797428
+Canada,1981,0.86797428
+Canada,1982,0.86797428
+Canada,1983,0.86797428
+Canada,1984,0.86797428
+Canada,1985,0.86797428
+Canada,1986,0.86797428
+Canada,1987,0.86797428
+Canada,1988,0.86797428
+Canada,1989,0.86797428
+Canada,1990,0.86797428
+Canada,1991,0.86797428
+Canada,1992,0.86797428
+Canada,1993,0.86797428
+Canada,1994,0.86797428
+Canada,1995,0.86797428
+Canada,1996,0.86797428
+Canada,1997,0.86797428
+Canada,1998,0.86797428
+Canada,1999,0.86797428
+Canada,2000,0.86797428
+Canada,2001,0.86797428
+Canada,2002,0.86797428
+Canada,2003,0.86797428
+Canada,2004,0.86797428
+Canada,2005,0.83526325
+Canada,2006,0.83526325
+Canada,2007,0.83526325
+Canada,2008,0.83526325
+Canada,2009,0.83526325
+Canada,2010,0.84782428
+Canada,2011,0.83788007
+Canada,2012,0.83788007
+Canada,2013,0.84500164
+Canada,2014,0.84500164
+Canada,2015,0.82666981
+Canada,2016,0.84174132
+Canada,2017,0.85351729
+Canada,2018,0.85351729
+Canada,2019,0.85351729
+Canada,2020,0.85822767
+Cuba,1789,0.18363804
+Cuba,1790,0.18363804
+Cuba,1791,0.18363804
+Cuba,1792,0.18363804
+Cuba,1793,0.18363804
+Cuba,1794,0.18363804
+Cuba,1795,0.18363804
+Cuba,1796,0.18363804
+Cuba,1797,0.18363804
+Cuba,1798,0.18363804
+Cuba,1799,0.18363804
+Cuba,1800,0.18363804
+Cuba,1801,0.18363804
+Cuba,1802,0.18363804
+Cuba,1803,0.18363804
+Cuba,1804,0.18363804
+Cuba,1805,0.18363804
+Cuba,1806,0.18363804
+Cuba,1807,0.18363804
+Cuba,1808,0.18363804
+Cuba,1809,0.18363804
+Cuba,1810,0.18363804
+Cuba,1811,0.18363804
+Cuba,1812,0.18363804
+Cuba,1813,0.18363804
+Cuba,1814,0.18363804
+Cuba,1815,0.18363804
+Cuba,1816,0.18363804
+Cuba,1817,0.18363804
+Cuba,1818,0.18363804
+Cuba,1819,0.18363804
+Cuba,1820,0.18363804
+Cuba,1821,0.18363804
+Cuba,1822,0.18363804
+Cuba,1823,0.18363804
+Cuba,1824,0.18363804
+Cuba,1825,0.18363804
+Cuba,1826,0.18363804
+Cuba,1827,0.18363804
+Cuba,1828,0.18363804
+Cuba,1829,0.18363804
+Cuba,1830,0.18363804
+Cuba,1831,0.18363804
+Cuba,1832,0.18363804
+Cuba,1833,0.18363804
+Cuba,1834,0.18363804
+Cuba,1835,0.18363804
+Cuba,1836,0.18363804
+Cuba,1837,0.18363804
+Cuba,1838,0.18363804
+Cuba,1839,0.18363804
+Cuba,1840,0.18363804
+Cuba,1841,0.18363804
+Cuba,1842,0.18363804
+Cuba,1843,0.18363804
+Cuba,1844,0.18363804
+Cuba,1845,0.18363804
+Cuba,1846,0.18363804
+Cuba,1847,0.18363804
+Cuba,1848,0.18363804
+Cuba,1849,0.18363804
+Cuba,1850,0.18363804
+Cuba,1851,0.18363804
+Cuba,1852,0.18363804
+Cuba,1853,0.18363804
+Cuba,1854,0.18363804
+Cuba,1855,0.18363804
+Cuba,1856,0.18363804
+Cuba,1857,0.18363804
+Cuba,1858,0.18363804
+Cuba,1859,0.18363804
+Cuba,1860,0.18363804
+Cuba,1861,0.18363804
+Cuba,1862,0.18363804
+Cuba,1863,0.18363804
+Cuba,1864,0.18363804
+Cuba,1865,0.18363804
+Cuba,1866,0.18363804
+Cuba,1867,0.18363804
+Cuba,1868,0.18363804
+Cuba,1869,0.18363804
+Cuba,1870,0.18363804
+Cuba,1871,0.18363804
+Cuba,1872,0.18363804
+Cuba,1873,0.18363804
+Cuba,1874,0.18363804
+Cuba,1875,0.18363804
+Cuba,1876,0.18363804
+Cuba,1877,0.18363804
+Cuba,1878,0.18363804
+Cuba,1879,0.18363804
+Cuba,1880,0.18363804
+Cuba,1881,0.18363804
+Cuba,1882,0.18363804
+Cuba,1883,0.18363804
+Cuba,1884,0.18363804
+Cuba,1885,0.18363804
+Cuba,1886,0.18363804
+Cuba,1887,0.18363804
+Cuba,1888,0.18363804
+Cuba,1889,0.18363804
+Cuba,1890,0.18363804
+Cuba,1891,0.18363804
+Cuba,1892,0.18363804
+Cuba,1893,0.18363804
+Cuba,1894,0.18363804
+Cuba,1895,0.18363804
+Cuba,1896,0.18363804
+Cuba,1897,0.18363804
+Cuba,1898,0.18363804
+Cuba,1899,0.4495981
+Cuba,1900,0.4495981
+Cuba,1901,0.4495981
+Cuba,1902,0.6168288
+Cuba,1903,0.6168288
+Cuba,1904,0.6168288
+Cuba,1905,0.6168288
+Cuba,1906,0.64299762
+Cuba,1907,0.64299762
+Cuba,1908,0.64299762
+Cuba,1909,0.6168288
+Cuba,1910,0.6168288
+Cuba,1911,0.6168288
+Cuba,1912,0.6168288
+Cuba,1913,0.6168288
+Cuba,1914,0.6168288
+Cuba,1915,0.6168288
+Cuba,1916,0.6168288
+Cuba,1917,0.6168288
+Cuba,1918,0.6168288
+Cuba,1919,0.6168288
+Cuba,1920,0.6168288
+Cuba,1921,0.59720212
+Cuba,1922,0.59720212
+Cuba,1923,0.59720212
+Cuba,1924,0.59720212
+Cuba,1925,0.59720212
+Cuba,1926,0.55635613
+Cuba,1927,0.55635613
+Cuba,1928,0.55635613
+Cuba,1929,0.55635613
+Cuba,1930,0.55635613
+Cuba,1931,0.55635613
+Cuba,1932,0.55635613
+Cuba,1933,0.43586534
+Cuba,1934,0.45748967
+Cuba,1935,0.45748967
+Cuba,1936,0.58833396
+Cuba,1937,0.58833396
+Cuba,1938,0.58833396
+Cuba,1939,0.58833396
+Cuba,1940,0.61600387
+Cuba,1941,0.66641694
+Cuba,1942,0.66641694
+Cuba,1943,0.66641694
+Cuba,1944,0.68583846
+Cuba,1945,0.68583846
+Cuba,1946,0.68583846
+Cuba,1947,0.68583846
+Cuba,1948,0.68583846
+Cuba,1949,0.68583846
+Cuba,1950,0.68583846
+Cuba,1951,0.68583846
+Cuba,1952,0.5314036
+Cuba,1953,0.42795986
+Cuba,1954,0.42795986
+Cuba,1955,0.55880415
+Cuba,1956,0.55880415
+Cuba,1957,0.55880415
+Cuba,1958,0.55880415
+Cuba,1959,0.4912686
+Cuba,1960,0.28094131
+Cuba,1961,0.28094131
+Cuba,1962,0.19379899
+Cuba,1963,0.19379899
+Cuba,1964,0.19379899
+Cuba,1965,0.19379899
+Cuba,1966,0.19379899
+Cuba,1967,0.19379899
+Cuba,1968,0.19379899
+Cuba,1969,0.19379899
+Cuba,1970,0.19379899
+Cuba,1971,0.19379899
+Cuba,1972,0.19379899
+Cuba,1973,0.19379899
+Cuba,1974,0.19379899
+Cuba,1975,0.19379899
+Cuba,1976,0.23202384
+Cuba,1977,0.23202384
+Cuba,1978,0.23202384
+Cuba,1979,0.23202384
+Cuba,1980,0.23202384
+Cuba,1981,0.23202384
+Cuba,1982,0.23202384
+Cuba,1983,0.23202384
+Cuba,1984,0.23202384
+Cuba,1985,0.23202384
+Cuba,1986,0.23202384
+Cuba,1987,0.23202384
+Cuba,1988,0.23202384
+Cuba,1989,0.23202384
+Cuba,1990,0.23202384
+Cuba,1991,0.23202384
+Cuba,1992,0.23202384
+Cuba,1993,0.23202384
+Cuba,1994,0.23202384
+Cuba,1995,0.23202384
+Cuba,1996,0.23202384
+Cuba,1997,0.23202384
+Cuba,1998,0.23202384
+Cuba,1999,0.23202384
+Cuba,2000,0.23202384
+Cuba,2001,0.23202384
+Cuba,2002,0.23202384
+Cuba,2003,0.23202384
+Cuba,2004,0.23202384
+Cuba,2005,0.23202384
+Cuba,2006,0.23202384
+Cuba,2007,0.23202384
+Cuba,2008,0.23202384
+Cuba,2009,0.23202384
+Cuba,2010,0.23202384
+Cuba,2011,0.23202384
+Cuba,2012,0.23202384
+Cuba,2013,0.19460237
+Cuba,2014,0.19460237
+Cuba,2015,0.19460237
+Cuba,2016,0.18832184
+Cuba,2017,0.18832184
+Cuba,2018,0.14488152
+Cuba,2019,0.14488152
+Cuba,2020,0.15906668
+Haiti,1789,0.21532153
+Haiti,1790,0.21532153
+Haiti,1791,0.21532153
+Haiti,1792,0.21532153
+Haiti,1793,0.34616584
+Haiti,1794,0.34616584
+Haiti,1795,0.47126305
+Haiti,1796,0.47126305
+Haiti,1797,0.47126305
+Haiti,1798,0.34041876
+Haiti,1799,0.34041876
+Haiti,1800,0.34041876
+Haiti,1801,0.34041876
+Haiti,1802,0.34041876
+Haiti,1803,0.34041876
+Haiti,1804,0.2870481
+Haiti,1805,0.2870481
+Haiti,1806,0.2870481
+Haiti,1807,0.4178924
+Haiti,1808,0.4178924
+Haiti,1809,0.4178924
+Haiti,1810,0.4178924
+Haiti,1811,0.4178924
+Haiti,1812,0.4178924
+Haiti,1813,0.4178924
+Haiti,1814,0.4178924
+Haiti,1815,0.4178924
+Haiti,1816,0.4178924
+Haiti,1817,0.4178924
+Haiti,1818,0.2870481
+Haiti,1819,0.2870481
+Haiti,1820,0.2870481
+Haiti,1821,0.2870481
+Haiti,1822,0.2870481
+Haiti,1823,0.2870481
+Haiti,1824,0.2870481
+Haiti,1825,0.2870481
+Haiti,1826,0.2870481
+Haiti,1827,0.2870481
+Haiti,1828,0.2870481
+Haiti,1829,0.2870481
+Haiti,1830,0.2870481
+Haiti,1831,0.2870481
+Haiti,1832,0.2870481
+Haiti,1833,0.2870481
+Haiti,1834,0.2870481
+Haiti,1835,0.2870481
+Haiti,1836,0.2870481
+Haiti,1837,0.2870481
+Haiti,1838,0.2870481
+Haiti,1839,0.2870481
+Haiti,1840,0.2870481
+Haiti,1841,0.2870481
+Haiti,1842,0.2870481
+Haiti,1843,0.2870481
+Haiti,1844,0.2870481
+Haiti,1845,0.4178924
+Haiti,1846,0.2870481
+Haiti,1847,0.4178924
+Haiti,1848,0.4178924
+Haiti,1849,0.2870481
+Haiti,1850,0.2870481
+Haiti,1851,0.2870481
+Haiti,1852,0.2870481
+Haiti,1853,0.2870481
+Haiti,1854,0.2870481
+Haiti,1855,0.2870481
+Haiti,1856,0.2870481
+Haiti,1857,0.2870481
+Haiti,1858,0.2870481
+Haiti,1859,0.2870481
+Haiti,1860,0.2870481
+Haiti,1861,0.2870481
+Haiti,1862,0.2870481
+Haiti,1863,0.2870481
+Haiti,1864,0.2870481
+Haiti,1865,0.2870481
+Haiti,1866,0.2870481
+Haiti,1867,0.2870481
+Haiti,1868,0.2870481
+Haiti,1869,0.2870481
+Haiti,1870,0.4178924
+Haiti,1871,0.4178924
+Haiti,1872,0.4178924
+Haiti,1873,0.4178924
+Haiti,1874,0.4178924
+Haiti,1875,0.4178924
+Haiti,1876,0.4178924
+Haiti,1877,0.4178924
+Haiti,1878,0.4178924
+Haiti,1879,0.4178924
+Haiti,1880,0.4178924
+Haiti,1881,0.4178924
+Haiti,1882,0.4178924
+Haiti,1883,0.4178924
+Haiti,1884,0.4178924
+Haiti,1885,0.4178924
+Haiti,1886,0.4178924
+Haiti,1887,0.4178924
+Haiti,1888,0.4178924
+Haiti,1889,0.4178924
+Haiti,1890,0.4178924
+Haiti,1891,0.4178924
+Haiti,1892,0.4178924
+Haiti,1893,0.4178924
+Haiti,1894,0.4178924
+Haiti,1895,0.4178924
+Haiti,1896,0.4178924
+Haiti,1897,0.4178924
+Haiti,1898,0.4178924
+Haiti,1899,0.4178924
+Haiti,1900,0.44406125
+Haiti,1901,0.44406125
+Haiti,1902,0.44406125
+Haiti,1903,0.31321695
+Haiti,1904,0.31321695
+Haiti,1905,0.31321695
+Haiti,1906,0.31321695
+Haiti,1907,0.31321695
+Haiti,1908,0.31321695
+Haiti,1909,0.31321695
+Haiti,1910,0.31321695
+Haiti,1911,0.31321695
+Haiti,1912,0.44406125
+Haiti,1913,0.4702301
+Haiti,1914,0.4702301
+Haiti,1915,0.51167828
+Haiti,1916,0.50079936
+Haiti,1917,0.50079936
+Haiti,1918,0.50079936
+Haiti,1919,0.50079936
+Haiti,1920,0.52696824
+Haiti,1921,0.51388377
+Haiti,1922,0.51388377
+Haiti,1923,0.51388377
+Haiti,1924,0.51388377
+Haiti,1925,0.51388377
+Haiti,1926,0.51388377
+Haiti,1927,0.51388377
+Haiti,1928,0.51388377
+Haiti,1929,0.51388377
+Haiti,1930,0.51388377
+Haiti,1931,0.51388377
+Haiti,1932,0.51388377
+Haiti,1933,0.51388377
+Haiti,1934,0.51388377
+Haiti,1935,0.48117271
+Haiti,1936,0.48117271
+Haiti,1937,0.48117271
+Haiti,1938,0.48117271
+Haiti,1939,0.48117271
+Haiti,1940,0.48117271
+Haiti,1941,0.48117271
+Haiti,1942,0.48117271
+Haiti,1943,0.44846165
+Haiti,1944,0.44846165
+Haiti,1945,0.44846165
+Haiti,1946,0.50791681
+Haiti,1947,0.50165123
+Haiti,1948,0.50165123
+Haiti,1949,0.50165123
+Haiti,1950,0.44554025
+Haiti,1951,0.43704453
+Haiti,1952,0.43704453
+Haiti,1953,0.43704453
+Haiti,1954,0.43704453
+Haiti,1955,0.43704453
+Haiti,1956,0.43704453
+Haiti,1957,0.43531814
+Haiti,1958,0.34141046
+Haiti,1959,0.34141046
+Haiti,1960,0.37412152
+Haiti,1961,0.37412152
+Haiti,1962,0.37412152
+Haiti,1963,0.37412152
+Haiti,1964,0.37412152
+Haiti,1965,0.37412152
+Haiti,1966,0.37412152
+Haiti,1967,0.37412152
+Haiti,1968,0.37412152
+Haiti,1969,0.37412152
+Haiti,1970,0.37412152
+Haiti,1971,0.40385681
+Haiti,1972,0.41669807
+Haiti,1973,0.41669807
+Haiti,1974,0.41669807
+Haiti,1975,0.41669807
+Haiti,1976,0.41669807
+Haiti,1977,0.41669807
+Haiti,1978,0.41669807
+Haiti,1979,0.41669807
+Haiti,1980,0.41669807
+Haiti,1981,0.41669807
+Haiti,1982,0.41669807
+Haiti,1983,0.41669807
+Haiti,1984,0.41669807
+Haiti,1985,0.41669807
+Haiti,1986,0.3346394
+Haiti,1987,0.53354532
+Haiti,1988,0.6198625
+Haiti,1989,0.47365871
+Haiti,1990,0.47807094
+Haiti,1991,0.70268178
+Haiti,1992,0.51103568
+Haiti,1993,0.64187998
+Haiti,1994,0.66174841
+Haiti,1995,0.74304628
+Haiti,1996,0.76961625
+Haiti,1997,0.76961625
+Haiti,1998,0.79133636
+Haiti,1999,0.79133636
+Haiti,2000,0.78452146
+Haiti,2001,0.76875097
+Haiti,2002,0.77399325
+Haiti,2003,0.77399325
+Haiti,2004,0.77399325
+Haiti,2005,0.75279647
+Haiti,2006,0.75279647
+Haiti,2007,0.7574271
+Haiti,2008,0.7574271
+Haiti,2009,0.7574271
+Haiti,2010,0.75435418
+Haiti,2011,0.723818
+Haiti,2012,0.75308734
+Haiti,2013,0.74968535
+Haiti,2014,0.74968535
+Haiti,2015,0.73644865
+Haiti,2016,0.73644865
+Haiti,2017,0.73644865
+Haiti,2018,0.75975257
+Haiti,2019,0.74315345
+Haiti,2020,0.72849542
+Dominican Republic,1789,0.16953103
+Dominican Republic,1790,0.16953103
+Dominican Republic,1791,0.16953103
+Dominican Republic,1792,0.16953103
+Dominican Republic,1793,0.16953103
+Dominican Republic,1794,0.16953103
+Dominican Republic,1795,0.16953103
+Dominican Republic,1796,0.16953103
+Dominican Republic,1797,0.16953103
+Dominican Republic,1798,0.16953103
+Dominican Republic,1799,0.16953103
+Dominican Republic,1800,0.16953103
+Dominican Republic,1801,0.16953103
+Dominican Republic,1802,0.16953103
+Dominican Republic,1803,0.16953103
+Dominican Republic,1804,0.16953103
+Dominican Republic,1805,0.16953103
+Dominican Republic,1806,0.16953103
+Dominican Republic,1807,0.16953103
+Dominican Republic,1808,0.16953103
+Dominican Republic,1809,0.16953103
+Dominican Republic,1810,0.16953103
+Dominican Republic,1811,0.16953103
+Dominican Republic,1812,0.16953103
+Dominican Republic,1813,0.16953103
+Dominican Republic,1814,0.16953103
+Dominican Republic,1815,0.16953103
+Dominican Republic,1816,0.16953103
+Dominican Republic,1817,0.16953103
+Dominican Republic,1818,0.16953103
+Dominican Republic,1819,0.16953103
+Dominican Republic,1820,0.16953103
+Dominican Republic,1821,0.16953103
+Dominican Republic,1822,0.16953103
+Dominican Republic,1844,0.53698462
+Dominican Republic,1845,0.53698462
+Dominican Republic,1846,0.53698462
+Dominican Republic,1847,0.53698462
+Dominican Republic,1848,0.53698462
+Dominican Republic,1849,0.53698462
+Dominican Republic,1850,0.53698462
+Dominican Republic,1851,0.53698462
+Dominican Republic,1852,0.53698462
+Dominican Republic,1853,0.53698462
+Dominican Republic,1854,0.53698462
+Dominican Republic,1855,0.53698462
+Dominican Republic,1856,0.53698462
+Dominican Republic,1857,0.53698462
+Dominican Republic,1858,0.40614033
+Dominican Republic,1859,0.40614033
+Dominican Republic,1860,0.40614033
+Dominican Republic,1861,0.16890582
+Dominican Republic,1862,0.29975009
+Dominican Republic,1863,0.16890582
+Dominican Republic,1864,0.16890582
+Dominican Republic,1865,0.29975009
+Dominican Republic,1866,0.46744978
+Dominican Republic,1867,0.46744978
+Dominican Republic,1868,0.46744978
+Dominican Republic,1869,0.46744978
+Dominican Republic,1870,0.46744978
+Dominican Republic,1871,0.46744978
+Dominican Republic,1872,0.46744978
+Dominican Republic,1873,0.46744978
+Dominican Republic,1874,0.46744978
+Dominican Republic,1875,0.46744978
+Dominican Republic,1876,0.46744978
+Dominican Republic,1877,0.33660549
+Dominican Republic,1878,0.33660549
+Dominican Republic,1879,0.46744978
+Dominican Republic,1880,0.46744978
+Dominican Republic,1881,0.46744978
+Dominican Republic,1882,0.46744978
+Dominican Republic,1883,0.46744978
+Dominican Republic,1884,0.39219439
+Dominican Republic,1885,0.39219439
+Dominican Republic,1886,0.39219439
+Dominican Republic,1887,0.39219439
+Dominican Republic,1888,0.39219439
+Dominican Republic,1889,0.39219439
+Dominican Republic,1890,0.39219439
+Dominican Republic,1891,0.39219439
+Dominican Republic,1892,0.39219439
+Dominican Republic,1893,0.39219439
+Dominican Republic,1894,0.39219439
+Dominican Republic,1895,0.39219439
+Dominican Republic,1896,0.39219439
+Dominican Republic,1897,0.39219439
+Dominican Republic,1898,0.39219439
+Dominican Republic,1899,0.39219439
+Dominican Republic,1900,0.54370439
+Dominican Republic,1901,0.54370439
+Dominican Republic,1902,0.41286013
+Dominican Republic,1903,0.54370439
+Dominican Republic,1904,0.52146971
+Dominican Republic,1905,0.52216864
+Dominican Republic,1906,0.55860239
+Dominican Republic,1907,0.55860239
+Dominican Republic,1908,0.55860239
+Dominican Republic,1909,0.55860239
+Dominican Republic,1910,0.55860239
+Dominican Republic,1911,0.5216881
+Dominican Republic,1912,0.5216881
+Dominican Republic,1913,0.5216881
+Dominican Republic,1914,0.5216881
+Dominican Republic,1915,0.57052857
+Dominican Republic,1916,0.52711558
+Dominican Republic,1917,0.52711558
+Dominican Republic,1918,0.52711558
+Dominican Republic,1919,0.52711558
+Dominican Republic,1920,0.52711558
+Dominican Republic,1921,0.52711558
+Dominican Republic,1922,0.51403111
+Dominican Republic,1923,0.51403111
+Dominican Republic,1924,0.51403111
+Dominican Republic,1925,0.57407522
+Dominican Republic,1926,0.57407522
+Dominican Republic,1927,0.56099081
+Dominican Republic,1928,0.56099081
+Dominican Republic,1929,0.56099081
+Dominican Republic,1930,0.47842354
+Dominican Republic,1931,0.42031524
+Dominican Republic,1932,0.42031524
+Dominican Republic,1933,0.42031524
+Dominican Republic,1934,0.42031524
+Dominican Republic,1935,0.42031524
+Dominican Republic,1936,0.42031524
+Dominican Republic,1937,0.42031524
+Dominican Republic,1938,0.42031524
+Dominican Republic,1939,0.42031524
+Dominican Republic,1940,0.42031524
+Dominican Republic,1941,0.42031524
+Dominican Republic,1942,0.42031524
+Dominican Republic,1943,0.42031524
+Dominican Republic,1944,0.42031524
+Dominican Republic,1945,0.42031524
+Dominican Republic,1946,0.42031524
+Dominican Republic,1947,0.42031524
+Dominican Republic,1948,0.42031524
+Dominican Republic,1949,0.42031524
+Dominican Republic,1950,0.42031524
+Dominican Republic,1951,0.42031524
+Dominican Republic,1952,0.42031524
+Dominican Republic,1953,0.42031524
+Dominican Republic,1954,0.42031524
+Dominican Republic,1955,0.42031524
+Dominican Republic,1956,0.42031524
+Dominican Republic,1957,0.42031524
+Dominican Republic,1958,0.42031524
+Dominican Republic,1959,0.42031524
+Dominican Republic,1960,0.39152634
+Dominican Republic,1961,0.36535749
+Dominican Republic,1962,0.49976137
+Dominican Republic,1963,0.64479506
+Dominican Republic,1964,0.39878875
+Dominican Republic,1965,0.48723948
+Dominican Republic,1966,0.52829027
+Dominican Republic,1967,0.52585244
+Dominican Republic,1968,0.52585244
+Dominican Republic,1969,0.52585244
+Dominican Republic,1970,0.50553215
+Dominican Republic,1971,0.50553215
+Dominican Republic,1972,0.50553215
+Dominican Republic,1973,0.50553215
+Dominican Republic,1974,0.50553215
+Dominican Republic,1975,0.52569616
+Dominican Republic,1976,0.52569616
+Dominican Republic,1977,0.52569616
+Dominican Republic,1978,0.66266406
+Dominican Republic,1979,0.7240957
+Dominican Republic,1980,0.75680673
+Dominican Republic,1981,0.75680673
+Dominican Republic,1982,0.75680673
+Dominican Republic,1983,0.75680673
+Dominican Republic,1984,0.75680673
+Dominican Republic,1985,0.75680673
+Dominican Republic,1986,0.75680673
+Dominican Republic,1987,0.73745406
+Dominican Republic,1988,0.73745406
+Dominican Republic,1989,0.73745406
+Dominican Republic,1990,0.73745406
+Dominican Republic,1991,0.73745406
+Dominican Republic,1992,0.73745406
+Dominican Republic,1993,0.73745406
+Dominican Republic,1994,0.73745406
+Dominican Republic,1995,0.70474297
+Dominican Republic,1996,0.71033472
+Dominican Republic,1997,0.75078756
+Dominican Republic,1998,0.75078756
+Dominican Republic,1999,0.75078756
+Dominican Republic,2000,0.75078756
+Dominican Republic,2001,0.75078756
+Dominican Republic,2002,0.75078756
+Dominican Republic,2003,0.75078756
+Dominican Republic,2004,0.78349859
+Dominican Republic,2005,0.78349859
+Dominican Republic,2006,0.78349859
+Dominican Republic,2007,0.78349859
+Dominican Republic,2008,0.78349859
+Dominican Republic,2009,0.78349859
+Dominican Republic,2010,0.78048432
+Dominican Republic,2011,0.78048432
+Dominican Republic,2012,0.77685839
+Dominican Republic,2013,0.76651061
+Dominican Republic,2014,0.76651061
+Dominican Republic,2015,0.75982672
+Dominican Republic,2016,0.75982672
+Dominican Republic,2017,0.74478751
+Dominican Republic,2018,0.74819493
+Dominican Republic,2019,0.75733912
+Dominican Republic,2020,0.76383132
+Jamaica,1900,0.63150346
+Jamaica,1901,0.63150346
+Jamaica,1902,0.63150346
+Jamaica,1903,0.63150346
+Jamaica,1904,0.63150346
+Jamaica,1905,0.63150346
+Jamaica,1906,0.63150346
+Jamaica,1907,0.63150346
+Jamaica,1908,0.63150346
+Jamaica,1909,0.63150346
+Jamaica,1910,0.63150346
+Jamaica,1911,0.63150346
+Jamaica,1912,0.63150346
+Jamaica,1913,0.63150346
+Jamaica,1914,0.63150346
+Jamaica,1915,0.63150346
+Jamaica,1916,0.63150346
+Jamaica,1917,0.63150346
+Jamaica,1918,0.63150346
+Jamaica,1919,0.63150346
+Jamaica,1920,0.61036253
+Jamaica,1921,0.61036253
+Jamaica,1922,0.61036253
+Jamaica,1923,0.61036253
+Jamaica,1924,0.61036253
+Jamaica,1925,0.61036253
+Jamaica,1926,0.61036253
+Jamaica,1927,0.61036253
+Jamaica,1928,0.61036253
+Jamaica,1929,0.61036253
+Jamaica,1930,0.61036253
+Jamaica,1931,0.61036253
+Jamaica,1932,0.61036253
+Jamaica,1933,0.61036253
+Jamaica,1934,0.61036253
+Jamaica,1935,0.61036253
+Jamaica,1936,0.61036253
+Jamaica,1937,0.61036253
+Jamaica,1938,0.64177853
+Jamaica,1939,0.64177853
+Jamaica,1940,0.64177853
+Jamaica,1941,0.64177853
+Jamaica,1942,0.64177853
+Jamaica,1943,0.64177853
+Jamaica,1944,0.74511999
+Jamaica,1945,0.74511999
+Jamaica,1946,0.74511999
+Jamaica,1947,0.74511999
+Jamaica,1948,0.74511999
+Jamaica,1949,0.74511999
+Jamaica,1950,0.74511999
+Jamaica,1951,0.74511999
+Jamaica,1952,0.74511999
+Jamaica,1953,0.76474661
+Jamaica,1954,0.76474661
+Jamaica,1955,0.77128887
+Jamaica,1956,0.77128887
+Jamaica,1957,0.77128887
+Jamaica,1958,0.77128887
+Jamaica,1959,0.77128887
+Jamaica,1960,0.77928329
+Jamaica,1961,0.77928329
+Jamaica,1962,0.76110655
+Jamaica,1963,0.76110655
+Jamaica,1964,0.76110655
+Jamaica,1965,0.76110655
+Jamaica,1966,0.76110655
+Jamaica,1967,0.76110655
+Jamaica,1968,0.76110655
+Jamaica,1969,0.76110655
+Jamaica,1970,0.76110655
+Jamaica,1971,0.76110655
+Jamaica,1972,0.76110655
+Jamaica,1973,0.76110655
+Jamaica,1974,0.76110655
+Jamaica,1975,0.76110655
+Jamaica,1976,0.76110655
+Jamaica,1977,0.76110655
+Jamaica,1978,0.76110655
+Jamaica,1979,0.77639651
+Jamaica,1980,0.82169837
+Jamaica,1981,0.82169837
+Jamaica,1982,0.82169837
+Jamaica,1983,0.82169837
+Jamaica,1984,0.82169837
+Jamaica,1985,0.82169837
+Jamaica,1986,0.82169837
+Jamaica,1987,0.82169837
+Jamaica,1988,0.82169837
+Jamaica,1989,0.83174604
+Jamaica,1990,0.83174604
+Jamaica,1991,0.83174604
+Jamaica,1992,0.83174604
+Jamaica,1993,0.83174604
+Jamaica,1994,0.83174604
+Jamaica,1995,0.83174604
+Jamaica,1996,0.83174604
+Jamaica,1997,0.83174604
+Jamaica,1998,0.83174604
+Jamaica,1999,0.83174604
+Jamaica,2000,0.83174604
+Jamaica,2001,0.83174604
+Jamaica,2002,0.84590018
+Jamaica,2003,0.84590018
+Jamaica,2004,0.84590018
+Jamaica,2005,0.84466177
+Jamaica,2006,0.85680634
+Jamaica,2007,0.85680634
+Jamaica,2008,0.85680634
+Jamaica,2009,0.85680634
+Jamaica,2010,0.84241349
+Jamaica,2011,0.830531
+Jamaica,2012,0.830531
+Jamaica,2013,0.82320368
+Jamaica,2014,0.82320368
+Jamaica,2015,0.82320368
+Jamaica,2016,0.82320368
+Jamaica,2017,0.78858107
+Jamaica,2018,0.81474996
+Jamaica,2019,0.79932821
+Jamaica,2020,0.81241262
+Trinidad and Tobago,1900,0.67714071
+Trinidad and Tobago,1901,0.67714071
+Trinidad and Tobago,1902,0.67714071
+Trinidad and Tobago,1903,0.67714071
+Trinidad and Tobago,1904,0.67714071
+Trinidad and Tobago,1905,0.67714071
+Trinidad and Tobago,1906,0.67714071
+Trinidad and Tobago,1907,0.67714071
+Trinidad and Tobago,1908,0.67714071
+Trinidad and Tobago,1909,0.67714071
+Trinidad and Tobago,1910,0.67714071
+Trinidad and Tobago,1911,0.67714071
+Trinidad and Tobago,1912,0.67714071
+Trinidad and Tobago,1913,0.67714071
+Trinidad and Tobago,1914,0.67714071
+Trinidad and Tobago,1915,0.67714071
+Trinidad and Tobago,1916,0.67714071
+Trinidad and Tobago,1917,0.67714071
+Trinidad and Tobago,1918,0.67714071
+Trinidad and Tobago,1919,0.67714071
+Trinidad and Tobago,1920,0.67714071
+Trinidad and Tobago,1921,0.67714071
+Trinidad and Tobago,1922,0.67714071
+Trinidad and Tobago,1923,0.67714071
+Trinidad and Tobago,1924,0.67714071
+Trinidad and Tobago,1925,0.6814428
+Trinidad and Tobago,1926,0.6814428
+Trinidad and Tobago,1927,0.6814428
+Trinidad and Tobago,1928,0.6814428
+Trinidad and Tobago,1929,0.6814428
+Trinidad and Tobago,1930,0.6814428
+Trinidad and Tobago,1931,0.6814428
+Trinidad and Tobago,1932,0.6814428
+Trinidad and Tobago,1933,0.6814428
+Trinidad and Tobago,1934,0.6814428
+Trinidad and Tobago,1935,0.6814428
+Trinidad and Tobago,1936,0.6814428
+Trinidad and Tobago,1937,0.6814428
+Trinidad and Tobago,1938,0.6814428
+Trinidad and Tobago,1939,0.6814428
+Trinidad and Tobago,1940,0.6814428
+Trinidad and Tobago,1941,0.6814428
+Trinidad and Tobago,1942,0.6814428
+Trinidad and Tobago,1943,0.6814428
+Trinidad and Tobago,1944,0.6814428
+Trinidad and Tobago,1945,0.6814428
+Trinidad and Tobago,1946,0.76339394
+Trinidad and Tobago,1947,0.76339394
+Trinidad and Tobago,1948,0.76339394
+Trinidad and Tobago,1949,0.76339394
+Trinidad and Tobago,1950,0.76339394
+Trinidad and Tobago,1951,0.76339394
+Trinidad and Tobago,1952,0.76339394
+Trinidad and Tobago,1953,0.76339394
+Trinidad and Tobago,1954,0.76339394
+Trinidad and Tobago,1955,0.76339394
+Trinidad and Tobago,1956,0.7768054
+Trinidad and Tobago,1957,0.79228014
+Trinidad and Tobago,1958,0.79228014
+Trinidad and Tobago,1959,0.79228014
+Trinidad and Tobago,1960,0.79228014
+Trinidad and Tobago,1961,0.79228014
+Trinidad and Tobago,1962,0.77265346
+Trinidad and Tobago,1963,0.77265346
+Trinidad and Tobago,1964,0.77265346
+Trinidad and Tobago,1965,0.77265346
+Trinidad and Tobago,1966,0.77265346
+Trinidad and Tobago,1967,0.77265346
+Trinidad and Tobago,1968,0.77265346
+Trinidad and Tobago,1969,0.77265346
+Trinidad and Tobago,1970,0.79268163
+Trinidad and Tobago,1971,0.79268163
+Trinidad and Tobago,1972,0.79268163
+Trinidad and Tobago,1973,0.79268163
+Trinidad and Tobago,1974,0.79268163
+Trinidad and Tobago,1975,0.79268163
+Trinidad and Tobago,1976,0.79958397
+Trinidad and Tobago,1977,0.82349944
+Trinidad and Tobago,1978,0.83839619
+Trinidad and Tobago,1979,0.83839619
+Trinidad and Tobago,1980,0.83839619
+Trinidad and Tobago,1981,0.83839619
+Trinidad and Tobago,1982,0.83839619
+Trinidad and Tobago,1983,0.83839619
+Trinidad and Tobago,1984,0.83839619
+Trinidad and Tobago,1985,0.83839619
+Trinidad and Tobago,1986,0.83839619
+Trinidad and Tobago,1987,0.83839619
+Trinidad and Tobago,1988,0.83839619
+Trinidad and Tobago,1989,0.83839619
+Trinidad and Tobago,1990,0.83839619
+Trinidad and Tobago,1991,0.83839619
+Trinidad and Tobago,1992,0.83839619
+Trinidad and Tobago,1993,0.83839619
+Trinidad and Tobago,1994,0.83839619
+Trinidad and Tobago,1995,0.83839619
+Trinidad and Tobago,1996,0.83839619
+Trinidad and Tobago,1997,0.83839619
+Trinidad and Tobago,1998,0.83839619
+Trinidad and Tobago,1999,0.83839619
+Trinidad and Tobago,2000,0.83839619
+Trinidad and Tobago,2001,0.83839619
+Trinidad and Tobago,2002,0.83839619
+Trinidad and Tobago,2003,0.83839619
+Trinidad and Tobago,2004,0.83839619
+Trinidad and Tobago,2005,0.83473253
+Trinidad and Tobago,2006,0.83473253
+Trinidad and Tobago,2007,0.83473253
+Trinidad and Tobago,2008,0.83473253
+Trinidad and Tobago,2009,0.83473253
+Trinidad and Tobago,2010,0.80805242
+Trinidad and Tobago,2011,0.80805242
+Trinidad and Tobago,2012,0.80805242
+Trinidad and Tobago,2013,0.82432789
+Trinidad and Tobago,2014,0.82432789
+Trinidad and Tobago,2015,0.86713743
+Trinidad and Tobago,2016,0.86713743
+Trinidad and Tobago,2017,0.8423062
+Trinidad and Tobago,2018,0.81653172
+Trinidad and Tobago,2019,0.80678988
+Trinidad and Tobago,2020,0.82863265
+Barbados,1900,0.59698087
+Barbados,1901,0.59698087
+Barbados,1902,0.59698087
+Barbados,1903,0.59698087
+Barbados,1904,0.59698087
+Barbados,1905,0.59698087
+Barbados,1906,0.59698087
+Barbados,1907,0.59698087
+Barbados,1908,0.59698087
+Barbados,1909,0.59698087
+Barbados,1910,0.59698087
+Barbados,1911,0.59698087
+Barbados,1912,0.59698087
+Barbados,1913,0.59698087
+Barbados,1914,0.59698087
+Barbados,1915,0.59698087
+Barbados,1916,0.59698087
+Barbados,1917,0.59698087
+Barbados,1918,0.59698087
+Barbados,1919,0.59698087
+Barbados,1920,0.59698087
+Barbados,1921,0.59698087
+Barbados,1922,0.59698087
+Barbados,1923,0.59698087
+Barbados,1924,0.59698087
+Barbados,1925,0.59698087
+Barbados,1926,0.59698087
+Barbados,1927,0.59698087
+Barbados,1928,0.59698087
+Barbados,1929,0.59698087
+Barbados,1930,0.59698087
+Barbados,1931,0.59698087
+Barbados,1932,0.59698087
+Barbados,1933,0.59698087
+Barbados,1934,0.59698087
+Barbados,1935,0.59698087
+Barbados,1936,0.59698087
+Barbados,1937,0.59698087
+Barbados,1938,0.64066952
+Barbados,1939,0.64066952
+Barbados,1940,0.64066952
+Barbados,1941,0.64066952
+Barbados,1942,0.64066952
+Barbados,1943,0.64066952
+Barbados,1944,0.64066952
+Barbados,1945,0.64066952
+Barbados,1946,0.69528073
+Barbados,1947,0.69528073
+Barbados,1948,0.69528073
+Barbados,1949,0.69528073
+Barbados,1950,0.69528073
+Barbados,1951,0.69528073
+Barbados,1952,0.75485915
+Barbados,1953,0.75485915
+Barbados,1954,0.77684098
+Barbados,1955,0.77684098
+Barbados,1956,0.82000637
+Barbados,1957,0.82000637
+Barbados,1958,0.82000637
+Barbados,1959,0.82000637
+Barbados,1960,0.79802454
+Barbados,1961,0.79802454
+Barbados,1962,0.79802454
+Barbados,1963,0.79802454
+Barbados,1964,0.79802454
+Barbados,1965,0.79802454
+Barbados,1966,0.79802454
+Barbados,1967,0.80536371
+Barbados,1968,0.80536371
+Barbados,1969,0.80536371
+Barbados,1970,0.80536371
+Barbados,1971,0.80536371
+Barbados,1972,0.80536371
+Barbados,1973,0.80536371
+Barbados,1974,0.80536371
+Barbados,1975,0.80536371
+Barbados,1976,0.80536371
+Barbados,1977,0.80536371
+Barbados,1978,0.80536371
+Barbados,1979,0.80536371
+Barbados,1980,0.80536371
+Barbados,1981,0.80536371
+Barbados,1982,0.80536371
+Barbados,1983,0.80536371
+Barbados,1984,0.80536371
+Barbados,1985,0.80536371
+Barbados,1986,0.80536371
+Barbados,1987,0.80536371
+Barbados,1988,0.80536371
+Barbados,1989,0.80536371
+Barbados,1990,0.80536371
+Barbados,1991,0.8364678
+Barbados,1992,0.8364678
+Barbados,1993,0.8364678
+Barbados,1994,0.8364678
+Barbados,1995,0.8364678
+Barbados,1996,0.8364678
+Barbados,1997,0.8364678
+Barbados,1998,0.8364678
+Barbados,1999,0.8364678
+Barbados,2000,0.8364678
+Barbados,2001,0.8364678
+Barbados,2002,0.8364678
+Barbados,2003,0.8364678
+Barbados,2004,0.8364678
+Barbados,2005,0.78674698
+Barbados,2006,0.78674698
+Barbados,2007,0.78674698
+Barbados,2008,0.78674698
+Barbados,2009,0.78674698
+Barbados,2010,0.78674698
+Barbados,2011,0.78674698
+Barbados,2012,0.78674698
+Barbados,2013,0.78674698
+Barbados,2014,0.78674698
+Barbados,2015,0.78674698
+Barbados,2016,0.78674698
+Barbados,2017,0.78023785
+Barbados,2018,0.79398859
+Barbados,2019,0.81570876
+Barbados,2020,0.79398859
+Mexico,1789,0.37098649
+Mexico,1790,0.30556434
+Mexico,1791,0.30556434
+Mexico,1792,0.30556434
+Mexico,1793,0.30556434
+Mexico,1794,0.30556434
+Mexico,1795,0.30556434
+Mexico,1796,0.30556434
+Mexico,1797,0.30556434
+Mexico,1798,0.30556434
+Mexico,1799,0.30556434
+Mexico,1800,0.30556434
+Mexico,1801,0.30556434
+Mexico,1802,0.30556434
+Mexico,1803,0.30556434
+Mexico,1804,0.30556434
+Mexico,1805,0.30556434
+Mexico,1806,0.30556434
+Mexico,1807,0.30556434
+Mexico,1808,0.30556434
+Mexico,1809,0.30556434
+Mexico,1810,0.30556434
+Mexico,1811,0.30556434
+Mexico,1812,0.53774238
+Mexico,1813,0.53774238
+Mexico,1814,0.53774238
+Mexico,1815,0.53774238
+Mexico,1816,0.47428048
+Mexico,1817,0.47428048
+Mexico,1818,0.47428048
+Mexico,1819,0.47428048
+Mexico,1820,0.4900113
+Mexico,1821,0.35916698
+Mexico,1822,0.35916698
+Mexico,1823,0.4900113
+Mexico,1824,0.4900113
+Mexico,1825,0.4900113
+Mexico,1826,0.4900113
+Mexico,1827,0.4900113
+Mexico,1828,0.4900113
+Mexico,1829,0.35916698
+Mexico,1830,0.35916698
+Mexico,1831,0.35916698
+Mexico,1832,0.4900113
+Mexico,1833,0.4900113
+Mexico,1834,0.4900113
+Mexico,1835,0.4900113
+Mexico,1836,0.4900113
+Mexico,1837,0.4900113
+Mexico,1838,0.4900113
+Mexico,1839,0.4900113
+Mexico,1840,0.4900113
+Mexico,1841,0.35916698
+Mexico,1842,0.4900113
+Mexico,1843,0.4900113
+Mexico,1844,0.4900113
+Mexico,1845,0.4900113
+Mexico,1846,0.35916698
+Mexico,1847,0.4900113
+Mexico,1848,0.4900113
+Mexico,1849,0.4900113
+Mexico,1850,0.42533797
+Mexico,1851,0.42533797
+Mexico,1852,0.42533797
+Mexico,1853,0.42533797
+Mexico,1854,0.5227192
+Mexico,1855,0.39187488
+Mexico,1856,0.5227192
+Mexico,1857,0.5227192
+Mexico,1858,0.46992543
+Mexico,1859,0.46992543
+Mexico,1860,0.46992543
+Mexico,1861,0.46992543
+Mexico,1862,0.46992543
+Mexico,1863,0.46992543
+Mexico,1864,0.46992543
+Mexico,1865,0.46992543
+Mexico,1866,0.46992543
+Mexico,1867,0.46992543
+Mexico,1868,0.49114454
+Mexico,1869,0.49114454
+Mexico,1870,0.49114454
+Mexico,1871,0.49114454
+Mexico,1872,0.49114454
+Mexico,1873,0.49114454
+Mexico,1874,0.49114454
+Mexico,1875,0.49114454
+Mexico,1876,0.49114454
+Mexico,1877,0.4298507
+Mexico,1878,0.4298507
+Mexico,1879,0.4298507
+Mexico,1880,0.4298507
+Mexico,1881,0.4298507
+Mexico,1882,0.4298507
+Mexico,1883,0.4298507
+Mexico,1884,0.4298507
+Mexico,1885,0.4298507
+Mexico,1886,0.4298507
+Mexico,1887,0.4298507
+Mexico,1888,0.4298507
+Mexico,1889,0.4298507
+Mexico,1890,0.4298507
+Mexico,1891,0.4298507
+Mexico,1892,0.4298507
+Mexico,1893,0.4298507
+Mexico,1894,0.4298507
+Mexico,1895,0.4298507
+Mexico,1896,0.4298507
+Mexico,1897,0.4298507
+Mexico,1898,0.4298507
+Mexico,1899,0.4298507
+Mexico,1900,0.51699299
+Mexico,1901,0.51699299
+Mexico,1902,0.51699299
+Mexico,1903,0.51699299
+Mexico,1904,0.51699299
+Mexico,1905,0.51699299
+Mexico,1906,0.51699299
+Mexico,1907,0.51699299
+Mexico,1908,0.51699299
+Mexico,1909,0.51699299
+Mexico,1910,0.52783859
+Mexico,1911,0.53803712
+Mexico,1912,0.53560656
+Mexico,1913,0.39393777
+Mexico,1914,0.39393777
+Mexico,1915,0.39906591
+Mexico,1916,0.39906591
+Mexico,1917,0.39526996
+Mexico,1918,0.52611423
+Mexico,1919,0.52331835
+Mexico,1920,0.54079658
+Mexico,1921,0.55021733
+Mexico,1922,0.55021733
+Mexico,1923,0.55021733
+Mexico,1924,0.55021733
+Mexico,1925,0.55021733
+Mexico,1926,0.55021733
+Mexico,1927,0.55021733
+Mexico,1928,0.55963814
+Mexico,1929,0.46380845
+Mexico,1930,0.46380845
+Mexico,1931,0.46380845
+Mexico,1932,0.46380845
+Mexico,1933,0.46091673
+Mexico,1934,0.48095131
+Mexico,1935,0.53695267
+Mexico,1936,0.53695267
+Mexico,1937,0.53695267
+Mexico,1938,0.53695267
+Mexico,1939,0.54066503
+Mexico,1940,0.54066503
+Mexico,1941,0.54066503
+Mexico,1942,0.54066503
+Mexico,1943,0.54066503
+Mexico,1944,0.54066503
+Mexico,1945,0.54066503
+Mexico,1946,0.55770242
+Mexico,1947,0.55770242
+Mexico,1948,0.55770242
+Mexico,1949,0.55932921
+Mexico,1950,0.55932921
+Mexico,1951,0.55932921
+Mexico,1952,0.55932921
+Mexico,1953,0.55932921
+Mexico,1954,0.55932921
+Mexico,1955,0.55932921
+Mexico,1956,0.55932921
+Mexico,1957,0.55932921
+Mexico,1958,0.55932921
+Mexico,1959,0.55932921
+Mexico,1960,0.55932921
+Mexico,1961,0.55932921
+Mexico,1962,0.55932921
+Mexico,1963,0.55932921
+Mexico,1964,0.55932921
+Mexico,1965,0.55932921
+Mexico,1966,0.55932921
+Mexico,1967,0.55932921
+Mexico,1968,0.55932921
+Mexico,1969,0.55932921
+Mexico,1970,0.55932921
+Mexico,1971,0.55932921
+Mexico,1972,0.55932921
+Mexico,1973,0.55932921
+Mexico,1974,0.55932921
+Mexico,1975,0.55932921
+Mexico,1976,0.57668114
+Mexico,1977,0.58602065
+Mexico,1978,0.62042415
+Mexico,1979,0.62042415
+Mexico,1980,0.62042415
+Mexico,1981,0.63531268
+Mexico,1982,0.63737333
+Mexico,1983,0.63737333
+Mexico,1984,0.63737333
+Mexico,1985,0.63737333
+Mexico,1986,0.63737333
+Mexico,1987,0.64315683
+Mexico,1988,0.64709741
+Mexico,1989,0.6594975
+Mexico,1990,0.67209119
+Mexico,1991,0.67209119
+Mexico,1992,0.67209119
+Mexico,1993,0.68729377
+Mexico,1994,0.68729377
+Mexico,1995,0.68729377
+Mexico,1996,0.75221044
+Mexico,1997,0.78562987
+Mexico,1998,0.78562987
+Mexico,1999,0.78562987
+Mexico,2000,0.81466413
+Mexico,2001,0.80483484
+Mexico,2002,0.80483484
+Mexico,2003,0.80483484
+Mexico,2004,0.80483484
+Mexico,2005,0.786255
+Mexico,2006,0.786255
+Mexico,2007,0.79341596
+Mexico,2008,0.79084033
+Mexico,2009,0.79005396
+Mexico,2010,0.79005396
+Mexico,2011,0.79005396
+Mexico,2012,0.79005396
+Mexico,2013,0.77780062
+Mexico,2014,0.77780062
+Mexico,2015,0.77495301
+Mexico,2016,0.78476143
+Mexico,2017,0.80990094
+Mexico,2018,0.77832669
+Mexico,2019,0.7760877
+Mexico,2020,0.79873341
+Guatemala,1789,0.24968223
+Guatemala,1790,0.24968223
+Guatemala,1791,0.24968223
+Guatemala,1792,0.24968223
+Guatemala,1793,0.24968223
+Guatemala,1794,0.24968223
+Guatemala,1795,0.24968223
+Guatemala,1796,0.24968223
+Guatemala,1797,0.24968223
+Guatemala,1798,0.24968223
+Guatemala,1799,0.24968223
+Guatemala,1800,0.24968223
+Guatemala,1801,0.24968223
+Guatemala,1802,0.24968223
+Guatemala,1803,0.24968223
+Guatemala,1804,0.24968223
+Guatemala,1805,0.24968223
+Guatemala,1806,0.24968223
+Guatemala,1807,0.24968223
+Guatemala,1808,0.24968223
+Guatemala,1809,0.38052651
+Guatemala,1810,0.24968223
+Guatemala,1811,0.24968223
+Guatemala,1812,0.24968223
+Guatemala,1813,0.24968223
+Guatemala,1814,0.24968223
+Guatemala,1815,0.24968223
+Guatemala,1816,0.24968223
+Guatemala,1817,0.24968223
+Guatemala,1818,0.24968223
+Guatemala,1819,0.24968223
+Guatemala,1820,0.24968223
+Guatemala,1821,0.24968223
+Guatemala,1822,0.26168856
+Guatemala,1823,0.48179254
+Guatemala,1824,0.48179254
+Guatemala,1825,0.48179254
+Guatemala,1826,0.48179254
+Guatemala,1827,0.48179254
+Guatemala,1828,0.48179254
+Guatemala,1829,0.48179254
+Guatemala,1830,0.48179254
+Guatemala,1831,0.48179254
+Guatemala,1832,0.48179254
+Guatemala,1833,0.48179254
+Guatemala,1834,0.48179254
+Guatemala,1835,0.48179254
+Guatemala,1836,0.48179254
+Guatemala,1837,0.48179254
+Guatemala,1838,0.38974711
+Guatemala,1839,0.38974711
+Guatemala,1840,0.38974711
+Guatemala,1841,0.38974711
+Guatemala,1842,0.38974711
+Guatemala,1843,0.38974711
+Guatemala,1844,0.43328613
+Guatemala,1845,0.43328613
+Guatemala,1846,0.43328613
+Guatemala,1847,0.43328613
+Guatemala,1848,0.43328613
+Guatemala,1849,0.43328613
+Guatemala,1850,0.43328613
+Guatemala,1851,0.43328613
+Guatemala,1852,0.43328613
+Guatemala,1853,0.43328613
+Guatemala,1854,0.43328613
+Guatemala,1855,0.43328613
+Guatemala,1856,0.43328613
+Guatemala,1857,0.43328613
+Guatemala,1858,0.43328613
+Guatemala,1859,0.43328613
+Guatemala,1860,0.43328613
+Guatemala,1861,0.43328613
+Guatemala,1862,0.43328613
+Guatemala,1863,0.43328613
+Guatemala,1864,0.43328613
+Guatemala,1865,0.43328613
+Guatemala,1866,0.30244184
+Guatemala,1867,0.30244184
+Guatemala,1868,0.30244184
+Guatemala,1869,0.36211628
+Guatemala,1870,0.25492659
+Guatemala,1871,0.17855637
+Guatemala,1872,0.17855637
+Guatemala,1873,0.30940068
+Guatemala,1874,0.30940068
+Guatemala,1875,0.30940068
+Guatemala,1876,0.30940068
+Guatemala,1877,0.30940068
+Guatemala,1878,0.30940068
+Guatemala,1879,0.30940068
+Guatemala,1880,0.30940068
+Guatemala,1881,0.30940068
+Guatemala,1882,0.30940068
+Guatemala,1883,0.30940068
+Guatemala,1884,0.30940068
+Guatemala,1885,0.30940068
+Guatemala,1886,0.41691491
+Guatemala,1887,0.41691491
+Guatemala,1888,0.41691491
+Guatemala,1889,0.41691491
+Guatemala,1890,0.41691491
+Guatemala,1891,0.41691491
+Guatemala,1892,0.41691491
+Guatemala,1893,0.41691491
+Guatemala,1894,0.41691491
+Guatemala,1895,0.41691491
+Guatemala,1896,0.41691491
+Guatemala,1897,0.41691491
+Guatemala,1898,0.41691491
+Guatemala,1899,0.41140422
+Guatemala,1900,0.3459821
+Guatemala,1901,0.3459821
+Guatemala,1902,0.3459821
+Guatemala,1903,0.3459821
+Guatemala,1904,0.3459821
+Guatemala,1905,0.3459821
+Guatemala,1906,0.3459821
+Guatemala,1907,0.35250804
+Guatemala,1908,0.35250804
+Guatemala,1909,0.35250804
+Guatemala,1910,0.35250804
+Guatemala,1911,0.35250804
+Guatemala,1912,0.35250804
+Guatemala,1913,0.35250804
+Guatemala,1914,0.35250804
+Guatemala,1915,0.35250804
+Guatemala,1916,0.35250804
+Guatemala,1917,0.35250804
+Guatemala,1918,0.35250804
+Guatemala,1919,0.35250804
+Guatemala,1920,0.41868323
+Guatemala,1921,0.29573998
+Guatemala,1922,0.29573998
+Guatemala,1923,0.42658427
+Guatemala,1924,0.42658427
+Guatemala,1925,0.42658427
+Guatemala,1926,0.42658427
+Guatemala,1927,0.42658427
+Guatemala,1928,0.42658427
+Guatemala,1929,0.42658427
+Guatemala,1930,0.42658427
+Guatemala,1931,0.36802596
+Guatemala,1932,0.36802596
+Guatemala,1933,0.36802596
+Guatemala,1934,0.36802596
+Guatemala,1935,0.36802596
+Guatemala,1936,0.36802596
+Guatemala,1937,0.36802596
+Guatemala,1938,0.36802596
+Guatemala,1939,0.36802596
+Guatemala,1940,0.36802596
+Guatemala,1941,0.36802596
+Guatemala,1942,0.36802596
+Guatemala,1943,0.36802596
+Guatemala,1944,0.42378867
+Guatemala,1945,0.63404709
+Guatemala,1946,0.63404709
+Guatemala,1947,0.63404709
+Guatemala,1948,0.63404709
+Guatemala,1949,0.63404709
+Guatemala,1950,0.66021597
+Guatemala,1951,0.66021597
+Guatemala,1952,0.66021597
+Guatemala,1953,0.66021597
+Guatemala,1954,0.48845112
+Guatemala,1955,0.35631156
+Guatemala,1956,0.36740768
+Guatemala,1957,0.49470901
+Guatemala,1958,0.49470901
+Guatemala,1959,0.49470901
+Guatemala,1960,0.49470901
+Guatemala,1961,0.49470901
+Guatemala,1962,0.49470901
+Guatemala,1963,0.36386472
+Guatemala,1964,0.39003357
+Guatemala,1965,0.39003357
+Guatemala,1966,0.5208779
+Guatemala,1967,0.5208779
+Guatemala,1968,0.5208779
+Guatemala,1969,0.5208779
+Guatemala,1970,0.5208779
+Guatemala,1971,0.5208779
+Guatemala,1972,0.5208779
+Guatemala,1973,0.5208779
+Guatemala,1974,0.49470901
+Guatemala,1975,0.49470901
+Guatemala,1976,0.49470901
+Guatemala,1977,0.49470901
+Guatemala,1978,0.5208779
+Guatemala,1979,0.5208779
+Guatemala,1980,0.5208779
+Guatemala,1981,0.5208779
+Guatemala,1982,0.36386472
+Guatemala,1983,0.37069619
+Guatemala,1984,0.42979506
+Guatemala,1985,0.48833501
+Guatemala,1986,0.64747453
+Guatemala,1987,0.64747453
+Guatemala,1988,0.64747453
+Guatemala,1989,0.64747453
+Guatemala,1990,0.64747453
+Guatemala,1991,0.64747453
+Guatemala,1992,0.64747453
+Guatemala,1993,0.64747453
+Guatemala,1994,0.64747453
+Guatemala,1995,0.67053026
+Guatemala,1996,0.70206589
+Guatemala,1997,0.75705928
+Guatemala,1998,0.75705928
+Guatemala,1999,0.75705928
+Guatemala,2000,0.77444839
+Guatemala,2001,0.77444839
+Guatemala,2002,0.77444839
+Guatemala,2003,0.77444839
+Guatemala,2004,0.77444839
+Guatemala,2005,0.76973802
+Guatemala,2006,0.76973802
+Guatemala,2007,0.76973802
+Guatemala,2008,0.76475787
+Guatemala,2009,0.76475787
+Guatemala,2010,0.76379681
+Guatemala,2011,0.76379681
+Guatemala,2012,0.74944448
+Guatemala,2013,0.77989244
+Guatemala,2014,0.79487658
+Guatemala,2015,0.79487658
+Guatemala,2016,0.79487658
+Guatemala,2017,0.80115986
+Guatemala,2018,0.77246922
+Guatemala,2019,0.79865891
+Guatemala,2020,0.78385055
+Honduras,1838,0.26687321
+Honduras,1839,0.37012732
+Honduras,1840,0.37012732
+Honduras,1841,0.37012732
+Honduras,1842,0.37012732
+Honduras,1843,0.37012732
+Honduras,1844,0.37012732
+Honduras,1845,0.37012732
+Honduras,1846,0.37012732
+Honduras,1847,0.37012732
+Honduras,1848,0.37012732
+Honduras,1849,0.37012732
+Honduras,1850,0.37012732
+Honduras,1851,0.37012732
+Honduras,1852,0.37012732
+Honduras,1853,0.37012732
+Honduras,1854,0.37012732
+Honduras,1855,0.37012732
+Honduras,1856,0.37012732
+Honduras,1857,0.37012732
+Honduras,1858,0.37012732
+Honduras,1859,0.37012732
+Honduras,1860,0.37012732
+Honduras,1861,0.37012732
+Honduras,1862,0.37012732
+Honduras,1863,0.23928301
+Honduras,1864,0.37012732
+Honduras,1865,0.37012732
+Honduras,1866,0.37012732
+Honduras,1867,0.37012732
+Honduras,1868,0.37012732
+Honduras,1869,0.37012732
+Honduras,1870,0.37012732
+Honduras,1871,0.37012732
+Honduras,1872,0.37012732
+Honduras,1873,0.37012732
+Honduras,1874,0.23928301
+Honduras,1875,0.37012732
+Honduras,1876,0.37012732
+Honduras,1877,0.23928301
+Honduras,1878,0.37012732
+Honduras,1879,0.37012732
+Honduras,1880,0.37012732
+Honduras,1881,0.37012732
+Honduras,1882,0.37012732
+Honduras,1883,0.37012732
+Honduras,1884,0.37012732
+Honduras,1885,0.37012732
+Honduras,1886,0.37012732
+Honduras,1887,0.37012732
+Honduras,1888,0.37012732
+Honduras,1889,0.37012732
+Honduras,1890,0.37012732
+Honduras,1891,0.37012732
+Honduras,1892,0.37012732
+Honduras,1893,0.37012732
+Honduras,1894,0.37012732
+Honduras,1895,0.23928301
+Honduras,1896,0.37012732
+Honduras,1897,0.37012732
+Honduras,1898,0.37012732
+Honduras,1899,0.23928301
+Honduras,1900,0.42246503
+Honduras,1901,0.42246503
+Honduras,1902,0.42246503
+Honduras,1903,0.42246503
+Honduras,1904,0.44063821
+Honduras,1905,0.44063821
+Honduras,1906,0.44063821
+Honduras,1907,0.30979392
+Honduras,1908,0.44063821
+Honduras,1909,0.44063821
+Honduras,1910,0.41446936
+Honduras,1911,0.41446936
+Honduras,1912,0.41446936
+Honduras,1913,0.41446936
+Honduras,1914,0.41923109
+Honduras,1915,0.41923109
+Honduras,1916,0.42436466
+Honduras,1917,0.42436466
+Honduras,1918,0.42436466
+Honduras,1919,0.42436466
+Honduras,1920,0.44214588
+Honduras,1921,0.45523033
+Honduras,1922,0.45523033
+Honduras,1923,0.45523033
+Honduras,1924,0.44639879
+Honduras,1925,0.44639879
+Honduras,1926,0.47077534
+Honduras,1927,0.49412152
+Honduras,1928,0.49018982
+Honduras,1929,0.49018982
+Honduras,1930,0.49018982
+Honduras,1931,0.49018982
+Honduras,1932,0.46217206
+Honduras,1933,0.46217206
+Honduras,1934,0.46579796
+Honduras,1935,0.46579796
+Honduras,1936,0.43290785
+Honduras,1937,0.43290785
+Honduras,1938,0.43290785
+Honduras,1939,0.42801508
+Honduras,1940,0.42801508
+Honduras,1941,0.42801508
+Honduras,1942,0.40595388
+Honduras,1943,0.40595388
+Honduras,1944,0.40595388
+Honduras,1945,0.40690827
+Honduras,1946,0.40690827
+Honduras,1947,0.46833012
+Honduras,1948,0.46579635
+Honduras,1949,0.51893991
+Honduras,1950,0.51893991
+Honduras,1951,0.51893991
+Honduras,1952,0.51893991
+Honduras,1953,0.51893991
+Honduras,1954,0.38809565
+Honduras,1955,0.31431594
+Honduras,1956,0.32956222
+Honduras,1957,0.49349567
+Honduras,1958,0.4728761
+Honduras,1959,0.48357907
+Honduras,1960,0.48903799
+Honduras,1961,0.48903799
+Honduras,1962,0.48903799
+Honduras,1963,0.30249465
+Honduras,1964,0.27671832
+Honduras,1965,0.42390099
+Honduras,1966,0.42390099
+Honduras,1967,0.42390099
+Honduras,1968,0.44146258
+Honduras,1969,0.44146258
+Honduras,1970,0.46088675
+Honduras,1971,0.46638185
+Honduras,1972,0.2820276
+Honduras,1973,0.28201821
+Honduras,1974,0.28201821
+Honduras,1975,0.24930713
+Honduras,1976,0.30071563
+Honduras,1977,0.31644171
+Honduras,1978,0.33539432
+Honduras,1979,0.34941739
+Honduras,1980,0.4058612
+Honduras,1981,0.53088576
+Honduras,1982,0.66173005
+Honduras,1983,0.68789893
+Honduras,1984,0.68789893
+Honduras,1985,0.69497597
+Honduras,1986,0.69497597
+Honduras,1987,0.69497597
+Honduras,1988,0.69497597
+Honduras,1989,0.69497597
+Honduras,1990,0.69497597
+Honduras,1991,0.69497597
+Honduras,1992,0.69497597
+Honduras,1993,0.69497597
+Honduras,1994,0.71639043
+Honduras,1995,0.71639043
+Honduras,1996,0.71639043
+Honduras,1997,0.71639043
+Honduras,1998,0.71639043
+Honduras,1999,0.71639043
+Honduras,2000,0.71639043
+Honduras,2001,0.71639043
+Honduras,2002,0.71639043
+Honduras,2003,0.71639043
+Honduras,2004,0.71639043
+Honduras,2005,0.71848398
+Honduras,2006,0.71848398
+Honduras,2007,0.71848398
+Honduras,2008,0.71848398
+Honduras,2009,0.67001241
+Honduras,2010,0.70521414
+Honduras,2011,0.70521414
+Honduras,2012,0.70521414
+Honduras,2013,0.69679284
+Honduras,2014,0.69019634
+Honduras,2015,0.69019634
+Honduras,2016,0.69019634
+Honduras,2017,0.66829884
+Honduras,2018,0.6691702
+Honduras,2019,0.6551578
+Honduras,2020,0.64202529
+El Salvador,1838,0.39150417
+El Salvador,1839,0.39150417
+El Salvador,1840,0.39150417
+El Salvador,1841,0.39150417
+El Salvador,1842,0.39150417
+El Salvador,1843,0.39150417
+El Salvador,1844,0.39150417
+El Salvador,1845,0.26065987
+El Salvador,1846,0.39150417
+El Salvador,1847,0.39150417
+El Salvador,1848,0.39150417
+El Salvador,1849,0.39150417
+El Salvador,1850,0.39150417
+El Salvador,1851,0.39150417
+El Salvador,1852,0.39150417
+El Salvador,1853,0.39150417
+El Salvador,1854,0.39150417
+El Salvador,1855,0.39150417
+El Salvador,1856,0.39150417
+El Salvador,1857,0.39150417
+El Salvador,1858,0.39150417
+El Salvador,1859,0.39150417
+El Salvador,1860,0.39150417
+El Salvador,1861,0.39150417
+El Salvador,1862,0.39150417
+El Salvador,1863,0.26065987
+El Salvador,1864,0.39150417
+El Salvador,1865,0.39150417
+El Salvador,1866,0.39150417
+El Salvador,1867,0.39150417
+El Salvador,1868,0.39150417
+El Salvador,1869,0.39150417
+El Salvador,1870,0.39150417
+El Salvador,1871,0.26065987
+El Salvador,1872,0.39150417
+El Salvador,1873,0.39150417
+El Salvador,1874,0.39150417
+El Salvador,1875,0.39150417
+El Salvador,1876,0.39150417
+El Salvador,1877,0.39150417
+El Salvador,1878,0.39150417
+El Salvador,1879,0.39150417
+El Salvador,1880,0.39150417
+El Salvador,1881,0.39150417
+El Salvador,1882,0.39150417
+El Salvador,1883,0.39150417
+El Salvador,1884,0.39150417
+El Salvador,1885,0.26065987
+El Salvador,1886,0.12981556
+El Salvador,1887,0.12981556
+El Salvador,1888,0.26065987
+El Salvador,1889,0.26065987
+El Salvador,1890,0.12981556
+El Salvador,1891,0.12981556
+El Salvador,1892,0.12981556
+El Salvador,1893,0.12981556
+El Salvador,1894,0.12981556
+El Salvador,1895,0.26065987
+El Salvador,1896,0.26065987
+El Salvador,1897,0.26065987
+El Salvador,1898,0.12981556
+El Salvador,1899,0.26065987
+El Salvador,1900,0.43464449
+El Salvador,1901,0.43464449
+El Salvador,1902,0.43464449
+El Salvador,1903,0.43464449
+El Salvador,1904,0.43464449
+El Salvador,1905,0.43464449
+El Salvador,1906,0.43464449
+El Salvador,1907,0.43464449
+El Salvador,1908,0.43464449
+El Salvador,1909,0.43464449
+El Salvador,1910,0.43464449
+El Salvador,1911,0.43464449
+El Salvador,1912,0.45636466
+El Salvador,1913,0.45636466
+El Salvador,1914,0.45636466
+El Salvador,1915,0.45636466
+El Salvador,1916,0.45636466
+El Salvador,1917,0.45636466
+El Salvador,1918,0.45636466
+El Salvador,1919,0.45636466
+El Salvador,1920,0.45636466
+El Salvador,1921,0.44328022
+El Salvador,1922,0.44328022
+El Salvador,1923,0.44328022
+El Salvador,1924,0.44328022
+El Salvador,1925,0.44328022
+El Salvador,1926,0.44328022
+El Salvador,1927,0.44758523
+El Salvador,1928,0.44758523
+El Salvador,1929,0.44758523
+El Salvador,1930,0.46548066
+El Salvador,1931,0.41917518
+El Salvador,1932,0.38187644
+El Salvador,1933,0.3597571
+El Salvador,1934,0.3597571
+El Salvador,1935,0.3597571
+El Salvador,1936,0.3597571
+El Salvador,1937,0.3597571
+El Salvador,1938,0.3597571
+El Salvador,1939,0.3597571
+El Salvador,1940,0.3597571
+El Salvador,1941,0.3597571
+El Salvador,1942,0.3597571
+El Salvador,1943,0.3597571
+El Salvador,1944,0.35523471
+El Salvador,1945,0.36584687
+El Salvador,1946,0.36584687
+El Salvador,1947,0.36584687
+El Salvador,1948,0.23500256
+El Salvador,1949,0.23500256
+El Salvador,1950,0.3807444
+El Salvador,1951,0.3807444
+El Salvador,1952,0.3807444
+El Salvador,1953,0.3807444
+El Salvador,1954,0.3807444
+El Salvador,1955,0.3807444
+El Salvador,1956,0.3807444
+El Salvador,1957,0.3807444
+El Salvador,1958,0.3807444
+El Salvador,1959,0.3807444
+El Salvador,1960,0.404645
+El Salvador,1961,0.27380073
+El Salvador,1962,0.404645
+El Salvador,1963,0.404645
+El Salvador,1964,0.404645
+El Salvador,1965,0.404645
+El Salvador,1966,0.404645
+El Salvador,1967,0.404645
+El Salvador,1968,0.404645
+El Salvador,1969,0.404645
+El Salvador,1970,0.404645
+El Salvador,1971,0.404645
+El Salvador,1972,0.39340699
+El Salvador,1973,0.37644356
+El Salvador,1974,0.37644356
+El Salvador,1975,0.37644356
+El Salvador,1976,0.37644356
+El Salvador,1977,0.37644356
+El Salvador,1978,0.37644356
+El Salvador,1979,0.27719089
+El Salvador,1980,0.27478874
+El Salvador,1981,0.28125992
+El Salvador,1982,0.42350614
+El Salvador,1983,0.42477304
+El Salvador,1984,0.46203679
+El Salvador,1985,0.47456333
+El Salvador,1986,0.48042497
+El Salvador,1987,0.48042497
+El Salvador,1988,0.48042497
+El Salvador,1989,0.50659382
+El Salvador,1990,0.53568959
+El Salvador,1991,0.53673804
+El Salvador,1992,0.58446097
+El Salvador,1993,0.66901433
+El Salvador,1994,0.75162721
+El Salvador,1995,0.73217696
+El Salvador,1996,0.73703629
+El Salvador,1997,0.73703629
+El Salvador,1998,0.76320511
+El Salvador,1999,0.77911198
+El Salvador,2000,0.77911198
+El Salvador,2001,0.80502039
+El Salvador,2002,0.80502039
+El Salvador,2003,0.80502039
+El Salvador,2004,0.80502039
+El Salvador,2005,0.79847819
+El Salvador,2006,0.79847819
+El Salvador,2007,0.79847819
+El Salvador,2008,0.79847819
+El Salvador,2009,0.80310565
+El Salvador,2010,0.81193012
+El Salvador,2011,0.81193012
+El Salvador,2012,0.8197456
+El Salvador,2013,0.8008492
+El Salvador,2014,0.8008492
+El Salvador,2015,0.8008492
+El Salvador,2016,0.83406562
+El Salvador,2017,0.81850517
+El Salvador,2018,0.7806313
+El Salvador,2019,0.72420841
+El Salvador,2020,0.75274134
+Nicaragua,1838,0.23551972
+Nicaragua,1839,0.20935087
+Nicaragua,1840,0.22426711
+Nicaragua,1841,0.21798658
+Nicaragua,1842,0.23551972
+Nicaragua,1843,0.21798658
+Nicaragua,1844,0.23996842
+Nicaragua,1845,0.23551972
+Nicaragua,1846,0.23551972
+Nicaragua,1847,0.24546389
+Nicaragua,1848,0.23551972
+Nicaragua,1849,0.23551972
+Nicaragua,1850,0.16355535
+Nicaragua,1851,0.23551972
+Nicaragua,1852,0.23551972
+Nicaragua,1853,0.23551972
+Nicaragua,1854,0.19626644
+Nicaragua,1855,0.20935087
+Nicaragua,1856,0.20935087
+Nicaragua,1857,0.20935087
+Nicaragua,1858,0.23551972
+Nicaragua,1859,0.23551972
+Nicaragua,1860,0.19626644
+Nicaragua,1861,0.16355535
+Nicaragua,1862,0.23551972
+Nicaragua,1863,0.23551972
+Nicaragua,1864,0.23551972
+Nicaragua,1865,0.20935087
+Nicaragua,1866,0.23551972
+Nicaragua,1867,0.20935087
+Nicaragua,1868,0.21798658
+Nicaragua,1869,0.16355535
+Nicaragua,1870,0.23551972
+Nicaragua,1871,0.23551972
+Nicaragua,1872,0.20935087
+Nicaragua,1873,0.16355535
+Nicaragua,1874,0.20935087
+Nicaragua,1875,0.16355535
+Nicaragua,1876,0.21798658
+Nicaragua,1877,0.23551972
+Nicaragua,1878,0.078506567
+Nicaragua,1879,0.19626644
+Nicaragua,1880,0.23551972
+Nicaragua,1881,0.23551972
+Nicaragua,1882,0.078506567
+Nicaragua,1883,0.16355535
+Nicaragua,1884,0.23551972
+Nicaragua,1885,0.23551972
+Nicaragua,1886,0.21798658
+Nicaragua,1887,0.23551972
+Nicaragua,1888,0.23551972
+Nicaragua,1889,0.20935087
+Nicaragua,1890,0.19626644
+Nicaragua,1891,0.23551972
+Nicaragua,1892,0.20935087
+Nicaragua,1893,0.16355535
+Nicaragua,1894,0.23551972
+Nicaragua,1895,0.20935087
+Nicaragua,1896,0.23551972
+Nicaragua,1897,0.23996842
+Nicaragua,1898,0.23551972
+Nicaragua,1899,0.20935087
+Nicaragua,1900,0.472424
+Nicaragua,1901,0.472424
+Nicaragua,1902,0.472424
+Nicaragua,1903,0.472424
+Nicaragua,1904,0.472424
+Nicaragua,1905,0.472424
+Nicaragua,1906,0.472424
+Nicaragua,1907,0.472424
+Nicaragua,1908,0.472424
+Nicaragua,1909,0.472424
+Nicaragua,1910,0.49859285
+Nicaragua,1911,0.47956252
+Nicaragua,1912,0.4620294
+Nicaragua,1913,0.44030923
+Nicaragua,1914,0.44030923
+Nicaragua,1915,0.44030923
+Nicaragua,1916,0.44030923
+Nicaragua,1917,0.44030923
+Nicaragua,1918,0.40759817
+Nicaragua,1919,0.40759817
+Nicaragua,1920,0.40759817
+Nicaragua,1921,0.40759817
+Nicaragua,1922,0.40759817
+Nicaragua,1923,0.4102945
+Nicaragua,1924,0.4102945
+Nicaragua,1925,0.39395612
+Nicaragua,1926,0.39395612
+Nicaragua,1927,0.44838735
+Nicaragua,1928,0.44838735
+Nicaragua,1929,0.44838735
+Nicaragua,1930,0.44838735
+Nicaragua,1931,0.44838735
+Nicaragua,1932,0.44838735
+Nicaragua,1933,0.43356735
+Nicaragua,1934,0.37246323
+Nicaragua,1935,0.40517429
+Nicaragua,1936,0.3902019
+Nicaragua,1937,0.42945519
+Nicaragua,1938,0.42945519
+Nicaragua,1939,0.42945519
+Nicaragua,1940,0.44500723
+Nicaragua,1941,0.44500723
+Nicaragua,1942,0.44500723
+Nicaragua,1943,0.44500723
+Nicaragua,1944,0.44500723
+Nicaragua,1945,0.44500723
+Nicaragua,1946,0.44500723
+Nicaragua,1947,0.44500723
+Nicaragua,1948,0.44500723
+Nicaragua,1949,0.44500723
+Nicaragua,1950,0.44500723
+Nicaragua,1951,0.44500723
+Nicaragua,1952,0.44500723
+Nicaragua,1953,0.44500723
+Nicaragua,1954,0.44500723
+Nicaragua,1955,0.44500723
+Nicaragua,1956,0.44500723
+Nicaragua,1957,0.44500723
+Nicaragua,1958,0.44500723
+Nicaragua,1959,0.44500723
+Nicaragua,1960,0.44500723
+Nicaragua,1961,0.44500723
+Nicaragua,1962,0.44500723
+Nicaragua,1963,0.44500723
+Nicaragua,1964,0.44500723
+Nicaragua,1965,0.44500723
+Nicaragua,1966,0.44500723
+Nicaragua,1967,0.44500723
+Nicaragua,1968,0.44500723
+Nicaragua,1969,0.44500723
+Nicaragua,1970,0.44500723
+Nicaragua,1971,0.44500723
+Nicaragua,1972,0.44500723
+Nicaragua,1973,0.44500723
+Nicaragua,1974,0.44500723
+Nicaragua,1975,0.44500723
+Nicaragua,1976,0.44500723
+Nicaragua,1977,0.41883838
+Nicaragua,1978,0.41883838
+Nicaragua,1979,0.34299231
+Nicaragua,1980,0.49002713
+Nicaragua,1981,0.49002713
+Nicaragua,1982,0.48674461
+Nicaragua,1983,0.51874512
+Nicaragua,1984,0.54782885
+Nicaragua,1985,0.67867315
+Nicaragua,1986,0.67867315
+Nicaragua,1987,0.67867315
+Nicaragua,1988,0.68356591
+Nicaragua,1989,0.69408882
+Nicaragua,1990,0.79200876
+Nicaragua,1991,0.84136504
+Nicaragua,1992,0.84136504
+Nicaragua,1993,0.84136504
+Nicaragua,1994,0.84136504
+Nicaragua,1995,0.84136504
+Nicaragua,1996,0.84136504
+Nicaragua,1997,0.84136504
+Nicaragua,1998,0.84136504
+Nicaragua,1999,0.77659458
+Nicaragua,2000,0.76659071
+Nicaragua,2001,0.76659071
+Nicaragua,2002,0.76659071
+Nicaragua,2003,0.76659071
+Nicaragua,2004,0.76659071
+Nicaragua,2005,0.7571699
+Nicaragua,2006,0.74564248
+Nicaragua,2007,0.69964051
+Nicaragua,2008,0.69010288
+Nicaragua,2009,0.69010288
+Nicaragua,2010,0.68162787
+Nicaragua,2011,0.68162787
+Nicaragua,2012,0.67991072
+Nicaragua,2013,0.63022316
+Nicaragua,2014,0.63022316
+Nicaragua,2015,0.63022316
+Nicaragua,2016,0.61048901
+Nicaragua,2017,0.59523171
+Nicaragua,2018,0.5490011
+Nicaragua,2019,0.53186506
+Nicaragua,2020,0.55437714
+Costa Rica,1838,0.40826604
+Costa Rica,1839,0.40826604
+Costa Rica,1840,0.40826604
+Costa Rica,1841,0.40826604
+Costa Rica,1842,0.5391103
+Costa Rica,1843,0.5391103
+Costa Rica,1844,0.5391103
+Costa Rica,1845,0.5391103
+Costa Rica,1846,0.40826604
+Costa Rica,1847,0.5391103
+Costa Rica,1848,0.40826604
+Costa Rica,1849,0.40826604
+Costa Rica,1850,0.5391103
+Costa Rica,1851,0.5391103
+Costa Rica,1852,0.5391103
+Costa Rica,1853,0.5391103
+Costa Rica,1854,0.5391103
+Costa Rica,1855,0.5391103
+Costa Rica,1856,0.5391103
+Costa Rica,1857,0.5391103
+Costa Rica,1858,0.5391103
+Costa Rica,1859,0.40826604
+Costa Rica,1860,0.5391103
+Costa Rica,1861,0.5391103
+Costa Rica,1862,0.5391103
+Costa Rica,1863,0.5391103
+Costa Rica,1864,0.5391103
+Costa Rica,1865,0.5391103
+Costa Rica,1866,0.5391103
+Costa Rica,1867,0.5391103
+Costa Rica,1868,0.40826604
+Costa Rica,1869,0.5391103
+Costa Rica,1870,0.5391103
+Costa Rica,1871,0.5391103
+Costa Rica,1872,0.5391103
+Costa Rica,1873,0.5391103
+Costa Rica,1874,0.5391103
+Costa Rica,1875,0.5391103
+Costa Rica,1876,0.40826604
+Costa Rica,1877,0.5391103
+Costa Rica,1878,0.5391103
+Costa Rica,1879,0.5391103
+Costa Rica,1880,0.40826604
+Costa Rica,1881,0.5391103
+Costa Rica,1882,0.5391103
+Costa Rica,1883,0.5391103
+Costa Rica,1884,0.5391103
+Costa Rica,1885,0.5391103
+Costa Rica,1886,0.5391103
+Costa Rica,1887,0.5391103
+Costa Rica,1888,0.5391103
+Costa Rica,1889,0.5391103
+Costa Rica,1890,0.5391103
+Costa Rica,1891,0.5391103
+Costa Rica,1892,0.5391103
+Costa Rica,1893,0.5391103
+Costa Rica,1894,0.5391103
+Costa Rica,1895,0.5391103
+Costa Rica,1896,0.5391103
+Costa Rica,1897,0.5391103
+Costa Rica,1898,0.5391103
+Costa Rica,1899,0.5391103
+Costa Rica,1900,0.58281231
+Costa Rica,1901,0.58281231
+Costa Rica,1902,0.58281231
+Costa Rica,1903,0.58281231
+Costa Rica,1904,0.58281231
+Costa Rica,1905,0.58281231
+Costa Rica,1906,0.58281231
+Costa Rica,1907,0.58281231
+Costa Rica,1908,0.59111255
+Costa Rica,1909,0.59111255
+Costa Rica,1910,0.59111255
+Costa Rica,1911,0.59111255
+Costa Rica,1912,0.59111255
+Costa Rica,1913,0.59517533
+Costa Rica,1914,0.59517533
+Costa Rica,1915,0.59517533
+Costa Rica,1916,0.59517533
+Costa Rica,1917,0.41542315
+Costa Rica,1918,0.56798762
+Costa Rica,1919,0.56798762
+Costa Rica,1920,0.62217367
+Costa Rica,1921,0.63525808
+Costa Rica,1922,0.63525808
+Costa Rica,1923,0.63525808
+Costa Rica,1924,0.63525808
+Costa Rica,1925,0.63525808
+Costa Rica,1926,0.63525808
+Costa Rica,1927,0.63525808
+Costa Rica,1928,0.63525808
+Costa Rica,1929,0.63525808
+Costa Rica,1930,0.63525808
+Costa Rica,1931,0.63525808
+Costa Rica,1932,0.63525808
+Costa Rica,1933,0.63525808
+Costa Rica,1934,0.63525808
+Costa Rica,1935,0.63525808
+Costa Rica,1936,0.63525808
+Costa Rica,1937,0.63525808
+Costa Rica,1938,0.63525808
+Costa Rica,1939,0.63525808
+Costa Rica,1940,0.62818503
+Costa Rica,1941,0.62818503
+Costa Rica,1942,0.62818503
+Costa Rica,1943,0.62818503
+Costa Rica,1944,0.62818503
+Costa Rica,1945,0.62818503
+Costa Rica,1946,0.63613582
+Costa Rica,1947,0.63613582
+Costa Rica,1948,0.48576584
+Costa Rica,1949,0.81470168
+Costa Rica,1950,0.84391284
+Costa Rica,1951,0.84391284
+Costa Rica,1952,0.84391284
+Costa Rica,1953,0.86202496
+Costa Rica,1954,0.86202496
+Costa Rica,1955,0.86202496
+Costa Rica,1956,0.86202496
+Costa Rica,1957,0.86202496
+Costa Rica,1958,0.86202496
+Costa Rica,1959,0.86202496
+Costa Rica,1960,0.86202496
+Costa Rica,1961,0.86202496
+Costa Rica,1962,0.86202496
+Costa Rica,1963,0.86202496
+Costa Rica,1964,0.86202496
+Costa Rica,1965,0.86202496
+Costa Rica,1966,0.86202496
+Costa Rica,1967,0.86202496
+Costa Rica,1968,0.86202496
+Costa Rica,1969,0.86202496
+Costa Rica,1970,0.86202496
+Costa Rica,1971,0.87011403
+Costa Rica,1972,0.87011403
+Costa Rica,1973,0.87011403
+Costa Rica,1974,0.87011403
+Costa Rica,1975,0.94651061
+Costa Rica,1976,0.95623553
+Costa Rica,1977,0.95623553
+Costa Rica,1978,0.95623553
+Costa Rica,1979,0.95623553
+Costa Rica,1980,0.95623553
+Costa Rica,1981,0.95623553
+Costa Rica,1982,0.98551857
+Costa Rica,1983,0.98551857
+Costa Rica,1984,0.98551857
+Costa Rica,1985,0.98551857
+Costa Rica,1986,0.98551857
+Costa Rica,1987,0.98551857
+Costa Rica,1988,0.98551857
+Costa Rica,1989,0.98551857
+Costa Rica,1990,0.98551857
+Costa Rica,1991,0.98551857
+Costa Rica,1992,0.98551857
+Costa Rica,1993,0.98551857
+Costa Rica,1994,0.98551857
+Costa Rica,1995,0.98551857
+Costa Rica,1996,0.98551857
+Costa Rica,1997,0.98551857
+Costa Rica,1998,0.98551857
+Costa Rica,1999,0.98551857
+Costa Rica,2000,0.98551857
+Costa Rica,2001,0.98551857
+Costa Rica,2002,0.98551857
+Costa Rica,2003,0.98551857
+Costa Rica,2004,0.98551857
+Costa Rica,2005,0.98551857
+Costa Rica,2006,0.98551857
+Costa Rica,2007,0.98551857
+Costa Rica,2008,0.98551857
+Costa Rica,2009,0.98551857
+Costa Rica,2010,0.98551857
+Costa Rica,2011,0.98551857
+Costa Rica,2012,0.98551857
+Costa Rica,2013,0.976336
+Costa Rica,2014,0.9927128
+Costa Rica,2015,0.9927128
+Costa Rica,2016,0.9927128
+Costa Rica,2017,0.9927128
+Costa Rica,2018,0.9927128
+Costa Rica,2019,0.9927128
+Costa Rica,2020,0.9927128
+Panama,1903,0.62715507
+Panama,1904,0.60543489
+Panama,1905,0.60543489
+Panama,1906,0.60543489
+Panama,1907,0.60543489
+Panama,1908,0.60543489
+Panama,1909,0.60543489
+Panama,1910,0.60543489
+Panama,1911,0.60543489
+Panama,1912,0.60543489
+Panama,1913,0.60543489
+Panama,1914,0.60543489
+Panama,1915,0.60543489
+Panama,1916,0.60543489
+Panama,1917,0.60543489
+Panama,1918,0.60543489
+Panama,1919,0.60543489
+Panama,1920,0.60543489
+Panama,1921,0.60543489
+Panama,1922,0.60543489
+Panama,1923,0.60543489
+Panama,1924,0.60543489
+Panama,1925,0.60543489
+Panama,1926,0.60543489
+Panama,1927,0.60543489
+Panama,1928,0.60543489
+Panama,1929,0.60543489
+Panama,1930,0.5909313
+Panama,1931,0.55794871
+Panama,1932,0.55794871
+Panama,1933,0.55794871
+Panama,1934,0.55794871
+Panama,1935,0.55794871
+Panama,1936,0.59110606
+Panama,1937,0.59110606
+Panama,1938,0.59110606
+Panama,1939,0.59110606
+Panama,1940,0.59110606
+Panama,1941,0.55676919
+Panama,1942,0.55676919
+Panama,1943,0.55676919
+Panama,1944,0.55676919
+Panama,1945,0.55676919
+Panama,1946,0.5655908
+Panama,1947,0.5655908
+Panama,1948,0.52188879
+Panama,1949,0.52188879
+Panama,1950,0.52188879
+Panama,1951,0.35867351
+Panama,1952,0.47693485
+Panama,1953,0.50825739
+Panama,1954,0.50825739
+Panama,1955,0.50825739
+Panama,1956,0.52095759
+Panama,1957,0.52095759
+Panama,1958,0.52095759
+Panama,1959,0.52095759
+Panama,1960,0.52095759
+Panama,1961,0.52095759
+Panama,1962,0.52095759
+Panama,1963,0.52095759
+Panama,1964,0.49007189
+Panama,1965,0.49007189
+Panama,1966,0.49007189
+Panama,1967,0.49007189
+Panama,1968,0.51336843
+Panama,1969,0.30127373
+Panama,1970,0.17042945
+Panama,1971,0.17042945
+Panama,1972,0.17042945
+Panama,1973,0.17042945
+Panama,1974,0.17042945
+Panama,1975,0.17042945
+Panama,1976,0.17042945
+Panama,1977,0.17042945
+Panama,1978,0.17042945
+Panama,1979,0.2967101
+Panama,1980,0.33207527
+Panama,1981,0.31843719
+Panama,1982,0.31843719
+Panama,1983,0.31843719
+Panama,1984,0.36525211
+Panama,1985,0.36525211
+Panama,1986,0.36525211
+Panama,1987,0.36525211
+Panama,1988,0.36525211
+Panama,1989,0.36525211
+Panama,1990,0.65976822
+Panama,1991,0.81233263
+Panama,1992,0.81233263
+Panama,1993,0.81233263
+Panama,1994,0.81233263
+Panama,1995,0.81233263
+Panama,1996,0.81233263
+Panama,1997,0.81233263
+Panama,1998,0.79451329
+Panama,1999,0.79451329
+Panama,2000,0.85875678
+Panama,2001,0.85875678
+Panama,2002,0.85875678
+Panama,2003,0.85875678
+Panama,2004,0.85875678
+Panama,2005,0.88387889
+Panama,2006,0.88387889
+Panama,2007,0.88387889
+Panama,2008,0.88387889
+Panama,2009,0.88387889
+Panama,2010,0.88387889
+Panama,2011,0.88387889
+Panama,2012,0.88387889
+Panama,2013,0.88073862
+Panama,2014,0.88073862
+Panama,2015,0.88073862
+Panama,2016,0.88073862
+Panama,2017,0.88073862
+Panama,2018,0.8762899
+Panama,2019,0.85012102
+Panama,2020,0.8762899
+Colombia,1789,0
+Colombia,1790,0
+Colombia,1791,0
+Colombia,1792,0
+Colombia,1793,0
+Colombia,1794,0
+Colombia,1795,0
+Colombia,1796,0
+Colombia,1797,0
+Colombia,1798,0
+Colombia,1799,0
+Colombia,1800,0
+Colombia,1801,0
+Colombia,1802,0
+Colombia,1803,0
+Colombia,1804,0
+Colombia,1805,0
+Colombia,1806,0
+Colombia,1807,0
+Colombia,1808,0
+Colombia,1809,0
+Colombia,1810,0.33009505
+Colombia,1811,0.33009505
+Colombia,1812,0.33009505
+Colombia,1813,0.33009505
+Colombia,1814,0.33009505
+Colombia,1815,0.25823146
+Colombia,1816,0.25823146
+Colombia,1817,0.25823146
+Colombia,1818,0.25823146
+Colombia,1819,0.25823146
+Colombia,1820,0.469376
+Colombia,1821,0.60022026
+Colombia,1822,0.60022026
+Colombia,1823,0.60022026
+Colombia,1824,0.60022026
+Colombia,1825,0.60022026
+Colombia,1826,0.60022026
+Colombia,1827,0.60022026
+Colombia,1828,0.60022026
+Colombia,1829,0.56258863
+Colombia,1830,0.43174431
+Colombia,1831,0.56258863
+Colombia,1832,0.56258863
+Colombia,1833,0.56258863
+Colombia,1834,0.56258863
+Colombia,1835,0.56258863
+Colombia,1836,0.60068923
+Colombia,1837,0.60068923
+Colombia,1838,0.60068923
+Colombia,1839,0.60068923
+Colombia,1840,0.56380004
+Colombia,1841,0.56380004
+Colombia,1842,0.56380004
+Colombia,1843,0.59299093
+Colombia,1844,0.59299093
+Colombia,1845,0.59299093
+Colombia,1846,0.59299093
+Colombia,1847,0.59299093
+Colombia,1848,0.59299093
+Colombia,1849,0.59299093
+Colombia,1850,0.59299093
+Colombia,1851,0.59299093
+Colombia,1852,0.59299093
+Colombia,1853,0.59299093
+Colombia,1854,0.59299093
+Colombia,1855,0.59299093
+Colombia,1856,0.59299093
+Colombia,1857,0.59299093
+Colombia,1858,0.59299093
+Colombia,1859,0.49841174
+Colombia,1860,0.49841174
+Colombia,1861,0.49841174
+Colombia,1862,0.49841174
+Colombia,1863,0.49841174
+Colombia,1864,0.49841174
+Colombia,1865,0.49841174
+Colombia,1866,0.49841174
+Colombia,1867,0.49841174
+Colombia,1868,0.49841174
+Colombia,1869,0.49841174
+Colombia,1870,0.49841174
+Colombia,1871,0.49841174
+Colombia,1872,0.49841174
+Colombia,1873,0.49841174
+Colombia,1874,0.49841174
+Colombia,1875,0.49841174
+Colombia,1876,0.49841174
+Colombia,1877,0.49841174
+Colombia,1878,0.49841174
+Colombia,1879,0.49841174
+Colombia,1880,0.49841174
+Colombia,1881,0.49841174
+Colombia,1882,0.49841174
+Colombia,1883,0.49841174
+Colombia,1884,0.49841174
+Colombia,1885,0.49841174
+Colombia,1886,0.49841174
+Colombia,1887,0.57822526
+Colombia,1888,0.57822526
+Colombia,1889,0.57822526
+Colombia,1890,0.57822526
+Colombia,1891,0.57822526
+Colombia,1892,0.57822526
+Colombia,1893,0.57822526
+Colombia,1894,0.57822526
+Colombia,1895,0.57822526
+Colombia,1896,0.57822526
+Colombia,1897,0.57822526
+Colombia,1898,0.57822526
+Colombia,1899,0.57822526
+Colombia,1900,0.67635846
+Colombia,1901,0.67635846
+Colombia,1902,0.67635846
+Colombia,1903,0.67635846
+Colombia,1904,0.67635846
+Colombia,1905,0.61619198
+Colombia,1906,0.61619198
+Colombia,1907,0.61619198
+Colombia,1908,0.61619198
+Colombia,1909,0.62273419
+Colombia,1910,0.6635471
+Colombia,1911,0.6877436
+Colombia,1912,0.6877436
+Colombia,1913,0.6877436
+Colombia,1914,0.6877436
+Colombia,1915,0.6877436
+Colombia,1916,0.6877436
+Colombia,1917,0.6877436
+Colombia,1918,0.6877436
+Colombia,1919,0.6877436
+Colombia,1920,0.6877436
+Colombia,1921,0.72045469
+Colombia,1922,0.72045469
+Colombia,1923,0.72045469
+Colombia,1924,0.72045469
+Colombia,1925,0.72045469
+Colombia,1926,0.72045469
+Colombia,1927,0.72045469
+Colombia,1928,0.72045469
+Colombia,1929,0.72045469
+Colombia,1930,0.72045469
+Colombia,1931,0.72045469
+Colombia,1932,0.72045469
+Colombia,1933,0.72045469
+Colombia,1934,0.72045469
+Colombia,1935,0.72338164
+Colombia,1936,0.72338164
+Colombia,1937,0.71770251
+Colombia,1938,0.71770251
+Colombia,1939,0.71770251
+Colombia,1940,0.71770251
+Colombia,1941,0.71770251
+Colombia,1942,0.71770251
+Colombia,1943,0.71770251
+Colombia,1944,0.71770251
+Colombia,1945,0.68499142
+Colombia,1946,0.71637386
+Colombia,1947,0.71637386
+Colombia,1948,0.72476149
+Colombia,1949,0.72476149
+Colombia,1950,0.71290362
+Colombia,1951,0.71290362
+Colombia,1952,0.66920167
+Colombia,1953,0.50360149
+Colombia,1954,0.47892198
+Colombia,1955,0.47892198
+Colombia,1956,0.47892198
+Colombia,1957,0.51133841
+Colombia,1958,0.68028402
+Colombia,1959,0.6940887
+Colombia,1960,0.6940887
+Colombia,1961,0.6940887
+Colombia,1962,0.6940887
+Colombia,1963,0.6940887
+Colombia,1964,0.70107836
+Colombia,1965,0.70107836
+Colombia,1966,0.70107836
+Colombia,1967,0.70107836
+Colombia,1968,0.70107836
+Colombia,1969,0.70107836
+Colombia,1970,0.73965013
+Colombia,1971,0.77497178
+Colombia,1972,0.77497178
+Colombia,1973,0.77497178
+Colombia,1974,0.77974385
+Colombia,1975,0.79533249
+Colombia,1976,0.79533249
+Colombia,1977,0.79916459
+Colombia,1978,0.80201018
+Colombia,1979,0.80201018
+Colombia,1980,0.80201018
+Colombia,1981,0.80201018
+Colombia,1982,0.80201018
+Colombia,1983,0.81435871
+Colombia,1984,0.79360855
+Colombia,1985,0.79360855
+Colombia,1986,0.7992357
+Colombia,1987,0.7992357
+Colombia,1988,0.7992357
+Colombia,1989,0.7992357
+Colombia,1990,0.84413004
+Colombia,1991,0.87900865
+Colombia,1992,0.87900865
+Colombia,1993,0.87900865
+Colombia,1994,0.87900865
+Colombia,1995,0.87900865
+Colombia,1996,0.87900865
+Colombia,1997,0.87900865
+Colombia,1998,0.87900865
+Colombia,1999,0.87900865
+Colombia,2000,0.87900865
+Colombia,2001,0.87900865
+Colombia,2002,0.90388548
+Colombia,2003,0.90388548
+Colombia,2004,0.90388548
+Colombia,2005,0.90388548
+Colombia,2006,0.90165752
+Colombia,2007,0.90165752
+Colombia,2008,0.90165752
+Colombia,2009,0.90165752
+Colombia,2010,0.91385621
+Colombia,2011,0.91385621
+Colombia,2012,0.91385621
+Colombia,2013,0.91339004
+Colombia,2014,0.91339004
+Colombia,2015,0.91339004
+Colombia,2016,0.90897781
+Colombia,2017,0.90897781
+Colombia,2018,0.90897781
+Colombia,2019,0.87745327
+Colombia,2020,0.88229764
+Venezuela,1789,0.20289886
+Venezuela,1790,0.20289886
+Venezuela,1791,0.20289886
+Venezuela,1792,0.20289886
+Venezuela,1793,0.20289886
+Venezuela,1794,0.20289886
+Venezuela,1795,0.20289886
+Venezuela,1796,0.20289886
+Venezuela,1797,0.20289886
+Venezuela,1798,0.20289886
+Venezuela,1799,0.20289886
+Venezuela,1800,0.20289886
+Venezuela,1801,0.20289886
+Venezuela,1802,0.20289886
+Venezuela,1803,0.20289886
+Venezuela,1804,0.20289886
+Venezuela,1805,0.20289886
+Venezuela,1806,0.20289886
+Venezuela,1807,0.20289886
+Venezuela,1808,0.20289886
+Venezuela,1809,0.20289886
+Venezuela,1810,0.41162989
+Venezuela,1811,0.28078559
+Venezuela,1812,0.41162989
+Venezuela,1813,0.14042394
+Venezuela,1814,0.14042394
+Venezuela,1815,0.14042394
+Venezuela,1816,0.14042394
+Venezuela,1817,0.14042394
+Venezuela,1818,0.14042394
+Venezuela,1819,0.14042394
+Venezuela,1830,0.27584147
+Venezuela,1831,0.40668577
+Venezuela,1832,0.40668577
+Venezuela,1833,0.40668577
+Venezuela,1834,0.40668577
+Venezuela,1835,0.40668577
+Venezuela,1836,0.40668577
+Venezuela,1837,0.40668577
+Venezuela,1838,0.40668577
+Venezuela,1839,0.40668577
+Venezuela,1840,0.40668577
+Venezuela,1841,0.40668577
+Venezuela,1842,0.40668577
+Venezuela,1843,0.40668577
+Venezuela,1844,0.40668577
+Venezuela,1845,0.40668577
+Venezuela,1846,0.40668577
+Venezuela,1847,0.40668577
+Venezuela,1848,0.40668577
+Venezuela,1849,0.17013708
+Venezuela,1850,0.17013708
+Venezuela,1851,0.17013708
+Venezuela,1852,0.17013708
+Venezuela,1853,0.17013708
+Venezuela,1854,0.17013708
+Venezuela,1855,0.17013708
+Venezuela,1856,0.17013708
+Venezuela,1857,0.17013708
+Venezuela,1858,0.039292805
+Venezuela,1859,0.27233738
+Venezuela,1860,0.27233738
+Venezuela,1861,0.27233738
+Venezuela,1862,0.14149311
+Venezuela,1863,0.14149311
+Venezuela,1864,0.14149311
+Venezuela,1865,0.14149311
+Venezuela,1866,0.14149311
+Venezuela,1867,0.14149311
+Venezuela,1868,0.14149311
+Venezuela,1869,0.27233738
+Venezuela,1870,0.18201651
+Venezuela,1871,0.18201651
+Venezuela,1872,0.18201651
+Venezuela,1873,0.18201651
+Venezuela,1874,0.18201651
+Venezuela,1875,0.18201651
+Venezuela,1876,0.18201651
+Venezuela,1877,0.31286082
+Venezuela,1878,0.31286082
+Venezuela,1879,0.18201651
+Venezuela,1880,0.18201651
+Venezuela,1881,0.18201651
+Venezuela,1882,0.18201651
+Venezuela,1883,0.18201651
+Venezuela,1884,0.31286082
+Venezuela,1885,0.31286082
+Venezuela,1886,0.31286082
+Venezuela,1887,0.31286082
+Venezuela,1888,0.31286082
+Venezuela,1889,0.31286082
+Venezuela,1890,0.31286082
+Venezuela,1891,0.31286082
+Venezuela,1892,0.18201651
+Venezuela,1893,0.18201651
+Venezuela,1894,0.31286082
+Venezuela,1895,0.31286082
+Venezuela,1896,0.31286082
+Venezuela,1897,0.31286082
+Venezuela,1898,0.31286082
+Venezuela,1899,0.18201651
+Venezuela,1900,0.15548609
+Venezuela,1901,0.15548609
+Venezuela,1902,0.15548609
+Venezuela,1903,0.15548609
+Venezuela,1904,0.15548609
+Venezuela,1905,0.15548609
+Venezuela,1906,0.15548609
+Venezuela,1907,0.15548609
+Venezuela,1908,0.15548609
+Venezuela,1909,0.17432766
+Venezuela,1910,0.17432766
+Venezuela,1911,0.15548609
+Venezuela,1912,0.17432766
+Venezuela,1913,0.17432766
+Venezuela,1914,0.17432766
+Venezuela,1915,0.17432766
+Venezuela,1916,0.17432766
+Venezuela,1917,0.17432766
+Venezuela,1918,0.17432766
+Venezuela,1919,0.17432766
+Venezuela,1920,0.17432766
+Venezuela,1921,0.18662705
+Venezuela,1922,0.18662705
+Venezuela,1923,0.18662705
+Venezuela,1924,0.18662705
+Venezuela,1925,0.18662705
+Venezuela,1926,0.18662705
+Venezuela,1927,0.18662705
+Venezuela,1928,0.16490689
+Venezuela,1929,0.16490689
+Venezuela,1930,0.16490689
+Venezuela,1931,0.16490689
+Venezuela,1932,0.16490689
+Venezuela,1933,0.16490689
+Venezuela,1934,0.16490689
+Venezuela,1935,0.16490689
+Venezuela,1936,0.24683666
+Venezuela,1937,0.33240351
+Venezuela,1938,0.36346158
+Venezuela,1939,0.36346158
+Venezuela,1940,0.33981845
+Venezuela,1941,0.38610002
+Venezuela,1942,0.38789758
+Venezuela,1943,0.38789758
+Venezuela,1944,0.38789758
+Venezuela,1945,0.43407375
+Venezuela,1946,0.48723006
+Venezuela,1947,0.49500272
+Venezuela,1948,0.61213797
+Venezuela,1949,0.32630253
+Venezuela,1950,0.27706051
+Venezuela,1951,0.27706051
+Venezuela,1952,0.25534034
+Venezuela,1953,0.220162
+Venezuela,1954,0.220162
+Venezuela,1955,0.220162
+Venezuela,1956,0.220162
+Venezuela,1957,0.23128009
+Venezuela,1958,0.50038511
+Venezuela,1959,0.74729759
+Venezuela,1960,0.80468869
+Venezuela,1961,0.82579058
+Venezuela,1962,0.81273872
+Venezuela,1963,0.81273872
+Venezuela,1964,0.81273872
+Venezuela,1965,0.81273872
+Venezuela,1966,0.81273872
+Venezuela,1967,0.81273872
+Venezuela,1968,0.81273872
+Venezuela,1969,0.86332929
+Venezuela,1970,0.86332929
+Venezuela,1971,0.86332929
+Venezuela,1972,0.88134402
+Venezuela,1973,0.87793654
+Venezuela,1974,0.87793654
+Venezuela,1975,0.87793654
+Venezuela,1976,0.87793654
+Venezuela,1977,0.87793654
+Venezuela,1978,0.87793654
+Venezuela,1979,0.87793654
+Venezuela,1980,0.87793654
+Venezuela,1981,0.87793654
+Venezuela,1982,0.87793654
+Venezuela,1983,0.87793654
+Venezuela,1984,0.87793654
+Venezuela,1985,0.87793654
+Venezuela,1986,0.87793654
+Venezuela,1987,0.87793654
+Venezuela,1988,0.87793654
+Venezuela,1989,0.84794164
+Venezuela,1990,0.84794164
+Venezuela,1991,0.85619819
+Venezuela,1992,0.84802902
+Venezuela,1993,0.85117435
+Venezuela,1994,0.85117435
+Venezuela,1995,0.85117435
+Venezuela,1996,0.85117435
+Venezuela,1997,0.84312439
+Venezuela,1998,0.83932376
+Venezuela,1999,0.80261081
+Venezuela,2000,0.74730206
+Venezuela,2001,0.73279846
+Venezuela,2002,0.70322222
+Venezuela,2003,0.67809176
+Venezuela,2004,0.67809176
+Venezuela,2005,0.67468977
+Venezuela,2006,0.68280214
+Venezuela,2007,0.68929809
+Venezuela,2008,0.68855548
+Venezuela,2009,0.68855548
+Venezuela,2010,0.68083304
+Venezuela,2011,0.67978203
+Venezuela,2012,0.66582352
+Venezuela,2013,0.56189966
+Venezuela,2014,0.57077688
+Venezuela,2015,0.55298996
+Venezuela,2016,0.54311281
+Venezuela,2017,0.51354581
+Venezuela,2018,0.50446045
+Venezuela,2019,0.47644445
+Venezuela,2020,0.4805114
+Guyana,1900,0.61511332
+Guyana,1901,0.61511332
+Guyana,1902,0.61511332
+Guyana,1903,0.61511332
+Guyana,1904,0.61511332
+Guyana,1905,0.61511332
+Guyana,1906,0.61511332
+Guyana,1907,0.61511332
+Guyana,1908,0.61511332
+Guyana,1909,0.61511332
+Guyana,1910,0.61511332
+Guyana,1911,0.61511332
+Guyana,1912,0.61511332
+Guyana,1913,0.61511332
+Guyana,1914,0.61511332
+Guyana,1915,0.61511332
+Guyana,1916,0.61511332
+Guyana,1917,0.61511332
+Guyana,1918,0.61511332
+Guyana,1919,0.61511332
+Guyana,1920,0.61511332
+Guyana,1921,0.61511332
+Guyana,1922,0.61511332
+Guyana,1923,0.61511332
+Guyana,1924,0.61511332
+Guyana,1925,0.61511332
+Guyana,1926,0.61511332
+Guyana,1927,0.61511332
+Guyana,1928,0.61511332
+Guyana,1929,0.61511332
+Guyana,1930,0.61511332
+Guyana,1931,0.61511332
+Guyana,1932,0.61511332
+Guyana,1933,0.61511332
+Guyana,1934,0.61511332
+Guyana,1935,0.61511332
+Guyana,1936,0.61511332
+Guyana,1937,0.61511332
+Guyana,1938,0.61511332
+Guyana,1939,0.61511332
+Guyana,1940,0.61511332
+Guyana,1941,0.61511332
+Guyana,1942,0.61511332
+Guyana,1943,0.61511332
+Guyana,1944,0.61511332
+Guyana,1945,0.61511332
+Guyana,1946,0.61511332
+Guyana,1947,0.62346441
+Guyana,1948,0.62346441
+Guyana,1949,0.62346441
+Guyana,1950,0.60424137
+Guyana,1951,0.60424137
+Guyana,1952,0.60424137
+Guyana,1953,0.62272036
+Guyana,1954,0.67441761
+Guyana,1955,0.67441761
+Guyana,1956,0.67441761
+Guyana,1957,0.67441761
+Guyana,1958,0.68895447
+Guyana,1959,0.68895447
+Guyana,1960,0.68895447
+Guyana,1961,0.68895447
+Guyana,1962,0.68895447
+Guyana,1963,0.68895447
+Guyana,1964,0.68895447
+Guyana,1965,0.69574857
+Guyana,1966,0.69682139
+Guyana,1967,0.69682139
+Guyana,1968,0.67497867
+Guyana,1969,0.67497867
+Guyana,1970,0.69605523
+Guyana,1971,0.69605523
+Guyana,1972,0.69605523
+Guyana,1973,0.68304241
+Guyana,1974,0.68304241
+Guyana,1975,0.68304241
+Guyana,1976,0.68304241
+Guyana,1977,0.68304241
+Guyana,1978,0.67276502
+Guyana,1979,0.67276502
+Guyana,1980,0.62575155
+Guyana,1981,0.59304047
+Guyana,1982,0.59304047
+Guyana,1983,0.59304047
+Guyana,1984,0.59304047
+Guyana,1985,0.60218465
+Guyana,1986,0.60218465
+Guyana,1987,0.60218465
+Guyana,1988,0.60218465
+Guyana,1989,0.61791146
+Guyana,1990,0.65390188
+Guyana,1991,0.65390188
+Guyana,1992,0.71701258
+Guyana,1993,0.75976586
+Guyana,1994,0.75976586
+Guyana,1995,0.75976586
+Guyana,1996,0.75976586
+Guyana,1997,0.75976586
+Guyana,1998,0.75976586
+Guyana,1999,0.75976586
+Guyana,2000,0.75976586
+Guyana,2001,0.75976586
+Guyana,2002,0.75976586
+Guyana,2003,0.75976586
+Guyana,2004,0.75976586
+Guyana,2005,0.78488797
+Guyana,2006,0.78488797
+Guyana,2007,0.78488797
+Guyana,2008,0.78488797
+Guyana,2009,0.78488797
+Guyana,2010,0.79298604
+Guyana,2011,0.79298604
+Guyana,2012,0.79298604
+Guyana,2013,0.80726695
+Guyana,2014,0.80726695
+Guyana,2015,0.832551
+Guyana,2016,0.84312743
+Guyana,2017,0.81959194
+Guyana,2018,0.79795921
+Guyana,2019,0.86751026
+Guyana,2020,0.85798681
+Suriname,1900,0.73144889
+Suriname,1901,0.73144889
+Suriname,1902,0.73144889
+Suriname,1903,0.73144889
+Suriname,1904,0.73144889
+Suriname,1905,0.73144889
+Suriname,1906,0.73144889
+Suriname,1907,0.73144889
+Suriname,1908,0.73144889
+Suriname,1909,0.73144889
+Suriname,1910,0.73144889
+Suriname,1911,0.73144889
+Suriname,1912,0.73144889
+Suriname,1913,0.73144889
+Suriname,1914,0.73144889
+Suriname,1915,0.73144889
+Suriname,1916,0.73144889
+Suriname,1917,0.73144889
+Suriname,1918,0.73144889
+Suriname,1919,0.73144889
+Suriname,1920,0.73144889
+Suriname,1921,0.73144889
+Suriname,1922,0.73144889
+Suriname,1923,0.73144889
+Suriname,1924,0.73144889
+Suriname,1925,0.73144889
+Suriname,1926,0.73144889
+Suriname,1927,0.73144889
+Suriname,1928,0.73144889
+Suriname,1929,0.73144889
+Suriname,1930,0.73144889
+Suriname,1931,0.73144889
+Suriname,1932,0.73144889
+Suriname,1933,0.73144889
+Suriname,1934,0.73144889
+Suriname,1935,0.73144889
+Suriname,1936,0.73144889
+Suriname,1937,0.73144889
+Suriname,1938,0.73144889
+Suriname,1939,0.73144889
+Suriname,1940,0.73144889
+Suriname,1941,0.73144889
+Suriname,1942,0.73144889
+Suriname,1943,0.73144889
+Suriname,1944,0.73144889
+Suriname,1945,0.73144889
+Suriname,1946,0.73309016
+Suriname,1947,0.73309016
+Suriname,1948,0.73309016
+Suriname,1949,0.76753128
+Suriname,1950,0.8186056
+Suriname,1951,0.8186056
+Suriname,1952,0.8186056
+Suriname,1953,0.8186056
+Suriname,1954,0.8186056
+Suriname,1955,0.83093345
+Suriname,1956,0.83093345
+Suriname,1957,0.83093345
+Suriname,1958,0.83093345
+Suriname,1959,0.83093345
+Suriname,1960,0.83093345
+Suriname,1961,0.83093345
+Suriname,1962,0.83093345
+Suriname,1963,0.83093345
+Suriname,1964,0.83093345
+Suriname,1965,0.83093345
+Suriname,1966,0.83093345
+Suriname,1967,0.83093345
+Suriname,1968,0.83093345
+Suriname,1969,0.83093345
+Suriname,1970,0.83093345
+Suriname,1971,0.83093345
+Suriname,1972,0.83093345
+Suriname,1973,0.83093345
+Suriname,1974,0.83093345
+Suriname,1975,0.81444705
+Suriname,1976,0.84269238
+Suriname,1977,0.84269238
+Suriname,1978,0.84269238
+Suriname,1979,0.84269238
+Suriname,1980,0.59823221
+Suriname,1981,0.59176672
+Suriname,1982,0.59176672
+Suriname,1983,0.59176672
+Suriname,1984,0.59176672
+Suriname,1985,0.59176672
+Suriname,1986,0.59176672
+Suriname,1987,0.62774855
+Suriname,1988,0.82836217
+Suriname,1989,0.82836217
+Suriname,1990,0.69751793
+Suriname,1991,0.82412469
+Suriname,1992,0.82412469
+Suriname,1993,0.82412469
+Suriname,1994,0.82412469
+Suriname,1995,0.82412469
+Suriname,1996,0.82412469
+Suriname,1997,0.82412469
+Suriname,1998,0.82412469
+Suriname,1999,0.82412469
+Suriname,2000,0.82412469
+Suriname,2001,0.82412469
+Suriname,2002,0.82412469
+Suriname,2003,0.82412469
+Suriname,2004,0.82412469
+Suriname,2005,0.80659157
+Suriname,2006,0.80659157
+Suriname,2007,0.80659157
+Suriname,2008,0.80659157
+Suriname,2009,0.80659157
+Suriname,2010,0.80659157
+Suriname,2011,0.80659157
+Suriname,2012,0.80659157
+Suriname,2013,0.75499678
+Suriname,2014,0.75499678
+Suriname,2015,0.75499678
+Suriname,2016,0.79425007
+Suriname,2017,0.79425007
+Suriname,2018,0.79425007
+Suriname,2019,0.85967219
+Suriname,2020,0.84434372
+Ecuador,1830,0.30414566
+Ecuador,1831,0.30414566
+Ecuador,1832,0.30414566
+Ecuador,1833,0.30414566
+Ecuador,1834,0.43498999
+Ecuador,1835,0.43498999
+Ecuador,1836,0.43498999
+Ecuador,1837,0.43498999
+Ecuador,1838,0.43498999
+Ecuador,1839,0.43498999
+Ecuador,1840,0.43498999
+Ecuador,1841,0.43498999
+Ecuador,1842,0.43498999
+Ecuador,1843,0.43498999
+Ecuador,1844,0.43498999
+Ecuador,1845,0.43498999
+Ecuador,1846,0.43498999
+Ecuador,1847,0.43498999
+Ecuador,1848,0.43498999
+Ecuador,1849,0.43498999
+Ecuador,1850,0.43498999
+Ecuador,1851,0.30414566
+Ecuador,1852,0.30414566
+Ecuador,1853,0.43498999
+Ecuador,1854,0.43498999
+Ecuador,1855,0.43498999
+Ecuador,1856,0.43498999
+Ecuador,1857,0.43498999
+Ecuador,1858,0.43498999
+Ecuador,1859,0.30414566
+Ecuador,1860,0.43498999
+Ecuador,1861,0.46886435
+Ecuador,1862,0.46886435
+Ecuador,1863,0.46886435
+Ecuador,1864,0.46886435
+Ecuador,1865,0.46886435
+Ecuador,1866,0.46886435
+Ecuador,1867,0.46886435
+Ecuador,1868,0.46886435
+Ecuador,1869,0.46886435
+Ecuador,1870,0.46886435
+Ecuador,1871,0.46886435
+Ecuador,1872,0.46886435
+Ecuador,1873,0.46886435
+Ecuador,1874,0.46886435
+Ecuador,1875,0.46886435
+Ecuador,1876,0.33802006
+Ecuador,1877,0.33802006
+Ecuador,1878,0.46886435
+Ecuador,1879,0.46886435
+Ecuador,1880,0.46886435
+Ecuador,1881,0.46886435
+Ecuador,1882,0.46886435
+Ecuador,1883,0.46886435
+Ecuador,1884,0.46886435
+Ecuador,1885,0.46886435
+Ecuador,1886,0.46886435
+Ecuador,1887,0.46886435
+Ecuador,1888,0.51255304
+Ecuador,1889,0.51255304
+Ecuador,1890,0.51255304
+Ecuador,1891,0.51255304
+Ecuador,1892,0.54819179
+Ecuador,1893,0.54819179
+Ecuador,1894,0.54819179
+Ecuador,1895,0.52548772
+Ecuador,1896,0.43958029
+Ecuador,1897,0.43958029
+Ecuador,1898,0.43958029
+Ecuador,1899,0.43958029
+Ecuador,1900,0.45816019
+Ecuador,1901,0.58130616
+Ecuador,1902,0.58130616
+Ecuador,1903,0.58130616
+Ecuador,1904,0.58130616
+Ecuador,1905,0.58130616
+Ecuador,1906,0.45046189
+Ecuador,1907,0.45046189
+Ecuador,1908,0.45046189
+Ecuador,1909,0.45046189
+Ecuador,1910,0.45839465
+Ecuador,1911,0.58923894
+Ecuador,1912,0.5801158
+Ecuador,1913,0.5801158
+Ecuador,1914,0.5801158
+Ecuador,1915,0.5801158
+Ecuador,1916,0.5801158
+Ecuador,1917,0.57022917
+Ecuador,1918,0.57022917
+Ecuador,1919,0.57022917
+Ecuador,1920,0.56542099
+Ecuador,1921,0.56542099
+Ecuador,1922,0.56542099
+Ecuador,1923,0.56542099
+Ecuador,1924,0.56542099
+Ecuador,1925,0.43457669
+Ecuador,1926,0.56542099
+Ecuador,1927,0.56542099
+Ecuador,1928,0.56542099
+Ecuador,1929,0.56542099
+Ecuador,1930,0.56542099
+Ecuador,1931,0.56542099
+Ecuador,1932,0.54412371
+Ecuador,1933,0.54412371
+Ecuador,1934,0.54412371
+Ecuador,1935,0.41327944
+Ecuador,1936,0.41327944
+Ecuador,1937,0.41327944
+Ecuador,1938,0.54412371
+Ecuador,1939,0.54412371
+Ecuador,1940,0.54027629
+Ecuador,1941,0.54027629
+Ecuador,1942,0.54027629
+Ecuador,1943,0.54027629
+Ecuador,1944,0.40943199
+Ecuador,1945,0.4560751
+Ecuador,1946,0.4560751
+Ecuador,1947,0.58691937
+Ecuador,1948,0.59080744
+Ecuador,1949,0.59080744
+Ecuador,1950,0.59080744
+Ecuador,1951,0.59080744
+Ecuador,1952,0.59080744
+Ecuador,1953,0.59080744
+Ecuador,1954,0.59080744
+Ecuador,1955,0.59080744
+Ecuador,1956,0.59080744
+Ecuador,1957,0.59080744
+Ecuador,1958,0.59080744
+Ecuador,1959,0.59080744
+Ecuador,1960,0.59080744
+Ecuador,1961,0.59080744
+Ecuador,1962,0.59080744
+Ecuador,1963,0.34532487
+Ecuador,1964,0.33086619
+Ecuador,1965,0.33086619
+Ecuador,1966,0.34243312
+Ecuador,1967,0.4569748
+Ecuador,1968,0.60946804
+Ecuador,1969,0.60946804
+Ecuador,1970,0.59809649
+Ecuador,1971,0.52271593
+Ecuador,1972,0.3763586
+Ecuador,1973,0.36603358
+Ecuador,1974,0.36603358
+Ecuador,1975,0.36603358
+Ecuador,1976,0.36603358
+Ecuador,1977,0.36603358
+Ecuador,1978,0.38883033
+Ecuador,1979,0.70806909
+Ecuador,1980,0.79013455
+Ecuador,1981,0.79013455
+Ecuador,1982,0.76841438
+Ecuador,1983,0.76841438
+Ecuador,1984,0.76841438
+Ecuador,1985,0.76841438
+Ecuador,1986,0.76841438
+Ecuador,1987,0.76841438
+Ecuador,1988,0.76841438
+Ecuador,1989,0.76841438
+Ecuador,1990,0.76841438
+Ecuador,1991,0.76841438
+Ecuador,1992,0.76841438
+Ecuador,1993,0.76841438
+Ecuador,1994,0.76841438
+Ecuador,1995,0.76841438
+Ecuador,1996,0.76841438
+Ecuador,1997,0.76841438
+Ecuador,1998,0.76841438
+Ecuador,1999,0.76841438
+Ecuador,2000,0.76841438
+Ecuador,2001,0.76841438
+Ecuador,2002,0.76841438
+Ecuador,2003,0.76841438
+Ecuador,2004,0.76841438
+Ecuador,2005,0.76841438
+Ecuador,2006,0.78019035
+Ecuador,2007,0.69650644
+Ecuador,2008,0.65365034
+Ecuador,2009,0.65365034
+Ecuador,2010,0.63973379
+Ecuador,2011,0.65150976
+Ecuador,2012,0.65150976
+Ecuador,2013,0.6528182
+Ecuador,2014,0.6528182
+Ecuador,2015,0.6528182
+Ecuador,2016,0.6528182
+Ecuador,2017,0.67607635
+Ecuador,2018,0.73178971
+Ecuador,2019,0.73335987
+Ecuador,2020,0.68826801
+Peru,1789,0.032711077
+Peru,1790,0.22426711
+Peru,1791,0.13084428
+Peru,1792,0.19626644
+Peru,1793,0.17454629
+Peru,1794,0.24860415
+Peru,1795,0.13084428
+Peru,1796,0.13084428
+Peru,1797,0.17454629
+Peru,1798,0.16355535
+Peru,1799,0.16355535
+Peru,1800,0.19626644
+Peru,1801,0.24860415
+Peru,1802,0.17454629
+Peru,1803,0.19626644
+Peru,1804,0.065422155
+Peru,1805,0.24860415
+Peru,1806,0.22426711
+Peru,1807,0.13084428
+Peru,1808,0
+Peru,1809,0.19626644
+Peru,1810,0.22426711
+Peru,1811,0.26168856
+Peru,1812,0
+Peru,1813,0.13084428
+Peru,1814,0.19626644
+Peru,1815,0.17454629
+Peru,1816,0.13084428
+Peru,1817,0.19626644
+Peru,1818,0.13084428
+Peru,1819,0.13084428
+Peru,1820,0.22426711
+Peru,1821,0.53962314
+Peru,1822,0.4784075
+Peru,1823,0.6092518
+Peru,1824,0.44207478
+Peru,1825,0.57291907
+Peru,1826,0.57291907
+Peru,1827,0.6096856
+Peru,1828,0.6096856
+Peru,1829,0.6096856
+Peru,1830,0.53936255
+Peru,1831,0.53936255
+Peru,1832,0.53936255
+Peru,1833,0.53936255
+Peru,1834,0.57674366
+Peru,1835,0.57674366
+Peru,1836,0.62044567
+Peru,1837,0.40895209
+Peru,1838,0.40895209
+Peru,1839,0.40895209
+Peru,1840,0.57771981
+Peru,1841,0.44687548
+Peru,1842,0.44687548
+Peru,1843,0.44687548
+Peru,1844,0.44687548
+Peru,1845,0.57771981
+Peru,1846,0.57771981
+Peru,1847,0.57771981
+Peru,1848,0.57771981
+Peru,1849,0.57771981
+Peru,1850,0.57771981
+Peru,1851,0.57771981
+Peru,1852,0.57771981
+Peru,1853,0.57771981
+Peru,1854,0.57771981
+Peru,1855,0.44687548
+Peru,1856,0.44687548
+Peru,1857,0.44687548
+Peru,1858,0.57771981
+Peru,1859,0.57771981
+Peru,1860,0.57771981
+Peru,1861,0.57771981
+Peru,1862,0.57771981
+Peru,1863,0.57771981
+Peru,1864,0.57771981
+Peru,1865,0.57771981
+Peru,1866,0.57771981
+Peru,1867,0.57771981
+Peru,1868,0.57771981
+Peru,1869,0.57771981
+Peru,1870,0.57771981
+Peru,1871,0.61127031
+Peru,1872,0.61127031
+Peru,1873,0.61127031
+Peru,1874,0.61127031
+Peru,1875,0.61127031
+Peru,1876,0.61127031
+Peru,1877,0.57771981
+Peru,1878,0.57771981
+Peru,1879,0.30638903
+Peru,1880,0.081709102
+Peru,1881,0.21255341
+Peru,1882,0.27797556
+Peru,1883,0.25609967
+Peru,1884,0.54186952
+Peru,1885,0.54186952
+Peru,1886,0.54186952
+Peru,1887,0.54186952
+Peru,1888,0.54186952
+Peru,1889,0.54186952
+Peru,1890,0.54186952
+Peru,1891,0.54186952
+Peru,1892,0.54186952
+Peru,1893,0.54186952
+Peru,1894,0.54186952
+Peru,1895,0.49682972
+Peru,1896,0.49682972
+Peru,1897,0.49682972
+Peru,1898,0.49682972
+Peru,1899,0.49682972
+Peru,1900,0.56225187
+Peru,1901,0.56225187
+Peru,1902,0.56225187
+Peru,1903,0.56225187
+Peru,1904,0.56225187
+Peru,1905,0.56225187
+Peru,1906,0.56225187
+Peru,1907,0.56225187
+Peru,1908,0.56225187
+Peru,1909,0.56225187
+Peru,1910,0.56225187
+Peru,1911,0.52954078
+Peru,1912,0.55946541
+Peru,1913,0.55946541
+Peru,1914,0.42862108
+Peru,1915,0.52967185
+Peru,1916,0.56238294
+Peru,1917,0.56238294
+Peru,1918,0.56238294
+Peru,1919,0.39882755
+Peru,1920,0.53654808
+Peru,1921,0.48731273
+Peru,1922,0.48731273
+Peru,1923,0.48731273
+Peru,1924,0.48731273
+Peru,1925,0.48731273
+Peru,1926,0.48731273
+Peru,1927,0.48731273
+Peru,1928,0.48731273
+Peru,1929,0.48731273
+Peru,1930,0.35646844
+Peru,1931,0.5448029
+Peru,1932,0.56236452
+Peru,1933,0.56687456
+Peru,1934,0.56687456
+Peru,1935,0.56687456
+Peru,1936,0.56687456
+Peru,1937,0.56687456
+Peru,1938,0.56687456
+Peru,1939,0.56687456
+Peru,1940,0.60825324
+Peru,1941,0.60825324
+Peru,1942,0.60825324
+Peru,1943,0.60825324
+Peru,1944,0.60825324
+Peru,1945,0.74489897
+Peru,1946,0.74489897
+Peru,1947,0.74489897
+Peru,1948,0.4104079
+Peru,1949,0.36649171
+Peru,1950,0.50048977
+Peru,1951,0.50048977
+Peru,1952,0.50048977
+Peru,1953,0.50048977
+Peru,1954,0.50048977
+Peru,1955,0.50048977
+Peru,1956,0.62163103
+Peru,1957,0.72964638
+Peru,1958,0.72964638
+Peru,1959,0.72964638
+Peru,1960,0.72964638
+Peru,1961,0.72964638
+Peru,1962,0.57702047
+Peru,1963,0.75270176
+Peru,1964,0.7975564
+Peru,1965,0.7975564
+Peru,1966,0.7975564
+Peru,1967,0.7975564
+Peru,1968,0.44425398
+Peru,1969,0.3107034
+Peru,1970,0.3107034
+Peru,1971,0.3107034
+Peru,1972,0.3107034
+Peru,1973,0.3107034
+Peru,1974,0.3107034
+Peru,1975,0.3107034
+Peru,1976,0.3107034
+Peru,1977,0.3107034
+Peru,1978,0.54068673
+Peru,1979,0.66487509
+Peru,1980,0.84187895
+Peru,1981,0.84187895
+Peru,1982,0.84187895
+Peru,1983,0.84187895
+Peru,1984,0.84187895
+Peru,1985,0.84187895
+Peru,1986,0.84187895
+Peru,1987,0.84187895
+Peru,1988,0.84187895
+Peru,1989,0.84187895
+Peru,1990,0.84187895
+Peru,1991,0.82907909
+Peru,1992,0.56776512
+Peru,1993,0.53624719
+Peru,1994,0.53624719
+Peru,1995,0.66709149
+Peru,1996,0.66709149
+Peru,1997,0.66709149
+Peru,1998,0.66709149
+Peru,1999,0.66709149
+Peru,2000,0.71643245
+Peru,2001,0.8624447
+Peru,2002,0.89515579
+Peru,2003,0.89515579
+Peru,2004,0.8624447
+Peru,2005,0.86636996
+Peru,2006,0.88337976
+Peru,2007,0.87134206
+Peru,2008,0.88337976
+Peru,2009,0.88337976
+Peru,2010,0.88077819
+Peru,2011,0.89281583
+Peru,2012,0.89281583
+Peru,2013,0.89150739
+Peru,2014,0.89150739
+Peru,2015,0.88301378
+Peru,2016,0.83906609
+Peru,2017,0.85929251
+Peru,2018,0.84332955
+Peru,2019,0.7953518
+Peru,2020,0.80163401
+Brazil,1789,0.27115989
+Brazil,1790,0.27115989
+Brazil,1791,0.27115989
+Brazil,1792,0.27115989
+Brazil,1793,0.27115989
+Brazil,1794,0.27115989
+Brazil,1795,0.27115989
+Brazil,1796,0.27115989
+Brazil,1797,0.27115989
+Brazil,1798,0.27115989
+Brazil,1799,0.27115989
+Brazil,1800,0.27115989
+Brazil,1801,0.27115989
+Brazil,1802,0.27115989
+Brazil,1803,0.27115989
+Brazil,1804,0.27115989
+Brazil,1805,0.27115989
+Brazil,1806,0.27115989
+Brazil,1807,0.27115989
+Brazil,1808,0.27115989
+Brazil,1809,0.27115989
+Brazil,1810,0.27115989
+Brazil,1811,0.27115989
+Brazil,1812,0.27115989
+Brazil,1813,0.27115989
+Brazil,1814,0.27115989
+Brazil,1815,0.27115989
+Brazil,1816,0.27115989
+Brazil,1817,0.27115989
+Brazil,1818,0.27115989
+Brazil,1819,0.27115989
+Brazil,1820,0.27115989
+Brazil,1821,0.14031556
+Brazil,1822,0.50535262
+Brazil,1823,0.50535262
+Brazil,1824,0.50535262
+Brazil,1825,0.50535262
+Brazil,1826,0.50535262
+Brazil,1827,0.50535262
+Brazil,1828,0.50535262
+Brazil,1829,0.50535262
+Brazil,1830,0.50535262
+Brazil,1831,0.63619691
+Brazil,1832,0.63619691
+Brazil,1833,0.63619691
+Brazil,1834,0.63619691
+Brazil,1835,0.63619691
+Brazil,1836,0.63619691
+Brazil,1837,0.63619691
+Brazil,1838,0.63619691
+Brazil,1839,0.63619691
+Brazil,1840,0.50535262
+Brazil,1841,0.50535262
+Brazil,1842,0.50535262
+Brazil,1843,0.50535262
+Brazil,1844,0.50535262
+Brazil,1845,0.50535262
+Brazil,1846,0.50535262
+Brazil,1847,0.50535262
+Brazil,1848,0.50535262
+Brazil,1849,0.50535262
+Brazil,1850,0.50535262
+Brazil,1851,0.50535262
+Brazil,1852,0.50535262
+Brazil,1853,0.50535262
+Brazil,1854,0.50535262
+Brazil,1855,0.50535262
+Brazil,1856,0.50535262
+Brazil,1857,0.50535262
+Brazil,1858,0.50535262
+Brazil,1859,0.50535262
+Brazil,1860,0.50535262
+Brazil,1861,0.50535262
+Brazil,1862,0.50535262
+Brazil,1863,0.50535262
+Brazil,1864,0.50535262
+Brazil,1865,0.50535262
+Brazil,1866,0.50535262
+Brazil,1867,0.50535262
+Brazil,1868,0.50535262
+Brazil,1869,0.50535262
+Brazil,1870,0.50535262
+Brazil,1871,0.50535262
+Brazil,1872,0.50535262
+Brazil,1873,0.50535262
+Brazil,1874,0.50535262
+Brazil,1875,0.50535262
+Brazil,1876,0.50535262
+Brazil,1877,0.50535262
+Brazil,1878,0.50535262
+Brazil,1879,0.50535262
+Brazil,1880,0.50535262
+Brazil,1881,0.50535262
+Brazil,1882,0.50535262
+Brazil,1883,0.50535262
+Brazil,1884,0.50535262
+Brazil,1885,0.50535262
+Brazil,1886,0.50535262
+Brazil,1887,0.50535262
+Brazil,1888,0.50535262
+Brazil,1889,0.50535262
+Brazil,1890,0.50535262
+Brazil,1891,0.63619691
+Brazil,1892,0.63619691
+Brazil,1893,0.63619691
+Brazil,1894,0.63619691
+Brazil,1895,0.63619691
+Brazil,1896,0.63619691
+Brazil,1897,0.63619691
+Brazil,1898,0.63619691
+Brazil,1899,0.63619691
+Brazil,1900,0.56344748
+Brazil,1901,0.56344748
+Brazil,1902,0.56344748
+Brazil,1903,0.56344748
+Brazil,1904,0.56344748
+Brazil,1905,0.56344748
+Brazil,1906,0.56344748
+Brazil,1907,0.56344748
+Brazil,1908,0.56344748
+Brazil,1909,0.56344748
+Brazil,1910,0.53513926
+Brazil,1911,0.56401539
+Brazil,1912,0.56401539
+Brazil,1913,0.56401539
+Brazil,1914,0.56401539
+Brazil,1915,0.56401539
+Brazil,1916,0.56401539
+Brazil,1917,0.56401539
+Brazil,1918,0.56401539
+Brazil,1919,0.56401539
+Brazil,1920,0.56401539
+Brazil,1921,0.55511796
+Brazil,1922,0.55511796
+Brazil,1923,0.55081588
+Brazil,1924,0.55081588
+Brazil,1925,0.55081588
+Brazil,1926,0.55081588
+Brazil,1927,0.55081588
+Brazil,1928,0.55081588
+Brazil,1929,0.55081588
+Brazil,1930,0.43355343
+Brazil,1931,0.42413262
+Brazil,1932,0.45099923
+Brazil,1933,0.48306441
+Brazil,1934,0.48306441
+Brazil,1935,0.47229114
+Brazil,1936,0.47229114
+Brazil,1937,0.3411651
+Brazil,1938,0.30578014
+Brazil,1939,0.30578014
+Brazil,1940,0.30578014
+Brazil,1941,0.30578014
+Brazil,1942,0.30578014
+Brazil,1943,0.30578014
+Brazil,1944,0.30578014
+Brazil,1945,0.37116382
+Brazil,1946,0.67898756
+Brazil,1947,0.67789817
+Brazil,1948,0.67789817
+Brazil,1949,0.67789817
+Brazil,1950,0.66141182
+Brazil,1951,0.65797734
+Brazil,1952,0.65797734
+Brazil,1953,0.66108644
+Brazil,1954,0.66108644
+Brazil,1955,0.6563971
+Brazil,1956,0.66087997
+Brazil,1957,0.66588193
+Brazil,1958,0.66588193
+Brazil,1959,0.66588193
+Brazil,1960,0.66588193
+Brazil,1961,0.66588193
+Brazil,1962,0.66588193
+Brazil,1963,0.66588193
+Brazil,1964,0.42823419
+Brazil,1965,0.3992815
+Brazil,1966,0.37389663
+Brazil,1967,0.36701041
+Brazil,1968,0.36701041
+Brazil,1969,0.36701041
+Brazil,1970,0.36701041
+Brazil,1971,0.36701041
+Brazil,1972,0.36701041
+Brazil,1973,0.36701041
+Brazil,1974,0.36701041
+Brazil,1975,0.36701041
+Brazil,1976,0.36701041
+Brazil,1977,0.36701041
+Brazil,1978,0.36701041
+Brazil,1979,0.384206
+Brazil,1980,0.48396489
+Brazil,1981,0.48396489
+Brazil,1982,0.48396489
+Brazil,1983,0.48650494
+Brazil,1984,0.49409685
+Brazil,1985,0.71287549
+Brazil,1986,0.80008239
+Brazil,1987,0.81903499
+Brazil,1988,0.85687304
+Brazil,1989,0.88011372
+Brazil,1990,0.8985337
+Brazil,1991,0.90533763
+Brazil,1992,0.90533763
+Brazil,1993,0.92182404
+Brazil,1994,0.92182404
+Brazil,1995,0.93831038
+Brazil,1996,0.93831038
+Brazil,1997,0.93831038
+Brazil,1998,0.93831038
+Brazil,1999,0.93831038
+Brazil,2000,0.93831038
+Brazil,2001,0.93831038
+Brazil,2002,0.93831038
+Brazil,2003,0.93831038
+Brazil,2004,0.93831038
+Brazil,2005,0.95354307
+Brazil,2006,0.95354307
+Brazil,2007,0.95354307
+Brazil,2008,0.95354307
+Brazil,2009,0.95354307
+Brazil,2010,0.95354307
+Brazil,2011,0.95354307
+Brazil,2012,0.95354307
+Brazil,2013,0.94582522
+Brazil,2014,0.94582522
+Brazil,2015,0.93416119
+Brazil,2016,0.90081024
+Brazil,2017,0.87412471
+Brazil,2018,0.84095001
+Brazil,2019,0.85037076
+Brazil,2020,0.89390528
+Bolivia,1825,0.54245907
+Bolivia,1826,0.54245907
+Bolivia,1827,0.54245907
+Bolivia,1828,0.54245907
+Bolivia,1829,0.54245907
+Bolivia,1830,0.54245907
+Bolivia,1831,0.54245907
+Bolivia,1832,0.54245907
+Bolivia,1833,0.54245907
+Bolivia,1834,0.54245907
+Bolivia,1835,0.54245907
+Bolivia,1836,0.54245907
+Bolivia,1837,0.54245907
+Bolivia,1838,0.54245907
+Bolivia,1839,0.54245907
+Bolivia,1840,0.54245907
+Bolivia,1841,0.54245907
+Bolivia,1842,0.54245907
+Bolivia,1843,0.54245907
+Bolivia,1844,0.54245907
+Bolivia,1845,0.54245907
+Bolivia,1846,0.54245907
+Bolivia,1847,0.54245907
+Bolivia,1848,0.54245907
+Bolivia,1849,0.41161481
+Bolivia,1850,0.41161481
+Bolivia,1851,0.41161481
+Bolivia,1852,0.41161481
+Bolivia,1853,0.41161481
+Bolivia,1854,0.41161481
+Bolivia,1855,0.54245907
+Bolivia,1856,0.54245907
+Bolivia,1857,0.41161481
+Bolivia,1858,0.1633255
+Bolivia,1859,0.1633255
+Bolivia,1860,0.1633255
+Bolivia,1861,0.1633255
+Bolivia,1862,0.51186746
+Bolivia,1863,0.51186746
+Bolivia,1864,0.2628786
+Bolivia,1865,0.2628786
+Bolivia,1866,0.2628786
+Bolivia,1867,0.2628786
+Bolivia,1868,0.2628786
+Bolivia,1869,0.2628786
+Bolivia,1870,0.35654828
+Bolivia,1871,0.35654828
+Bolivia,1872,0.48739257
+Bolivia,1873,0.48739257
+Bolivia,1874,0.48739257
+Bolivia,1875,0.48739257
+Bolivia,1876,0.35654828
+Bolivia,1877,0.35654828
+Bolivia,1878,0.35654828
+Bolivia,1879,0.35654828
+Bolivia,1880,0.48739257
+Bolivia,1881,0.48739257
+Bolivia,1882,0.48739257
+Bolivia,1883,0.48739257
+Bolivia,1884,0.48739257
+Bolivia,1885,0.48739257
+Bolivia,1886,0.48739257
+Bolivia,1887,0.48739257
+Bolivia,1888,0.48739257
+Bolivia,1889,0.48739257
+Bolivia,1890,0.48739257
+Bolivia,1891,0.48739257
+Bolivia,1892,0.48739257
+Bolivia,1893,0.48739257
+Bolivia,1894,0.48739257
+Bolivia,1895,0.48739257
+Bolivia,1896,0.48739257
+Bolivia,1897,0.48739257
+Bolivia,1898,0.48739257
+Bolivia,1899,0.48739257
+Bolivia,1900,0.5690394
+Bolivia,1901,0.5690394
+Bolivia,1902,0.5690394
+Bolivia,1903,0.5690394
+Bolivia,1904,0.5690394
+Bolivia,1905,0.5690394
+Bolivia,1906,0.5690394
+Bolivia,1907,0.5690394
+Bolivia,1908,0.5690394
+Bolivia,1909,0.5690394
+Bolivia,1910,0.5690394
+Bolivia,1911,0.5690394
+Bolivia,1912,0.5690394
+Bolivia,1913,0.5690394
+Bolivia,1914,0.5690394
+Bolivia,1915,0.5690394
+Bolivia,1916,0.5690394
+Bolivia,1917,0.5690394
+Bolivia,1918,0.5690394
+Bolivia,1919,0.5690394
+Bolivia,1920,0.42197043
+Bolivia,1921,0.54339391
+Bolivia,1922,0.54339391
+Bolivia,1923,0.54339391
+Bolivia,1924,0.54339391
+Bolivia,1925,0.54339391
+Bolivia,1926,0.54339391
+Bolivia,1927,0.54339391
+Bolivia,1928,0.54339391
+Bolivia,1929,0.54339391
+Bolivia,1930,0.41254961
+Bolivia,1931,0.54339391
+Bolivia,1932,0.54339391
+Bolivia,1933,0.54339391
+Bolivia,1934,0.41254961
+Bolivia,1935,0.41254961
+Bolivia,1936,0.39396974
+Bolivia,1937,0.36868936
+Bolivia,1938,0.50318968
+Bolivia,1939,0.52176958
+Bolivia,1940,0.45973286
+Bolivia,1941,0.45973286
+Bolivia,1942,0.45973286
+Bolivia,1943,0.30590996
+Bolivia,1944,0.37127912
+Bolivia,1945,0.33385763
+Bolivia,1946,0.35243753
+Bolivia,1947,0.49756697
+Bolivia,1948,0.49756697
+Bolivia,1949,0.49756697
+Bolivia,1950,0.4789871
+Bolivia,1951,0.3481428
+Bolivia,1952,0.50639397
+Bolivia,1953,0.53273714
+Bolivia,1954,0.53273714
+Bolivia,1955,0.53273714
+Bolivia,1956,0.53273714
+Bolivia,1957,0.53273714
+Bolivia,1958,0.53273714
+Bolivia,1959,0.53273714
+Bolivia,1960,0.53273714
+Bolivia,1961,0.53273714
+Bolivia,1962,0.53273714
+Bolivia,1963,0.53273714
+Bolivia,1964,0.38331294
+Bolivia,1965,0.32158989
+Bolivia,1966,0.36563066
+Bolivia,1967,0.36563066
+Bolivia,1968,0.36563066
+Bolivia,1969,0.36563066
+Bolivia,1970,0.19447251
+Bolivia,1971,0.18587546
+Bolivia,1972,0.20445535
+Bolivia,1973,0.20445535
+Bolivia,1974,0.1963644
+Bolivia,1975,0.14888769
+Bolivia,1976,0.14888769
+Bolivia,1977,0.14888769
+Bolivia,1978,0.25595754
+Bolivia,1979,0.4262062
+Bolivia,1980,0.26201984
+Bolivia,1981,0.30265
+Bolivia,1982,0.57279766
+Bolivia,1983,0.70518029
+Bolivia,1984,0.72268707
+Bolivia,1985,0.76271611
+Bolivia,1986,0.76271611
+Bolivia,1987,0.76271611
+Bolivia,1988,0.76271611
+Bolivia,1989,0.78468996
+Bolivia,1990,0.79333967
+Bolivia,1991,0.8623628
+Bolivia,1992,0.88490456
+Bolivia,1993,0.88490456
+Bolivia,1994,0.88490456
+Bolivia,1995,0.88490456
+Bolivia,1996,0.88490456
+Bolivia,1997,0.88490456
+Bolivia,1998,0.88490456
+Bolivia,1999,0.88490456
+Bolivia,2000,0.88490456
+Bolivia,2001,0.88490456
+Bolivia,2002,0.88490456
+Bolivia,2003,0.85982907
+Bolivia,2004,0.85982907
+Bolivia,2005,0.85224009
+Bolivia,2006,0.82568717
+Bolivia,2007,0.83432293
+Bolivia,2008,0.83209491
+Bolivia,2009,0.82182884
+Bolivia,2010,0.82601732
+Bolivia,2011,0.82601732
+Bolivia,2012,0.81050891
+Bolivia,2013,0.81229037
+Bolivia,2014,0.81084871
+Bolivia,2015,0.80915225
+Bolivia,2016,0.80454952
+Bolivia,2017,0.79434693
+Bolivia,2018,0.76175892
+Bolivia,2019,0.71542877
+Bolivia,2020,0.75177419
+Paraguay,1811,0.096319638
+Paraguay,1812,0.096319638
+Paraguay,1813,0.22716393
+Paraguay,1814,0.35800824
+Paraguay,1815,0.35800824
+Paraguay,1816,0.35800824
+Paraguay,1817,0.35800824
+Paraguay,1818,0.35800824
+Paraguay,1819,0.35800824
+Paraguay,1820,0.35800824
+Paraguay,1821,0.35800824
+Paraguay,1822,0.35800824
+Paraguay,1823,0.35800824
+Paraguay,1824,0.35800824
+Paraguay,1825,0.35800824
+Paraguay,1826,0.35800824
+Paraguay,1827,0.35800824
+Paraguay,1828,0.35800824
+Paraguay,1829,0.35800824
+Paraguay,1830,0.35800824
+Paraguay,1831,0.35800824
+Paraguay,1832,0.35800824
+Paraguay,1833,0.35800824
+Paraguay,1834,0.35800824
+Paraguay,1835,0.35800824
+Paraguay,1836,0.35800824
+Paraguay,1837,0.35800824
+Paraguay,1838,0.35800824
+Paraguay,1839,0.35800824
+Paraguay,1840,0.35800824
+Paraguay,1841,0.22716393
+Paraguay,1842,0.35800824
+Paraguay,1843,0.35800824
+Paraguay,1844,0.22716393
+Paraguay,1845,0.22716393
+Paraguay,1846,0.22716393
+Paraguay,1847,0.22716393
+Paraguay,1848,0.22716393
+Paraguay,1849,0.22716393
+Paraguay,1850,0.22716393
+Paraguay,1851,0.22716393
+Paraguay,1852,0.22716393
+Paraguay,1853,0.22716393
+Paraguay,1854,0.35800824
+Paraguay,1855,0.35800824
+Paraguay,1856,0.35800824
+Paraguay,1857,0.35800824
+Paraguay,1858,0.35800824
+Paraguay,1859,0.35800824
+Paraguay,1860,0.35800824
+Paraguay,1861,0.35800824
+Paraguay,1862,0.35800824
+Paraguay,1863,0.35800824
+Paraguay,1864,0.35800824
+Paraguay,1865,0.35800824
+Paraguay,1866,0.35800824
+Paraguay,1867,0.35800824
+Paraguay,1868,0.35800824
+Paraguay,1869,0.29258609
+Paraguay,1870,0.29258609
+Paraguay,1871,0.56834149
+Paraguay,1872,0.56834149
+Paraguay,1873,0.56834149
+Paraguay,1874,0.56834149
+Paraguay,1875,0.56834149
+Paraguay,1876,0.56834149
+Paraguay,1877,0.56834149
+Paraguay,1878,0.56834149
+Paraguay,1879,0.43749723
+Paraguay,1880,0.3066529
+Paraguay,1881,0.3066529
+Paraguay,1882,0.43749723
+Paraguay,1883,0.43749723
+Paraguay,1884,0.43749723
+Paraguay,1885,0.43749723
+Paraguay,1886,0.43749723
+Paraguay,1887,0.43749723
+Paraguay,1888,0.43749723
+Paraguay,1889,0.43749723
+Paraguay,1890,0.43749723
+Paraguay,1891,0.43749723
+Paraguay,1892,0.43749723
+Paraguay,1893,0.43749723
+Paraguay,1894,0.43749723
+Paraguay,1895,0.43749723
+Paraguay,1896,0.43749723
+Paraguay,1897,0.43749723
+Paraguay,1898,0.43749723
+Paraguay,1899,0.43749723
+Paraguay,1900,0.4811992
+Paraguay,1901,0.4811992
+Paraguay,1902,0.4811992
+Paraguay,1903,0.4811992
+Paraguay,1904,0.4811992
+Paraguay,1905,0.4811992
+Paraguay,1906,0.4811992
+Paraguay,1907,0.4811992
+Paraguay,1908,0.4811992
+Paraguay,1909,0.4811992
+Paraguay,1910,0.4811992
+Paraguay,1911,0.4811992
+Paraguay,1912,0.4811992
+Paraguay,1913,0.4811992
+Paraguay,1914,0.4811992
+Paraguay,1915,0.4811992
+Paraguay,1916,0.4811992
+Paraguay,1917,0.4811992
+Paraguay,1918,0.4811992
+Paraguay,1919,0.4811992
+Paraguay,1920,0.4811992
+Paraguay,1921,0.46366608
+Paraguay,1922,0.46366608
+Paraguay,1923,0.46366608
+Paraguay,1924,0.46366608
+Paraguay,1925,0.46366608
+Paraguay,1926,0.46366608
+Paraguay,1927,0.46366608
+Paraguay,1928,0.46366608
+Paraguay,1929,0.46366608
+Paraguay,1930,0.46366608
+Paraguay,1931,0.46366608
+Paraguay,1932,0.46366608
+Paraguay,1933,0.46366608
+Paraguay,1934,0.46366608
+Paraguay,1935,0.46366608
+Paraguay,1936,0.3066529
+Paraguay,1937,0.43749723
+Paraguay,1938,0.43749723
+Paraguay,1939,0.43749723
+Paraguay,1940,0.37224483
+Paraguay,1941,0.24140052
+Paraguay,1942,0.24140052
+Paraguay,1943,0.24140052
+Paraguay,1944,0.37224483
+Paraguay,1945,0.37224483
+Paraguay,1946,0.38705522
+Paraguay,1947,0.34504059
+Paraguay,1948,0.34504059
+Paraguay,1949,0.34504059
+Paraguay,1950,0.34504059
+Paraguay,1951,0.34504059
+Paraguay,1952,0.34504059
+Paraguay,1953,0.30974269
+Paraguay,1954,0.33591154
+Paraguay,1955,0.3620804
+Paraguay,1956,0.3620804
+Paraguay,1957,0.3620804
+Paraguay,1958,0.3620804
+Paraguay,1959,0.3620804
+Paraguay,1960,0.3620804
+Paraguay,1961,0.3620804
+Paraguay,1962,0.37404668
+Paraguay,1963,0.3936772
+Paraguay,1964,0.4136458
+Paraguay,1965,0.4136458
+Paraguay,1966,0.4136458
+Paraguay,1967,0.4136458
+Paraguay,1968,0.4136458
+Paraguay,1969,0.4136458
+Paraguay,1970,0.4136458
+Paraguay,1971,0.4136458
+Paraguay,1972,0.4136458
+Paraguay,1973,0.4136458
+Paraguay,1974,0.4136458
+Paraguay,1975,0.4136458
+Paraguay,1976,0.4136458
+Paraguay,1977,0.4136458
+Paraguay,1978,0.4136458
+Paraguay,1979,0.4136458
+Paraguay,1980,0.4136458
+Paraguay,1981,0.4136458
+Paraguay,1982,0.4136458
+Paraguay,1983,0.38747698
+Paraguay,1984,0.38747698
+Paraguay,1985,0.38747698
+Paraguay,1986,0.38747698
+Paraguay,1987,0.38747698
+Paraguay,1988,0.38747698
+Paraguay,1989,0.4700422
+Paraguay,1990,0.63339049
+Paraguay,1991,0.67047948
+Paraguay,1992,0.67047948
+Paraguay,1993,0.70735008
+Paraguay,1994,0.70735008
+Paraguay,1995,0.70735008
+Paraguay,1996,0.70735008
+Paraguay,1997,0.7136845
+Paraguay,1998,0.7136845
+Paraguay,1999,0.7136845
+Paraguay,2000,0.7136845
+Paraguay,2001,0.73985332
+Paraguay,2002,0.73985332
+Paraguay,2003,0.73985332
+Paraguay,2004,0.73985332
+Paraguay,2005,0.78277028
+Paraguay,2006,0.78277028
+Paraguay,2007,0.78277028
+Paraguay,2008,0.80389494
+Paraguay,2009,0.81495392
+Paraguay,2010,0.81495392
+Paraguay,2011,0.80984271
+Paraguay,2012,0.79069269
+Paraguay,2013,0.78617567
+Paraguay,2014,0.78617567
+Paraguay,2015,0.7691378
+Paraguay,2016,0.77855861
+Paraguay,2017,0.77855861
+Paraguay,2018,0.77225435
+Paraguay,2019,0.76515347
+Paraguay,2020,0.74413687
+Chile,1789,0.31323186
+Chile,1790,0.31323186
+Chile,1791,0.31323186
+Chile,1792,0.31323186
+Chile,1793,0.31323186
+Chile,1794,0.31323186
+Chile,1795,0.31323186
+Chile,1796,0.31323186
+Chile,1797,0.31323186
+Chile,1798,0.31323186
+Chile,1799,0.31323186
+Chile,1800,0.31323186
+Chile,1801,0.31323186
+Chile,1802,0.31323186
+Chile,1803,0.31323186
+Chile,1804,0.31323186
+Chile,1805,0.31323186
+Chile,1806,0.31323186
+Chile,1807,0.31323186
+Chile,1808,0.31323186
+Chile,1809,0.31323186
+Chile,1810,0.3415508
+Chile,1811,0.3415508
+Chile,1812,0.3415508
+Chile,1813,0.3415508
+Chile,1814,0.47239509
+Chile,1815,0.47239509
+Chile,1816,0.47239509
+Chile,1817,0.3415508
+Chile,1818,0.3415508
+Chile,1819,0.3415508
+Chile,1820,0.3415508
+Chile,1821,0.3415508
+Chile,1822,0.3415508
+Chile,1823,0.3415508
+Chile,1824,0.3415508
+Chile,1825,0.42028973
+Chile,1826,0.42028973
+Chile,1827,0.42028973
+Chile,1828,0.42028973
+Chile,1829,0.42028973
+Chile,1830,0.34068316
+Chile,1831,0.34068316
+Chile,1832,0.34068316
+Chile,1833,0.45706144
+Chile,1834,0.45706144
+Chile,1835,0.45706144
+Chile,1836,0.45706144
+Chile,1837,0.45706144
+Chile,1838,0.45706144
+Chile,1839,0.45706144
+Chile,1840,0.45706144
+Chile,1841,0.45706144
+Chile,1842,0.45706144
+Chile,1843,0.45706144
+Chile,1844,0.45706144
+Chile,1845,0.45706144
+Chile,1846,0.45706144
+Chile,1847,0.45706144
+Chile,1848,0.45706144
+Chile,1849,0.45706144
+Chile,1850,0.58511853
+Chile,1851,0.58511853
+Chile,1852,0.58511853
+Chile,1853,0.58511853
+Chile,1854,0.58511853
+Chile,1855,0.58511853
+Chile,1856,0.58511853
+Chile,1857,0.58511853
+Chile,1858,0.58511853
+Chile,1859,0.58511853
+Chile,1860,0.58511853
+Chile,1861,0.58511853
+Chile,1862,0.58511853
+Chile,1863,0.58511853
+Chile,1864,0.58511853
+Chile,1865,0.58511853
+Chile,1866,0.58511853
+Chile,1867,0.58511853
+Chile,1868,0.58511853
+Chile,1869,0.58511853
+Chile,1870,0.58511853
+Chile,1871,0.58511853
+Chile,1872,0.58511853
+Chile,1873,0.58511853
+Chile,1874,0.58511853
+Chile,1875,0.58511853
+Chile,1876,0.58511853
+Chile,1877,0.58511853
+Chile,1878,0.58511853
+Chile,1879,0.58511853
+Chile,1880,0.58511853
+Chile,1881,0.58511853
+Chile,1882,0.58511853
+Chile,1883,0.58511853
+Chile,1884,0.58511853
+Chile,1885,0.58511853
+Chile,1886,0.58511853
+Chile,1887,0.58511853
+Chile,1888,0.58511853
+Chile,1889,0.58511853
+Chile,1890,0.58511853
+Chile,1891,0.58511853
+Chile,1892,0.58511853
+Chile,1893,0.58511853
+Chile,1894,0.58511853
+Chile,1895,0.58511853
+Chile,1896,0.58511853
+Chile,1897,0.58511853
+Chile,1898,0.58511853
+Chile,1899,0.58511853
+Chile,1900,0.66362512
+Chile,1901,0.66362512
+Chile,1902,0.66362512
+Chile,1903,0.66362512
+Chile,1904,0.66362512
+Chile,1905,0.66362512
+Chile,1906,0.66362512
+Chile,1907,0.66362512
+Chile,1908,0.66362512
+Chile,1909,0.66362512
+Chile,1910,0.66362512
+Chile,1911,0.66362512
+Chile,1912,0.66362512
+Chile,1913,0.66362512
+Chile,1914,0.66362512
+Chile,1915,0.66362512
+Chile,1916,0.66362512
+Chile,1917,0.66362512
+Chile,1918,0.66362512
+Chile,1919,0.66362512
+Chile,1920,0.66362512
+Chile,1921,0.68325174
+Chile,1922,0.68325174
+Chile,1923,0.68325174
+Chile,1924,0.55240744
+Chile,1925,0.66091096
+Chile,1926,0.65209585
+Chile,1927,0.63125783
+Chile,1928,0.61719167
+Chile,1929,0.61719167
+Chile,1930,0.61719167
+Chile,1931,0.62841886
+Chile,1932,0.71065336
+Chile,1933,0.83367741
+Chile,1934,0.83367741
+Chile,1935,0.83367741
+Chile,1936,0.83367741
+Chile,1937,0.83367741
+Chile,1938,0.83367741
+Chile,1939,0.83367741
+Chile,1940,0.83367741
+Chile,1941,0.83367741
+Chile,1942,0.83367741
+Chile,1943,0.83367741
+Chile,1944,0.83367741
+Chile,1945,0.83367741
+Chile,1946,0.83367741
+Chile,1947,0.83367741
+Chile,1948,0.83367741
+Chile,1949,0.80858964
+Chile,1950,0.80858964
+Chile,1951,0.80858964
+Chile,1952,0.80858964
+Chile,1953,0.80858964
+Chile,1954,0.80858964
+Chile,1955,0.80858964
+Chile,1956,0.80858964
+Chile,1957,0.80858964
+Chile,1958,0.83309126
+Chile,1959,0.83309126
+Chile,1960,0.83309126
+Chile,1961,0.83309126
+Chile,1962,0.83309126
+Chile,1963,0.83309126
+Chile,1964,0.83309126
+Chile,1965,0.83309126
+Chile,1966,0.83309126
+Chile,1967,0.83309126
+Chile,1968,0.80038017
+Chile,1969,0.80038017
+Chile,1970,0.81433481
+Chile,1971,0.78162378
+Chile,1972,0.78162378
+Chile,1973,0.58891517
+Chile,1974,0.34004226
+Chile,1975,0.34004226
+Chile,1976,0.34004226
+Chile,1977,0.34004226
+Chile,1978,0.34004226
+Chile,1979,0.34004226
+Chile,1980,0.34004226
+Chile,1981,0.34004226
+Chile,1982,0.34004226
+Chile,1983,0.34004226
+Chile,1984,0.3576844
+Chile,1985,0.3576844
+Chile,1986,0.3576844
+Chile,1987,0.3576844
+Chile,1988,0.50877166
+Chile,1989,0.66470808
+Chile,1990,0.90800095
+Chile,1991,0.90800095
+Chile,1992,0.90800095
+Chile,1993,0.93416977
+Chile,1994,0.93416977
+Chile,1995,0.93416977
+Chile,1996,0.93416977
+Chile,1997,0.93416977
+Chile,1998,0.96033865
+Chile,1999,0.96033865
+Chile,2000,0.96033865
+Chile,2001,0.96033865
+Chile,2002,0.96033865
+Chile,2003,0.96033865
+Chile,2004,0.96033865
+Chile,2005,0.96033865
+Chile,2006,0.96033865
+Chile,2007,0.96033865
+Chile,2008,0.96033865
+Chile,2009,0.94454026
+Chile,2010,0.95882028
+Chile,2011,0.95882028
+Chile,2012,0.95882028
+Chile,2013,0.95882028
+Chile,2014,0.95882028
+Chile,2015,0.96413481
+Chile,2016,0.96413481
+Chile,2017,0.96413481
+Chile,2018,0.96413481
+Chile,2019,0.95710087
+Chile,2020,0.93791378
+Argentina,1789,0.13084428
+Argentina,1790,0.13084428
+Argentina,1791,0.13084428
+Argentina,1792,0.13084428
+Argentina,1793,0.13084428
+Argentina,1794,0.13084428
+Argentina,1795,0.13084428
+Argentina,1796,0.13084428
+Argentina,1797,0.13084428
+Argentina,1798,0.13084428
+Argentina,1799,0.13084428
+Argentina,1800,0.13084428
+Argentina,1801,0.13084428
+Argentina,1802,0.13084428
+Argentina,1803,0.13084428
+Argentina,1804,0.13084428
+Argentina,1805,0.13084428
+Argentina,1806,0.13084428
+Argentina,1807,0.13084428
+Argentina,1808,0.13084428
+Argentina,1809,0.13084428
+Argentina,1810,0.25047845
+Argentina,1811,0.38132274
+Argentina,1812,0.38132274
+Argentina,1813,0.38132274
+Argentina,1814,0.38132274
+Argentina,1815,0.38132274
+Argentina,1816,0.38132274
+Argentina,1817,0.38132274
+Argentina,1818,0.38132274
+Argentina,1819,0.38132274
+Argentina,1820,0.38132274
+Argentina,1821,0.38132274
+Argentina,1822,0.38132274
+Argentina,1823,0.38132274
+Argentina,1824,0.38132274
+Argentina,1825,0.38132274
+Argentina,1826,0.38132274
+Argentina,1827,0.38132274
+Argentina,1828,0.25047845
+Argentina,1829,0.38132274
+Argentina,1830,0.38132274
+Argentina,1831,0.38132274
+Argentina,1832,0.38132274
+Argentina,1833,0.25047845
+Argentina,1834,0.38132274
+Argentina,1835,0.38132274
+Argentina,1836,0.38132274
+Argentina,1837,0.38132274
+Argentina,1838,0.38132274
+Argentina,1839,0.38132274
+Argentina,1840,0.38132274
+Argentina,1841,0.38132274
+Argentina,1842,0.38132274
+Argentina,1843,0.38132274
+Argentina,1844,0.38132274
+Argentina,1845,0.38132274
+Argentina,1846,0.38132274
+Argentina,1847,0.38132274
+Argentina,1848,0.38132274
+Argentina,1849,0.38132274
+Argentina,1850,0.38132274
+Argentina,1851,0.38132274
+Argentina,1852,0.25047845
+Argentina,1853,0.25047845
+Argentina,1854,0.38132274
+Argentina,1855,0.38132274
+Argentina,1856,0.38132274
+Argentina,1857,0.38132274
+Argentina,1858,0.38132274
+Argentina,1859,0.38132274
+Argentina,1860,0.38132274
+Argentina,1861,0.4369781
+Argentina,1862,0.50176871
+Argentina,1863,0.50176871
+Argentina,1864,0.50176871
+Argentina,1865,0.50176871
+Argentina,1866,0.50176871
+Argentina,1867,0.50176871
+Argentina,1868,0.50176871
+Argentina,1869,0.50176871
+Argentina,1870,0.50176871
+Argentina,1871,0.50176871
+Argentina,1872,0.50176871
+Argentina,1873,0.50176871
+Argentina,1874,0.50176871
+Argentina,1875,0.50176871
+Argentina,1876,0.50176871
+Argentina,1877,0.50176871
+Argentina,1878,0.50176871
+Argentina,1879,0.50176871
+Argentina,1880,0.50176871
+Argentina,1881,0.50176871
+Argentina,1882,0.50176871
+Argentina,1883,0.50176871
+Argentina,1884,0.50176871
+Argentina,1885,0.50176871
+Argentina,1886,0.50176871
+Argentina,1887,0.50176871
+Argentina,1888,0.50176871
+Argentina,1889,0.50176871
+Argentina,1890,0.50176871
+Argentina,1891,0.50176871
+Argentina,1892,0.50176871
+Argentina,1893,0.50176871
+Argentina,1894,0.50176871
+Argentina,1895,0.50176871
+Argentina,1896,0.50176871
+Argentina,1897,0.50176871
+Argentina,1898,0.50176871
+Argentina,1899,0.50176871
+Argentina,1900,0.588911
+Argentina,1901,0.588911
+Argentina,1902,0.588911
+Argentina,1903,0.588911
+Argentina,1904,0.588911
+Argentina,1905,0.56719083
+Argentina,1906,0.56719083
+Argentina,1907,0.588911
+Argentina,1908,0.588911
+Argentina,1909,0.588911
+Argentina,1910,0.588911
+Argentina,1911,0.588911
+Argentina,1912,0.73502326
+Argentina,1913,0.73502326
+Argentina,1914,0.73502326
+Argentina,1915,0.73502326
+Argentina,1916,0.73502326
+Argentina,1917,0.75403917
+Argentina,1918,0.75403917
+Argentina,1919,0.75403917
+Argentina,1920,0.75403917
+Argentina,1921,0.74540347
+Argentina,1922,0.74540347
+Argentina,1923,0.74540347
+Argentina,1924,0.74540347
+Argentina,1925,0.74540347
+Argentina,1926,0.74540347
+Argentina,1927,0.74540347
+Argentina,1928,0.74540347
+Argentina,1929,0.74540347
+Argentina,1930,0.40881407
+Argentina,1931,0.35206532
+Argentina,1932,0.51890004
+Argentina,1933,0.57471347
+Argentina,1934,0.57471347
+Argentina,1935,0.57471347
+Argentina,1936,0.57471347
+Argentina,1937,0.57471347
+Argentina,1938,0.57471347
+Argentina,1939,0.57471347
+Argentina,1940,0.59011424
+Argentina,1941,0.59011424
+Argentina,1942,0.59011424
+Argentina,1943,0.4241392
+Argentina,1944,0.39797038
+Argentina,1945,0.37866622
+Argentina,1946,0.69412589
+Argentina,1947,0.71068269
+Argentina,1948,0.71068269
+Argentina,1949,0.70255458
+Argentina,1950,0.68453985
+Argentina,1951,0.68453985
+Argentina,1952,0.68453985
+Argentina,1953,0.67801386
+Argentina,1954,0.67801386
+Argentina,1955,0.49817005
+Argentina,1956,0.40928802
+Argentina,1957,0.40928802
+Argentina,1958,0.62111574
+Argentina,1959,0.59494686
+Argentina,1960,0.60572016
+Argentina,1961,0.60572016
+Argentina,1962,0.47487587
+Argentina,1963,0.64387226
+Argentina,1964,0.64387226
+Argentina,1965,0.65833098
+Argentina,1966,0.31926244
+Argentina,1967,0.286134
+Argentina,1968,0.286134
+Argentina,1969,0.286134
+Argentina,1970,0.286134
+Argentina,1971,0.286134
+Argentina,1972,0.286134
+Argentina,1973,0.69413006
+Argentina,1974,0.73234904
+Argentina,1975,0.70618021
+Argentina,1976,0.3321726
+Argentina,1977,0.27109441
+Argentina,1978,0.27109441
+Argentina,1979,0.27109441
+Argentina,1980,0.27109441
+Argentina,1981,0.27109441
+Argentina,1982,0.27109441
+Argentina,1983,0.66516447
+Argentina,1984,0.84749955
+Argentina,1985,0.84749955
+Argentina,1986,0.84749955
+Argentina,1987,0.84749955
+Argentina,1988,0.84749955
+Argentina,1989,0.84749955
+Argentina,1990,0.84749955
+Argentina,1991,0.84749955
+Argentina,1992,0.84749955
+Argentina,1993,0.84749955
+Argentina,1994,0.87366837
+Argentina,1995,0.87366837
+Argentina,1996,0.87366837
+Argentina,1997,0.87366837
+Argentina,1998,0.87366837
+Argentina,1999,0.87366837
+Argentina,2000,0.84749955
+Argentina,2001,0.82133067
+Argentina,2002,0.79516184
+Argentina,2003,0.82133067
+Argentina,2004,0.79577124
+Argentina,2005,0.84156674
+Argentina,2006,0.84156674
+Argentina,2007,0.84156674
+Argentina,2008,0.8350594
+Argentina,2009,0.8350594
+Argentina,2010,0.8350594
+Argentina,2011,0.8350594
+Argentina,2012,0.8350594
+Argentina,2013,0.86475682
+Argentina,2014,0.86475682
+Argentina,2015,0.86475682
+Argentina,2016,0.87075806
+Argentina,2017,0.87910914
+Argentina,2018,0.8769871
+Argentina,2019,0.86230874
+Argentina,2020,0.88170511
+Uruguay,1825,0.5623073
+Uruguay,1826,0.5623073
+Uruguay,1827,0.5623073
+Uruguay,1828,0.69315159
+Uruguay,1829,0.69315159
+Uruguay,1830,0.69315159
+Uruguay,1831,0.69315159
+Uruguay,1832,0.69315159
+Uruguay,1833,0.69315159
+Uruguay,1834,0.69315159
+Uruguay,1835,0.69315159
+Uruguay,1836,0.69315159
+Uruguay,1837,0.69315159
+Uruguay,1838,0.69315159
+Uruguay,1839,0.69315159
+Uruguay,1840,0.69315159
+Uruguay,1841,0.69315159
+Uruguay,1842,0.69315159
+Uruguay,1843,0.69315159
+Uruguay,1844,0.69315159
+Uruguay,1845,0.69315159
+Uruguay,1846,0.69315159
+Uruguay,1847,0.69315159
+Uruguay,1848,0.69315159
+Uruguay,1849,0.69315159
+Uruguay,1850,0.69315159
+Uruguay,1851,0.69315159
+Uruguay,1852,0.69315159
+Uruguay,1853,0.5623073
+Uruguay,1854,0.69315159
+Uruguay,1855,0.69315159
+Uruguay,1856,0.69315159
+Uruguay,1857,0.69315159
+Uruguay,1858,0.69315159
+Uruguay,1859,0.69315159
+Uruguay,1860,0.69315159
+Uruguay,1861,0.69315159
+Uruguay,1862,0.69315159
+Uruguay,1863,0.69315159
+Uruguay,1864,0.69315159
+Uruguay,1865,0.5623073
+Uruguay,1866,0.5623073
+Uruguay,1867,0.5623073
+Uruguay,1868,0.69315159
+Uruguay,1869,0.69315159
+Uruguay,1870,0.69315159
+Uruguay,1871,0.69315159
+Uruguay,1872,0.69315159
+Uruguay,1873,0.69315159
+Uruguay,1874,0.69315159
+Uruguay,1875,0.69315159
+Uruguay,1876,0.431463
+Uruguay,1877,0.431463
+Uruguay,1878,0.431463
+Uruguay,1879,0.431463
+Uruguay,1880,0.5623073
+Uruguay,1881,0.5623073
+Uruguay,1882,0.5623073
+Uruguay,1883,0.5623073
+Uruguay,1884,0.5623073
+Uruguay,1885,0.5623073
+Uruguay,1886,0.5623073
+Uruguay,1887,0.5623073
+Uruguay,1888,0.5623073
+Uruguay,1889,0.5623073
+Uruguay,1890,0.5623073
+Uruguay,1891,0.5623073
+Uruguay,1892,0.5623073
+Uruguay,1893,0.5623073
+Uruguay,1894,0.5623073
+Uruguay,1895,0.5623073
+Uruguay,1896,0.5623073
+Uruguay,1897,0.5623073
+Uruguay,1898,0.5623073
+Uruguay,1899,0.5623073
+Uruguay,1900,0.66698271
+Uruguay,1901,0.66698271
+Uruguay,1902,0.66698271
+Uruguay,1903,0.66698271
+Uruguay,1904,0.66698271
+Uruguay,1905,0.66698271
+Uruguay,1906,0.66698271
+Uruguay,1907,0.66698271
+Uruguay,1908,0.66698271
+Uruguay,1909,0.66698271
+Uruguay,1910,0.66698271
+Uruguay,1911,0.66698271
+Uruguay,1912,0.72722507
+Uruguay,1913,0.72722507
+Uruguay,1914,0.72722507
+Uruguay,1915,0.74461192
+Uruguay,1916,0.75011629
+Uruguay,1917,0.78663868
+Uruguay,1918,0.82302874
+Uruguay,1919,0.82302874
+Uruguay,1920,0.82302874
+Uruguay,1921,0.80481184
+Uruguay,1922,0.80481184
+Uruguay,1923,0.80481184
+Uruguay,1924,0.83049893
+Uruguay,1925,0.87781036
+Uruguay,1926,0.87781036
+Uruguay,1927,0.87781036
+Uruguay,1928,0.87781036
+Uruguay,1929,0.87781036
+Uruguay,1930,0.87781036
+Uruguay,1931,0.87781036
+Uruguay,1932,0.87781036
+Uruguay,1933,0.8641088
+Uruguay,1934,0.70622313
+Uruguay,1935,0.70622313
+Uruguay,1936,0.70622313
+Uruguay,1937,0.70622313
+Uruguay,1938,0.83706743
+Uruguay,1939,0.83706743
+Uruguay,1940,0.83706743
+Uruguay,1941,0.83706743
+Uruguay,1942,0.86421752
+Uruguay,1943,0.87208092
+Uruguay,1944,0.87208092
+Uruguay,1945,0.87208092
+Uruguay,1946,0.90484512
+Uruguay,1947,0.90484512
+Uruguay,1948,0.90484512
+Uruguay,1949,0.90484512
+Uruguay,1950,0.90484512
+Uruguay,1951,0.90484512
+Uruguay,1952,0.90484512
+Uruguay,1953,0.90484512
+Uruguay,1954,0.90484512
+Uruguay,1955,0.90484512
+Uruguay,1956,0.90484512
+Uruguay,1957,0.90484512
+Uruguay,1958,0.90484512
+Uruguay,1959,0.90484512
+Uruguay,1960,0.90484512
+Uruguay,1961,0.90484512
+Uruguay,1962,0.90484512
+Uruguay,1963,0.90484512
+Uruguay,1964,0.87867624
+Uruguay,1965,0.87867624
+Uruguay,1966,0.85250741
+Uruguay,1967,0.82633853
+Uruguay,1968,0.82633853
+Uruguay,1969,0.82633853
+Uruguay,1970,0.82633853
+Uruguay,1971,0.82633853
+Uruguay,1972,0.82633853
+Uruguay,1973,0.52352238
+Uruguay,1974,0.40533027
+Uruguay,1975,0.40533027
+Uruguay,1976,0.40533027
+Uruguay,1977,0.40533027
+Uruguay,1978,0.40533027
+Uruguay,1979,0.40533027
+Uruguay,1980,0.40533027
+Uruguay,1981,0.40533027
+Uruguay,1982,0.42776078
+Uruguay,1983,0.42776078
+Uruguay,1984,0.42776078
+Uruguay,1985,0.82304168
+Uruguay,1986,0.8492105
+Uruguay,1987,0.8492105
+Uruguay,1988,0.8492105
+Uruguay,1989,0.8492105
+Uruguay,1990,0.92771709
+Uruguay,1991,0.92771709
+Uruguay,1992,0.92771709
+Uruguay,1993,0.92771709
+Uruguay,1994,0.92771709
+Uruguay,1995,0.92771709
+Uruguay,1996,0.92771709
+Uruguay,1997,0.92771709
+Uruguay,1998,0.92771709
+Uruguay,1999,0.92771709
+Uruguay,2000,0.92771709
+Uruguay,2001,0.92771709
+Uruguay,2002,0.92771709
+Uruguay,2003,0.92771709
+Uruguay,2004,0.92771709
+Uruguay,2005,0.90913725
+Uruguay,2006,0.90913725
+Uruguay,2007,0.90913725
+Uruguay,2008,0.90913725
+Uruguay,2009,0.90913725
+Uruguay,2010,0.89500606
+Uruguay,2011,0.89500606
+Uruguay,2012,0.89500606
+Uruguay,2013,0.89029562
+Uruguay,2014,0.89029562
+Uruguay,2015,0.90390348
+Uruguay,2016,0.90390348
+Uruguay,2017,0.90172297
+Uruguay,2018,0.91202319
+Uruguay,2019,0.90103227
+Uruguay,2020,0.87931216
+United Kingdom,1789,0.70407975
+United Kingdom,1790,0.84230077
+United Kingdom,1791,0.70407975
+United Kingdom,1792,0.70407975
+United Kingdom,1793,0.70407975
+United Kingdom,1794,0.70407975
+United Kingdom,1795,0.70407975
+United Kingdom,1796,0.84396082
+United Kingdom,1797,0.70407975
+United Kingdom,1798,0.70407975
+United Kingdom,1799,0.70407975
+United Kingdom,1800,0.70407975
+United Kingdom,1801,0.84361136
+United Kingdom,1802,0.84361136
+United Kingdom,1803,0.70407975
+United Kingdom,1804,0.70407975
+United Kingdom,1805,0.70407975
+United Kingdom,1806,0.84251922
+United Kingdom,1807,0.84251922
+United Kingdom,1808,0.70407975
+United Kingdom,1809,0.70407975
+United Kingdom,1810,0.84286869
+United Kingdom,1811,0.70407975
+United Kingdom,1812,0.84356767
+United Kingdom,1813,0.70407975
+United Kingdom,1814,0.70407975
+United Kingdom,1815,0.70407975
+United Kingdom,1816,0.70407975
+United Kingdom,1817,0.70407975
+United Kingdom,1818,0.84339297
+United Kingdom,1819,0.70407975
+United Kingdom,1820,0.84396082
+United Kingdom,1821,0.70407975
+United Kingdom,1822,0.70407975
+United Kingdom,1823,0.70407975
+United Kingdom,1824,0.70407975
+United Kingdom,1825,0.70407975
+United Kingdom,1826,0.84081548
+United Kingdom,1827,0.70407975
+United Kingdom,1828,0.70407975
+United Kingdom,1829,0.70407975
+United Kingdom,1830,0.84282506
+United Kingdom,1831,0.84282506
+United Kingdom,1832,0.84282506
+United Kingdom,1833,0.70407975
+United Kingdom,1834,0.70407975
+United Kingdom,1835,0.84282506
+United Kingdom,1836,0.70407975
+United Kingdom,1837,0.84378612
+United Kingdom,1838,0.70407975
+United Kingdom,1839,0.70407975
+United Kingdom,1840,0.70407975
+United Kingdom,1841,0.84107763
+United Kingdom,1842,0.70407975
+United Kingdom,1843,0.70407975
+United Kingdom,1844,0.70407975
+United Kingdom,1845,0.70407975
+United Kingdom,1846,0.70407975
+United Kingdom,1847,0.84243184
+United Kingdom,1848,0.70407975
+United Kingdom,1849,0.70407975
+United Kingdom,1850,0.70407975
+United Kingdom,1851,0.70407975
+United Kingdom,1852,0.84369874
+United Kingdom,1853,0.70407975
+United Kingdom,1854,0.70407975
+United Kingdom,1855,0.70407975
+United Kingdom,1856,0.70407975
+United Kingdom,1857,0.84278136
+United Kingdom,1858,0.70407975
+United Kingdom,1859,0.84190762
+United Kingdom,1860,0.70407975
+United Kingdom,1861,0.70407975
+United Kingdom,1862,0.70407975
+United Kingdom,1863,0.70407975
+United Kingdom,1864,0.70407975
+United Kingdom,1865,0.84356767
+United Kingdom,1866,0.70407975
+United Kingdom,1867,0.70407975
+United Kingdom,1868,0.84208238
+United Kingdom,1869,0.70407975
+United Kingdom,1870,0.70407975
+United Kingdom,1871,0.70407975
+United Kingdom,1872,0.70407975
+United Kingdom,1873,0.70407975
+United Kingdom,1874,0.84099025
+United Kingdom,1875,0.70407975
+United Kingdom,1876,0.70407975
+United Kingdom,1877,0.70407975
+United Kingdom,1878,0.70407975
+United Kingdom,1879,0.70407975
+United Kingdom,1880,0.8432619
+United Kingdom,1881,0.70407975
+United Kingdom,1882,0.70407975
+United Kingdom,1883,0.70407975
+United Kingdom,1884,0.70407975
+United Kingdom,1885,0.84282506
+United Kingdom,1886,0.84282506
+United Kingdom,1887,0.70407975
+United Kingdom,1888,0.70407975
+United Kingdom,1889,0.70407975
+United Kingdom,1890,0.70407975
+United Kingdom,1891,0.70407975
+United Kingdom,1892,0.84317452
+United Kingdom,1893,0.70407975
+United Kingdom,1894,0.70407975
+United Kingdom,1895,0.84103394
+United Kingdom,1896,0.70407975
+United Kingdom,1897,0.70407975
+United Kingdom,1898,0.70407975
+United Kingdom,1899,0.70407975
+United Kingdom,1900,0.83595288
+United Kingdom,1901,0.83595288
+United Kingdom,1902,0.83595288
+United Kingdom,1903,0.83595288
+United Kingdom,1904,0.83595288
+United Kingdom,1905,0.83595288
+United Kingdom,1906,0.83595288
+United Kingdom,1907,0.83595288
+United Kingdom,1908,0.83595288
+United Kingdom,1909,0.83595288
+United Kingdom,1910,0.83595288
+United Kingdom,1911,0.83595288
+United Kingdom,1912,0.83595288
+United Kingdom,1913,0.83595288
+United Kingdom,1914,0.83595288
+United Kingdom,1915,0.83595288
+United Kingdom,1916,0.83595288
+United Kingdom,1917,0.83595288
+United Kingdom,1918,0.83595288
+United Kingdom,1919,0.84897119
+United Kingdom,1920,0.84897119
+United Kingdom,1921,0.84583092
+United Kingdom,1922,0.84583092
+United Kingdom,1923,0.84583092
+United Kingdom,1924,0.84583092
+United Kingdom,1925,0.84583092
+United Kingdom,1926,0.84583092
+United Kingdom,1927,0.84583092
+United Kingdom,1928,0.84583092
+United Kingdom,1929,0.84583092
+United Kingdom,1930,0.84583092
+United Kingdom,1931,0.84583092
+United Kingdom,1932,0.84583092
+United Kingdom,1933,0.84583092
+United Kingdom,1934,0.84583092
+United Kingdom,1935,0.84583092
+United Kingdom,1936,0.84583092
+United Kingdom,1937,0.84583092
+United Kingdom,1938,0.84583092
+United Kingdom,1939,0.84583092
+United Kingdom,1940,0.84583092
+United Kingdom,1941,0.84583092
+United Kingdom,1942,0.84583092
+United Kingdom,1943,0.84583092
+United Kingdom,1944,0.84583092
+United Kingdom,1945,0.84583092
+United Kingdom,1946,0.84583092
+United Kingdom,1947,0.84583092
+United Kingdom,1948,0.84583092
+United Kingdom,1949,0.84583092
+United Kingdom,1950,0.84583092
+United Kingdom,1951,0.84583092
+United Kingdom,1952,0.84583092
+United Kingdom,1953,0.84583092
+United Kingdom,1954,0.84583092
+United Kingdom,1955,0.84583092
+United Kingdom,1956,0.84583092
+United Kingdom,1957,0.84583092
+United Kingdom,1958,0.84583092
+United Kingdom,1959,0.84583092
+United Kingdom,1960,0.84583092
+United Kingdom,1961,0.84583092
+United Kingdom,1962,0.84583092
+United Kingdom,1963,0.84583092
+United Kingdom,1964,0.84583092
+United Kingdom,1965,0.84583092
+United Kingdom,1966,0.84583092
+United Kingdom,1967,0.84583092
+United Kingdom,1968,0.84583092
+United Kingdom,1969,0.84583092
+United Kingdom,1970,0.84583092
+United Kingdom,1971,0.84583092
+United Kingdom,1972,0.84583092
+United Kingdom,1973,0.84583092
+United Kingdom,1974,0.84583092
+United Kingdom,1975,0.84583092
+United Kingdom,1976,0.84583092
+United Kingdom,1977,0.84583092
+United Kingdom,1978,0.84583092
+United Kingdom,1979,0.84583092
+United Kingdom,1980,0.85417485
+United Kingdom,1981,0.85417485
+United Kingdom,1982,0.85417485
+United Kingdom,1983,0.85417485
+United Kingdom,1984,0.85417485
+United Kingdom,1985,0.85417485
+United Kingdom,1986,0.85417485
+United Kingdom,1987,0.85417485
+United Kingdom,1988,0.85417485
+United Kingdom,1989,0.85417485
+United Kingdom,1990,0.85417485
+United Kingdom,1991,0.85417485
+United Kingdom,1992,0.85417485
+United Kingdom,1993,0.85417485
+United Kingdom,1994,0.85417485
+United Kingdom,1995,0.85417485
+United Kingdom,1996,0.85417485
+United Kingdom,1997,0.85417485
+United Kingdom,1998,0.87016374
+United Kingdom,1999,0.87016374
+United Kingdom,2000,0.92516381
+United Kingdom,2001,0.92516381
+United Kingdom,2002,0.92516381
+United Kingdom,2003,0.92516381
+United Kingdom,2004,0.92516381
+United Kingdom,2005,0.91678977
+United Kingdom,2006,0.91678977
+United Kingdom,2007,0.91678977
+United Kingdom,2008,0.91678977
+United Kingdom,2009,0.91678977
+United Kingdom,2010,0.91678977
+United Kingdom,2011,0.91678977
+United Kingdom,2012,0.91678977
+United Kingdom,2013,0.90763068
+United Kingdom,2014,0.90540272
+United Kingdom,2015,0.89408815
+United Kingdom,2016,0.89408815
+United Kingdom,2017,0.8803345
+United Kingdom,2018,0.88762999
+United Kingdom,2019,0.91667742
+United Kingdom,2020,0.90139085
+Ireland,1919,0.67401171
+Ireland,1920,0.69847429
+Ireland,1921,0.69847429
+Ireland,1922,0.79703593
+Ireland,1923,0.79072154
+Ireland,1924,0.82249159
+Ireland,1925,0.82249159
+Ireland,1926,0.82249159
+Ireland,1927,0.82249159
+Ireland,1928,0.82249159
+Ireland,1929,0.82249159
+Ireland,1930,0.82249159
+Ireland,1931,0.82249159
+Ireland,1932,0.82249159
+Ireland,1933,0.82249159
+Ireland,1934,0.82249159
+Ireland,1935,0.82249159
+Ireland,1936,0.82249159
+Ireland,1937,0.82249159
+Ireland,1938,0.82249159
+Ireland,1939,0.82249159
+Ireland,1940,0.82249159
+Ireland,1941,0.82249159
+Ireland,1942,0.82249159
+Ireland,1943,0.82249159
+Ireland,1944,0.82249159
+Ireland,1945,0.82249159
+Ireland,1946,0.82249159
+Ireland,1947,0.82249159
+Ireland,1948,0.82249159
+Ireland,1949,0.82249159
+Ireland,1950,0.82249159
+Ireland,1951,0.82249159
+Ireland,1952,0.82249159
+Ireland,1953,0.82249159
+Ireland,1954,0.82249159
+Ireland,1955,0.82249159
+Ireland,1956,0.82249159
+Ireland,1957,0.82249159
+Ireland,1958,0.82249159
+Ireland,1959,0.82249159
+Ireland,1960,0.82249159
+Ireland,1961,0.82249159
+Ireland,1962,0.82249159
+Ireland,1963,0.82249159
+Ireland,1964,0.82249159
+Ireland,1965,0.82249159
+Ireland,1966,0.82249159
+Ireland,1967,0.82249159
+Ireland,1968,0.82249159
+Ireland,1969,0.82249159
+Ireland,1970,0.82249159
+Ireland,1971,0.82249159
+Ireland,1972,0.82249159
+Ireland,1973,0.82249159
+Ireland,1974,0.82943761
+Ireland,1975,0.82943761
+Ireland,1976,0.82943761
+Ireland,1977,0.82943761
+Ireland,1978,0.82943761
+Ireland,1979,0.82943761
+Ireland,1980,0.82943761
+Ireland,1981,0.82943761
+Ireland,1982,0.82943761
+Ireland,1983,0.82943761
+Ireland,1984,0.82943761
+Ireland,1985,0.82943761
+Ireland,1986,0.82943761
+Ireland,1987,0.82943761
+Ireland,1988,0.82943761
+Ireland,1989,0.82943761
+Ireland,1990,0.82943761
+Ireland,1991,0.82943761
+Ireland,1992,0.82943761
+Ireland,1993,0.82943761
+Ireland,1994,0.82943761
+Ireland,1995,0.83039868
+Ireland,1996,0.83039868
+Ireland,1997,0.83039868
+Ireland,1998,0.83039868
+Ireland,1999,0.83039868
+Ireland,2000,0.83039868
+Ireland,2001,0.83039868
+Ireland,2002,0.83039868
+Ireland,2003,0.83039868
+Ireland,2004,0.83039868
+Ireland,2005,0.8243798
+Ireland,2006,0.8364175
+Ireland,2007,0.8364175
+Ireland,2008,0.8364175
+Ireland,2009,0.8364175
+Ireland,2010,0.8364175
+Ireland,2011,0.8364175
+Ireland,2012,0.8364175
+Ireland,2013,0.84662336
+Ireland,2014,0.84662336
+Ireland,2015,0.84662336
+Ireland,2016,0.84662336
+Ireland,2017,0.83039868
+Ireland,2018,0.83173686
+Ireland,2019,0.83173686
+Ireland,2020,0.84263009
+Netherlands,1789,0.3313235
+Netherlands,1790,0.3313235
+Netherlands,1791,0.3313235
+Netherlands,1792,0.3313235
+Netherlands,1793,0.3313235
+Netherlands,1794,0.3313235
+Netherlands,1795,0.57105744
+Netherlands,1796,0.57105744
+Netherlands,1797,0.57105744
+Netherlands,1798,0.44021317
+Netherlands,1799,0.44021317
+Netherlands,1800,0.44021317
+Netherlands,1801,0.54811066
+Netherlands,1802,0.54811066
+Netherlands,1803,0.54811066
+Netherlands,1804,0.54811066
+Netherlands,1805,0.60031271
+Netherlands,1806,0.60031271
+Netherlands,1807,0.60031271
+Netherlands,1808,0.60031271
+Netherlands,1809,0.60031271
+Netherlands,1810,0.60031271
+Netherlands,1813,0.57559472
+Netherlands,1814,0.57559472
+Netherlands,1815,0.47163576
+Netherlands,1816,0.47163576
+Netherlands,1817,0.47163576
+Netherlands,1818,0.47163576
+Netherlands,1819,0.47163576
+Netherlands,1820,0.47163576
+Netherlands,1821,0.47163576
+Netherlands,1822,0.47163576
+Netherlands,1823,0.47163576
+Netherlands,1824,0.47163576
+Netherlands,1825,0.47163576
+Netherlands,1826,0.47163576
+Netherlands,1827,0.47163576
+Netherlands,1828,0.47163576
+Netherlands,1829,0.47163576
+Netherlands,1830,0.34079146
+Netherlands,1831,0.34079146
+Netherlands,1832,0.34079146
+Netherlands,1833,0.34079146
+Netherlands,1834,0.34079146
+Netherlands,1835,0.34079146
+Netherlands,1836,0.34079146
+Netherlands,1837,0.34079146
+Netherlands,1838,0.34079146
+Netherlands,1839,0.34079146
+Netherlands,1840,0.51689398
+Netherlands,1841,0.51689398
+Netherlands,1842,0.51689398
+Netherlands,1843,0.51689398
+Netherlands,1844,0.51689398
+Netherlands,1845,0.51689398
+Netherlands,1846,0.51689398
+Netherlands,1847,0.51689398
+Netherlands,1848,0.63408351
+Netherlands,1849,0.66421092
+Netherlands,1850,0.66421092
+Netherlands,1851,0.66421092
+Netherlands,1852,0.66421092
+Netherlands,1853,0.66421092
+Netherlands,1854,0.66421092
+Netherlands,1855,0.66421092
+Netherlands,1856,0.66421092
+Netherlands,1857,0.66421092
+Netherlands,1858,0.66421092
+Netherlands,1859,0.66421092
+Netherlands,1860,0.66421092
+Netherlands,1861,0.66421092
+Netherlands,1862,0.66421092
+Netherlands,1863,0.66421092
+Netherlands,1864,0.66421092
+Netherlands,1865,0.66421092
+Netherlands,1866,0.66421092
+Netherlands,1867,0.66421092
+Netherlands,1868,0.66421092
+Netherlands,1869,0.66421092
+Netherlands,1870,0.66421092
+Netherlands,1871,0.66421092
+Netherlands,1872,0.66421092
+Netherlands,1873,0.66421092
+Netherlands,1874,0.66421092
+Netherlands,1875,0.66421092
+Netherlands,1876,0.66421092
+Netherlands,1877,0.66421092
+Netherlands,1878,0.66421092
+Netherlands,1879,0.66421092
+Netherlands,1880,0.66421092
+Netherlands,1881,0.66421092
+Netherlands,1882,0.66421092
+Netherlands,1883,0.66421092
+Netherlands,1884,0.66421092
+Netherlands,1885,0.66421092
+Netherlands,1886,0.66421092
+Netherlands,1887,0.66421092
+Netherlands,1888,0.73314375
+Netherlands,1889,0.73314375
+Netherlands,1890,0.73314375
+Netherlands,1891,0.73314375
+Netherlands,1892,0.73314375
+Netherlands,1893,0.73314375
+Netherlands,1894,0.73314375
+Netherlands,1895,0.73314375
+Netherlands,1896,0.73314375
+Netherlands,1897,0.73314375
+Netherlands,1898,0.73314375
+Netherlands,1899,0.73314375
+Netherlands,1900,0.84540814
+Netherlands,1901,0.84540814
+Netherlands,1902,0.84540814
+Netherlands,1903,0.84540814
+Netherlands,1904,0.84540814
+Netherlands,1905,0.84540814
+Netherlands,1906,0.84540814
+Netherlands,1907,0.84540814
+Netherlands,1908,0.84540814
+Netherlands,1909,0.84540814
+Netherlands,1910,0.84540814
+Netherlands,1911,0.84540814
+Netherlands,1912,0.84540814
+Netherlands,1913,0.84540814
+Netherlands,1914,0.84540814
+Netherlands,1915,0.84540814
+Netherlands,1916,0.84540814
+Netherlands,1917,0.84540814
+Netherlands,1918,0.85768378
+Netherlands,1919,0.85768378
+Netherlands,1920,0.85768378
+Netherlands,1921,0.87626362
+Netherlands,1922,0.87626362
+Netherlands,1923,0.87626362
+Netherlands,1924,0.87626362
+Netherlands,1925,0.87626362
+Netherlands,1926,0.87626362
+Netherlands,1927,0.87626362
+Netherlands,1928,0.87626362
+Netherlands,1929,0.87626362
+Netherlands,1930,0.87626362
+Netherlands,1931,0.87626362
+Netherlands,1932,0.87626362
+Netherlands,1933,0.87626362
+Netherlands,1934,0.87626362
+Netherlands,1935,0.87626362
+Netherlands,1936,0.87626362
+Netherlands,1937,0.87626362
+Netherlands,1938,0.87626362
+Netherlands,1939,0.87626362
+Netherlands,1940,0.7256524
+Netherlands,1941,0.7256524
+Netherlands,1942,0.7256524
+Netherlands,1943,0.7256524
+Netherlands,1944,0.7256524
+Netherlands,1945,0.64382452
+Netherlands,1946,0.89399129
+Netherlands,1947,0.89399129
+Netherlands,1948,0.89399129
+Netherlands,1949,0.89399129
+Netherlands,1950,0.89399129
+Netherlands,1951,0.89399129
+Netherlands,1952,0.89399129
+Netherlands,1953,0.89399129
+Netherlands,1954,0.89399129
+Netherlands,1955,0.89399129
+Netherlands,1956,0.91683882
+Netherlands,1957,0.91683882
+Netherlands,1958,0.91683882
+Netherlands,1959,0.91683882
+Netherlands,1960,0.91683882
+Netherlands,1961,0.91683882
+Netherlands,1962,0.91683882
+Netherlands,1963,0.91683882
+Netherlands,1964,0.91683882
+Netherlands,1965,0.91683882
+Netherlands,1966,0.91683882
+Netherlands,1967,0.91683882
+Netherlands,1968,0.91683882
+Netherlands,1969,0.91683882
+Netherlands,1970,0.91683882
+Netherlands,1971,0.91683882
+Netherlands,1972,0.93588573
+Netherlands,1973,0.93588573
+Netherlands,1974,0.93588573
+Netherlands,1975,0.93588573
+Netherlands,1976,0.93588573
+Netherlands,1977,0.93588573
+Netherlands,1978,0.93588573
+Netherlands,1979,0.93588573
+Netherlands,1980,0.93588573
+Netherlands,1981,0.93588573
+Netherlands,1982,0.93588573
+Netherlands,1983,0.93588573
+Netherlands,1984,0.93588573
+Netherlands,1985,0.93588573
+Netherlands,1986,0.93588573
+Netherlands,1987,0.93588573
+Netherlands,1988,0.93588573
+Netherlands,1989,0.93588573
+Netherlands,1990,0.93588573
+Netherlands,1991,0.93588573
+Netherlands,1992,0.93588573
+Netherlands,1993,0.93588573
+Netherlands,1994,0.93588573
+Netherlands,1995,0.93588573
+Netherlands,1996,0.93588573
+Netherlands,1997,0.93588573
+Netherlands,1998,0.93588573
+Netherlands,1999,0.93588573
+Netherlands,2000,0.93588573
+Netherlands,2001,0.93588573
+Netherlands,2002,0.93588573
+Netherlands,2003,0.93588573
+Netherlands,2004,0.93588573
+Netherlands,2005,0.91730583
+Netherlands,2006,0.93408108
+Netherlands,2007,0.93408108
+Netherlands,2008,0.93408108
+Netherlands,2009,0.93408108
+Netherlands,2010,0.93408108
+Netherlands,2011,0.9563607
+Netherlands,2012,0.9563607
+Netherlands,2013,0.95479053
+Netherlands,2014,0.95479053
+Netherlands,2015,0.95479053
+Netherlands,2016,0.95479053
+Netherlands,2017,0.95322043
+Netherlands,2018,0.96185613
+Netherlands,2019,0.96028602
+Netherlands,2020,0.95871592
+Belgium,1789,0.3070707
+Belgium,1790,0.3070707
+Belgium,1791,0.071550965
+Belgium,1792,0.071550965
+Belgium,1793,0.071550965
+Belgium,1794,0.071550965
+Belgium,1795,0.33323956
+Belgium,1830,0.74392849
+Belgium,1831,0.64579529
+Belgium,1832,0.64579529
+Belgium,1833,0.64579529
+Belgium,1834,0.64579529
+Belgium,1835,0.64579529
+Belgium,1836,0.64579529
+Belgium,1837,0.64579529
+Belgium,1838,0.64579529
+Belgium,1839,0.64579529
+Belgium,1840,0.76994103
+Belgium,1841,0.76994103
+Belgium,1842,0.76994103
+Belgium,1843,0.76994103
+Belgium,1844,0.76994103
+Belgium,1845,0.76994103
+Belgium,1846,0.76994103
+Belgium,1847,0.76994103
+Belgium,1848,0.76994103
+Belgium,1849,0.76994103
+Belgium,1850,0.76994103
+Belgium,1851,0.76994103
+Belgium,1852,0.76994103
+Belgium,1853,0.76994103
+Belgium,1854,0.76994103
+Belgium,1855,0.76994103
+Belgium,1856,0.76994103
+Belgium,1857,0.76994103
+Belgium,1858,0.76994103
+Belgium,1859,0.76994103
+Belgium,1860,0.76994103
+Belgium,1861,0.76994103
+Belgium,1862,0.76994103
+Belgium,1863,0.76994103
+Belgium,1864,0.76994103
+Belgium,1865,0.76994103
+Belgium,1866,0.76994103
+Belgium,1867,0.76994103
+Belgium,1868,0.76994103
+Belgium,1869,0.76994103
+Belgium,1870,0.76994103
+Belgium,1871,0.76994103
+Belgium,1872,0.76994103
+Belgium,1873,0.76994103
+Belgium,1874,0.76994103
+Belgium,1875,0.76994103
+Belgium,1876,0.76994103
+Belgium,1877,0.76994103
+Belgium,1878,0.76994103
+Belgium,1879,0.76994103
+Belgium,1880,0.76994103
+Belgium,1881,0.76994103
+Belgium,1882,0.76994103
+Belgium,1883,0.76994103
+Belgium,1884,0.76994103
+Belgium,1885,0.76994103
+Belgium,1886,0.73195767
+Belgium,1887,0.73195767
+Belgium,1888,0.73195767
+Belgium,1889,0.73195767
+Belgium,1890,0.73195767
+Belgium,1891,0.73195767
+Belgium,1892,0.73195767
+Belgium,1893,0.77760023
+Belgium,1894,0.77760023
+Belgium,1895,0.77760023
+Belgium,1896,0.77760023
+Belgium,1897,0.77760023
+Belgium,1898,0.77760023
+Belgium,1899,0.77760023
+Belgium,1900,0.83098471
+Belgium,1901,0.83098471
+Belgium,1902,0.83098471
+Belgium,1903,0.83098471
+Belgium,1904,0.83098471
+Belgium,1905,0.83098471
+Belgium,1906,0.83098471
+Belgium,1907,0.83098471
+Belgium,1908,0.83098471
+Belgium,1909,0.83098471
+Belgium,1910,0.83098471
+Belgium,1911,0.83098471
+Belgium,1912,0.83098471
+Belgium,1913,0.83098471
+Belgium,1914,0.76642305
+Belgium,1915,0.72793609
+Belgium,1916,0.72793609
+Belgium,1917,0.72793609
+Belgium,1918,0.81822062
+Belgium,1919,0.81471729
+Belgium,1920,0.82439983
+Belgium,1921,0.83643752
+Belgium,1922,0.83643752
+Belgium,1923,0.83643752
+Belgium,1924,0.83643752
+Belgium,1925,0.83643752
+Belgium,1926,0.83643752
+Belgium,1927,0.83643752
+Belgium,1928,0.83643752
+Belgium,1929,0.83643752
+Belgium,1930,0.83643752
+Belgium,1931,0.83643752
+Belgium,1932,0.83643752
+Belgium,1933,0.83643752
+Belgium,1934,0.83643752
+Belgium,1935,0.83643752
+Belgium,1936,0.83643752
+Belgium,1937,0.83643752
+Belgium,1938,0.83643752
+Belgium,1939,0.83643752
+Belgium,1940,0.69750714
+Belgium,1941,0.69750714
+Belgium,1942,0.69750714
+Belgium,1943,0.69750714
+Belgium,1944,0.69750714
+Belgium,1945,0.74555063
+Belgium,1946,0.88413072
+Belgium,1947,0.88413072
+Belgium,1948,0.88413072
+Belgium,1949,0.88413072
+Belgium,1950,0.88413072
+Belgium,1951,0.88413072
+Belgium,1952,0.88413072
+Belgium,1953,0.88413072
+Belgium,1954,0.88413072
+Belgium,1955,0.88413072
+Belgium,1956,0.88413072
+Belgium,1957,0.88413072
+Belgium,1958,0.88413072
+Belgium,1959,0.88413072
+Belgium,1960,0.89067286
+Belgium,1961,0.89067286
+Belgium,1962,0.89067286
+Belgium,1963,0.89067286
+Belgium,1964,0.89067286
+Belgium,1965,0.89067286
+Belgium,1966,0.89067286
+Belgium,1967,0.89067286
+Belgium,1968,0.89067286
+Belgium,1969,0.89067286
+Belgium,1970,0.89067286
+Belgium,1971,0.89067286
+Belgium,1972,0.89067286
+Belgium,1973,0.89067286
+Belgium,1974,0.89067286
+Belgium,1975,0.89067286
+Belgium,1976,0.89067286
+Belgium,1977,0.89067286
+Belgium,1978,0.89067286
+Belgium,1979,0.89067286
+Belgium,1980,0.89067286
+Belgium,1981,0.89067286
+Belgium,1982,0.89067286
+Belgium,1983,0.89067286
+Belgium,1984,0.89067286
+Belgium,1985,0.89067286
+Belgium,1986,0.89067286
+Belgium,1987,0.89067286
+Belgium,1988,0.89067286
+Belgium,1989,0.89067286
+Belgium,1990,0.89067286
+Belgium,1991,0.89067286
+Belgium,1992,0.89067286
+Belgium,1993,0.89067286
+Belgium,1994,0.89067286
+Belgium,1995,0.89067286
+Belgium,1996,0.89067286
+Belgium,1997,0.89067286
+Belgium,1998,0.89067286
+Belgium,1999,0.89067286
+Belgium,2000,0.89067286
+Belgium,2001,0.89067286
+Belgium,2002,0.89067286
+Belgium,2003,0.89067286
+Belgium,2004,0.89067286
+Belgium,2005,0.89512157
+Belgium,2006,0.90342182
+Belgium,2007,0.90342182
+Belgium,2008,0.90342182
+Belgium,2009,0.90342182
+Belgium,2010,0.90342182
+Belgium,2011,0.90342182
+Belgium,2012,0.90342182
+Belgium,2013,0.91336
+Belgium,2014,0.91336
+Belgium,2015,0.92382753
+Belgium,2016,0.92382753
+Belgium,2017,0.92068726
+Belgium,2018,0.91623855
+Belgium,2019,0.90969634
+Belgium,2020,0.93424761
+Luxembourg,1815,0.44554842
+Luxembourg,1816,0.44554842
+Luxembourg,1817,0.44554842
+Luxembourg,1818,0.44554842
+Luxembourg,1819,0.44554842
+Luxembourg,1820,0.44554842
+Luxembourg,1821,0.44554842
+Luxembourg,1822,0.44554842
+Luxembourg,1823,0.44554842
+Luxembourg,1824,0.44554842
+Luxembourg,1825,0.44554842
+Luxembourg,1826,0.44554842
+Luxembourg,1827,0.44554842
+Luxembourg,1828,0.44554842
+Luxembourg,1829,0.44554842
+Luxembourg,1830,0.44554842
+Luxembourg,1831,0.44554842
+Luxembourg,1832,0.44554842
+Luxembourg,1833,0.44554842
+Luxembourg,1834,0.44554842
+Luxembourg,1835,0.44554842
+Luxembourg,1836,0.44554842
+Luxembourg,1837,0.44554842
+Luxembourg,1838,0.44554842
+Luxembourg,1839,0.44554842
+Luxembourg,1840,0.44554842
+Luxembourg,1841,0.44554842
+Luxembourg,1842,0.44554842
+Luxembourg,1843,0.44554842
+Luxembourg,1844,0.44554842
+Luxembourg,1845,0.44554842
+Luxembourg,1846,0.44554842
+Luxembourg,1847,0.44554842
+Luxembourg,1848,0.44554842
+Luxembourg,1849,0.44554842
+Luxembourg,1850,0.44554842
+Luxembourg,1851,0.44554842
+Luxembourg,1852,0.44554842
+Luxembourg,1853,0.44554842
+Luxembourg,1854,0.44554842
+Luxembourg,1855,0.44554842
+Luxembourg,1856,0.44554842
+Luxembourg,1857,0.44554842
+Luxembourg,1858,0.44554842
+Luxembourg,1859,0.44554842
+Luxembourg,1860,0.44554842
+Luxembourg,1861,0.44554842
+Luxembourg,1862,0.44554842
+Luxembourg,1863,0.44554842
+Luxembourg,1864,0.44554842
+Luxembourg,1865,0.44554842
+Luxembourg,1866,0.44554842
+Luxembourg,1867,0.44554842
+Luxembourg,1868,0.44554842
+Luxembourg,1869,0.44554842
+Luxembourg,1870,0.44554842
+Luxembourg,1871,0.44554842
+Luxembourg,1872,0.44554842
+Luxembourg,1873,0.44554842
+Luxembourg,1874,0.44554842
+Luxembourg,1875,0.44554842
+Luxembourg,1876,0.44554842
+Luxembourg,1877,0.44554842
+Luxembourg,1878,0.44554842
+Luxembourg,1879,0.44554842
+Luxembourg,1880,0.44554842
+Luxembourg,1881,0.44554842
+Luxembourg,1882,0.44554842
+Luxembourg,1883,0.44554842
+Luxembourg,1884,0.44554842
+Luxembourg,1885,0.44554842
+Luxembourg,1886,0.44554842
+Luxembourg,1887,0.44554842
+Luxembourg,1888,0.44554842
+Luxembourg,1889,0.44554842
+Luxembourg,1890,0.44554842
+Luxembourg,1891,0.44554842
+Luxembourg,1892,0.44554842
+Luxembourg,1893,0.44554842
+Luxembourg,1894,0.44554842
+Luxembourg,1895,0.44554842
+Luxembourg,1896,0.44554842
+Luxembourg,1897,0.44554842
+Luxembourg,1898,0.44554842
+Luxembourg,1899,0.44554842
+Luxembourg,1900,0.71696597
+Luxembourg,1901,0.71696597
+Luxembourg,1902,0.71696597
+Luxembourg,1903,0.71696597
+Luxembourg,1904,0.71696597
+Luxembourg,1905,0.71696597
+Luxembourg,1906,0.71696597
+Luxembourg,1907,0.71696597
+Luxembourg,1908,0.71696597
+Luxembourg,1909,0.71696597
+Luxembourg,1910,0.71696597
+Luxembourg,1911,0.71696597
+Luxembourg,1912,0.71696597
+Luxembourg,1913,0.71696597
+Luxembourg,1914,0.69542754
+Luxembourg,1915,0.69542754
+Luxembourg,1916,0.69542754
+Luxembourg,1917,0.69542754
+Luxembourg,1918,0.69542754
+Luxembourg,1919,0.738846
+Luxembourg,1920,0.76841563
+Luxembourg,1921,0.76841563
+Luxembourg,1922,0.76841563
+Luxembourg,1923,0.76841563
+Luxembourg,1924,0.76841563
+Luxembourg,1925,0.76841563
+Luxembourg,1926,0.76841563
+Luxembourg,1927,0.76841563
+Luxembourg,1928,0.76841563
+Luxembourg,1929,0.76841563
+Luxembourg,1930,0.76841563
+Luxembourg,1931,0.76841563
+Luxembourg,1932,0.76841563
+Luxembourg,1933,0.76841563
+Luxembourg,1934,0.76841563
+Luxembourg,1935,0.76841563
+Luxembourg,1936,0.76841563
+Luxembourg,1937,0.76841563
+Luxembourg,1938,0.76841563
+Luxembourg,1939,0.76841563
+Luxembourg,1940,0.54236156
+Luxembourg,1941,0.50180274
+Luxembourg,1942,0.50180274
+Luxembourg,1943,0.50180274
+Luxembourg,1944,0.45857286
+Luxembourg,1945,0.73362094
+Luxembourg,1946,0.88350505
+Luxembourg,1947,0.88350505
+Luxembourg,1948,0.88350505
+Luxembourg,1949,0.88350505
+Luxembourg,1950,0.88350505
+Luxembourg,1951,0.88350505
+Luxembourg,1952,0.88350505
+Luxembourg,1953,0.88350505
+Luxembourg,1954,0.88350505
+Luxembourg,1955,0.88350505
+Luxembourg,1956,0.88350505
+Luxembourg,1957,0.88350505
+Luxembourg,1958,0.88350505
+Luxembourg,1959,0.88350505
+Luxembourg,1960,0.88350505
+Luxembourg,1961,0.88350505
+Luxembourg,1962,0.88350505
+Luxembourg,1963,0.88350505
+Luxembourg,1964,0.88350505
+Luxembourg,1965,0.88350505
+Luxembourg,1966,0.88350505
+Luxembourg,1967,0.88350505
+Luxembourg,1968,0.88350505
+Luxembourg,1969,0.88350505
+Luxembourg,1970,0.88350505
+Luxembourg,1971,0.88350505
+Luxembourg,1972,0.88350505
+Luxembourg,1973,0.88350505
+Luxembourg,1974,0.88350505
+Luxembourg,1975,0.88350505
+Luxembourg,1976,0.88350505
+Luxembourg,1977,0.88350505
+Luxembourg,1978,0.88350505
+Luxembourg,1979,0.88350505
+Luxembourg,1980,0.88350505
+Luxembourg,1981,0.88350505
+Luxembourg,1982,0.88350505
+Luxembourg,1983,0.88350505
+Luxembourg,1984,0.88350505
+Luxembourg,1985,0.88350505
+Luxembourg,1986,0.88350505
+Luxembourg,1987,0.88350505
+Luxembourg,1988,0.88350505
+Luxembourg,1989,0.88350505
+Luxembourg,1990,0.88350505
+Luxembourg,1991,0.88350505
+Luxembourg,1992,0.88350505
+Luxembourg,1993,0.88350505
+Luxembourg,1994,0.88350505
+Luxembourg,1995,0.88350505
+Luxembourg,1996,0.88350505
+Luxembourg,1997,0.88350505
+Luxembourg,1998,0.88350505
+Luxembourg,1999,0.88350505
+Luxembourg,2000,0.88350505
+Luxembourg,2001,0.88350505
+Luxembourg,2002,0.88350505
+Luxembourg,2003,0.88350505
+Luxembourg,2004,0.88350505
+Luxembourg,2005,0.89763618
+Luxembourg,2006,0.89763618
+Luxembourg,2007,0.89763618
+Luxembourg,2008,0.89763618
+Luxembourg,2009,0.89763618
+Luxembourg,2010,0.89763618
+Luxembourg,2011,0.89763618
+Luxembourg,2012,0.89763618
+Luxembourg,2013,0.89763618
+Luxembourg,2014,0.89763618
+Luxembourg,2015,0.89763618
+Luxembourg,2016,0.89763618
+Luxembourg,2017,0.89763618
+Luxembourg,2018,0.89763618
+Luxembourg,2019,0.8944959
+Luxembourg,2020,0.88350505
+France,1789,0.52027851
+France,1790,0.58570063
+France,1791,0.58570063
+France,1792,0.71654493
+France,1793,0.71654493
+France,1794,0.71654493
+France,1795,0.53212535
+France,1796,0.53212535
+France,1797,0.53212535
+France,1798,0.53212535
+France,1799,0.58659941
+France,1800,0.34460199
+France,1801,0.34460199
+France,1802,0.34460199
+France,1803,0.34460199
+France,1804,0.34460199
+France,1805,0.34460199
+France,1806,0.34460199
+France,1807,0.34460199
+France,1808,0.34460199
+France,1809,0.34460199
+France,1810,0.34460199
+France,1811,0.34460199
+France,1812,0.34460199
+France,1813,0.34460199
+France,1814,0.34460199
+France,1815,0.54067993
+France,1816,0.54067993
+France,1817,0.54067993
+France,1818,0.54067993
+France,1819,0.54067993
+France,1820,0.54067993
+France,1821,0.54067993
+France,1822,0.54067993
+France,1823,0.54067993
+France,1824,0.54067993
+France,1825,0.54067993
+France,1826,0.54067993
+France,1827,0.54067993
+France,1828,0.54067993
+France,1829,0.54067993
+France,1830,0.54067993
+France,1831,0.54067993
+France,1832,0.54067993
+France,1833,0.54067993
+France,1834,0.54067993
+France,1835,0.54067993
+France,1836,0.54067993
+France,1837,0.54067993
+France,1838,0.54067993
+France,1839,0.54067993
+France,1840,0.54067993
+France,1841,0.54067993
+France,1842,0.54067993
+France,1843,0.54067993
+France,1844,0.54067993
+France,1845,0.54067993
+France,1846,0.54067993
+France,1847,0.54067993
+France,1848,0.67716146
+France,1849,0.80800575
+France,1850,0.80800575
+France,1851,0.59314471
+France,1852,0.47326487
+France,1853,0.47326487
+France,1854,0.47326487
+France,1855,0.47326487
+France,1856,0.47326487
+France,1857,0.47326487
+France,1858,0.47326487
+France,1859,0.47326487
+France,1860,0.47326487
+France,1861,0.5097422
+France,1862,0.5097422
+France,1863,0.5097422
+France,1864,0.5097422
+France,1865,0.5097422
+France,1866,0.5097422
+France,1867,0.5097422
+France,1868,0.5097422
+France,1869,0.5097422
+France,1870,0.76844567
+France,1871,0.76844567
+France,1872,0.76844567
+France,1873,0.76844567
+France,1874,0.84140348
+France,1875,0.84140348
+France,1876,0.84140348
+France,1877,0.84140348
+France,1878,0.84140348
+France,1879,0.84140348
+France,1880,0.84140348
+France,1881,0.84140348
+France,1882,0.84140348
+France,1883,0.84140348
+France,1884,0.84140348
+France,1885,0.84140348
+France,1886,0.84140348
+France,1887,0.84140348
+France,1888,0.84140348
+France,1889,0.84140348
+France,1890,0.84140348
+France,1891,0.84140348
+France,1892,0.84140348
+France,1893,0.84140348
+France,1894,0.84140348
+France,1895,0.84140348
+France,1896,0.84140348
+France,1897,0.84140348
+France,1898,0.84140348
+France,1899,0.84140348
+France,1900,0.8152346
+France,1901,0.8152346
+France,1902,0.8152346
+France,1903,0.8152346
+France,1904,0.8152346
+France,1905,0.8152346
+France,1906,0.8152346
+France,1907,0.8152346
+France,1908,0.8152346
+France,1909,0.8152346
+France,1910,0.8152346
+France,1911,0.8152346
+France,1912,0.8152346
+France,1913,0.8152346
+France,1914,0.8152346
+France,1915,0.8152346
+France,1916,0.8152346
+France,1917,0.8152346
+France,1918,0.8152346
+France,1919,0.8152346
+France,1920,0.8086924
+France,1921,0.8086924
+France,1922,0.8086924
+France,1923,0.8086924
+France,1924,0.8086924
+France,1925,0.8086924
+France,1926,0.8086924
+France,1927,0.8086924
+France,1928,0.8086924
+France,1929,0.8086924
+France,1930,0.8086924
+France,1931,0.8086924
+France,1932,0.8086924
+France,1933,0.8086924
+France,1934,0.8086924
+France,1935,0.8086924
+France,1936,0.8086924
+France,1937,0.8086924
+France,1938,0.8086924
+France,1939,0.8086924
+France,1940,0.62365848
+France,1941,0.54097253
+France,1942,0.54097253
+France,1943,0.54097253
+France,1944,0.54882711
+France,1945,0.62531519
+France,1946,0.66959971
+France,1947,0.76510441
+France,1948,0.80949646
+France,1949,0.80949646
+France,1950,0.80949646
+France,1951,0.80949646
+France,1952,0.80949646
+France,1953,0.80949646
+France,1954,0.77153695
+France,1955,0.82204121
+France,1956,0.82204121
+France,1957,0.82204121
+France,1958,0.83203334
+France,1959,0.86377656
+France,1960,0.86377656
+France,1961,0.86377656
+France,1962,0.86377656
+France,1963,0.86377656
+France,1964,0.86377656
+France,1965,0.86377656
+France,1966,0.86377656
+France,1967,0.86377656
+France,1968,0.86377656
+France,1969,0.87037313
+France,1970,0.87351847
+France,1971,0.87369323
+France,1972,0.87369323
+France,1973,0.87369323
+France,1974,0.87369323
+France,1975,0.87369323
+France,1976,0.87369323
+France,1977,0.87369323
+France,1978,0.87369323
+France,1979,0.87369323
+France,1980,0.87369323
+France,1981,0.87369323
+France,1982,0.87369323
+France,1983,0.87369323
+France,1984,0.87369323
+France,1985,0.87369323
+France,1986,0.87369323
+France,1987,0.87369323
+France,1988,0.87369323
+France,1989,0.87369323
+France,1990,0.87369323
+France,1991,0.87369323
+France,1992,0.87369323
+France,1993,0.87369323
+France,1994,0.87369323
+France,1995,0.87369323
+France,1996,0.87369323
+France,1997,0.87369323
+France,1998,0.87369323
+France,1999,0.87369323
+France,2000,0.87369323
+France,2001,0.87369323
+France,2002,0.87369323
+France,2003,0.87369323
+France,2004,0.87369323
+France,2005,0.87918872
+France,2006,0.87918872
+France,2007,0.87918872
+France,2008,0.87918872
+France,2009,0.87918872
+France,2010,0.87918872
+France,2011,0.87918872
+France,2012,0.87918872
+France,2013,0.8768335
+France,2014,0.8768335
+France,2015,0.8768335
+France,2016,0.8768335
+France,2017,0.86688936
+France,2018,0.87238479
+France,2019,0.87238479
+France,2020,0.87238479
+Switzerland,1798,0.74930638
+Switzerland,1799,0.74930638
+Switzerland,1800,0.74930638
+Switzerland,1801,0.74930638
+Switzerland,1802,0.74930638
+Switzerland,1803,0.74930638
+Switzerland,1804,0.83855593
+Switzerland,1805,0.83855593
+Switzerland,1806,0.83855593
+Switzerland,1807,0.83855593
+Switzerland,1808,0.83855593
+Switzerland,1809,0.83855593
+Switzerland,1810,0.83855593
+Switzerland,1811,0.83855593
+Switzerland,1812,0.83855593
+Switzerland,1813,0.83855593
+Switzerland,1814,0.83855593
+Switzerland,1815,0.83855593
+Switzerland,1816,0.7077117
+Switzerland,1817,0.7077117
+Switzerland,1818,0.7077117
+Switzerland,1819,0.7077117
+Switzerland,1820,0.7077117
+Switzerland,1821,0.7077117
+Switzerland,1822,0.7077117
+Switzerland,1823,0.7077117
+Switzerland,1824,0.7077117
+Switzerland,1825,0.7077117
+Switzerland,1826,0.7077117
+Switzerland,1827,0.7077117
+Switzerland,1828,0.7077117
+Switzerland,1829,0.7077117
+Switzerland,1830,0.7077117
+Switzerland,1831,0.7077117
+Switzerland,1832,0.7077117
+Switzerland,1833,0.7077117
+Switzerland,1834,0.7077117
+Switzerland,1835,0.7077117
+Switzerland,1836,0.7077117
+Switzerland,1837,0.7077117
+Switzerland,1838,0.7077117
+Switzerland,1839,0.7077117
+Switzerland,1840,0.7077117
+Switzerland,1841,0.7077117
+Switzerland,1842,0.7077117
+Switzerland,1843,0.7077117
+Switzerland,1844,0.7077117
+Switzerland,1845,0.7077117
+Switzerland,1846,0.7077117
+Switzerland,1847,0.7077117
+Switzerland,1848,0.79075789
+Switzerland,1849,0.79075789
+Switzerland,1850,0.79075789
+Switzerland,1851,0.79075789
+Switzerland,1852,0.79075789
+Switzerland,1853,0.79075789
+Switzerland,1854,0.79075789
+Switzerland,1855,0.79075789
+Switzerland,1856,0.79075789
+Switzerland,1857,0.79075789
+Switzerland,1858,0.79075789
+Switzerland,1859,0.79075789
+Switzerland,1860,0.79075789
+Switzerland,1861,0.79075789
+Switzerland,1862,0.79075789
+Switzerland,1863,0.79075789
+Switzerland,1864,0.79075789
+Switzerland,1865,0.79075789
+Switzerland,1866,0.79075789
+Switzerland,1867,0.79075789
+Switzerland,1868,0.79075789
+Switzerland,1869,0.79075789
+Switzerland,1870,0.79075789
+Switzerland,1871,0.79075789
+Switzerland,1872,0.79075789
+Switzerland,1873,0.79075789
+Switzerland,1874,0.79075789
+Switzerland,1875,0.79075789
+Switzerland,1876,0.79075789
+Switzerland,1877,0.79075789
+Switzerland,1878,0.79075789
+Switzerland,1879,0.79075789
+Switzerland,1880,0.79075789
+Switzerland,1881,0.79075789
+Switzerland,1882,0.79075789
+Switzerland,1883,0.79075789
+Switzerland,1884,0.79075789
+Switzerland,1885,0.79075789
+Switzerland,1886,0.79075789
+Switzerland,1887,0.79075789
+Switzerland,1888,0.79075789
+Switzerland,1889,0.79075789
+Switzerland,1890,0.79075789
+Switzerland,1891,0.79075789
+Switzerland,1892,0.79075789
+Switzerland,1893,0.79075789
+Switzerland,1894,0.79075789
+Switzerland,1895,0.79075789
+Switzerland,1896,0.79075789
+Switzerland,1897,0.79075789
+Switzerland,1898,0.79075789
+Switzerland,1899,0.79075789
+Switzerland,1900,0.89988202
+Switzerland,1901,0.89988202
+Switzerland,1902,0.89988202
+Switzerland,1903,0.89988202
+Switzerland,1904,0.89988202
+Switzerland,1905,0.89988202
+Switzerland,1906,0.89988202
+Switzerland,1907,0.89988202
+Switzerland,1908,0.89988202
+Switzerland,1909,0.89988202
+Switzerland,1910,0.89988202
+Switzerland,1911,0.89988202
+Switzerland,1912,0.89988202
+Switzerland,1913,0.89988202
+Switzerland,1914,0.89988202
+Switzerland,1915,0.89988202
+Switzerland,1916,0.89988202
+Switzerland,1917,0.89988202
+Switzerland,1918,0.89988202
+Switzerland,1919,0.89988202
+Switzerland,1920,0.89988202
+Switzerland,1921,0.92160219
+Switzerland,1922,0.92160219
+Switzerland,1923,0.92160219
+Switzerland,1924,0.92160219
+Switzerland,1925,0.92160219
+Switzerland,1926,0.92160219
+Switzerland,1927,0.92160219
+Switzerland,1928,0.92160219
+Switzerland,1929,0.92160219
+Switzerland,1930,0.92160219
+Switzerland,1931,0.92160219
+Switzerland,1932,0.92160219
+Switzerland,1933,0.92160219
+Switzerland,1934,0.92160219
+Switzerland,1935,0.92160219
+Switzerland,1936,0.92160219
+Switzerland,1937,0.92160219
+Switzerland,1938,0.92160219
+Switzerland,1939,0.92160219
+Switzerland,1940,0.92160219
+Switzerland,1941,0.92160219
+Switzerland,1942,0.92160219
+Switzerland,1943,0.92160219
+Switzerland,1944,0.92160219
+Switzerland,1945,0.92160219
+Switzerland,1946,0.92160219
+Switzerland,1947,0.92160219
+Switzerland,1948,0.92160219
+Switzerland,1949,0.92160219
+Switzerland,1950,0.92160219
+Switzerland,1951,0.92160219
+Switzerland,1952,0.92160219
+Switzerland,1953,0.92160219
+Switzerland,1954,0.92160219
+Switzerland,1955,0.92160219
+Switzerland,1956,0.92160219
+Switzerland,1957,0.92160219
+Switzerland,1958,0.92160219
+Switzerland,1959,0.92160219
+Switzerland,1960,0.92160219
+Switzerland,1961,0.92160219
+Switzerland,1962,0.92160219
+Switzerland,1963,0.92160219
+Switzerland,1964,0.92160219
+Switzerland,1965,0.92160219
+Switzerland,1966,0.92160219
+Switzerland,1967,0.92160219
+Switzerland,1968,0.92160219
+Switzerland,1969,0.92160219
+Switzerland,1970,0.92160219
+Switzerland,1971,0.92160219
+Switzerland,1972,0.92160219
+Switzerland,1973,0.92160219
+Switzerland,1974,0.92160219
+Switzerland,1975,0.92160219
+Switzerland,1976,0.92160219
+Switzerland,1977,0.92160219
+Switzerland,1978,0.92160219
+Switzerland,1979,0.92160219
+Switzerland,1980,0.92160219
+Switzerland,1981,0.92160219
+Switzerland,1982,0.92160219
+Switzerland,1983,0.92160219
+Switzerland,1984,0.92160219
+Switzerland,1985,0.92160219
+Switzerland,1986,0.92160219
+Switzerland,1987,0.92160219
+Switzerland,1988,0.92160219
+Switzerland,1989,0.92160219
+Switzerland,1990,0.92160219
+Switzerland,1991,0.92160219
+Switzerland,1992,0.92160219
+Switzerland,1993,0.92160219
+Switzerland,1994,0.92160219
+Switzerland,1995,0.92160219
+Switzerland,1996,0.92160219
+Switzerland,1997,0.92160219
+Switzerland,1998,0.92160219
+Switzerland,1999,0.92160219
+Switzerland,2000,0.92160219
+Switzerland,2001,0.92160219
+Switzerland,2002,0.92160219
+Switzerland,2003,0.92160219
+Switzerland,2004,0.92160219
+Switzerland,2005,0.92160219
+Switzerland,2006,0.92160219
+Switzerland,2007,0.92160219
+Switzerland,2008,0.92160219
+Switzerland,2009,0.92160219
+Switzerland,2010,0.92160219
+Switzerland,2011,0.92160219
+Switzerland,2012,0.92160219
+Switzerland,2013,0.92160219
+Switzerland,2014,0.92160219
+Switzerland,2015,0.92160219
+Switzerland,2016,0.92160219
+Switzerland,2017,0.92160219
+Switzerland,2018,0.92160219
+Switzerland,2019,0.92160219
+Switzerland,2020,0.92160219
+Spain,1789,0.18655066
+Spain,1790,0.18655066
+Spain,1791,0.18655066
+Spain,1792,0.18655066
+Spain,1793,0.18655066
+Spain,1794,0.18655066
+Spain,1795,0.18655066
+Spain,1796,0.18655066
+Spain,1797,0.18655066
+Spain,1798,0.18655066
+Spain,1799,0.18655066
+Spain,1800,0.18655066
+Spain,1801,0.18655066
+Spain,1802,0.18655066
+Spain,1803,0.18655066
+Spain,1804,0.18655066
+Spain,1805,0.18655066
+Spain,1806,0.18655066
+Spain,1807,0.25197279
+Spain,1808,0.25197279
+Spain,1809,0.25197279
+Spain,1810,0.25197279
+Spain,1811,0.25197279
+Spain,1812,0.25197279
+Spain,1813,0.25197279
+Spain,1814,0.25197279
+Spain,1815,0.25197279
+Spain,1816,0.25197279
+Spain,1817,0.25197279
+Spain,1818,0.25197279
+Spain,1819,0.25197279
+Spain,1820,0.51545006
+Spain,1821,0.51545006
+Spain,1822,0.51545006
+Spain,1823,0.51545006
+Spain,1824,0.25431746
+Spain,1825,0.25431746
+Spain,1826,0.25431746
+Spain,1827,0.25431746
+Spain,1828,0.25431746
+Spain,1829,0.25431746
+Spain,1830,0.25431746
+Spain,1831,0.25431746
+Spain,1832,0.25431746
+Spain,1833,0.25431746
+Spain,1834,0.25431746
+Spain,1835,0.25431746
+Spain,1836,0.45100513
+Spain,1837,0.45100513
+Spain,1838,0.45100513
+Spain,1839,0.45100513
+Spain,1840,0.38558301
+Spain,1841,0.38558301
+Spain,1842,0.38558301
+Spain,1843,0.45100513
+Spain,1844,0.45100513
+Spain,1845,0.45100513
+Spain,1846,0.45100513
+Spain,1847,0.45100513
+Spain,1848,0.45100513
+Spain,1849,0.45100513
+Spain,1850,0.45100513
+Spain,1851,0.45100513
+Spain,1852,0.45100513
+Spain,1853,0.45100513
+Spain,1854,0.485706
+Spain,1855,0.485706
+Spain,1856,0.485706
+Spain,1857,0.45284179
+Spain,1858,0.45284179
+Spain,1859,0.45284179
+Spain,1860,0.45284179
+Spain,1861,0.45284179
+Spain,1862,0.45284179
+Spain,1863,0.45284179
+Spain,1864,0.45284179
+Spain,1865,0.45284179
+Spain,1866,0.45284179
+Spain,1867,0.45284179
+Spain,1868,0.38741964
+Spain,1869,0.42145619
+Spain,1870,0.42145619
+Spain,1871,0.48687834
+Spain,1872,0.48687834
+Spain,1873,0.48687834
+Spain,1874,0.48687834
+Spain,1875,0.46687064
+Spain,1876,0.46687064
+Spain,1877,0.46687064
+Spain,1878,0.46687064
+Spain,1879,0.46687064
+Spain,1880,0.46687064
+Spain,1881,0.46687064
+Spain,1882,0.46687064
+Spain,1883,0.46687064
+Spain,1884,0.46687064
+Spain,1885,0.46687064
+Spain,1886,0.46687064
+Spain,1887,0.46687064
+Spain,1888,0.46687064
+Spain,1889,0.46687064
+Spain,1890,0.46687064
+Spain,1891,0.46687064
+Spain,1892,0.46687064
+Spain,1893,0.46687064
+Spain,1894,0.46687064
+Spain,1895,0.46687064
+Spain,1896,0.46687064
+Spain,1897,0.46687064
+Spain,1898,0.46687064
+Spain,1899,0.46687064
+Spain,1900,0.5417136
+Spain,1901,0.5417136
+Spain,1902,0.5417136
+Spain,1903,0.5417136
+Spain,1904,0.5417136
+Spain,1905,0.5417136
+Spain,1906,0.5417136
+Spain,1907,0.5417136
+Spain,1908,0.5417136
+Spain,1909,0.5417136
+Spain,1910,0.5417136
+Spain,1911,0.5417136
+Spain,1912,0.5417136
+Spain,1913,0.5417136
+Spain,1914,0.56029344
+Spain,1915,0.56029344
+Spain,1916,0.56029344
+Spain,1917,0.56029344
+Spain,1918,0.56029344
+Spain,1919,0.56029344
+Spain,1920,0.57599479
+Spain,1921,0.57599479
+Spain,1922,0.55401295
+Spain,1923,0.38083798
+Spain,1924,0.35772833
+Spain,1925,0.35772833
+Spain,1926,0.35772833
+Spain,1927,0.35772833
+Spain,1928,0.35772833
+Spain,1929,0.35772833
+Spain,1930,0.35772833
+Spain,1931,0.58736259
+Spain,1932,0.78331131
+Spain,1933,0.78331131
+Spain,1934,0.78331131
+Spain,1935,0.78331131
+Spain,1936,0.78331131
+Spain,1937,0.60264069
+Spain,1938,0.60264069
+Spain,1939,0.51992124
+Spain,1940,0.16383897
+Spain,1941,0.16383897
+Spain,1942,0.16383897
+Spain,1943,0.16383897
+Spain,1944,0.16383897
+Spain,1945,0.16383897
+Spain,1946,0.16383897
+Spain,1947,0.16383897
+Spain,1948,0.16383897
+Spain,1949,0.16383897
+Spain,1950,0.16383897
+Spain,1951,0.16383897
+Spain,1952,0.16383897
+Spain,1953,0.16383897
+Spain,1954,0.16383897
+Spain,1955,0.16383897
+Spain,1956,0.16383897
+Spain,1957,0.16383897
+Spain,1958,0.16383897
+Spain,1959,0.16383897
+Spain,1960,0.16383897
+Spain,1961,0.16383897
+Spain,1962,0.16383897
+Spain,1963,0.16383897
+Spain,1964,0.16383897
+Spain,1965,0.16383897
+Spain,1966,0.16383897
+Spain,1967,0.16383897
+Spain,1968,0.16383897
+Spain,1969,0.16383897
+Spain,1970,0.16383897
+Spain,1971,0.16383897
+Spain,1972,0.16383897
+Spain,1973,0.26197219
+Spain,1974,0.29960635
+Spain,1975,0.35534602
+Spain,1976,0.37575772
+Spain,1977,0.72992301
+Spain,1978,0.89388353
+Spain,1979,0.90791237
+Spain,1980,0.90791237
+Spain,1981,0.90791237
+Spain,1982,0.92989421
+Spain,1983,0.92989421
+Spain,1984,0.92989421
+Spain,1985,0.92989421
+Spain,1986,0.92989421
+Spain,1987,0.92989421
+Spain,1988,0.92989421
+Spain,1989,0.92989421
+Spain,1990,0.92989421
+Spain,1991,0.92989421
+Spain,1992,0.92989421
+Spain,1993,0.92989421
+Spain,1994,0.92989421
+Spain,1995,0.92989421
+Spain,1996,0.92989421
+Spain,1997,0.92989421
+Spain,1998,0.92989421
+Spain,1999,0.92989421
+Spain,2000,0.92989421
+Spain,2001,0.92989421
+Spain,2002,0.92989421
+Spain,2003,0.93024594
+Spain,2004,0.93024594
+Spain,2005,0.92893749
+Spain,2006,0.92893749
+Spain,2007,0.92893749
+Spain,2008,0.92893749
+Spain,2009,0.92893749
+Spain,2010,0.93129265
+Spain,2011,0.93129265
+Spain,2012,0.93129265
+Spain,2013,0.92893749
+Spain,2014,0.92893749
+Spain,2015,0.93338621
+Spain,2016,0.93338621
+Spain,2017,0.90125567
+Spain,2018,0.93590802
+Spain,2019,0.91064674
+Spain,2020,0.9093383
+Portugal,1789,0.18066813
+Portugal,1790,0.18066813
+Portugal,1791,0.18066813
+Portugal,1792,0.18066813
+Portugal,1793,0.18066813
+Portugal,1794,0.18066813
+Portugal,1795,0.18066813
+Portugal,1796,0.18066813
+Portugal,1797,0.18066813
+Portugal,1798,0.18066813
+Portugal,1799,0.18066813
+Portugal,1800,0.18066813
+Portugal,1801,0.18066813
+Portugal,1802,0.18066813
+Portugal,1803,0.18066813
+Portugal,1804,0.18066813
+Portugal,1805,0.18066813
+Portugal,1806,0.18066813
+Portugal,1807,0.18066813
+Portugal,1808,0.31151244
+Portugal,1809,0.31151244
+Portugal,1810,0.31151244
+Portugal,1811,0.31151244
+Portugal,1812,0.31151244
+Portugal,1813,0.31151244
+Portugal,1814,0.31151244
+Portugal,1815,0.31151244
+Portugal,1816,0.31151244
+Portugal,1817,0.31151244
+Portugal,1818,0.31151244
+Portugal,1819,0.31151244
+Portugal,1820,0.49120063
+Portugal,1821,0.49120063
+Portugal,1822,0.49120063
+Portugal,1823,0.49120063
+Portugal,1824,0.49120063
+Portugal,1825,0.49120063
+Portugal,1826,0.49120063
+Portugal,1827,0.49120063
+Portugal,1828,0.17859703
+Portugal,1829,0.047752757
+Portugal,1830,0.047752757
+Portugal,1831,0.047752757
+Portugal,1832,0.047752757
+Portugal,1833,0.047752757
+Portugal,1834,0.21909355
+Portugal,1835,0.43584642
+Portugal,1836,0.43584642
+Portugal,1837,0.43584642
+Portugal,1838,0.43584642
+Portugal,1839,0.43584642
+Portugal,1840,0.43584642
+Portugal,1841,0.43584642
+Portugal,1842,0.43584642
+Portugal,1843,0.43584642
+Portugal,1844,0.43584642
+Portugal,1845,0.43584642
+Portugal,1846,0.43584642
+Portugal,1847,0.43584642
+Portugal,1848,0.43584642
+Portugal,1849,0.43584642
+Portugal,1850,0.43584642
+Portugal,1851,0.43584642
+Portugal,1852,0.56669068
+Portugal,1853,0.56669068
+Portugal,1854,0.56669068
+Portugal,1855,0.56669068
+Portugal,1856,0.56669068
+Portugal,1857,0.56669068
+Portugal,1858,0.56669068
+Portugal,1859,0.56669068
+Portugal,1860,0.6297726
+Portugal,1861,0.6297726
+Portugal,1862,0.6297726
+Portugal,1863,0.6297726
+Portugal,1864,0.6297726
+Portugal,1865,0.6297726
+Portugal,1866,0.6297726
+Portugal,1867,0.6297726
+Portugal,1868,0.6297726
+Portugal,1869,0.6297726
+Portugal,1870,0.49892831
+Portugal,1871,0.6297726
+Portugal,1872,0.6297726
+Portugal,1873,0.6297726
+Portugal,1874,0.6297726
+Portugal,1875,0.6297726
+Portugal,1876,0.6297726
+Portugal,1877,0.6297726
+Portugal,1878,0.6297726
+Portugal,1879,0.6297726
+Portugal,1880,0.6297726
+Portugal,1881,0.6297726
+Portugal,1882,0.6297726
+Portugal,1883,0.6297726
+Portugal,1884,0.6297726
+Portugal,1885,0.6297726
+Portugal,1886,0.6297726
+Portugal,1887,0.6297726
+Portugal,1888,0.6297726
+Portugal,1889,0.6297726
+Portugal,1890,0.6297726
+Portugal,1891,0.6297726
+Portugal,1892,0.6297726
+Portugal,1893,0.6297726
+Portugal,1894,0.6297726
+Portugal,1895,0.6297726
+Portugal,1896,0.6297726
+Portugal,1897,0.6297726
+Portugal,1898,0.6297726
+Portugal,1899,0.6297726
+Portugal,1900,0.60805243
+Portugal,1901,0.60805243
+Portugal,1902,0.60805243
+Portugal,1903,0.60805243
+Portugal,1904,0.60805243
+Portugal,1905,0.60805243
+Portugal,1906,0.60805243
+Portugal,1907,0.60805243
+Portugal,1908,0.60805243
+Portugal,1909,0.60805243
+Portugal,1910,0.58112198
+Portugal,1911,0.58955914
+Portugal,1912,0.58955914
+Portugal,1913,0.58955914
+Portugal,1914,0.58955914
+Portugal,1915,0.58955914
+Portugal,1916,0.58955914
+Portugal,1917,0.58955914
+Portugal,1918,0.58013839
+Portugal,1919,0.58955914
+Portugal,1920,0.60264361
+Portugal,1921,0.58955914
+Portugal,1922,0.603692
+Portugal,1923,0.603692
+Portugal,1924,0.603692
+Portugal,1925,0.60217631
+Portugal,1926,0.40022281
+Portugal,1927,0.23180896
+Portugal,1928,0.32994217
+Portugal,1929,0.32994217
+Portugal,1930,0.32994217
+Portugal,1931,0.32994217
+Portugal,1932,0.32994217
+Portugal,1933,0.35518771
+Portugal,1934,0.35283762
+Portugal,1935,0.35283762
+Portugal,1936,0.36017647
+Portugal,1937,0.36017647
+Portugal,1938,0.36017647
+Portugal,1939,0.36017647
+Portugal,1940,0.36017647
+Portugal,1941,0.38053393
+Portugal,1942,0.38053393
+Portugal,1943,0.38053393
+Portugal,1944,0.38053393
+Portugal,1945,0.38053393
+Portugal,1946,0.38053393
+Portugal,1947,0.38053393
+Portugal,1948,0.38053393
+Portugal,1949,0.38053393
+Portugal,1950,0.38053393
+Portugal,1951,0.38948947
+Portugal,1952,0.38948947
+Portugal,1953,0.38948947
+Portugal,1954,0.38948947
+Portugal,1955,0.38948947
+Portugal,1956,0.38948947
+Portugal,1957,0.38948947
+Portugal,1958,0.38948947
+Portugal,1959,0.38948947
+Portugal,1960,0.39693677
+Portugal,1961,0.39693677
+Portugal,1962,0.39693677
+Portugal,1963,0.39693677
+Portugal,1964,0.39693677
+Portugal,1965,0.39693677
+Portugal,1966,0.39693677
+Portugal,1967,0.39693677
+Portugal,1968,0.39693677
+Portugal,1969,0.39889377
+Portugal,1970,0.40764317
+Portugal,1971,0.40764317
+Portugal,1972,0.41866952
+Portugal,1973,0.41866952
+Portugal,1974,0.5257498
+Portugal,1975,0.85817444
+Portugal,1976,0.91530901
+Portugal,1977,0.92652428
+Portugal,1978,0.92652428
+Portugal,1979,0.92652428
+Portugal,1980,0.95657992
+Portugal,1981,0.95657992
+Portugal,1982,0.95657992
+Portugal,1983,0.95657992
+Portugal,1984,0.95657992
+Portugal,1985,0.95657992
+Portugal,1986,0.95657992
+Portugal,1987,0.95657992
+Portugal,1988,0.95657992
+Portugal,1989,0.95657992
+Portugal,1990,0.95657992
+Portugal,1991,0.95657992
+Portugal,1992,0.95657992
+Portugal,1993,0.95657992
+Portugal,1994,0.95657992
+Portugal,1995,0.95657992
+Portugal,1996,0.95657992
+Portugal,1997,0.95657992
+Portugal,1998,0.95657992
+Portugal,1999,0.95657992
+Portugal,2000,0.95657992
+Portugal,2001,0.95657992
+Portugal,2002,0.99301368
+Portugal,2003,0.99301368
+Portugal,2004,0.99301368
+Portugal,2005,0.97443378
+Portugal,2006,0.97443378
+Portugal,2007,0.97443378
+Portugal,2008,0.97443378
+Portugal,2009,0.97443378
+Portugal,2010,0.96571952
+Portugal,2011,0.96571952
+Portugal,2012,0.96571952
+Portugal,2013,0.95813054
+Portugal,2014,0.95813054
+Portugal,2015,0.90701842
+Portugal,2016,0.90413988
+Portugal,2017,0.94376266
+Portugal,2018,0.94376266
+Portugal,2019,0.95658541
+Portugal,2020,0.95423019
+Hanover,1789,0.31680265
+Hanover,1790,0.31680265
+Hanover,1791,0.31680265
+Hanover,1792,0.31680265
+Hanover,1793,0.31680265
+Hanover,1794,0.31680265
+Hanover,1795,0.31680265
+Hanover,1796,0.31680265
+Hanover,1797,0.31680265
+Hanover,1798,0.31680265
+Hanover,1799,0.31680265
+Hanover,1800,0.31680265
+Hanover,1801,0.31680265
+Hanover,1802,0.31680265
+Hanover,1803,0.31680265
+Hanover,1804,0.31680265
+Hanover,1805,0.31680265
+Hanover,1806,0.31680265
+Hanover,1807,0.31680265
+Hanover,1808,0.31680265
+Hanover,1809,0.31680265
+Hanover,1810,0.31680265
+Hanover,1813,0.4584102
+Hanover,1814,0.4584102
+Hanover,1815,0.4584102
+Hanover,1816,0.4584102
+Hanover,1817,0.4584102
+Hanover,1818,0.38278034
+Hanover,1819,0.38278034
+Hanover,1820,0.45790407
+Hanover,1821,0.45790407
+Hanover,1822,0.45790407
+Hanover,1823,0.45790407
+Hanover,1824,0.45790407
+Hanover,1825,0.45790407
+Hanover,1826,0.45790407
+Hanover,1827,0.45790407
+Hanover,1828,0.45790407
+Hanover,1829,0.45790407
+Hanover,1830,0.45790407
+Hanover,1831,0.45790407
+Hanover,1832,0.45790407
+Hanover,1833,0.45790407
+Hanover,1834,0.45790407
+Hanover,1835,0.45790407
+Hanover,1836,0.45790407
+Hanover,1837,0.39248192
+Hanover,1838,0.39248192
+Hanover,1839,0.39248192
+Hanover,1840,0.39248192
+Hanover,1841,0.39248192
+Hanover,1842,0.39248192
+Hanover,1843,0.39248192
+Hanover,1844,0.39248192
+Hanover,1845,0.39248192
+Hanover,1846,0.39248192
+Hanover,1847,0.39248192
+Hanover,1848,0.41731831
+Hanover,1849,0.4560051
+Hanover,1850,0.4560051
+Hanover,1851,0.4560051
+Hanover,1852,0.4560051
+Hanover,1853,0.4560051
+Hanover,1854,0.4560051
+Hanover,1855,0.4560051
+Hanover,1856,0.4560051
+Hanover,1857,0.4560051
+Hanover,1858,0.4560051
+Hanover,1859,0.4560051
+Hanover,1860,0.4560051
+Hanover,1861,0.4560051
+Hanover,1862,0.4560051
+Hanover,1863,0.4560051
+Hanover,1864,0.4560051
+Hanover,1865,0.4560051
+Hanover,1866,0.4560051
+Bavaria,1789,0.38396221
+Bavaria,1790,0.38396221
+Bavaria,1791,0.38396221
+Bavaria,1792,0.38396221
+Bavaria,1793,0.38396221
+Bavaria,1794,0.38396221
+Bavaria,1795,0.38396221
+Bavaria,1796,0.38396221
+Bavaria,1797,0.38396221
+Bavaria,1798,0.38396221
+Bavaria,1799,0.31854007
+Bavaria,1800,0.31854007
+Bavaria,1801,0.31854007
+Bavaria,1802,0.31854007
+Bavaria,1803,0.31854007
+Bavaria,1804,0.31854007
+Bavaria,1805,0.31854007
+Bavaria,1806,0.31854007
+Bavaria,1807,0.31854007
+Bavaria,1808,0.31854007
+Bavaria,1809,0.31854007
+Bavaria,1810,0.31854007
+Bavaria,1811,0.31854007
+Bavaria,1812,0.31854007
+Bavaria,1813,0.31854007
+Bavaria,1814,0.31854007
+Bavaria,1815,0.31854007
+Bavaria,1816,0.31854007
+Bavaria,1817,0.25311792
+Bavaria,1818,0.47639272
+Bavaria,1819,0.47639272
+Bavaria,1820,0.47639272
+Bavaria,1821,0.47639272
+Bavaria,1822,0.47639272
+Bavaria,1823,0.47639272
+Bavaria,1824,0.47639272
+Bavaria,1825,0.47639272
+Bavaria,1826,0.47639272
+Bavaria,1827,0.47639272
+Bavaria,1828,0.47639272
+Bavaria,1829,0.47639272
+Bavaria,1830,0.47639272
+Bavaria,1831,0.47639272
+Bavaria,1832,0.47639272
+Bavaria,1833,0.47639272
+Bavaria,1834,0.47639272
+Bavaria,1835,0.47639272
+Bavaria,1836,0.47639272
+Bavaria,1837,0.47639272
+Bavaria,1838,0.47639272
+Bavaria,1839,0.47639272
+Bavaria,1840,0.47639272
+Bavaria,1841,0.47639272
+Bavaria,1842,0.47639272
+Bavaria,1843,0.47639272
+Bavaria,1844,0.47639272
+Bavaria,1845,0.47639272
+Bavaria,1846,0.47639272
+Bavaria,1847,0.47639272
+Bavaria,1848,0.47639272
+Bavaria,1849,0.47639272
+Bavaria,1850,0.47639272
+Bavaria,1851,0.47639272
+Bavaria,1852,0.47639272
+Bavaria,1853,0.47639272
+Bavaria,1854,0.47639272
+Bavaria,1855,0.47639272
+Bavaria,1856,0.47639272
+Bavaria,1857,0.47639272
+Bavaria,1858,0.47639272
+Bavaria,1859,0.47639272
+Bavaria,1860,0.47639272
+Bavaria,1861,0.47639272
+Bavaria,1862,0.47639272
+Bavaria,1863,0.47639272
+Bavaria,1864,0.47639272
+Bavaria,1865,0.47639272
+Bavaria,1866,0.47639272
+Bavaria,1867,0.47639272
+Bavaria,1868,0.47639272
+Bavaria,1869,0.47639272
+Bavaria,1870,0.47639272
+Bavaria,1871,0.17361242
+Germany,1789,0.16528544
+Germany,1790,0.16528544
+Germany,1791,0.16528544
+Germany,1792,0.16528544
+Germany,1793,0.16528544
+Germany,1794,0.16528544
+Germany,1795,0.16528544
+Germany,1796,0.16528544
+Germany,1797,0.16528544
+Germany,1798,0.16528544
+Germany,1799,0.16528544
+Germany,1800,0.16528544
+Germany,1801,0.16528544
+Germany,1802,0.16528544
+Germany,1803,0.16528544
+Germany,1804,0.16528544
+Germany,1805,0.16528544
+Germany,1806,0.16528544
+Germany,1807,0.16528544
+Germany,1808,0.16528544
+Germany,1809,0.16528544
+Germany,1810,0.16528544
+Germany,1811,0.16528544
+Germany,1812,0.16528544
+Germany,1813,0.16528544
+Germany,1814,0.16528544
+Germany,1815,0.16528544
+Germany,1816,0.16528544
+Germany,1817,0.16528544
+Germany,1818,0.16528544
+Germany,1819,0.16528544
+Germany,1820,0.16528544
+Germany,1821,0.16528544
+Germany,1822,0.16528544
+Germany,1823,0.16528544
+Germany,1824,0.16528544
+Germany,1825,0.16528544
+Germany,1826,0.16528544
+Germany,1827,0.16528544
+Germany,1828,0.16528544
+Germany,1829,0.16528544
+Germany,1830,0.16528544
+Germany,1831,0.16528544
+Germany,1832,0.16528544
+Germany,1833,0.16528544
+Germany,1834,0.16528544
+Germany,1835,0.16528544
+Germany,1836,0.16528544
+Germany,1837,0.16528544
+Germany,1838,0.16528544
+Germany,1839,0.16528544
+Germany,1840,0.16528544
+Germany,1841,0.16528544
+Germany,1842,0.16528544
+Germany,1843,0.16528544
+Germany,1844,0.16528544
+Germany,1845,0.16528544
+Germany,1846,0.16528544
+Germany,1847,0.16528544
+Germany,1848,0.42466858
+Germany,1849,0.42466858
+Germany,1850,0.42466858
+Germany,1851,0.42466858
+Germany,1852,0.42466858
+Germany,1853,0.42466858
+Germany,1854,0.42466858
+Germany,1855,0.42466858
+Germany,1856,0.42466858
+Germany,1857,0.42466858
+Germany,1858,0.42466858
+Germany,1859,0.42466858
+Germany,1860,0.42466858
+Germany,1861,0.42466858
+Germany,1862,0.42466858
+Germany,1863,0.42466858
+Germany,1864,0.42466858
+Germany,1865,0.42466858
+Germany,1866,0.42466858
+Germany,1867,0.42466858
+Germany,1868,0.42466858
+Germany,1869,0.42466858
+Germany,1870,0.42466858
+Germany,1871,0.42466858
+Germany,1872,0.42466858
+Germany,1873,0.42466858
+Germany,1874,0.42466858
+Germany,1875,0.42466858
+Germany,1876,0.42466858
+Germany,1877,0.42466858
+Germany,1878,0.42466858
+Germany,1879,0.42466858
+Germany,1880,0.42466858
+Germany,1881,0.42466858
+Germany,1882,0.42466858
+Germany,1883,0.42466858
+Germany,1884,0.42466858
+Germany,1885,0.42466858
+Germany,1886,0.42466858
+Germany,1887,0.42466858
+Germany,1888,0.42466858
+Germany,1889,0.42466858
+Germany,1890,0.44784155
+Germany,1891,0.44784155
+Germany,1892,0.44784155
+Germany,1893,0.44784155
+Germany,1894,0.44784155
+Germany,1895,0.44784155
+Germany,1896,0.44784155
+Germany,1897,0.44784155
+Germany,1898,0.44784155
+Germany,1899,0.44784155
+Germany,1900,0.53289032
+Germany,1901,0.53289032
+Germany,1902,0.53289032
+Germany,1903,0.53289032
+Germany,1904,0.53289032
+Germany,1905,0.53289032
+Germany,1906,0.53289032
+Germany,1907,0.53289032
+Germany,1908,0.53289032
+Germany,1909,0.53289032
+Germany,1910,0.53289032
+Germany,1911,0.53289032
+Germany,1912,0.53289032
+Germany,1913,0.53289032
+Germany,1914,0.53175449
+Germany,1915,0.51829761
+Germany,1916,0.51829761
+Germany,1917,0.52483988
+Germany,1918,0.5258866
+Germany,1919,0.74900901
+Germany,1920,0.75464696
+Germany,1921,0.76503271
+Germany,1922,0.76503271
+Germany,1923,0.76503271
+Germany,1924,0.76503271
+Germany,1925,0.74008781
+Germany,1926,0.74008781
+Germany,1927,0.74008781
+Germany,1928,0.74008781
+Germany,1929,0.74898118
+Germany,1930,0.74644744
+Germany,1931,0.74644744
+Germany,1932,0.74260312
+Germany,1933,0.54359007
+Germany,1934,0.36080635
+Germany,1935,0.35112384
+Germany,1936,0.35112384
+Germany,1937,0.35112384
+Germany,1938,0.35112384
+Germany,1939,0.34160039
+Germany,1940,0.34160039
+Germany,1941,0.34160039
+Germany,1942,0.34160039
+Germany,1943,0.34160039
+Germany,1944,0.34160039
+Germany,1991,0.96996289
+Germany,1992,0.96996289
+Germany,1993,0.96996289
+Germany,1994,0.96996289
+Germany,1995,0.96996289
+Germany,1996,0.96996289
+Germany,1997,0.96996289
+Germany,1998,0.96996289
+Germany,1999,0.96996289
+Germany,2000,0.96996289
+Germany,2001,0.96996289
+Germany,2002,0.96996289
+Germany,2003,0.96996289
+Germany,2004,0.96996289
+Germany,2005,0.971533
+Germany,2006,0.971533
+Germany,2007,0.971533
+Germany,2008,0.971533
+Germany,2009,0.971533
+Germany,2010,0.97310317
+Germany,2011,0.97310317
+Germany,2012,0.97310317
+Germany,2013,0.98822397
+Germany,2014,0.98822397
+Germany,2015,0.98691553
+Germany,2016,0.98691553
+Germany,2017,0.98691553
+Germany,2018,0.98534542
+Germany,2019,1
+Germany,2020,1
+Germany,1949,0.88161194
+Germany,1950,0.90134799
+Germany,1951,0.90134799
+Germany,1952,0.90134799
+Germany,1953,0.90134799
+Germany,1954,0.90134799
+Germany,1955,0.90134799
+Germany,1956,0.90134799
+Germany,1957,0.90134799
+Germany,1958,0.90134799
+Germany,1959,0.90134799
+Germany,1960,0.90134799
+Germany,1961,0.90134799
+Germany,1962,0.90134799
+Germany,1963,0.90134799
+Germany,1964,0.90134799
+Germany,1965,0.92686033
+Germany,1966,0.92686033
+Germany,1967,0.92686033
+Germany,1968,0.92686033
+Germany,1969,0.92686033
+Germany,1970,0.92686033
+Germany,1971,0.92686033
+Germany,1972,0.92686033
+Germany,1973,0.92686033
+Germany,1974,0.92686033
+Germany,1975,0.92686033
+Germany,1976,0.92686033
+Germany,1977,0.92686033
+Germany,1978,0.92686033
+Germany,1979,0.92686033
+Germany,1980,0.92686033
+Germany,1981,0.92686033
+Germany,1982,0.92686033
+Germany,1983,0.92686033
+Germany,1984,0.92686033
+Germany,1985,0.92686033
+Germany,1986,0.92686033
+Germany,1987,0.92686033
+Germany,1988,0.92686033
+Germany,1989,0.92686033
+Germany,1990,0.96996289
+German Democratic Republic,1945,0.032711077
+German Democratic Republic,1946,0
+German Democratic Republic,1947,0
+German Democratic Republic,1948,0.032711077
+German Democratic Republic,1949,0.14399722
+German Democratic Republic,1950,0.1767083
+German Democratic Republic,1951,0.1767083
+German Democratic Republic,1952,0.1767083
+German Democratic Republic,1953,0.1767083
+German Democratic Republic,1954,0.1767083
+German Democratic Republic,1955,0.1767083
+German Democratic Republic,1956,0.1767083
+German Democratic Republic,1957,0.1767083
+German Democratic Republic,1958,0.1767083
+German Democratic Republic,1959,0.19633493
+German Democratic Republic,1960,0.19633493
+German Democratic Republic,1961,0.14399722
+German Democratic Republic,1962,0.14399722
+German Democratic Republic,1963,0.14399722
+German Democratic Republic,1964,0.14399722
+German Democratic Republic,1965,0.14399722
+German Democratic Republic,1966,0.14399722
+German Democratic Republic,1967,0.14399722
+German Democratic Republic,1968,0.14399722
+German Democratic Republic,1969,0.14399722
+German Democratic Republic,1970,0.14399722
+German Democratic Republic,1971,0.19633493
+German Democratic Republic,1972,0.19633493
+German Democratic Republic,1973,0.19633493
+German Democratic Republic,1974,0.19633493
+German Democratic Republic,1975,0.19633493
+German Democratic Republic,1976,0.19633493
+German Democratic Republic,1977,0.14399722
+German Democratic Republic,1978,0.14399722
+German Democratic Republic,1979,0.14399722
+German Democratic Republic,1980,0.14399722
+German Democratic Republic,1981,0.14399722
+German Democratic Republic,1982,0.14399722
+German Democratic Republic,1983,0.14399722
+German Democratic Republic,1984,0.14399722
+German Democratic Republic,1985,0.14399722
+German Democratic Republic,1986,0.14399722
+German Democratic Republic,1987,0.14399722
+German Democratic Republic,1988,0.14399722
+German Democratic Republic,1989,0.36213815
+German Democratic Republic,1990,0.8220396
+Baden,1789,0.17348139
+Baden,1790,0.17348139
+Baden,1791,0.17348139
+Baden,1792,0.17348139
+Baden,1793,0.17348139
+Baden,1794,0.17348139
+Baden,1795,0.17348139
+Baden,1796,0.17348139
+Baden,1797,0.17348139
+Baden,1798,0.17348139
+Baden,1799,0.17348139
+Baden,1800,0.17348139
+Baden,1801,0.17348139
+Baden,1802,0.17348139
+Baden,1803,0.17348139
+Baden,1804,0.17348139
+Baden,1805,0.17348139
+Baden,1806,0.17348139
+Baden,1807,0.17348139
+Baden,1808,0.17348139
+Baden,1809,0.30432567
+Baden,1810,0.30432567
+Baden,1811,0.30432567
+Baden,1812,0.30432567
+Baden,1813,0.30432567
+Baden,1814,0.30432567
+Baden,1815,0.30432567
+Baden,1816,0.30432567
+Baden,1817,0.30432567
+Baden,1818,0.30432567
+Baden,1819,0.68261945
+Baden,1820,0.68261945
+Baden,1821,0.68261945
+Baden,1822,0.68261945
+Baden,1823,0.68261945
+Baden,1824,0.68261945
+Baden,1825,0.68261945
+Baden,1826,0.68261945
+Baden,1827,0.68261945
+Baden,1828,0.68261945
+Baden,1829,0.68261945
+Baden,1830,0.68261945
+Baden,1831,0.68261945
+Baden,1832,0.55177516
+Baden,1833,0.68261945
+Baden,1834,0.68261945
+Baden,1835,0.68261945
+Baden,1836,0.68261945
+Baden,1837,0.68261945
+Baden,1838,0.68261945
+Baden,1839,0.68261945
+Baden,1840,0.68261945
+Baden,1841,0.68261945
+Baden,1842,0.68261945
+Baden,1843,0.68261945
+Baden,1844,0.68261945
+Baden,1845,0.68261945
+Baden,1846,0.68261945
+Baden,1847,0.68261945
+Baden,1848,0.68261945
+Baden,1849,0.68261945
+Baden,1850,0.68261945
+Baden,1851,0.68261945
+Baden,1852,0.68261945
+Baden,1853,0.68261945
+Baden,1854,0.68261945
+Baden,1855,0.68261945
+Baden,1856,0.68261945
+Baden,1857,0.68261945
+Baden,1858,0.68261945
+Baden,1859,0.68261945
+Baden,1860,0.68261945
+Baden,1861,0.68261945
+Baden,1862,0.68261945
+Baden,1863,0.68261945
+Baden,1864,0.68261945
+Baden,1865,0.68261945
+Baden,1866,0.68261945
+Baden,1867,0.68261945
+Baden,1868,0.68261945
+Baden,1869,0.68261945
+Baden,1870,0.68261945
+Baden,1871,0.30432567
+Saxony,1789,0.218043
+Saxony,1790,0.218043
+Saxony,1791,0.218043
+Saxony,1792,0.218043
+Saxony,1793,0.218043
+Saxony,1794,0.218043
+Saxony,1795,0.218043
+Saxony,1796,0.218043
+Saxony,1797,0.218043
+Saxony,1798,0.218043
+Saxony,1799,0.218043
+Saxony,1800,0.218043
+Saxony,1801,0.218043
+Saxony,1802,0.218043
+Saxony,1803,0.218043
+Saxony,1804,0.218043
+Saxony,1805,0.218043
+Saxony,1806,0.28346518
+Saxony,1807,0.28346518
+Saxony,1808,0.28346518
+Saxony,1809,0.28346518
+Saxony,1810,0.28346518
+Saxony,1811,0.28346518
+Saxony,1812,0.28346518
+Saxony,1813,0.41430947
+Saxony,1814,0.34888732
+Saxony,1815,0.218043
+Saxony,1816,0.218043
+Saxony,1817,0.218043
+Saxony,1818,0.218043
+Saxony,1819,0.218043
+Saxony,1820,0.218043
+Saxony,1821,0.218043
+Saxony,1822,0.218043
+Saxony,1823,0.218043
+Saxony,1824,0.218043
+Saxony,1825,0.218043
+Saxony,1826,0.218043
+Saxony,1827,0.218043
+Saxony,1828,0.218043
+Saxony,1829,0.218043
+Saxony,1830,0.218043
+Saxony,1831,0.218043
+Saxony,1832,0.218043
+Saxony,1833,0.218043
+Saxony,1834,0.218043
+Saxony,1835,0.218043
+Saxony,1836,0.218043
+Saxony,1837,0.218043
+Saxony,1838,0.218043
+Saxony,1839,0.218043
+Saxony,1840,0.218043
+Saxony,1841,0.218043
+Saxony,1842,0.218043
+Saxony,1843,0.218043
+Saxony,1844,0.218043
+Saxony,1845,0.218043
+Saxony,1846,0.218043
+Saxony,1847,0.218043
+Saxony,1848,0.34977341
+Saxony,1849,0.34977341
+Saxony,1850,0.31007063
+Saxony,1851,0.31007063
+Saxony,1852,0.31007063
+Saxony,1853,0.31007063
+Saxony,1854,0.31007063
+Saxony,1855,0.31007063
+Saxony,1856,0.31007063
+Saxony,1857,0.31007063
+Saxony,1858,0.31007063
+Saxony,1859,0.31007063
+Saxony,1860,0.31007063
+Saxony,1861,0.31007063
+Saxony,1862,0.31007063
+Saxony,1863,0.31007063
+Saxony,1864,0.31007063
+Saxony,1865,0.31007063
+Saxony,1866,0.31007063
+Saxony,1867,0.31007063
+Würtemberg,1789,0.19626644
+Würtemberg,1790,0.19626644
+Würtemberg,1791,0.19626644
+Würtemberg,1792,0.19626644
+Würtemberg,1793,0.13084428
+Würtemberg,1794,0.13084428
+Würtemberg,1795,0.13084428
+Würtemberg,1796,0.13084428
+Würtemberg,1797,0.13084428
+Würtemberg,1798,0.13084428
+Würtemberg,1799,0.19626644
+Würtemberg,1800,0.19626644
+Würtemberg,1801,0.19626644
+Würtemberg,1802,0.19626644
+Würtemberg,1803,0.19626644
+Würtemberg,1804,0.19626644
+Würtemberg,1805,0.19626644
+Würtemberg,1806,0.19626644
+Würtemberg,1807,0.19626644
+Würtemberg,1808,0.19626644
+Würtemberg,1809,0.19626644
+Würtemberg,1810,0.19626644
+Würtemberg,1811,0.19626644
+Würtemberg,1812,0.19626644
+Würtemberg,1813,0.19626644
+Würtemberg,1814,0.19626644
+Würtemberg,1815,0.19626644
+Würtemberg,1816,0.19626644
+Würtemberg,1817,0.19626644
+Würtemberg,1818,0.19626644
+Würtemberg,1819,0.2395588
+Würtemberg,1820,0.5336501
+Würtemberg,1821,0.5336501
+Würtemberg,1822,0.5336501
+Würtemberg,1823,0.5336501
+Würtemberg,1824,0.5336501
+Würtemberg,1825,0.5336501
+Würtemberg,1826,0.5336501
+Würtemberg,1827,0.5336501
+Würtemberg,1828,0.5336501
+Würtemberg,1829,0.5336501
+Würtemberg,1830,0.5336501
+Würtemberg,1831,0.5336501
+Würtemberg,1832,0.5336501
+Würtemberg,1833,0.5336501
+Würtemberg,1834,0.5336501
+Würtemberg,1835,0.5336501
+Würtemberg,1836,0.5336501
+Würtemberg,1837,0.5336501
+Würtemberg,1838,0.5336501
+Würtemberg,1839,0.5336501
+Würtemberg,1840,0.5336501
+Würtemberg,1841,0.5336501
+Würtemberg,1842,0.5336501
+Würtemberg,1843,0.5336501
+Würtemberg,1844,0.5336501
+Würtemberg,1845,0.5336501
+Würtemberg,1846,0.5336501
+Würtemberg,1847,0.5336501
+Würtemberg,1848,0.46822795
+Würtemberg,1849,0.5336501
+Würtemberg,1850,0.5336501
+Würtemberg,1851,0.5336501
+Würtemberg,1852,0.5336501
+Würtemberg,1853,0.5336501
+Würtemberg,1854,0.5336501
+Würtemberg,1855,0.5336501
+Würtemberg,1856,0.5336501
+Würtemberg,1857,0.5336501
+Würtemberg,1858,0.5336501
+Würtemberg,1859,0.5336501
+Würtemberg,1860,0.5336501
+Würtemberg,1861,0.5336501
+Würtemberg,1862,0.5336501
+Würtemberg,1863,0.5336501
+Würtemberg,1864,0.5336501
+Würtemberg,1865,0.56823373
+Würtemberg,1866,0.56823373
+Würtemberg,1867,0.56823373
+Würtemberg,1868,0.56823373
+Würtemberg,1869,0.56823373
+Würtemberg,1870,0.56823373
+Würtemberg,1871,0.56823373
+Hesse-Kassel,1789,
+Hesse-Kassel,1790,
+Hesse-Kassel,1791,
+Hesse-Kassel,1792,
+Hesse-Kassel,1793,
+Hesse-Kassel,1794,
+Hesse-Kassel,1795,
+Hesse-Kassel,1796,
+Hesse-Kassel,1797,
+Hesse-Kassel,1798,
+Hesse-Kassel,1799,
+Hesse-Kassel,1800,
+Hesse-Kassel,1801,
+Hesse-Kassel,1802,
+Hesse-Kassel,1803,
+Hesse-Kassel,1804,
+Hesse-Kassel,1805,
+Hesse-Kassel,1806,
+Hesse-Kassel,1807,
+Hesse-Kassel,1808,
+Hesse-Kassel,1809,
+Hesse-Kassel,1810,
+Hesse-Kassel,1811,
+Hesse-Kassel,1812,
+Hesse-Kassel,1813,
+Hesse-Kassel,1814,
+Hesse-Kassel,1815,
+Hesse-Kassel,1816,
+Hesse-Kassel,1817,
+Hesse-Kassel,1818,
+Hesse-Kassel,1819,
+Hesse-Kassel,1820,
+Hesse-Kassel,1821,
+Hesse-Kassel,1822,
+Hesse-Kassel,1823,
+Hesse-Kassel,1824,
+Hesse-Kassel,1825,
+Hesse-Kassel,1826,
+Hesse-Kassel,1827,
+Hesse-Kassel,1828,
+Hesse-Kassel,1829,
+Hesse-Kassel,1830,
+Hesse-Kassel,1831,
+Hesse-Kassel,1832,
+Hesse-Kassel,1833,
+Hesse-Kassel,1834,
+Hesse-Kassel,1835,
+Hesse-Kassel,1836,
+Hesse-Kassel,1837,
+Hesse-Kassel,1838,
+Hesse-Kassel,1839,
+Hesse-Kassel,1840,
+Hesse-Kassel,1841,
+Hesse-Kassel,1842,
+Hesse-Kassel,1843,
+Hesse-Kassel,1844,
+Hesse-Kassel,1845,
+Hesse-Kassel,1846,
+Hesse-Kassel,1847,
+Hesse-Kassel,1848,
+Hesse-Kassel,1849,
+Hesse-Kassel,1850,
+Hesse-Kassel,1851,
+Hesse-Kassel,1852,
+Hesse-Kassel,1853,
+Hesse-Kassel,1854,
+Hesse-Kassel,1855,
+Hesse-Kassel,1856,
+Hesse-Kassel,1857,
+Hesse-Kassel,1858,
+Hesse-Kassel,1859,
+Hesse-Kassel,1860,
+Hesse-Kassel,1861,
+Hesse-Kassel,1862,
+Hesse-Kassel,1863,
+Hesse-Kassel,1864,
+Hesse-Kassel,1865,
+Hesse-Kassel,1866,
+Hesse-Darmstadt,1789,0.34082684
+Hesse-Darmstadt,1790,0.34082684
+Hesse-Darmstadt,1791,0.34082684
+Hesse-Darmstadt,1792,0.34082684
+Hesse-Darmstadt,1793,0.34082684
+Hesse-Darmstadt,1794,0.34082684
+Hesse-Darmstadt,1795,0.34082684
+Hesse-Darmstadt,1796,0.34082684
+Hesse-Darmstadt,1797,0.34082684
+Hesse-Darmstadt,1798,0.34082684
+Hesse-Darmstadt,1799,0.34082684
+Hesse-Darmstadt,1800,0.34082684
+Hesse-Darmstadt,1801,0.34082684
+Hesse-Darmstadt,1802,0.34082684
+Hesse-Darmstadt,1803,0.34082684
+Hesse-Darmstadt,1804,0.34082684
+Hesse-Darmstadt,1805,0.34082684
+Hesse-Darmstadt,1806,0.34082684
+Hesse-Darmstadt,1807,0.34082684
+Hesse-Darmstadt,1808,0.34082684
+Hesse-Darmstadt,1809,0.34082684
+Hesse-Darmstadt,1810,0.34082684
+Hesse-Darmstadt,1811,0.34082684
+Hesse-Darmstadt,1812,0.34082684
+Hesse-Darmstadt,1813,0.34082684
+Hesse-Darmstadt,1814,0.34082684
+Hesse-Darmstadt,1815,0.34082684
+Hesse-Darmstadt,1816,0.34082684
+Hesse-Darmstadt,1817,0.34082684
+Hesse-Darmstadt,1818,0.34082684
+Hesse-Darmstadt,1819,0.34082684
+Hesse-Darmstadt,1820,0.41687527
+Hesse-Darmstadt,1821,0.41687527
+Hesse-Darmstadt,1822,0.41687527
+Hesse-Darmstadt,1823,0.41687527
+Hesse-Darmstadt,1824,0.41687527
+Hesse-Darmstadt,1825,0.41687527
+Hesse-Darmstadt,1826,0.41687527
+Hesse-Darmstadt,1827,0.41687527
+Hesse-Darmstadt,1828,0.41687527
+Hesse-Darmstadt,1829,0.41687527
+Hesse-Darmstadt,1830,0.53211451
+Hesse-Darmstadt,1831,0.53211451
+Hesse-Darmstadt,1832,0.53211451
+Hesse-Darmstadt,1833,0.53211451
+Hesse-Darmstadt,1834,0.53211451
+Hesse-Darmstadt,1835,0.53211451
+Hesse-Darmstadt,1836,0.53211451
+Hesse-Darmstadt,1837,0.53211451
+Hesse-Darmstadt,1838,0.53211451
+Hesse-Darmstadt,1839,0.53211451
+Hesse-Darmstadt,1840,0.53211451
+Hesse-Darmstadt,1841,0.53211451
+Hesse-Darmstadt,1842,0.53211451
+Hesse-Darmstadt,1843,0.53211451
+Hesse-Darmstadt,1844,0.53211451
+Hesse-Darmstadt,1845,0.53211451
+Hesse-Darmstadt,1846,0.53211451
+Hesse-Darmstadt,1847,0.53211451
+Hesse-Darmstadt,1848,0.62597346
+Hesse-Darmstadt,1849,0.62597346
+Hesse-Darmstadt,1850,0.5315752
+Hesse-Darmstadt,1851,0.5315752
+Hesse-Darmstadt,1852,0.5315752
+Hesse-Darmstadt,1853,0.5315752
+Hesse-Darmstadt,1854,0.5315752
+Hesse-Darmstadt,1855,0.5315752
+Hesse-Darmstadt,1856,0.5315752
+Hesse-Darmstadt,1857,0.5315752
+Hesse-Darmstadt,1858,0.5315752
+Hesse-Darmstadt,1859,0.5315752
+Hesse-Darmstadt,1860,0.5315752
+Hesse-Darmstadt,1861,0.5315752
+Hesse-Darmstadt,1862,0.5315752
+Hesse-Darmstadt,1863,0.5315752
+Hesse-Darmstadt,1864,0.5315752
+Hesse-Darmstadt,1865,0.5315752
+Hesse-Darmstadt,1866,0.5315752
+Hesse-Darmstadt,1867,0.5315752
+Hesse-Darmstadt,1868,0.5315752
+Hesse-Darmstadt,1869,0.5315752
+Hesse-Darmstadt,1870,0.56522095
+Hesse-Darmstadt,1871,0.56522095
+Mecklenburg Schwerin,1789,0.17390774
+Mecklenburg Schwerin,1790,0.17390774
+Mecklenburg Schwerin,1791,0.17390774
+Mecklenburg Schwerin,1792,0.17390774
+Mecklenburg Schwerin,1793,0.17390774
+Mecklenburg Schwerin,1794,0.17390774
+Mecklenburg Schwerin,1795,0.17390774
+Mecklenburg Schwerin,1796,0.17390774
+Mecklenburg Schwerin,1797,0.17390774
+Mecklenburg Schwerin,1798,0.17390774
+Mecklenburg Schwerin,1799,0.17390774
+Mecklenburg Schwerin,1800,0.17390774
+Mecklenburg Schwerin,1801,0.17390774
+Mecklenburg Schwerin,1802,0.17390774
+Mecklenburg Schwerin,1803,0.17390774
+Mecklenburg Schwerin,1804,0.17390774
+Mecklenburg Schwerin,1805,0.17390774
+Mecklenburg Schwerin,1806,0.17390774
+Mecklenburg Schwerin,1807,0.17390774
+Mecklenburg Schwerin,1808,0.17390774
+Mecklenburg Schwerin,1809,0.17390774
+Mecklenburg Schwerin,1810,0.17390774
+Mecklenburg Schwerin,1811,0.17390774
+Mecklenburg Schwerin,1812,0.17390774
+Mecklenburg Schwerin,1813,0.17390774
+Mecklenburg Schwerin,1814,0.17390774
+Mecklenburg Schwerin,1815,0.17390774
+Mecklenburg Schwerin,1816,0.17390774
+Mecklenburg Schwerin,1817,0.17390774
+Mecklenburg Schwerin,1818,0.17390774
+Mecklenburg Schwerin,1819,0.17390774
+Mecklenburg Schwerin,1820,0.17390774
+Mecklenburg Schwerin,1821,0.17390774
+Mecklenburg Schwerin,1822,0.17390774
+Mecklenburg Schwerin,1823,0.17390774
+Mecklenburg Schwerin,1824,0.17390774
+Mecklenburg Schwerin,1825,0.17390774
+Mecklenburg Schwerin,1826,0.17390774
+Mecklenburg Schwerin,1827,0.17390774
+Mecklenburg Schwerin,1828,0.17390774
+Mecklenburg Schwerin,1829,0.17390774
+Mecklenburg Schwerin,1830,0.17390774
+Mecklenburg Schwerin,1831,0.17390774
+Mecklenburg Schwerin,1832,0.17390774
+Mecklenburg Schwerin,1833,0.17390774
+Mecklenburg Schwerin,1834,0.17390774
+Mecklenburg Schwerin,1835,0.17390774
+Mecklenburg Schwerin,1836,0.17390774
+Mecklenburg Schwerin,1837,0.17390774
+Mecklenburg Schwerin,1838,0.17390774
+Mecklenburg Schwerin,1839,0.17390774
+Mecklenburg Schwerin,1840,0.17390774
+Mecklenburg Schwerin,1841,0.17390774
+Mecklenburg Schwerin,1842,0.17390774
+Mecklenburg Schwerin,1843,0.17390774
+Mecklenburg Schwerin,1844,0.17390774
+Mecklenburg Schwerin,1845,0.17390774
+Mecklenburg Schwerin,1846,0.17390774
+Mecklenburg Schwerin,1847,0.17390774
+Mecklenburg Schwerin,1848,0.46158886
+Mecklenburg Schwerin,1849,0.46158886
+Mecklenburg Schwerin,1850,0.17566621
+Mecklenburg Schwerin,1851,0.17566621
+Mecklenburg Schwerin,1852,0.17566621
+Mecklenburg Schwerin,1853,0.17566621
+Mecklenburg Schwerin,1854,0.17566621
+Mecklenburg Schwerin,1855,0.17566621
+Mecklenburg Schwerin,1856,0.17566621
+Mecklenburg Schwerin,1857,0.17566621
+Mecklenburg Schwerin,1858,0.17566621
+Mecklenburg Schwerin,1859,0.17566621
+Mecklenburg Schwerin,1860,0.17566621
+Mecklenburg Schwerin,1861,0.17566621
+Mecklenburg Schwerin,1862,0.17566621
+Mecklenburg Schwerin,1863,0.17566621
+Mecklenburg Schwerin,1864,0.17566621
+Mecklenburg Schwerin,1865,0.17566621
+Mecklenburg Schwerin,1866,0.17566621
+Mecklenburg Schwerin,1867,0.63424546
+Poland,1789,0.78541487
+Poland,1790,0.78541487
+Poland,1791,0.78541487
+Poland,1792,0.78541487
+Poland,1793,0.50396717
+Poland,1794,0.64263541
+Poland,1795,0.42031345
+Poland,1807,0.75594413
+Poland,1808,0.75594413
+Poland,1809,0.75594413
+Poland,1810,0.75594413
+Poland,1811,0.75594413
+Poland,1812,0.75594413
+Poland,1813,0.50784123
+Poland,1814,0.50784123
+Poland,1815,0.78727198
+Poland,1816,0.78727198
+Poland,1817,0.78727198
+Poland,1818,0.78727198
+Poland,1819,0.78727198
+Poland,1820,0.78727198
+Poland,1821,0.70295584
+Poland,1822,0.70295584
+Poland,1823,0.70295584
+Poland,1824,0.70295584
+Poland,1825,0.60968721
+Poland,1826,0.60968721
+Poland,1827,0.60968721
+Poland,1828,0.60968721
+Poland,1829,0.60968721
+Poland,1830,0.78664863
+Poland,1831,0.78664863
+Poland,1832,0.32616025
+Poland,1833,0.32616025
+Poland,1834,0.32616025
+Poland,1835,0.32616025
+Poland,1836,0.32616025
+Poland,1837,0.32616025
+Poland,1838,0.32616025
+Poland,1839,0.32616025
+Poland,1840,0.32616025
+Poland,1841,0.32616025
+Poland,1842,0.32616025
+Poland,1843,0.32616025
+Poland,1844,0.32616025
+Poland,1845,0.32616025
+Poland,1846,0.32616025
+Poland,1847,0.32616025
+Poland,1848,0.32616025
+Poland,1849,0.32616025
+Poland,1850,0.32616025
+Poland,1851,0.32616025
+Poland,1852,0.32616025
+Poland,1853,0.32616025
+Poland,1854,0.32616025
+Poland,1855,0.32616025
+Poland,1856,0.32616025
+Poland,1857,0.32616025
+Poland,1858,0.32616025
+Poland,1859,0.32616025
+Poland,1860,0.32616025
+Poland,1861,0.32616025
+Poland,1862,0.32616025
+Poland,1863,0.32616025
+Poland,1864,0.32616025
+Poland,1865,0.32616025
+Poland,1866,0.32616025
+Poland,1867,0.32616025
+Poland,1918,0.71342391
+Poland,1919,0.72154939
+Poland,1920,0.72154939
+Poland,1921,0.74326956
+Poland,1922,0.74602175
+Poland,1923,0.7279712
+Poland,1924,0.7279712
+Poland,1925,0.7279712
+Poland,1926,0.68676448
+Poland,1927,0.66108346
+Poland,1928,0.62176645
+Poland,1929,0.58596337
+Poland,1930,0.51993424
+Poland,1931,0.51508987
+Poland,1932,0.51508987
+Poland,1933,0.51508987
+Poland,1934,0.51508987
+Poland,1935,0.57226866
+Poland,1936,0.55054849
+Poland,1937,0.55054849
+Poland,1938,0.55054849
+Poland,1944,0.45498127
+Poland,1945,0.42268136
+Poland,1946,0.42268136
+Poland,1947,0.39529678
+Poland,1948,0.35470998
+Poland,1949,0.34140608
+Poland,1950,0.37076277
+Poland,1951,0.37076277
+Poland,1952,0.24646066
+Poland,1953,0.23991846
+Poland,1954,0.23991846
+Poland,1955,0.23991846
+Poland,1956,0.23991846
+Poland,1957,0.2594896
+Poland,1958,0.2594896
+Poland,1959,0.2594896
+Poland,1960,0.2594896
+Poland,1961,0.240399
+Poland,1962,0.240399
+Poland,1963,0.240399
+Poland,1964,0.240399
+Poland,1965,0.240399
+Poland,1966,0.240399
+Poland,1967,0.240399
+Poland,1968,0.240399
+Poland,1969,0.240399
+Poland,1970,0.240399
+Poland,1971,0.240399
+Poland,1972,0.240399
+Poland,1973,0.240399
+Poland,1974,0.240399
+Poland,1975,0.240399
+Poland,1976,0.240399
+Poland,1977,0.240399
+Poland,1978,0.240399
+Poland,1979,0.240399
+Poland,1980,0.240399
+Poland,1981,0.240399
+Poland,1982,0.240399
+Poland,1983,0.240399
+Poland,1984,0.240399
+Poland,1985,0.240399
+Poland,1986,0.3712433
+Poland,1987,0.3712433
+Poland,1988,0.3712433
+Poland,1989,0.49198788
+Poland,1990,0.78742349
+Poland,1991,0.92726088
+Poland,1992,0.95255482
+Poland,1993,0.95255482
+Poland,1994,0.95255482
+Poland,1995,0.95255482
+Poland,1996,0.95255482
+Poland,1997,0.95255482
+Poland,1998,0.95255482
+Poland,1999,0.95255482
+Poland,2000,0.95255482
+Poland,2001,0.95255482
+Poland,2002,0.95255482
+Poland,2003,0.95255482
+Poland,2004,0.95255482
+Poland,2005,0.95700353
+Poland,2006,0.95700353
+Poland,2007,0.95700353
+Poland,2008,0.95700353
+Poland,2009,0.95700353
+Poland,2010,0.95700353
+Poland,2011,0.95700353
+Poland,2012,0.95201457
+Poland,2013,0.95908016
+Poland,2014,0.90927863
+Poland,2015,0.9390285
+Poland,2016,0.92463559
+Poland,2017,0.83196545
+Poland,2018,0.81515759
+Poland,2019,0.80285048
+Poland,2020,0.75874048
+Austria,1789,0.20739721
+Austria,1790,0.20739721
+Austria,1791,0.20739721
+Austria,1792,0.20739721
+Austria,1793,0.20739721
+Austria,1794,0.20739721
+Austria,1795,0.20739721
+Austria,1796,0.20739721
+Austria,1797,0.20739721
+Austria,1798,0.20739721
+Austria,1799,0.20739721
+Austria,1800,0.20739721
+Austria,1801,0.20739721
+Austria,1802,0.20739721
+Austria,1803,0.20739721
+Austria,1804,0.20739721
+Austria,1805,0.20739721
+Austria,1806,0.20739721
+Austria,1807,0.20739721
+Austria,1808,0.20739721
+Austria,1809,0.20739721
+Austria,1810,0.20739721
+Austria,1811,0.20739721
+Austria,1812,0.20739721
+Austria,1813,0.20739721
+Austria,1814,0.20739721
+Austria,1815,0.20739721
+Austria,1816,0.20739721
+Austria,1817,0.20739721
+Austria,1818,0.20739721
+Austria,1819,0.20739721
+Austria,1820,0.20739721
+Austria,1821,0.20739721
+Austria,1822,0.20739721
+Austria,1823,0.20739721
+Austria,1824,0.20739721
+Austria,1825,0.20739721
+Austria,1826,0.20739721
+Austria,1827,0.20739721
+Austria,1828,0.20739721
+Austria,1829,0.20739721
+Austria,1830,0.20739721
+Austria,1831,0.20739721
+Austria,1832,0.20739721
+Austria,1833,0.20739721
+Austria,1834,0.20739721
+Austria,1835,0.20739721
+Austria,1836,0.20739721
+Austria,1837,0.20739721
+Austria,1838,0.20739721
+Austria,1839,0.20739721
+Austria,1840,0.20739721
+Austria,1841,0.20739721
+Austria,1842,0.20739721
+Austria,1843,0.20739721
+Austria,1844,0.20739721
+Austria,1845,0.20739721
+Austria,1846,0.20739721
+Austria,1847,0.20739721
+Austria,1848,0.20739721
+Austria,1849,0.20739721
+Austria,1850,0.20739721
+Austria,1851,0.20739721
+Austria,1852,0.20739721
+Austria,1853,0.20739721
+Austria,1854,0.20739721
+Austria,1855,0.20739721
+Austria,1856,0.20739721
+Austria,1857,0.20739721
+Austria,1858,0.20739721
+Austria,1859,0.20739721
+Austria,1860,0.20739721
+Austria,1861,0.20739721
+Austria,1862,0.20739721
+Austria,1863,0.20739721
+Austria,1864,0.20739721
+Austria,1865,0.20739721
+Austria,1866,0.20739721
+Austria,1867,0.55307406
+Austria,1868,0.55307406
+Austria,1869,0.55307406
+Austria,1870,0.55307406
+Austria,1871,0.55307406
+Austria,1872,0.55307406
+Austria,1873,0.55307406
+Austria,1874,0.55307406
+Austria,1875,0.55307406
+Austria,1876,0.55307406
+Austria,1877,0.55307406
+Austria,1878,0.55307406
+Austria,1879,0.55307406
+Austria,1880,0.55307406
+Austria,1881,0.55307406
+Austria,1882,0.55307406
+Austria,1883,0.55307406
+Austria,1884,0.55307406
+Austria,1885,0.55307406
+Austria,1886,0.55307406
+Austria,1887,0.55307406
+Austria,1888,0.62179893
+Austria,1889,0.62179893
+Austria,1890,0.62179893
+Austria,1891,0.62179893
+Austria,1892,0.62179893
+Austria,1893,0.62179893
+Austria,1894,0.62179893
+Austria,1895,0.62179893
+Austria,1896,0.62179893
+Austria,1897,0.62179893
+Austria,1898,0.62179893
+Austria,1899,0.62179893
+Austria,1900,0.62179893
+Austria,1901,0.62179893
+Austria,1902,0.62179893
+Austria,1903,0.62179893
+Austria,1904,0.62179893
+Austria,1905,0.62179893
+Austria,1906,0.62179893
+Austria,1907,0.62179893
+Austria,1908,0.62179893
+Austria,1909,0.62179893
+Austria,1910,0.62179893
+Austria,1911,0.62179893
+Austria,1912,0.62179893
+Austria,1913,0.62179893
+Austria,1914,0.63797706
+Austria,1915,0.63797706
+Austria,1916,0.63797706
+Austria,1917,0.63797706
+Austria,1918,0.74710119
+Austria,1919,0.78338629
+Austria,1920,0.76140445
+Austria,1921,0.76140445
+Austria,1922,0.76140445
+Austria,1923,0.76140445
+Austria,1924,0.76140445
+Austria,1925,0.76140445
+Austria,1926,0.76140445
+Austria,1927,0.76140445
+Austria,1928,0.76140445
+Austria,1929,0.76140445
+Austria,1930,0.76140445
+Austria,1931,0.76140445
+Austria,1932,0.76140445
+Austria,1933,0.5830546
+Austria,1934,0.36658093
+Austria,1935,0.36658093
+Austria,1936,0.36658093
+Austria,1937,0.36658093
+Austria,1938,0.13177653
+Austria,1945,0.85019177
+Austria,1946,0.82402289
+Austria,1947,0.82402289
+Austria,1948,0.82402289
+Austria,1949,0.83133042
+Austria,1950,0.83133042
+Austria,1951,0.83133042
+Austria,1952,0.83133042
+Austria,1953,0.83133042
+Austria,1954,0.83133042
+Austria,1955,0.83133042
+Austria,1956,0.87158692
+Austria,1957,0.87158692
+Austria,1958,0.87158692
+Austria,1959,0.87158692
+Austria,1960,0.87158692
+Austria,1961,0.87158692
+Austria,1962,0.87158692
+Austria,1963,0.87158692
+Austria,1964,0.87158692
+Austria,1965,0.87158692
+Austria,1966,0.87158692
+Austria,1967,0.87158692
+Austria,1968,0.87158692
+Austria,1969,0.87158692
+Austria,1970,0.87158692
+Austria,1971,0.87158692
+Austria,1972,0.87158692
+Austria,1973,0.87158692
+Austria,1974,0.87158692
+Austria,1975,0.87158692
+Austria,1976,0.87158692
+Austria,1977,0.87158692
+Austria,1978,0.87158692
+Austria,1979,0.87158692
+Austria,1980,0.87158692
+Austria,1981,0.87158692
+Austria,1982,0.87158692
+Austria,1983,0.87158692
+Austria,1984,0.87158692
+Austria,1985,0.87158692
+Austria,1986,0.87158692
+Austria,1987,0.87158692
+Austria,1988,0.87158692
+Austria,1989,0.87158692
+Austria,1990,0.87158692
+Austria,1991,0.87158692
+Austria,1992,0.87158692
+Austria,1993,0.87158692
+Austria,1994,0.87158692
+Austria,1995,0.87158692
+Austria,1996,0.87158692
+Austria,1997,0.87158692
+Austria,1998,0.87158692
+Austria,1999,0.87158692
+Austria,2000,0.87158692
+Austria,2001,0.87158692
+Austria,2002,0.87158692
+Austria,2003,0.87158692
+Austria,2004,0.87158692
+Austria,2005,0.88833499
+Austria,2006,0.88833499
+Austria,2007,0.88833499
+Austria,2008,0.88833499
+Austria,2009,0.88833499
+Austria,2010,0.88833499
+Austria,2011,0.88833499
+Austria,2012,0.88833499
+Austria,2013,0.88833499
+Austria,2014,0.88833499
+Austria,2015,0.88833499
+Austria,2016,0.88833499
+Austria,2017,0.88833499
+Austria,2018,0.88467139
+Austria,2019,0.8948772
+Austria,2020,0.8912136
+Hungary,1789,0.33053106
+Hungary,1790,0.33053106
+Hungary,1791,0.33053106
+Hungary,1792,0.33053106
+Hungary,1793,0.33053106
+Hungary,1794,0.33053106
+Hungary,1795,0.33053106
+Hungary,1796,0.33053106
+Hungary,1797,0.33053106
+Hungary,1798,0.33053106
+Hungary,1799,0.33053106
+Hungary,1800,0.33053106
+Hungary,1801,0.33053106
+Hungary,1802,0.33053106
+Hungary,1803,0.33053106
+Hungary,1804,0.33053106
+Hungary,1805,0.33053106
+Hungary,1806,0.33053106
+Hungary,1807,0.33053106
+Hungary,1808,0.33053106
+Hungary,1809,0.33053106
+Hungary,1810,0.33053106
+Hungary,1811,0.33053106
+Hungary,1812,0.33053106
+Hungary,1813,0.33053106
+Hungary,1814,0.33053106
+Hungary,1815,0.33053106
+Hungary,1816,0.33053106
+Hungary,1817,0.33053106
+Hungary,1818,0.33053106
+Hungary,1819,0.33053106
+Hungary,1820,0.33053106
+Hungary,1821,0.33053106
+Hungary,1822,0.37027293
+Hungary,1823,0.37027293
+Hungary,1824,0.37027293
+Hungary,1825,0.37027293
+Hungary,1826,0.37027293
+Hungary,1827,0.37027293
+Hungary,1828,0.37027293
+Hungary,1829,0.37027293
+Hungary,1830,0.37027293
+Hungary,1831,0.37027293
+Hungary,1832,0.37027293
+Hungary,1833,0.37027293
+Hungary,1834,0.37027293
+Hungary,1835,0.37027293
+Hungary,1836,0.37027293
+Hungary,1837,0.37027293
+Hungary,1838,0.37027293
+Hungary,1839,0.37027293
+Hungary,1840,0.37027293
+Hungary,1841,0.37027293
+Hungary,1842,0.37027293
+Hungary,1843,0.37027293
+Hungary,1844,0.37027293
+Hungary,1845,0.37027293
+Hungary,1846,0.37027293
+Hungary,1847,0.37027293
+Hungary,1848,0.50111723
+Hungary,1849,0.50111723
+Hungary,1850,0.50111723
+Hungary,1851,0.37027293
+Hungary,1852,0.37027293
+Hungary,1853,0.37027293
+Hungary,1854,0.37027293
+Hungary,1855,0.37027293
+Hungary,1856,0.37027293
+Hungary,1857,0.37027293
+Hungary,1858,0.37027293
+Hungary,1859,0.37027293
+Hungary,1860,0.37027293
+Hungary,1861,0.37027293
+Hungary,1862,0.37027293
+Hungary,1863,0.37027293
+Hungary,1864,0.37027293
+Hungary,1865,0.37027293
+Hungary,1866,0.37027293
+Hungary,1867,0.51705366
+Hungary,1868,0.51705366
+Hungary,1869,0.51705366
+Hungary,1870,0.51705366
+Hungary,1871,0.51705366
+Hungary,1872,0.51705366
+Hungary,1873,0.51705366
+Hungary,1874,0.51705366
+Hungary,1875,0.51705366
+Hungary,1876,0.51705366
+Hungary,1877,0.51705366
+Hungary,1878,0.51705366
+Hungary,1879,0.51705366
+Hungary,1880,0.51705366
+Hungary,1881,0.51705366
+Hungary,1882,0.51705366
+Hungary,1883,0.51705366
+Hungary,1884,0.51705366
+Hungary,1885,0.51705366
+Hungary,1886,0.51705366
+Hungary,1887,0.51705366
+Hungary,1888,0.51705366
+Hungary,1889,0.51705366
+Hungary,1890,0.51705366
+Hungary,1891,0.51705366
+Hungary,1892,0.51705366
+Hungary,1893,0.51705366
+Hungary,1894,0.51705366
+Hungary,1895,0.51705366
+Hungary,1896,0.51705366
+Hungary,1897,0.51705366
+Hungary,1898,0.51705366
+Hungary,1899,0.51705366
+Hungary,1900,0.51705366
+Hungary,1901,0.51705366
+Hungary,1902,0.51705366
+Hungary,1903,0.51705366
+Hungary,1904,0.51705366
+Hungary,1905,0.51705366
+Hungary,1906,0.51705366
+Hungary,1907,0.51705366
+Hungary,1908,0.51705366
+Hungary,1909,0.51705366
+Hungary,1910,0.51705366
+Hungary,1911,0.51705366
+Hungary,1912,0.51705366
+Hungary,1913,0.51705366
+Hungary,1914,0.51705366
+Hungary,1915,0.51705366
+Hungary,1916,0.51705366
+Hungary,1917,0.51705366
+Hungary,1918,0.60419601
+Hungary,1919,0.47145936
+Hungary,1920,0.59589112
+Hungary,1921,0.59589112
+Hungary,1922,0.59589112
+Hungary,1923,0.61787295
+Hungary,1924,0.61787295
+Hungary,1925,0.61787295
+Hungary,1926,0.61787295
+Hungary,1927,0.61787295
+Hungary,1928,0.61787295
+Hungary,1929,0.61787295
+Hungary,1930,0.62105429
+Hungary,1931,0.62105429
+Hungary,1932,0.62105429
+Hungary,1933,0.62105429
+Hungary,1934,0.62105429
+Hungary,1935,0.62105429
+Hungary,1936,0.62105429
+Hungary,1937,0.62105429
+Hungary,1938,0.62105429
+Hungary,1939,0.61885601
+Hungary,1940,0.61885601
+Hungary,1941,0.61885601
+Hungary,1942,0.61885601
+Hungary,1943,0.61885601
+Hungary,1944,0.52006292
+Hungary,1945,0.48071238
+Hungary,1946,0.55648673
+Hungary,1947,0.38349441
+Hungary,1948,0.3780154
+Hungary,1949,0.20986477
+Hungary,1950,0.18369591
+Hungary,1951,0.18369591
+Hungary,1952,0.18369591
+Hungary,1953,0.31454021
+Hungary,1954,0.31454021
+Hungary,1955,0.18369591
+Hungary,1956,0.18369591
+Hungary,1957,0.18369591
+Hungary,1958,0.18369591
+Hungary,1959,0.18369591
+Hungary,1960,0.18369591
+Hungary,1961,0.18369591
+Hungary,1962,0.18369591
+Hungary,1963,0.18369591
+Hungary,1964,0.18369591
+Hungary,1965,0.18369591
+Hungary,1966,0.18369591
+Hungary,1967,0.18369591
+Hungary,1968,0.18369591
+Hungary,1969,0.18369591
+Hungary,1970,0.18369591
+Hungary,1971,0.18369591
+Hungary,1972,0.18369591
+Hungary,1973,0.18369591
+Hungary,1974,0.18369591
+Hungary,1975,0.18369591
+Hungary,1976,0.18369591
+Hungary,1977,0.18369591
+Hungary,1978,0.18369591
+Hungary,1979,0.18369591
+Hungary,1980,0.18369591
+Hungary,1981,0.18369591
+Hungary,1982,0.18369591
+Hungary,1983,0.18369591
+Hungary,1984,0.18369591
+Hungary,1985,0.18369591
+Hungary,1986,0.18369591
+Hungary,1987,0.20690796
+Hungary,1988,0.27469328
+Hungary,1989,0.53234798
+Hungary,1990,0.91829151
+Hungary,1991,0.91829151
+Hungary,1992,0.91829151
+Hungary,1993,0.91829151
+Hungary,1994,0.91829151
+Hungary,1995,0.91829151
+Hungary,1996,0.91829151
+Hungary,1997,0.91829151
+Hungary,1998,0.91829151
+Hungary,1999,0.91829151
+Hungary,2000,0.91829151
+Hungary,2001,0.91829151
+Hungary,2002,0.91829151
+Hungary,2003,0.91829151
+Hungary,2004,0.91829151
+Hungary,2005,0.88558048
+Hungary,2006,0.88558048
+Hungary,2007,0.88558048
+Hungary,2008,0.88558048
+Hungary,2009,0.88558048
+Hungary,2010,0.8546145
+Hungary,2011,0.84094089
+Hungary,2012,0.84094089
+Hungary,2013,0.82477725
+Hungary,2014,0.82477725
+Hungary,2015,0.82477725
+Hungary,2016,0.82477725
+Hungary,2017,0.74901575
+Hungary,2018,0.70133799
+Hungary,2019,0.70147967
+Hungary,2020,0.7513206
+Czech Republic,1918,0.85180348
+Czech Republic,1919,0.85180348
+Czech Republic,1920,0.85180348
+Czech Republic,1921,0.85180348
+Czech Republic,1922,0.85180348
+Czech Republic,1923,0.85180348
+Czech Republic,1924,0.85180348
+Czech Republic,1925,0.85180348
+Czech Republic,1926,0.85180348
+Czech Republic,1927,0.85180348
+Czech Republic,1928,0.85180348
+Czech Republic,1929,0.85180348
+Czech Republic,1930,0.85180348
+Czech Republic,1931,0.85180348
+Czech Republic,1932,0.85180348
+Czech Republic,1933,0.85180348
+Czech Republic,1934,0.85180348
+Czech Republic,1935,0.85180348
+Czech Republic,1936,0.85180348
+Czech Republic,1937,0.85180348
+Czech Republic,1938,0.78417259
+Czech Republic,1939,0.42036131
+Czech Republic,1940,0.39683664
+Czech Republic,1941,0.39683664
+Czech Republic,1942,0.39683664
+Czech Republic,1943,0.39683664
+Czech Republic,1944,0.39683664
+Czech Republic,1945,0.44921207
+Czech Republic,1946,0.42059407
+Czech Republic,1947,0.42059407
+Czech Republic,1948,0.26462942
+Czech Republic,1949,0.28146672
+Czech Republic,1950,0.28146672
+Czech Republic,1951,0.28146672
+Czech Republic,1952,0.28146672
+Czech Republic,1953,0.17679131
+Czech Republic,1954,0.17679131
+Czech Republic,1955,0.17679131
+Czech Republic,1956,0.17679131
+Czech Republic,1957,0.17679131
+Czech Republic,1958,0.28146672
+Czech Republic,1959,0.28146672
+Czech Republic,1960,0.28146672
+Czech Republic,1961,0.28146672
+Czech Republic,1962,0.28146672
+Czech Republic,1963,0.28146672
+Czech Republic,1964,0.28146672
+Czech Republic,1965,0.28146672
+Czech Republic,1966,0.28146672
+Czech Republic,1967,0.28146672
+Czech Republic,1968,0.17679131
+Czech Republic,1969,0.17679131
+Czech Republic,1970,0.17679131
+Czech Republic,1971,0.17679131
+Czech Republic,1972,0.17679131
+Czech Republic,1973,0.17679131
+Czech Republic,1974,0.17679131
+Czech Republic,1975,0.17679131
+Czech Republic,1976,0.28146672
+Czech Republic,1977,0.28146672
+Czech Republic,1978,0.28146672
+Czech Republic,1979,0.28146672
+Czech Republic,1980,0.28146672
+Czech Republic,1981,0.28146672
+Czech Republic,1982,0.28146672
+Czech Republic,1983,0.28146672
+Czech Republic,1984,0.28146672
+Czech Republic,1985,0.28146672
+Czech Republic,1986,0.28146672
+Czech Republic,1987,0.17679131
+Czech Republic,1988,0.17679131
+Czech Republic,1989,0.31154338
+Czech Republic,1990,0.86794215
+Czech Republic,1991,0.86794215
+Czech Republic,1992,0.86794215
+Czech Republic,1993,0.90843862
+Czech Republic,1994,0.90843862
+Czech Republic,1995,0.90843862
+Czech Republic,1996,0.90843862
+Czech Republic,1997,0.90843862
+Czech Republic,1998,0.90843862
+Czech Republic,1999,0.90843862
+Czech Republic,2000,0.90843862
+Czech Republic,2001,0.90843862
+Czech Republic,2002,0.90843862
+Czech Republic,2003,0.90843862
+Czech Republic,2004,0.90843862
+Czech Republic,2005,0.90189648
+Czech Republic,2006,0.90189648
+Czech Republic,2007,0.90189648
+Czech Republic,2008,0.90189648
+Czech Republic,2009,0.90189648
+Czech Republic,2010,0.90189648
+Czech Republic,2011,0.90189648
+Czech Republic,2012,0.90189648
+Czech Republic,2013,0.91079384
+Czech Republic,2014,0.91079384
+Czech Republic,2015,0.91079384
+Czech Republic,2016,0.91079384
+Czech Republic,2017,0.87589699
+Czech Republic,2018,0.86150414
+Czech Republic,2019,0.84388185
+Czech Republic,2020,0.87948561
+Slovakia,1939,0.43406594
+Slovakia,1940,0.43406594
+Slovakia,1941,0.43406594
+Slovakia,1942,0.43406594
+Slovakia,1943,0.43406594
+Slovakia,1944,0.43406594
+Slovakia,1993,0.86799866
+Slovakia,1994,0.84259826
+Slovakia,1995,0.84259826
+Slovakia,1996,0.84259826
+Slovakia,1997,0.84259826
+Slovakia,1998,0.90170717
+Slovakia,1999,0.91913772
+Slovakia,2000,0.91913772
+Slovakia,2001,0.91913772
+Slovakia,2002,0.91913772
+Slovakia,2003,0.91913772
+Slovakia,2004,0.91913772
+Slovakia,2005,0.91913772
+Slovakia,2006,0.91913772
+Slovakia,2007,0.91913772
+Slovakia,2008,0.91913772
+Slovakia,2009,0.91913772
+Slovakia,2010,0.91913772
+Slovakia,2011,0.91913772
+Slovakia,2012,0.91913772
+Slovakia,2013,0.91913772
+Slovakia,2014,0.91913772
+Slovakia,2015,0.91918141
+Slovakia,2016,0.9272632
+Slovakia,2017,0.9272632
+Slovakia,2018,0.9272632
+Slovakia,2019,0.95203292
+Slovakia,2020,0.95203292
+Italy,1861,0.57010752
+Italy,1862,0.57010752
+Italy,1863,0.57010752
+Italy,1864,0.57010752
+Italy,1865,0.57010752
+Italy,1866,0.57010752
+Italy,1867,0.57010752
+Italy,1868,0.57010752
+Italy,1869,0.57010752
+Italy,1870,0.57010752
+Italy,1871,0.5046854
+Italy,1872,0.5046854
+Italy,1873,0.5046854
+Italy,1874,0.5046854
+Italy,1875,0.5046854
+Italy,1876,0.5046854
+Italy,1877,0.5046854
+Italy,1878,0.5046854
+Italy,1879,0.5046854
+Italy,1880,0.57010752
+Italy,1881,0.57010752
+Italy,1882,0.57010752
+Italy,1883,0.57010752
+Italy,1884,0.57010752
+Italy,1885,0.57010752
+Italy,1886,0.57010752
+Italy,1887,0.57010752
+Italy,1888,0.58624655
+Italy,1889,0.58624655
+Italy,1890,0.65388978
+Italy,1891,0.65388978
+Italy,1892,0.65388978
+Italy,1893,0.65388978
+Italy,1894,0.70103192
+Italy,1895,0.70103192
+Italy,1896,0.70103192
+Italy,1897,0.70103192
+Italy,1898,0.70103192
+Italy,1899,0.70103192
+Italy,1900,0.69390017
+Italy,1901,0.69390017
+Italy,1902,0.69390017
+Italy,1903,0.69390017
+Italy,1904,0.69390017
+Italy,1905,0.69390017
+Italy,1906,0.69390017
+Italy,1907,0.69390017
+Italy,1908,0.69390017
+Italy,1909,0.69390017
+Italy,1910,0.69390017
+Italy,1911,0.69390017
+Italy,1912,0.70119566
+Italy,1913,0.70119566
+Italy,1914,0.70119566
+Italy,1915,0.70119566
+Italy,1916,0.70119566
+Italy,1917,0.70119566
+Italy,1918,0.70119566
+Italy,1919,0.70642275
+Italy,1920,0.70642275
+Italy,1921,0.68287075
+Italy,1922,0.6701315
+Italy,1923,0.64234751
+Italy,1924,0.61393166
+Italy,1925,0.49838698
+Italy,1926,0.40311563
+Italy,1927,0.40311563
+Italy,1928,0.40311563
+Italy,1929,0.40311563
+Italy,1930,0.40311563
+Italy,1931,0.40311563
+Italy,1932,0.40311563
+Italy,1933,0.40311563
+Italy,1934,0.40311563
+Italy,1935,0.40311563
+Italy,1936,0.40311563
+Italy,1937,0.40745324
+Italy,1938,0.40745324
+Italy,1939,0.40745324
+Italy,1940,0.40745324
+Italy,1941,0.40745324
+Italy,1942,0.40745324
+Italy,1943,0.43465123
+Italy,1944,0.66740197
+Italy,1945,0.76565075
+Italy,1946,0.78843296
+Italy,1947,0.79944175
+Italy,1948,0.85601956
+Italy,1949,0.85601956
+Italy,1950,0.85601956
+Italy,1951,0.85601956
+Italy,1952,0.85601956
+Italy,1953,0.85601956
+Italy,1954,0.85601956
+Italy,1955,0.85601956
+Italy,1956,0.86860096
+Italy,1957,0.86860096
+Italy,1958,0.86860096
+Italy,1959,0.86860096
+Italy,1960,0.9082256
+Italy,1961,0.9082256
+Italy,1962,0.9082256
+Italy,1963,0.9082256
+Italy,1964,0.9082256
+Italy,1965,0.9082256
+Italy,1966,0.9082256
+Italy,1967,0.9082256
+Italy,1968,0.9082256
+Italy,1969,0.9082256
+Italy,1970,0.9082256
+Italy,1971,0.9082256
+Italy,1972,0.9082256
+Italy,1973,0.9082256
+Italy,1974,0.9082256
+Italy,1975,0.9082256
+Italy,1976,0.9082256
+Italy,1977,0.9082256
+Italy,1978,0.9082256
+Italy,1979,0.9082256
+Italy,1980,0.9082256
+Italy,1981,0.9082256
+Italy,1982,0.9082256
+Italy,1983,0.9082256
+Italy,1984,0.9082256
+Italy,1985,0.9082256
+Italy,1986,0.9082256
+Italy,1987,0.9082256
+Italy,1988,0.9082256
+Italy,1989,0.9082256
+Italy,1990,0.9082256
+Italy,1991,0.9082256
+Italy,1992,0.9082256
+Italy,1993,0.92618036
+Italy,1994,0.92618036
+Italy,1995,0.92618036
+Italy,1996,0.92618036
+Italy,1997,0.92618036
+Italy,1998,0.92618036
+Italy,1999,0.92618036
+Italy,2000,0.92618036
+Italy,2001,0.92618036
+Italy,2002,0.92618036
+Italy,2003,0.92618036
+Italy,2004,0.92618036
+Italy,2005,0.93533945
+Italy,2006,0.93533945
+Italy,2007,0.93533945
+Italy,2008,0.93533945
+Italy,2009,0.93533945
+Italy,2010,0.93533945
+Italy,2011,0.93533945
+Italy,2012,0.93533945
+Italy,2013,0.9447602
+Italy,2014,0.9447602
+Italy,2015,0.9447602
+Italy,2016,0.9447602
+Italy,2017,0.92274368
+Italy,2018,0.92274368
+Italy,2019,0.92274368
+Italy,2020,0.93984354
+Papal States,1789,0.34840643
+Papal States,1790,0.34840643
+Papal States,1791,0.34840643
+Papal States,1792,0.34840643
+Papal States,1793,0.34840643
+Papal States,1794,0.34840643
+Papal States,1795,0.34840643
+Papal States,1796,0.34840643
+Papal States,1797,0.34840643
+Papal States,1798,0.42665535
+Papal States,1799,0.42665535
+Papal States,1800,0.34805474
+Papal States,1801,0.34805474
+Papal States,1802,0.34805474
+Papal States,1803,0.34805474
+Papal States,1804,0.34805474
+Papal States,1805,0.34805474
+Papal States,1806,0.34805474
+Papal States,1807,0.34805474
+Papal States,1808,0.34805474
+Papal States,1809,0.34805474
+Papal States,1814,0.34810305
+Papal States,1815,0.34810305
+Papal States,1816,0.34810305
+Papal States,1817,0.34810305
+Papal States,1818,0.34810305
+Papal States,1819,0.34810305
+Papal States,1820,0.34810305
+Papal States,1821,0.34810305
+Papal States,1822,0.34810305
+Papal States,1823,0.34810305
+Papal States,1824,0.34810305
+Papal States,1825,0.34810305
+Papal States,1826,0.34810305
+Papal States,1827,0.34810305
+Papal States,1828,0.34810305
+Papal States,1829,0.34810305
+Papal States,1830,0.34810305
+Papal States,1831,0.34810305
+Papal States,1832,0.34810305
+Papal States,1833,0.34810305
+Papal States,1834,0.34810305
+Papal States,1835,0.34810305
+Papal States,1836,0.34810305
+Papal States,1837,0.34810305
+Papal States,1838,0.34810305
+Papal States,1839,0.34810305
+Papal States,1840,0.34810305
+Papal States,1841,0.34810305
+Papal States,1842,0.34810305
+Papal States,1843,0.34810305
+Papal States,1844,0.34810305
+Papal States,1845,0.34810305
+Papal States,1846,0.34810305
+Papal States,1847,0.34810305
+Papal States,1848,0.34810305
+Papal States,1849,0.43558162
+Papal States,1850,0.34849381
+Papal States,1851,0.34849381
+Papal States,1852,0.34849381
+Papal States,1853,0.34849381
+Papal States,1854,0.34849381
+Papal States,1855,0.34849381
+Papal States,1856,0.34849381
+Papal States,1857,0.34849381
+Papal States,1858,0.34849381
+Papal States,1859,0.34849381
+Papal States,1860,0.34849381
+Papal States,1861,0.34849381
+Two Sicilies,1789,0.2117862
+Two Sicilies,1790,0.2117862
+Two Sicilies,1791,0.2117862
+Two Sicilies,1792,0.2117862
+Two Sicilies,1793,0.2117862
+Two Sicilies,1794,0.2117862
+Two Sicilies,1795,0.2117862
+Two Sicilies,1796,0.2117862
+Two Sicilies,1797,0.2117862
+Two Sicilies,1798,0.2117862
+Two Sicilies,1799,0.2117862
+Two Sicilies,1800,0.2117862
+Two Sicilies,1801,0.2117862
+Two Sicilies,1802,0.2117862
+Two Sicilies,1803,0.2117862
+Two Sicilies,1804,0.2117862
+Two Sicilies,1805,0.2117862
+Two Sicilies,1806,0.34263051
+Two Sicilies,1807,0.34263051
+Two Sicilies,1808,0.34263051
+Two Sicilies,1809,0.34263051
+Two Sicilies,1810,0.34263051
+Two Sicilies,1811,0.34263051
+Two Sicilies,1812,0.34263051
+Two Sicilies,1813,0.34263051
+Two Sicilies,1814,0.34263051
+Two Sicilies,1815,0.34263051
+Two Sicilies,1816,0.34263051
+Two Sicilies,1817,0.34263051
+Two Sicilies,1818,0.34263051
+Two Sicilies,1819,0.34263051
+Two Sicilies,1820,0.34263051
+Two Sicilies,1821,0.34263051
+Two Sicilies,1822,0.34263051
+Two Sicilies,1823,0.34263051
+Two Sicilies,1824,0.34263051
+Two Sicilies,1825,0.2117862
+Two Sicilies,1826,0.2117862
+Two Sicilies,1827,0.2117862
+Two Sicilies,1828,0.2117862
+Two Sicilies,1829,0.2117862
+Two Sicilies,1830,0.2117862
+Two Sicilies,1831,0.2117862
+Two Sicilies,1832,0.2117862
+Two Sicilies,1833,0.2117862
+Two Sicilies,1834,0.2117862
+Two Sicilies,1835,0.2117862
+Two Sicilies,1836,0.2117862
+Two Sicilies,1837,0.2117862
+Two Sicilies,1838,0.2117862
+Two Sicilies,1839,0.2117862
+Two Sicilies,1840,0.2117862
+Two Sicilies,1841,0.2117862
+Two Sicilies,1842,0.2117862
+Two Sicilies,1843,0.2117862
+Two Sicilies,1844,0.2117862
+Two Sicilies,1845,0.2117862
+Two Sicilies,1846,0.2117862
+Two Sicilies,1847,0.2117862
+Two Sicilies,1848,0.25114685
+Two Sicilies,1849,0.25114685
+Two Sicilies,1850,0.2117862
+Two Sicilies,1851,0.2117862
+Two Sicilies,1852,0.2117862
+Two Sicilies,1853,0.2117862
+Two Sicilies,1854,0.2117862
+Two Sicilies,1855,0.2117862
+Two Sicilies,1856,0.2117862
+Two Sicilies,1857,0.2117862
+Two Sicilies,1858,0.2117862
+Two Sicilies,1859,0.2117862
+Two Sicilies,1860,0.2117862
+Modena,1789,0.04048432
+Modena,1790,0.04048432
+Modena,1791,0.04048432
+Modena,1792,0.04048432
+Modena,1793,0.04048432
+Modena,1794,0.04048432
+Modena,1795,0.04048432
+Modena,1796,0.17132863
+Modena,1797,0.34079093
+Modena,1814,0.17117231
+Modena,1815,0.17117231
+Modena,1816,0.17117231
+Modena,1817,0.17117231
+Modena,1818,0.17117231
+Modena,1819,0.17117231
+Modena,1820,0.17117231
+Modena,1821,0.17117231
+Modena,1822,0.17117231
+Modena,1823,0.17117231
+Modena,1824,0.17117231
+Modena,1825,0.17117231
+Modena,1826,0.17117231
+Modena,1827,0.17117231
+Modena,1828,0.17117231
+Modena,1829,0.17117231
+Modena,1830,0.17117231
+Modena,1831,0.17117231
+Modena,1832,0.17117231
+Modena,1833,0.17117231
+Modena,1834,0.17117231
+Modena,1835,0.17117231
+Modena,1836,0.17117231
+Modena,1837,0.17117231
+Modena,1838,0.17117231
+Modena,1839,0.17117231
+Modena,1840,0.17117231
+Modena,1841,0.17117231
+Modena,1842,0.17117231
+Modena,1843,0.17117231
+Modena,1844,0.17117231
+Modena,1845,0.17117231
+Modena,1846,0.040328022
+Modena,1847,0.040328022
+Modena,1848,0.040328022
+Modena,1849,0.040328022
+Modena,1850,0.040328022
+Modena,1851,0.040328022
+Modena,1852,0.040328022
+Modena,1853,0.040328022
+Modena,1854,0.040328022
+Modena,1855,0.040328022
+Modena,1856,0.040328022
+Modena,1857,0.040328022
+Modena,1858,0.040328022
+Modena,1859,0.040328022
+Parma,1789,0.1772684
+Parma,1790,0.1772684
+Parma,1791,0.1772684
+Parma,1792,0.1772684
+Parma,1793,0.1772684
+Parma,1794,0.1772684
+Parma,1795,0.1772684
+Parma,1796,0.1772684
+Parma,1797,0.1772684
+Parma,1798,0.1772684
+Parma,1799,0.1772684
+Parma,1800,0.1772684
+Parma,1801,0.1772684
+Parma,1802,0.1772684
+Parma,1814,0.30920687
+Parma,1815,0.30920687
+Parma,1816,0.30920687
+Parma,1817,0.30920687
+Parma,1818,0.30920687
+Parma,1819,0.30920687
+Parma,1820,0.30920687
+Parma,1821,0.30920687
+Parma,1822,0.30920687
+Parma,1823,0.30920687
+Parma,1824,0.30920687
+Parma,1825,0.30920687
+Parma,1826,0.30920687
+Parma,1827,0.30920687
+Parma,1828,0.30920687
+Parma,1829,0.30920687
+Parma,1830,0.30920687
+Parma,1831,0.30920687
+Parma,1832,0.30920687
+Parma,1833,0.30920687
+Parma,1834,0.30920687
+Parma,1835,0.30920687
+Parma,1836,0.30920687
+Parma,1837,0.30920687
+Parma,1838,0.30920687
+Parma,1839,0.30920687
+Parma,1840,0.30920687
+Parma,1841,0.30920687
+Parma,1842,0.30920687
+Parma,1843,0.30920687
+Parma,1844,0.30920687
+Parma,1845,0.30920687
+Parma,1846,0.30920687
+Parma,1847,0.30920687
+Parma,1848,0.43301168
+Parma,1849,0.30920687
+Parma,1850,0.17836258
+Parma,1851,0.17836258
+Parma,1852,0.17836258
+Parma,1853,0.17836258
+Parma,1854,0.30920687
+Parma,1855,0.17836258
+Parma,1856,0.17836258
+Parma,1857,0.17836258
+Parma,1858,0.17836258
+Parma,1859,0.30168685
+Tuscany,1789,0.4509595
+Tuscany,1790,0.4509595
+Tuscany,1791,0.4509595
+Tuscany,1792,0.4509595
+Tuscany,1793,0.36294746
+Tuscany,1794,0.36294746
+Tuscany,1795,0.36294746
+Tuscany,1796,0.36294746
+Tuscany,1797,0.36294746
+Tuscany,1798,0.36294746
+Tuscany,1799,0.70633596
+Tuscany,1800,0.32369038
+Tuscany,1801,0.45453468
+Tuscany,1802,0.45453468
+Tuscany,1803,0.45453468
+Tuscany,1804,0.45453468
+Tuscany,1805,0.45453468
+Tuscany,1806,0.45453468
+Tuscany,1807,0.45453468
+Tuscany,1814,0.36295331
+Tuscany,1815,0.36295331
+Tuscany,1816,0.36295331
+Tuscany,1817,0.36295331
+Tuscany,1818,0.36295331
+Tuscany,1819,0.36295331
+Tuscany,1820,0.36295331
+Tuscany,1821,0.36295331
+Tuscany,1822,0.41595209
+Tuscany,1823,0.41595209
+Tuscany,1824,0.41595209
+Tuscany,1825,0.41595209
+Tuscany,1826,0.41595209
+Tuscany,1827,0.41595209
+Tuscany,1828,0.41595209
+Tuscany,1829,0.41595209
+Tuscany,1830,0.41595209
+Tuscany,1831,0.41595209
+Tuscany,1832,0.41595209
+Tuscany,1833,0.41595209
+Tuscany,1834,0.36176032
+Tuscany,1835,0.36176032
+Tuscany,1836,0.36176032
+Tuscany,1837,0.36176032
+Tuscany,1838,0.36176032
+Tuscany,1839,0.36176032
+Tuscany,1840,0.36176032
+Tuscany,1841,0.36176032
+Tuscany,1842,0.36176032
+Tuscany,1843,0.36176032
+Tuscany,1844,0.36176032
+Tuscany,1845,0.36176032
+Tuscany,1846,0.5606215
+Tuscany,1847,0.5606215
+Tuscany,1848,0.68806654
+Tuscany,1849,0.75348872
+Tuscany,1850,0.41574207
+Tuscany,1851,0.41574207
+Tuscany,1852,0.41574207
+Tuscany,1853,0.36256254
+Tuscany,1854,0.36256254
+Tuscany,1855,0.36256254
+Tuscany,1856,0.36256254
+Tuscany,1857,0.36256254
+Tuscany,1858,0.36256254
+Tuscany,1859,0.65427274
+Tuscany,1860,0.71969491
+Tuscany,1861,0.71969491
+Malta,1900,0.7682156
+Malta,1901,0.7682156
+Malta,1902,0.7682156
+Malta,1903,0.7682156
+Malta,1904,0.7682156
+Malta,1905,0.7682156
+Malta,1906,0.7682156
+Malta,1907,0.7682156
+Malta,1908,0.7682156
+Malta,1909,0.7682156
+Malta,1910,0.7682156
+Malta,1911,0.7682156
+Malta,1912,0.7682156
+Malta,1913,0.7682156
+Malta,1914,0.7682156
+Malta,1915,0.7682156
+Malta,1916,0.7682156
+Malta,1917,0.7682156
+Malta,1918,0.7682156
+Malta,1919,0.7682156
+Malta,1920,0.7682156
+Malta,1921,0.7682156
+Malta,1922,0.7682156
+Malta,1923,0.7682156
+Malta,1924,0.7682156
+Malta,1925,0.7682156
+Malta,1926,0.7682156
+Malta,1927,0.7682156
+Malta,1928,0.7682156
+Malta,1929,0.7682156
+Malta,1930,0.7682156
+Malta,1931,0.7682156
+Malta,1932,0.7682156
+Malta,1933,0.7682156
+Malta,1934,0.7682156
+Malta,1935,0.7682156
+Malta,1936,0.7682156
+Malta,1937,0.7682156
+Malta,1938,0.7682156
+Malta,1939,0.7274968
+Malta,1940,0.7274968
+Malta,1941,0.7274968
+Malta,1942,0.7274968
+Malta,1943,0.7274968
+Malta,1944,0.7274968
+Malta,1945,0.7274968
+Malta,1946,0.78271341
+Malta,1947,0.78271341
+Malta,1948,0.78271341
+Malta,1949,0.78271341
+Malta,1950,0.78271341
+Malta,1951,0.78271341
+Malta,1952,0.78271341
+Malta,1953,0.78271341
+Malta,1954,0.78271341
+Malta,1955,0.78271341
+Malta,1956,0.78271341
+Malta,1957,0.78271341
+Malta,1958,0.78271341
+Malta,1959,0.78271341
+Malta,1960,0.78271341
+Malta,1961,0.78271341
+Malta,1962,0.78271341
+Malta,1963,0.78271341
+Malta,1964,0.7797696
+Malta,1965,0.7797696
+Malta,1966,0.7797696
+Malta,1967,0.7797696
+Malta,1968,0.7797696
+Malta,1969,0.7797696
+Malta,1970,0.7797696
+Malta,1971,0.7797696
+Malta,1972,0.7797696
+Malta,1973,0.7797696
+Malta,1974,0.7797696
+Malta,1975,0.7797696
+Malta,1976,0.7797696
+Malta,1977,0.80148971
+Malta,1978,0.80148971
+Malta,1979,0.80148971
+Malta,1980,0.80148971
+Malta,1981,0.80148971
+Malta,1982,0.80148971
+Malta,1983,0.80148971
+Malta,1984,0.80148971
+Malta,1985,0.80148971
+Malta,1986,0.80148971
+Malta,1987,0.80148971
+Malta,1988,0.80148971
+Malta,1989,0.80148971
+Malta,1990,0.80148971
+Malta,1991,0.82857478
+Malta,1992,0.82857478
+Malta,1993,0.82857478
+Malta,1994,0.82857478
+Malta,1995,0.82857478
+Malta,1996,0.82857478
+Malta,1997,0.82857478
+Malta,1998,0.82857478
+Malta,1999,0.82857478
+Malta,2000,0.82857478
+Malta,2001,0.82857478
+Malta,2002,0.82857478
+Malta,2003,0.82857478
+Malta,2004,0.82857478
+Malta,2005,0.82857478
+Malta,2006,0.82857478
+Malta,2007,0.82857478
+Malta,2008,0.82857478
+Malta,2009,0.82857478
+Malta,2010,0.82857478
+Malta,2011,0.82857478
+Malta,2012,0.82857478
+Malta,2013,0.82857478
+Malta,2014,0.82857478
+Malta,2015,0.82857478
+Malta,2016,0.82857478
+Malta,2017,0.82857478
+Malta,2018,0.82857478
+Malta,2019,0.85029489
+Malta,2020,0.86128587
+Albania,1912,0.53835553
+Albania,1913,0.53835553
+Albania,1914,0.53835553
+Albania,1915,0.39268285
+Albania,1916,0.53897595
+Albania,1917,0.53897595
+Albania,1918,0.53897595
+Albania,1919,0.53897595
+Albania,1920,0.52064341
+Albania,1921,0.52689046
+Albania,1922,0.52689046
+Albania,1923,0.52689046
+Albania,1924,0.51419026
+Albania,1925,0.48660883
+Albania,1926,0.48660883
+Albania,1927,0.48660883
+Albania,1928,0.48660883
+Albania,1929,0.45479733
+Albania,1930,0.45479733
+Albania,1931,0.45479733
+Albania,1932,0.45479733
+Albania,1933,0.45479733
+Albania,1934,0.45479733
+Albania,1935,0.45479733
+Albania,1936,0.45479733
+Albania,1937,0.45479733
+Albania,1938,0.45479733
+Albania,1939,0.41226342
+Albania,1940,0.39427435
+Albania,1941,0.39427435
+Albania,1942,0.39427435
+Albania,1943,0.39427435
+Albania,1944,0.39427435
+Albania,1945,0.1955449
+Albania,1946,0.14807266
+Albania,1947,0.14807266
+Albania,1948,0.14807266
+Albania,1949,0.14807266
+Albania,1950,0.14807266
+Albania,1951,0.14807266
+Albania,1952,0.14807266
+Albania,1953,0.14807266
+Albania,1954,0.14807266
+Albania,1955,0.14807266
+Albania,1956,0.14807266
+Albania,1957,0.14807266
+Albania,1958,0.14807266
+Albania,1959,0.14807266
+Albania,1960,0.14807266
+Albania,1961,0.14807266
+Albania,1962,0.14807266
+Albania,1963,0.14807266
+Albania,1964,0.14807266
+Albania,1965,0.14807266
+Albania,1966,0.14807266
+Albania,1967,0.14807266
+Albania,1968,0.14807266
+Albania,1969,0.14807266
+Albania,1970,0.14807266
+Albania,1971,0.14807266
+Albania,1972,0.14807266
+Albania,1973,0.14807266
+Albania,1974,0.14807266
+Albania,1975,0.14807266
+Albania,1976,0.14807266
+Albania,1977,0.14807266
+Albania,1978,0.14807266
+Albania,1979,0.14807266
+Albania,1980,0.14807266
+Albania,1981,0.14807266
+Albania,1982,0.14807266
+Albania,1983,0.14807266
+Albania,1984,0.14807266
+Albania,1985,0.14807266
+Albania,1986,0.1263525
+Albania,1987,0.1263525
+Albania,1988,0.1263525
+Albania,1989,0.1263525
+Albania,1990,0.19874936
+Albania,1991,0.59292704
+Albania,1992,0.63445997
+Albania,1993,0.64049733
+Albania,1994,0.64049733
+Albania,1995,0.65499425
+Albania,1996,0.65285367
+Albania,1997,0.70752376
+Albania,1998,0.72554106
+Albania,1999,0.72554106
+Albania,2000,0.74428219
+Albania,2001,0.77931339
+Albania,2002,0.77931339
+Albania,2003,0.80233008
+Albania,2004,0.78561479
+Albania,2005,0.79111028
+Albania,2006,0.76363295
+Albania,2007,0.76206028
+Albania,2008,0.75874019
+Albania,2009,0.75786644
+Albania,2010,0.75786644
+Albania,2011,0.75786644
+Albania,2012,0.75786644
+Albania,2013,0.73784024
+Albania,2014,0.74531049
+Albania,2015,0.74531049
+Albania,2016,0.74531049
+Albania,2017,0.75863457
+Albania,2018,0.74899024
+Albania,2019,0.76913732
+Albania,2020,0.73879933
+Montenegro,1789,0.26168856
+Montenegro,1790,0.26168856
+Montenegro,1791,0.26168856
+Montenegro,1792,0.26168856
+Montenegro,1793,0.26168856
+Montenegro,1794,0.26168856
+Montenegro,1795,0.26168856
+Montenegro,1796,0.26168856
+Montenegro,1797,0.26168856
+Montenegro,1798,0.26168856
+Montenegro,1799,0.26168856
+Montenegro,1800,0.26168856
+Montenegro,1801,0.26168856
+Montenegro,1802,0.26168856
+Montenegro,1803,0.26168856
+Montenegro,1804,0.26168856
+Montenegro,1805,0.26168856
+Montenegro,1806,0.26168856
+Montenegro,1807,0.26168856
+Montenegro,1808,0.26168856
+Montenegro,1809,0.26168856
+Montenegro,1810,0.26168856
+Montenegro,1811,0.26168856
+Montenegro,1812,0.26168856
+Montenegro,1813,0.26168856
+Montenegro,1814,0.26168856
+Montenegro,1815,0.26168856
+Montenegro,1816,0.26168856
+Montenegro,1817,0.26168856
+Montenegro,1818,0.26168856
+Montenegro,1819,0.26168856
+Montenegro,1820,0.26168856
+Montenegro,1821,0.26168856
+Montenegro,1822,0.26168856
+Montenegro,1823,0.26168856
+Montenegro,1824,0.26168856
+Montenegro,1825,0.26168856
+Montenegro,1826,0.26168856
+Montenegro,1827,0.26168856
+Montenegro,1828,0.26168856
+Montenegro,1829,0.26168856
+Montenegro,1830,0.13084428
+Montenegro,1831,0.13084428
+Montenegro,1832,0.13084428
+Montenegro,1833,0.13084428
+Montenegro,1834,0.13084428
+Montenegro,1835,0.13084428
+Montenegro,1836,0.13084428
+Montenegro,1837,0.13084428
+Montenegro,1838,0.13084428
+Montenegro,1839,0.13084428
+Montenegro,1840,0.13084428
+Montenegro,1841,0.13084428
+Montenegro,1842,0.13084428
+Montenegro,1843,0.13084428
+Montenegro,1844,0.13084428
+Montenegro,1845,0.13084428
+Montenegro,1846,0.13084428
+Montenegro,1847,0.13084428
+Montenegro,1848,0.13084428
+Montenegro,1849,0.13084428
+Montenegro,1850,0.13084428
+Montenegro,1851,0.13084428
+Montenegro,1852,0.13084428
+Montenegro,1853,0.13084428
+Montenegro,1854,0.13084428
+Montenegro,1855,0.13084428
+Montenegro,1856,0.13084428
+Montenegro,1857,0.13084428
+Montenegro,1858,0.13084428
+Montenegro,1859,0.13084428
+Montenegro,1860,0.13084428
+Montenegro,1861,0.13084428
+Montenegro,1862,0.13084428
+Montenegro,1863,0.13084428
+Montenegro,1864,0.13084428
+Montenegro,1865,0.13084428
+Montenegro,1866,0.13084428
+Montenegro,1867,0.13084428
+Montenegro,1868,0.13084428
+Montenegro,1869,0.13084428
+Montenegro,1870,0.13084428
+Montenegro,1871,0.13084428
+Montenegro,1872,0.13084428
+Montenegro,1873,0.13084428
+Montenegro,1874,0.13084428
+Montenegro,1875,0.13084428
+Montenegro,1876,0.13084428
+Montenegro,1877,0.13084428
+Montenegro,1878,0.13084428
+Montenegro,1879,0.13084428
+Montenegro,1880,0.13084428
+Montenegro,1881,0.13084428
+Montenegro,1882,0.13084428
+Montenegro,1883,0.13084428
+Montenegro,1884,0.13084428
+Montenegro,1885,0.13084428
+Montenegro,1886,0.13084428
+Montenegro,1887,0.13084428
+Montenegro,1888,0.13084428
+Montenegro,1889,0.13084428
+Montenegro,1890,0.13084428
+Montenegro,1891,0.13084428
+Montenegro,1892,0.13084428
+Montenegro,1893,0.13084428
+Montenegro,1894,0.13084428
+Montenegro,1895,0.13084428
+Montenegro,1896,0.13084428
+Montenegro,1897,0.13084428
+Montenegro,1898,0.13084428
+Montenegro,1899,0.13084428
+Montenegro,1900,0.54803449
+Montenegro,1901,0.54803449
+Montenegro,1902,0.54803449
+Montenegro,1903,0.54803449
+Montenegro,1904,0.54803449
+Montenegro,1905,0.54803449
+Montenegro,1906,0.54803449
+Montenegro,1907,0.52412879
+Montenegro,1908,0.47362155
+Montenegro,1909,0.47362155
+Montenegro,1910,0.47362155
+Montenegro,1911,0.47362155
+Montenegro,1912,0.47362155
+Montenegro,1913,0.47362155
+Montenegro,1914,0.47362155
+Montenegro,1915,0.47362155
+Montenegro,1916,0.47362155
+Montenegro,1917,0.58588594
+Montenegro,1918,0.32070774
+Montenegro,1998,0.66406953
+Montenegro,1999,0.68728882
+Montenegro,2000,0.68728882
+Montenegro,2001,0.68728882
+Montenegro,2002,0.70308721
+Montenegro,2003,0.70308721
+Montenegro,2004,0.74125159
+Montenegro,2005,0.71926975
+Montenegro,2006,0.72245878
+Montenegro,2007,0.72446829
+Montenegro,2008,0.72446829
+Montenegro,2009,0.73912287
+Montenegro,2010,0.73912287
+Montenegro,2011,0.73912287
+Montenegro,2012,0.73912287
+Montenegro,2013,0.73470694
+Montenegro,2014,0.73470694
+Montenegro,2015,0.73470694
+Montenegro,2016,0.71822059
+Montenegro,2017,0.71141666
+Montenegro,2018,0.68585348
+Montenegro,2019,0.67702901
+Montenegro,2020,0.72609258
+North Macedonia,1991,0.73411393
+North Macedonia,1992,0.74478441
+North Macedonia,1993,0.77897769
+North Macedonia,1994,0.75420803
+North Macedonia,1995,0.77268702
+North Macedonia,1996,0.77268702
+North Macedonia,1997,0.78585958
+North Macedonia,1998,0.80211061
+North Macedonia,1999,0.7889176
+North Macedonia,2000,0.80176115
+North Macedonia,2001,0.79097521
+North Macedonia,2002,0.8307727
+North Macedonia,2003,0.8543365
+North Macedonia,2004,0.84262878
+North Macedonia,2005,0.82904255
+North Macedonia,2006,0.82904255
+North Macedonia,2007,0.806283
+North Macedonia,2008,0.79008317
+North Macedonia,2009,0.78702515
+North Macedonia,2010,0.77475876
+North Macedonia,2011,0.76584423
+North Macedonia,2012,0.76000476
+North Macedonia,2013,0.74851543
+North Macedonia,2014,0.75300938
+North Macedonia,2015,0.75698477
+North Macedonia,2016,0.72340435
+North Macedonia,2017,0.74030423
+North Macedonia,2018,0.73671073
+North Macedonia,2019,0.76766193
+North Macedonia,2020,0.74502099
+Croatia,1941,0.37639216
+Croatia,1942,0.37639216
+Croatia,1943,0.37639216
+Croatia,1944,0.37639216
+Croatia,1991,0.69785368
+Croatia,1992,0.69785368
+Croatia,1993,0.69785368
+Croatia,1994,0.69785368
+Croatia,1995,0.69785368
+Croatia,1996,0.69785368
+Croatia,1997,0.69785368
+Croatia,1998,0.69785368
+Croatia,1999,0.70134854
+Croatia,2000,0.83903641
+Croatia,2001,0.83903641
+Croatia,2002,0.83903641
+Croatia,2003,0.83903641
+Croatia,2004,0.83903641
+Croatia,2005,0.84662539
+Croatia,2006,0.84662539
+Croatia,2007,0.87209404
+Croatia,2008,0.87209404
+Croatia,2009,0.87209404
+Croatia,2010,0.88453031
+Croatia,2011,0.88453031
+Croatia,2012,0.88453031
+Croatia,2013,0.88139004
+Croatia,2014,0.88139004
+Croatia,2015,0.88139004
+Croatia,2016,0.88139004
+Croatia,2017,0.89515674
+Croatia,2018,0.86767596
+Croatia,2019,0.86941123
+Croatia,2020,0.86912304
+Serbia,1804,0.363401
+Serbia,1805,0.363401
+Serbia,1806,0.363401
+Serbia,1807,0.363401
+Serbia,1808,0.363401
+Serbia,1809,0.363401
+Serbia,1810,0.363401
+Serbia,1811,0.363401
+Serbia,1812,0.363401
+Serbia,1813,0.363401
+Serbia,1815,0.36596817
+Serbia,1816,0.36596817
+Serbia,1817,0.36596817
+Serbia,1818,0.36596817
+Serbia,1819,0.36596817
+Serbia,1820,0.36596817
+Serbia,1821,0.36596817
+Serbia,1822,0.36596817
+Serbia,1823,0.36596817
+Serbia,1824,0.36596817
+Serbia,1825,0.36596817
+Serbia,1826,0.36596817
+Serbia,1827,0.36596817
+Serbia,1828,0.36596817
+Serbia,1829,0.36596817
+Serbia,1830,0.36596817
+Serbia,1831,0.36596817
+Serbia,1832,0.36596817
+Serbia,1833,0.36596817
+Serbia,1834,0.36596817
+Serbia,1835,0.36596817
+Serbia,1836,0.36596817
+Serbia,1837,0.36596817
+Serbia,1838,0.36596817
+Serbia,1839,0.36596817
+Serbia,1840,0.36596817
+Serbia,1841,0.36596817
+Serbia,1842,0.49681246
+Serbia,1843,0.49681246
+Serbia,1844,0.49681246
+Serbia,1845,0.49681246
+Serbia,1846,0.49681246
+Serbia,1847,0.49681246
+Serbia,1848,0.49681246
+Serbia,1849,0.49681246
+Serbia,1850,0.49681246
+Serbia,1851,0.49681246
+Serbia,1852,0.49681246
+Serbia,1853,0.49681246
+Serbia,1854,0.49681246
+Serbia,1855,0.49681246
+Serbia,1856,0.49681246
+Serbia,1857,0.49681246
+Serbia,1858,0.53632653
+Serbia,1859,0.40548223
+Serbia,1860,0.36593202
+Serbia,1861,0.36593202
+Serbia,1862,0.43135417
+Serbia,1863,0.43135417
+Serbia,1864,0.43135417
+Serbia,1865,0.43135417
+Serbia,1866,0.43135417
+Serbia,1867,0.43135417
+Serbia,1868,0.43135417
+Serbia,1869,0.43135417
+Serbia,1870,0.43135417
+Serbia,1871,0.43135417
+Serbia,1872,0.43135417
+Serbia,1873,0.43135417
+Serbia,1874,0.43135417
+Serbia,1875,0.43135417
+Serbia,1876,0.43135417
+Serbia,1877,0.43135417
+Serbia,1878,0.43135417
+Serbia,1879,0.43135417
+Serbia,1880,0.43135417
+Serbia,1881,0.55833066
+Serbia,1882,0.55833066
+Serbia,1883,0.55833066
+Serbia,1884,0.55833066
+Serbia,1885,0.55833066
+Serbia,1886,0.55833066
+Serbia,1887,0.55833066
+Serbia,1888,0.55833066
+Serbia,1889,0.49290851
+Serbia,1890,0.49290851
+Serbia,1891,0.49290851
+Serbia,1892,0.49290851
+Serbia,1893,0.49290851
+Serbia,1894,0.49290851
+Serbia,1895,0.49290851
+Serbia,1896,0.49290851
+Serbia,1897,0.49290851
+Serbia,1898,0.49290851
+Serbia,1899,0.49290851
+Serbia,1900,0.42748636
+Serbia,1901,0.42748636
+Serbia,1902,0.42748636
+Serbia,1903,0.42748636
+Serbia,1904,0.43240264
+Serbia,1905,0.43240264
+Serbia,1906,0.43240264
+Serbia,1907,0.43240264
+Serbia,1908,0.43240264
+Serbia,1909,0.43240264
+Serbia,1910,0.43240264
+Serbia,1911,0.43240264
+Serbia,1912,0.43240264
+Serbia,1913,0.43240264
+Serbia,1914,0.56324691
+Serbia,1915,0.56324691
+Serbia,1916,0.57947159
+Serbia,1917,0.57947159
+Serbia,1918,0.5756973
+Serbia,1919,0.56392133
+Serbia,1920,0.55211991
+Serbia,1921,0.42127562
+Serbia,1922,0.42127562
+Serbia,1923,0.42127562
+Serbia,1924,0.42127562
+Serbia,1925,0.42127562
+Serbia,1926,0.42127562
+Serbia,1927,0.42127562
+Serbia,1928,0.39318582
+Serbia,1929,0.36661309
+Serbia,1930,0.36661309
+Serbia,1931,0.34673616
+Serbia,1932,0.33345836
+Serbia,1933,0.33345836
+Serbia,1934,0.33345836
+Serbia,1935,0.33345836
+Serbia,1936,0.34209451
+Serbia,1937,0.34209451
+Serbia,1938,0.34209451
+Serbia,1939,0.3617093
+Serbia,1940,0.38241816
+Serbia,1941,0.5108189
+Serbia,1942,0.47209305
+Serbia,1943,0.47209305
+Serbia,1944,0.34124875
+Serbia,1945,0.28539038
+Serbia,1946,0.18459822
+Serbia,1947,0.18459822
+Serbia,1948,0.18459822
+Serbia,1949,0.18459822
+Serbia,1950,0.18459822
+Serbia,1951,0.18459822
+Serbia,1952,0.18459822
+Serbia,1953,0.18459822
+Serbia,1954,0.17912738
+Serbia,1955,0.17912738
+Serbia,1956,0.17912738
+Serbia,1957,0.17912738
+Serbia,1958,0.17912738
+Serbia,1959,0.17912738
+Serbia,1960,0.17912738
+Serbia,1961,0.17912738
+Serbia,1962,0.17912738
+Serbia,1963,0.17912738
+Serbia,1964,0.17912738
+Serbia,1965,0.17912738
+Serbia,1966,0.17912738
+Serbia,1967,0.17912738
+Serbia,1968,0.17912738
+Serbia,1969,0.17912738
+Serbia,1970,0.17912738
+Serbia,1971,0.17912738
+Serbia,1972,0.17912738
+Serbia,1973,0.17912738
+Serbia,1974,0.17912738
+Serbia,1975,0.17912738
+Serbia,1976,0.17912738
+Serbia,1977,0.17912738
+Serbia,1978,0.17912738
+Serbia,1979,0.17912738
+Serbia,1980,0.17912738
+Serbia,1981,0.16368774
+Serbia,1982,0.16368774
+Serbia,1983,0.16368774
+Serbia,1984,0.16368774
+Serbia,1985,0.16368774
+Serbia,1986,0.16368774
+Serbia,1987,0.16368774
+Serbia,1988,0.16368774
+Serbia,1989,0.30997166
+Serbia,1990,0.58158475
+Serbia,1991,0.63343394
+Serbia,1992,0.63343394
+Serbia,1993,0.62331289
+Serbia,1994,0.62331289
+Serbia,1995,0.62331289
+Serbia,1996,0.62331289
+Serbia,1997,0.62331289
+Serbia,1998,0.62331289
+Serbia,1999,0.62331289
+Serbia,2000,0.6967079
+Serbia,2001,0.81499356
+Serbia,2002,0.81499356
+Serbia,2003,0.81499356
+Serbia,2004,0.81499356
+Serbia,2005,0.83252668
+Serbia,2006,0.83252668
+Serbia,2007,0.83252668
+Serbia,2008,0.83680785
+Serbia,2009,0.83047724
+Serbia,2010,0.79995769
+Serbia,2011,0.79995769
+Serbia,2012,0.78834856
+Serbia,2013,0.72281557
+Serbia,2014,0.70483613
+Serbia,2015,0.69618326
+Serbia,2016,0.69172734
+Serbia,2017,0.65828073
+Serbia,2018,0.64146239
+Serbia,2019,0.64484876
+Serbia,2020,0.63887137
+Bosnia and Herzegovina,1992,0.78601593
+Bosnia and Herzegovina,1993,0.78601593
+Bosnia and Herzegovina,1994,0.78601593
+Bosnia and Herzegovina,1995,0.81458622
+Bosnia and Herzegovina,1996,0.84075511
+Bosnia and Herzegovina,1997,0.84075511
+Bosnia and Herzegovina,1998,0.84075511
+Bosnia and Herzegovina,1999,0.84075511
+Bosnia and Herzegovina,2000,0.84075511
+Bosnia and Herzegovina,2001,0.84075511
+Bosnia and Herzegovina,2002,0.84075511
+Bosnia and Herzegovina,2003,0.84075511
+Bosnia and Herzegovina,2004,0.80414665
+Bosnia and Herzegovina,2005,0.77509922
+Bosnia and Herzegovina,2006,0.77509922
+Bosnia and Herzegovina,2007,0.77509922
+Bosnia and Herzegovina,2008,0.76927871
+Bosnia and Herzegovina,2009,0.76927871
+Bosnia and Herzegovina,2010,0.79650718
+Bosnia and Herzegovina,2011,0.80142385
+Bosnia and Herzegovina,2012,0.80142385
+Bosnia and Herzegovina,2013,0.77778184
+Bosnia and Herzegovina,2014,0.77778184
+Bosnia and Herzegovina,2015,0.77778184
+Bosnia and Herzegovina,2016,0.75092095
+Bosnia and Herzegovina,2017,0.73771274
+Bosnia and Herzegovina,2018,0.73845935
+Bosnia and Herzegovina,2019,0.76743966
+Bosnia and Herzegovina,2020,0.78817934
+Kosovo,1999,0.65815008
+Kosovo,2000,0.70830208
+Kosovo,2001,0.75617087
+Kosovo,2002,0.73000199
+Kosovo,2003,0.73000199
+Kosovo,2004,0.73000199
+Kosovo,2005,0.73863769
+Kosovo,2006,0.73863769
+Kosovo,2007,0.73000199
+Kosovo,2008,0.72870052
+Kosovo,2009,0.72870052
+Kosovo,2010,0.73778707
+Kosovo,2011,0.72428828
+Kosovo,2012,0.73804921
+Kosovo,2013,0.74828339
+Kosovo,2014,0.74828339
+Kosovo,2015,0.74828339
+Kosovo,2016,0.75702757
+Kosovo,2017,0.74774218
+Kosovo,2018,0.75258386
+Kosovo,2019,0.75953966
+Kosovo,2020,0.75151396
+Slovenia,1989,0.61408329
+Slovenia,1990,0.85683721
+Slovenia,1991,0.87881905
+Slovenia,1992,0.87881905
+Slovenia,1993,0.87881905
+Slovenia,1994,0.87881905
+Slovenia,1995,0.87881905
+Slovenia,1996,0.87881905
+Slovenia,1997,0.87881905
+Slovenia,1998,0.89651167
+Slovenia,1999,0.89091992
+Slovenia,2000,0.89091992
+Slovenia,2001,0.89091992
+Slovenia,2002,0.89091992
+Slovenia,2003,0.89091992
+Slovenia,2004,0.89091992
+Slovenia,2005,0.89955568
+Slovenia,2006,0.89955568
+Slovenia,2007,0.89955568
+Slovenia,2008,0.88343191
+Slovenia,2009,0.88343191
+Slovenia,2010,0.88343191
+Slovenia,2011,0.88343191
+Slovenia,2012,0.8994472
+Slovenia,2013,0.88348418
+Slovenia,2014,0.88348418
+Slovenia,2015,0.88348418
+Slovenia,2016,0.88348418
+Slovenia,2017,0.85720927
+Slovenia,2018,0.83483124
+Slovenia,2019,0.84270358
+Slovenia,2020,0.80909365
+Greece,1822,0.77390915
+Greece,1823,0.77390915
+Greece,1824,0.77390915
+Greece,1825,0.77390915
+Greece,1826,0.77390915
+Greece,1827,0.77390915
+Greece,1828,0.70848697
+Greece,1829,0.70848697
+Greece,1830,0.77390915
+Greece,1831,0.77390915
+Greece,1832,0.77390915
+Greece,1833,0.70848697
+Greece,1834,0.70848697
+Greece,1835,0.70848697
+Greece,1836,0.70848697
+Greece,1837,0.70848697
+Greece,1838,0.77390915
+Greece,1839,0.77390915
+Greece,1840,0.77390915
+Greece,1841,0.77390915
+Greece,1842,0.77390915
+Greece,1843,0.77390915
+Greece,1844,0.77390915
+Greece,1845,0.77390915
+Greece,1846,0.77390915
+Greece,1847,0.77390915
+Greece,1848,0.77390915
+Greece,1849,0.77390915
+Greece,1850,0.77390915
+Greece,1851,0.77390915
+Greece,1852,0.77390915
+Greece,1853,0.77390915
+Greece,1854,0.77390915
+Greece,1855,0.77390915
+Greece,1856,0.77390915
+Greece,1857,0.77390915
+Greece,1858,0.77390915
+Greece,1859,0.77390915
+Greece,1860,0.77390915
+Greece,1861,0.77390915
+Greece,1862,0.77390915
+Greece,1863,0.77390915
+Greece,1864,0.64306486
+Greece,1865,0.64306486
+Greece,1866,0.64306486
+Greece,1867,0.64306486
+Greece,1868,0.64306486
+Greece,1869,0.64306486
+Greece,1870,0.64306486
+Greece,1871,0.64306486
+Greece,1872,0.64306486
+Greece,1873,0.64306486
+Greece,1874,0.64306486
+Greece,1875,0.64306486
+Greece,1876,0.64306486
+Greece,1877,0.64306486
+Greece,1878,0.64306486
+Greece,1879,0.64306486
+Greece,1880,0.64306486
+Greece,1881,0.64306486
+Greece,1882,0.64306486
+Greece,1883,0.64306486
+Greece,1884,0.64306486
+Greece,1885,0.64306486
+Greece,1886,0.64306486
+Greece,1887,0.64306486
+Greece,1888,0.64306486
+Greece,1889,0.64306486
+Greece,1890,0.64306486
+Greece,1891,0.64306486
+Greece,1892,0.64306486
+Greece,1893,0.64306486
+Greece,1894,0.64306486
+Greece,1895,0.64306486
+Greece,1896,0.64306486
+Greece,1897,0.64306486
+Greece,1898,0.64306486
+Greece,1899,0.64306486
+Greece,1900,0.71790779
+Greece,1901,0.71790779
+Greece,1902,0.71790779
+Greece,1903,0.71790779
+Greece,1904,0.71790779
+Greece,1905,0.71790779
+Greece,1906,0.71790779
+Greece,1907,0.71790779
+Greece,1908,0.69906622
+Greece,1909,0.68048632
+Greece,1910,0.69420356
+Greece,1911,0.69420356
+Greece,1912,0.69420356
+Greece,1913,0.69420356
+Greece,1914,0.69420356
+Greece,1915,0.69420356
+Greece,1916,0.69420356
+Greece,1917,0.69420356
+Greece,1918,0.71278346
+Greece,1919,0.71278346
+Greece,1920,0.71278346
+Greece,1921,0.72220427
+Greece,1922,0.72220427
+Greece,1923,0.7004841
+Greece,1924,0.7004841
+Greece,1925,0.61810583
+Greece,1926,0.61810583
+Greece,1927,0.70435369
+Greece,1928,0.70435369
+Greece,1929,0.70435369
+Greece,1930,0.70435369
+Greece,1931,0.70435369
+Greece,1932,0.70435369
+Greece,1933,0.70435369
+Greece,1934,0.70435369
+Greece,1935,0.68263352
+Greece,1936,0.48032784
+Greece,1937,0.4472903
+Greece,1938,0.4472903
+Greece,1939,0.4472903
+Greece,1940,0.4472903
+Greece,1941,0.46783116
+Greece,1942,0.46783116
+Greece,1943,0.47783515
+Greece,1944,0.48354048
+Greece,1945,0.65221107
+Greece,1946,0.65221107
+Greece,1947,0.65221107
+Greece,1948,0.65084332
+Greece,1949,0.65084332
+Greece,1950,0.63939363
+Greece,1951,0.63939363
+Greece,1952,0.63939363
+Greece,1953,0.63939363
+Greece,1954,0.63939363
+Greece,1955,0.66137546
+Greece,1956,0.66137546
+Greece,1957,0.66137546
+Greece,1958,0.66137546
+Greece,1959,0.66137546
+Greece,1960,0.66137546
+Greece,1961,0.66137546
+Greece,1962,0.66137546
+Greece,1963,0.66137546
+Greece,1964,0.66137546
+Greece,1965,0.63939363
+Greece,1966,0.61767346
+Greece,1967,0.32920501
+Greece,1968,0.31357399
+Greece,1969,0.31357399
+Greece,1970,0.31357399
+Greece,1971,0.31357399
+Greece,1972,0.31357399
+Greece,1973,0.31357399
+Greece,1974,0.60939664
+Greece,1975,0.88747185
+Greece,1976,0.88747185
+Greece,1977,0.88747185
+Greece,1978,0.88747185
+Greece,1979,0.88747185
+Greece,1980,0.88747185
+Greece,1981,0.88747185
+Greece,1982,0.88747185
+Greece,1983,0.88747185
+Greece,1984,0.88747185
+Greece,1985,0.88747185
+Greece,1986,0.88747185
+Greece,1987,0.88747185
+Greece,1988,0.88747185
+Greece,1989,0.88747185
+Greece,1990,0.88747185
+Greece,1991,0.88747185
+Greece,1992,0.88747185
+Greece,1993,0.88747185
+Greece,1994,0.88747185
+Greece,1995,0.88747185
+Greece,1996,0.88747185
+Greece,1997,0.88747185
+Greece,1998,0.88747185
+Greece,1999,0.88747185
+Greece,2000,0.88747185
+Greece,2001,0.93561333
+Greece,2002,0.93561333
+Greece,2003,0.93561333
+Greece,2004,0.93561333
+Greece,2005,0.94110876
+Greece,2006,0.94110876
+Greece,2007,0.94110876
+Greece,2008,0.94110876
+Greece,2009,0.94110876
+Greece,2010,0.94110876
+Greece,2011,0.94110876
+Greece,2012,0.94110876
+Greece,2013,0.95419049
+Greece,2014,0.95419049
+Greece,2015,0.95419049
+Greece,2016,0.95419049
+Greece,2017,0.95419049
+Greece,2018,0.95105016
+Greece,2019,0.97277033
+Greece,2020,0.97277033
+Cyprus,1900,0.61922479
+Cyprus,1901,0.61922479
+Cyprus,1902,0.61922479
+Cyprus,1903,0.61922479
+Cyprus,1904,0.61922479
+Cyprus,1905,0.61922479
+Cyprus,1906,0.61922479
+Cyprus,1907,0.61922479
+Cyprus,1908,0.61922479
+Cyprus,1909,0.61922479
+Cyprus,1910,0.61922479
+Cyprus,1911,0.61922479
+Cyprus,1912,0.61922479
+Cyprus,1913,0.61922479
+Cyprus,1914,0.61922479
+Cyprus,1915,0.61922479
+Cyprus,1916,0.61922479
+Cyprus,1917,0.61922479
+Cyprus,1918,0.61922479
+Cyprus,1919,0.61922479
+Cyprus,1920,0.61922479
+Cyprus,1921,0.61922479
+Cyprus,1922,0.61922479
+Cyprus,1923,0.61922479
+Cyprus,1924,0.61922479
+Cyprus,1925,0.61922479
+Cyprus,1926,0.61922479
+Cyprus,1927,0.61922479
+Cyprus,1928,0.61922479
+Cyprus,1929,0.61922479
+Cyprus,1930,0.61922479
+Cyprus,1931,0.61922479
+Cyprus,1932,0.61922479
+Cyprus,1933,0.61922479
+Cyprus,1934,0.61922479
+Cyprus,1935,0.61922479
+Cyprus,1936,0.61922479
+Cyprus,1937,0.61922479
+Cyprus,1938,0.61922479
+Cyprus,1939,0.61922479
+Cyprus,1940,0.61922479
+Cyprus,1941,0.61922479
+Cyprus,1942,0.61922479
+Cyprus,1943,0.61922479
+Cyprus,1944,0.61922479
+Cyprus,1945,0.61922479
+Cyprus,1946,0.61922479
+Cyprus,1947,0.61922479
+Cyprus,1948,0.61922479
+Cyprus,1949,0.61922479
+Cyprus,1950,0.61922479
+Cyprus,1951,0.61922479
+Cyprus,1952,0.61922479
+Cyprus,1953,0.61922479
+Cyprus,1954,0.61922479
+Cyprus,1955,0.61922479
+Cyprus,1956,0.61922479
+Cyprus,1957,0.61922479
+Cyprus,1958,0.61922479
+Cyprus,1959,0.61922479
+Cyprus,1960,0.79187441
+Cyprus,1961,0.77103519
+Cyprus,1962,0.77103519
+Cyprus,1963,0.77103519
+Cyprus,1964,0.77103519
+Cyprus,1965,0.77103519
+Cyprus,1966,0.77103519
+Cyprus,1967,0.77103519
+Cyprus,1968,0.77103519
+Cyprus,1969,0.77103519
+Cyprus,1970,0.77103519
+Cyprus,1971,0.77103519
+Cyprus,1972,0.77103519
+Cyprus,1973,0.77103519
+Cyprus,1974,0.77103519
+Cyprus,1975,0.80353844
+Cyprus,1976,0.83609313
+Cyprus,1977,0.83609313
+Cyprus,1978,0.83609313
+Cyprus,1979,0.83609313
+Cyprus,1980,0.83609313
+Cyprus,1981,0.83609313
+Cyprus,1982,0.83609313
+Cyprus,1983,0.83609313
+Cyprus,1984,0.83609313
+Cyprus,1985,0.83609313
+Cyprus,1986,0.83609313
+Cyprus,1987,0.83609313
+Cyprus,1988,0.85981441
+Cyprus,1989,0.85981441
+Cyprus,1990,0.87335694
+Cyprus,1991,0.87335694
+Cyprus,1992,0.8869862
+Cyprus,1993,0.8869862
+Cyprus,1994,0.8869862
+Cyprus,1995,0.8869862
+Cyprus,1996,0.8869862
+Cyprus,1997,0.8869862
+Cyprus,1998,0.8869862
+Cyprus,1999,0.8869862
+Cyprus,2000,0.92193258
+Cyprus,2001,0.93879515
+Cyprus,2002,0.93879515
+Cyprus,2003,0.93879515
+Cyprus,2004,0.93879515
+Cyprus,2005,0.93879515
+Cyprus,2006,0.93879515
+Cyprus,2007,0.93879515
+Cyprus,2008,0.93879515
+Cyprus,2009,0.93879515
+Cyprus,2010,0.93879515
+Cyprus,2011,0.93879515
+Cyprus,2012,0.93879515
+Cyprus,2013,0.93879515
+Cyprus,2014,0.93879515
+Cyprus,2015,0.93879515
+Cyprus,2016,0.93879515
+Cyprus,2017,0.93454134
+Cyprus,2018,0.93454134
+Cyprus,2019,0.93454134
+Cyprus,2020,0.93454134
+Bulgaria,1878,0.38796464
+Bulgaria,1879,0.60710645
+Bulgaria,1880,0.60710645
+Bulgaria,1881,0.51689583
+Bulgaria,1882,0.51689583
+Bulgaria,1883,0.51689583
+Bulgaria,1884,0.6054464
+Bulgaria,1885,0.6054464
+Bulgaria,1886,0.67086858
+Bulgaria,1887,0.58301693
+Bulgaria,1888,0.58301693
+Bulgaria,1889,0.58301693
+Bulgaria,1890,0.58301693
+Bulgaria,1891,0.58301693
+Bulgaria,1892,0.58301693
+Bulgaria,1893,0.58301693
+Bulgaria,1894,0.58301693
+Bulgaria,1895,0.61831486
+Bulgaria,1896,0.61831486
+Bulgaria,1897,0.61831486
+Bulgaria,1898,0.61831486
+Bulgaria,1899,0.61831486
+Bulgaria,1900,0.56702393
+Bulgaria,1901,0.56702393
+Bulgaria,1902,0.56702393
+Bulgaria,1903,0.56702393
+Bulgaria,1904,0.56702393
+Bulgaria,1905,0.56702393
+Bulgaria,1906,0.56702393
+Bulgaria,1907,0.56702393
+Bulgaria,1908,0.56702393
+Bulgaria,1909,0.56702393
+Bulgaria,1910,0.56702393
+Bulgaria,1911,0.56702393
+Bulgaria,1912,0.56702393
+Bulgaria,1913,0.56138849
+Bulgaria,1914,0.56138849
+Bulgaria,1915,0.56750447
+Bulgaria,1916,0.56750447
+Bulgaria,1917,0.56750447
+Bulgaria,1918,0.55337328
+Bulgaria,1919,0.55424696
+Bulgaria,1920,0.55424696
+Bulgaria,1921,0.54186153
+Bulgaria,1922,0.54186153
+Bulgaria,1923,0.49088588
+Bulgaria,1924,0.52386969
+Bulgaria,1925,0.52386969
+Bulgaria,1926,0.52386969
+Bulgaria,1927,0.52386969
+Bulgaria,1928,0.52386969
+Bulgaria,1929,0.52386969
+Bulgaria,1930,0.52386969
+Bulgaria,1931,0.51701105
+Bulgaria,1932,0.51701105
+Bulgaria,1933,0.51701105
+Bulgaria,1934,0.37969637
+Bulgaria,1935,0.41840297
+Bulgaria,1936,0.41840297
+Bulgaria,1937,0.41840297
+Bulgaria,1938,0.41840297
+Bulgaria,1939,0.45995149
+Bulgaria,1940,0.44107932
+Bulgaria,1941,0.44107932
+Bulgaria,1942,0.44107932
+Bulgaria,1943,0.45861247
+Bulgaria,1944,0.47591865
+Bulgaria,1945,0.44619599
+Bulgaria,1946,0.44619599
+Bulgaria,1947,0.2142484
+Bulgaria,1948,0.18807954
+Bulgaria,1949,0.20861174
+Bulgaria,1950,0.18733689
+Bulgaria,1951,0.18733689
+Bulgaria,1952,0.18733689
+Bulgaria,1953,0.20974757
+Bulgaria,1954,0.18685633
+Bulgaria,1955,0.18685633
+Bulgaria,1956,0.18685633
+Bulgaria,1957,0.21000968
+Bulgaria,1958,0.18650684
+Bulgaria,1959,0.18650684
+Bulgaria,1960,0.18650684
+Bulgaria,1961,0.18650684
+Bulgaria,1962,0.18650684
+Bulgaria,1963,0.18650684
+Bulgaria,1964,0.18650684
+Bulgaria,1965,0.18650684
+Bulgaria,1966,0.18650684
+Bulgaria,1967,0.18650684
+Bulgaria,1968,0.18650684
+Bulgaria,1969,0.18650684
+Bulgaria,1970,0.18650684
+Bulgaria,1971,0.18650684
+Bulgaria,1972,0.3390713
+Bulgaria,1973,0.3390713
+Bulgaria,1974,0.3390713
+Bulgaria,1975,0.3390713
+Bulgaria,1976,0.3390713
+Bulgaria,1977,0.3390713
+Bulgaria,1978,0.3390713
+Bulgaria,1979,0.3390713
+Bulgaria,1980,0.3390713
+Bulgaria,1981,0.3390713
+Bulgaria,1982,0.3390713
+Bulgaria,1983,0.3390713
+Bulgaria,1984,0.3390713
+Bulgaria,1985,0.3390713
+Bulgaria,1986,0.3390713
+Bulgaria,1987,0.3390713
+Bulgaria,1988,0.3390713
+Bulgaria,1989,0.3390713
+Bulgaria,1990,0.82838416
+Bulgaria,1991,0.82838416
+Bulgaria,1992,0.82838416
+Bulgaria,1993,0.82838416
+Bulgaria,1994,0.82838416
+Bulgaria,1995,0.82838416
+Bulgaria,1996,0.82838416
+Bulgaria,1997,0.82838416
+Bulgaria,1998,0.82838416
+Bulgaria,1999,0.82838416
+Bulgaria,2000,0.82838416
+Bulgaria,2001,0.79187202
+Bulgaria,2002,0.83696753
+Bulgaria,2003,0.83696753
+Bulgaria,2004,0.83696753
+Bulgaria,2005,0.79205459
+Bulgaria,2006,0.79205459
+Bulgaria,2007,0.79205459
+Bulgaria,2008,0.79205459
+Bulgaria,2009,0.82731491
+Bulgaria,2010,0.82731491
+Bulgaria,2011,0.82731491
+Bulgaria,2012,0.82731491
+Bulgaria,2013,0.80925834
+Bulgaria,2014,0.81742871
+Bulgaria,2015,0.79439992
+Bulgaria,2016,0.79439992
+Bulgaria,2017,0.79876846
+Bulgaria,2018,0.81105596
+Bulgaria,2019,0.80274594
+Bulgaria,2020,0.80918097
+Moldova,1990,0.72830379
+Moldova,1991,0.76080585
+Moldova,1992,0.81202543
+Moldova,1993,0.81202543
+Moldova,1994,0.79894102
+Moldova,1995,0.78618485
+Moldova,1996,0.78618485
+Moldova,1997,0.78618485
+Moldova,1998,0.78618485
+Moldova,1999,0.82633179
+Moldova,2000,0.80427063
+Moldova,2001,0.74703944
+Moldova,2002,0.72908735
+Moldova,2003,0.72908735
+Moldova,2004,0.72908735
+Moldova,2005,0.72908735
+Moldova,2006,0.72076219
+Moldova,2007,0.72076219
+Moldova,2008,0.72076219
+Moldova,2009,0.75729501
+Moldova,2010,0.86974925
+Moldova,2011,0.85681456
+Moldova,2012,0.84864426
+Moldova,2013,0.86248529
+Moldova,2014,0.85606849
+Moldova,2015,0.78291214
+Moldova,2016,0.76016802
+Moldova,2017,0.70065099
+Moldova,2018,0.68689615
+Moldova,2019,0.76061195
+Moldova,2020,0.78287274
+Romania,1789,0.26168856
+Romania,1790,0.26168856
+Romania,1791,0.26168856
+Romania,1792,0.26168856
+Romania,1793,0.26168856
+Romania,1794,0.26168856
+Romania,1795,0.26168856
+Romania,1796,0.26168856
+Romania,1797,0.26168856
+Romania,1798,0.26168856
+Romania,1799,0.26168856
+Romania,1800,0.26168856
+Romania,1801,0.26168856
+Romania,1802,0.26168856
+Romania,1803,0.26168856
+Romania,1804,0.26168856
+Romania,1805,0.26168856
+Romania,1806,0.05233771
+Romania,1807,0.26168856
+Romania,1808,0.26168856
+Romania,1809,0.26168856
+Romania,1810,0.26168856
+Romania,1811,0.26168856
+Romania,1812,0.26168856
+Romania,1813,0.26168856
+Romania,1814,0.26168856
+Romania,1815,0.26168856
+Romania,1816,0.26168856
+Romania,1817,0.26168856
+Romania,1818,0.26168856
+Romania,1819,0.26168856
+Romania,1820,0.26168856
+Romania,1821,0.26168856
+Romania,1822,0.26168856
+Romania,1823,0.26168856
+Romania,1824,0.26168856
+Romania,1825,0.26168856
+Romania,1826,0.26168856
+Romania,1827,0.26168856
+Romania,1828,0.26168856
+Romania,1829,0.26168856
+Romania,1830,0.26168856
+Romania,1831,0.36876184
+Romania,1832,0.36876184
+Romania,1833,0.36876184
+Romania,1834,0.36876184
+Romania,1835,0.36876184
+Romania,1836,0.36876184
+Romania,1837,0.36876184
+Romania,1838,0.36876184
+Romania,1839,0.36876184
+Romania,1840,0.23791754
+Romania,1841,0.23791754
+Romania,1842,0.23791754
+Romania,1843,0.23791754
+Romania,1844,0.23791754
+Romania,1845,0.23791754
+Romania,1846,0.23791754
+Romania,1847,0.23791754
+Romania,1848,0.23791754
+Romania,1849,0.36876184
+Romania,1850,0.36876184
+Romania,1851,0.36876184
+Romania,1852,0.36876184
+Romania,1853,0.36876184
+Romania,1854,0.36876184
+Romania,1855,0.36876184
+Romania,1856,0.36876184
+Romania,1857,0.36876184
+Romania,1858,0.51293576
+Romania,1859,0.46541813
+Romania,1860,0.61379552
+Romania,1861,0.46541813
+Romania,1862,0.49158698
+Romania,1863,0.61379552
+Romania,1864,0.70093787
+Romania,1865,0.70093787
+Romania,1866,0.49158698
+Romania,1867,0.49158698
+Romania,1868,0.70093787
+Romania,1869,0.70093787
+Romania,1870,0.70093787
+Romania,1871,0.70093787
+Romania,1872,0.70093787
+Romania,1873,0.70093787
+Romania,1874,0.60934681
+Romania,1875,0.70093787
+Romania,1876,0.70093787
+Romania,1877,0.57009357
+Romania,1878,0.70093787
+Romania,1879,0.70093787
+Romania,1880,0.70093787
+Romania,1881,0.49158698
+Romania,1882,0.70093787
+Romania,1883,0.70093787
+Romania,1884,0.70093787
+Romania,1885,0.70093787
+Romania,1886,0.70093787
+Romania,1887,0.49158698
+Romania,1888,0.49158698
+Romania,1889,0.49158698
+Romania,1890,0.70093787
+Romania,1891,0.61379552
+Romania,1892,0.70093787
+Romania,1893,0.49158698
+Romania,1894,0.70093787
+Romania,1895,0.50833505
+Romania,1896,0.70093787
+Romania,1897,0.57009357
+Romania,1898,0.70093787
+Romania,1899,0.70093787
+Romania,1900,0.61379552
+Romania,1901,0.61379552
+Romania,1902,0.61379552
+Romania,1903,0.61379552
+Romania,1904,0.61379552
+Romania,1905,0.61379552
+Romania,1906,0.61379552
+Romania,1907,0.61379552
+Romania,1908,0.61379552
+Romania,1909,0.61379552
+Romania,1910,0.61379552
+Romania,1911,0.61379552
+Romania,1912,0.61379552
+Romania,1913,0.61379552
+Romania,1914,0.48295125
+Romania,1915,0.48295125
+Romania,1916,0.48295125
+Romania,1917,0.48295125
+Romania,1918,0.48295125
+Romania,1919,0.48295125
+Romania,1920,0.48295125
+Romania,1921,0.49158698
+Romania,1922,0.49158698
+Romania,1923,0.49158698
+Romania,1924,0.49158698
+Romania,1925,0.49158698
+Romania,1926,0.49867776
+Romania,1927,0.48017314
+Romania,1928,0.48017314
+Romania,1929,0.48017314
+Romania,1930,0.47247276
+Romania,1931,0.47247276
+Romania,1932,0.47247276
+Romania,1933,0.47247276
+Romania,1934,0.47247276
+Romania,1935,0.47247276
+Romania,1936,0.47247276
+Romania,1937,0.47247276
+Romania,1938,0.27621007
+Romania,1939,0.26597187
+Romania,1940,0.34447846
+Romania,1941,0.34447846
+Romania,1942,0.34447846
+Romania,1943,0.34447846
+Romania,1944,0.35807744
+Romania,1945,0.48767531
+Romania,1946,0.48767531
+Romania,1947,0.48767531
+Romania,1948,0.2515296
+Romania,1949,0.20363376
+Romania,1950,0.20363376
+Romania,1951,0.20363376
+Romania,1952,0.20363376
+Romania,1953,0.20363376
+Romania,1954,0.20363376
+Romania,1955,0.20363376
+Romania,1956,0.20363376
+Romania,1957,0.20363376
+Romania,1958,0.20363376
+Romania,1959,0.20363376
+Romania,1960,0.20363376
+Romania,1961,0.20363376
+Romania,1962,0.20363376
+Romania,1963,0.20363376
+Romania,1964,0.20363376
+Romania,1965,0.20363376
+Romania,1966,0.16889174
+Romania,1967,0.16889174
+Romania,1968,0.16889174
+Romania,1969,0.16889174
+Romania,1970,0.16889174
+Romania,1971,0.16889174
+Romania,1972,0.16889174
+Romania,1973,0.16889174
+Romania,1974,0.16889174
+Romania,1975,0.16889174
+Romania,1976,0.16889174
+Romania,1977,0.16889174
+Romania,1978,0.16889174
+Romania,1979,0.16889174
+Romania,1980,0.16889174
+Romania,1981,0.16889174
+Romania,1982,0.16889174
+Romania,1983,0.16889174
+Romania,1984,0.16889174
+Romania,1985,0.16889174
+Romania,1986,0.16889174
+Romania,1987,0.16889174
+Romania,1988,0.16889174
+Romania,1989,0.31416103
+Romania,1990,0.80265611
+Romania,1991,0.80265611
+Romania,1992,0.82275659
+Romania,1993,0.82275659
+Romania,1994,0.82275659
+Romania,1995,0.82275659
+Romania,1996,0.82987559
+Romania,1997,0.79646432
+Romania,1998,0.79646432
+Romania,1999,0.79646432
+Romania,2000,0.79646432
+Romania,2001,0.79646432
+Romania,2002,0.79646432
+Romania,2003,0.81388092
+Romania,2004,0.79396027
+Romania,2005,0.81512535
+Romania,2006,0.81512535
+Romania,2007,0.81512535
+Romania,2008,0.81512535
+Romania,2009,0.81512535
+Romania,2010,0.81512535
+Romania,2011,0.81512535
+Romania,2012,0.81512535
+Romania,2013,0.82830769
+Romania,2014,0.82830769
+Romania,2015,0.85472405
+Romania,2016,0.87065715
+Romania,2017,0.86340535
+Romania,2018,0.86475348
+Romania,2019,0.89170748
+Romania,2020,0.8779465
+Russia,1789,0.2030205
+Russia,1790,0.2030205
+Russia,1791,0.2030205
+Russia,1792,0.2030205
+Russia,1793,0.2030205
+Russia,1794,0.2030205
+Russia,1795,0.2030205
+Russia,1796,0.2030205
+Russia,1797,0.2030205
+Russia,1798,0.2030205
+Russia,1799,0.2030205
+Russia,1800,0.2030205
+Russia,1801,0.2030205
+Russia,1802,0.2030205
+Russia,1803,0.2030205
+Russia,1804,0.2030205
+Russia,1805,0.2030205
+Russia,1806,0.2030205
+Russia,1807,0.2030205
+Russia,1808,0.2030205
+Russia,1809,0.2030205
+Russia,1810,0.2030205
+Russia,1811,0.2030205
+Russia,1812,0.2030205
+Russia,1813,0.2030205
+Russia,1814,0.2030205
+Russia,1815,0.2030205
+Russia,1816,0.2030205
+Russia,1817,0.2030205
+Russia,1818,0.2030205
+Russia,1819,0.2030205
+Russia,1820,0.2030205
+Russia,1821,0.2030205
+Russia,1822,0.2030205
+Russia,1823,0.2030205
+Russia,1824,0.2030205
+Russia,1825,0.2030205
+Russia,1826,0.2030205
+Russia,1827,0.2030205
+Russia,1828,0.2030205
+Russia,1829,0.2030205
+Russia,1830,0.2030205
+Russia,1831,0.2030205
+Russia,1832,0.2030205
+Russia,1833,0.2030205
+Russia,1834,0.2030205
+Russia,1835,0.2030205
+Russia,1836,0.2030205
+Russia,1837,0.2030205
+Russia,1838,0.2030205
+Russia,1839,0.2030205
+Russia,1840,0.2030205
+Russia,1841,0.2030205
+Russia,1842,0.2030205
+Russia,1843,0.2030205
+Russia,1844,0.2030205
+Russia,1845,0.2030205
+Russia,1846,0.2030205
+Russia,1847,0.2030205
+Russia,1848,0.2030205
+Russia,1849,0.2030205
+Russia,1850,0.2030205
+Russia,1851,0.2030205
+Russia,1852,0.2030205
+Russia,1853,0.2030205
+Russia,1854,0.2030205
+Russia,1855,0.2030205
+Russia,1856,0.2030205
+Russia,1857,0.2030205
+Russia,1858,0.2030205
+Russia,1859,0.2030205
+Russia,1860,0.2030205
+Russia,1861,0.2030205
+Russia,1862,0.2030205
+Russia,1863,0.2030205
+Russia,1864,0.2030205
+Russia,1865,0.2030205
+Russia,1866,0.2030205
+Russia,1867,0.2030205
+Russia,1868,0.2030205
+Russia,1869,0.2030205
+Russia,1870,0.2030205
+Russia,1871,0.2030205
+Russia,1872,0.2030205
+Russia,1873,0.2030205
+Russia,1874,0.2030205
+Russia,1875,0.2030205
+Russia,1876,0.2030205
+Russia,1877,0.2030205
+Russia,1878,0.2030205
+Russia,1879,0.2030205
+Russia,1880,0.2030205
+Russia,1881,0.2030205
+Russia,1882,0.2030205
+Russia,1883,0.2030205
+Russia,1884,0.2030205
+Russia,1885,0.2030205
+Russia,1886,0.2030205
+Russia,1887,0.2030205
+Russia,1888,0.2030205
+Russia,1889,0.2030205
+Russia,1890,0.2030205
+Russia,1891,0.2030205
+Russia,1892,0.2030205
+Russia,1893,0.2030205
+Russia,1894,0.2030205
+Russia,1895,0.2030205
+Russia,1896,0.2030205
+Russia,1897,0.2030205
+Russia,1898,0.2030205
+Russia,1899,0.2030205
+Russia,1900,0.41044953
+Russia,1901,0.41044953
+Russia,1902,0.41044953
+Russia,1903,0.41044953
+Russia,1904,0.41044953
+Russia,1905,0.462345
+Russia,1906,0.50998056
+Russia,1907,0.49532598
+Russia,1908,0.49542004
+Russia,1909,0.49542004
+Russia,1910,0.49542004
+Russia,1911,0.49542004
+Russia,1912,0.49542004
+Russia,1913,0.49542004
+Russia,1914,0.51007462
+Russia,1915,0.51007462
+Russia,1916,0.51007462
+Russia,1917,0.63620567
+Russia,1918,0.28985783
+Russia,1919,0.25258079
+Russia,1920,0.25258079
+Russia,1921,0.15642798
+Russia,1922,0.15642798
+Russia,1923,0.15642798
+Russia,1924,0.15642798
+Russia,1925,0.15642798
+Russia,1926,0.15642798
+Russia,1927,0.15642798
+Russia,1928,0.15642798
+Russia,1929,0.16768058
+Russia,1930,0.18887734
+Russia,1931,0.18887734
+Russia,1932,0.18887734
+Russia,1933,0.18887734
+Russia,1934,0.18887734
+Russia,1935,0.18887734
+Russia,1936,0.18887734
+Russia,1937,0.18887734
+Russia,1938,0.18887734
+Russia,1939,0.18887734
+Russia,1940,0.18887734
+Russia,1941,0.18887734
+Russia,1942,0.18887734
+Russia,1943,0.18887734
+Russia,1944,0.18887734
+Russia,1945,0.18887734
+Russia,1946,0.18887734
+Russia,1947,0.18887734
+Russia,1948,0.18887734
+Russia,1949,0.18887734
+Russia,1950,0.18887734
+Russia,1951,0.18887734
+Russia,1952,0.18887734
+Russia,1953,0.17553124
+Russia,1954,0.13994159
+Russia,1955,0.13994159
+Russia,1956,0.13994159
+Russia,1957,0.13994159
+Russia,1958,0.13994159
+Russia,1959,0.13994159
+Russia,1960,0.13994159
+Russia,1961,0.13994159
+Russia,1962,0.13994159
+Russia,1963,0.13994159
+Russia,1964,0.13994159
+Russia,1965,0.13994159
+Russia,1966,0.13994159
+Russia,1967,0.13994159
+Russia,1968,0.13994159
+Russia,1969,0.13994159
+Russia,1970,0.13994159
+Russia,1971,0.13994159
+Russia,1972,0.13994159
+Russia,1973,0.13994159
+Russia,1974,0.13994159
+Russia,1975,0.13994159
+Russia,1976,0.13994159
+Russia,1977,0.13994159
+Russia,1978,0.13994159
+Russia,1979,0.13994159
+Russia,1980,0.13994159
+Russia,1981,0.13994159
+Russia,1982,0.13994159
+Russia,1983,0.13994159
+Russia,1984,0.13994159
+Russia,1985,0.13994159
+Russia,1986,0.13994159
+Russia,1987,0.13994159
+Russia,1988,0.13994159
+Russia,1989,0.22625111
+Russia,1990,0.37829831
+Russia,1991,0.59461677
+Russia,1992,0.68529671
+Russia,1993,0.68529671
+Russia,1994,0.68529671
+Russia,1995,0.68529671
+Russia,1996,0.68529671
+Russia,1997,0.68529671
+Russia,1998,0.68529671
+Russia,1999,0.69176787
+Russia,2000,0.66082096
+Russia,2001,0.63894087
+Russia,2002,0.59070235
+Russia,2003,0.59070235
+Russia,2004,0.58902198
+Russia,2005,0.60105968
+Russia,2006,0.60105968
+Russia,2007,0.59607953
+Russia,2008,0.5871821
+Russia,2009,0.58172947
+Russia,2010,0.58172947
+Russia,2011,0.5777458
+Russia,2012,0.59529841
+Russia,2013,0.59527332
+Russia,2014,0.59217441
+Russia,2015,0.59654295
+Russia,2016,0.5856716
+Russia,2017,0.59490538
+Russia,2018,0.60044032
+Russia,2019,0.58901453
+Russia,2020,0.57103366
+Estonia,1918,0.8202185
+Estonia,1919,0.8202185
+Estonia,1920,0.79658467
+Estonia,1921,0.79658467
+Estonia,1922,0.79658467
+Estonia,1923,0.79658467
+Estonia,1924,0.79658467
+Estonia,1925,0.79658467
+Estonia,1926,0.79658467
+Estonia,1927,0.79658467
+Estonia,1928,0.79658467
+Estonia,1929,0.79658467
+Estonia,1930,0.79658467
+Estonia,1931,0.79658467
+Estonia,1932,0.75797606
+Estonia,1933,0.75797606
+Estonia,1934,0.61581063
+Estonia,1935,0.38003114
+Estonia,1936,0.48470655
+Estonia,1937,0.49265733
+Estonia,1938,0.51427621
+Estonia,1939,0.51427621
+Estonia,1990,0.89815742
+Estonia,1991,0.89815742
+Estonia,1992,0.94022655
+Estonia,1993,0.91405773
+Estonia,1994,0.90064102
+Estonia,1995,0.90064102
+Estonia,1996,0.90064102
+Estonia,1997,0.90064102
+Estonia,1998,0.90064102
+Estonia,1999,0.90064102
+Estonia,2000,0.90064102
+Estonia,2001,0.90064102
+Estonia,2002,0.90064102
+Estonia,2003,0.90064102
+Estonia,2004,0.90064102
+Estonia,2005,0.90064102
+Estonia,2006,0.90064102
+Estonia,2007,0.90064102
+Estonia,2008,0.90064102
+Estonia,2009,0.90064102
+Estonia,2010,0.90064102
+Estonia,2011,0.90064102
+Estonia,2012,0.90064102
+Estonia,2013,0.87495393
+Estonia,2014,0.88839662
+Estonia,2015,0.89273423
+Estonia,2016,0.92278987
+Estonia,2017,0.92278987
+Estonia,2018,0.92278987
+Estonia,2019,0.92278987
+Estonia,2020,0.92278987
+Latvia,1920,0.84732413
+Latvia,1921,0.84732413
+Latvia,1922,0.84732413
+Latvia,1923,0.84732413
+Latvia,1924,0.84732413
+Latvia,1925,0.84732413
+Latvia,1926,0.84732413
+Latvia,1927,0.84732413
+Latvia,1928,0.84732413
+Latvia,1929,0.84732413
+Latvia,1930,0.84732413
+Latvia,1931,0.84732413
+Latvia,1932,0.84732413
+Latvia,1933,0.84732413
+Latvia,1934,0.79533714
+Latvia,1935,0.50793004
+Latvia,1936,0.50793004
+Latvia,1937,0.37708578
+Latvia,1938,0.37708578
+Latvia,1939,0.37708578
+Latvia,1990,0.76117718
+Latvia,1991,0.80036306
+Latvia,1992,0.88678652
+Latvia,1993,0.89386356
+Latvia,1994,0.91946334
+Latvia,1995,0.91946334
+Latvia,1996,0.91946334
+Latvia,1997,0.91946334
+Latvia,1998,0.91946334
+Latvia,1999,0.91946334
+Latvia,2000,0.91946334
+Latvia,2001,0.91946334
+Latvia,2002,0.91946334
+Latvia,2003,0.91946334
+Latvia,2004,0.91946334
+Latvia,2005,0.91946334
+Latvia,2006,0.91946334
+Latvia,2007,0.91946334
+Latvia,2008,0.91946334
+Latvia,2009,0.91946334
+Latvia,2010,0.91946334
+Latvia,2011,0.91946334
+Latvia,2012,0.91946334
+Latvia,2013,0.92964202
+Latvia,2014,0.92964202
+Latvia,2015,0.92964202
+Latvia,2016,0.92964202
+Latvia,2017,0.92964202
+Latvia,2018,0.92964202
+Latvia,2019,0.93379217
+Latvia,2020,0.91521227
+Lithuania,1918,0.68981665
+Lithuania,1919,0.72174299
+Lithuania,1920,0.72174299
+Lithuania,1921,0.72174299
+Lithuania,1922,0.72174299
+Lithuania,1923,0.72174299
+Lithuania,1924,0.72174299
+Lithuania,1925,0.72174299
+Lithuania,1926,0.71396518
+Lithuania,1927,0.41307259
+Lithuania,1928,0.41307259
+Lithuania,1929,0.41307259
+Lithuania,1930,0.41307259
+Lithuania,1931,0.41307259
+Lithuania,1932,0.41307259
+Lithuania,1933,0.41307259
+Lithuania,1934,0.41307259
+Lithuania,1935,0.41307259
+Lithuania,1936,0.30517575
+Lithuania,1937,0.29517481
+Lithuania,1938,0.29517481
+Lithuania,1939,0.33172193
+Lithuania,1990,0.8664127
+Lithuania,1991,0.89258152
+Lithuania,1992,0.89258152
+Lithuania,1993,0.91875041
+Lithuania,1994,0.91875041
+Lithuania,1995,0.91875041
+Lithuania,1996,0.91875041
+Lithuania,1997,0.91875041
+Lithuania,1998,0.91875041
+Lithuania,1999,0.91875041
+Lithuania,2000,0.91875041
+Lithuania,2001,0.91875041
+Lithuania,2002,0.91875041
+Lithuania,2003,0.91875041
+Lithuania,2004,0.91875041
+Lithuania,2005,0.89493674
+Lithuania,2006,0.89493674
+Lithuania,2007,0.89493674
+Lithuania,2008,0.89493674
+Lithuania,2009,0.89493674
+Lithuania,2010,0.89493674
+Lithuania,2011,0.89493674
+Lithuania,2012,0.89493674
+Lithuania,2013,0.8979218
+Lithuania,2014,0.8979218
+Lithuania,2015,0.8979218
+Lithuania,2016,0.87342185
+Lithuania,2017,0.87342185
+Lithuania,2018,0.87342185
+Lithuania,2019,0.87342185
+Lithuania,2020,0.83497822
+Ukraine,1990,0.39525324
+Ukraine,1991,0.48038718
+Ukraine,1992,0.7008884
+Ukraine,1993,0.7008884
+Ukraine,1994,0.70504713
+Ukraine,1995,0.71177441
+Ukraine,1996,0.71242869
+Ukraine,1997,0.69261742
+Ukraine,1998,0.69261742
+Ukraine,1999,0.685453
+Ukraine,2000,0.685453
+Ukraine,2001,0.685453
+Ukraine,2002,0.6890682
+Ukraine,2003,0.68373853
+Ukraine,2004,0.67708981
+Ukraine,2005,0.7686013
+Ukraine,2006,0.81770504
+Ukraine,2007,0.80901158
+Ukraine,2008,0.81801081
+Ukraine,2009,0.81801081
+Ukraine,2010,0.70356321
+Ukraine,2011,0.69770938
+Ukraine,2012,0.69770938
+Ukraine,2013,0.69217867
+Ukraine,2014,0.7039991
+Ukraine,2015,0.70761305
+Ukraine,2016,0.71365041
+Ukraine,2017,0.71168274
+Ukraine,2018,0.69389147
+Ukraine,2019,0.71818244
+Ukraine,2020,0.72087091
+Belarus,1990,0.46176061
+Belarus,1991,0.50126803
+Belarus,1992,0.56210208
+Belarus,1993,0.56210208
+Belarus,1994,0.7191121
+Belarus,1995,0.68092972
+Belarus,1996,0.68517107
+Belarus,1997,0.57877946
+Belarus,1998,0.57877946
+Belarus,1999,0.5877673
+Belarus,2000,0.54055256
+Belarus,2001,0.54055256
+Belarus,2002,0.54055256
+Belarus,2003,0.54055256
+Belarus,2004,0.54055256
+Belarus,2005,0.52800864
+Belarus,2006,0.52570307
+Belarus,2007,0.52570307
+Belarus,2008,0.52570307
+Belarus,2009,0.52570307
+Belarus,2010,0.52570307
+Belarus,2011,0.52570307
+Belarus,2012,0.52570307
+Belarus,2013,0.5160892
+Belarus,2014,0.5160892
+Belarus,2015,0.5160892
+Belarus,2016,0.53089309
+Belarus,2017,0.53089309
+Belarus,2018,0.52138513
+Belarus,2019,0.53129071
+Belarus,2020,0.47989213
+Armenia,1990,0.66457963
+Armenia,1991,0.67600286
+Armenia,1992,0.66686529
+Armenia,1993,0.65889347
+Armenia,1994,0.63811296
+Armenia,1995,0.61422616
+Armenia,1996,0.60510308
+Armenia,1997,0.58316982
+Armenia,1998,0.61145639
+Armenia,1999,0.6036396
+Armenia,2000,0.59088653
+Armenia,2001,0.59088653
+Armenia,2002,0.62343812
+Armenia,2003,0.62038255
+Armenia,2004,0.62038255
+Armenia,2005,0.61150885
+Armenia,2006,0.60507375
+Armenia,2007,0.58364195
+Armenia,2008,0.60435009
+Armenia,2009,0.60963851
+Armenia,2010,0.61660582
+Armenia,2011,0.61660582
+Armenia,2012,0.60995388
+Armenia,2013,0.61279017
+Armenia,2014,0.60088271
+Armenia,2015,0.59925401
+Armenia,2016,0.60325533
+Armenia,2017,0.65177387
+Armenia,2018,0.79457253
+Armenia,2019,0.82540756
+Armenia,2020,0.74629998
+Georgia,1990,0.5934847
+Georgia,1991,0.57114798
+Georgia,1992,0.68948406
+Georgia,1993,0.69612426
+Georgia,1994,0.68000436
+Georgia,1995,0.71456081
+Georgia,1996,0.69810915
+Georgia,1997,0.69810915
+Georgia,1998,0.69810915
+Georgia,1999,0.69810915
+Georgia,2000,0.72427797
+Georgia,2001,0.72427797
+Georgia,2002,0.72427797
+Georgia,2003,0.70635182
+Georgia,2004,0.79012901
+Georgia,2005,0.76710039
+Georgia,2006,0.76710039
+Georgia,2007,0.76313037
+Georgia,2008,0.75077707
+Georgia,2009,0.74271512
+Georgia,2010,0.75233668
+Georgia,2011,0.75233668
+Georgia,2012,0.73227364
+Georgia,2013,0.75622427
+Georgia,2014,0.75622427
+Georgia,2015,0.75033456
+Georgia,2016,0.78847098
+Georgia,2017,0.77978462
+Georgia,2018,0.75068194
+Georgia,2019,0.73573655
+Georgia,2020,0.73135442
+Azerbaijan,1990,0.39110881
+Azerbaijan,1991,0.59442884
+Azerbaijan,1992,0.67805183
+Azerbaijan,1993,0.61843437
+Azerbaijan,1994,0.50963807
+Azerbaijan,1995,0.48346922
+Azerbaijan,1996,0.50963807
+Azerbaijan,1997,0.50963807
+Azerbaijan,1998,0.50963807
+Azerbaijan,1999,0.50963807
+Azerbaijan,2000,0.50963807
+Azerbaijan,2001,0.50963807
+Azerbaijan,2002,0.50963807
+Azerbaijan,2003,0.50963807
+Azerbaijan,2004,0.49152595
+Azerbaijan,2005,0.49623635
+Azerbaijan,2006,0.49623635
+Azerbaijan,2007,0.48446035
+Azerbaijan,2008,0.49623635
+Azerbaijan,2009,0.49623635
+Azerbaijan,2010,0.49482644
+Azerbaijan,2011,0.49482644
+Azerbaijan,2012,0.49685094
+Azerbaijan,2013,0.47282961
+Azerbaijan,2014,0.47282961
+Azerbaijan,2015,0.47282961
+Azerbaijan,2016,0.46234798
+Azerbaijan,2017,0.46234798
+Azerbaijan,2018,0.49559093
+Azerbaijan,2019,0.49817005
+Azerbaijan,2020,0.50261676
+Finland,1809,0.84999484
+Finland,1810,0.84999484
+Finland,1811,0.84999484
+Finland,1812,0.84999484
+Finland,1813,0.84999484
+Finland,1814,0.84999484
+Finland,1815,0.84999484
+Finland,1816,0.84999484
+Finland,1817,0.84999484
+Finland,1818,0.84999484
+Finland,1819,0.84999484
+Finland,1820,0.84999484
+Finland,1821,0.84999484
+Finland,1822,0.84999484
+Finland,1823,0.84999484
+Finland,1824,0.84999484
+Finland,1825,0.84999484
+Finland,1826,0.84999484
+Finland,1827,0.84999484
+Finland,1828,0.84999484
+Finland,1829,0.84999484
+Finland,1830,0.84999484
+Finland,1831,0.84999484
+Finland,1832,0.84999484
+Finland,1833,0.84999484
+Finland,1834,0.84999484
+Finland,1835,0.84999484
+Finland,1836,0.84999484
+Finland,1837,0.84999484
+Finland,1838,0.84999484
+Finland,1839,0.84999484
+Finland,1840,0.84999484
+Finland,1841,0.84999484
+Finland,1842,0.84999484
+Finland,1843,0.84999484
+Finland,1844,0.84999484
+Finland,1845,0.84999484
+Finland,1846,0.84999484
+Finland,1847,0.84999484
+Finland,1848,0.84999484
+Finland,1849,0.84999484
+Finland,1850,0.84999484
+Finland,1851,0.84999484
+Finland,1852,0.84999484
+Finland,1853,0.84999484
+Finland,1854,0.84999484
+Finland,1855,0.84999484
+Finland,1856,0.84999484
+Finland,1857,0.84999484
+Finland,1858,0.84999484
+Finland,1859,0.84999484
+Finland,1860,0.84999484
+Finland,1861,0.84999484
+Finland,1862,0.84999484
+Finland,1863,0.84999484
+Finland,1864,0.84999484
+Finland,1865,0.84999484
+Finland,1866,0.84999484
+Finland,1867,0.84999484
+Finland,1868,0.84999484
+Finland,1869,0.84999484
+Finland,1870,0.84999484
+Finland,1871,0.84999484
+Finland,1872,0.84999484
+Finland,1873,0.84999484
+Finland,1874,0.84999484
+Finland,1875,0.84999484
+Finland,1876,0.84999484
+Finland,1877,0.84999484
+Finland,1878,0.84999484
+Finland,1879,0.84999484
+Finland,1880,0.84999484
+Finland,1881,0.84999484
+Finland,1882,0.84999484
+Finland,1883,0.84999484
+Finland,1884,0.84999484
+Finland,1885,0.84999484
+Finland,1886,0.84999484
+Finland,1887,0.84999484
+Finland,1888,0.84999484
+Finland,1889,0.84999484
+Finland,1890,0.84999484
+Finland,1891,0.84999484
+Finland,1892,0.84999484
+Finland,1893,0.84999484
+Finland,1894,0.84999484
+Finland,1895,0.84999484
+Finland,1896,0.84999484
+Finland,1897,0.84999484
+Finland,1898,0.84999484
+Finland,1899,0.84999484
+Finland,1900,0.83141494
+Finland,1901,0.83141494
+Finland,1902,0.83141494
+Finland,1903,0.83141494
+Finland,1904,0.83141494
+Finland,1905,0.84999484
+Finland,1906,0.84999484
+Finland,1907,0.86693126
+Finland,1908,0.86693126
+Finland,1909,0.86693126
+Finland,1910,0.86693126
+Finland,1911,0.86693126
+Finland,1912,0.86693126
+Finland,1913,0.86693126
+Finland,1914,0.86693126
+Finland,1915,0.86693126
+Finland,1916,0.86693126
+Finland,1917,0.86693126
+Finland,1918,0.80111945
+Finland,1919,0.81969929
+Finland,1920,0.81969929
+Finland,1921,0.81969929
+Finland,1922,0.81969929
+Finland,1923,0.81969929
+Finland,1924,0.81969929
+Finland,1925,0.81969929
+Finland,1926,0.81969929
+Finland,1927,0.81969929
+Finland,1928,0.81969929
+Finland,1929,0.81969929
+Finland,1930,0.81969929
+Finland,1931,0.81969929
+Finland,1932,0.81969929
+Finland,1933,0.81969929
+Finland,1934,0.81969929
+Finland,1935,0.81969929
+Finland,1936,0.81969929
+Finland,1937,0.81969929
+Finland,1938,0.81969929
+Finland,1939,0.81969929
+Finland,1940,0.81969929
+Finland,1941,0.81969929
+Finland,1942,0.81969929
+Finland,1943,0.81969929
+Finland,1944,0.79353046
+Finland,1945,0.85046458
+Finland,1946,0.90421891
+Finland,1947,0.90421891
+Finland,1948,0.90421891
+Finland,1949,0.90421891
+Finland,1950,0.90421891
+Finland,1951,0.90421891
+Finland,1952,0.90421891
+Finland,1953,0.90421891
+Finland,1954,0.90421891
+Finland,1955,0.90421891
+Finland,1956,0.90421891
+Finland,1957,0.90421891
+Finland,1958,0.90421891
+Finland,1959,0.90421891
+Finland,1960,0.90421891
+Finland,1961,0.90421891
+Finland,1962,0.86973
+Finland,1963,0.86973
+Finland,1964,0.86973
+Finland,1965,0.86973
+Finland,1966,0.86973
+Finland,1967,0.86973
+Finland,1968,0.86973
+Finland,1969,0.85081649
+Finland,1970,0.85081649
+Finland,1971,0.85081649
+Finland,1972,0.85081649
+Finland,1973,0.85081649
+Finland,1974,0.85081649
+Finland,1975,0.85081649
+Finland,1976,0.85081649
+Finland,1977,0.85081649
+Finland,1978,0.85081649
+Finland,1979,0.85081649
+Finland,1980,0.85081649
+Finland,1981,0.82464761
+Finland,1982,0.87146437
+Finland,1983,0.87146437
+Finland,1984,0.87146437
+Finland,1985,0.87146437
+Finland,1986,0.87146437
+Finland,1987,0.87146437
+Finland,1988,0.87146437
+Finland,1989,0.87146437
+Finland,1990,0.87146437
+Finland,1991,0.87146437
+Finland,1992,0.87146437
+Finland,1993,0.87146437
+Finland,1994,0.87146437
+Finland,1995,0.87146437
+Finland,1996,0.87146437
+Finland,1997,0.87146437
+Finland,1998,0.87146437
+Finland,1999,0.87146437
+Finland,2000,0.84529555
+Finland,2001,0.84529555
+Finland,2002,0.84529555
+Finland,2003,0.84529555
+Finland,2004,0.84529555
+Finland,2005,0.86858582
+Finland,2006,0.86858582
+Finland,2007,0.86858582
+Finland,2008,0.86858582
+Finland,2009,0.86858582
+Finland,2010,0.86858582
+Finland,2011,0.86858582
+Finland,2012,0.86858582
+Finland,2013,0.8740164
+Finland,2014,0.8740164
+Finland,2015,0.89285803
+Finland,2016,0.89285803
+Finland,2017,0.8740164
+Finland,2018,0.86773586
+Finland,2019,0.8897177
+Finland,2020,0.87385988
+Sweden,1789,0.48112381
+Sweden,1790,0.48112381
+Sweden,1791,0.48112381
+Sweden,1792,0.48112381
+Sweden,1793,0.48112381
+Sweden,1794,0.48112381
+Sweden,1795,0.48112381
+Sweden,1796,0.48112381
+Sweden,1797,0.48112381
+Sweden,1798,0.48112381
+Sweden,1799,0.48112381
+Sweden,1800,0.48112381
+Sweden,1801,0.48112381
+Sweden,1802,0.48112381
+Sweden,1803,0.48112381
+Sweden,1804,0.48112381
+Sweden,1805,0.48112381
+Sweden,1806,0.48112381
+Sweden,1807,0.48112381
+Sweden,1808,0.48112381
+Sweden,1809,0.69524008
+Sweden,1810,0.70336819
+Sweden,1811,0.70336819
+Sweden,1812,0.70336819
+Sweden,1813,0.70336819
+Sweden,1814,0.70336819
+Sweden,1815,0.70336819
+Sweden,1816,0.70336819
+Sweden,1817,0.70336819
+Sweden,1818,0.83421248
+Sweden,1819,0.83421248
+Sweden,1820,0.83421248
+Sweden,1821,0.83421248
+Sweden,1822,0.83421248
+Sweden,1823,0.83421248
+Sweden,1824,0.83421248
+Sweden,1825,0.83421248
+Sweden,1826,0.83421248
+Sweden,1827,0.83421248
+Sweden,1828,0.83421248
+Sweden,1829,0.83421248
+Sweden,1830,0.83421248
+Sweden,1831,0.83421248
+Sweden,1832,0.83421248
+Sweden,1833,0.83421248
+Sweden,1834,0.83421248
+Sweden,1835,0.83421248
+Sweden,1836,0.83421248
+Sweden,1837,0.83421248
+Sweden,1838,0.83421248
+Sweden,1839,0.83421248
+Sweden,1840,0.83421248
+Sweden,1841,0.83421248
+Sweden,1842,0.83421248
+Sweden,1843,0.83421248
+Sweden,1844,0.70336819
+Sweden,1845,0.70336819
+Sweden,1846,0.70336819
+Sweden,1847,0.70336819
+Sweden,1848,0.70336819
+Sweden,1849,0.70336819
+Sweden,1850,0.70336819
+Sweden,1851,0.70336819
+Sweden,1852,0.70336819
+Sweden,1853,0.70336819
+Sweden,1854,0.70336819
+Sweden,1855,0.70336819
+Sweden,1856,0.70336819
+Sweden,1857,0.70336819
+Sweden,1858,0.70336819
+Sweden,1859,0.70336819
+Sweden,1860,0.70336819
+Sweden,1861,0.70336819
+Sweden,1862,0.70336819
+Sweden,1863,0.70336819
+Sweden,1864,0.70336819
+Sweden,1865,0.70336819
+Sweden,1866,0.70336819
+Sweden,1867,0.70336819
+Sweden,1868,0.70336819
+Sweden,1869,0.70336819
+Sweden,1870,0.70336819
+Sweden,1871,0.70336819
+Sweden,1872,0.70336819
+Sweden,1873,0.70336819
+Sweden,1874,0.70336819
+Sweden,1875,0.70336819
+Sweden,1876,0.70336819
+Sweden,1877,0.70336819
+Sweden,1878,0.70336819
+Sweden,1879,0.70336819
+Sweden,1880,0.70336819
+Sweden,1881,0.70336819
+Sweden,1882,0.70336819
+Sweden,1883,0.70336819
+Sweden,1884,0.70336819
+Sweden,1885,0.70336819
+Sweden,1886,0.70336819
+Sweden,1887,0.70336819
+Sweden,1888,0.70336819
+Sweden,1889,0.70336819
+Sweden,1890,0.70336819
+Sweden,1891,0.70336819
+Sweden,1892,0.70336819
+Sweden,1893,0.70336819
+Sweden,1894,0.70336819
+Sweden,1895,0.70336819
+Sweden,1896,0.70336819
+Sweden,1897,0.70336819
+Sweden,1898,0.70336819
+Sweden,1899,0.70336819
+Sweden,1900,0.68164808
+Sweden,1901,0.68164808
+Sweden,1902,0.68164808
+Sweden,1903,0.68164808
+Sweden,1904,0.68164808
+Sweden,1905,0.74471503
+Sweden,1906,0.74471503
+Sweden,1907,0.74471503
+Sweden,1908,0.74471503
+Sweden,1909,0.74471503
+Sweden,1910,0.7523163
+Sweden,1911,0.7523163
+Sweden,1912,0.7523163
+Sweden,1913,0.7523163
+Sweden,1914,0.7523163
+Sweden,1915,0.7523163
+Sweden,1916,0.7523163
+Sweden,1917,0.84666288
+Sweden,1918,0.84666288
+Sweden,1919,0.84666288
+Sweden,1920,0.84666288
+Sweden,1921,0.88768363
+Sweden,1922,0.88768363
+Sweden,1923,0.88768363
+Sweden,1924,0.88768363
+Sweden,1925,0.88768363
+Sweden,1926,0.88768363
+Sweden,1927,0.88768363
+Sweden,1928,0.88768363
+Sweden,1929,0.88768363
+Sweden,1930,0.88768363
+Sweden,1931,0.88768363
+Sweden,1932,0.88768363
+Sweden,1933,0.88768363
+Sweden,1934,0.88768363
+Sweden,1935,0.88768363
+Sweden,1936,0.88768363
+Sweden,1937,0.88768363
+Sweden,1938,0.88768363
+Sweden,1939,0.88768363
+Sweden,1940,0.88768363
+Sweden,1941,0.88768363
+Sweden,1942,0.88768363
+Sweden,1943,0.88768363
+Sweden,1944,0.88768363
+Sweden,1945,0.94415063
+Sweden,1946,0.94415063
+Sweden,1947,0.94415063
+Sweden,1948,0.94415063
+Sweden,1949,0.94415063
+Sweden,1950,0.94415063
+Sweden,1951,0.94415063
+Sweden,1952,0.94415063
+Sweden,1953,0.94415063
+Sweden,1954,0.94415063
+Sweden,1955,0.94415063
+Sweden,1956,0.94415063
+Sweden,1957,0.94415063
+Sweden,1958,0.94415063
+Sweden,1959,0.94415063
+Sweden,1960,0.94415063
+Sweden,1961,0.94415063
+Sweden,1962,0.94415063
+Sweden,1963,0.94415063
+Sweden,1964,0.94415063
+Sweden,1965,0.94415063
+Sweden,1966,0.94415063
+Sweden,1967,0.94415063
+Sweden,1968,0.94415063
+Sweden,1969,0.94415063
+Sweden,1970,0.94415063
+Sweden,1971,0.94415063
+Sweden,1972,0.94415063
+Sweden,1973,0.94415063
+Sweden,1974,0.94415063
+Sweden,1975,0.94415063
+Sweden,1976,0.94415063
+Sweden,1977,0.94415063
+Sweden,1978,0.94415063
+Sweden,1979,0.94415063
+Sweden,1980,0.94415063
+Sweden,1981,0.94415063
+Sweden,1982,0.94415063
+Sweden,1983,0.94415063
+Sweden,1984,0.94415063
+Sweden,1985,0.94415063
+Sweden,1986,0.94415063
+Sweden,1987,0.94415063
+Sweden,1988,0.94415063
+Sweden,1989,0.94415063
+Sweden,1990,0.94415063
+Sweden,1991,0.94415063
+Sweden,1992,0.94415063
+Sweden,1993,0.94415063
+Sweden,1994,0.94415063
+Sweden,1995,0.94415063
+Sweden,1996,0.94415063
+Sweden,1997,0.94415063
+Sweden,1998,0.94415063
+Sweden,1999,0.94415063
+Sweden,2000,0.94415063
+Sweden,2001,0.94415063
+Sweden,2002,0.94415063
+Sweden,2003,0.94415063
+Sweden,2004,0.94415063
+Sweden,2005,0.93551493
+Sweden,2006,0.93551493
+Sweden,2007,0.93551493
+Sweden,2008,0.93551493
+Sweden,2009,0.93551493
+Sweden,2010,0.93551493
+Sweden,2011,0.93551493
+Sweden,2012,0.93551493
+Sweden,2013,0.93346173
+Sweden,2014,0.93346173
+Sweden,2015,0.97409308
+Sweden,2016,0.97409308
+Sweden,2017,0.97042948
+Sweden,2018,0.97042948
+Sweden,2019,0.95638257
+Sweden,2020,0.95638257
+Norway,1789,0.043688681
+Norway,1790,0.043688681
+Norway,1791,0.043688681
+Norway,1792,0.043688681
+Norway,1793,0.043688681
+Norway,1794,0.043688681
+Norway,1795,0.043688681
+Norway,1796,0.043688681
+Norway,1797,0.043688681
+Norway,1798,0.043688681
+Norway,1799,0.043688681
+Norway,1800,0.043688681
+Norway,1801,0.043688681
+Norway,1802,0.043688681
+Norway,1803,0.043688681
+Norway,1804,0.043688681
+Norway,1805,0.043688681
+Norway,1806,0.043688681
+Norway,1807,0.17453299
+Norway,1808,0.17453299
+Norway,1809,0.17453299
+Norway,1810,0.17453299
+Norway,1811,0.17453299
+Norway,1812,0.17453299
+Norway,1813,0.17453299
+Norway,1814,0.44736436
+Norway,1815,0.65369117
+Norway,1816,0.65369117
+Norway,1817,0.65369117
+Norway,1818,0.65369117
+Norway,1819,0.65369117
+Norway,1820,0.65369117
+Norway,1821,0.65369117
+Norway,1822,0.65369117
+Norway,1823,0.65369117
+Norway,1824,0.65369117
+Norway,1825,0.65369117
+Norway,1826,0.65369117
+Norway,1827,0.65369117
+Norway,1828,0.59390253
+Norway,1829,0.59390253
+Norway,1830,0.59390253
+Norway,1831,0.59390253
+Norway,1832,0.59390253
+Norway,1833,0.59390253
+Norway,1834,0.59390253
+Norway,1835,0.59390253
+Norway,1836,0.59390253
+Norway,1837,0.59390253
+Norway,1838,0.59390253
+Norway,1839,0.59390253
+Norway,1840,0.59390253
+Norway,1841,0.59390253
+Norway,1842,0.59390253
+Norway,1843,0.74990004
+Norway,1844,0.74990004
+Norway,1845,0.74990004
+Norway,1846,0.74990004
+Norway,1847,0.74990004
+Norway,1848,0.74990004
+Norway,1849,0.74990004
+Norway,1850,0.74990004
+Norway,1851,0.74990004
+Norway,1852,0.74990004
+Norway,1853,0.74990004
+Norway,1854,0.74990004
+Norway,1855,0.74990004
+Norway,1856,0.74990004
+Norway,1857,0.74990004
+Norway,1858,0.74990004
+Norway,1859,0.74990004
+Norway,1860,0.74990004
+Norway,1861,0.74990004
+Norway,1862,0.74990004
+Norway,1863,0.74990004
+Norway,1864,0.74990004
+Norway,1865,0.74990004
+Norway,1866,0.74990004
+Norway,1867,0.74990004
+Norway,1868,0.74990004
+Norway,1869,0.74990004
+Norway,1870,0.74990004
+Norway,1871,0.74990004
+Norway,1872,0.74990004
+Norway,1873,0.74990004
+Norway,1874,0.74990004
+Norway,1875,0.74990004
+Norway,1876,0.74990004
+Norway,1877,0.74990004
+Norway,1878,0.74990004
+Norway,1879,0.74990004
+Norway,1880,0.74990004
+Norway,1881,0.74990004
+Norway,1882,0.74990004
+Norway,1883,0.74990004
+Norway,1884,0.87527502
+Norway,1885,0.87527502
+Norway,1886,0.87527502
+Norway,1887,0.87527502
+Norway,1888,0.87527502
+Norway,1889,0.87527502
+Norway,1890,0.87527502
+Norway,1891,0.87527502
+Norway,1892,0.87527502
+Norway,1893,0.87527502
+Norway,1894,0.87527502
+Norway,1895,0.87527502
+Norway,1896,0.87527502
+Norway,1897,0.87527502
+Norway,1898,0.87527502
+Norway,1899,0.87527502
+Norway,1900,0.87527502
+Norway,1901,0.87527502
+Norway,1902,0.87527502
+Norway,1903,0.87527502
+Norway,1904,0.87527502
+Norway,1905,0.88305104
+Norway,1906,0.91275722
+Norway,1907,0.91275722
+Norway,1908,0.91275722
+Norway,1909,0.91275722
+Norway,1910,0.91275722
+Norway,1911,0.91275722
+Norway,1912,0.91275722
+Norway,1913,0.91275722
+Norway,1914,0.91275722
+Norway,1915,0.91275722
+Norway,1916,0.91275722
+Norway,1917,0.91275722
+Norway,1918,0.91275722
+Norway,1919,0.91275722
+Norway,1920,0.91275722
+Norway,1921,0.91275722
+Norway,1922,0.91275722
+Norway,1923,0.91275722
+Norway,1924,0.91275722
+Norway,1925,0.91275722
+Norway,1926,0.91275722
+Norway,1927,0.91275722
+Norway,1928,0.91275722
+Norway,1929,0.91275722
+Norway,1930,0.91275722
+Norway,1931,0.91275722
+Norway,1932,0.91275722
+Norway,1933,0.91275722
+Norway,1934,0.91275722
+Norway,1935,0.91275722
+Norway,1936,0.91275722
+Norway,1937,0.91275722
+Norway,1938,0.91275722
+Norway,1939,0.91275722
+Norway,1940,0.60469103
+Norway,1941,0.60469103
+Norway,1942,0.60469103
+Norway,1943,0.60469103
+Norway,1944,0.60469103
+Norway,1945,0.86470455
+Norway,1946,0.92721128
+Norway,1947,0.92721128
+Norway,1948,0.92721128
+Norway,1949,0.92721128
+Norway,1950,0.92721128
+Norway,1951,0.92721128
+Norway,1952,0.92721128
+Norway,1953,0.92721128
+Norway,1954,0.92721128
+Norway,1955,0.92721128
+Norway,1956,0.92721128
+Norway,1957,0.92721128
+Norway,1958,0.92721128
+Norway,1959,0.92721128
+Norway,1960,0.92721128
+Norway,1961,0.92721128
+Norway,1962,0.92721128
+Norway,1963,0.92721128
+Norway,1964,0.92721128
+Norway,1965,0.92721128
+Norway,1966,0.92721128
+Norway,1967,0.92721128
+Norway,1968,0.92721128
+Norway,1969,0.92721128
+Norway,1970,0.92721128
+Norway,1971,0.92721128
+Norway,1972,0.92721128
+Norway,1973,0.92721128
+Norway,1974,0.92721128
+Norway,1975,0.92721128
+Norway,1976,0.92721128
+Norway,1977,0.92721128
+Norway,1978,0.92721128
+Norway,1979,0.92721128
+Norway,1980,0.92721128
+Norway,1981,0.92721128
+Norway,1982,0.92721128
+Norway,1983,0.92721128
+Norway,1984,0.92721128
+Norway,1985,0.92721128
+Norway,1986,0.92721128
+Norway,1987,0.92721128
+Norway,1988,0.92721128
+Norway,1989,0.92721128
+Norway,1990,0.92721128
+Norway,1991,0.92721128
+Norway,1992,0.92721128
+Norway,1993,0.92721128
+Norway,1994,0.92721128
+Norway,1995,0.92721128
+Norway,1996,0.92721128
+Norway,1997,0.92721128
+Norway,1998,0.92721128
+Norway,1999,0.92721128
+Norway,2000,0.92721128
+Norway,2001,0.92721128
+Norway,2002,0.92721128
+Norway,2003,0.92721128
+Norway,2004,0.92721128
+Norway,2005,0.92721128
+Norway,2006,0.92721128
+Norway,2007,0.92721128
+Norway,2008,0.92721128
+Norway,2009,0.92721128
+Norway,2010,0.92721128
+Norway,2011,0.92721128
+Norway,2012,0.92721128
+Norway,2013,0.86660165
+Norway,2014,0.86660165
+Norway,2015,0.90906399
+Norway,2016,0.90906399
+Norway,2017,0.90906399
+Norway,2018,0.90906399
+Norway,2019,0.93549109
+Norway,2020,0.93549109
+Denmark,1789,0.37099084
+Denmark,1790,0.37099084
+Denmark,1791,0.37099084
+Denmark,1792,0.37099084
+Denmark,1793,0.37099084
+Denmark,1794,0.37099084
+Denmark,1795,0.37099084
+Denmark,1796,0.37099084
+Denmark,1797,0.37099084
+Denmark,1798,0.37099084
+Denmark,1799,0.37099084
+Denmark,1800,0.37099084
+Denmark,1801,0.37099084
+Denmark,1802,0.37099084
+Denmark,1803,0.37099084
+Denmark,1804,0.37099084
+Denmark,1805,0.37099084
+Denmark,1806,0.37099084
+Denmark,1807,0.37099084
+Denmark,1808,0.37099084
+Denmark,1809,0.50183517
+Denmark,1810,0.50183517
+Denmark,1811,0.50183517
+Denmark,1812,0.50183517
+Denmark,1813,0.50183517
+Denmark,1814,0.50183517
+Denmark,1815,0.50183517
+Denmark,1816,0.50183517
+Denmark,1817,0.50183517
+Denmark,1818,0.50183517
+Denmark,1819,0.50183517
+Denmark,1820,0.50183517
+Denmark,1821,0.50183517
+Denmark,1822,0.50183517
+Denmark,1823,0.50183517
+Denmark,1824,0.50183517
+Denmark,1825,0.50183517
+Denmark,1826,0.50183517
+Denmark,1827,0.50183517
+Denmark,1828,0.50183517
+Denmark,1829,0.50183517
+Denmark,1830,0.50183517
+Denmark,1831,0.50183517
+Denmark,1832,0.50183517
+Denmark,1833,0.50183517
+Denmark,1834,0.73288798
+Denmark,1835,0.73288798
+Denmark,1836,0.73288798
+Denmark,1837,0.73288798
+Denmark,1838,0.73288798
+Denmark,1839,0.73288798
+Denmark,1840,0.73288798
+Denmark,1841,0.73288798
+Denmark,1842,0.73288798
+Denmark,1843,0.73288798
+Denmark,1844,0.73288798
+Denmark,1845,0.73288798
+Denmark,1846,0.73288798
+Denmark,1847,0.73288798
+Denmark,1848,0.78427494
+Denmark,1849,0.78427494
+Denmark,1850,0.78427494
+Denmark,1851,0.78427494
+Denmark,1852,0.78427494
+Denmark,1853,0.78427494
+Denmark,1854,0.78427494
+Denmark,1855,0.78427494
+Denmark,1856,0.78427494
+Denmark,1857,0.78427494
+Denmark,1858,0.78427494
+Denmark,1859,0.78427494
+Denmark,1860,0.78427494
+Denmark,1861,0.78427494
+Denmark,1862,0.78427494
+Denmark,1863,0.78427494
+Denmark,1864,0.78427494
+Denmark,1865,0.78427494
+Denmark,1866,0.78427494
+Denmark,1867,0.78427494
+Denmark,1868,0.78427494
+Denmark,1869,0.78427494
+Denmark,1870,0.78427494
+Denmark,1871,0.73280978
+Denmark,1872,0.73280978
+Denmark,1873,0.80205524
+Denmark,1874,0.80205524
+Denmark,1875,0.80205524
+Denmark,1876,0.80205524
+Denmark,1877,0.80205524
+Denmark,1878,0.80205524
+Denmark,1879,0.80205524
+Denmark,1880,0.80205524
+Denmark,1881,0.80205524
+Denmark,1882,0.80205524
+Denmark,1883,0.80205524
+Denmark,1884,0.80205524
+Denmark,1885,0.80205524
+Denmark,1886,0.80205524
+Denmark,1887,0.80205524
+Denmark,1888,0.80205524
+Denmark,1889,0.80205524
+Denmark,1890,0.80205524
+Denmark,1891,0.80205524
+Denmark,1892,0.80205524
+Denmark,1893,0.80205524
+Denmark,1894,0.80205524
+Denmark,1895,0.80205524
+Denmark,1896,0.80205524
+Denmark,1897,0.80205524
+Denmark,1898,0.80205524
+Denmark,1899,0.80205524
+Denmark,1900,0.91117936
+Denmark,1901,0.91117936
+Denmark,1902,0.91117936
+Denmark,1903,0.91117936
+Denmark,1904,0.91117936
+Denmark,1905,0.91117936
+Denmark,1906,0.91117936
+Denmark,1907,0.91117936
+Denmark,1908,0.91117936
+Denmark,1909,0.91117936
+Denmark,1910,0.91117936
+Denmark,1911,0.91117936
+Denmark,1912,0.91117936
+Denmark,1913,0.91117936
+Denmark,1914,0.91117936
+Denmark,1915,0.91117936
+Denmark,1916,0.91117936
+Denmark,1917,0.91117936
+Denmark,1918,0.91117936
+Denmark,1919,0.91117936
+Denmark,1920,0.91117936
+Denmark,1921,0.90673065
+Denmark,1922,0.90673065
+Denmark,1923,0.90673065
+Denmark,1924,0.90673065
+Denmark,1925,0.90673065
+Denmark,1926,0.90673065
+Denmark,1927,0.90673065
+Denmark,1928,0.90673065
+Denmark,1929,0.90673065
+Denmark,1930,0.90673065
+Denmark,1931,0.90673065
+Denmark,1932,0.90673065
+Denmark,1933,0.90673065
+Denmark,1934,0.90673065
+Denmark,1935,0.90673065
+Denmark,1936,0.90673065
+Denmark,1937,0.90673065
+Denmark,1938,0.90673065
+Denmark,1939,0.90673065
+Denmark,1940,0.93289948
+Denmark,1941,0.93289948
+Denmark,1942,0.93289948
+Denmark,1943,0.88659263
+Denmark,1944,0.88659263
+Denmark,1945,0.88659263
+Denmark,1946,0.91587478
+Denmark,1947,0.91587478
+Denmark,1948,0.91587478
+Denmark,1949,0.91587478
+Denmark,1950,0.91587478
+Denmark,1951,0.91587478
+Denmark,1952,0.91587478
+Denmark,1953,0.91587478
+Denmark,1954,0.91587478
+Denmark,1955,0.91587478
+Denmark,1956,0.91587478
+Denmark,1957,0.91587478
+Denmark,1958,0.91587478
+Denmark,1959,0.91587478
+Denmark,1960,0.91587478
+Denmark,1961,0.91587478
+Denmark,1962,0.91587478
+Denmark,1963,0.91587478
+Denmark,1964,0.91587478
+Denmark,1965,0.91587478
+Denmark,1966,0.91587478
+Denmark,1967,0.91587478
+Denmark,1968,0.91587478
+Denmark,1969,0.91587478
+Denmark,1970,0.91587478
+Denmark,1971,0.91587478
+Denmark,1972,0.91587478
+Denmark,1973,0.91587478
+Denmark,1974,0.91587478
+Denmark,1975,0.91587478
+Denmark,1976,0.91587478
+Denmark,1977,0.91587478
+Denmark,1978,0.91587478
+Denmark,1979,0.91587478
+Denmark,1980,0.91587478
+Denmark,1981,0.91587478
+Denmark,1982,0.91587478
+Denmark,1983,0.91587478
+Denmark,1984,0.91587478
+Denmark,1985,0.91587478
+Denmark,1986,0.91587478
+Denmark,1987,0.91587478
+Denmark,1988,0.91587478
+Denmark,1989,0.91587478
+Denmark,1990,0.91587478
+Denmark,1991,0.91587478
+Denmark,1992,0.91587478
+Denmark,1993,0.91587478
+Denmark,1994,0.91587478
+Denmark,1995,0.91587478
+Denmark,1996,0.91587478
+Denmark,1997,0.91587478
+Denmark,1998,0.91587478
+Denmark,1999,0.91587478
+Denmark,2000,0.91587478
+Denmark,2001,0.91587478
+Denmark,2002,0.91587478
+Denmark,2003,0.91587478
+Denmark,2004,0.91587478
+Denmark,2005,0.93262285
+Denmark,2006,0.93262285
+Denmark,2007,0.93262285
+Denmark,2008,0.93262285
+Denmark,2009,0.93262285
+Denmark,2010,0.93262285
+Denmark,2011,0.93262285
+Denmark,2012,0.93262285
+Denmark,2013,0.94204366
+Denmark,2014,0.94204366
+Denmark,2015,0.94204366
+Denmark,2016,0.94204366
+Denmark,2017,0.94204366
+Denmark,2018,0.94204366
+Denmark,2019,0.94204366
+Denmark,2020,0.94204366
+Iceland,1900,0.92079449
+Iceland,1901,0.92079449
+Iceland,1902,0.92079449
+Iceland,1903,0.92079449
+Iceland,1904,0.92079449
+Iceland,1905,0.92079449
+Iceland,1906,0.92079449
+Iceland,1907,0.92079449
+Iceland,1908,0.92079449
+Iceland,1909,0.92079449
+Iceland,1910,0.92079449
+Iceland,1911,0.92079449
+Iceland,1912,0.92079449
+Iceland,1913,0.92079449
+Iceland,1914,0.92079449
+Iceland,1915,0.92079449
+Iceland,1916,0.92079449
+Iceland,1917,0.92079449
+Iceland,1918,0.92079449
+Iceland,1919,0.92079449
+Iceland,1920,0.92079449
+Iceland,1921,0.92079449
+Iceland,1922,0.92079449
+Iceland,1923,0.92079449
+Iceland,1924,0.92079449
+Iceland,1925,0.92079449
+Iceland,1926,0.92079449
+Iceland,1927,0.92079449
+Iceland,1928,0.92079449
+Iceland,1929,0.92079449
+Iceland,1930,0.92079449
+Iceland,1931,0.92079449
+Iceland,1932,0.92079449
+Iceland,1933,0.92079449
+Iceland,1934,0.92079449
+Iceland,1935,0.92079449
+Iceland,1936,0.92079449
+Iceland,1937,0.92079449
+Iceland,1938,0.92079449
+Iceland,1939,0.92079449
+Iceland,1940,0.92079449
+Iceland,1941,0.92079449
+Iceland,1942,0.92079449
+Iceland,1943,0.92079449
+Iceland,1944,0.92079449
+Iceland,1945,0.92079449
+Iceland,1946,0.92079449
+Iceland,1947,0.92079449
+Iceland,1948,0.92079449
+Iceland,1949,0.92079449
+Iceland,1950,0.92079449
+Iceland,1951,0.92079449
+Iceland,1952,0.92079449
+Iceland,1953,0.92079449
+Iceland,1954,0.92079449
+Iceland,1955,0.92079449
+Iceland,1956,0.92079449
+Iceland,1957,0.92079449
+Iceland,1958,0.92079449
+Iceland,1959,0.92079449
+Iceland,1960,0.92079449
+Iceland,1961,0.92079449
+Iceland,1962,0.92079449
+Iceland,1963,0.92079449
+Iceland,1964,0.92079449
+Iceland,1965,0.92079449
+Iceland,1966,0.92079449
+Iceland,1967,0.92079449
+Iceland,1968,0.92079449
+Iceland,1969,0.92079449
+Iceland,1970,0.92079449
+Iceland,1971,0.92079449
+Iceland,1972,0.92079449
+Iceland,1973,0.92079449
+Iceland,1974,0.92079449
+Iceland,1975,0.92079449
+Iceland,1976,0.92079449
+Iceland,1977,0.92079449
+Iceland,1978,0.92079449
+Iceland,1979,0.92079449
+Iceland,1980,0.92079449
+Iceland,1981,0.92079449
+Iceland,1982,0.92079449
+Iceland,1983,0.92079449
+Iceland,1984,0.92079449
+Iceland,1985,0.92079449
+Iceland,1986,0.92079449
+Iceland,1987,0.92079449
+Iceland,1988,0.92079449
+Iceland,1989,0.92079449
+Iceland,1990,0.92079449
+Iceland,1991,0.92079449
+Iceland,1992,0.92079449
+Iceland,1993,0.92079449
+Iceland,1994,0.92079449
+Iceland,1995,0.92079449
+Iceland,1996,0.92079449
+Iceland,1997,0.92079449
+Iceland,1998,0.92079449
+Iceland,1999,0.92079449
+Iceland,2000,0.92079449
+Iceland,2001,0.92079449
+Iceland,2002,0.92079449
+Iceland,2003,0.92079449
+Iceland,2004,0.92079449
+Iceland,2005,0.90771008
+Iceland,2006,0.90771008
+Iceland,2007,0.90771008
+Iceland,2008,0.90771008
+Iceland,2009,0.90771008
+Iceland,2010,0.90771008
+Iceland,2011,0.90771008
+Iceland,2012,0.90771008
+Iceland,2013,0.89907432
+Iceland,2014,0.89907432
+Iceland,2015,0.89907432
+Iceland,2016,0.89907432
+Iceland,2017,0.86854535
+Iceland,2018,0.89969313
+Iceland,2019,0.8425194
+Iceland,2020,0.83152848
+Cape Verde,1900,0.42275661
+Cape Verde,1901,0.42275661
+Cape Verde,1902,0.42275661
+Cape Verde,1903,0.42275661
+Cape Verde,1904,0.42275661
+Cape Verde,1905,0.42275661
+Cape Verde,1906,0.42275661
+Cape Verde,1907,0.42275661
+Cape Verde,1908,0.42275661
+Cape Verde,1909,0.42275661
+Cape Verde,1910,0.42275661
+Cape Verde,1911,0.42275661
+Cape Verde,1912,0.45546767
+Cape Verde,1913,0.42275661
+Cape Verde,1914,0.42275661
+Cape Verde,1915,0.42275661
+Cape Verde,1916,0.42275661
+Cape Verde,1917,0.42275661
+Cape Verde,1918,0.42275661
+Cape Verde,1919,0.42275661
+Cape Verde,1920,0.42275661
+Cape Verde,1921,0.42275661
+Cape Verde,1922,0.42275661
+Cape Verde,1923,0.42275661
+Cape Verde,1924,0.42275661
+Cape Verde,1925,0.42275661
+Cape Verde,1926,0.42275661
+Cape Verde,1927,0.42275661
+Cape Verde,1928,0.42275661
+Cape Verde,1929,0.42275661
+Cape Verde,1930,0.42275661
+Cape Verde,1931,0.42275661
+Cape Verde,1932,0.42275661
+Cape Verde,1933,0.42275661
+Cape Verde,1934,0.42275661
+Cape Verde,1935,0.42275661
+Cape Verde,1936,0.42275661
+Cape Verde,1937,0.42275661
+Cape Verde,1938,0.42275661
+Cape Verde,1939,0.42275661
+Cape Verde,1940,0.42275661
+Cape Verde,1941,0.42275661
+Cape Verde,1942,0.42275661
+Cape Verde,1943,0.42275661
+Cape Verde,1944,0.42275661
+Cape Verde,1945,0.42275661
+Cape Verde,1946,0.42275661
+Cape Verde,1947,0.42275661
+Cape Verde,1948,0.42275661
+Cape Verde,1949,0.42275661
+Cape Verde,1950,0.42822748
+Cape Verde,1951,0.42822748
+Cape Verde,1952,0.42822748
+Cape Verde,1953,0.42822748
+Cape Verde,1954,0.42822748
+Cape Verde,1955,0.42822748
+Cape Verde,1956,0.42822748
+Cape Verde,1957,0.42822748
+Cape Verde,1958,0.42822748
+Cape Verde,1959,0.42822748
+Cape Verde,1960,0.42822748
+Cape Verde,1961,0.42822748
+Cape Verde,1962,0.42822748
+Cape Verde,1963,0.42822748
+Cape Verde,1964,0.42822748
+Cape Verde,1965,0.42822748
+Cape Verde,1966,0.42822748
+Cape Verde,1967,0.42822748
+Cape Verde,1968,0.42822748
+Cape Verde,1969,0.42822748
+Cape Verde,1970,0.42822748
+Cape Verde,1971,0.42822748
+Cape Verde,1972,0.44850871
+Cape Verde,1973,0.44850871
+Cape Verde,1974,0.49066526
+Cape Verde,1975,0.2956365
+Cape Verde,1976,0.2956365
+Cape Verde,1977,0.2956365
+Cape Verde,1978,0.2956365
+Cape Verde,1979,0.2956365
+Cape Verde,1980,0.2956365
+Cape Verde,1981,0.2956365
+Cape Verde,1982,0.2956365
+Cape Verde,1983,0.2956365
+Cape Verde,1984,0.2956365
+Cape Verde,1985,0.2956365
+Cape Verde,1986,0.2956365
+Cape Verde,1987,0.2956365
+Cape Verde,1988,0.2956365
+Cape Verde,1989,0.2956365
+Cape Verde,1990,0.31791615
+Cape Verde,1991,0.77961421
+Cape Verde,1992,0.83196217
+Cape Verde,1993,0.83196217
+Cape Verde,1994,0.83196217
+Cape Verde,1995,0.86018306
+Cape Verde,1996,0.86018306
+Cape Verde,1997,0.86018306
+Cape Verde,1998,0.86018306
+Cape Verde,1999,0.86018306
+Cape Verde,2000,0.86018306
+Cape Verde,2001,0.86018306
+Cape Verde,2002,0.86018306
+Cape Verde,2003,0.86018306
+Cape Verde,2004,0.86018306
+Cape Verde,2005,0.87169737
+Cape Verde,2006,0.87169737
+Cape Verde,2007,0.87169737
+Cape Verde,2008,0.87169737
+Cape Verde,2009,0.87169737
+Cape Verde,2010,0.87326747
+Cape Verde,2011,0.8895185
+Cape Verde,2012,0.8895185
+Cape Verde,2013,0.88794839
+Cape Verde,2014,0.90260291
+Cape Verde,2015,0.88637823
+Cape Verde,2016,0.88637823
+Cape Verde,2017,0.88637823
+Cape Verde,2018,0.85604358
+Cape Verde,2019,0.86862499
+Cape Verde,2020,0.8815065
+Sao Tome and Principe,1900,0.33586994
+Sao Tome and Principe,1901,0.33586994
+Sao Tome and Principe,1902,0.33586994
+Sao Tome and Principe,1903,0.33586994
+Sao Tome and Principe,1904,0.33586994
+Sao Tome and Principe,1905,0.33586994
+Sao Tome and Principe,1906,0.33586994
+Sao Tome and Principe,1907,0.33586994
+Sao Tome and Principe,1908,0.33586994
+Sao Tome and Principe,1909,0.34686089
+Sao Tome and Principe,1910,0.34686089
+Sao Tome and Principe,1911,0.34686089
+Sao Tome and Principe,1912,0.34686089
+Sao Tome and Principe,1913,0.34686089
+Sao Tome and Principe,1914,0.34686089
+Sao Tome and Principe,1915,0.34686089
+Sao Tome and Principe,1916,0.34686089
+Sao Tome and Principe,1917,0.34686089
+Sao Tome and Principe,1918,0.34686089
+Sao Tome and Principe,1919,0.34686089
+Sao Tome and Principe,1920,0.34686089
+Sao Tome and Principe,1921,0.34686089
+Sao Tome and Principe,1922,0.34686089
+Sao Tome and Principe,1923,0.34686089
+Sao Tome and Principe,1924,0.34686089
+Sao Tome and Principe,1925,0.34686089
+Sao Tome and Principe,1926,0.34686089
+Sao Tome and Principe,1927,0.34686089
+Sao Tome and Principe,1928,0.34686089
+Sao Tome and Principe,1929,0.34686089
+Sao Tome and Principe,1930,0.34686089
+Sao Tome and Principe,1931,0.34686089
+Sao Tome and Principe,1932,0.34686089
+Sao Tome and Principe,1933,0.34686089
+Sao Tome and Principe,1934,0.34686089
+Sao Tome and Principe,1935,0.34686089
+Sao Tome and Principe,1936,0.34686089
+Sao Tome and Principe,1937,0.34686089
+Sao Tome and Principe,1938,0.34686089
+Sao Tome and Principe,1939,0.34686089
+Sao Tome and Principe,1940,0.34686089
+Sao Tome and Principe,1941,0.34686089
+Sao Tome and Principe,1942,0.34686089
+Sao Tome and Principe,1943,0.34686089
+Sao Tome and Principe,1944,0.34686089
+Sao Tome and Principe,1945,0.34686089
+Sao Tome and Principe,1946,0.34686089
+Sao Tome and Principe,1947,0.34686089
+Sao Tome and Principe,1948,0.34686089
+Sao Tome and Principe,1949,0.34686089
+Sao Tome and Principe,1950,0.34686089
+Sao Tome and Principe,1951,0.34686089
+Sao Tome and Principe,1952,0.34686089
+Sao Tome and Principe,1953,0.34686089
+Sao Tome and Principe,1954,0.34686089
+Sao Tome and Principe,1955,0.34686089
+Sao Tome and Principe,1956,0.34686089
+Sao Tome and Principe,1957,0.34686089
+Sao Tome and Principe,1958,0.34686089
+Sao Tome and Principe,1959,0.34686089
+Sao Tome and Principe,1960,0.34686089
+Sao Tome and Principe,1961,0.34686089
+Sao Tome and Principe,1962,0.34686089
+Sao Tome and Principe,1963,0.34686089
+Sao Tome and Principe,1964,0.34686089
+Sao Tome and Principe,1965,0.34686089
+Sao Tome and Principe,1966,0.34686089
+Sao Tome and Principe,1967,0.34686089
+Sao Tome and Principe,1968,0.34686089
+Sao Tome and Principe,1969,0.34686089
+Sao Tome and Principe,1970,0.34686089
+Sao Tome and Principe,1971,0.34686089
+Sao Tome and Principe,1972,0.34686089
+Sao Tome and Principe,1973,0.34686089
+Sao Tome and Principe,1974,0.34686089
+Sao Tome and Principe,1975,0.53061587
+Sao Tome and Principe,1976,0.54882598
+Sao Tome and Principe,1977,0.54882598
+Sao Tome and Principe,1978,0.54882598
+Sao Tome and Principe,1979,0.54882598
+Sao Tome and Principe,1980,0.41798168
+Sao Tome and Principe,1981,0.41798168
+Sao Tome and Principe,1982,0.41798168
+Sao Tome and Principe,1983,0.41798168
+Sao Tome and Principe,1984,0.41798168
+Sao Tome and Principe,1985,0.41798168
+Sao Tome and Principe,1986,0.41798168
+Sao Tome and Principe,1987,0.41798168
+Sao Tome and Principe,1988,0.54882598
+Sao Tome and Principe,1989,0.54882598
+Sao Tome and Principe,1990,0.55403787
+Sao Tome and Principe,1991,0.73459214
+Sao Tome and Principe,1992,0.7769984
+Sao Tome and Principe,1993,0.7769984
+Sao Tome and Principe,1994,0.7769984
+Sao Tome and Principe,1995,0.7769984
+Sao Tome and Principe,1996,0.7769984
+Sao Tome and Principe,1997,0.7769984
+Sao Tome and Principe,1998,0.7769984
+Sao Tome and Principe,1999,0.7769984
+Sao Tome and Principe,2000,0.7769984
+Sao Tome and Principe,2001,0.7769984
+Sao Tome and Principe,2002,0.7769984
+Sao Tome and Principe,2003,0.7769984
+Sao Tome and Principe,2004,0.7769984
+Sao Tome and Principe,2005,0.77228802
+Sao Tome and Principe,2006,0.77228802
+Sao Tome and Principe,2007,0.77228802
+Sao Tome and Principe,2008,0.77228802
+Sao Tome and Principe,2009,0.77228802
+Sao Tome and Principe,2010,0.78465199
+Sao Tome and Principe,2011,0.78465199
+Sao Tome and Principe,2012,0.78465199
+Sao Tome and Principe,2013,0.78465199
+Sao Tome and Principe,2014,0.78465199
+Sao Tome and Principe,2015,0.78465199
+Sao Tome and Principe,2016,0.77783704
+Sao Tome and Principe,2017,0.77403635
+Sao Tome and Principe,2018,0.78347248
+Sao Tome and Principe,2019,0.77719194
+Sao Tome and Principe,2020,0.77719194
+Guinea-Bissau,1900,0.35038942
+Guinea-Bissau,1901,0.35038942
+Guinea-Bissau,1902,0.35038942
+Guinea-Bissau,1903,0.35038942
+Guinea-Bissau,1904,0.35038942
+Guinea-Bissau,1905,0.35038942
+Guinea-Bissau,1906,0.35038942
+Guinea-Bissau,1907,0.35038942
+Guinea-Bissau,1908,0.35038942
+Guinea-Bissau,1909,0.35038942
+Guinea-Bissau,1910,0.43179169
+Guinea-Bissau,1911,0.43179169
+Guinea-Bissau,1912,0.43179169
+Guinea-Bissau,1913,0.43179169
+Guinea-Bissau,1914,0.43179169
+Guinea-Bissau,1915,0.43179169
+Guinea-Bissau,1916,0.43179169
+Guinea-Bissau,1917,0.43179169
+Guinea-Bissau,1918,0.43179169
+Guinea-Bissau,1919,0.43179169
+Guinea-Bissau,1920,0.4241325
+Guinea-Bissau,1921,0.4241325
+Guinea-Bissau,1922,0.4241325
+Guinea-Bissau,1923,0.4241325
+Guinea-Bissau,1924,0.4241325
+Guinea-Bissau,1925,0.4241325
+Guinea-Bissau,1926,0.31996557
+Guinea-Bissau,1927,0.31996557
+Guinea-Bissau,1928,0.31996557
+Guinea-Bissau,1929,0.31996557
+Guinea-Bissau,1930,0.31996557
+Guinea-Bissau,1931,0.31996557
+Guinea-Bissau,1932,0.31996557
+Guinea-Bissau,1933,0.31996557
+Guinea-Bissau,1934,0.31996557
+Guinea-Bissau,1935,0.31996557
+Guinea-Bissau,1936,0.31996557
+Guinea-Bissau,1937,0.31996557
+Guinea-Bissau,1938,0.31996557
+Guinea-Bissau,1939,0.31996557
+Guinea-Bissau,1940,0.31996557
+Guinea-Bissau,1941,0.31996557
+Guinea-Bissau,1942,0.31996557
+Guinea-Bissau,1943,0.31996557
+Guinea-Bissau,1944,0.31996557
+Guinea-Bissau,1945,0.31996557
+Guinea-Bissau,1946,0.31996557
+Guinea-Bissau,1947,0.31996557
+Guinea-Bissau,1948,0.31996557
+Guinea-Bissau,1949,0.31996557
+Guinea-Bissau,1950,0.31996557
+Guinea-Bissau,1951,0.31996557
+Guinea-Bissau,1952,0.31996557
+Guinea-Bissau,1953,0.31996557
+Guinea-Bissau,1954,0.31996557
+Guinea-Bissau,1955,0.31996557
+Guinea-Bissau,1956,0.39798671
+Guinea-Bissau,1957,0.39798671
+Guinea-Bissau,1958,0.39798671
+Guinea-Bissau,1959,0.39798671
+Guinea-Bissau,1960,0.39798671
+Guinea-Bissau,1961,0.39798671
+Guinea-Bissau,1962,0.39798671
+Guinea-Bissau,1963,0.39798671
+Guinea-Bissau,1964,0.39798671
+Guinea-Bissau,1965,0.39798671
+Guinea-Bissau,1966,0.39798671
+Guinea-Bissau,1967,0.39798671
+Guinea-Bissau,1968,0.39798671
+Guinea-Bissau,1969,0.39798671
+Guinea-Bissau,1970,0.39798671
+Guinea-Bissau,1971,0.39798671
+Guinea-Bissau,1972,0.39798671
+Guinea-Bissau,1973,0.27453619
+Guinea-Bissau,1974,0.35675916
+Guinea-Bissau,1975,0.35675916
+Guinea-Bissau,1976,0.35675916
+Guinea-Bissau,1977,0.35675916
+Guinea-Bissau,1978,0.35675916
+Guinea-Bissau,1979,0.35675916
+Guinea-Bissau,1980,0.20316315
+Guinea-Bissau,1981,0.20316315
+Guinea-Bissau,1982,0.20316315
+Guinea-Bissau,1983,0.20316315
+Guinea-Bissau,1984,0.20316315
+Guinea-Bissau,1985,0.20316315
+Guinea-Bissau,1986,0.20316315
+Guinea-Bissau,1987,0.20316315
+Guinea-Bissau,1988,0.20316315
+Guinea-Bissau,1989,0.20316315
+Guinea-Bissau,1990,0.20316315
+Guinea-Bissau,1991,0.2751275
+Guinea-Bissau,1992,0.35542098
+Guinea-Bissau,1993,0.42738536
+Guinea-Bissau,1994,0.60575414
+Guinea-Bissau,1995,0.67551768
+Guinea-Bissau,1996,0.67551768
+Guinea-Bissau,1997,0.67551768
+Guinea-Bissau,1998,0.64847636
+Guinea-Bissau,1999,0.64847636
+Guinea-Bissau,2000,0.66791642
+Guinea-Bissau,2001,0.66791642
+Guinea-Bissau,2002,0.66791642
+Guinea-Bissau,2003,0.51776308
+Guinea-Bissau,2004,0.66822219
+Guinea-Bissau,2005,0.66983855
+Guinea-Bissau,2006,0.66983855
+Guinea-Bissau,2007,0.66983855
+Guinea-Bissau,2008,0.66983855
+Guinea-Bissau,2009,0.66983855
+Guinea-Bissau,2010,0.65647078
+Guinea-Bissau,2011,0.65647078
+Guinea-Bissau,2012,0.64338636
+Guinea-Bissau,2013,0.69226521
+Guinea-Bissau,2014,0.71076411
+Guinea-Bissau,2015,0.70691979
+Guinea-Bissau,2016,0.70691979
+Guinea-Bissau,2017,0.71762615
+Guinea-Bissau,2018,0.71762615
+Guinea-Bissau,2019,0.83377665
+Guinea-Bissau,2020,0.83377665
+Equatorial Guinea,1900,0.34982839
+Equatorial Guinea,1901,0.34982839
+Equatorial Guinea,1902,0.34982839
+Equatorial Guinea,1903,0.34982839
+Equatorial Guinea,1904,0.34982839
+Equatorial Guinea,1905,0.34982839
+Equatorial Guinea,1906,0.34982839
+Equatorial Guinea,1907,0.34982839
+Equatorial Guinea,1908,0.34982839
+Equatorial Guinea,1909,0.34982839
+Equatorial Guinea,1910,0.34982839
+Equatorial Guinea,1911,0.34982839
+Equatorial Guinea,1912,0.34982839
+Equatorial Guinea,1913,0.34982839
+Equatorial Guinea,1914,0.34982839
+Equatorial Guinea,1915,0.34982839
+Equatorial Guinea,1916,0.34982839
+Equatorial Guinea,1917,0.34982839
+Equatorial Guinea,1918,0.34982839
+Equatorial Guinea,1919,0.34982839
+Equatorial Guinea,1920,0.34982839
+Equatorial Guinea,1921,0.34982839
+Equatorial Guinea,1922,0.34982839
+Equatorial Guinea,1923,0.34982839
+Equatorial Guinea,1924,0.34982839
+Equatorial Guinea,1925,0.34982839
+Equatorial Guinea,1926,0.34982839
+Equatorial Guinea,1927,0.34982839
+Equatorial Guinea,1928,0.34982839
+Equatorial Guinea,1929,0.34982839
+Equatorial Guinea,1930,0.34982839
+Equatorial Guinea,1931,0.34982839
+Equatorial Guinea,1932,0.34982839
+Equatorial Guinea,1933,0.34982839
+Equatorial Guinea,1934,0.34982839
+Equatorial Guinea,1935,0.34982839
+Equatorial Guinea,1936,0.34982839
+Equatorial Guinea,1937,0.34982839
+Equatorial Guinea,1938,0.34982839
+Equatorial Guinea,1939,0.34982839
+Equatorial Guinea,1940,0.34982839
+Equatorial Guinea,1941,0.34982839
+Equatorial Guinea,1942,0.34982839
+Equatorial Guinea,1943,0.34982839
+Equatorial Guinea,1944,0.34982839
+Equatorial Guinea,1945,0.34982839
+Equatorial Guinea,1946,0.34982839
+Equatorial Guinea,1947,0.34982839
+Equatorial Guinea,1948,0.34982839
+Equatorial Guinea,1949,0.34982839
+Equatorial Guinea,1950,0.34982839
+Equatorial Guinea,1951,0.34982839
+Equatorial Guinea,1952,0.34982839
+Equatorial Guinea,1953,0.34982839
+Equatorial Guinea,1954,0.34982839
+Equatorial Guinea,1955,0.34982839
+Equatorial Guinea,1956,0.34982839
+Equatorial Guinea,1957,0.34982839
+Equatorial Guinea,1958,0.34982839
+Equatorial Guinea,1959,0.41930094
+Equatorial Guinea,1960,0.41930094
+Equatorial Guinea,1961,0.41930094
+Equatorial Guinea,1962,0.41930094
+Equatorial Guinea,1963,0.41930094
+Equatorial Guinea,1964,0.434304
+Equatorial Guinea,1965,0.434304
+Equatorial Guinea,1966,0.434304
+Equatorial Guinea,1967,0.434304
+Equatorial Guinea,1968,0.49180335
+Equatorial Guinea,1969,0.18757847
+Equatorial Guinea,1970,0.25300062
+Equatorial Guinea,1971,0.25300062
+Equatorial Guinea,1972,0.25300062
+Equatorial Guinea,1973,0.25300062
+Equatorial Guinea,1974,0.25300062
+Equatorial Guinea,1975,0.25300062
+Equatorial Guinea,1976,0.25300062
+Equatorial Guinea,1977,0.25300062
+Equatorial Guinea,1978,0.25300062
+Equatorial Guinea,1979,0.12215634
+Equatorial Guinea,1980,0.23580551
+Equatorial Guinea,1981,0.23580551
+Equatorial Guinea,1982,0.36664981
+Equatorial Guinea,1983,0.36664981
+Equatorial Guinea,1984,0.36664981
+Equatorial Guinea,1985,0.36664981
+Equatorial Guinea,1986,0.36664981
+Equatorial Guinea,1987,0.36664981
+Equatorial Guinea,1988,0.36664981
+Equatorial Guinea,1989,0.36664981
+Equatorial Guinea,1990,0.36664981
+Equatorial Guinea,1991,0.36664981
+Equatorial Guinea,1992,0.36664981
+Equatorial Guinea,1993,0.42921293
+Equatorial Guinea,1994,0.45641717
+Equatorial Guinea,1995,0.45641717
+Equatorial Guinea,1996,0.45641717
+Equatorial Guinea,1997,0.45641717
+Equatorial Guinea,1998,0.45641717
+Equatorial Guinea,1999,0.45641717
+Equatorial Guinea,2000,0.45684704
+Equatorial Guinea,2001,0.45684704
+Equatorial Guinea,2002,0.45684704
+Equatorial Guinea,2003,0.45684704
+Equatorial Guinea,2004,0.45684704
+Equatorial Guinea,2005,0.46626782
+Equatorial Guinea,2006,0.46626782
+Equatorial Guinea,2007,0.46626782
+Equatorial Guinea,2008,0.46626782
+Equatorial Guinea,2009,0.47138697
+Equatorial Guinea,2010,0.47138697
+Equatorial Guinea,2011,0.47138697
+Equatorial Guinea,2012,0.47138697
+Equatorial Guinea,2013,0.47138697
+Equatorial Guinea,2014,0.47138697
+Equatorial Guinea,2015,0.47138697
+Equatorial Guinea,2016,0.47138697
+Equatorial Guinea,2017,0.47138697
+Equatorial Guinea,2018,0.47305766
+Equatorial Guinea,2019,0.47305766
+Equatorial Guinea,2020,0.47477707
+The Gambia,1900,0.50500309
+The Gambia,1901,0.50500309
+The Gambia,1902,0.50500309
+The Gambia,1903,0.50500309
+The Gambia,1904,0.50500309
+The Gambia,1905,0.50500309
+The Gambia,1906,0.50500309
+The Gambia,1907,0.50500309
+The Gambia,1908,0.50500309
+The Gambia,1909,0.50500309
+The Gambia,1910,0.50500309
+The Gambia,1911,0.50500309
+The Gambia,1912,0.50500309
+The Gambia,1913,0.50500309
+The Gambia,1914,0.50500309
+The Gambia,1915,0.50500309
+The Gambia,1916,0.50500309
+The Gambia,1917,0.50500309
+The Gambia,1918,0.50500309
+The Gambia,1919,0.50500309
+The Gambia,1920,0.50500309
+The Gambia,1921,0.50500309
+The Gambia,1922,0.50500309
+The Gambia,1923,0.50500309
+The Gambia,1924,0.50500309
+The Gambia,1925,0.50500309
+The Gambia,1926,0.50500309
+The Gambia,1927,0.50500309
+The Gambia,1928,0.50500309
+The Gambia,1929,0.50500309
+The Gambia,1930,0.50500309
+The Gambia,1931,0.50500309
+The Gambia,1932,0.50500309
+The Gambia,1933,0.50500309
+The Gambia,1934,0.50500309
+The Gambia,1935,0.50500309
+The Gambia,1936,0.50500309
+The Gambia,1937,0.50500309
+The Gambia,1938,0.50500309
+The Gambia,1939,0.50500309
+The Gambia,1940,0.50500309
+The Gambia,1941,0.50500309
+The Gambia,1942,0.50500309
+The Gambia,1943,0.50500309
+The Gambia,1944,0.50500309
+The Gambia,1945,0.50500309
+The Gambia,1946,0.69034219
+The Gambia,1947,0.69034219
+The Gambia,1948,0.69034219
+The Gambia,1949,0.69034219
+The Gambia,1950,0.69034219
+The Gambia,1951,0.69034219
+The Gambia,1952,0.69034219
+The Gambia,1953,0.69034219
+The Gambia,1954,0.69034219
+The Gambia,1955,0.69034219
+The Gambia,1956,0.69034219
+The Gambia,1957,0.69034219
+The Gambia,1958,0.69034219
+The Gambia,1959,0.69034219
+The Gambia,1960,0.71135491
+The Gambia,1961,0.71135491
+The Gambia,1962,0.67864388
+The Gambia,1963,0.67864388
+The Gambia,1964,0.67864388
+The Gambia,1965,0.73085809
+The Gambia,1966,0.75251609
+The Gambia,1967,0.75251609
+The Gambia,1968,0.75251609
+The Gambia,1969,0.75251609
+The Gambia,1970,0.79828429
+The Gambia,1971,0.7404511
+The Gambia,1972,0.7404511
+The Gambia,1973,0.7404511
+The Gambia,1974,0.7404511
+The Gambia,1975,0.7404511
+The Gambia,1976,0.7404511
+The Gambia,1977,0.7404511
+The Gambia,1978,0.7404511
+The Gambia,1979,0.7404511
+The Gambia,1980,0.7404511
+The Gambia,1981,0.7404511
+The Gambia,1982,0.7404511
+The Gambia,1983,0.7404511
+The Gambia,1984,0.70774001
+The Gambia,1985,0.70774001
+The Gambia,1986,0.70774001
+The Gambia,1987,0.70774001
+The Gambia,1988,0.70774001
+The Gambia,1989,0.70774001
+The Gambia,1990,0.70774001
+The Gambia,1991,0.70774001
+The Gambia,1992,0.70774001
+The Gambia,1993,0.63935435
+The Gambia,1994,0.37344033
+The Gambia,1995,0.20492855
+The Gambia,1996,0.4613722
+The Gambia,1997,0.59725147
+The Gambia,1998,0.61393762
+The Gambia,1999,0.61393762
+The Gambia,2000,0.61393762
+The Gambia,2001,0.60465419
+The Gambia,2002,0.57981783
+The Gambia,2003,0.57981783
+The Gambia,2004,0.57981783
+The Gambia,2005,0.62194967
+The Gambia,2006,0.62194967
+The Gambia,2007,0.62194967
+The Gambia,2008,0.62194967
+The Gambia,2009,0.62194967
+The Gambia,2010,0.62194967
+The Gambia,2011,0.62194967
+The Gambia,2012,0.61862373
+The Gambia,2013,0.62878251
+The Gambia,2014,0.62983096
+The Gambia,2015,0.62983096
+The Gambia,2016,0.63315105
+The Gambia,2017,0.80836403
+The Gambia,2018,0.82935733
+The Gambia,2019,0.78410006
+The Gambia,2020,0.71484268
+Mali,1900,0.44773468
+Mali,1901,0.44773468
+Mali,1902,0.44773468
+Mali,1903,0.44773468
+Mali,1904,0.44773468
+Mali,1905,0.44773468
+Mali,1906,0.44773468
+Mali,1907,0.44773468
+Mali,1908,0.44773468
+Mali,1909,0.44773468
+Mali,1910,0.44773468
+Mali,1911,0.44773468
+Mali,1912,0.44773468
+Mali,1913,0.44773468
+Mali,1914,0.44773468
+Mali,1915,0.44773468
+Mali,1916,0.44773468
+Mali,1917,0.44773468
+Mali,1918,0.44773468
+Mali,1919,0.44773468
+Mali,1920,0.44773468
+Mali,1921,0.44773468
+Mali,1922,0.44773468
+Mali,1923,0.44773468
+Mali,1924,0.44773468
+Mali,1925,0.44773468
+Mali,1926,0.44773468
+Mali,1927,0.44773468
+Mali,1928,0.44773468
+Mali,1929,0.44773468
+Mali,1930,0.44773468
+Mali,1931,0.44773468
+Mali,1932,0.44773468
+Mali,1933,0.44773468
+Mali,1934,0.44773468
+Mali,1935,0.44773468
+Mali,1936,0.44773468
+Mali,1937,0.44773468
+Mali,1938,0.44773468
+Mali,1939,0.44773468
+Mali,1940,0.44773468
+Mali,1941,0.44773468
+Mali,1942,0.44773468
+Mali,1943,0.44773468
+Mali,1944,0.46008319
+Mali,1945,0.47192368
+Mali,1946,0.50838304
+Mali,1947,0.51850557
+Mali,1948,0.48775095
+Mali,1949,0.51868033
+Mali,1950,0.51868033
+Mali,1951,0.51868033
+Mali,1952,0.51868033
+Mali,1953,0.51868033
+Mali,1954,0.51868033
+Mali,1955,0.51868033
+Mali,1956,0.51868033
+Mali,1957,0.51868033
+Mali,1958,0.51868033
+Mali,1959,0.53298271
+Mali,1960,0.41455099
+Mali,1961,0.41455099
+Mali,1962,0.41455099
+Mali,1963,0.41455099
+Mali,1964,0.41455099
+Mali,1965,0.41455099
+Mali,1966,0.41455099
+Mali,1967,0.42349976
+Mali,1968,0.22623675
+Mali,1969,0.1151797
+Mali,1970,0.1151797
+Mali,1971,0.1151797
+Mali,1972,0.1151797
+Mali,1973,0.1151797
+Mali,1974,0.1151797
+Mali,1975,0.14280753
+Mali,1976,0.14280753
+Mali,1977,0.14280753
+Mali,1978,0.14280753
+Mali,1979,0.16199462
+Mali,1980,0.2928389
+Mali,1981,0.2928389
+Mali,1982,0.2928389
+Mali,1983,0.2928389
+Mali,1984,0.2928389
+Mali,1985,0.2928389
+Mali,1986,0.2928389
+Mali,1987,0.2928389
+Mali,1988,0.2928389
+Mali,1989,0.2928389
+Mali,1990,0.2928389
+Mali,1991,0.31816202
+Mali,1992,0.6742714
+Mali,1993,0.6742714
+Mali,1994,0.6742714
+Mali,1995,0.6742714
+Mali,1996,0.6742714
+Mali,1997,0.74775046
+Mali,1998,0.74775046
+Mali,1999,0.74775046
+Mali,2000,0.74775046
+Mali,2001,0.74775046
+Mali,2002,0.75574625
+Mali,2003,0.75574625
+Mali,2004,0.75574625
+Mali,2005,0.73533452
+Mali,2006,0.73533452
+Mali,2007,0.73533452
+Mali,2008,0.73533452
+Mali,2009,0.73533452
+Mali,2010,0.73533452
+Mali,2011,0.73533452
+Mali,2012,0.72378123
+Mali,2013,0.77367568
+Mali,2014,0.76477826
+Mali,2015,0.76477826
+Mali,2016,0.76477826
+Mali,2017,0.75546259
+Mali,2018,0.7423535
+Mali,2019,0.73991501
+Mali,2020,0.5894441
+Senegal,1904,0.59532064
+Senegal,1905,0.59532064
+Senegal,1906,0.59532064
+Senegal,1907,0.59532064
+Senegal,1908,0.59532064
+Senegal,1909,0.59532064
+Senegal,1910,0.59532064
+Senegal,1911,0.59532064
+Senegal,1912,0.59532064
+Senegal,1913,0.59532064
+Senegal,1914,0.59532064
+Senegal,1915,0.59532064
+Senegal,1916,0.59532064
+Senegal,1917,0.59532064
+Senegal,1918,0.59532064
+Senegal,1919,0.59532064
+Senegal,1920,0.59532064
+Senegal,1921,0.59532064
+Senegal,1922,0.59532064
+Senegal,1923,0.59532064
+Senegal,1924,0.59532064
+Senegal,1925,0.59532064
+Senegal,1926,0.59532064
+Senegal,1927,0.59532064
+Senegal,1928,0.59532064
+Senegal,1929,0.59532064
+Senegal,1930,0.59532064
+Senegal,1931,0.59532064
+Senegal,1932,0.59532064
+Senegal,1933,0.59532064
+Senegal,1934,0.59532064
+Senegal,1935,0.59532064
+Senegal,1936,0.59532064
+Senegal,1937,0.59532064
+Senegal,1938,0.59532064
+Senegal,1939,0.59532064
+Senegal,1940,0.59532064
+Senegal,1941,0.59532064
+Senegal,1942,0.59532064
+Senegal,1943,0.59532064
+Senegal,1944,0.59532064
+Senegal,1945,0.72865862
+Senegal,1946,0.72865862
+Senegal,1947,0.72865862
+Senegal,1948,0.72865862
+Senegal,1949,0.72865862
+Senegal,1950,0.72865862
+Senegal,1951,0.72865862
+Senegal,1952,0.72865862
+Senegal,1953,0.72865862
+Senegal,1954,0.72865862
+Senegal,1955,0.72865862
+Senegal,1956,0.72865862
+Senegal,1957,0.72865862
+Senegal,1958,0.72865862
+Senegal,1959,0.72865862
+Senegal,1960,0.75064045
+Senegal,1961,0.73988581
+Senegal,1962,0.73988581
+Senegal,1963,0.73988581
+Senegal,1964,0.70065069
+Senegal,1965,0.70065069
+Senegal,1966,0.70065069
+Senegal,1967,0.70065069
+Senegal,1968,0.70065069
+Senegal,1969,0.70065069
+Senegal,1970,0.70065069
+Senegal,1971,0.70065069
+Senegal,1972,0.72263253
+Senegal,1973,0.72263253
+Senegal,1974,0.72263253
+Senegal,1975,0.72263253
+Senegal,1976,0.72263253
+Senegal,1977,0.72263253
+Senegal,1978,0.72263253
+Senegal,1979,0.72263253
+Senegal,1980,0.72263253
+Senegal,1981,0.72263253
+Senegal,1982,0.73872018
+Senegal,1983,0.76451135
+Senegal,1984,0.76451135
+Senegal,1985,0.76451135
+Senegal,1986,0.76451135
+Senegal,1987,0.76451135
+Senegal,1988,0.76451135
+Senegal,1989,0.74252951
+Senegal,1990,0.74252951
+Senegal,1991,0.74252951
+Senegal,1992,0.76542073
+Senegal,1993,0.76542073
+Senegal,1994,0.76542073
+Senegal,1995,0.76542073
+Senegal,1996,0.76542073
+Senegal,1997,0.76542073
+Senegal,1998,0.76542073
+Senegal,1999,0.76542073
+Senegal,2000,0.76542073
+Senegal,2001,0.76542073
+Senegal,2002,0.76542073
+Senegal,2003,0.76542073
+Senegal,2004,0.76542073
+Senegal,2005,0.74971944
+Senegal,2006,0.74971944
+Senegal,2007,0.74971944
+Senegal,2008,0.74971944
+Senegal,2009,0.74971944
+Senegal,2010,0.74971944
+Senegal,2011,0.74971944
+Senegal,2012,0.74971944
+Senegal,2013,0.74995214
+Senegal,2014,0.74995214
+Senegal,2015,0.74995214
+Senegal,2016,0.75937295
+Senegal,2017,0.72024626
+Senegal,2018,0.7079469
+Senegal,2019,0.70377171
+Senegal,2020,0.72284114
+Benin,1900,0.44099292
+Benin,1901,0.44099292
+Benin,1902,0.44099292
+Benin,1903,0.44099292
+Benin,1904,0.44099292
+Benin,1905,0.44099292
+Benin,1906,0.44099292
+Benin,1907,0.44099292
+Benin,1908,0.44099292
+Benin,1909,0.44099292
+Benin,1910,0.44099292
+Benin,1911,0.44099292
+Benin,1912,0.44099292
+Benin,1913,0.44099292
+Benin,1914,0.44099292
+Benin,1915,0.44099292
+Benin,1916,0.44099292
+Benin,1917,0.44099292
+Benin,1918,0.44099292
+Benin,1919,0.44099292
+Benin,1920,0.44099292
+Benin,1921,0.44099292
+Benin,1922,0.44099292
+Benin,1923,0.44099292
+Benin,1924,0.44099292
+Benin,1925,0.44099292
+Benin,1926,0.44099292
+Benin,1927,0.44099292
+Benin,1928,0.44099292
+Benin,1929,0.44099292
+Benin,1930,0.44099292
+Benin,1931,0.44099292
+Benin,1932,0.44099292
+Benin,1933,0.44099292
+Benin,1934,0.44099292
+Benin,1935,0.44099292
+Benin,1936,0.44099292
+Benin,1937,0.44099292
+Benin,1938,0.44099292
+Benin,1939,0.44099292
+Benin,1940,0.44099292
+Benin,1941,0.44099292
+Benin,1942,0.44099292
+Benin,1943,0.44099292
+Benin,1944,0.44099292
+Benin,1945,0.47143432
+Benin,1946,0.5108245
+Benin,1947,0.5108245
+Benin,1948,0.5108245
+Benin,1949,0.5108245
+Benin,1950,0.5108245
+Benin,1951,0.5108245
+Benin,1952,0.5108245
+Benin,1953,0.5108245
+Benin,1954,0.5108245
+Benin,1955,0.5108245
+Benin,1956,0.5108245
+Benin,1957,0.5108245
+Benin,1958,0.5108245
+Benin,1959,0.5108245
+Benin,1960,0.59857738
+Benin,1961,0.57973576
+Benin,1962,0.57973576
+Benin,1963,0.57973576
+Benin,1964,0.52520007
+Benin,1965,0.3943558
+Benin,1966,0.3943558
+Benin,1967,0.3943558
+Benin,1968,0.52520007
+Benin,1969,0.3943558
+Benin,1970,0.52520007
+Benin,1971,0.52520007
+Benin,1972,0.48683473
+Benin,1973,0.2008058
+Benin,1974,0.2008058
+Benin,1975,0.2008058
+Benin,1976,0.2008058
+Benin,1977,0.2008058
+Benin,1978,0.2008058
+Benin,1979,0.2008058
+Benin,1980,0.2008058
+Benin,1981,0.2008058
+Benin,1982,0.2008058
+Benin,1983,0.2008058
+Benin,1984,0.2008058
+Benin,1985,0.2008058
+Benin,1986,0.2008058
+Benin,1987,0.2008058
+Benin,1988,0.2008058
+Benin,1989,0.2008058
+Benin,1990,0.48391578
+Benin,1991,0.65597367
+Benin,1992,0.7193923
+Benin,1993,0.7193923
+Benin,1994,0.7193923
+Benin,1995,0.74512309
+Benin,1996,0.75049645
+Benin,1997,0.75049645
+Benin,1998,0.75049645
+Benin,1999,0.75049645
+Benin,2000,0.75049645
+Benin,2001,0.75049645
+Benin,2002,0.75049645
+Benin,2003,0.75049645
+Benin,2004,0.75049645
+Benin,2005,0.78338909
+Benin,2006,0.79937577
+Benin,2007,0.79797786
+Benin,2008,0.78154272
+Benin,2009,0.78154272
+Benin,2010,0.78396487
+Benin,2011,0.78396487
+Benin,2012,0.78396487
+Benin,2013,0.7858963
+Benin,2014,0.7858963
+Benin,2015,0.80294675
+Benin,2016,0.85261506
+Benin,2017,0.8029536
+Benin,2018,0.73992187
+Benin,2019,0.67360049
+Benin,2020,0.66133678
+Mauritania,1904,0.46270213
+Mauritania,1905,0.46270213
+Mauritania,1906,0.46270213
+Mauritania,1907,0.46270213
+Mauritania,1908,0.46270213
+Mauritania,1909,0.46270213
+Mauritania,1910,0.46270213
+Mauritania,1911,0.46270213
+Mauritania,1912,0.46270213
+Mauritania,1913,0.46270213
+Mauritania,1914,0.46270213
+Mauritania,1915,0.46270213
+Mauritania,1916,0.46270213
+Mauritania,1917,0.46270213
+Mauritania,1918,0.46270213
+Mauritania,1919,0.46270213
+Mauritania,1920,0.46270213
+Mauritania,1921,0.46270213
+Mauritania,1922,0.46270213
+Mauritania,1923,0.46270213
+Mauritania,1924,0.46270213
+Mauritania,1925,0.46270213
+Mauritania,1926,0.46270213
+Mauritania,1927,0.46270213
+Mauritania,1928,0.46270213
+Mauritania,1929,0.46270213
+Mauritania,1930,0.46270213
+Mauritania,1931,0.46270213
+Mauritania,1932,0.46270213
+Mauritania,1933,0.46270213
+Mauritania,1934,0.46270213
+Mauritania,1935,0.46270213
+Mauritania,1936,0.46270213
+Mauritania,1937,0.46270213
+Mauritania,1938,0.46270213
+Mauritania,1939,0.46270213
+Mauritania,1940,0.46270213
+Mauritania,1941,0.46270213
+Mauritania,1942,0.46270213
+Mauritania,1943,0.46270213
+Mauritania,1944,0.46270213
+Mauritania,1945,0.5324201
+Mauritania,1946,0.5324201
+Mauritania,1947,0.5324201
+Mauritania,1948,0.5324201
+Mauritania,1949,0.5324201
+Mauritania,1950,0.5324201
+Mauritania,1951,0.5324201
+Mauritania,1952,0.5324201
+Mauritania,1953,0.5324201
+Mauritania,1954,0.5324201
+Mauritania,1955,0.5324201
+Mauritania,1956,0.51289266
+Mauritania,1957,0.67626381
+Mauritania,1958,0.67746454
+Mauritania,1959,0.67746454
+Mauritania,1960,0.54036623
+Mauritania,1961,0.4589009
+Mauritania,1962,0.30552471
+Mauritania,1963,0.30552471
+Mauritania,1964,0.30552471
+Mauritania,1965,0.30552471
+Mauritania,1966,0.30552471
+Mauritania,1967,0.30552471
+Mauritania,1968,0.30552471
+Mauritania,1969,0.30552471
+Mauritania,1970,0.30552471
+Mauritania,1971,0.30552471
+Mauritania,1972,0.30552471
+Mauritania,1973,0.30552471
+Mauritania,1974,0.30552471
+Mauritania,1975,0.30552471
+Mauritania,1976,0.30552471
+Mauritania,1977,0.30552471
+Mauritania,1978,0.14314482
+Mauritania,1979,0.20084928
+Mauritania,1980,0.26627141
+Mauritania,1981,0.26627141
+Mauritania,1982,0.26627141
+Mauritania,1983,0.26627141
+Mauritania,1984,0.26627141
+Mauritania,1985,0.16159599
+Mauritania,1986,0.16159599
+Mauritania,1987,0.16159599
+Mauritania,1988,0.16159599
+Mauritania,1989,0.16159599
+Mauritania,1990,0.16159599
+Mauritania,1991,0.22446403
+Mauritania,1992,0.32214326
+Mauritania,1993,0.47111952
+Mauritania,1994,0.49277914
+Mauritania,1995,0.49277914
+Mauritania,1996,0.51894802
+Mauritania,1997,0.51894802
+Mauritania,1998,0.53576696
+Mauritania,1999,0.53576696
+Mauritania,2000,0.53576696
+Mauritania,2001,0.53576696
+Mauritania,2002,0.52959269
+Mauritania,2003,0.51447749
+Mauritania,2004,0.51447749
+Mauritania,2005,0.38172454
+Mauritania,2006,0.51577824
+Mauritania,2007,0.66446108
+Mauritania,2008,0.51487571
+Mauritania,2009,0.63990986
+Mauritania,2010,0.62702262
+Mauritania,2011,0.62702262
+Mauritania,2012,0.63584709
+Mauritania,2013,0.61058813
+Mauritania,2014,0.61058813
+Mauritania,2015,0.61058813
+Mauritania,2016,0.61058813
+Mauritania,2017,0.57629263
+Mauritania,2018,0.58540535
+Mauritania,2019,0.57232213
+Mauritania,2020,0.55072856
+Niger,1922,0.52111393
+Niger,1923,0.52111393
+Niger,1924,0.52111393
+Niger,1925,0.52111393
+Niger,1926,0.52111393
+Niger,1927,0.52111393
+Niger,1928,0.52111393
+Niger,1929,0.52111393
+Niger,1930,0.52111393
+Niger,1931,0.52111393
+Niger,1932,0.52111393
+Niger,1933,0.52111393
+Niger,1934,0.52111393
+Niger,1935,0.52111393
+Niger,1936,0.52111393
+Niger,1937,0.52111393
+Niger,1938,0.52111393
+Niger,1939,0.52111393
+Niger,1940,0.52111393
+Niger,1941,0.52111393
+Niger,1942,0.52111393
+Niger,1943,0.52111393
+Niger,1944,0.52111393
+Niger,1945,0.52111393
+Niger,1946,0.5609045
+Niger,1947,0.5609045
+Niger,1948,0.5609045
+Niger,1949,0.5609045
+Niger,1950,0.5609045
+Niger,1951,0.5609045
+Niger,1952,0.5609045
+Niger,1953,0.5609045
+Niger,1954,0.5609045
+Niger,1955,0.5609045
+Niger,1956,0.5609045
+Niger,1957,0.5609045
+Niger,1958,0.5609045
+Niger,1959,0.5609045
+Niger,1960,0.47169423
+Niger,1961,0.47169423
+Niger,1962,0.43051717
+Niger,1963,0.43051717
+Niger,1964,0.43051717
+Niger,1965,0.43051717
+Niger,1966,0.43051717
+Niger,1967,0.43051717
+Niger,1968,0.43051717
+Niger,1969,0.43051717
+Niger,1970,0.43051717
+Niger,1971,0.43051717
+Niger,1972,0.43051717
+Niger,1973,0.43051717
+Niger,1974,0.25132048
+Niger,1975,0.25132048
+Niger,1976,0.25132048
+Niger,1977,0.25132048
+Niger,1978,0.25132048
+Niger,1979,0.25132048
+Niger,1980,0.25132048
+Niger,1981,0.25132048
+Niger,1982,0.25132048
+Niger,1983,0.25132048
+Niger,1984,0.25132048
+Niger,1985,0.25132048
+Niger,1986,0.25132048
+Niger,1987,0.25132048
+Niger,1988,0.25132048
+Niger,1989,0.38216478
+Niger,1990,0.52649808
+Niger,1991,0.6396001
+Niger,1992,0.6396001
+Niger,1993,0.70158142
+Niger,1994,0.70158142
+Niger,1995,0.70158142
+Niger,1996,0.63845587
+Niger,1997,0.63365042
+Niger,1998,0.63365042
+Niger,1999,0.56578863
+Niger,2000,0.72681201
+Niger,2001,0.72681201
+Niger,2002,0.72681201
+Niger,2003,0.72681201
+Niger,2004,0.72681201
+Niger,2005,0.73911136
+Niger,2006,0.73911136
+Niger,2007,0.73911136
+Niger,2008,0.73911136
+Niger,2009,0.73644656
+Niger,2010,0.56344569
+Niger,2011,0.77515852
+Niger,2012,0.7615723
+Niger,2013,0.77163982
+Niger,2014,0.76702869
+Niger,2015,0.76702869
+Niger,2016,0.77516282
+Niger,2017,0.73210984
+Niger,2018,0.70366043
+Niger,2019,0.67460275
+Niger,2020,0.7166971
+Ivory Coast,1900,0.29307824
+Ivory Coast,1901,0.29307824
+Ivory Coast,1902,0.29307824
+Ivory Coast,1903,0.29307824
+Ivory Coast,1904,0.29307824
+Ivory Coast,1905,0.29307824
+Ivory Coast,1906,0.29307824
+Ivory Coast,1907,0.29307824
+Ivory Coast,1908,0.29307824
+Ivory Coast,1909,0.29307824
+Ivory Coast,1910,0.29307824
+Ivory Coast,1911,0.29307824
+Ivory Coast,1912,0.29307824
+Ivory Coast,1913,0.29307824
+Ivory Coast,1914,0.29307824
+Ivory Coast,1915,0.29307824
+Ivory Coast,1916,0.29307824
+Ivory Coast,1917,0.29307824
+Ivory Coast,1918,0.29307824
+Ivory Coast,1919,0.29307824
+Ivory Coast,1920,0.29307824
+Ivory Coast,1921,0.29307824
+Ivory Coast,1922,0.29307824
+Ivory Coast,1923,0.29307824
+Ivory Coast,1924,0.29307824
+Ivory Coast,1925,0.29307824
+Ivory Coast,1926,0.29307824
+Ivory Coast,1927,0.29307824
+Ivory Coast,1928,0.29307824
+Ivory Coast,1929,0.29307824
+Ivory Coast,1930,0.29307824
+Ivory Coast,1931,0.29307824
+Ivory Coast,1932,0.29307824
+Ivory Coast,1933,0.29307824
+Ivory Coast,1934,0.29307824
+Ivory Coast,1935,0.29307824
+Ivory Coast,1936,0.29307824
+Ivory Coast,1937,0.29307824
+Ivory Coast,1938,0.29307824
+Ivory Coast,1939,0.29307824
+Ivory Coast,1940,0.29307824
+Ivory Coast,1941,0.29307824
+Ivory Coast,1942,0.29307824
+Ivory Coast,1943,0.29307824
+Ivory Coast,1944,0.3592363
+Ivory Coast,1945,0.45894274
+Ivory Coast,1946,0.49221462
+Ivory Coast,1947,0.49221462
+Ivory Coast,1948,0.49221462
+Ivory Coast,1949,0.49221462
+Ivory Coast,1950,0.49221462
+Ivory Coast,1951,0.49221462
+Ivory Coast,1952,0.49221462
+Ivory Coast,1953,0.49221462
+Ivory Coast,1954,0.49221462
+Ivory Coast,1955,0.49221462
+Ivory Coast,1956,0.49221462
+Ivory Coast,1957,0.45110986
+Ivory Coast,1958,0.4357453
+Ivory Coast,1959,0.4357453
+Ivory Coast,1960,0.3333793
+Ivory Coast,1961,0.3333793
+Ivory Coast,1962,0.3333793
+Ivory Coast,1963,0.3333793
+Ivory Coast,1964,0.3333793
+Ivory Coast,1965,0.3333793
+Ivory Coast,1966,0.3333793
+Ivory Coast,1967,0.3333793
+Ivory Coast,1968,0.3333793
+Ivory Coast,1969,0.3333793
+Ivory Coast,1970,0.3333793
+Ivory Coast,1971,0.3333793
+Ivory Coast,1972,0.3333793
+Ivory Coast,1973,0.3333793
+Ivory Coast,1974,0.3333793
+Ivory Coast,1975,0.3333793
+Ivory Coast,1976,0.3333793
+Ivory Coast,1977,0.3333793
+Ivory Coast,1978,0.3333793
+Ivory Coast,1979,0.3333793
+Ivory Coast,1980,0.3333793
+Ivory Coast,1981,0.3333793
+Ivory Coast,1982,0.3333793
+Ivory Coast,1983,0.3333793
+Ivory Coast,1984,0.3333793
+Ivory Coast,1985,0.3333793
+Ivory Coast,1986,0.3333793
+Ivory Coast,1987,0.3333793
+Ivory Coast,1988,0.34798467
+Ivory Coast,1989,0.34798467
+Ivory Coast,1990,0.5687449
+Ivory Coast,1991,0.5687449
+Ivory Coast,1992,0.5687449
+Ivory Coast,1993,0.60821325
+Ivory Coast,1994,0.60821325
+Ivory Coast,1995,0.60821325
+Ivory Coast,1996,0.64145792
+Ivory Coast,1997,0.64145792
+Ivory Coast,1998,0.64145792
+Ivory Coast,1999,0.49412727
+Ivory Coast,2000,0.67346948
+Ivory Coast,2001,0.68012148
+Ivory Coast,2002,0.68012148
+Ivory Coast,2003,0.68012148
+Ivory Coast,2004,0.68012148
+Ivory Coast,2005,0.6775046
+Ivory Coast,2006,0.6775046
+Ivory Coast,2007,0.6775046
+Ivory Coast,2008,0.6775046
+Ivory Coast,2009,0.6775046
+Ivory Coast,2010,0.6996671
+Ivory Coast,2011,0.6692034
+Ivory Coast,2012,0.67317879
+Ivory Coast,2013,0.69559437
+Ivory Coast,2014,0.69043952
+Ivory Coast,2015,0.68680531
+Ivory Coast,2016,0.70144683
+Ivory Coast,2017,0.73134422
+Ivory Coast,2018,0.6993528
+Ivory Coast,2019,0.70563328
+Ivory Coast,2020,0.69770694
+Guinea,1900,0.4124155
+Guinea,1901,0.4124155
+Guinea,1902,0.4124155
+Guinea,1903,0.4124155
+Guinea,1904,0.4124155
+Guinea,1905,0.4124155
+Guinea,1906,0.4124155
+Guinea,1907,0.4124155
+Guinea,1908,0.4124155
+Guinea,1909,0.4124155
+Guinea,1910,0.4124155
+Guinea,1911,0.4124155
+Guinea,1912,0.4124155
+Guinea,1913,0.4124155
+Guinea,1914,0.4124155
+Guinea,1915,0.4124155
+Guinea,1916,0.4124155
+Guinea,1917,0.4124155
+Guinea,1918,0.4124155
+Guinea,1919,0.4124155
+Guinea,1920,0.4124155
+Guinea,1921,0.4124155
+Guinea,1922,0.4124155
+Guinea,1923,0.4124155
+Guinea,1924,0.4124155
+Guinea,1925,0.4124155
+Guinea,1926,0.4124155
+Guinea,1927,0.4124155
+Guinea,1928,0.4124155
+Guinea,1929,0.4124155
+Guinea,1930,0.4124155
+Guinea,1931,0.4124155
+Guinea,1932,0.4124155
+Guinea,1933,0.4124155
+Guinea,1934,0.4124155
+Guinea,1935,0.4124155
+Guinea,1936,0.4124155
+Guinea,1937,0.4124155
+Guinea,1938,0.4124155
+Guinea,1939,0.4124155
+Guinea,1940,0.4124155
+Guinea,1941,0.4124155
+Guinea,1942,0.4124155
+Guinea,1943,0.4124155
+Guinea,1944,0.4124155
+Guinea,1945,0.4124155
+Guinea,1946,0.48100111
+Guinea,1947,0.48100111
+Guinea,1948,0.48100111
+Guinea,1949,0.48100111
+Guinea,1950,0.48100111
+Guinea,1951,0.48100111
+Guinea,1952,0.48100111
+Guinea,1953,0.48100111
+Guinea,1954,0.46364817
+Guinea,1955,0.46364817
+Guinea,1956,0.46364817
+Guinea,1957,0.46364817
+Guinea,1958,0.41548344
+Guinea,1959,0.40657377
+Guinea,1960,0.3712993
+Guinea,1961,0.3712993
+Guinea,1962,0.3712993
+Guinea,1963,0.3712993
+Guinea,1964,0.3712993
+Guinea,1965,0.3712993
+Guinea,1966,0.3712993
+Guinea,1967,0.3712993
+Guinea,1968,0.3712993
+Guinea,1969,0.3712993
+Guinea,1970,0.3712993
+Guinea,1971,0.39746815
+Guinea,1972,0.39746815
+Guinea,1973,0.39746815
+Guinea,1974,0.39746815
+Guinea,1975,0.39746815
+Guinea,1976,0.39746815
+Guinea,1977,0.39746815
+Guinea,1978,0.39746815
+Guinea,1979,0.39746815
+Guinea,1980,0.39746815
+Guinea,1981,0.39746815
+Guinea,1982,0.39746815
+Guinea,1983,0.39746815
+Guinea,1984,0.23059028
+Guinea,1985,0.20829765
+Guinea,1986,0.20829765
+Guinea,1987,0.20829765
+Guinea,1988,0.20829765
+Guinea,1989,0.20829765
+Guinea,1990,0.24582525
+Guinea,1991,0.29493266
+Guinea,1992,0.34438434
+Guinea,1993,0.34438434
+Guinea,1994,0.50139749
+Guinea,1995,0.50139749
+Guinea,1996,0.50139749
+Guinea,1997,0.50139749
+Guinea,1998,0.50139749
+Guinea,1999,0.51061976
+Guinea,2000,0.48445091
+Guinea,2001,0.48445091
+Guinea,2002,0.47542399
+Guinea,2003,0.47542399
+Guinea,2004,0.48468536
+Guinea,2005,0.47474122
+Guinea,2006,0.46766818
+Guinea,2007,0.46766818
+Guinea,2008,0.33705249
+Guinea,2009,0.49119645
+Guinea,2010,0.61138564
+Guinea,2011,0.61138564
+Guinea,2012,0.61138564
+Guinea,2013,0.66778159
+Guinea,2014,0.66778159
+Guinea,2015,0.66778159
+Guinea,2016,0.66778159
+Guinea,2017,0.63978094
+Guinea,2018,0.62407964
+Guinea,2019,0.62151062
+Guinea,2020,0.63007176
+Burkina Faso,1919,0.67825174
+Burkina Faso,1920,0.67825174
+Burkina Faso,1921,0.67825174
+Burkina Faso,1922,0.67825174
+Burkina Faso,1923,0.67825174
+Burkina Faso,1924,0.67825174
+Burkina Faso,1925,0.67825174
+Burkina Faso,1926,0.67825174
+Burkina Faso,1927,0.67825174
+Burkina Faso,1928,0.67825174
+Burkina Faso,1929,0.67825174
+Burkina Faso,1930,0.67825174
+Burkina Faso,1931,0.67825174
+Burkina Faso,1947,0.7119717
+Burkina Faso,1948,0.7119717
+Burkina Faso,1949,0.7119717
+Burkina Faso,1950,0.7119717
+Burkina Faso,1951,0.7119717
+Burkina Faso,1952,0.7119717
+Burkina Faso,1953,0.7119717
+Burkina Faso,1954,0.7119717
+Burkina Faso,1955,0.7119717
+Burkina Faso,1956,0.7119717
+Burkina Faso,1957,0.66826975
+Burkina Faso,1958,0.66826975
+Burkina Faso,1959,0.66586703
+Burkina Faso,1960,0.60489357
+Burkina Faso,1961,0.59191984
+Burkina Faso,1962,0.59191984
+Burkina Faso,1963,0.59191984
+Burkina Faso,1964,0.59191984
+Burkina Faso,1965,0.59191984
+Burkina Faso,1966,0.46107554
+Burkina Faso,1967,0.38698363
+Burkina Faso,1968,0.38698363
+Burkina Faso,1969,0.38698363
+Burkina Faso,1970,0.41315252
+Burkina Faso,1971,0.41315252
+Burkina Faso,1972,0.41315252
+Burkina Faso,1973,0.41315252
+Burkina Faso,1974,0.41315252
+Burkina Faso,1975,0.41315252
+Burkina Faso,1976,0.41315252
+Burkina Faso,1977,0.41315252
+Burkina Faso,1978,0.41315252
+Burkina Faso,1979,0.54399681
+Burkina Faso,1980,0.34722871
+Burkina Faso,1981,0.34722871
+Burkina Faso,1982,0.34722871
+Burkina Faso,1983,0.34722871
+Burkina Faso,1984,0.34722871
+Burkina Faso,1985,0.34722871
+Burkina Faso,1986,0.34722871
+Burkina Faso,1987,0.34722871
+Burkina Faso,1988,0.35641193
+Burkina Faso,1989,0.35641193
+Burkina Faso,1990,0.3589457
+Burkina Faso,1991,0.50840557
+Burkina Faso,1992,0.64510512
+Burkina Faso,1993,0.64510512
+Burkina Faso,1994,0.64510512
+Burkina Faso,1995,0.64510512
+Burkina Faso,1996,0.64510512
+Burkina Faso,1997,0.64510512
+Burkina Faso,1998,0.65829819
+Burkina Faso,1999,0.65829819
+Burkina Faso,2000,0.67468023
+Burkina Faso,2001,0.68267471
+Burkina Faso,2002,0.68267471
+Burkina Faso,2003,0.68267471
+Burkina Faso,2004,0.68267471
+Burkina Faso,2005,0.70675004
+Burkina Faso,2006,0.70675004
+Burkina Faso,2007,0.70675004
+Burkina Faso,2008,0.70675004
+Burkina Faso,2009,0.70867223
+Burkina Faso,2010,0.72778112
+Burkina Faso,2011,0.71783698
+Burkina Faso,2012,0.74136055
+Burkina Faso,2013,0.75339985
+Burkina Faso,2014,0.77825695
+Burkina Faso,2015,0.77171475
+Burkina Faso,2016,0.78816259
+Burkina Faso,2017,0.76958269
+Burkina Faso,2018,0.76368213
+Burkina Faso,2019,0.75778711
+Burkina Faso,2020,0.75569361
+Liberia,1821,0.36662921
+Liberia,1822,0.36662921
+Liberia,1823,0.36662921
+Liberia,1824,0.36662921
+Liberia,1825,0.36662921
+Liberia,1826,0.36662921
+Liberia,1827,0.36662921
+Liberia,1828,0.36662921
+Liberia,1829,0.36662921
+Liberia,1830,0.36662921
+Liberia,1831,0.36662921
+Liberia,1832,0.36662921
+Liberia,1833,0.36662921
+Liberia,1834,0.36662921
+Liberia,1835,0.36662921
+Liberia,1836,0.36662921
+Liberia,1837,0.36662921
+Liberia,1838,0.36662921
+Liberia,1839,0.36662921
+Liberia,1840,0.36662921
+Liberia,1841,0.36662921
+Liberia,1842,0.36662921
+Liberia,1843,0.36662921
+Liberia,1844,0.36662921
+Liberia,1845,0.36662921
+Liberia,1846,0.36662921
+Liberia,1847,0.36662921
+Liberia,1848,0.45180604
+Liberia,1849,0.45180604
+Liberia,1850,0.45180604
+Liberia,1851,0.45180604
+Liberia,1852,0.45180604
+Liberia,1853,0.45180604
+Liberia,1854,0.45180604
+Liberia,1855,0.45180604
+Liberia,1856,0.45180604
+Liberia,1857,0.45180604
+Liberia,1858,0.45180604
+Liberia,1859,0.45180604
+Liberia,1860,0.45180604
+Liberia,1861,0.45180604
+Liberia,1862,0.45180604
+Liberia,1863,0.45180604
+Liberia,1864,0.45180604
+Liberia,1865,0.45180604
+Liberia,1866,0.45180604
+Liberia,1867,0.45180604
+Liberia,1868,0.45180604
+Liberia,1869,0.45180604
+Liberia,1870,0.50010592
+Liberia,1871,0.50010592
+Liberia,1872,0.50010592
+Liberia,1873,0.50010592
+Liberia,1874,0.50010592
+Liberia,1875,0.50010592
+Liberia,1876,0.50010592
+Liberia,1877,0.50010592
+Liberia,1878,0.50010592
+Liberia,1879,0.50010592
+Liberia,1880,0.50010592
+Liberia,1881,0.50010592
+Liberia,1882,0.50010592
+Liberia,1883,0.50010592
+Liberia,1884,0.50010592
+Liberia,1885,0.50010592
+Liberia,1886,0.50010592
+Liberia,1887,0.50010592
+Liberia,1888,0.50010592
+Liberia,1889,0.50010592
+Liberia,1890,0.50010592
+Liberia,1891,0.50010592
+Liberia,1892,0.50010592
+Liberia,1893,0.50010592
+Liberia,1894,0.50010592
+Liberia,1895,0.50010592
+Liberia,1896,0.50010592
+Liberia,1897,0.50010592
+Liberia,1898,0.50010592
+Liberia,1899,0.50010592
+Liberia,1900,0.54380786
+Liberia,1901,0.54380786
+Liberia,1902,0.54380786
+Liberia,1903,0.54380786
+Liberia,1904,0.54380786
+Liberia,1905,0.54380786
+Liberia,1906,0.54380786
+Liberia,1907,0.54380786
+Liberia,1908,0.54380786
+Liberia,1909,0.54380786
+Liberia,1910,0.54380786
+Liberia,1911,0.54380786
+Liberia,1912,0.54380786
+Liberia,1913,0.54380786
+Liberia,1914,0.54380786
+Liberia,1915,0.54380786
+Liberia,1916,0.54380786
+Liberia,1917,0.54380786
+Liberia,1918,0.54380786
+Liberia,1919,0.54380786
+Liberia,1920,0.54380786
+Liberia,1921,0.55244362
+Liberia,1922,0.55244362
+Liberia,1923,0.55244362
+Liberia,1924,0.55244362
+Liberia,1925,0.55244362
+Liberia,1926,0.55244362
+Liberia,1927,0.55244362
+Liberia,1928,0.55244362
+Liberia,1929,0.55244362
+Liberia,1930,0.55453712
+Liberia,1931,0.55244362
+Liberia,1932,0.53678775
+Liberia,1933,0.53678775
+Liberia,1934,0.53678775
+Liberia,1935,0.53678775
+Liberia,1936,0.53678775
+Liberia,1937,0.53678775
+Liberia,1938,0.53678775
+Liberia,1939,0.53678775
+Liberia,1940,0.53678775
+Liberia,1941,0.53678775
+Liberia,1942,0.53678775
+Liberia,1943,0.53678775
+Liberia,1944,0.53678775
+Liberia,1945,0.49584746
+Liberia,1946,0.49584746
+Liberia,1947,0.49584746
+Liberia,1948,0.49584746
+Liberia,1949,0.49584746
+Liberia,1950,0.49584746
+Liberia,1951,0.45314074
+Liberia,1952,0.45314074
+Liberia,1953,0.45314074
+Liberia,1954,0.45314074
+Liberia,1955,0.45314074
+Liberia,1956,0.43251449
+Liberia,1957,0.43251449
+Liberia,1958,0.43251449
+Liberia,1959,0.43251449
+Liberia,1960,0.43251449
+Liberia,1961,0.43251449
+Liberia,1962,0.43251449
+Liberia,1963,0.4225727
+Liberia,1964,0.4225727
+Liberia,1965,0.4225727
+Liberia,1966,0.4225727
+Liberia,1967,0.4225727
+Liberia,1968,0.4225727
+Liberia,1969,0.4225727
+Liberia,1970,0.4225727
+Liberia,1971,0.39640385
+Liberia,1972,0.39640385
+Liberia,1973,0.39640385
+Liberia,1974,0.39640385
+Liberia,1975,0.39640385
+Liberia,1976,0.39640385
+Liberia,1977,0.39640385
+Liberia,1978,0.39640385
+Liberia,1979,0.39640385
+Liberia,1980,0.28945455
+Liberia,1981,0.28945455
+Liberia,1982,0.28945455
+Liberia,1983,0.28945455
+Liberia,1984,0.32013041
+Liberia,1985,0.54216063
+Liberia,1986,0.5592854
+Liberia,1987,0.5592854
+Liberia,1988,0.53936565
+Liberia,1989,0.50953132
+Liberia,1990,0.52726209
+Liberia,1991,0.58828688
+Liberia,1992,0.58828688
+Liberia,1993,0.58828688
+Liberia,1994,0.58828688
+Liberia,1995,0.59485191
+Liberia,1996,0.56896961
+Liberia,1997,0.60427654
+Liberia,1998,0.60427654
+Liberia,1999,0.60427654
+Liberia,2000,0.60427654
+Liberia,2001,0.60022753
+Liberia,2002,0.60022753
+Liberia,2003,0.57021558
+Liberia,2004,0.71605885
+Liberia,2005,0.70948356
+Liberia,2006,0.77635682
+Liberia,2007,0.77635682
+Liberia,2008,0.77635682
+Liberia,2009,0.77035558
+Liberia,2010,0.77284569
+Liberia,2011,0.77284569
+Liberia,2012,0.76188064
+Liberia,2013,0.77767932
+Liberia,2014,0.77767932
+Liberia,2015,0.77767932
+Liberia,2016,0.77767932
+Liberia,2017,0.77767932
+Liberia,2018,0.79521251
+Liberia,2019,0.77767932
+Liberia,2020,0.82138139
+Sierra Leone,1900,0.44429648
+Sierra Leone,1901,0.44429648
+Sierra Leone,1902,0.44429648
+Sierra Leone,1903,0.44429648
+Sierra Leone,1904,0.44429648
+Sierra Leone,1905,0.44429648
+Sierra Leone,1906,0.44429648
+Sierra Leone,1907,0.44429648
+Sierra Leone,1908,0.44429648
+Sierra Leone,1909,0.44429648
+Sierra Leone,1910,0.44429648
+Sierra Leone,1911,0.44429648
+Sierra Leone,1912,0.44429648
+Sierra Leone,1913,0.44429648
+Sierra Leone,1914,0.44429648
+Sierra Leone,1915,0.44429648
+Sierra Leone,1916,0.44429648
+Sierra Leone,1917,0.44429648
+Sierra Leone,1918,0.44429648
+Sierra Leone,1919,0.44429648
+Sierra Leone,1920,0.44429648
+Sierra Leone,1921,0.44429648
+Sierra Leone,1922,0.44429648
+Sierra Leone,1923,0.44429648
+Sierra Leone,1924,0.44429648
+Sierra Leone,1925,0.44429648
+Sierra Leone,1926,0.44429648
+Sierra Leone,1927,0.44429648
+Sierra Leone,1928,0.44429648
+Sierra Leone,1929,0.44429648
+Sierra Leone,1930,0.44429648
+Sierra Leone,1931,0.44429648
+Sierra Leone,1932,0.44429648
+Sierra Leone,1933,0.44429648
+Sierra Leone,1934,0.44429648
+Sierra Leone,1935,0.44429648
+Sierra Leone,1936,0.44429648
+Sierra Leone,1937,0.44429648
+Sierra Leone,1938,0.44429648
+Sierra Leone,1939,0.44429648
+Sierra Leone,1940,0.44429648
+Sierra Leone,1941,0.44429648
+Sierra Leone,1942,0.44429648
+Sierra Leone,1943,0.44429648
+Sierra Leone,1944,0.44429648
+Sierra Leone,1945,0.44429648
+Sierra Leone,1946,0.44429648
+Sierra Leone,1947,0.44429648
+Sierra Leone,1948,0.44429648
+Sierra Leone,1949,0.44429648
+Sierra Leone,1950,0.44429648
+Sierra Leone,1951,0.49099416
+Sierra Leone,1952,0.54370368
+Sierra Leone,1953,0.54370368
+Sierra Leone,1954,0.54370368
+Sierra Leone,1955,0.55253518
+Sierra Leone,1956,0.55253518
+Sierra Leone,1957,0.57869792
+Sierra Leone,1958,0.60880566
+Sierra Leone,1959,0.60880566
+Sierra Leone,1960,0.60921484
+Sierra Leone,1961,0.60057914
+Sierra Leone,1962,0.6377992
+Sierra Leone,1963,0.6377992
+Sierra Leone,1964,0.65457445
+Sierra Leone,1965,0.65457445
+Sierra Leone,1966,0.62840557
+Sierra Leone,1967,0.58564508
+Sierra Leone,1968,0.55038685
+Sierra Leone,1969,0.52421802
+Sierra Leone,1970,0.52421802
+Sierra Leone,1971,0.55902261
+Sierra Leone,1972,0.55902261
+Sierra Leone,1973,0.55902261
+Sierra Leone,1974,0.55902261
+Sierra Leone,1975,0.55902261
+Sierra Leone,1976,0.55902261
+Sierra Leone,1977,0.55902261
+Sierra Leone,1978,0.46063703
+Sierra Leone,1979,0.46063703
+Sierra Leone,1980,0.46063703
+Sierra Leone,1981,0.39198449
+Sierra Leone,1982,0.39198449
+Sierra Leone,1983,0.39198449
+Sierra Leone,1984,0.39198449
+Sierra Leone,1985,0.39198449
+Sierra Leone,1986,0.41396633
+Sierra Leone,1987,0.41396633
+Sierra Leone,1988,0.41396633
+Sierra Leone,1989,0.41396633
+Sierra Leone,1990,0.41396633
+Sierra Leone,1991,0.43702939
+Sierra Leone,1992,0.20830221
+Sierra Leone,1993,0.22782964
+Sierra Leone,1994,0.31010854
+Sierra Leone,1995,0.31010854
+Sierra Leone,1996,0.59608591
+Sierra Leone,1997,0.5436942
+Sierra Leone,1998,0.7518577
+Sierra Leone,1999,0.7518577
+Sierra Leone,2000,0.7518577
+Sierra Leone,2001,0.7518577
+Sierra Leone,2002,0.76391494
+Sierra Leone,2003,0.76391494
+Sierra Leone,2004,0.76391494
+Sierra Leone,2005,0.75946623
+Sierra Leone,2006,0.75946623
+Sierra Leone,2007,0.75946623
+Sierra Leone,2008,0.75653929
+Sierra Leone,2009,0.75653929
+Sierra Leone,2010,0.75653929
+Sierra Leone,2011,0.75653929
+Sierra Leone,2012,0.7513563
+Sierra Leone,2013,0.72610813
+Sierra Leone,2014,0.72610813
+Sierra Leone,2015,0.72610813
+Sierra Leone,2016,0.72610813
+Sierra Leone,2017,0.69558895
+Sierra Leone,2018,0.74430555
+Sierra Leone,2019,0.73505193
+Sierra Leone,2020,0.73505193
+Ghana,1902,0.52560312
+Ghana,1903,0.52560312
+Ghana,1904,0.52560312
+Ghana,1905,0.52560312
+Ghana,1906,0.52560312
+Ghana,1907,0.52560312
+Ghana,1908,0.52560312
+Ghana,1909,0.52560312
+Ghana,1910,0.52560312
+Ghana,1911,0.52560312
+Ghana,1912,0.52560312
+Ghana,1913,0.52560312
+Ghana,1914,0.52560312
+Ghana,1915,0.52560312
+Ghana,1916,0.52560312
+Ghana,1917,0.52560312
+Ghana,1918,0.52560312
+Ghana,1919,0.52560312
+Ghana,1920,0.52560312
+Ghana,1921,0.52560312
+Ghana,1922,0.52560312
+Ghana,1923,0.52560312
+Ghana,1924,0.52560312
+Ghana,1925,0.52560312
+Ghana,1926,0.52560312
+Ghana,1927,0.52560312
+Ghana,1928,0.52560312
+Ghana,1929,0.52560312
+Ghana,1930,0.52560312
+Ghana,1931,0.52560312
+Ghana,1932,0.52560312
+Ghana,1933,0.52560312
+Ghana,1934,0.52560312
+Ghana,1935,0.52560312
+Ghana,1936,0.52560312
+Ghana,1937,0.52560312
+Ghana,1938,0.52560312
+Ghana,1939,0.52560312
+Ghana,1940,0.52560312
+Ghana,1941,0.52560312
+Ghana,1942,0.52560312
+Ghana,1943,0.52560312
+Ghana,1944,0.52560312
+Ghana,1945,0.53211087
+Ghana,1946,0.53211087
+Ghana,1947,0.58502162
+Ghana,1948,0.58502162
+Ghana,1949,0.58502162
+Ghana,1950,0.58502162
+Ghana,1951,0.7345131
+Ghana,1952,0.7345131
+Ghana,1953,0.73709059
+Ghana,1954,0.73709059
+Ghana,1955,0.71970373
+Ghana,1956,0.71970373
+Ghana,1957,0.6902988
+Ghana,1958,0.67728412
+Ghana,1959,0.66963917
+Ghana,1960,0.61917043
+Ghana,1961,0.57327044
+Ghana,1962,0.56302315
+Ghana,1963,0.56302315
+Ghana,1964,0.53734976
+Ghana,1965,0.45781094
+Ghana,1966,0.31434894
+Ghana,1967,0.33295962
+Ghana,1968,0.33973089
+Ghana,1969,0.60917491
+Ghana,1970,0.65733176
+Ghana,1971,0.65733176
+Ghana,1972,0.39034757
+Ghana,1973,0.22598602
+Ghana,1974,0.22598602
+Ghana,1975,0.22598602
+Ghana,1976,0.22598602
+Ghana,1977,0.22598602
+Ghana,1978,0.26647618
+Ghana,1979,0.68461436
+Ghana,1980,0.66546321
+Ghana,1981,0.47093099
+Ghana,1982,0.21576664
+Ghana,1983,0.21045209
+Ghana,1984,0.21045209
+Ghana,1985,0.21045209
+Ghana,1986,0.21045209
+Ghana,1987,0.21045209
+Ghana,1988,0.21045209
+Ghana,1989,0.21045209
+Ghana,1990,0.23688185
+Ghana,1991,0.25256589
+Ghana,1992,0.52220547
+Ghana,1993,0.68576086
+Ghana,1994,0.68576086
+Ghana,1995,0.68576086
+Ghana,1996,0.70761561
+Ghana,1997,0.72644407
+Ghana,1998,0.72644407
+Ghana,1999,0.72644407
+Ghana,2000,0.80198896
+Ghana,2001,0.80198896
+Ghana,2002,0.80198896
+Ghana,2003,0.80198896
+Ghana,2004,0.80198896
+Ghana,2005,0.82135391
+Ghana,2006,0.82135391
+Ghana,2007,0.82135391
+Ghana,2008,0.81777167
+Ghana,2009,0.81777167
+Ghana,2010,0.8130613
+Ghana,2011,0.8130613
+Ghana,2012,0.82350212
+Ghana,2013,0.81574851
+Ghana,2014,0.81574851
+Ghana,2015,0.7896046
+Ghana,2016,0.77303803
+Ghana,2017,0.79363674
+Ghana,2018,0.78548491
+Ghana,2019,0.79621416
+Ghana,2020,0.78386009
+Togo,1916,0.29019135
+Togo,1917,0.29019135
+Togo,1918,0.29019135
+Togo,1919,0.29019135
+Togo,1920,0.29019135
+Togo,1921,0.29019135
+Togo,1922,0.29019135
+Togo,1923,0.29019135
+Togo,1924,0.29019135
+Togo,1925,0.29019135
+Togo,1926,0.29019135
+Togo,1927,0.29019135
+Togo,1928,0.29019135
+Togo,1929,0.29019135
+Togo,1930,0.29019135
+Togo,1931,0.29019135
+Togo,1932,0.29019135
+Togo,1933,0.29019135
+Togo,1934,0.29019135
+Togo,1935,0.29019135
+Togo,1936,0.29019135
+Togo,1937,0.29019135
+Togo,1938,0.29019135
+Togo,1939,0.29019135
+Togo,1940,0.29019135
+Togo,1941,0.33912018
+Togo,1942,0.33912018
+Togo,1943,0.33912018
+Togo,1944,0.42801115
+Togo,1945,0.44189349
+Togo,1946,0.47456232
+Togo,1947,0.47456232
+Togo,1948,0.47456232
+Togo,1949,0.47456232
+Togo,1950,0.47456232
+Togo,1951,0.47456232
+Togo,1952,0.47456232
+Togo,1953,0.47456232
+Togo,1954,0.47456232
+Togo,1955,0.47456232
+Togo,1956,0.60792196
+Togo,1957,0.60792196
+Togo,1958,0.59483755
+Togo,1959,0.5884679
+Togo,1960,0.59084183
+Togo,1961,0.59084183
+Togo,1962,0.59084183
+Togo,1963,0.54050332
+Togo,1964,0.54050332
+Togo,1965,0.54050332
+Togo,1966,0.54050332
+Togo,1967,0.24940552
+Togo,1968,0.24940552
+Togo,1969,0.14621343
+Togo,1970,0.14621343
+Togo,1971,0.14621343
+Togo,1972,0.14621343
+Togo,1973,0.14621343
+Togo,1974,0.14621343
+Togo,1975,0.14621343
+Togo,1976,0.14621343
+Togo,1977,0.14621343
+Togo,1978,0.14621343
+Togo,1979,0.14621343
+Togo,1980,0.27705774
+Togo,1981,0.27705774
+Togo,1982,0.27705774
+Togo,1983,0.27705774
+Togo,1984,0.27705774
+Togo,1985,0.27705774
+Togo,1986,0.27705774
+Togo,1987,0.27705774
+Togo,1988,0.27705774
+Togo,1989,0.27705774
+Togo,1990,0.27705774
+Togo,1991,0.51618665
+Togo,1992,0.63218772
+Togo,1993,0.63218772
+Togo,1994,0.63218772
+Togo,1995,0.61676675
+Togo,1996,0.61676675
+Togo,1997,0.61676675
+Togo,1998,0.61676675
+Togo,1999,0.61676675
+Togo,2000,0.61676675
+Togo,2001,0.61676675
+Togo,2002,0.6303966
+Togo,2003,0.59841883
+Togo,2004,0.59841883
+Togo,2005,0.56910968
+Togo,2006,0.55262333
+Togo,2007,0.60181326
+Togo,2008,0.60181326
+Togo,2009,0.60181326
+Togo,2010,0.61574835
+Togo,2011,0.61574835
+Togo,2012,0.61574835
+Togo,2013,0.6285919
+Togo,2014,0.6285919
+Togo,2015,0.61539888
+Togo,2016,0.61539888
+Togo,2017,0.61540622
+Togo,2018,0.60989404
+Togo,2019,0.61528099
+Togo,2020,0.61217332
+Cameroon,1961,0.34836826
+Cameroon,1962,0.34836826
+Cameroon,1963,0.34836826
+Cameroon,1964,0.34836826
+Cameroon,1965,0.34836826
+Cameroon,1966,0.2762953
+Cameroon,1967,0.2762953
+Cameroon,1968,0.2762953
+Cameroon,1969,0.2762953
+Cameroon,1970,0.2762953
+Cameroon,1971,0.2762953
+Cameroon,1972,0.2762953
+Cameroon,1973,0.26411209
+Cameroon,1974,0.26411209
+Cameroon,1975,0.26411209
+Cameroon,1976,0.26411209
+Cameroon,1977,0.26411209
+Cameroon,1978,0.26411209
+Cameroon,1979,0.26411209
+Cameroon,1980,0.24239193
+Cameroon,1981,0.24239193
+Cameroon,1982,0.25571603
+Cameroon,1983,0.25571603
+Cameroon,1984,0.24943548
+Cameroon,1985,0.2687445
+Cameroon,1986,0.2687445
+Cameroon,1987,0.2687445
+Cameroon,1988,0.2687445
+Cameroon,1989,0.2687445
+Cameroon,1990,0.47776496
+Cameroon,1991,0.47776496
+Cameroon,1992,0.52997619
+Cameroon,1993,0.52997619
+Cameroon,1994,0.52997619
+Cameroon,1995,0.52997619
+Cameroon,1996,0.52997619
+Cameroon,1997,0.52997619
+Cameroon,1998,0.53539318
+Cameroon,1999,0.53539318
+Cameroon,2000,0.56038129
+Cameroon,2001,0.56038129
+Cameroon,2002,0.56038129
+Cameroon,2003,0.56038129
+Cameroon,2004,0.56038129
+Cameroon,2005,0.55200726
+Cameroon,2006,0.55200726
+Cameroon,2007,0.55200726
+Cameroon,2008,0.55200726
+Cameroon,2009,0.55200726
+Cameroon,2010,0.55200726
+Cameroon,2011,0.55200726
+Cameroon,2012,0.54395729
+Cameroon,2013,0.55564487
+Cameroon,2014,0.57186961
+Cameroon,2015,0.55564487
+Cameroon,2016,0.57068163
+Cameroon,2017,0.54298538
+Cameroon,2018,0.51795471
+Cameroon,2019,0.49424618
+Cameroon,2020,0.46428981
+Nigeria,1914,0.47947389
+Nigeria,1915,0.47947389
+Nigeria,1916,0.47947389
+Nigeria,1917,0.47947389
+Nigeria,1918,0.47947389
+Nigeria,1919,0.47947389
+Nigeria,1920,0.47947389
+Nigeria,1921,0.47947389
+Nigeria,1922,0.5701164
+Nigeria,1923,0.5924297
+Nigeria,1924,0.5924297
+Nigeria,1925,0.5924297
+Nigeria,1926,0.5924297
+Nigeria,1927,0.5924297
+Nigeria,1928,0.5924297
+Nigeria,1929,0.5924297
+Nigeria,1930,0.5924297
+Nigeria,1931,0.5924297
+Nigeria,1932,0.5924297
+Nigeria,1933,0.5924297
+Nigeria,1934,0.5924297
+Nigeria,1935,0.5924297
+Nigeria,1936,0.5924297
+Nigeria,1937,0.5924297
+Nigeria,1938,0.5924297
+Nigeria,1939,0.5924297
+Nigeria,1940,0.5924297
+Nigeria,1941,0.5924297
+Nigeria,1942,0.5924297
+Nigeria,1943,0.5924297
+Nigeria,1944,0.5924297
+Nigeria,1945,0.57457066
+Nigeria,1946,0.57457066
+Nigeria,1947,0.57457066
+Nigeria,1948,0.57457066
+Nigeria,1949,0.57457066
+Nigeria,1950,0.57457066
+Nigeria,1951,0.57457066
+Nigeria,1952,0.57901937
+Nigeria,1953,0.57901937
+Nigeria,1954,0.58693665
+Nigeria,1955,0.58248794
+Nigeria,1956,0.58248794
+Nigeria,1957,0.58693665
+Nigeria,1958,0.58693665
+Nigeria,1959,0.58248794
+Nigeria,1960,0.7137475
+Nigeria,1961,0.71968871
+Nigeria,1962,0.71968871
+Nigeria,1963,0.71968871
+Nigeria,1964,0.71968871
+Nigeria,1965,0.71968871
+Nigeria,1966,0.57946581
+Nigeria,1967,0.48396674
+Nigeria,1968,0.48396674
+Nigeria,1969,0.48396674
+Nigeria,1970,0.48396674
+Nigeria,1971,0.48396674
+Nigeria,1972,0.48396674
+Nigeria,1973,0.48396674
+Nigeria,1974,0.48396674
+Nigeria,1975,0.48396674
+Nigeria,1976,0.48396674
+Nigeria,1977,0.49307179
+Nigeria,1978,0.51606447
+Nigeria,1979,0.71049899
+Nigeria,1980,0.71049899
+Nigeria,1981,0.71049899
+Nigeria,1982,0.71049899
+Nigeria,1983,0.57965469
+Nigeria,1984,0.51210868
+Nigeria,1985,0.51210868
+Nigeria,1986,0.51210868
+Nigeria,1987,0.51210868
+Nigeria,1988,0.51210868
+Nigeria,1989,0.5169152
+Nigeria,1990,0.52094018
+Nigeria,1991,0.5188691
+Nigeria,1992,0.52133095
+Nigeria,1993,0.52133095
+Nigeria,1994,0.51582104
+Nigeria,1995,0.51582104
+Nigeria,1996,0.51582104
+Nigeria,1997,0.53633672
+Nigeria,1998,0.53633672
+Nigeria,1999,0.72564918
+Nigeria,2000,0.72564918
+Nigeria,2001,0.72564918
+Nigeria,2002,0.72564918
+Nigeria,2003,0.72564918
+Nigeria,2004,0.72564918
+Nigeria,2005,0.7329765
+Nigeria,2006,0.74421972
+Nigeria,2007,0.72506636
+Nigeria,2008,0.75036514
+Nigeria,2009,0.75036514
+Nigeria,2010,0.77407706
+Nigeria,2011,0.77407706
+Nigeria,2012,0.77407706
+Nigeria,2013,0.8071335
+Nigeria,2014,0.81093413
+Nigeria,2015,0.84029084
+Nigeria,2016,0.80358493
+Nigeria,2017,0.79429442
+Nigeria,2018,0.79429442
+Nigeria,2019,0.79116946
+Nigeria,2020,0.81701601
+Gabon,1910,0.42726362
+Gabon,1911,0.42726362
+Gabon,1912,0.42726362
+Gabon,1913,0.42726362
+Gabon,1914,0.42726362
+Gabon,1915,0.42726362
+Gabon,1916,0.42726362
+Gabon,1917,0.42726362
+Gabon,1918,0.42726362
+Gabon,1919,0.42726362
+Gabon,1920,0.42726362
+Gabon,1921,0.42726362
+Gabon,1922,0.42726362
+Gabon,1923,0.42726362
+Gabon,1924,0.42726362
+Gabon,1925,0.42726362
+Gabon,1926,0.42726362
+Gabon,1927,0.42726362
+Gabon,1928,0.42726362
+Gabon,1929,0.42726362
+Gabon,1930,0.42726362
+Gabon,1931,0.42726362
+Gabon,1932,0.42726362
+Gabon,1933,0.42726362
+Gabon,1934,0.42726362
+Gabon,1935,0.42726362
+Gabon,1936,0.42726362
+Gabon,1937,0.42726362
+Gabon,1938,0.42726362
+Gabon,1939,0.42726362
+Gabon,1940,0.42726362
+Gabon,1941,0.42726362
+Gabon,1942,0.42726362
+Gabon,1943,0.42726362
+Gabon,1944,0.42726362
+Gabon,1945,0.4636448
+Gabon,1946,0.54617012
+Gabon,1947,0.54617012
+Gabon,1948,0.54617012
+Gabon,1949,0.54617012
+Gabon,1950,0.53746265
+Gabon,1951,0.53746265
+Gabon,1952,0.53746265
+Gabon,1953,0.53746265
+Gabon,1954,0.53746265
+Gabon,1955,0.53746265
+Gabon,1956,0.53746265
+Gabon,1957,0.53746265
+Gabon,1958,0.53746265
+Gabon,1959,0.53746265
+Gabon,1960,0.47000808
+Gabon,1961,0.47000808
+Gabon,1962,0.47000808
+Gabon,1963,0.47000808
+Gabon,1964,0.33916378
+Gabon,1965,0.32341552
+Gabon,1966,0.29178259
+Gabon,1967,0.42262688
+Gabon,1968,0.31458852
+Gabon,1969,0.31458852
+Gabon,1970,0.31458852
+Gabon,1971,0.31458852
+Gabon,1972,0.31458852
+Gabon,1973,0.31458852
+Gabon,1974,0.31458852
+Gabon,1975,0.31458852
+Gabon,1976,0.31458852
+Gabon,1977,0.31458852
+Gabon,1978,0.31458852
+Gabon,1979,0.31458852
+Gabon,1980,0.31458852
+Gabon,1981,0.31458852
+Gabon,1982,0.31458852
+Gabon,1983,0.31458852
+Gabon,1984,0.31458852
+Gabon,1985,0.31458852
+Gabon,1986,0.31458852
+Gabon,1987,0.31458852
+Gabon,1988,0.31458852
+Gabon,1989,0.31458852
+Gabon,1990,0.43989554
+Gabon,1991,0.50152439
+Gabon,1992,0.5270533
+Gabon,1993,0.5270533
+Gabon,1994,0.5270533
+Gabon,1995,0.5270533
+Gabon,1996,0.5270533
+Gabon,1997,0.5270533
+Gabon,1998,0.5270533
+Gabon,1999,0.5270533
+Gabon,2000,0.5270533
+Gabon,2001,0.5270533
+Gabon,2002,0.5270533
+Gabon,2003,0.5270533
+Gabon,2004,0.5270533
+Gabon,2005,0.5270533
+Gabon,2006,0.5270533
+Gabon,2007,0.5270533
+Gabon,2008,0.5270533
+Gabon,2009,0.5270533
+Gabon,2010,0.55156088
+Gabon,2011,0.55156088
+Gabon,2012,0.56128573
+Gabon,2013,0.52995479
+Gabon,2014,0.52995479
+Gabon,2015,0.52995479
+Gabon,2016,0.52995479
+Gabon,2017,0.57267994
+Gabon,2018,0.52415472
+Gabon,2019,0.55868286
+Gabon,2020,0.51460022
+Central African Republic,1920,0.4622297
+Central African Republic,1921,0.4622297
+Central African Republic,1922,0.4622297
+Central African Republic,1923,0.4622297
+Central African Republic,1924,0.4622297
+Central African Republic,1925,0.4622297
+Central African Republic,1926,0.4622297
+Central African Republic,1927,0.4622297
+Central African Republic,1928,0.4622297
+Central African Republic,1929,0.4622297
+Central African Republic,1930,0.4622297
+Central African Republic,1931,0.4622297
+Central African Republic,1932,0.4622297
+Central African Republic,1933,0.4622297
+Central African Republic,1934,0.4622297
+Central African Republic,1935,0.4622297
+Central African Republic,1936,0.4622297
+Central African Republic,1937,0.4622297
+Central African Republic,1938,0.4622297
+Central African Republic,1939,0.4622297
+Central African Republic,1940,0.42987373
+Central African Republic,1941,0.42987373
+Central African Republic,1942,0.42987373
+Central African Republic,1943,0.42987373
+Central African Republic,1944,0.42987373
+Central African Republic,1945,0.42987373
+Central African Republic,1946,0.6084699
+Central African Republic,1947,0.6084699
+Central African Republic,1948,0.6084699
+Central African Republic,1949,0.6084699
+Central African Republic,1950,0.61366719
+Central African Republic,1951,0.61366719
+Central African Republic,1952,0.61366719
+Central African Republic,1953,0.61366719
+Central African Republic,1954,0.61366719
+Central African Republic,1955,0.61366719
+Central African Republic,1956,0.66413122
+Central African Republic,1957,0.67143875
+Central African Republic,1958,0.64971656
+Central African Republic,1959,0.63663214
+Central African Republic,1960,0.52404696
+Central African Republic,1961,0.52404696
+Central African Republic,1962,0.51541936
+Central African Republic,1963,0.4873617
+Central African Republic,1964,0.47458333
+Central African Republic,1965,0.46313772
+Central African Republic,1966,0.28111497
+Central African Republic,1967,0.28111497
+Central African Republic,1968,0.28111497
+Central African Republic,1969,0.28111497
+Central African Republic,1970,0.28111497
+Central African Republic,1971,0.28111497
+Central African Republic,1972,0.28111497
+Central African Republic,1973,0.28111497
+Central African Republic,1974,0.28111497
+Central African Republic,1975,0.28111497
+Central African Republic,1976,0.28320843
+Central African Republic,1977,0.28111497
+Central African Republic,1978,0.28111497
+Central African Republic,1979,0.29770359
+Central African Republic,1980,0.32479781
+Central African Republic,1981,0.34058511
+Central African Republic,1982,0.15919639
+Central African Republic,1983,0.15919639
+Central African Republic,1984,0.15919639
+Central African Republic,1985,0.15919639
+Central African Republic,1986,0.25907061
+Central African Republic,1987,0.4300476
+Central African Republic,1988,0.4300476
+Central African Republic,1989,0.4300476
+Central African Republic,1990,0.49612719
+Central African Republic,1991,0.53704137
+Central African Republic,1992,0.56736559
+Central African Republic,1993,0.58741599
+Central African Republic,1994,0.58741599
+Central African Republic,1995,0.58741599
+Central African Republic,1996,0.58741599
+Central African Republic,1997,0.58741599
+Central African Republic,1998,0.58741599
+Central African Republic,1999,0.58741599
+Central African Republic,2000,0.55561292
+Central African Republic,2001,0.55561292
+Central African Republic,2002,0.55561292
+Central African Republic,2003,0.39859977
+Central African Republic,2004,0.4112249
+Central African Republic,2005,0.5420692
+Central African Republic,2006,0.5420692
+Central African Republic,2007,0.5420692
+Central African Republic,2008,0.5420692
+Central African Republic,2009,0.5420692
+Central African Republic,2010,0.53464448
+Central African Republic,2011,0.53464448
+Central African Republic,2012,0.53464448
+Central African Republic,2013,0.56680113
+Central African Republic,2014,0.58852124
+Central African Republic,2015,0.58852124
+Central African Republic,2016,0.59956849
+Central African Republic,2017,0.6344853
+Central African Republic,2018,0.62527043
+Central African Republic,2019,0.60534608
+Central African Republic,2020,0.59936118
+Chad,1920,0.41601828
+Chad,1921,0.41601828
+Chad,1922,0.41601828
+Chad,1923,0.41601828
+Chad,1924,0.41601828
+Chad,1925,0.41601828
+Chad,1926,0.41601828
+Chad,1927,0.41601828
+Chad,1928,0.41601828
+Chad,1929,0.41601828
+Chad,1930,0.41601828
+Chad,1931,0.41601828
+Chad,1932,0.41601828
+Chad,1933,0.41601828
+Chad,1934,0.41601828
+Chad,1935,0.41601828
+Chad,1936,0.41601828
+Chad,1937,0.41601828
+Chad,1938,0.41601828
+Chad,1939,0.41601828
+Chad,1940,0.41601828
+Chad,1941,0.41601828
+Chad,1942,0.41601828
+Chad,1943,0.5334509
+Chad,1944,0.5334509
+Chad,1945,0.60691667
+Chad,1946,0.63130105
+Chad,1947,0.63130105
+Chad,1948,0.63130105
+Chad,1949,0.63130105
+Chad,1950,0.63130105
+Chad,1951,0.63130105
+Chad,1952,0.63130105
+Chad,1953,0.63130105
+Chad,1954,0.63130105
+Chad,1955,0.63130105
+Chad,1956,0.63130105
+Chad,1957,0.63130105
+Chad,1958,0.63130105
+Chad,1959,0.63130105
+Chad,1960,0.53366899
+Chad,1961,0.53366899
+Chad,1962,0.47813979
+Chad,1963,0.44214937
+Chad,1964,0.44214937
+Chad,1965,0.44214937
+Chad,1966,0.44214937
+Chad,1967,0.44214937
+Chad,1968,0.44214937
+Chad,1969,0.44214937
+Chad,1970,0.44214937
+Chad,1971,0.44214937
+Chad,1972,0.40875962
+Chad,1973,0.40875962
+Chad,1974,0.40875962
+Chad,1975,0.23226395
+Chad,1976,0.23226395
+Chad,1977,0.23226395
+Chad,1978,0.23226395
+Chad,1979,0.36310825
+Chad,1980,0.36310825
+Chad,1981,0.36310825
+Chad,1982,0.23226395
+Chad,1983,0.23226395
+Chad,1984,0.23226395
+Chad,1985,0.23226395
+Chad,1986,0.23226395
+Chad,1987,0.23226395
+Chad,1988,0.23226395
+Chad,1989,0.23226395
+Chad,1990,0.3118915
+Chad,1991,0.41078228
+Chad,1992,0.43427408
+Chad,1993,0.43427408
+Chad,1994,0.43427408
+Chad,1995,0.43427408
+Chad,1996,0.45389101
+Chad,1997,0.61090416
+Chad,1998,0.61090416
+Chad,1999,0.61090416
+Chad,2000,0.61090416
+Chad,2001,0.61090416
+Chad,2002,0.61090416
+Chad,2003,0.61090416
+Chad,2004,0.61090416
+Chad,2005,0.57165086
+Chad,2006,0.57165086
+Chad,2007,0.58473527
+Chad,2008,0.58473527
+Chad,2009,0.57165086
+Chad,2010,0.58473527
+Chad,2011,0.58473527
+Chad,2012,0.58473527
+Chad,2013,0.53094351
+Chad,2014,0.53094351
+Chad,2015,0.53094351
+Chad,2016,0.53094351
+Chad,2017,0.53095371
+Chad,2018,0.53095371
+Chad,2019,0.53723425
+Chad,2020,0.53723425
+Republic of the Congo,1903,0.47367591
+Republic of the Congo,1904,0.47367591
+Republic of the Congo,1905,0.47367591
+Republic of the Congo,1906,0.47367591
+Republic of the Congo,1907,0.47367591
+Republic of the Congo,1908,0.47367591
+Republic of the Congo,1909,0.47367591
+Republic of the Congo,1910,0.47367591
+Republic of the Congo,1911,0.47367591
+Republic of the Congo,1912,0.47367591
+Republic of the Congo,1913,0.47367591
+Republic of the Congo,1914,0.47367591
+Republic of the Congo,1915,0.47367591
+Republic of the Congo,1916,0.47367591
+Republic of the Congo,1917,0.47367591
+Republic of the Congo,1918,0.47367591
+Republic of the Congo,1919,0.47367591
+Republic of the Congo,1920,0.47367591
+Republic of the Congo,1921,0.47367591
+Republic of the Congo,1922,0.47367591
+Republic of the Congo,1923,0.47367591
+Republic of the Congo,1924,0.47367591
+Republic of the Congo,1925,0.47367591
+Republic of the Congo,1926,0.47367591
+Republic of the Congo,1927,0.47367591
+Republic of the Congo,1928,0.47367591
+Republic of the Congo,1929,0.47367591
+Republic of the Congo,1930,0.47367591
+Republic of the Congo,1931,0.47367591
+Republic of the Congo,1932,0.47367591
+Republic of the Congo,1933,0.47367591
+Republic of the Congo,1934,0.47367591
+Republic of the Congo,1935,0.47367591
+Republic of the Congo,1936,0.47367591
+Republic of the Congo,1937,0.47367591
+Republic of the Congo,1938,0.47367591
+Republic of the Congo,1939,0.47367591
+Republic of the Congo,1940,0.47367591
+Republic of the Congo,1941,0.47367591
+Republic of the Congo,1942,0.47367591
+Republic of the Congo,1943,0.47367591
+Republic of the Congo,1944,0.47367591
+Republic of the Congo,1945,0.54330665
+Republic of the Congo,1946,0.55588806
+Republic of the Congo,1947,0.55588806
+Republic of the Congo,1948,0.55588806
+Republic of the Congo,1949,0.55588806
+Republic of the Congo,1950,0.55588806
+Republic of the Congo,1951,0.55588806
+Republic of the Congo,1952,0.55588806
+Republic of the Congo,1953,0.55588806
+Republic of the Congo,1954,0.55588806
+Republic of the Congo,1955,0.55588806
+Republic of the Congo,1956,0.57847351
+Republic of the Congo,1957,0.56224883
+Republic of the Congo,1958,0.56657368
+Republic of the Congo,1959,0.56657368
+Republic of the Congo,1960,0.56525415
+Republic of the Congo,1961,0.55024838
+Republic of the Congo,1962,0.52603304
+Republic of the Congo,1963,0.36929736
+Republic of the Congo,1964,0.31205997
+Republic of the Congo,1965,0.31205997
+Republic of the Congo,1966,0.31205997
+Republic of the Congo,1967,0.31205997
+Republic of the Congo,1968,0.21334474
+Republic of the Congo,1969,0.21334474
+Republic of the Congo,1970,0.15843372
+Republic of the Congo,1971,0.15843372
+Republic of the Congo,1972,0.15843372
+Republic of the Congo,1973,0.15843372
+Republic of the Congo,1974,0.15843372
+Republic of the Congo,1975,0.15843372
+Republic of the Congo,1976,0.15843372
+Republic of the Congo,1977,0.15843372
+Republic of the Congo,1978,0.15843372
+Republic of the Congo,1979,0.15843372
+Republic of the Congo,1980,0.15843372
+Republic of the Congo,1981,0.15843372
+Republic of the Congo,1982,0.15843372
+Republic of the Congo,1983,0.15843372
+Republic of the Congo,1984,0.15843372
+Republic of the Congo,1985,0.15843372
+Republic of the Congo,1986,0.15843372
+Republic of the Congo,1987,0.15843372
+Republic of the Congo,1988,0.15843372
+Republic of the Congo,1989,0.15843372
+Republic of the Congo,1990,0.30275053
+Republic of the Congo,1991,0.46725813
+Republic of the Congo,1992,0.73574394
+Republic of the Congo,1993,0.73574394
+Republic of the Congo,1994,0.73574394
+Republic of the Congo,1995,0.73574394
+Republic of the Congo,1996,0.73574394
+Republic of the Congo,1997,0.46685126
+Republic of the Congo,1998,0.45514357
+Republic of the Congo,1999,0.45514357
+Republic of the Congo,2000,0.45514357
+Republic of the Congo,2001,0.45514357
+Republic of the Congo,2002,0.44798034
+Republic of the Congo,2003,0.57882464
+Republic of the Congo,2004,0.57882464
+Republic of the Congo,2005,0.54402006
+Republic of the Congo,2006,0.54402006
+Republic of the Congo,2007,0.54402006
+Republic of the Congo,2008,0.54402006
+Republic of the Congo,2009,0.54402006
+Republic of the Congo,2010,0.53597009
+Republic of the Congo,2011,0.53597009
+Republic of the Congo,2012,0.53597009
+Republic of the Congo,2013,0.49916381
+Republic of the Congo,2014,0.49916381
+Republic of the Congo,2015,0.49916381
+Republic of the Congo,2016,0.49916381
+Republic of the Congo,2017,0.48058391
+Republic of the Congo,2018,0.51329499
+Republic of the Congo,2019,0.51329499
+Republic of the Congo,2020,0.50675279
+Democratic Republic of the Congo,1900,0.24072963
+Democratic Republic of the Congo,1901,0.24072963
+Democratic Republic of the Congo,1902,0.24072963
+Democratic Republic of the Congo,1903,0.24072963
+Democratic Republic of the Congo,1904,0.24072963
+Democratic Republic of the Congo,1905,0.24072963
+Democratic Republic of the Congo,1906,0.24072963
+Democratic Republic of the Congo,1907,0.24072963
+Democratic Republic of the Congo,1908,0.24072963
+Democratic Republic of the Congo,1909,0.24072963
+Democratic Republic of the Congo,1910,0.24072963
+Democratic Republic of the Congo,1911,0.24072963
+Democratic Republic of the Congo,1912,0.24072963
+Democratic Republic of the Congo,1913,0.24072963
+Democratic Republic of the Congo,1914,0.24072963
+Democratic Republic of the Congo,1915,0.24072963
+Democratic Republic of the Congo,1916,0.24072963
+Democratic Republic of the Congo,1917,0.24072963
+Democratic Republic of the Congo,1918,0.24072963
+Democratic Republic of the Congo,1919,0.24072963
+Democratic Republic of the Congo,1920,0.30566278
+Democratic Republic of the Congo,1921,0.30566278
+Democratic Republic of the Congo,1922,0.30566278
+Democratic Republic of the Congo,1923,0.30566278
+Democratic Republic of the Congo,1924,0.30566278
+Democratic Republic of the Congo,1925,0.30566278
+Democratic Republic of the Congo,1926,0.30566278
+Democratic Republic of the Congo,1927,0.30566278
+Democratic Republic of the Congo,1928,0.30566278
+Democratic Republic of the Congo,1929,0.30566278
+Democratic Republic of the Congo,1930,0.30566278
+Democratic Republic of the Congo,1931,0.30566278
+Democratic Republic of the Congo,1932,0.30566278
+Democratic Republic of the Congo,1933,0.30566278
+Democratic Republic of the Congo,1934,0.30566278
+Democratic Republic of the Congo,1935,0.30566278
+Democratic Republic of the Congo,1936,0.30566278
+Democratic Republic of the Congo,1937,0.30566278
+Democratic Republic of the Congo,1938,0.30566278
+Democratic Republic of the Congo,1939,0.30566278
+Democratic Republic of the Congo,1940,0.30566278
+Democratic Republic of the Congo,1941,0.30566278
+Democratic Republic of the Congo,1942,0.30566278
+Democratic Republic of the Congo,1943,0.30566278
+Democratic Republic of the Congo,1944,0.30566278
+Democratic Republic of the Congo,1945,0.30566278
+Democratic Republic of the Congo,1946,0.30566278
+Democratic Republic of the Congo,1947,0.30566278
+Democratic Republic of the Congo,1948,0.30566278
+Democratic Republic of the Congo,1949,0.30566278
+Democratic Republic of the Congo,1950,0.30566278
+Democratic Republic of the Congo,1951,0.30566278
+Democratic Republic of the Congo,1952,0.30566278
+Democratic Republic of the Congo,1953,0.30566278
+Democratic Republic of the Congo,1954,0.30566278
+Democratic Republic of the Congo,1955,0.48130566
+Democratic Republic of the Congo,1956,0.48130566
+Democratic Republic of the Congo,1957,0.48130566
+Democratic Republic of the Congo,1958,0.51753056
+Democratic Republic of the Congo,1959,0.53781182
+Democratic Republic of the Congo,1960,0.6486342
+Democratic Republic of the Congo,1961,0.61047643
+Democratic Republic of the Congo,1962,0.61047643
+Democratic Republic of the Congo,1963,0.61047643
+Democratic Republic of the Congo,1964,0.61047643
+Democratic Republic of the Congo,1965,0.40480226
+Democratic Republic of the Congo,1966,0.24717678
+Democratic Republic of the Congo,1967,0.167123
+Democratic Republic of the Congo,1968,0.167123
+Democratic Republic of the Congo,1969,0.167123
+Democratic Republic of the Congo,1970,0.30949518
+Democratic Republic of the Congo,1971,0.30949518
+Democratic Republic of the Congo,1972,0.30949518
+Democratic Republic of the Congo,1973,0.30949518
+Democratic Republic of the Congo,1974,0.30949518
+Democratic Republic of the Congo,1975,0.30949518
+Democratic Republic of the Congo,1976,0.30949518
+Democratic Republic of the Congo,1977,0.30949518
+Democratic Republic of the Congo,1978,0.30949518
+Democratic Republic of the Congo,1979,0.30949518
+Democratic Republic of the Congo,1980,0.32286295
+Democratic Republic of the Congo,1981,0.32286295
+Democratic Republic of the Congo,1982,0.32286295
+Democratic Republic of the Congo,1983,0.32286295
+Democratic Republic of the Congo,1984,0.32286295
+Democratic Republic of the Congo,1985,0.32286295
+Democratic Republic of the Congo,1986,0.32286295
+Democratic Republic of the Congo,1987,0.32286295
+Democratic Republic of the Congo,1988,0.32286295
+Democratic Republic of the Congo,1989,0.32286295
+Democratic Republic of the Congo,1990,0.43269128
+Democratic Republic of the Congo,1991,0.48590791
+Democratic Republic of the Congo,1992,0.48590791
+Democratic Republic of the Congo,1993,0.48590791
+Democratic Republic of the Congo,1994,0.48590791
+Democratic Republic of the Congo,1995,0.48590791
+Democratic Republic of the Congo,1996,0.46418777
+Democratic Republic of the Congo,1997,0.20316511
+Democratic Republic of the Congo,1998,0.30635411
+Democratic Republic of the Congo,1999,0.30635411
+Democratic Republic of the Congo,2000,0.32526991
+Democratic Republic of the Congo,2001,0.35617858
+Democratic Republic of the Congo,2002,0.36778462
+Democratic Republic of the Congo,2003,0.42158791
+Democratic Republic of the Congo,2004,0.61691207
+Democratic Republic of the Congo,2005,0.60520643
+Democratic Republic of the Congo,2006,0.61940354
+Democratic Republic of the Congo,2007,0.61940354
+Democratic Republic of the Congo,2008,0.61940354
+Democratic Republic of the Congo,2009,0.61940354
+Democratic Republic of the Congo,2010,0.59458077
+Democratic Republic of the Congo,2011,0.59458077
+Democratic Republic of the Congo,2012,0.5977698
+Democratic Republic of the Congo,2013,0.56665128
+Democratic Republic of the Congo,2014,0.56723136
+Democratic Republic of the Congo,2015,0.54815316
+Democratic Republic of the Congo,2016,0.5462774
+Democratic Republic of the Congo,2017,0.54734838
+Democratic Republic of the Congo,2018,0.56642109
+Democratic Republic of the Congo,2019,0.59855646
+Democratic Republic of the Congo,2020,0.59563005
+Uganda,1900,0.35037303
+Uganda,1901,0.35037303
+Uganda,1902,0.35037303
+Uganda,1903,0.35037303
+Uganda,1904,0.35037303
+Uganda,1905,0.35037303
+Uganda,1906,0.35037303
+Uganda,1907,0.35037303
+Uganda,1908,0.35037303
+Uganda,1909,0.35037303
+Uganda,1910,0.35037303
+Uganda,1911,0.35037303
+Uganda,1912,0.35037303
+Uganda,1913,0.35037303
+Uganda,1914,0.35037303
+Uganda,1915,0.35037303
+Uganda,1916,0.35037303
+Uganda,1917,0.35037303
+Uganda,1918,0.35037303
+Uganda,1919,0.35037303
+Uganda,1920,0.35037303
+Uganda,1921,0.35037303
+Uganda,1922,0.35037303
+Uganda,1923,0.35037303
+Uganda,1924,0.35037303
+Uganda,1925,0.35037303
+Uganda,1926,0.35037303
+Uganda,1927,0.35037303
+Uganda,1928,0.35037303
+Uganda,1929,0.35037303
+Uganda,1930,0.35037303
+Uganda,1931,0.35037303
+Uganda,1932,0.35037303
+Uganda,1933,0.35037303
+Uganda,1934,0.35037303
+Uganda,1935,0.35037303
+Uganda,1936,0.35037303
+Uganda,1937,0.35037303
+Uganda,1938,0.35037303
+Uganda,1939,0.35037303
+Uganda,1940,0.35037303
+Uganda,1941,0.35037303
+Uganda,1942,0.35037303
+Uganda,1943,0.35037303
+Uganda,1944,0.35037303
+Uganda,1945,0.35037303
+Uganda,1946,0.35037303
+Uganda,1947,0.35037303
+Uganda,1948,0.36846593
+Uganda,1949,0.36846593
+Uganda,1950,0.36846593
+Uganda,1951,0.43547848
+Uganda,1952,0.43547848
+Uganda,1953,0.43547848
+Uganda,1954,0.43547848
+Uganda,1955,0.43547848
+Uganda,1956,0.49190813
+Uganda,1957,0.49190813
+Uganda,1958,0.52742124
+Uganda,1959,0.50614637
+Uganda,1960,0.53146857
+Uganda,1961,0.54846227
+Uganda,1962,0.57752013
+Uganda,1963,0.60084134
+Uganda,1964,0.60084134
+Uganda,1965,0.60084134
+Uganda,1966,0.38470185
+Uganda,1967,0.39149082
+Uganda,1968,0.39149082
+Uganda,1969,0.33136532
+Uganda,1970,0.33136532
+Uganda,1971,0.26012772
+Uganda,1972,0.09050563
+Uganda,1973,0.09050563
+Uganda,1974,0.09050563
+Uganda,1975,0.09050563
+Uganda,1976,0.09050563
+Uganda,1977,0.09050563
+Uganda,1978,0.09050563
+Uganda,1979,0.22134992
+Uganda,1980,0.49516967
+Uganda,1981,0.51609504
+Uganda,1982,0.51609504
+Uganda,1983,0.51609504
+Uganda,1984,0.51609504
+Uganda,1985,0.34074122
+Uganda,1986,0.23348971
+Uganda,1987,0.20347229
+Uganda,1988,0.20347229
+Uganda,1989,0.20347229
+Uganda,1990,0.36048543
+Uganda,1991,0.36048543
+Uganda,1992,0.36048543
+Uganda,1993,0.36048543
+Uganda,1994,0.36048543
+Uganda,1995,0.36952832
+Uganda,1996,0.45192775
+Uganda,1997,0.48582894
+Uganda,1998,0.48582894
+Uganda,1999,0.48582894
+Uganda,2000,0.48031902
+Uganda,2001,0.48031902
+Uganda,2002,0.48031902
+Uganda,2003,0.48031902
+Uganda,2004,0.52161539
+Uganda,2005,0.57968986
+Uganda,2006,0.59462428
+Uganda,2007,0.59462428
+Uganda,2008,0.59462428
+Uganda,2009,0.59462428
+Uganda,2010,0.59589118
+Uganda,2011,0.59239632
+Uganda,2012,0.60050869
+Uganda,2013,0.58601588
+Uganda,2014,0.58492374
+Uganda,2015,0.58492374
+Uganda,2016,0.58989584
+Uganda,2017,0.58230323
+Uganda,2018,0.60744011
+Uganda,2019,0.62183297
+Uganda,2020,0.58283639
+Kenya,1900,0.33688557
+Kenya,1901,0.33688557
+Kenya,1902,0.33688557
+Kenya,1903,0.33688557
+Kenya,1904,0.33688557
+Kenya,1905,0.33688557
+Kenya,1906,0.33688557
+Kenya,1907,0.33924076
+Kenya,1908,0.33924076
+Kenya,1909,0.33924076
+Kenya,1910,0.33924076
+Kenya,1911,0.33924076
+Kenya,1912,0.33924076
+Kenya,1913,0.33924076
+Kenya,1914,0.33924076
+Kenya,1915,0.33924076
+Kenya,1916,0.33924076
+Kenya,1917,0.33924076
+Kenya,1918,0.33924076
+Kenya,1919,0.33924076
+Kenya,1920,0.37015069
+Kenya,1921,0.37015069
+Kenya,1922,0.37015069
+Kenya,1923,0.37015069
+Kenya,1924,0.37015069
+Kenya,1925,0.37015069
+Kenya,1926,0.37015069
+Kenya,1927,0.37015069
+Kenya,1928,0.37015069
+Kenya,1929,0.37015069
+Kenya,1930,0.37015069
+Kenya,1931,0.37015069
+Kenya,1932,0.37015069
+Kenya,1933,0.37015069
+Kenya,1934,0.37015069
+Kenya,1935,0.37015069
+Kenya,1936,0.37015069
+Kenya,1937,0.37015069
+Kenya,1938,0.37015069
+Kenya,1939,0.37015069
+Kenya,1940,0.37015069
+Kenya,1941,0.37015069
+Kenya,1942,0.37015069
+Kenya,1943,0.37015069
+Kenya,1944,0.37015069
+Kenya,1945,0.41773373
+Kenya,1946,0.41773373
+Kenya,1947,0.41773373
+Kenya,1948,0.41773373
+Kenya,1949,0.41773373
+Kenya,1950,0.45919877
+Kenya,1951,0.45919877
+Kenya,1952,0.50071794
+Kenya,1953,0.50071794
+Kenya,1954,0.50071794
+Kenya,1955,0.50071794
+Kenya,1956,0.50071794
+Kenya,1957,0.50071794
+Kenya,1958,0.50628531
+Kenya,1959,0.50628531
+Kenya,1960,0.5077076
+Kenya,1961,0.51331115
+Kenya,1962,0.52401209
+Kenya,1963,0.54684347
+Kenya,1964,0.51389474
+Kenya,1965,0.49976358
+Kenya,1966,0.50276583
+Kenya,1967,0.50276583
+Kenya,1968,0.50276583
+Kenya,1969,0.43839791
+Kenya,1970,0.40556526
+Kenya,1971,0.40556526
+Kenya,1972,0.40556526
+Kenya,1973,0.40556526
+Kenya,1974,0.40946966
+Kenya,1975,0.40946966
+Kenya,1976,0.40946966
+Kenya,1977,0.40946966
+Kenya,1978,0.40946966
+Kenya,1979,0.40946966
+Kenya,1980,0.40946966
+Kenya,1981,0.40946966
+Kenya,1982,0.37931433
+Kenya,1983,0.36427513
+Kenya,1984,0.36427513
+Kenya,1985,0.36427513
+Kenya,1986,0.36427513
+Kenya,1987,0.36427513
+Kenya,1988,0.36427513
+Kenya,1989,0.36427513
+Kenya,1990,0.37161398
+Kenya,1991,0.41402838
+Kenya,1992,0.58819169
+Kenya,1993,0.60441637
+Kenya,1994,0.60441637
+Kenya,1995,0.60441637
+Kenya,1996,0.60441637
+Kenya,1997,0.60441637
+Kenya,1998,0.60441637
+Kenya,1999,0.60441637
+Kenya,2000,0.60441637
+Kenya,2001,0.60441637
+Kenya,2002,0.65957463
+Kenya,2003,0.70020217
+Kenya,2004,0.70020217
+Kenya,2005,0.6884262
+Kenya,2006,0.6884262
+Kenya,2007,0.6884262
+Kenya,2008,0.69476056
+Kenya,2009,0.70507038
+Kenya,2010,0.70873404
+Kenya,2011,0.69738895
+Kenya,2012,0.69738895
+Kenya,2013,0.72644097
+Kenya,2014,0.72644097
+Kenya,2015,0.72644097
+Kenya,2016,0.72434616
+Kenya,2017,0.71016282
+Kenya,2018,0.68953741
+Kenya,2019,0.75476235
+Kenya,2020,0.71108049
+Tanzania,1914,0.42532882
+Tanzania,1915,0.42532882
+Tanzania,1916,0.42532882
+Tanzania,1917,0.42532882
+Tanzania,1918,0.42532882
+Tanzania,1919,0.42532882
+Tanzania,1920,0.42532882
+Tanzania,1921,0.42532882
+Tanzania,1922,0.42532882
+Tanzania,1923,0.42532882
+Tanzania,1924,0.42532882
+Tanzania,1925,0.42532882
+Tanzania,1926,0.42532882
+Tanzania,1927,0.42532882
+Tanzania,1928,0.42532882
+Tanzania,1929,0.42532882
+Tanzania,1930,0.42532882
+Tanzania,1931,0.42532882
+Tanzania,1932,0.42532882
+Tanzania,1933,0.42532882
+Tanzania,1934,0.42532882
+Tanzania,1935,0.42532882
+Tanzania,1936,0.42532882
+Tanzania,1937,0.42532882
+Tanzania,1938,0.42532882
+Tanzania,1939,0.42532882
+Tanzania,1940,0.42532882
+Tanzania,1941,0.42532882
+Tanzania,1942,0.42532882
+Tanzania,1943,0.42532882
+Tanzania,1944,0.42532882
+Tanzania,1945,0.42532882
+Tanzania,1946,0.42532882
+Tanzania,1947,0.42532882
+Tanzania,1948,0.42532882
+Tanzania,1949,0.42532882
+Tanzania,1950,0.42532882
+Tanzania,1951,0.42532882
+Tanzania,1952,0.42532882
+Tanzania,1953,0.42532882
+Tanzania,1954,0.46491519
+Tanzania,1955,0.4993425
+Tanzania,1956,0.51195955
+Tanzania,1957,0.51195955
+Tanzania,1958,0.56971616
+Tanzania,1959,0.56971616
+Tanzania,1960,0.58442998
+Tanzania,1961,0.70286918
+Tanzania,1962,0.44184589
+Tanzania,1963,0.59547025
+Tanzania,1964,0.58899903
+Tanzania,1965,0.49907663
+Tanzania,1966,0.49114388
+Tanzania,1967,0.49114388
+Tanzania,1968,0.49114388
+Tanzania,1969,0.49114388
+Tanzania,1970,0.49114388
+Tanzania,1971,0.49114388
+Tanzania,1972,0.49114388
+Tanzania,1973,0.49114388
+Tanzania,1974,0.49114388
+Tanzania,1975,0.49114388
+Tanzania,1976,0.49114388
+Tanzania,1977,0.49114388
+Tanzania,1978,0.49114388
+Tanzania,1979,0.49114388
+Tanzania,1980,0.49114388
+Tanzania,1981,0.49114388
+Tanzania,1982,0.49114388
+Tanzania,1983,0.49114388
+Tanzania,1984,0.49114388
+Tanzania,1985,0.46497503
+Tanzania,1986,0.46497503
+Tanzania,1987,0.46497503
+Tanzania,1988,0.46497503
+Tanzania,1989,0.46497503
+Tanzania,1990,0.5051856
+Tanzania,1991,0.5051856
+Tanzania,1992,0.64277887
+Tanzania,1993,0.65850568
+Tanzania,1994,0.68633336
+Tanzania,1995,0.74408996
+Tanzania,1996,0.74526948
+Tanzania,1997,0.74526948
+Tanzania,1998,0.74526948
+Tanzania,1999,0.74526948
+Tanzania,2000,0.74526948
+Tanzania,2001,0.74526948
+Tanzania,2002,0.74526948
+Tanzania,2003,0.74526948
+Tanzania,2004,0.74526948
+Tanzania,2005,0.75076491
+Tanzania,2006,0.75076491
+Tanzania,2007,0.75076491
+Tanzania,2008,0.75076491
+Tanzania,2009,0.75076491
+Tanzania,2010,0.75275791
+Tanzania,2011,0.75275791
+Tanzania,2012,0.75275791
+Tanzania,2013,0.742971
+Tanzania,2014,0.742971
+Tanzania,2015,0.75506353
+Tanzania,2016,0.75506353
+Tanzania,2017,0.72754186
+Tanzania,2018,0.72021461
+Tanzania,2019,0.69876105
+Tanzania,2020,0.71919644
+Zanzibar,1856,0.41575739
+Zanzibar,1857,0.41575739
+Zanzibar,1858,0.41575739
+Zanzibar,1859,0.41575739
+Zanzibar,1860,0.3610411
+Zanzibar,1861,0.3610411
+Zanzibar,1862,0.3610411
+Zanzibar,1863,0.3610411
+Zanzibar,1864,0.3610411
+Zanzibar,1865,0.3610411
+Zanzibar,1866,0.3610411
+Zanzibar,1867,0.3610411
+Zanzibar,1868,0.3610411
+Zanzibar,1869,0.3610411
+Zanzibar,1870,0.3610411
+Zanzibar,1871,0.3610411
+Zanzibar,1872,0.3610411
+Zanzibar,1873,0.3610411
+Zanzibar,1874,0.3610411
+Zanzibar,1875,0.099352501
+Zanzibar,1876,0.099352501
+Zanzibar,1877,0.099352501
+Zanzibar,1878,0.099352501
+Zanzibar,1879,0.099352501
+Zanzibar,1880,0.099352501
+Zanzibar,1881,0.099352501
+Zanzibar,1882,0.099352501
+Zanzibar,1883,0.099352501
+Zanzibar,1884,0.099352501
+Zanzibar,1885,0.099352501
+Zanzibar,1886,0.099352501
+Zanzibar,1887,0.099352501
+Zanzibar,1888,0.099352501
+Zanzibar,1889,0.099352501
+Zanzibar,1890,0.099352501
+Zanzibar,1891,0.23648122
+Zanzibar,1892,0.23648122
+Zanzibar,1893,0.23648122
+Zanzibar,1894,0.23648122
+Zanzibar,1895,0.23648122
+Zanzibar,1896,0.23648122
+Zanzibar,1897,0.23648122
+Zanzibar,1898,0.23648122
+Zanzibar,1899,0.23648122
+Zanzibar,1900,0.46545875
+Zanzibar,1901,0.46545875
+Zanzibar,1902,0.46545875
+Zanzibar,1903,0.46545875
+Zanzibar,1904,0.46545875
+Zanzibar,1905,0.33461443
+Zanzibar,1906,0.46545875
+Zanzibar,1907,0.46545875
+Zanzibar,1908,0.46545875
+Zanzibar,1909,0.46545875
+Zanzibar,1910,0.46545875
+Zanzibar,1911,0.46545875
+Zanzibar,1912,0.46545875
+Zanzibar,1913,0.47200096
+Zanzibar,1914,0.47200096
+Zanzibar,1915,0.47200096
+Zanzibar,1916,0.47200096
+Zanzibar,1917,0.47200096
+Zanzibar,1918,0.47200096
+Zanzibar,1919,0.47200096
+Zanzibar,1920,0.47200096
+Zanzibar,1921,0.49816981
+Zanzibar,1922,0.49816981
+Zanzibar,1923,0.49816981
+Zanzibar,1924,0.49816981
+Zanzibar,1925,0.49816981
+Zanzibar,1926,0.49816981
+Zanzibar,1927,0.49816981
+Zanzibar,1928,0.49816981
+Zanzibar,1929,0.49816981
+Zanzibar,1930,0.49816981
+Zanzibar,1931,0.49816981
+Zanzibar,1932,0.49816981
+Zanzibar,1933,0.49816981
+Zanzibar,1934,0.49816981
+Zanzibar,1935,0.49816981
+Zanzibar,1936,0.49816981
+Zanzibar,1937,0.49816981
+Zanzibar,1938,0.49816981
+Zanzibar,1939,0.49816981
+Zanzibar,1940,0.49816981
+Zanzibar,1941,0.49816981
+Zanzibar,1942,0.49816981
+Zanzibar,1943,0.49816981
+Zanzibar,1944,0.49816981
+Zanzibar,1945,0.49816981
+Zanzibar,1946,0.49816981
+Zanzibar,1947,0.49816981
+Zanzibar,1948,0.49816981
+Zanzibar,1949,0.49816981
+Zanzibar,1950,0.49816981
+Zanzibar,1951,0.49816981
+Zanzibar,1952,0.49816981
+Zanzibar,1953,0.49816981
+Zanzibar,1954,0.49816981
+Zanzibar,1955,0.54775923
+Zanzibar,1956,0.5811705
+Zanzibar,1957,0.59898984
+Zanzibar,1958,0.59898984
+Zanzibar,1959,0.59898984
+Zanzibar,1960,0.59898984
+Zanzibar,1961,0.61782521
+Zanzibar,1962,0.61782521
+Zanzibar,1963,0.61612153
+Zanzibar,1964,0.24373153
+Zanzibar,1965,0.24451661
+Zanzibar,1966,0.24451661
+Zanzibar,1967,0.24451661
+Zanzibar,1968,0.24451661
+Zanzibar,1969,0.24451661
+Zanzibar,1970,0.24451661
+Zanzibar,1971,0.24451661
+Zanzibar,1972,0.20709513
+Zanzibar,1973,0.20709513
+Zanzibar,1974,0.20709513
+Zanzibar,1975,0.20709513
+Zanzibar,1976,0.20709513
+Zanzibar,1977,0.19008538
+Zanzibar,1978,0.18825352
+Zanzibar,1979,0.18825352
+Zanzibar,1980,0.31909785
+Zanzibar,1981,0.31909785
+Zanzibar,1982,0.31909785
+Zanzibar,1983,0.31909785
+Zanzibar,1984,0.31909785
+Zanzibar,1985,0.31909785
+Zanzibar,1986,0.31909785
+Zanzibar,1987,0.31909785
+Zanzibar,1988,0.31909785
+Zanzibar,1989,0.31909785
+Zanzibar,1990,0.31909785
+Zanzibar,1991,0.31909785
+Zanzibar,1992,0.38628465
+Zanzibar,1993,0.38628465
+Zanzibar,1994,0.38628465
+Zanzibar,1995,0.51638758
+Zanzibar,1996,0.53496748
+Zanzibar,1997,0.53496748
+Zanzibar,1998,0.53496748
+Zanzibar,1999,0.53496748
+Zanzibar,2000,0.53496748
+Zanzibar,2001,0.54304928
+Zanzibar,2002,0.54304928
+Zanzibar,2003,0.54304928
+Zanzibar,2004,0.54514283
+Zanzibar,2005,0.52709353
+Zanzibar,2006,0.546341
+Zanzibar,2007,0.546341
+Zanzibar,2008,0.54249668
+Zanzibar,2009,0.54249668
+Zanzibar,2010,0.53638834
+Zanzibar,2011,0.53638834
+Zanzibar,2012,0.53638834
+Zanzibar,2013,0.53638834
+Zanzibar,2014,0.5243507
+Zanzibar,2015,0.5180468
+Zanzibar,2016,0.5180468
+Zanzibar,2017,0.50107491
+Zanzibar,2018,0.5124957
+Zanzibar,2019,0.51973516
+Zanzibar,2020,0.51973516
+Burundi,1916,0.37866116
+Burundi,1917,0.37866116
+Burundi,1918,0.37866116
+Burundi,1919,0.37866116
+Burundi,1920,0.35458583
+Burundi,1921,0.35458583
+Burundi,1922,0.35458583
+Burundi,1923,0.35458583
+Burundi,1924,0.35458583
+Burundi,1925,0.35458583
+Burundi,1926,0.35458583
+Burundi,1927,0.35458583
+Burundi,1928,0.35458583
+Burundi,1929,0.35458583
+Burundi,1930,0.35458583
+Burundi,1931,0.35458583
+Burundi,1932,0.35458583
+Burundi,1933,0.35458583
+Burundi,1934,0.35458583
+Burundi,1935,0.35458583
+Burundi,1936,0.35458583
+Burundi,1937,0.35458583
+Burundi,1938,0.35458583
+Burundi,1939,0.35458583
+Burundi,1940,0.35458583
+Burundi,1941,0.35458583
+Burundi,1942,0.35458583
+Burundi,1943,0.35458583
+Burundi,1944,0.35458583
+Burundi,1945,0.35458583
+Burundi,1946,0.35458583
+Burundi,1947,0.35458583
+Burundi,1948,0.35458583
+Burundi,1949,0.35458583
+Burundi,1950,0.35458583
+Burundi,1951,0.35458583
+Burundi,1952,0.35458583
+Burundi,1953,0.35458583
+Burundi,1954,0.35458583
+Burundi,1955,0.35458583
+Burundi,1956,0.35458583
+Burundi,1957,0.405074
+Burundi,1958,0.42769989
+Burundi,1959,0.47614437
+Burundi,1960,0.46909472
+Burundi,1961,0.46909472
+Burundi,1962,0.48074257
+Burundi,1963,0.48357198
+Burundi,1964,0.48357198
+Burundi,1965,0.48357198
+Burundi,1966,0.26717231
+Burundi,1967,0.26357716
+Burundi,1968,0.26357716
+Burundi,1969,0.23115088
+Burundi,1970,0.1969853
+Burundi,1971,0.1969853
+Burundi,1972,0.1969853
+Burundi,1973,0.1969853
+Burundi,1974,0.1969853
+Burundi,1975,0.1969853
+Burundi,1976,0.1969853
+Burundi,1977,0.1969853
+Burundi,1978,0.1969853
+Burundi,1979,0.1969853
+Burundi,1980,0.1969853
+Burundi,1981,0.1969853
+Burundi,1982,0.17526512
+Burundi,1983,0.1969853
+Burundi,1984,0.32782957
+Burundi,1985,0.32782957
+Burundi,1986,0.32782957
+Burundi,1987,0.1969853
+Burundi,1988,0.1969853
+Burundi,1989,0.1969853
+Burundi,1990,0.1969853
+Burundi,1991,0.1969853
+Burundi,1992,0.42839897
+Burundi,1993,0.70464307
+Burundi,1994,0.64085519
+Burundi,1995,0.64085519
+Burundi,1996,0.51001084
+Burundi,1997,0.51001084
+Burundi,1998,0.51001084
+Burundi,1999,0.51001084
+Burundi,2000,0.51001084
+Burundi,2001,0.51001084
+Burundi,2002,0.52801454
+Burundi,2003,0.65885884
+Burundi,2004,0.65885884
+Burundi,2005,0.64824605
+Burundi,2006,0.5954842
+Burundi,2007,0.59327894
+Burundi,2008,0.57784128
+Burundi,2009,0.56791562
+Burundi,2010,0.55959314
+Burundi,2011,0.55959314
+Burundi,2012,0.55959314
+Burundi,2013,0.53140616
+Burundi,2014,0.51318932
+Burundi,2015,0.47491658
+Burundi,2016,0.46071953
+Burundi,2017,0.4576712
+Burundi,2018,0.43890381
+Burundi,2019,0.43890381
+Burundi,2020,0.46713528
+Rwanda,1916,0.16737206
+Rwanda,1917,0.16737206
+Rwanda,1918,0.16737206
+Rwanda,1919,0.16737206
+Rwanda,1920,0.17182077
+Rwanda,1921,0.17182077
+Rwanda,1922,0.17182077
+Rwanda,1923,0.17182077
+Rwanda,1924,0.17182077
+Rwanda,1925,0.17182077
+Rwanda,1926,0.17182077
+Rwanda,1927,0.17182077
+Rwanda,1928,0.17182077
+Rwanda,1929,0.17182077
+Rwanda,1930,0.17182077
+Rwanda,1931,0.17182077
+Rwanda,1932,0.17182077
+Rwanda,1933,0.17182077
+Rwanda,1934,0.17182077
+Rwanda,1935,0.17182077
+Rwanda,1936,0.17182077
+Rwanda,1937,0.17182077
+Rwanda,1938,0.17182077
+Rwanda,1939,0.17182077
+Rwanda,1940,0.17182077
+Rwanda,1941,0.17182077
+Rwanda,1942,0.17182077
+Rwanda,1943,0.17182077
+Rwanda,1944,0.17182077
+Rwanda,1945,0.17182077
+Rwanda,1946,0.17182077
+Rwanda,1947,0.17182077
+Rwanda,1948,0.17182077
+Rwanda,1949,0.17182077
+Rwanda,1950,0.17182077
+Rwanda,1951,0.17182077
+Rwanda,1952,0.17182077
+Rwanda,1953,0.17182077
+Rwanda,1954,0.17182077
+Rwanda,1955,0.17182077
+Rwanda,1956,0.2370021
+Rwanda,1957,0.34323472
+Rwanda,1958,0.37949762
+Rwanda,1959,0.37949762
+Rwanda,1960,0.4437474
+Rwanda,1961,0.54990506
+Rwanda,1962,0.50371122
+Rwanda,1963,0.47048613
+Rwanda,1964,0.44883111
+Rwanda,1965,0.43307287
+Rwanda,1966,0.42949671
+Rwanda,1967,0.42949671
+Rwanda,1968,0.42949671
+Rwanda,1969,0.44167545
+Rwanda,1970,0.44663271
+Rwanda,1971,0.44663271
+Rwanda,1972,0.44663271
+Rwanda,1973,0.23405702
+Rwanda,1974,0.12639339
+Rwanda,1975,0.12639339
+Rwanda,1976,0.15703017
+Rwanda,1977,0.15703017
+Rwanda,1978,0.28787446
+Rwanda,1979,0.28787446
+Rwanda,1980,0.28787446
+Rwanda,1981,0.28787446
+Rwanda,1982,0.28787446
+Rwanda,1983,0.28787446
+Rwanda,1984,0.28787446
+Rwanda,1985,0.28787446
+Rwanda,1986,0.28787446
+Rwanda,1987,0.28787446
+Rwanda,1988,0.28787446
+Rwanda,1989,0.28787446
+Rwanda,1990,0.28787446
+Rwanda,1991,0.45058516
+Rwanda,1992,0.54841673
+Rwanda,1993,0.54841673
+Rwanda,1994,0.3648372
+Rwanda,1995,0.2586287
+Rwanda,1996,0.2586287
+Rwanda,1997,0.2586287
+Rwanda,1998,0.2586287
+Rwanda,1999,0.2586287
+Rwanda,2000,0.28061053
+Rwanda,2001,0.32405084
+Rwanda,2002,0.32047179
+Rwanda,2003,0.46754754
+Rwanda,2004,0.49084219
+Rwanda,2005,0.48242375
+Rwanda,2006,0.48242375
+Rwanda,2007,0.48242375
+Rwanda,2008,0.48185584
+Rwanda,2009,0.4822053
+Rwanda,2010,0.48158008
+Rwanda,2011,0.48266324
+Rwanda,2012,0.48266324
+Rwanda,2013,0.49025223
+Rwanda,2014,0.49025223
+Rwanda,2015,0.49119085
+Rwanda,2016,0.51081753
+Rwanda,2017,0.51044333
+Rwanda,2018,0.51044333
+Rwanda,2019,0.51947021
+Rwanda,2020,0.51947021
+Somalia,1900,0.37601373
+Somalia,1901,0.37601373
+Somalia,1902,0.37601373
+Somalia,1903,0.37601373
+Somalia,1904,0.37601373
+Somalia,1905,0.37601373
+Somalia,1906,0.37601373
+Somalia,1907,0.37601373
+Somalia,1908,0.37601373
+Somalia,1909,0.37601373
+Somalia,1910,0.37601373
+Somalia,1911,0.37601373
+Somalia,1912,0.37601373
+Somalia,1913,0.37601373
+Somalia,1914,0.37601373
+Somalia,1915,0.37601373
+Somalia,1916,0.37601373
+Somalia,1917,0.37601373
+Somalia,1918,0.37601373
+Somalia,1919,0.37601373
+Somalia,1920,0.37601373
+Somalia,1921,0.37601373
+Somalia,1922,0.37601373
+Somalia,1923,0.37601373
+Somalia,1924,0.37601373
+Somalia,1925,0.37601373
+Somalia,1926,0.37601373
+Somalia,1927,0.37601373
+Somalia,1928,0.37601373
+Somalia,1929,0.37601373
+Somalia,1930,0.37601373
+Somalia,1931,0.37601373
+Somalia,1932,0.37601373
+Somalia,1933,0.37601373
+Somalia,1934,0.37601373
+Somalia,1935,0.37601373
+Somalia,1936,0.37601373
+Somalia,1937,0.37601373
+Somalia,1938,0.37601373
+Somalia,1939,0.37601373
+Somalia,1940,0.37601373
+Somalia,1941,0.40952054
+Somalia,1942,0.44637066
+Somalia,1943,0.44637066
+Somalia,1944,0.44637066
+Somalia,1945,0.44637066
+Somalia,1946,0.44637066
+Somalia,1947,0.4849402
+Somalia,1948,0.4849402
+Somalia,1949,0.4849402
+Somalia,1950,0.47771782
+Somalia,1951,0.50273496
+Somalia,1952,0.50273496
+Somalia,1953,0.50273496
+Somalia,1954,0.52933943
+Somalia,1955,0.58678341
+Somalia,1956,0.58678341
+Somalia,1957,0.58678341
+Somalia,1958,0.58678341
+Somalia,1959,0.61203367
+Somalia,1960,0.6720677
+Somalia,1961,0.67845827
+Somalia,1962,0.66650057
+Somalia,1963,0.66650057
+Somalia,1964,0.6609332
+Somalia,1965,0.6609332
+Somalia,1966,0.6609332
+Somalia,1967,0.63921303
+Somalia,1968,0.63921303
+Somalia,1969,0.5930618
+Somalia,1970,0.23135489
+Somalia,1971,0.23135489
+Somalia,1972,0.23135489
+Somalia,1973,0.23135489
+Somalia,1974,0.23135489
+Somalia,1975,0.23135489
+Somalia,1976,0.23135489
+Somalia,1977,0.23135489
+Somalia,1978,0.23135489
+Somalia,1979,0.23135489
+Somalia,1980,0.36219919
+Somalia,1981,0.36219919
+Somalia,1982,0.36219919
+Somalia,1983,0.36219919
+Somalia,1984,0.36219919
+Somalia,1985,0.36219919
+Somalia,1986,0.36219919
+Somalia,1987,0.36219919
+Somalia,1988,0.36219919
+Somalia,1989,0.36219919
+Somalia,1990,0.36219919
+Somalia,1991,0.43437123
+Somalia,1992,0.57498765
+Somalia,1993,0.57498765
+Somalia,1994,0.57498765
+Somalia,1995,0.57498765
+Somalia,1996,0.57498765
+Somalia,1997,0.57498765
+Somalia,1998,0.57498765
+Somalia,1999,0.57498765
+Somalia,2000,0.57498765
+Somalia,2001,0.58894229
+Somalia,2002,0.58894229
+Somalia,2003,0.58894229
+Somalia,2004,0.58894229
+Somalia,2005,0.59194112
+Somalia,2006,0.59194112
+Somalia,2007,0.59194112
+Somalia,2008,0.59194112
+Somalia,2009,0.59194112
+Somalia,2010,0.59194112
+Somalia,2011,0.6218971
+Somalia,2012,0.65679443
+Somalia,2013,0.69032365
+Somalia,2014,0.69032365
+Somalia,2015,0.69032365
+Somalia,2016,0.69032365
+Somalia,2017,0.69032365
+Somalia,2018,0.6699025
+Somalia,2019,0.6699025
+Somalia,2020,0.6699025
+Djibouti,1900,0.35680142
+Djibouti,1901,0.35680142
+Djibouti,1902,0.35680142
+Djibouti,1903,0.35680142
+Djibouti,1904,0.35680142
+Djibouti,1905,0.35680142
+Djibouti,1906,0.35680142
+Djibouti,1907,0.35680142
+Djibouti,1908,0.35680142
+Djibouti,1909,0.35680142
+Djibouti,1910,0.35680142
+Djibouti,1911,0.35680142
+Djibouti,1912,0.35680142
+Djibouti,1913,0.35680142
+Djibouti,1914,0.35680142
+Djibouti,1915,0.35680142
+Djibouti,1916,0.35680142
+Djibouti,1917,0.35680142
+Djibouti,1918,0.35680142
+Djibouti,1919,0.35680142
+Djibouti,1920,0.35680142
+Djibouti,1921,0.35680142
+Djibouti,1922,0.35680142
+Djibouti,1923,0.35680142
+Djibouti,1924,0.35680142
+Djibouti,1925,0.35680142
+Djibouti,1926,0.35680142
+Djibouti,1927,0.35680142
+Djibouti,1928,0.35680142
+Djibouti,1929,0.35680142
+Djibouti,1930,0.35680142
+Djibouti,1931,0.35680142
+Djibouti,1932,0.35680142
+Djibouti,1933,0.35680142
+Djibouti,1934,0.35680142
+Djibouti,1935,0.35680142
+Djibouti,1936,0.35680142
+Djibouti,1937,0.35680142
+Djibouti,1938,0.35680142
+Djibouti,1939,0.35680142
+Djibouti,1940,0.35680142
+Djibouti,1941,0.35680142
+Djibouti,1942,0.35680142
+Djibouti,1943,0.35680142
+Djibouti,1944,0.35680142
+Djibouti,1945,0.35680142
+Djibouti,1946,0.37114289
+Djibouti,1947,0.37114289
+Djibouti,1948,0.37114289
+Djibouti,1949,0.37114289
+Djibouti,1950,0.37114289
+Djibouti,1951,0.37114289
+Djibouti,1952,0.37114289
+Djibouti,1953,0.37114289
+Djibouti,1954,0.37114289
+Djibouti,1955,0.37114289
+Djibouti,1956,0.37114289
+Djibouti,1957,0.35805845
+Djibouti,1958,0.35805845
+Djibouti,1959,0.35805845
+Djibouti,1960,0.35805845
+Djibouti,1961,0.35805845
+Djibouti,1962,0.35805845
+Djibouti,1963,0.35805845
+Djibouti,1964,0.35805845
+Djibouti,1965,0.35805845
+Djibouti,1966,0.35805845
+Djibouti,1967,0.35805845
+Djibouti,1968,0.36313853
+Djibouti,1969,0.36313853
+Djibouti,1970,0.36313853
+Djibouti,1971,0.36313853
+Djibouti,1972,0.36313853
+Djibouti,1973,0.36313853
+Djibouti,1974,0.37720165
+Djibouti,1975,0.37720165
+Djibouti,1976,0.37720165
+Djibouti,1977,0.33794835
+Djibouti,1978,0.34611258
+Djibouti,1979,0.34611258
+Djibouti,1980,0.34611258
+Djibouti,1981,0.34611258
+Djibouti,1982,0.33649614
+Djibouti,1983,0.33649614
+Djibouti,1984,0.33649614
+Djibouti,1985,0.33649614
+Djibouti,1986,0.33649614
+Djibouti,1987,0.33649614
+Djibouti,1988,0.33649614
+Djibouti,1989,0.33649614
+Djibouti,1990,0.33649614
+Djibouti,1991,0.33649614
+Djibouti,1992,0.46689337
+Djibouti,1993,0.4755078
+Djibouti,1994,0.4755078
+Djibouti,1995,0.4755078
+Djibouti,1996,0.4755078
+Djibouti,1997,0.4755078
+Djibouti,1998,0.4755078
+Djibouti,1999,0.4755078
+Djibouti,2000,0.50605553
+Djibouti,2001,0.50605553
+Djibouti,2002,0.51656735
+Djibouti,2003,0.51656735
+Djibouti,2004,0.51656735
+Djibouti,2005,0.52965182
+Djibouti,2006,0.52965182
+Djibouti,2007,0.52965182
+Djibouti,2008,0.52965182
+Djibouti,2009,0.52965182
+Djibouti,2010,0.53096235
+Djibouti,2011,0.53096235
+Djibouti,2012,0.53096235
+Djibouti,2013,0.53096235
+Djibouti,2014,0.53096235
+Djibouti,2015,0.53096235
+Djibouti,2016,0.53096235
+Djibouti,2017,0.53096235
+Djibouti,2018,0.52178842
+Djibouti,2019,0.52178842
+Djibouti,2020,0.51236761
+Ethiopia,1789,0.12085908
+Ethiopia,1790,0.12085908
+Ethiopia,1791,0.12085908
+Ethiopia,1792,0.12085908
+Ethiopia,1793,0.12085908
+Ethiopia,1794,0.12085908
+Ethiopia,1795,0.12085908
+Ethiopia,1796,0.12085908
+Ethiopia,1797,0.12085908
+Ethiopia,1798,0.12085908
+Ethiopia,1799,0.12085908
+Ethiopia,1800,0.12085908
+Ethiopia,1801,0.12085908
+Ethiopia,1802,0.12085908
+Ethiopia,1803,0.12085908
+Ethiopia,1804,0.12085908
+Ethiopia,1805,0.12085908
+Ethiopia,1806,0.12085908
+Ethiopia,1807,0.12085908
+Ethiopia,1808,0.12085908
+Ethiopia,1809,0.12085908
+Ethiopia,1810,0.12085908
+Ethiopia,1811,0.12085908
+Ethiopia,1812,0.12085908
+Ethiopia,1813,0.12085908
+Ethiopia,1814,0.12085908
+Ethiopia,1815,0.12085908
+Ethiopia,1816,0.12085908
+Ethiopia,1817,0.12085908
+Ethiopia,1818,0.055436924
+Ethiopia,1819,0.055436924
+Ethiopia,1820,0.055436924
+Ethiopia,1821,0.055436924
+Ethiopia,1822,0.055436924
+Ethiopia,1823,0.055436924
+Ethiopia,1824,0.055436924
+Ethiopia,1825,0.055436924
+Ethiopia,1826,0.055436924
+Ethiopia,1827,0.055436924
+Ethiopia,1828,0.055436924
+Ethiopia,1829,0.055436924
+Ethiopia,1830,0.12085908
+Ethiopia,1831,0.12085908
+Ethiopia,1832,0.18628123
+Ethiopia,1833,0.18628123
+Ethiopia,1834,0.18628123
+Ethiopia,1835,0.18628123
+Ethiopia,1836,0.18628123
+Ethiopia,1837,0.18628123
+Ethiopia,1838,0.18628123
+Ethiopia,1839,0.18628123
+Ethiopia,1840,0.18628123
+Ethiopia,1841,0.18628123
+Ethiopia,1842,0.18628123
+Ethiopia,1843,0.18628123
+Ethiopia,1844,0.18628123
+Ethiopia,1845,0.18628123
+Ethiopia,1846,0.18628123
+Ethiopia,1847,0.18628123
+Ethiopia,1848,0.18628123
+Ethiopia,1849,0.18628123
+Ethiopia,1850,0.18628123
+Ethiopia,1851,0.18628123
+Ethiopia,1852,0.18628123
+Ethiopia,1853,0.18628123
+Ethiopia,1854,0.18628123
+Ethiopia,1855,0.12085908
+Ethiopia,1856,0.12085908
+Ethiopia,1857,0.12085908
+Ethiopia,1858,0.12085908
+Ethiopia,1859,0.12085908
+Ethiopia,1860,0.12085908
+Ethiopia,1861,0.12085908
+Ethiopia,1862,0.12085908
+Ethiopia,1863,0.12085908
+Ethiopia,1864,0.12085908
+Ethiopia,1865,0.12085908
+Ethiopia,1866,0.12085908
+Ethiopia,1867,0.12085908
+Ethiopia,1868,0.12085908
+Ethiopia,1869,0.12085908
+Ethiopia,1870,0.12085908
+Ethiopia,1871,0.12085908
+Ethiopia,1872,0.12085908
+Ethiopia,1873,0.12085908
+Ethiopia,1874,0.12085908
+Ethiopia,1875,0.12085908
+Ethiopia,1876,0.12085908
+Ethiopia,1877,0.12085908
+Ethiopia,1878,0.12085908
+Ethiopia,1879,0.12085908
+Ethiopia,1880,0.12085908
+Ethiopia,1881,0.12085908
+Ethiopia,1882,0.12085908
+Ethiopia,1883,0.12085908
+Ethiopia,1884,0.12085908
+Ethiopia,1885,0.12085908
+Ethiopia,1886,0.12085908
+Ethiopia,1887,0.12085908
+Ethiopia,1888,0.12085908
+Ethiopia,1889,0.12085908
+Ethiopia,1890,0.12085908
+Ethiopia,1891,0.12085908
+Ethiopia,1892,0.12085908
+Ethiopia,1893,0.12085908
+Ethiopia,1894,0.12085908
+Ethiopia,1895,0.12085908
+Ethiopia,1896,0.12085908
+Ethiopia,1897,0.12085908
+Ethiopia,1898,0.12085908
+Ethiopia,1899,0.12085908
+Ethiopia,1900,0.12448586
+Ethiopia,1901,0.12448586
+Ethiopia,1902,0.12448586
+Ethiopia,1903,0.12448586
+Ethiopia,1904,0.12448586
+Ethiopia,1905,0.12448586
+Ethiopia,1906,0.12448586
+Ethiopia,1907,0.12448586
+Ethiopia,1908,0.12448586
+Ethiopia,1909,0.12448586
+Ethiopia,1910,0.12448586
+Ethiopia,1911,0.12448586
+Ethiopia,1912,0.12448586
+Ethiopia,1913,0.11009297
+Ethiopia,1914,0.11009297
+Ethiopia,1915,0.11009297
+Ethiopia,1916,0.16086055
+Ethiopia,1917,0.16086055
+Ethiopia,1918,0.16086055
+Ethiopia,1919,0.16086055
+Ethiopia,1920,0.16086055
+Ethiopia,1921,0.14123392
+Ethiopia,1922,0.14123392
+Ethiopia,1923,0.14123392
+Ethiopia,1924,0.14123392
+Ethiopia,1925,0.14123392
+Ethiopia,1926,0.14123392
+Ethiopia,1927,0.14123392
+Ethiopia,1928,0.14123392
+Ethiopia,1929,0.14123392
+Ethiopia,1930,0.14123392
+Ethiopia,1931,0.14123392
+Ethiopia,1932,0.14123392
+Ethiopia,1933,0.14123392
+Ethiopia,1934,0.14123392
+Ethiopia,1935,0.14123392
+Ethiopia,1936,0.25323662
+Ethiopia,1937,0.27207822
+Ethiopia,1938,0.27207822
+Ethiopia,1939,0.27207822
+Ethiopia,1940,0.27207822
+Ethiopia,1941,0.14123392
+Ethiopia,1942,0.21581516
+Ethiopia,1943,0.21581516
+Ethiopia,1944,0.21581516
+Ethiopia,1945,0.21581516
+Ethiopia,1946,0.21581516
+Ethiopia,1947,0.21581516
+Ethiopia,1948,0.21581516
+Ethiopia,1949,0.21581516
+Ethiopia,1950,0.21581516
+Ethiopia,1951,0.21581516
+Ethiopia,1952,0.21581516
+Ethiopia,1953,0.21581516
+Ethiopia,1954,0.21581516
+Ethiopia,1955,0.21581516
+Ethiopia,1956,0.27207822
+Ethiopia,1957,0.27207822
+Ethiopia,1958,0.27207822
+Ethiopia,1959,0.27207822
+Ethiopia,1960,0.27207822
+Ethiopia,1961,0.27207822
+Ethiopia,1962,0.27207822
+Ethiopia,1963,0.27207822
+Ethiopia,1964,0.27207822
+Ethiopia,1965,0.27207822
+Ethiopia,1966,0.27207822
+Ethiopia,1967,0.27207822
+Ethiopia,1968,0.27207822
+Ethiopia,1969,0.27207822
+Ethiopia,1970,0.27207822
+Ethiopia,1971,0.27207822
+Ethiopia,1972,0.27207822
+Ethiopia,1973,0.27207822
+Ethiopia,1974,0.27207822
+Ethiopia,1975,0.13545907
+Ethiopia,1976,0.11689723
+Ethiopia,1977,0.11689723
+Ethiopia,1978,0.11689723
+Ethiopia,1979,0.11689723
+Ethiopia,1980,0.13457553
+Ethiopia,1981,0.13457553
+Ethiopia,1982,0.13457553
+Ethiopia,1983,0.13457553
+Ethiopia,1984,0.13457553
+Ethiopia,1985,0.13457553
+Ethiopia,1986,0.13457553
+Ethiopia,1987,0.26448971
+Ethiopia,1988,0.26448971
+Ethiopia,1989,0.26448971
+Ethiopia,1990,0.27714288
+Ethiopia,1991,0.4305099
+Ethiopia,1992,0.4808957
+Ethiopia,1993,0.4808957
+Ethiopia,1994,0.51545525
+Ethiopia,1995,0.51545525
+Ethiopia,1996,0.51545525
+Ethiopia,1997,0.51545525
+Ethiopia,1998,0.51545525
+Ethiopia,1999,0.51545525
+Ethiopia,2000,0.51056242
+Ethiopia,2001,0.51056242
+Ethiopia,2002,0.51497823
+Ethiopia,2003,0.51497823
+Ethiopia,2004,0.51497823
+Ethiopia,2005,0.52032423
+Ethiopia,2006,0.51084548
+Ethiopia,2007,0.51311201
+Ethiopia,2008,0.51311201
+Ethiopia,2009,0.51311201
+Ethiopia,2010,0.50865608
+Ethiopia,2011,0.51372361
+Ethiopia,2012,0.51730579
+Ethiopia,2013,0.50903159
+Ethiopia,2014,0.50170434
+Ethiopia,2015,0.50170434
+Ethiopia,2016,0.49902347
+Ethiopia,2017,0.48960268
+Ethiopia,2018,0.56557423
+Ethiopia,2019,0.56966096
+Ethiopia,2020,0.56756139
+Eritrea,1900,0.35783854
+Eritrea,1901,0.35783854
+Eritrea,1902,0.35783854
+Eritrea,1903,0.35783854
+Eritrea,1904,0.35783854
+Eritrea,1905,0.35783854
+Eritrea,1906,0.35783854
+Eritrea,1907,0.35783854
+Eritrea,1908,0.35783854
+Eritrea,1909,0.35783854
+Eritrea,1910,0.35783854
+Eritrea,1911,0.35783854
+Eritrea,1912,0.35783854
+Eritrea,1913,0.35783854
+Eritrea,1914,0.35783854
+Eritrea,1915,0.35783854
+Eritrea,1916,0.35783854
+Eritrea,1917,0.35783854
+Eritrea,1918,0.35783854
+Eritrea,1919,0.35783854
+Eritrea,1920,0.35783854
+Eritrea,1921,0.35783854
+Eritrea,1922,0.35783854
+Eritrea,1923,0.35783854
+Eritrea,1924,0.35783854
+Eritrea,1925,0.35783854
+Eritrea,1926,0.35783854
+Eritrea,1927,0.35783854
+Eritrea,1928,0.35783854
+Eritrea,1929,0.35783854
+Eritrea,1930,0.38400739
+Eritrea,1931,0.38400739
+Eritrea,1932,0.38400739
+Eritrea,1933,0.38400739
+Eritrea,1934,0.38400739
+Eritrea,1935,0.38400739
+Eritrea,1936,0.38400739
+Eritrea,1937,0.38400739
+Eritrea,1938,0.38400739
+Eritrea,1939,0.38400739
+Eritrea,1940,0.45868331
+Eritrea,1941,0.44245863
+Eritrea,1942,0.65108913
+Eritrea,1943,0.65108913
+Eritrea,1944,0.65108913
+Eritrea,1945,0.65108913
+Eritrea,1946,0.65108913
+Eritrea,1947,0.65108913
+Eritrea,1948,0.65108913
+Eritrea,1949,0.65108913
+Eritrea,1950,0.62859064
+Eritrea,1951,0.62859064
+Eritrea,1952,0.61697268
+Eritrea,1953,0.49151963
+Eritrea,1954,0.49151963
+Eritrea,1955,0.49151963
+Eritrea,1956,0.49151963
+Eritrea,1957,0.49151963
+Eritrea,1958,0.49151963
+Eritrea,1959,0.47843519
+Eritrea,1960,0.4376848
+Eritrea,1961,0.4376848
+Eritrea,1962,0.40915018
+Eritrea,1963,0.3449893
+Eritrea,1964,0.33936211
+Eritrea,1965,0.33936211
+Eritrea,1966,0.33936211
+Eritrea,1967,0.33936211
+Eritrea,1968,0.33936211
+Eritrea,1969,0.33936211
+Eritrea,1970,0.33936211
+Eritrea,1971,0.33936211
+Eritrea,1972,0.33936211
+Eritrea,1973,0.33177021
+Eritrea,1974,0.35137406
+Eritrea,1975,0.3058618
+Eritrea,1976,0.3058618
+Eritrea,1977,0.3058618
+Eritrea,1978,0.3058618
+Eritrea,1979,0.3058618
+Eritrea,1980,0.3058618
+Eritrea,1981,0.3058618
+Eritrea,1982,0.3058618
+Eritrea,1983,0.3058618
+Eritrea,1984,0.3058618
+Eritrea,1985,0.3058618
+Eritrea,1986,0.3058618
+Eritrea,1987,0.3058618
+Eritrea,1988,0.3058618
+Eritrea,1989,0.3058618
+Eritrea,1990,0.30893621
+Eritrea,1991,0.30775669
+Eritrea,1992,0.30775669
+Eritrea,1993,0.30775669
+Eritrea,1994,0.30775669
+Eritrea,1995,0.30775669
+Eritrea,1996,0.30775669
+Eritrea,1997,0.30775669
+Eritrea,1998,0.30775669
+Eritrea,1999,0.30775669
+Eritrea,2000,0.25192657
+Eritrea,2001,0.25192657
+Eritrea,2002,0.25192657
+Eritrea,2003,0.25192657
+Eritrea,2004,0.25192657
+Eritrea,2005,0.28280583
+Eritrea,2006,0.28280583
+Eritrea,2007,0.28280583
+Eritrea,2008,0.28280583
+Eritrea,2009,0.28280583
+Eritrea,2010,0.28280583
+Eritrea,2011,0.28280583
+Eritrea,2012,0.28280583
+Eritrea,2013,0.29398692
+Eritrea,2014,0.29398692
+Eritrea,2015,0.29398692
+Eritrea,2016,0.28744471
+Eritrea,2017,0.27095833
+Eritrea,2018,0.27286878
+Eritrea,2019,0.30557984
+Eritrea,2020,0.26823652
+Angola,1900,0.31619146
+Angola,1901,0.31619146
+Angola,1902,0.31619146
+Angola,1903,0.31619146
+Angola,1904,0.31619146
+Angola,1905,0.31619146
+Angola,1906,0.31619146
+Angola,1907,0.31619146
+Angola,1908,0.31619146
+Angola,1909,0.31619146
+Angola,1910,0.31619146
+Angola,1911,0.31619146
+Angola,1912,0.31619146
+Angola,1913,0.31619146
+Angola,1914,0.31619146
+Angola,1915,0.31619146
+Angola,1916,0.31619146
+Angola,1917,0.31619146
+Angola,1918,0.31619146
+Angola,1919,0.31619146
+Angola,1920,0.31619146
+Angola,1921,0.31619146
+Angola,1922,0.31619146
+Angola,1923,0.31619146
+Angola,1924,0.31619146
+Angola,1925,0.31619146
+Angola,1926,0.31619146
+Angola,1927,0.31619146
+Angola,1928,0.31619146
+Angola,1929,0.31619146
+Angola,1930,0.31619146
+Angola,1931,0.31619146
+Angola,1932,0.31619146
+Angola,1933,0.31619146
+Angola,1934,0.31619146
+Angola,1935,0.31619146
+Angola,1936,0.31619146
+Angola,1937,0.31619146
+Angola,1938,0.31619146
+Angola,1939,0.31619146
+Angola,1940,0.31619146
+Angola,1941,0.31619146
+Angola,1942,0.31619146
+Angola,1943,0.31619146
+Angola,1944,0.31619146
+Angola,1945,0.31619146
+Angola,1946,0.31619146
+Angola,1947,0.31619146
+Angola,1948,0.31619146
+Angola,1949,0.31619146
+Angola,1950,0.31619146
+Angola,1951,0.31619146
+Angola,1952,0.31619146
+Angola,1953,0.31619146
+Angola,1954,0.31619146
+Angola,1955,0.31619146
+Angola,1956,0.31619146
+Angola,1957,0.31619146
+Angola,1958,0.31619146
+Angola,1959,0.31619146
+Angola,1960,0.31619146
+Angola,1961,0.31619146
+Angola,1962,0.31619146
+Angola,1963,0.31619146
+Angola,1964,0.31619146
+Angola,1965,0.31619146
+Angola,1966,0.31619146
+Angola,1967,0.31619146
+Angola,1968,0.31619146
+Angola,1969,0.31619146
+Angola,1970,0.31619146
+Angola,1971,0.31619146
+Angola,1972,0.31619146
+Angola,1973,0.31619146
+Angola,1974,0.31619146
+Angola,1975,0.15054257
+Angola,1976,0.18286261
+Angola,1977,0.18286261
+Angola,1978,0.18286261
+Angola,1979,0.18286261
+Angola,1980,0.18286261
+Angola,1981,0.18286261
+Angola,1982,0.18286261
+Angola,1983,0.18286261
+Angola,1984,0.18286261
+Angola,1985,0.18286261
+Angola,1986,0.18286261
+Angola,1987,0.18286261
+Angola,1988,0.18286261
+Angola,1989,0.18286261
+Angola,1990,0.18286261
+Angola,1991,0.24591005
+Angola,1992,0.5731321
+Angola,1993,0.56418955
+Angola,1994,0.56418955
+Angola,1995,0.56418955
+Angola,1996,0.56418955
+Angola,1997,0.56418955
+Angola,1998,0.56418955
+Angola,1999,0.56418955
+Angola,2000,0.56418955
+Angola,2001,0.56418955
+Angola,2002,0.56418955
+Angola,2003,0.56418955
+Angola,2004,0.56637383
+Angola,2005,0.56192511
+Angola,2006,0.56192511
+Angola,2007,0.55882341
+Angola,2008,0.56480837
+Angola,2009,0.56480837
+Angola,2010,0.56806201
+Angola,2011,0.56806201
+Angola,2012,0.55386424
+Angola,2013,0.55422586
+Angola,2014,0.55422586
+Angola,2015,0.55422586
+Angola,2016,0.55422586
+Angola,2017,0.56449908
+Angola,2018,0.5837127
+Angola,2019,0.57237005
+Angola,2020,0.52671379
+Mozambique,1900,0.38253444
+Mozambique,1901,0.38253444
+Mozambique,1902,0.38253444
+Mozambique,1903,0.38253444
+Mozambique,1904,0.38253444
+Mozambique,1905,0.38253444
+Mozambique,1906,0.38253444
+Mozambique,1907,0.38253444
+Mozambique,1908,0.38253444
+Mozambique,1909,0.38253444
+Mozambique,1910,0.38253444
+Mozambique,1911,0.38253444
+Mozambique,1912,0.38253444
+Mozambique,1913,0.38253444
+Mozambique,1914,0.38253444
+Mozambique,1915,0.38253444
+Mozambique,1916,0.38253444
+Mozambique,1917,0.38253444
+Mozambique,1918,0.38253444
+Mozambique,1919,0.38253444
+Mozambique,1920,0.38253444
+Mozambique,1921,0.38253444
+Mozambique,1922,0.38253444
+Mozambique,1923,0.38253444
+Mozambique,1924,0.38253444
+Mozambique,1925,0.38253444
+Mozambique,1926,0.38253444
+Mozambique,1927,0.38253444
+Mozambique,1928,0.38253444
+Mozambique,1929,0.38253444
+Mozambique,1930,0.38253444
+Mozambique,1931,0.38253444
+Mozambique,1932,0.38253444
+Mozambique,1933,0.38253444
+Mozambique,1934,0.38253444
+Mozambique,1935,0.38253444
+Mozambique,1936,0.38253444
+Mozambique,1937,0.38253444
+Mozambique,1938,0.38253444
+Mozambique,1939,0.38253444
+Mozambique,1940,0.38253444
+Mozambique,1941,0.38253444
+Mozambique,1942,0.38253444
+Mozambique,1943,0.38253444
+Mozambique,1944,0.38253444
+Mozambique,1945,0.38253444
+Mozambique,1946,0.38253444
+Mozambique,1947,0.38253444
+Mozambique,1948,0.38253444
+Mozambique,1949,0.38253444
+Mozambique,1950,0.38253444
+Mozambique,1951,0.38253444
+Mozambique,1952,0.38253444
+Mozambique,1953,0.38253444
+Mozambique,1954,0.38253444
+Mozambique,1955,0.38253444
+Mozambique,1956,0.38253444
+Mozambique,1957,0.38253444
+Mozambique,1958,0.38253444
+Mozambique,1959,0.38253444
+Mozambique,1960,0.38253444
+Mozambique,1961,0.38253444
+Mozambique,1962,0.38253444
+Mozambique,1963,0.38253444
+Mozambique,1964,0.38253444
+Mozambique,1965,0.38253444
+Mozambique,1966,0.38253444
+Mozambique,1967,0.38253444
+Mozambique,1968,0.38253444
+Mozambique,1969,0.38253444
+Mozambique,1970,0.38253444
+Mozambique,1971,0.38253444
+Mozambique,1972,0.38253444
+Mozambique,1973,0.38253444
+Mozambique,1974,0.38087064
+Mozambique,1975,0.20314939
+Mozambique,1976,0.19119166
+Mozambique,1977,0.19119166
+Mozambique,1978,0.19119166
+Mozambique,1979,0.19119166
+Mozambique,1980,0.19119166
+Mozambique,1981,0.19119166
+Mozambique,1982,0.19119166
+Mozambique,1983,0.19119166
+Mozambique,1984,0.19119166
+Mozambique,1985,0.19119166
+Mozambique,1986,0.19119166
+Mozambique,1987,0.19119166
+Mozambique,1988,0.19119166
+Mozambique,1989,0.19119166
+Mozambique,1990,0.3850984
+Mozambique,1991,0.40622431
+Mozambique,1992,0.44764903
+Mozambique,1993,0.56333148
+Mozambique,1994,0.73725909
+Mozambique,1995,0.73725909
+Mozambique,1996,0.73725909
+Mozambique,1997,0.73140526
+Mozambique,1998,0.73018205
+Mozambique,1999,0.73018205
+Mozambique,2000,0.73018205
+Mozambique,2001,0.73018205
+Mozambique,2002,0.73018205
+Mozambique,2003,0.73018205
+Mozambique,2004,0.73018205
+Mozambique,2005,0.72191954
+Mozambique,2006,0.7198875
+Mozambique,2007,0.7198875
+Mozambique,2008,0.71769917
+Mozambique,2009,0.71769917
+Mozambique,2010,0.71596384
+Mozambique,2011,0.71596384
+Mozambique,2012,0.71596384
+Mozambique,2013,0.71876049
+Mozambique,2014,0.7278471
+Mozambique,2015,0.73199725
+Mozambique,2016,0.69338226
+Mozambique,2017,0.66486233
+Mozambique,2018,0.64881235
+Mozambique,2019,0.64265269
+Mozambique,2020,0.62891495
+Zambia,1911,0.3103067
+Zambia,1912,0.3103067
+Zambia,1913,0.3103067
+Zambia,1914,0.3103067
+Zambia,1915,0.3103067
+Zambia,1916,0.3103067
+Zambia,1917,0.3103067
+Zambia,1918,0.3103067
+Zambia,1919,0.3103067
+Zambia,1920,0.3103067
+Zambia,1921,0.3103067
+Zambia,1922,0.3103067
+Zambia,1923,0.38022456
+Zambia,1924,0.40316308
+Zambia,1925,0.40316308
+Zambia,1926,0.40316308
+Zambia,1927,0.40316308
+Zambia,1928,0.40316308
+Zambia,1929,0.40316308
+Zambia,1930,0.40316308
+Zambia,1931,0.40316308
+Zambia,1932,0.40316308
+Zambia,1933,0.40316308
+Zambia,1934,0.40316308
+Zambia,1935,0.40316308
+Zambia,1936,0.40316308
+Zambia,1937,0.40316308
+Zambia,1938,0.40316308
+Zambia,1939,0.41930211
+Zambia,1940,0.41930211
+Zambia,1941,0.42688313
+Zambia,1942,0.42688313
+Zambia,1943,0.42688313
+Zambia,1944,0.42688313
+Zambia,1945,0.42688313
+Zambia,1946,0.42688313
+Zambia,1947,0.45430097
+Zambia,1948,0.49122316
+Zambia,1949,0.51830393
+Zambia,1950,0.51797855
+Zambia,1951,0.52267832
+Zambia,1952,0.52267832
+Zambia,1953,0.52071983
+Zambia,1954,0.52071983
+Zambia,1955,0.52071983
+Zambia,1956,0.52071983
+Zambia,1957,0.52071983
+Zambia,1958,0.52818364
+Zambia,1959,0.52818364
+Zambia,1960,0.52818364
+Zambia,1961,0.52818364
+Zambia,1962,0.54334635
+Zambia,1963,0.55656785
+Zambia,1964,0.47476888
+Zambia,1965,0.49575889
+Zambia,1966,0.49575889
+Zambia,1967,0.49575889
+Zambia,1968,0.49575889
+Zambia,1969,0.49113142
+Zambia,1970,0.49113142
+Zambia,1971,0.43382517
+Zambia,1972,0.41901562
+Zambia,1973,0.37140393
+Zambia,1974,0.31052172
+Zambia,1975,0.29432565
+Zambia,1976,0.29432565
+Zambia,1977,0.29432565
+Zambia,1978,0.29432565
+Zambia,1979,0.29432565
+Zambia,1980,0.29432565
+Zambia,1981,0.29432565
+Zambia,1982,0.29432565
+Zambia,1983,0.29432565
+Zambia,1984,0.29432565
+Zambia,1985,0.29432565
+Zambia,1986,0.29432565
+Zambia,1987,0.29432565
+Zambia,1988,0.29432565
+Zambia,1989,0.29432565
+Zambia,1990,0.35666493
+Zambia,1991,0.49461663
+Zambia,1992,0.64742178
+Zambia,1993,0.66947448
+Zambia,1994,0.70515108
+Zambia,1995,0.70515108
+Zambia,1996,0.7096507
+Zambia,1997,0.72022259
+Zambia,1998,0.72022259
+Zambia,1999,0.72022259
+Zambia,2000,0.7272175
+Zambia,2001,0.7272175
+Zambia,2002,0.75656813
+Zambia,2003,0.75656813
+Zambia,2004,0.75656813
+Zambia,2005,0.74334365
+Zambia,2006,0.74334365
+Zambia,2007,0.73502016
+Zambia,2008,0.75487441
+Zambia,2009,0.75487441
+Zambia,2010,0.74382198
+Zambia,2011,0.73467785
+Zambia,2012,0.72380012
+Zambia,2013,0.7523852
+Zambia,2014,0.7523852
+Zambia,2015,0.73996812
+Zambia,2016,0.70025975
+Zambia,2017,0.65002942
+Zambia,2018,0.64882267
+Zambia,2019,0.62790924
+Zambia,2020,0.6248675
+Zimbabwe,1900,0.60504317
+Zimbabwe,1901,0.60504317
+Zimbabwe,1902,0.60504317
+Zimbabwe,1903,0.60504317
+Zimbabwe,1904,0.60504317
+Zimbabwe,1905,0.60504317
+Zimbabwe,1906,0.60504317
+Zimbabwe,1907,0.60504317
+Zimbabwe,1908,0.60504317
+Zimbabwe,1909,0.60504317
+Zimbabwe,1910,0.60504317
+Zimbabwe,1911,0.60504317
+Zimbabwe,1912,0.60504317
+Zimbabwe,1913,0.60504317
+Zimbabwe,1914,0.60504317
+Zimbabwe,1915,0.60504317
+Zimbabwe,1916,0.60504317
+Zimbabwe,1917,0.60504317
+Zimbabwe,1918,0.62702501
+Zimbabwe,1919,0.66559917
+Zimbabwe,1920,0.60569394
+Zimbabwe,1921,0.60569394
+Zimbabwe,1922,0.60569394
+Zimbabwe,1923,0.63613075
+Zimbabwe,1924,0.63613075
+Zimbabwe,1925,0.65785092
+Zimbabwe,1926,0.65785092
+Zimbabwe,1927,0.65785092
+Zimbabwe,1928,0.65785092
+Zimbabwe,1929,0.65785092
+Zimbabwe,1930,0.65785092
+Zimbabwe,1931,0.65785092
+Zimbabwe,1932,0.65785092
+Zimbabwe,1933,0.65785092
+Zimbabwe,1934,0.65785092
+Zimbabwe,1935,0.65785092
+Zimbabwe,1936,0.65785092
+Zimbabwe,1937,0.65785092
+Zimbabwe,1938,0.65785092
+Zimbabwe,1939,0.65785092
+Zimbabwe,1940,0.65785092
+Zimbabwe,1941,0.65785092
+Zimbabwe,1942,0.65785092
+Zimbabwe,1943,0.65785092
+Zimbabwe,1944,0.65785092
+Zimbabwe,1945,0.65785092
+Zimbabwe,1946,0.65785092
+Zimbabwe,1947,0.65785092
+Zimbabwe,1948,0.65785092
+Zimbabwe,1949,0.65785092
+Zimbabwe,1950,0.65785092
+Zimbabwe,1951,0.65785092
+Zimbabwe,1952,0.65785092
+Zimbabwe,1953,0.66287476
+Zimbabwe,1954,0.66287476
+Zimbabwe,1955,0.66287476
+Zimbabwe,1956,0.66287476
+Zimbabwe,1957,0.62473512
+Zimbabwe,1958,0.60299647
+Zimbabwe,1959,0.60299647
+Zimbabwe,1960,0.61066484
+Zimbabwe,1961,0.61066484
+Zimbabwe,1962,0.61066484
+Zimbabwe,1963,0.61066484
+Zimbabwe,1964,0.60555369
+Zimbabwe,1965,0.58383352
+Zimbabwe,1966,0.58383352
+Zimbabwe,1967,0.58383352
+Zimbabwe,1968,0.58383352
+Zimbabwe,1969,0.58383352
+Zimbabwe,1970,0.58383352
+Zimbabwe,1971,0.58383352
+Zimbabwe,1972,0.58383352
+Zimbabwe,1973,0.58383352
+Zimbabwe,1974,0.58383352
+Zimbabwe,1975,0.58383352
+Zimbabwe,1976,0.58383352
+Zimbabwe,1977,0.58383352
+Zimbabwe,1978,0.58383352
+Zimbabwe,1979,0.60555369
+Zimbabwe,1980,0.55295378
+Zimbabwe,1981,0.57012594
+Zimbabwe,1982,0.57012594
+Zimbabwe,1983,0.57012594
+Zimbabwe,1984,0.57012594
+Zimbabwe,1985,0.57012594
+Zimbabwe,1986,0.57786334
+Zimbabwe,1987,0.53362125
+Zimbabwe,1988,0.56633228
+Zimbabwe,1989,0.56633228
+Zimbabwe,1990,0.58805245
+Zimbabwe,1991,0.60902059
+Zimbabwe,1992,0.60902059
+Zimbabwe,1993,0.60902059
+Zimbabwe,1994,0.60902059
+Zimbabwe,1995,0.60902059
+Zimbabwe,1996,0.60902059
+Zimbabwe,1997,0.6025728
+Zimbabwe,1998,0.58299494
+Zimbabwe,1999,0.58299494
+Zimbabwe,2000,0.58942914
+Zimbabwe,2001,0.59583789
+Zimbabwe,2002,0.59583789
+Zimbabwe,2003,0.59583789
+Zimbabwe,2004,0.59583789
+Zimbabwe,2005,0.5923118
+Zimbabwe,2006,0.60368311
+Zimbabwe,2007,0.60368311
+Zimbabwe,2008,0.59773755
+Zimbabwe,2009,0.61581355
+Zimbabwe,2010,0.62754041
+Zimbabwe,2011,0.62754041
+Zimbabwe,2012,0.62754041
+Zimbabwe,2013,0.5968731
+Zimbabwe,2014,0.59989923
+Zimbabwe,2015,0.59989923
+Zimbabwe,2016,0.58687198
+Zimbabwe,2017,0.55682236
+Zimbabwe,2018,0.55134165
+Zimbabwe,2019,0.55020672
+Zimbabwe,2020,0.54148072
+Malawi,1900,0.4497087
+Malawi,1901,0.4497087
+Malawi,1902,0.4497087
+Malawi,1903,0.4497087
+Malawi,1904,0.4497087
+Malawi,1905,0.4497087
+Malawi,1906,0.4497087
+Malawi,1907,0.4497087
+Malawi,1908,0.4497087
+Malawi,1909,0.4497087
+Malawi,1910,0.4497087
+Malawi,1911,0.4497087
+Malawi,1912,0.4497087
+Malawi,1913,0.4497087
+Malawi,1914,0.4497087
+Malawi,1915,0.4497087
+Malawi,1916,0.4497087
+Malawi,1917,0.4497087
+Malawi,1918,0.4497087
+Malawi,1919,0.4497087
+Malawi,1920,0.4497087
+Malawi,1921,0.4497087
+Malawi,1922,0.4497087
+Malawi,1923,0.4497087
+Malawi,1924,0.4497087
+Malawi,1925,0.4497087
+Malawi,1926,0.4497087
+Malawi,1927,0.4497087
+Malawi,1928,0.4497087
+Malawi,1929,0.4497087
+Malawi,1930,0.4497087
+Malawi,1931,0.4497087
+Malawi,1932,0.4497087
+Malawi,1933,0.4497087
+Malawi,1934,0.4497087
+Malawi,1935,0.4497087
+Malawi,1936,0.4497087
+Malawi,1937,0.4497087
+Malawi,1938,0.4497087
+Malawi,1939,0.4497087
+Malawi,1940,0.4497087
+Malawi,1941,0.4497087
+Malawi,1942,0.4497087
+Malawi,1943,0.4497087
+Malawi,1944,0.4763228
+Malawi,1945,0.45427009
+Malawi,1946,0.45427009
+Malawi,1947,0.45427009
+Malawi,1948,0.45427009
+Malawi,1949,0.45427009
+Malawi,1950,0.45427009
+Malawi,1951,0.45427009
+Malawi,1952,0.45427009
+Malawi,1953,0.45427009
+Malawi,1954,0.45427009
+Malawi,1955,0.45427009
+Malawi,1956,0.45427009
+Malawi,1957,0.45427009
+Malawi,1958,0.47686508
+Malawi,1959,0.47049543
+Malawi,1960,0.57971799
+Malawi,1961,0.73914796
+Malawi,1962,0.73914796
+Malawi,1963,0.76531684
+Malawi,1964,0.66519243
+Malawi,1965,0.56674325
+Malawi,1966,0.38346642
+Malawi,1967,0.35729757
+Malawi,1968,0.35729757
+Malawi,1969,0.35729757
+Malawi,1970,0.35729757
+Malawi,1971,0.35729757
+Malawi,1972,0.35729757
+Malawi,1973,0.35729757
+Malawi,1974,0.35729757
+Malawi,1975,0.35729757
+Malawi,1976,0.35729757
+Malawi,1977,0.35729757
+Malawi,1978,0.35729757
+Malawi,1979,0.35729757
+Malawi,1980,0.35729757
+Malawi,1981,0.35729757
+Malawi,1982,0.35729757
+Malawi,1983,0.35729757
+Malawi,1984,0.35729757
+Malawi,1985,0.35729757
+Malawi,1986,0.35729757
+Malawi,1987,0.35729757
+Malawi,1988,0.35729757
+Malawi,1989,0.35729757
+Malawi,1990,0.35729757
+Malawi,1991,0.35729757
+Malawi,1992,0.41134182
+Malawi,1993,0.63355279
+Malawi,1994,0.77115148
+Malawi,1995,0.7449826
+Malawi,1996,0.7449826
+Malawi,1997,0.7449826
+Malawi,1998,0.7449826
+Malawi,1999,0.72292137
+Malawi,2000,0.72292137
+Malawi,2001,0.72292137
+Malawi,2002,0.72292137
+Malawi,2003,0.72292137
+Malawi,2004,0.74660039
+Malawi,2005,0.76151663
+Malawi,2006,0.76850629
+Malawi,2007,0.76850629
+Malawi,2008,0.76850629
+Malawi,2009,0.76850629
+Malawi,2010,0.7748329
+Malawi,2011,0.7748329
+Malawi,2012,0.78946757
+Malawi,2013,0.76986879
+Malawi,2014,0.76266062
+Malawi,2015,0.75193143
+Malawi,2016,0.75766146
+Malawi,2017,0.76570684
+Malawi,2018,0.69725329
+Malawi,2019,0.6772247
+Malawi,2020,0.7292819
+South Africa,1900,0.59747988
+South Africa,1901,0.59747988
+South Africa,1902,0.59747988
+South Africa,1903,0.59747988
+South Africa,1904,0.59747988
+South Africa,1905,0.59747988
+South Africa,1906,0.59747988
+South Africa,1907,0.59747988
+South Africa,1908,0.59747988
+South Africa,1909,0.59747988
+South Africa,1910,0.6255219
+South Africa,1911,0.6255219
+South Africa,1912,0.6255219
+South Africa,1913,0.6255219
+South Africa,1914,0.6255219
+South Africa,1915,0.6255219
+South Africa,1916,0.6255219
+South Africa,1917,0.6255219
+South Africa,1918,0.6255219
+South Africa,1919,0.6255219
+South Africa,1920,0.6255219
+South Africa,1921,0.6255219
+South Africa,1922,0.6255219
+South Africa,1923,0.6255219
+South Africa,1924,0.6255219
+South Africa,1925,0.6255219
+South Africa,1926,0.6255219
+South Africa,1927,0.6255219
+South Africa,1928,0.6255219
+South Africa,1929,0.6255219
+South Africa,1930,0.6255219
+South Africa,1931,0.6255219
+South Africa,1932,0.6255219
+South Africa,1933,0.6255219
+South Africa,1934,0.6255219
+South Africa,1935,0.6255219
+South Africa,1936,0.6255219
+South Africa,1937,0.6255219
+South Africa,1938,0.6255219
+South Africa,1939,0.6255219
+South Africa,1940,0.6255219
+South Africa,1941,0.6255219
+South Africa,1942,0.6255219
+South Africa,1943,0.6255219
+South Africa,1944,0.6255219
+South Africa,1945,0.6255219
+South Africa,1946,0.6255219
+South Africa,1947,0.6255219
+South Africa,1948,0.6116603
+South Africa,1949,0.61025351
+South Africa,1950,0.60654116
+South Africa,1951,0.60654116
+South Africa,1952,0.60654116
+South Africa,1953,0.60654116
+South Africa,1954,0.60654116
+South Africa,1955,0.60654116
+South Africa,1956,0.60654116
+South Africa,1957,0.60654116
+South Africa,1958,0.60654116
+South Africa,1959,0.60654116
+South Africa,1960,0.59122276
+South Africa,1961,0.6032604
+South Africa,1962,0.6032604
+South Africa,1963,0.6032604
+South Africa,1964,0.6032604
+South Africa,1965,0.6032604
+South Africa,1966,0.6032604
+South Africa,1967,0.6032604
+South Africa,1968,0.6032604
+South Africa,1969,0.6032604
+South Africa,1970,0.6032604
+South Africa,1971,0.6032604
+South Africa,1972,0.6032604
+South Africa,1973,0.6032604
+South Africa,1974,0.6032604
+South Africa,1975,0.6032604
+South Africa,1976,0.6032604
+South Africa,1977,0.6032604
+South Africa,1978,0.6032604
+South Africa,1979,0.6032604
+South Africa,1980,0.6032604
+South Africa,1981,0.6032604
+South Africa,1982,0.6032604
+South Africa,1983,0.6032604
+South Africa,1984,0.6032604
+South Africa,1985,0.59750324
+South Africa,1986,0.59750324
+South Africa,1987,0.59750324
+South Africa,1988,0.59750324
+South Africa,1989,0.62969953
+South Africa,1990,0.65881228
+South Africa,1991,0.71357328
+South Africa,1992,0.71357328
+South Africa,1993,0.75520557
+South Africa,1994,0.86812943
+South Africa,1995,0.86812943
+South Africa,1996,0.86812943
+South Africa,1997,0.86812943
+South Africa,1998,0.86812943
+South Africa,1999,0.86812943
+South Africa,2000,0.86812943
+South Africa,2001,0.86812943
+South Africa,2002,0.86812943
+South Africa,2003,0.86812943
+South Africa,2004,0.86812943
+South Africa,2005,0.84012878
+South Africa,2006,0.84012878
+South Africa,2007,0.84012878
+South Africa,2008,0.84012878
+South Africa,2009,0.84012878
+South Africa,2010,0.83620346
+South Africa,2011,0.83620346
+South Africa,2012,0.85677958
+South Africa,2013,0.80639184
+South Africa,2014,0.79498994
+South Africa,2015,0.80310231
+South Africa,2016,0.80310231
+South Africa,2017,0.80310231
+South Africa,2018,0.79066598
+South Africa,2019,0.77017748
+South Africa,2020,0.78247684
+Namibia,1900,0.43243435
+Namibia,1901,0.43243435
+Namibia,1902,0.43243435
+Namibia,1903,0.43243435
+Namibia,1904,0.43243435
+Namibia,1905,0.43243435
+Namibia,1906,0.43243435
+Namibia,1907,0.43243435
+Namibia,1908,0.43243435
+Namibia,1909,0.43243435
+Namibia,1910,0.43243435
+Namibia,1911,0.43243435
+Namibia,1912,0.43243435
+Namibia,1913,0.43243435
+Namibia,1914,0.43243435
+Namibia,1915,0.4444558
+Namibia,1916,0.4444558
+Namibia,1917,0.4444558
+Namibia,1918,0.4444558
+Namibia,1919,0.4444558
+Namibia,1920,0.46478075
+Namibia,1921,0.46478075
+Namibia,1922,0.46478075
+Namibia,1923,0.46478075
+Namibia,1924,0.46478075
+Namibia,1925,0.46478075
+Namibia,1926,0.46478075
+Namibia,1927,0.46478075
+Namibia,1928,0.46478075
+Namibia,1929,0.46478075
+Namibia,1930,0.46478075
+Namibia,1931,0.46478075
+Namibia,1932,0.46478075
+Namibia,1933,0.46478075
+Namibia,1934,0.46478075
+Namibia,1935,0.46478075
+Namibia,1936,0.46478075
+Namibia,1937,0.46478075
+Namibia,1938,0.46478075
+Namibia,1939,0.46478075
+Namibia,1940,0.45891911
+Namibia,1941,0.45891911
+Namibia,1942,0.45891911
+Namibia,1943,0.45891911
+Namibia,1944,0.45891911
+Namibia,1945,0.45891911
+Namibia,1946,0.45891911
+Namibia,1947,0.45891911
+Namibia,1948,0.45891911
+Namibia,1949,0.45891911
+Namibia,1950,0.45891911
+Namibia,1951,0.45891911
+Namibia,1952,0.45891911
+Namibia,1953,0.45891911
+Namibia,1954,0.45891911
+Namibia,1955,0.45891911
+Namibia,1956,0.45891911
+Namibia,1957,0.45891911
+Namibia,1958,0.45891911
+Namibia,1959,0.45891911
+Namibia,1960,0.47800022
+Namibia,1961,0.47800022
+Namibia,1962,0.47800022
+Namibia,1963,0.47800022
+Namibia,1964,0.47800022
+Namibia,1965,0.47800022
+Namibia,1966,0.47800022
+Namibia,1967,0.47800022
+Namibia,1968,0.47800022
+Namibia,1969,0.47800022
+Namibia,1970,0.47800022
+Namibia,1971,0.47800022
+Namibia,1972,0.47800022
+Namibia,1973,0.47800022
+Namibia,1974,0.47800022
+Namibia,1975,0.47800022
+Namibia,1976,0.48360378
+Namibia,1977,0.48360378
+Namibia,1978,0.48360378
+Namibia,1979,0.48360378
+Namibia,1980,0.48010963
+Namibia,1981,0.51282066
+Namibia,1982,0.51282066
+Namibia,1983,0.51282066
+Namibia,1984,0.51282066
+Namibia,1985,0.51282066
+Namibia,1986,0.51282066
+Namibia,1987,0.51282066
+Namibia,1988,0.51282066
+Namibia,1989,0.71140766
+Namibia,1990,0.86561501
+Namibia,1991,0.86561501
+Namibia,1992,0.86561501
+Namibia,1993,0.86561501
+Namibia,1994,0.84289855
+Namibia,1995,0.84289855
+Namibia,1996,0.84289855
+Namibia,1997,0.84289855
+Namibia,1998,0.84289855
+Namibia,1999,0.84289855
+Namibia,2000,0.84289855
+Namibia,2001,0.84289855
+Namibia,2002,0.84289855
+Namibia,2003,0.84289855
+Namibia,2004,0.84289855
+Namibia,2005,0.80228293
+Namibia,2006,0.80228293
+Namibia,2007,0.80228293
+Namibia,2008,0.80769998
+Namibia,2009,0.78677356
+Namibia,2010,0.79957902
+Namibia,2011,0.80455917
+Namibia,2012,0.80455917
+Namibia,2013,0.79958713
+Namibia,2014,0.79958713
+Namibia,2015,0.82447594
+Namibia,2016,0.82447594
+Namibia,2017,0.76722169
+Namibia,2018,0.74426073
+Namibia,2019,0.67342895
+Namibia,2020,0.73875862
+Lesotho,1900,0.41436043
+Lesotho,1901,0.41436043
+Lesotho,1902,0.41436043
+Lesotho,1903,0.41436043
+Lesotho,1904,0.41436043
+Lesotho,1905,0.41436043
+Lesotho,1906,0.41436043
+Lesotho,1907,0.41436043
+Lesotho,1908,0.41436043
+Lesotho,1909,0.41436043
+Lesotho,1910,0.41436043
+Lesotho,1911,0.41436043
+Lesotho,1912,0.41436043
+Lesotho,1913,0.41436043
+Lesotho,1914,0.41436043
+Lesotho,1915,0.41436043
+Lesotho,1916,0.41436043
+Lesotho,1917,0.41436043
+Lesotho,1918,0.41436043
+Lesotho,1919,0.41436043
+Lesotho,1920,0.41436043
+Lesotho,1921,0.41436043
+Lesotho,1922,0.41436043
+Lesotho,1923,0.41436043
+Lesotho,1924,0.41436043
+Lesotho,1925,0.41436043
+Lesotho,1926,0.41436043
+Lesotho,1927,0.41436043
+Lesotho,1928,0.41436043
+Lesotho,1929,0.41436043
+Lesotho,1930,0.41436043
+Lesotho,1931,0.41436043
+Lesotho,1932,0.41436043
+Lesotho,1933,0.41436043
+Lesotho,1934,0.41436043
+Lesotho,1935,0.41436043
+Lesotho,1936,0.41436043
+Lesotho,1937,0.41436043
+Lesotho,1938,0.41436043
+Lesotho,1939,0.41436043
+Lesotho,1940,0.41436043
+Lesotho,1941,0.41436043
+Lesotho,1942,0.41436043
+Lesotho,1943,0.41436043
+Lesotho,1944,0.41436043
+Lesotho,1945,0.41436043
+Lesotho,1946,0.41436043
+Lesotho,1947,0.41436043
+Lesotho,1948,0.41436043
+Lesotho,1949,0.41436043
+Lesotho,1950,0.4693816
+Lesotho,1951,0.4693816
+Lesotho,1952,0.55214787
+Lesotho,1953,0.55214787
+Lesotho,1954,0.55214787
+Lesotho,1955,0.55214787
+Lesotho,1956,0.55214787
+Lesotho,1957,0.55214787
+Lesotho,1958,0.55214787
+Lesotho,1959,0.55214787
+Lesotho,1960,0.55214787
+Lesotho,1961,0.55214787
+Lesotho,1962,0.55214787
+Lesotho,1963,0.55214787
+Lesotho,1964,0.55214787
+Lesotho,1965,0.66871589
+Lesotho,1966,0.64123362
+Lesotho,1967,0.64123362
+Lesotho,1968,0.64123362
+Lesotho,1969,0.64123362
+Lesotho,1970,0.58280128
+Lesotho,1971,0.51521093
+Lesotho,1972,0.51521093
+Lesotho,1973,0.51521093
+Lesotho,1974,0.51521093
+Lesotho,1975,0.51521093
+Lesotho,1976,0.51521093
+Lesotho,1977,0.51521093
+Lesotho,1978,0.51521093
+Lesotho,1979,0.51521093
+Lesotho,1980,0.51521093
+Lesotho,1981,0.51521093
+Lesotho,1982,0.51521093
+Lesotho,1983,0.51521093
+Lesotho,1984,0.51521093
+Lesotho,1985,0.51521093
+Lesotho,1986,0.45354655
+Lesotho,1987,0.40120885
+Lesotho,1988,0.40120885
+Lesotho,1989,0.40120885
+Lesotho,1990,0.5357058
+Lesotho,1991,0.43103036
+Lesotho,1992,0.48437041
+Lesotho,1993,0.74975818
+Lesotho,1994,0.74975818
+Lesotho,1995,0.74975818
+Lesotho,1996,0.74975818
+Lesotho,1997,0.74975818
+Lesotho,1998,0.74975818
+Lesotho,1999,0.74975818
+Lesotho,2000,0.76089799
+Lesotho,2001,0.76089799
+Lesotho,2002,0.76089799
+Lesotho,2003,0.76089799
+Lesotho,2004,0.76089799
+Lesotho,2005,0.75854278
+Lesotho,2006,0.75854278
+Lesotho,2007,0.75854278
+Lesotho,2008,0.75854278
+Lesotho,2009,0.75854278
+Lesotho,2010,0.77031881
+Lesotho,2011,0.77748322
+Lesotho,2012,0.77071196
+Lesotho,2013,0.79075044
+Lesotho,2014,0.79075044
+Lesotho,2015,0.79075044
+Lesotho,2016,0.79075044
+Lesotho,2017,0.8051433
+Lesotho,2018,0.79075044
+Lesotho,2019,0.78862768
+Lesotho,2020,0.83756346
+Botswana,1900,0.32386783
+Botswana,1901,0.32386783
+Botswana,1902,0.32386783
+Botswana,1903,0.32386783
+Botswana,1904,0.32386783
+Botswana,1905,0.32386783
+Botswana,1906,0.32386783
+Botswana,1907,0.32386783
+Botswana,1908,0.32386783
+Botswana,1909,0.32386783
+Botswana,1910,0.32386783
+Botswana,1911,0.32386783
+Botswana,1912,0.32386783
+Botswana,1913,0.32386783
+Botswana,1914,0.32386783
+Botswana,1915,0.32386783
+Botswana,1916,0.32386783
+Botswana,1917,0.32386783
+Botswana,1918,0.32386783
+Botswana,1919,0.32386783
+Botswana,1920,0.32386783
+Botswana,1921,0.32386783
+Botswana,1922,0.32386783
+Botswana,1923,0.32386783
+Botswana,1924,0.32386783
+Botswana,1925,0.32386783
+Botswana,1926,0.32386783
+Botswana,1927,0.32386783
+Botswana,1928,0.32386783
+Botswana,1929,0.32386783
+Botswana,1930,0.32386783
+Botswana,1931,0.32386783
+Botswana,1932,0.32386783
+Botswana,1933,0.32386783
+Botswana,1934,0.32386783
+Botswana,1935,0.32386783
+Botswana,1936,0.32386783
+Botswana,1937,0.32386783
+Botswana,1938,0.32386783
+Botswana,1939,0.32386783
+Botswana,1940,0.32386783
+Botswana,1941,0.32386783
+Botswana,1942,0.32386783
+Botswana,1943,0.32386783
+Botswana,1944,0.32386783
+Botswana,1945,0.32386783
+Botswana,1946,0.32386783
+Botswana,1947,0.32386783
+Botswana,1948,0.32386783
+Botswana,1949,0.32386783
+Botswana,1950,0.32386783
+Botswana,1951,0.32386783
+Botswana,1952,0.32386783
+Botswana,1953,0.32386783
+Botswana,1954,0.32386783
+Botswana,1955,0.32386783
+Botswana,1956,0.32386783
+Botswana,1957,0.40641025
+Botswana,1958,0.40641025
+Botswana,1959,0.45584333
+Botswana,1960,0.56364846
+Botswana,1961,0.56364846
+Botswana,1962,0.61718947
+Botswana,1963,0.61718947
+Botswana,1964,0.61718947
+Botswana,1965,0.60619855
+Botswana,1966,0.73893577
+Botswana,1967,0.71276689
+Botswana,1968,0.71276689
+Botswana,1969,0.71276689
+Botswana,1970,0.71276689
+Botswana,1971,0.71276689
+Botswana,1972,0.71276689
+Botswana,1973,0.71276689
+Botswana,1974,0.71276689
+Botswana,1975,0.71276689
+Botswana,1976,0.71276689
+Botswana,1977,0.71276689
+Botswana,1978,0.71276689
+Botswana,1979,0.71276689
+Botswana,1980,0.71276689
+Botswana,1981,0.71276689
+Botswana,1982,0.71276689
+Botswana,1983,0.71276689
+Botswana,1984,0.71276689
+Botswana,1985,0.73308069
+Botswana,1986,0.73308069
+Botswana,1987,0.73308069
+Botswana,1988,0.73308069
+Botswana,1989,0.73308069
+Botswana,1990,0.74343622
+Botswana,1991,0.74343622
+Botswana,1992,0.74343622
+Botswana,1993,0.74343622
+Botswana,1994,0.74343622
+Botswana,1995,0.74343622
+Botswana,1996,0.74343622
+Botswana,1997,0.79939741
+Botswana,1998,0.81080806
+Botswana,1999,0.81080806
+Botswana,2000,0.81080806
+Botswana,2001,0.81080806
+Botswana,2002,0.81080806
+Botswana,2003,0.81080806
+Botswana,2004,0.81080806
+Botswana,2005,0.81944376
+Botswana,2006,0.81944376
+Botswana,2007,0.81944376
+Botswana,2008,0.82799166
+Botswana,2009,0.82799166
+Botswana,2010,0.82799166
+Botswana,2011,0.82799166
+Botswana,2012,0.82799166
+Botswana,2013,0.85361171
+Botswana,2014,0.84524912
+Botswana,2015,0.84417599
+Botswana,2016,0.83338565
+Botswana,2017,0.82578439
+Botswana,2018,0.78636289
+Botswana,2019,0.72065365
+Botswana,2020,0.74338835
+Eswatini,1900,0.28957143
+Eswatini,1901,0.28957143
+Eswatini,1902,0.28957143
+Eswatini,1903,0.28957143
+Eswatini,1904,0.28957143
+Eswatini,1905,0.28957143
+Eswatini,1906,0.28957143
+Eswatini,1907,0.28957143
+Eswatini,1908,0.28957143
+Eswatini,1909,0.27835619
+Eswatini,1910,0.27835619
+Eswatini,1911,0.27835619
+Eswatini,1912,0.27835619
+Eswatini,1913,0.27835619
+Eswatini,1914,0.27835619
+Eswatini,1915,0.27835619
+Eswatini,1916,0.27835619
+Eswatini,1917,0.27835619
+Eswatini,1918,0.27835619
+Eswatini,1919,0.27835619
+Eswatini,1920,0.27835619
+Eswatini,1921,0.27835619
+Eswatini,1922,0.27835619
+Eswatini,1923,0.27835619
+Eswatini,1924,0.27835619
+Eswatini,1925,0.27835619
+Eswatini,1926,0.27835619
+Eswatini,1927,0.27835619
+Eswatini,1928,0.27835619
+Eswatini,1929,0.27835619
+Eswatini,1930,0.27835619
+Eswatini,1931,0.27835619
+Eswatini,1932,0.27835619
+Eswatini,1933,0.27835619
+Eswatini,1934,0.27835619
+Eswatini,1935,0.27835619
+Eswatini,1936,0.27835619
+Eswatini,1937,0.27835619
+Eswatini,1938,0.27835619
+Eswatini,1939,0.27835619
+Eswatini,1940,0.27835619
+Eswatini,1941,0.27835619
+Eswatini,1942,0.27835619
+Eswatini,1943,0.27835619
+Eswatini,1944,0.27835619
+Eswatini,1945,0.27835619
+Eswatini,1946,0.27835619
+Eswatini,1947,0.27835619
+Eswatini,1948,0.27835619
+Eswatini,1949,0.27835619
+Eswatini,1950,0.27835619
+Eswatini,1951,0.27835619
+Eswatini,1952,0.27835619
+Eswatini,1953,0.27835619
+Eswatini,1954,0.27835619
+Eswatini,1955,0.27835619
+Eswatini,1956,0.27835619
+Eswatini,1957,0.27835619
+Eswatini,1958,0.27835619
+Eswatini,1959,0.27835619
+Eswatini,1960,0.27835619
+Eswatini,1961,0.26456183
+Eswatini,1962,0.26456183
+Eswatini,1963,0.29848114
+Eswatini,1964,0.29848114
+Eswatini,1965,0.29848114
+Eswatini,1966,0.3426035
+Eswatini,1967,0.3426035
+Eswatini,1968,0.40326399
+Eswatini,1969,0.4116874
+Eswatini,1970,0.4116874
+Eswatini,1971,0.4116874
+Eswatini,1972,0.4116874
+Eswatini,1973,0.28404239
+Eswatini,1974,0.16105072
+Eswatini,1975,0.16105072
+Eswatini,1976,0.16105072
+Eswatini,1977,0.16105072
+Eswatini,1978,0.16105072
+Eswatini,1979,0.16105072
+Eswatini,1980,0.16105072
+Eswatini,1981,0.16105072
+Eswatini,1982,0.16105072
+Eswatini,1983,0.13488187
+Eswatini,1984,0.16105072
+Eswatini,1985,0.16105072
+Eswatini,1986,0.18721958
+Eswatini,1987,0.18721958
+Eswatini,1988,0.18721958
+Eswatini,1989,0.18721958
+Eswatini,1990,0.18721958
+Eswatini,1991,0.18721958
+Eswatini,1992,0.18721958
+Eswatini,1993,0.18721958
+Eswatini,1994,0.18721958
+Eswatini,1995,0.18721958
+Eswatini,1996,0.18721958
+Eswatini,1997,0.18721958
+Eswatini,1998,0.18721958
+Eswatini,1999,0.18721958
+Eswatini,2000,0.18721958
+Eswatini,2001,0.18721958
+Eswatini,2002,0.18721958
+Eswatini,2003,0.18721958
+Eswatini,2004,0.18721958
+Eswatini,2005,0.19749738
+Eswatini,2006,0.2152774
+Eswatini,2007,0.2152774
+Eswatini,2008,0.2152774
+Eswatini,2009,0.2152774
+Eswatini,2010,0.2152774
+Eswatini,2011,0.22684436
+Eswatini,2012,0.22684436
+Eswatini,2013,0.23233983
+Eswatini,2014,0.23233983
+Eswatini,2015,0.23233983
+Eswatini,2016,0.23233983
+Eswatini,2017,0.2495489
+Eswatini,2018,0.24894185
+Eswatini,2019,0.29473737
+Eswatini,2020,0.29121724
+Madagascar,1817,0.20563869
+Madagascar,1818,0.20563869
+Madagascar,1819,0.20563869
+Madagascar,1820,0.20563869
+Madagascar,1821,0.20563869
+Madagascar,1822,0.20563869
+Madagascar,1823,0.20563869
+Madagascar,1824,0.20563869
+Madagascar,1825,0.20563869
+Madagascar,1826,0.20563869
+Madagascar,1827,0.20563869
+Madagascar,1828,0.20563869
+Madagascar,1829,0.20563869
+Madagascar,1830,0.20563869
+Madagascar,1831,0.20563869
+Madagascar,1832,0.20563869
+Madagascar,1833,0.20563869
+Madagascar,1834,0.20563869
+Madagascar,1835,0.20563869
+Madagascar,1836,0.20563869
+Madagascar,1837,0.20563869
+Madagascar,1838,0.20563869
+Madagascar,1839,0.20563869
+Madagascar,1840,0.20563869
+Madagascar,1841,0.20563869
+Madagascar,1842,0.20563869
+Madagascar,1843,0.20563869
+Madagascar,1844,0.20563869
+Madagascar,1845,0.20563869
+Madagascar,1846,0.20563869
+Madagascar,1847,0.20563869
+Madagascar,1848,0.20563869
+Madagascar,1849,0.20563869
+Madagascar,1850,0.20563869
+Madagascar,1851,0.20563869
+Madagascar,1852,0.20563869
+Madagascar,1853,0.20563869
+Madagascar,1854,0.20563869
+Madagascar,1855,0.20563869
+Madagascar,1856,0.20563869
+Madagascar,1857,0.20563869
+Madagascar,1858,0.20563869
+Madagascar,1859,0.20563869
+Madagascar,1860,0.20563869
+Madagascar,1861,0.20563869
+Madagascar,1862,0.20563869
+Madagascar,1863,0.20563869
+Madagascar,1864,0.20563869
+Madagascar,1865,0.336483
+Madagascar,1866,0.336483
+Madagascar,1867,0.336483
+Madagascar,1868,0.336483
+Madagascar,1869,0.336483
+Madagascar,1870,0.336483
+Madagascar,1871,0.336483
+Madagascar,1872,0.336483
+Madagascar,1873,0.336483
+Madagascar,1874,0.336483
+Madagascar,1875,0.336483
+Madagascar,1876,0.336483
+Madagascar,1877,0.336483
+Madagascar,1878,0.336483
+Madagascar,1879,0.336483
+Madagascar,1880,0.336483
+Madagascar,1881,0.336483
+Madagascar,1882,0.336483
+Madagascar,1883,0.336483
+Madagascar,1884,0.336483
+Madagascar,1885,0.336483
+Madagascar,1886,0.336483
+Madagascar,1887,0.336483
+Madagascar,1888,0.336483
+Madagascar,1889,0.336483
+Madagascar,1890,0.336483
+Madagascar,1891,0.336483
+Madagascar,1892,0.336483
+Madagascar,1893,0.336483
+Madagascar,1894,0.336483
+Madagascar,1895,0.336483
+Madagascar,1896,0.336483
+Madagascar,1897,0.336483
+Madagascar,1898,0.336483
+Madagascar,1899,0.336483
+Madagascar,1900,0.41941556
+Madagascar,1901,0.41941556
+Madagascar,1902,0.41941556
+Madagascar,1903,0.41941556
+Madagascar,1904,0.41941556
+Madagascar,1905,0.41941556
+Madagascar,1906,0.43852448
+Madagascar,1907,0.43852448
+Madagascar,1908,0.43852448
+Madagascar,1909,0.43852448
+Madagascar,1910,0.43852448
+Madagascar,1911,0.43852448
+Madagascar,1912,0.43852448
+Madagascar,1913,0.43852448
+Madagascar,1914,0.43852448
+Madagascar,1915,0.43852448
+Madagascar,1916,0.43852448
+Madagascar,1917,0.43852448
+Madagascar,1918,0.43852448
+Madagascar,1919,0.43852448
+Madagascar,1920,0.43852448
+Madagascar,1921,0.41976726
+Madagascar,1922,0.41976726
+Madagascar,1923,0.41976726
+Madagascar,1924,0.41976726
+Madagascar,1925,0.41976726
+Madagascar,1926,0.41976726
+Madagascar,1927,0.41976726
+Madagascar,1928,0.41976726
+Madagascar,1929,0.41976726
+Madagascar,1930,0.41976726
+Madagascar,1931,0.41976726
+Madagascar,1932,0.41976726
+Madagascar,1933,0.41976726
+Madagascar,1934,0.41976726
+Madagascar,1935,0.41976726
+Madagascar,1936,0.443573
+Madagascar,1937,0.443573
+Madagascar,1938,0.443573
+Madagascar,1939,0.42360437
+Madagascar,1940,0.42360437
+Madagascar,1941,0.42360437
+Madagascar,1942,0.42360437
+Madagascar,1943,0.42360437
+Madagascar,1944,0.42360437
+Madagascar,1945,0.42360437
+Madagascar,1946,0.63258356
+Madagascar,1947,0.56234634
+Madagascar,1948,0.55003691
+Madagascar,1949,0.55003691
+Madagascar,1950,0.55003691
+Madagascar,1951,0.55003691
+Madagascar,1952,0.55003691
+Madagascar,1953,0.55003691
+Madagascar,1954,0.55003691
+Madagascar,1955,0.55003691
+Madagascar,1956,0.59031498
+Madagascar,1957,0.62332296
+Madagascar,1958,0.62332296
+Madagascar,1959,0.62895721
+Madagascar,1960,0.57001209
+Madagascar,1961,0.58822221
+Madagascar,1962,0.58822221
+Madagascar,1963,0.58822221
+Madagascar,1964,0.58822221
+Madagascar,1965,0.58822221
+Madagascar,1966,0.58822221
+Madagascar,1967,0.58822221
+Madagascar,1968,0.58822221
+Madagascar,1969,0.58822221
+Madagascar,1970,0.58822221
+Madagascar,1971,0.58822221
+Madagascar,1972,0.32377803
+Madagascar,1973,0.32377803
+Madagascar,1974,0.3210426
+Madagascar,1975,0.40406561
+Madagascar,1976,0.41831079
+Madagascar,1977,0.40744725
+Madagascar,1978,0.42885315
+Madagascar,1979,0.42885315
+Madagascar,1980,0.42885315
+Madagascar,1981,0.45143858
+Madagascar,1982,0.45143858
+Madagascar,1983,0.45143858
+Madagascar,1984,0.45143858
+Madagascar,1985,0.45143858
+Madagascar,1986,0.45143858
+Madagascar,1987,0.46226305
+Madagascar,1988,0.46226305
+Madagascar,1989,0.47755072
+Madagascar,1990,0.4958643
+Madagascar,1991,0.54419708
+Madagascar,1992,0.5890097
+Madagascar,1993,0.61421621
+Madagascar,1994,0.73085749
+Madagascar,1995,0.73085749
+Madagascar,1996,0.73085749
+Madagascar,1997,0.72600836
+Madagascar,1998,0.72600836
+Madagascar,1999,0.72600836
+Madagascar,2000,0.72098452
+Madagascar,2001,0.71783918
+Madagascar,2002,0.69579947
+Madagascar,2003,0.71060884
+Madagascar,2004,0.71060884
+Madagascar,2005,0.70694518
+Madagascar,2006,0.70694518
+Madagascar,2007,0.70694518
+Madagascar,2008,0.70694518
+Madagascar,2009,0.51399219
+Madagascar,2010,0.54298562
+Madagascar,2011,0.54556304
+Madagascar,2012,0.55827552
+Madagascar,2013,0.56840295
+Madagascar,2014,0.69837898
+Madagascar,2015,0.69837898
+Madagascar,2016,0.69837898
+Madagascar,2017,0.68607962
+Madagascar,2018,0.69471532
+Madagascar,2019,0.68615675
+Madagascar,2020,0.68615675
+Comoros,1900,0.39543822
+Comoros,1901,0.39543822
+Comoros,1902,0.39543822
+Comoros,1903,0.39543822
+Comoros,1904,0.39543822
+Comoros,1905,0.39543822
+Comoros,1906,0.39543822
+Comoros,1907,0.39543822
+Comoros,1908,0.39543822
+Comoros,1909,0.39543822
+Comoros,1910,0.39543822
+Comoros,1911,0.39543822
+Comoros,1912,0.39543822
+Comoros,1913,0.42755997
+Comoros,1946,0.45176101
+Comoros,1947,0.42977917
+Comoros,1948,0.45689899
+Comoros,1949,0.47460109
+Comoros,1950,0.47460109
+Comoros,1951,0.47460109
+Comoros,1952,0.47460109
+Comoros,1953,0.47460109
+Comoros,1954,0.47460109
+Comoros,1955,0.47460109
+Comoros,1956,0.47460109
+Comoros,1957,0.47460109
+Comoros,1958,0.47460109
+Comoros,1959,0.47460109
+Comoros,1960,0.47460109
+Comoros,1961,0.47460109
+Comoros,1962,0.47460109
+Comoros,1963,0.47460109
+Comoros,1964,0.47460109
+Comoros,1965,0.47460109
+Comoros,1966,0.47460109
+Comoros,1967,0.47460109
+Comoros,1968,0.47460109
+Comoros,1969,0.47460109
+Comoros,1970,0.47460109
+Comoros,1971,0.47460109
+Comoros,1972,0.49627334
+Comoros,1973,0.45796666
+Comoros,1974,0.43624651
+Comoros,1975,0.30781209
+Comoros,1976,0.38670209
+Comoros,1977,0.38124138
+Comoros,1978,0.22208041
+Comoros,1979,0.42305669
+Comoros,1980,0.437879
+Comoros,1981,0.437879
+Comoros,1982,0.42611948
+Comoros,1983,0.41864923
+Comoros,1984,0.4256826
+Comoros,1985,0.41917348
+Comoros,1986,0.41917348
+Comoros,1987,0.42629421
+Comoros,1988,0.41921717
+Comoros,1989,0.41921717
+Comoros,1990,0.62899047
+Comoros,1991,0.6236608
+Comoros,1992,0.62999523
+Comoros,1993,0.62999523
+Comoros,1994,0.62444717
+Comoros,1995,0.62444717
+Comoros,1996,0.62925255
+Comoros,1997,0.62435979
+Comoros,1998,0.62435979
+Comoros,1999,0.43150926
+Comoros,2000,0.45322943
+Comoros,2001,0.46891373
+Comoros,2002,0.62505996
+Comoros,2003,0.67329723
+Comoros,2004,0.67766577
+Comoros,2005,0.66405118
+Comoros,2006,0.68717396
+Comoros,2007,0.68411595
+Comoros,2008,0.68411595
+Comoros,2009,0.68796027
+Comoros,2010,0.68796027
+Comoros,2011,0.70945358
+Comoros,2012,0.70945358
+Comoros,2013,0.70636439
+Comoros,2014,0.70636439
+Comoros,2015,0.70636439
+Comoros,2016,0.70636439
+Comoros,2017,0.64322793
+Comoros,2018,0.65161318
+Comoros,2019,0.64523512
+Comoros,2020,0.64523512
+Mauritius,1900,0.64362568
+Mauritius,1901,0.64362568
+Mauritius,1902,0.64362568
+Mauritius,1903,0.64362568
+Mauritius,1904,0.64362568
+Mauritius,1905,0.64362568
+Mauritius,1906,0.64362568
+Mauritius,1907,0.64362568
+Mauritius,1908,0.64362568
+Mauritius,1909,0.64362568
+Mauritius,1910,0.64362568
+Mauritius,1911,0.64362568
+Mauritius,1912,0.64362568
+Mauritius,1913,0.64362568
+Mauritius,1914,0.64362568
+Mauritius,1915,0.64362568
+Mauritius,1916,0.64362568
+Mauritius,1917,0.64362568
+Mauritius,1918,0.64362568
+Mauritius,1919,0.64362568
+Mauritius,1920,0.64362568
+Mauritius,1921,0.64362568
+Mauritius,1922,0.64362568
+Mauritius,1923,0.64362568
+Mauritius,1924,0.64362568
+Mauritius,1925,0.64362568
+Mauritius,1926,0.64362568
+Mauritius,1927,0.64362568
+Mauritius,1928,0.64362568
+Mauritius,1929,0.64362568
+Mauritius,1930,0.64362568
+Mauritius,1931,0.64362568
+Mauritius,1932,0.64362568
+Mauritius,1933,0.64362568
+Mauritius,1934,0.64362568
+Mauritius,1935,0.64362568
+Mauritius,1936,0.64362568
+Mauritius,1937,0.65027761
+Mauritius,1938,0.65027761
+Mauritius,1939,0.65027761
+Mauritius,1940,0.65621746
+Mauritius,1941,0.65621746
+Mauritius,1942,0.65621746
+Mauritius,1943,0.67264318
+Mauritius,1944,0.68346769
+Mauritius,1945,0.68346769
+Mauritius,1946,0.68346769
+Mauritius,1947,0.71885294
+Mauritius,1948,0.82025021
+Mauritius,1949,0.82025021
+Mauritius,1950,0.82025021
+Mauritius,1951,0.82025021
+Mauritius,1952,0.82025021
+Mauritius,1953,0.82025021
+Mauritius,1954,0.82025021
+Mauritius,1955,0.82025021
+Mauritius,1956,0.82025021
+Mauritius,1957,0.84226674
+Mauritius,1958,0.84226674
+Mauritius,1959,0.84226674
+Mauritius,1960,0.84226674
+Mauritius,1961,0.84226674
+Mauritius,1962,0.84226674
+Mauritius,1963,0.84226674
+Mauritius,1964,0.84226674
+Mauritius,1965,0.84226674
+Mauritius,1966,0.84566867
+Mauritius,1967,0.84566867
+Mauritius,1968,0.82264012
+Mauritius,1969,0.88013029
+Mauritius,1970,0.90808237
+Mauritius,1971,0.90808237
+Mauritius,1972,0.90808237
+Mauritius,1973,0.90808237
+Mauritius,1974,0.90808237
+Mauritius,1975,0.90808237
+Mauritius,1976,0.90808237
+Mauritius,1977,0.90808237
+Mauritius,1978,0.90808237
+Mauritius,1979,0.90808237
+Mauritius,1980,0.90808237
+Mauritius,1981,0.90808237
+Mauritius,1982,0.90808237
+Mauritius,1983,0.90808237
+Mauritius,1984,0.90808237
+Mauritius,1985,0.90808237
+Mauritius,1986,0.90808237
+Mauritius,1987,0.90808237
+Mauritius,1988,0.90808237
+Mauritius,1989,0.90808237
+Mauritius,1990,0.88191354
+Mauritius,1991,0.88191354
+Mauritius,1992,0.88191354
+Mauritius,1993,0.88191354
+Mauritius,1994,0.88191354
+Mauritius,1995,0.88191354
+Mauritius,1996,0.88191354
+Mauritius,1997,0.88191354
+Mauritius,1998,0.88191354
+Mauritius,1999,0.88191354
+Mauritius,2000,0.88191354
+Mauritius,2001,0.88191354
+Mauritius,2002,0.88191354
+Mauritius,2003,0.88191354
+Mauritius,2004,0.88191354
+Mauritius,2005,0.90441877
+Mauritius,2006,0.90441877
+Mauritius,2007,0.90441877
+Mauritius,2008,0.90441877
+Mauritius,2009,0.90441877
+Mauritius,2010,0.90441877
+Mauritius,2011,0.90441877
+Mauritius,2012,0.90441877
+Mauritius,2013,0.93869996
+Mauritius,2014,0.93869996
+Mauritius,2015,0.93869996
+Mauritius,2016,0.93869996
+Mauritius,2017,0.91671813
+Mauritius,2018,0.90808237
+Mauritius,2019,0.89499801
+Mauritius,2020,0.78800339
+Seychelles,1903,0.43906984
+Seychelles,1904,0.43906984
+Seychelles,1905,0.43906984
+Seychelles,1906,0.43906984
+Seychelles,1907,0.43906984
+Seychelles,1908,0.43906984
+Seychelles,1909,0.43906984
+Seychelles,1910,0.43906984
+Seychelles,1911,0.43906984
+Seychelles,1912,0.43906984
+Seychelles,1913,0.43906984
+Seychelles,1914,0.43906984
+Seychelles,1915,0.43906984
+Seychelles,1916,0.43906984
+Seychelles,1917,0.43906984
+Seychelles,1918,0.43906984
+Seychelles,1919,0.43906984
+Seychelles,1920,0.43906984
+Seychelles,1921,0.43906984
+Seychelles,1922,0.43906984
+Seychelles,1923,0.43906984
+Seychelles,1924,0.43906984
+Seychelles,1925,0.43906984
+Seychelles,1926,0.43906984
+Seychelles,1927,0.43906984
+Seychelles,1928,0.43906984
+Seychelles,1929,0.43906984
+Seychelles,1930,0.43906984
+Seychelles,1931,0.43906984
+Seychelles,1932,0.43906984
+Seychelles,1933,0.43906984
+Seychelles,1934,0.43906984
+Seychelles,1935,0.43906984
+Seychelles,1936,0.43906984
+Seychelles,1937,0.43906984
+Seychelles,1938,0.43906984
+Seychelles,1939,0.43906984
+Seychelles,1940,0.43906984
+Seychelles,1941,0.43906984
+Seychelles,1942,0.43906984
+Seychelles,1943,0.43906984
+Seychelles,1944,0.43906984
+Seychelles,1945,0.43906984
+Seychelles,1946,0.43906984
+Seychelles,1947,0.43906984
+Seychelles,1948,0.52146077
+Seychelles,1949,0.56224012
+Seychelles,1950,0.56224012
+Seychelles,1951,0.56224012
+Seychelles,1952,0.56224012
+Seychelles,1953,0.56224012
+Seychelles,1954,0.56224012
+Seychelles,1955,0.56224012
+Seychelles,1956,0.56224012
+Seychelles,1957,0.56224012
+Seychelles,1958,0.56224012
+Seychelles,1959,0.56224012
+Seychelles,1960,0.56224012
+Seychelles,1961,0.52952909
+Seychelles,1962,0.52952909
+Seychelles,1963,0.52952909
+Seychelles,1964,0.57403839
+Seychelles,1965,0.62183022
+Seychelles,1966,0.62183022
+Seychelles,1967,0.6307959
+Seychelles,1968,0.6307959
+Seychelles,1969,0.6307959
+Seychelles,1970,0.6472823
+Seychelles,1971,0.6472823
+Seychelles,1972,0.61087728
+Seychelles,1973,0.61087728
+Seychelles,1974,0.61087728
+Seychelles,1975,0.61087728
+Seychelles,1976,0.58130646
+Seychelles,1977,0.37711474
+Seychelles,1978,0.36677337
+Seychelles,1979,0.4191111
+Seychelles,1980,0.4191111
+Seychelles,1981,0.4191111
+Seychelles,1982,0.4191111
+Seychelles,1983,0.4191111
+Seychelles,1984,0.4191111
+Seychelles,1985,0.4191111
+Seychelles,1986,0.4191111
+Seychelles,1987,0.4191111
+Seychelles,1988,0.4191111
+Seychelles,1989,0.4350563
+Seychelles,1990,0.4350563
+Seychelles,1991,0.45533755
+Seychelles,1992,0.58194643
+Seychelles,1993,0.60715145
+Seychelles,1994,0.60715145
+Seychelles,1995,0.60715145
+Seychelles,1996,0.60715145
+Seychelles,1997,0.60715145
+Seychelles,1998,0.60715145
+Seychelles,1999,0.60715145
+Seychelles,2000,0.60715145
+Seychelles,2001,0.60715145
+Seychelles,2002,0.60715145
+Seychelles,2003,0.65891612
+Seychelles,2004,0.67315996
+Seychelles,2005,0.68179566
+Seychelles,2006,0.67821348
+Seychelles,2007,0.68240726
+Seychelles,2008,0.68240726
+Seychelles,2009,0.68240726
+Seychelles,2010,0.68240726
+Seychelles,2011,0.70215315
+Seychelles,2012,0.70215315
+Seychelles,2013,0.70184094
+Seychelles,2014,0.70184094
+Seychelles,2015,0.70184094
+Seychelles,2016,0.71507764
+Seychelles,2017,0.7212373
+Seychelles,2018,0.74086398
+Seychelles,2019,0.72987306
+Seychelles,2020,0.75311375
+Morocco,1789,0.19131851
+Morocco,1790,0.19131851
+Morocco,1791,0.19131851
+Morocco,1792,0.19131851
+Morocco,1793,0.19131851
+Morocco,1794,0.19131851
+Morocco,1795,0.19131851
+Morocco,1796,0.19131851
+Morocco,1797,0.19131851
+Morocco,1798,0.19131851
+Morocco,1799,0.19131851
+Morocco,1800,0.19131851
+Morocco,1801,0.19131851
+Morocco,1802,0.19131851
+Morocco,1803,0.19131851
+Morocco,1804,0.19131851
+Morocco,1805,0.19131851
+Morocco,1806,0.19131851
+Morocco,1807,0.19131851
+Morocco,1808,0.19131851
+Morocco,1809,0.19131851
+Morocco,1810,0.19131851
+Morocco,1811,0.19131851
+Morocco,1812,0.19131851
+Morocco,1813,0.19131851
+Morocco,1814,0.19131851
+Morocco,1815,0.19131851
+Morocco,1816,0.19131851
+Morocco,1817,0.19131851
+Morocco,1818,0.19131851
+Morocco,1819,0.19131851
+Morocco,1820,0.19131851
+Morocco,1821,0.19131851
+Morocco,1822,0.19131851
+Morocco,1823,0.19131851
+Morocco,1824,0.19131851
+Morocco,1825,0.19131851
+Morocco,1826,0.19131851
+Morocco,1827,0.19131851
+Morocco,1828,0.19131851
+Morocco,1829,0.19131851
+Morocco,1830,0.19131851
+Morocco,1831,0.19131851
+Morocco,1832,0.19131851
+Morocco,1833,0.19131851
+Morocco,1834,0.19131851
+Morocco,1835,0.19131851
+Morocco,1836,0.19131851
+Morocco,1837,0.19131851
+Morocco,1838,0.19131851
+Morocco,1839,0.19131851
+Morocco,1840,0.19131851
+Morocco,1841,0.19131851
+Morocco,1842,0.19131851
+Morocco,1843,0.19131851
+Morocco,1844,0.19131851
+Morocco,1845,0.19131851
+Morocco,1846,0.19131851
+Morocco,1847,0.19131851
+Morocco,1848,0.19131851
+Morocco,1849,0.19131851
+Morocco,1850,0.19131851
+Morocco,1851,0.19131851
+Morocco,1852,0.19131851
+Morocco,1853,0.19131851
+Morocco,1854,0.19131851
+Morocco,1855,0.19131851
+Morocco,1856,0.19131851
+Morocco,1857,0.19131851
+Morocco,1858,0.19131851
+Morocco,1859,0.19131851
+Morocco,1860,0.19131851
+Morocco,1861,0.19131851
+Morocco,1862,0.19131851
+Morocco,1863,0.19131851
+Morocco,1864,0.19131851
+Morocco,1865,0.19131851
+Morocco,1866,0.19131851
+Morocco,1867,0.19131851
+Morocco,1868,0.19131851
+Morocco,1869,0.19131851
+Morocco,1870,0.19131851
+Morocco,1871,0.19131851
+Morocco,1872,0.19131851
+Morocco,1873,0.19131851
+Morocco,1874,0.19131851
+Morocco,1875,0.19131851
+Morocco,1876,0.19131851
+Morocco,1877,0.19131851
+Morocco,1878,0.19131851
+Morocco,1879,0.19131851
+Morocco,1880,0.19131851
+Morocco,1881,0.19131851
+Morocco,1882,0.19131851
+Morocco,1883,0.19131851
+Morocco,1884,0.19131851
+Morocco,1885,0.19131851
+Morocco,1886,0.19131851
+Morocco,1887,0.19131851
+Morocco,1888,0.19131851
+Morocco,1889,0.19131851
+Morocco,1890,0.19131851
+Morocco,1891,0.19131851
+Morocco,1892,0.19131851
+Morocco,1893,0.19131851
+Morocco,1894,0.19131851
+Morocco,1895,0.19131851
+Morocco,1896,0.19131851
+Morocco,1897,0.19131851
+Morocco,1898,0.19131851
+Morocco,1899,0.19131851
+Morocco,1900,0.19131851
+Morocco,1901,0.19131851
+Morocco,1902,0.19131851
+Morocco,1903,0.19131851
+Morocco,1904,0.19131851
+Morocco,1905,0.19131851
+Morocco,1906,0.19131851
+Morocco,1907,0.19131851
+Morocco,1908,0.19131851
+Morocco,1909,0.19131851
+Morocco,1910,0.19131851
+Morocco,1911,0.19131851
+Morocco,1912,0.26182052
+Morocco,1913,0.26182052
+Morocco,1914,0.26182052
+Morocco,1915,0.26182052
+Morocco,1916,0.26182052
+Morocco,1917,0.26182052
+Morocco,1918,0.26182052
+Morocco,1919,0.30986708
+Morocco,1920,0.30986708
+Morocco,1921,0.30541837
+Morocco,1922,0.30541837
+Morocco,1923,0.30541837
+Morocco,1924,0.30541837
+Morocco,1925,0.32777071
+Morocco,1926,0.32777071
+Morocco,1927,0.32777071
+Morocco,1928,0.32777071
+Morocco,1929,0.32777071
+Morocco,1930,0.32777071
+Morocco,1931,0.32777071
+Morocco,1932,0.32777071
+Morocco,1933,0.32777071
+Morocco,1934,0.32777071
+Morocco,1935,0.32777071
+Morocco,1936,0.32777071
+Morocco,1937,0.31573483
+Morocco,1938,0.31573483
+Morocco,1939,0.31573483
+Morocco,1940,0.31573483
+Morocco,1941,0.31573483
+Morocco,1942,0.31573483
+Morocco,1943,0.37130311
+Morocco,1944,0.37130311
+Morocco,1945,0.37130311
+Morocco,1946,0.37130311
+Morocco,1947,0.37130311
+Morocco,1948,0.37130311
+Morocco,1949,0.37130311
+Morocco,1950,0.37130311
+Morocco,1951,0.37130311
+Morocco,1952,0.37130311
+Morocco,1953,0.37130311
+Morocco,1954,0.37130311
+Morocco,1955,0.37130311
+Morocco,1956,0.39322561
+Morocco,1957,0.40537873
+Morocco,1958,0.40537873
+Morocco,1959,0.40537873
+Morocco,1960,0.40537873
+Morocco,1961,0.42272189
+Morocco,1962,0.42272189
+Morocco,1963,0.42272189
+Morocco,1964,0.42272189
+Morocco,1965,0.42272189
+Morocco,1966,0.42272189
+Morocco,1967,0.42272189
+Morocco,1968,0.42272189
+Morocco,1969,0.42272189
+Morocco,1970,0.42272189
+Morocco,1971,0.42272189
+Morocco,1972,0.42272189
+Morocco,1973,0.42272189
+Morocco,1974,0.42272189
+Morocco,1975,0.44759443
+Morocco,1976,0.45419094
+Morocco,1977,0.45419094
+Morocco,1978,0.45419094
+Morocco,1979,0.45419094
+Morocco,1980,0.45419094
+Morocco,1981,0.45419094
+Morocco,1982,0.45419094
+Morocco,1983,0.45419094
+Morocco,1984,0.45419094
+Morocco,1985,0.45419094
+Morocco,1986,0.45419094
+Morocco,1987,0.45419094
+Morocco,1988,0.45419094
+Morocco,1989,0.45419094
+Morocco,1990,0.45419094
+Morocco,1991,0.45419094
+Morocco,1992,0.50997734
+Morocco,1993,0.4860377
+Morocco,1994,0.4860377
+Morocco,1995,0.4860377
+Morocco,1996,0.4860377
+Morocco,1997,0.4860377
+Morocco,1998,0.4483766
+Morocco,1999,0.4483766
+Morocco,2000,0.44674975
+Morocco,2001,0.44674975
+Morocco,2002,0.44674975
+Morocco,2003,0.44674975
+Morocco,2004,0.44674975
+Morocco,2005,0.52769184
+Morocco,2006,0.52769184
+Morocco,2007,0.53378797
+Morocco,2008,0.53378797
+Morocco,2009,0.53378797
+Morocco,2010,0.53378797
+Morocco,2011,0.54433769
+Morocco,2012,0.54433769
+Morocco,2013,0.5576306
+Morocco,2014,0.5576306
+Morocco,2015,0.54937398
+Morocco,2016,0.54288977
+Morocco,2017,0.54935527
+Morocco,2018,0.54071951
+Morocco,2019,0.5276351
+Morocco,2020,0.51059914
+Algeria,1900,0.57352513
+Algeria,1901,0.57352513
+Algeria,1902,0.57352513
+Algeria,1903,0.57352513
+Algeria,1904,0.57352513
+Algeria,1905,0.57352513
+Algeria,1906,0.57352513
+Algeria,1907,0.57352513
+Algeria,1908,0.57352513
+Algeria,1909,0.57352513
+Algeria,1910,0.57352513
+Algeria,1911,0.57352513
+Algeria,1912,0.57352513
+Algeria,1913,0.57352513
+Algeria,1914,0.57352513
+Algeria,1915,0.57352513
+Algeria,1916,0.57352513
+Algeria,1917,0.57352513
+Algeria,1918,0.57352513
+Algeria,1919,0.57352513
+Algeria,1920,0.57352513
+Algeria,1921,0.57352513
+Algeria,1922,0.57352513
+Algeria,1923,0.57352513
+Algeria,1924,0.57352513
+Algeria,1925,0.57352513
+Algeria,1926,0.60776103
+Algeria,1927,0.60776103
+Algeria,1928,0.60776103
+Algeria,1929,0.61929399
+Algeria,1930,0.60645044
+Algeria,1931,0.60645044
+Algeria,1932,0.60645044
+Algeria,1933,0.60645044
+Algeria,1934,0.60645044
+Algeria,1935,0.60645044
+Algeria,1936,0.60645044
+Algeria,1937,0.60645044
+Algeria,1938,0.60645044
+Algeria,1939,0.60645044
+Algeria,1940,0.57373941
+Algeria,1941,0.60645044
+Algeria,1942,0.60645044
+Algeria,1943,0.60645044
+Algeria,1944,0.57373941
+Algeria,1945,0.57373941
+Algeria,1946,0.57373941
+Algeria,1947,0.57373941
+Algeria,1948,0.57373941
+Algeria,1949,0.57373941
+Algeria,1950,0.57373941
+Algeria,1951,0.57373941
+Algeria,1952,0.57373941
+Algeria,1953,0.57373941
+Algeria,1954,0.57373941
+Algeria,1955,0.54102832
+Algeria,1956,0.54102832
+Algeria,1957,0.54102832
+Algeria,1958,0.54102832
+Algeria,1959,0.54102832
+Algeria,1960,0.54102832
+Algeria,1961,0.54102832
+Algeria,1962,0.4011094
+Algeria,1963,0.31251937
+Algeria,1964,0.32560381
+Algeria,1965,0.16204844
+Algeria,1966,0.19475952
+Algeria,1967,0.19475952
+Algeria,1968,0.19475952
+Algeria,1969,0.19475952
+Algeria,1970,0.19475952
+Algeria,1971,0.19475952
+Algeria,1972,0.19475952
+Algeria,1973,0.19475952
+Algeria,1974,0.19475952
+Algeria,1975,0.19475952
+Algeria,1976,0.32560381
+Algeria,1977,0.32560381
+Algeria,1978,0.32560381
+Algeria,1979,0.33927742
+Algeria,1980,0.33927742
+Algeria,1981,0.33927742
+Algeria,1982,0.33927742
+Algeria,1983,0.33927742
+Algeria,1984,0.33927742
+Algeria,1985,0.33927742
+Algeria,1986,0.33927742
+Algeria,1987,0.33927742
+Algeria,1988,0.33927742
+Algeria,1989,0.34990999
+Algeria,1990,0.53634423
+Algeria,1991,0.53634423
+Algeria,1992,0.37278885
+Algeria,1993,0.3868899
+Algeria,1994,0.3868899
+Algeria,1995,0.51773417
+Algeria,1996,0.51773417
+Algeria,1997,0.51773417
+Algeria,1998,0.51773417
+Algeria,1999,0.51773417
+Algeria,2000,0.49885973
+Algeria,2001,0.49885973
+Algeria,2002,0.49885973
+Algeria,2003,0.49885973
+Algeria,2004,0.49885973
+Algeria,2005,0.49885973
+Algeria,2006,0.49885973
+Algeria,2007,0.49885973
+Algeria,2008,0.49885973
+Algeria,2009,0.49885973
+Algeria,2010,0.49237287
+Algeria,2011,0.49842989
+Algeria,2012,0.49272457
+Algeria,2013,0.51859617
+Algeria,2014,0.51859617
+Algeria,2015,0.52570826
+Algeria,2016,0.51550245
+Algeria,2017,0.50116098
+Algeria,2018,0.51304728
+Algeria,2019,0.48684534
+Algeria,2020,0.46735373
+Tunisia,1789,0.19289948
+Tunisia,1790,0.19289948
+Tunisia,1791,0.19289948
+Tunisia,1792,0.19289948
+Tunisia,1793,0.19289948
+Tunisia,1794,0.19289948
+Tunisia,1795,0.19289948
+Tunisia,1796,0.19289948
+Tunisia,1797,0.19289948
+Tunisia,1798,0.19289948
+Tunisia,1799,0.19289948
+Tunisia,1800,0.19289948
+Tunisia,1801,0.19289948
+Tunisia,1802,0.19289948
+Tunisia,1803,0.19289948
+Tunisia,1804,0.19289948
+Tunisia,1805,0.19289948
+Tunisia,1806,0.19289948
+Tunisia,1807,0.19289948
+Tunisia,1808,0.19289948
+Tunisia,1809,0.19289948
+Tunisia,1810,0.19289948
+Tunisia,1811,0.19289948
+Tunisia,1812,0.19289948
+Tunisia,1813,0.19289948
+Tunisia,1814,0.19289948
+Tunisia,1815,0.19289948
+Tunisia,1816,0.19289948
+Tunisia,1817,0.19289948
+Tunisia,1818,0.19289948
+Tunisia,1819,0.19289948
+Tunisia,1820,0.19289948
+Tunisia,1821,0.19289948
+Tunisia,1822,0.19289948
+Tunisia,1823,0.19289948
+Tunisia,1824,0.19289948
+Tunisia,1825,0.19289948
+Tunisia,1826,0.19289948
+Tunisia,1827,0.19289948
+Tunisia,1828,0.19289948
+Tunisia,1829,0.19289948
+Tunisia,1830,0.19289948
+Tunisia,1831,0.19289948
+Tunisia,1832,0.19289948
+Tunisia,1833,0.19289948
+Tunisia,1834,0.19289948
+Tunisia,1835,0.19289948
+Tunisia,1836,0.19289948
+Tunisia,1837,0.19289948
+Tunisia,1838,0.19289948
+Tunisia,1839,0.19289948
+Tunisia,1840,0.19289948
+Tunisia,1841,0.19289948
+Tunisia,1842,0.19289948
+Tunisia,1843,0.19289948
+Tunisia,1844,0.19289948
+Tunisia,1845,0.19289948
+Tunisia,1846,0.19289948
+Tunisia,1847,0.19289948
+Tunisia,1848,0.19289948
+Tunisia,1849,0.19289948
+Tunisia,1850,0.19289948
+Tunisia,1851,0.19289948
+Tunisia,1852,0.19289948
+Tunisia,1853,0.19289948
+Tunisia,1854,0.19289948
+Tunisia,1855,0.19289948
+Tunisia,1856,0.19289948
+Tunisia,1857,0.19289948
+Tunisia,1858,0.19289948
+Tunisia,1859,0.19289948
+Tunisia,1860,0.19289948
+Tunisia,1861,0.19289948
+Tunisia,1862,0.19289948
+Tunisia,1863,0.19289948
+Tunisia,1864,0.19289948
+Tunisia,1865,0.19289948
+Tunisia,1866,0.19289948
+Tunisia,1867,0.19289948
+Tunisia,1868,0.19289948
+Tunisia,1869,0.19289948
+Tunisia,1870,0.19289948
+Tunisia,1871,0.19289948
+Tunisia,1872,0.19289948
+Tunisia,1873,0.19289948
+Tunisia,1874,0.19289948
+Tunisia,1875,0.19289948
+Tunisia,1876,0.19289948
+Tunisia,1877,0.19289948
+Tunisia,1878,0.19289948
+Tunisia,1879,0.19289948
+Tunisia,1880,0.19289948
+Tunisia,1881,0.2794441
+Tunisia,1882,0.34486625
+Tunisia,1883,0.34486625
+Tunisia,1884,0.34486625
+Tunisia,1885,0.34486625
+Tunisia,1886,0.34486625
+Tunisia,1887,0.34486625
+Tunisia,1888,0.34486625
+Tunisia,1889,0.34486625
+Tunisia,1890,0.34486625
+Tunisia,1891,0.34486625
+Tunisia,1892,0.34486625
+Tunisia,1893,0.34486625
+Tunisia,1894,0.34486625
+Tunisia,1895,0.34486625
+Tunisia,1896,0.34486625
+Tunisia,1897,0.34486625
+Tunisia,1898,0.34486625
+Tunisia,1899,0.34486625
+Tunisia,1900,0.38868237
+Tunisia,1901,0.38868237
+Tunisia,1902,0.38868237
+Tunisia,1903,0.38868237
+Tunisia,1904,0.38868237
+Tunisia,1905,0.38868237
+Tunisia,1906,0.38868237
+Tunisia,1907,0.41890141
+Tunisia,1908,0.41890141
+Tunisia,1909,0.41890141
+Tunisia,1910,0.41890141
+Tunisia,1911,0.41890141
+Tunisia,1912,0.41890141
+Tunisia,1913,0.41171116
+Tunisia,1914,0.41171116
+Tunisia,1915,0.41171116
+Tunisia,1916,0.41171116
+Tunisia,1917,0.41171116
+Tunisia,1918,0.41171116
+Tunisia,1919,0.43124992
+Tunisia,1920,0.43124992
+Tunisia,1921,0.42313761
+Tunisia,1922,0.42313761
+Tunisia,1923,0.40121511
+Tunisia,1924,0.40121511
+Tunisia,1925,0.41246942
+Tunisia,1926,0.41246942
+Tunisia,1927,0.41246942
+Tunisia,1928,0.41246942
+Tunisia,1929,0.41246942
+Tunisia,1930,0.41246942
+Tunisia,1931,0.41246942
+Tunisia,1932,0.41246942
+Tunisia,1933,0.41246942
+Tunisia,1934,0.39121124
+Tunisia,1935,0.40176219
+Tunisia,1936,0.39647272
+Tunisia,1937,0.39647272
+Tunisia,1938,0.3592993
+Tunisia,1939,0.3592993
+Tunisia,1940,0.34075338
+Tunisia,1941,0.34075338
+Tunisia,1942,0.34075338
+Tunisia,1943,0.35383779
+Tunisia,1944,0.35383779
+Tunisia,1945,0.37343216
+Tunisia,1946,0.38622993
+Tunisia,1947,0.38622993
+Tunisia,1948,0.38622993
+Tunisia,1949,0.38622993
+Tunisia,1950,0.38622993
+Tunisia,1951,0.38622993
+Tunisia,1952,0.38622993
+Tunisia,1953,0.39674178
+Tunisia,1954,0.39674178
+Tunisia,1955,0.41073155
+Tunisia,1956,0.40736523
+Tunisia,1957,0.4099901
+Tunisia,1958,0.46329665
+Tunisia,1959,0.45433095
+Tunisia,1960,0.44522589
+Tunisia,1961,0.44522589
+Tunisia,1962,0.44522589
+Tunisia,1963,0.44522589
+Tunisia,1964,0.44522589
+Tunisia,1965,0.44522589
+Tunisia,1966,0.44522589
+Tunisia,1967,0.44522589
+Tunisia,1968,0.44522589
+Tunisia,1969,0.44522589
+Tunisia,1970,0.44522589
+Tunisia,1971,0.44522589
+Tunisia,1972,0.44522589
+Tunisia,1973,0.44522589
+Tunisia,1974,0.44522589
+Tunisia,1975,0.44522589
+Tunisia,1976,0.44522589
+Tunisia,1977,0.44522589
+Tunisia,1978,0.44522589
+Tunisia,1979,0.44522589
+Tunisia,1980,0.46742278
+Tunisia,1981,0.47652784
+Tunisia,1982,0.47652784
+Tunisia,1983,0.47652784
+Tunisia,1984,0.47652784
+Tunisia,1985,0.47070739
+Tunisia,1986,0.47070739
+Tunisia,1987,0.46328264
+Tunisia,1988,0.46664631
+Tunisia,1989,0.45820555
+Tunisia,1990,0.45820555
+Tunisia,1991,0.46160531
+Tunisia,1992,0.46160531
+Tunisia,1993,0.46160531
+Tunisia,1994,0.46160531
+Tunisia,1995,0.46160531
+Tunisia,1996,0.46160531
+Tunisia,1997,0.46160531
+Tunisia,1998,0.46160531
+Tunisia,1999,0.46160531
+Tunisia,2000,0.46160531
+Tunisia,2001,0.46160531
+Tunisia,2002,0.46663043
+Tunisia,2003,0.46663043
+Tunisia,2004,0.46135223
+Tunisia,2005,0.47129402
+Tunisia,2006,0.47129402
+Tunisia,2007,0.47129402
+Tunisia,2008,0.47129402
+Tunisia,2009,0.47129402
+Tunisia,2010,0.47600442
+Tunisia,2011,0.8411963
+Tunisia,2012,0.886581
+Tunisia,2013,0.91244996
+Tunisia,2014,0.91244996
+Tunisia,2015,0.87450296
+Tunisia,2016,0.8886342
+Tunisia,2017,0.85284263
+Tunisia,2018,0.87015939
+Tunisia,2019,0.88900095
+Tunisia,2020,0.87233496
+Libya,1789,0
+Libya,1790,0
+Libya,1791,0
+Libya,1792,0
+Libya,1793,0
+Libya,1794,0
+Libya,1795,0
+Libya,1796,0
+Libya,1797,0
+Libya,1798,0
+Libya,1799,0
+Libya,1800,0
+Libya,1801,0
+Libya,1802,0
+Libya,1803,0
+Libya,1804,0
+Libya,1805,0
+Libya,1806,0
+Libya,1807,0
+Libya,1808,0
+Libya,1809,0
+Libya,1810,0.26168856
+Libya,1811,0.23551972
+Libya,1812,0
+Libya,1813,0.087142304
+Libya,1814,0.26168856
+Libya,1815,0.087142304
+Libya,1816,0.087142304
+Libya,1817,0.15256442
+Libya,1818,0.087142304
+Libya,1819,0.26168856
+Libya,1820,0
+Libya,1821,0.26168856
+Libya,1822,0.087142304
+Libya,1823,
+Libya,1824,0.087142304
+Libya,1825,0.23551972
+Libya,1826,0
+Libya,1827,0.19626644
+Libya,1828,0
+Libya,1829,0.087142304
+Libya,1830,0.087142304
+Libya,1831,0.19626644
+Libya,1832,0.087142304
+Libya,1833,0.2431087
+Libya,1834,0.23551972
+Libya,1911,0.33898395
+Libya,1912,0.33898395
+Libya,1913,0.33898395
+Libya,1914,0.33898395
+Libya,1915,0.33898395
+Libya,1916,0.33898395
+Libya,1917,0.33898395
+Libya,1918,0.33898395
+Libya,1919,0.33898395
+Libya,1920,0.33898395
+Libya,1921,0.33898395
+Libya,1922,0.33898395
+Libya,1923,0.33898395
+Libya,1924,0.33898395
+Libya,1925,0.33898395
+Libya,1926,0.33898395
+Libya,1927,0.33898395
+Libya,1928,0.33898395
+Libya,1929,0.33898395
+Libya,1930,0.33898395
+Libya,1931,0.33898395
+Libya,1932,0.33898395
+Libya,1933,0.33898395
+Libya,1934,0.36627567
+Libya,1935,0.36627567
+Libya,1936,0.36627567
+Libya,1937,0.36627567
+Libya,1938,0.36627567
+Libya,1939,0.36627567
+Libya,1940,0.36627567
+Libya,1941,0.36627567
+Libya,1951,0.54446268
+Libya,1952,0.51229489
+Libya,1953,0.47438967
+Libya,1954,0.47438967
+Libya,1955,0.47497416
+Libya,1956,0.47497416
+Libya,1957,0.47497416
+Libya,1958,0.47497416
+Libya,1959,0.47497416
+Libya,1960,0.45458445
+Libya,1961,0.45458445
+Libya,1962,0.45458445
+Libya,1963,0.45458445
+Libya,1964,0.45458445
+Libya,1965,0.45458445
+Libya,1966,0.45458445
+Libya,1967,0.45458445
+Libya,1968,0.45458445
+Libya,1969,0.30970609
+Libya,1970,0.25678867
+Libya,1971,0.25678867
+Libya,1972,0.25678867
+Libya,1973,0.27850884
+Libya,1974,0.27850884
+Libya,1975,0.27850884
+Libya,1976,0.27850884
+Libya,1977,0.27850884
+Libya,1978,0.27850884
+Libya,1979,0.27850884
+Libya,1980,0.27850884
+Libya,1981,0.27850884
+Libya,1982,0.27850884
+Libya,1983,0.27850884
+Libya,1984,0.27850884
+Libya,1985,0.27850884
+Libya,1986,0.27850884
+Libya,1987,0.27850884
+Libya,1988,0.27850884
+Libya,1989,0.27850884
+Libya,1990,0.27850884
+Libya,1991,0.27850884
+Libya,1992,0.27850884
+Libya,1993,0.27850884
+Libya,1994,0.27850884
+Libya,1995,0.27850884
+Libya,1996,0.27850884
+Libya,1997,0.27850884
+Libya,1998,0.27850884
+Libya,1999,0.27850884
+Libya,2000,0.27850884
+Libya,2001,0.27850884
+Libya,2002,0.27850884
+Libya,2003,0.27850884
+Libya,2004,0.27850884
+Libya,2005,0.30363092
+Libya,2006,0.30363092
+Libya,2007,0.30363092
+Libya,2008,0.30363092
+Libya,2009,0.30363092
+Libya,2010,0.30363092
+Libya,2011,0.7008056
+Libya,2012,0.78486097
+Libya,2013,0.74050891
+Libya,2014,0.72222066
+Libya,2015,0.72222066
+Libya,2016,0.70050049
+Libya,2017,0.67573076
+Libya,2018,0.66893423
+Libya,2019,0.64695233
+Libya,2020,0.64695233
+Sudan,1900,0.39468905
+Sudan,1901,0.39468905
+Sudan,1902,0.39468905
+Sudan,1903,0.39468905
+Sudan,1904,0.39468905
+Sudan,1905,0.39468905
+Sudan,1906,0.39468905
+Sudan,1907,0.39468905
+Sudan,1908,0.39468905
+Sudan,1909,0.39468905
+Sudan,1910,0.39468905
+Sudan,1911,0.39468905
+Sudan,1912,0.39468905
+Sudan,1913,0.39468905
+Sudan,1914,0.39468905
+Sudan,1915,0.39468905
+Sudan,1916,0.39468905
+Sudan,1917,0.39468905
+Sudan,1918,0.39468905
+Sudan,1919,0.39468905
+Sudan,1920,0.39468905
+Sudan,1921,0.39468905
+Sudan,1922,0.39468905
+Sudan,1923,0.39468905
+Sudan,1924,0.39468905
+Sudan,1925,0.39468905
+Sudan,1926,0.39468905
+Sudan,1927,0.39468905
+Sudan,1928,0.39468905
+Sudan,1929,0.39468905
+Sudan,1930,0.39468905
+Sudan,1931,0.39468905
+Sudan,1932,0.39468905
+Sudan,1933,0.39468905
+Sudan,1934,0.39468905
+Sudan,1935,0.39468905
+Sudan,1936,0.39468905
+Sudan,1937,0.39468905
+Sudan,1938,0.39468905
+Sudan,1939,0.39468905
+Sudan,1940,0.39468905
+Sudan,1941,0.39468905
+Sudan,1942,0.39468905
+Sudan,1943,0.39468905
+Sudan,1944,0.39468905
+Sudan,1945,0.39468905
+Sudan,1946,0.39468905
+Sudan,1947,0.39468905
+Sudan,1948,0.39468905
+Sudan,1949,0.39468905
+Sudan,1950,0.39468905
+Sudan,1951,0.39468905
+Sudan,1952,0.39468905
+Sudan,1953,0.59721851
+Sudan,1954,0.56450742
+Sudan,1955,0.56450742
+Sudan,1956,0.6738025
+Sudan,1957,0.6738025
+Sudan,1958,0.60430443
+Sudan,1959,0.14032239
+Sudan,1960,0.14032239
+Sudan,1961,0.14032239
+Sudan,1962,0.14032239
+Sudan,1963,0.14032239
+Sudan,1964,0.45898458
+Sudan,1965,0.62461823
+Sudan,1966,0.62461823
+Sudan,1967,0.62461823
+Sudan,1968,0.62461823
+Sudan,1969,0.23783439
+Sudan,1970,0.23202421
+Sudan,1971,0.23202421
+Sudan,1972,0.36286852
+Sudan,1973,0.36286852
+Sudan,1974,0.36286852
+Sudan,1975,0.36286852
+Sudan,1976,0.36286852
+Sudan,1977,0.36286852
+Sudan,1978,0.36286852
+Sudan,1979,0.40104496
+Sudan,1980,0.40104496
+Sudan,1981,0.40104496
+Sudan,1982,0.40104496
+Sudan,1983,0.40104496
+Sudan,1984,0.44029954
+Sudan,1985,0.58714432
+Sudan,1986,0.64673144
+Sudan,1987,0.60933661
+Sudan,1988,0.60933661
+Sudan,1989,0.42691797
+Sudan,1990,0.18336432
+Sudan,1991,0.18336432
+Sudan,1992,0.18336432
+Sudan,1993,0.18336432
+Sudan,1994,0.18336432
+Sudan,1995,0.18336432
+Sudan,1996,0.18336432
+Sudan,1997,0.31420863
+Sudan,1998,0.31420863
+Sudan,1999,0.31420863
+Sudan,2000,0.41538459
+Sudan,2001,0.41538459
+Sudan,2002,0.41538459
+Sudan,2003,0.41538459
+Sudan,2004,0.44452283
+Sudan,2005,0.5110051
+Sudan,2006,0.51483721
+Sudan,2007,0.51396149
+Sudan,2008,0.52244073
+Sudan,2009,0.52244073
+Sudan,2010,0.5519501
+Sudan,2011,0.53654605
+Sudan,2012,0.53654605
+Sudan,2013,0.55359119
+Sudan,2014,0.55359119
+Sudan,2015,0.55359119
+Sudan,2016,0.54052925
+Sudan,2017,0.5743503
+Sudan,2018,0.57879901
+Sudan,2019,0.5881598
+Sudan,2020,0.59134883
+South Sudan,2011,0.52330208
+South Sudan,2012,0.52330208
+South Sudan,2013,0.50760823
+South Sudan,2014,0.50760823
+South Sudan,2015,0.50760823
+South Sudan,2016,0.4840596
+South Sudan,2017,0.49596822
+South Sudan,2018,0.51182985
+South Sudan,2019,0.49772948
+South Sudan,2020,0.48164263
+Iran,1789,0.2797744
+Iran,1790,0.2797744
+Iran,1791,0.2797744
+Iran,1792,0.2797744
+Iran,1793,0.2797744
+Iran,1794,0.2797744
+Iran,1795,0.2797744
+Iran,1796,0.2797744
+Iran,1797,0.2797744
+Iran,1798,0.2797744
+Iran,1799,0.2797744
+Iran,1800,0.2797744
+Iran,1801,0.2797744
+Iran,1802,0.2797744
+Iran,1803,0.2797744
+Iran,1804,0.2797744
+Iran,1805,0.2797744
+Iran,1806,0.2797744
+Iran,1807,0.2797744
+Iran,1808,0.2797744
+Iran,1809,0.2797744
+Iran,1810,0.2797744
+Iran,1811,0.2797744
+Iran,1812,0.2797744
+Iran,1813,0.2797744
+Iran,1814,0.2797744
+Iran,1815,0.2797744
+Iran,1816,0.2797744
+Iran,1817,0.2797744
+Iran,1818,0.2797744
+Iran,1819,0.2797744
+Iran,1820,0.2797744
+Iran,1821,0.2797744
+Iran,1822,0.2797744
+Iran,1823,0.2797744
+Iran,1824,0.2797744
+Iran,1825,0.2797744
+Iran,1826,0.2797744
+Iran,1827,0.2797744
+Iran,1828,0.2797744
+Iran,1829,0.2797744
+Iran,1830,0.2797744
+Iran,1831,0.2797744
+Iran,1832,0.2797744
+Iran,1833,0.2797744
+Iran,1834,0.2797744
+Iran,1835,0.2797744
+Iran,1836,0.2797744
+Iran,1837,0.2797744
+Iran,1838,0.2797744
+Iran,1839,0.2797744
+Iran,1840,0.2797744
+Iran,1841,0.2797744
+Iran,1842,0.2797744
+Iran,1843,0.2797744
+Iran,1844,0.2797744
+Iran,1845,0.2797744
+Iran,1846,0.2797744
+Iran,1847,0.2797744
+Iran,1848,0.2797744
+Iran,1849,0.2797744
+Iran,1850,0.2797744
+Iran,1851,0.2797744
+Iran,1852,0.2797744
+Iran,1853,0.2797744
+Iran,1854,0.2797744
+Iran,1855,0.2797744
+Iran,1856,0.2797744
+Iran,1857,0.2797744
+Iran,1858,0.2797744
+Iran,1859,0.2797744
+Iran,1860,0.2797744
+Iran,1861,0.2797744
+Iran,1862,0.2797744
+Iran,1863,0.2797744
+Iran,1864,0.2797744
+Iran,1865,0.2797744
+Iran,1866,0.2797744
+Iran,1867,0.2797744
+Iran,1868,0.2797744
+Iran,1869,0.2797744
+Iran,1870,0.2797744
+Iran,1871,0.2797744
+Iran,1872,0.2797744
+Iran,1873,0.2797744
+Iran,1874,0.2797744
+Iran,1875,0.2797744
+Iran,1876,0.2797744
+Iran,1877,0.2797744
+Iran,1878,0.2797744
+Iran,1879,0.2797744
+Iran,1880,0.2797744
+Iran,1881,0.2797744
+Iran,1882,0.2797744
+Iran,1883,0.2797744
+Iran,1884,0.2797744
+Iran,1885,0.2797744
+Iran,1886,0.2797744
+Iran,1887,0.2797744
+Iran,1888,0.2797744
+Iran,1889,0.2797744
+Iran,1890,0.2797744
+Iran,1891,0.2797744
+Iran,1892,0.2797744
+Iran,1893,0.2797744
+Iran,1894,0.42918473
+Iran,1895,0.42918473
+Iran,1896,0.42918473
+Iran,1897,0.42918473
+Iran,1898,0.42918473
+Iran,1899,0.42918473
+Iran,1900,0.35067815
+Iran,1901,0.35067815
+Iran,1902,0.35067815
+Iran,1903,0.35067815
+Iran,1904,0.35067815
+Iran,1905,0.35067815
+Iran,1906,0.56788254
+Iran,1907,0.57442474
+Iran,1908,0.57442474
+Iran,1909,0.57442474
+Iran,1910,0.57442474
+Iran,1911,0.57442474
+Iran,1912,0.57442474
+Iran,1913,0.57442474
+Iran,1914,0.57442474
+Iran,1915,0.57442474
+Iran,1916,0.57442474
+Iran,1917,0.57442474
+Iran,1918,0.57442474
+Iran,1919,0.57442474
+Iran,1920,0.55270457
+Iran,1921,0.48407996
+Iran,1922,0.4579111
+Iran,1923,0.49716437
+Iran,1924,0.51024878
+Iran,1925,0.35693067
+Iran,1926,0.51394385
+Iran,1927,0.45626348
+Iran,1928,0.42162085
+Iran,1929,0.42162085
+Iran,1930,0.42162085
+Iran,1931,0.42162085
+Iran,1932,0.40634152
+Iran,1933,0.40648612
+Iran,1934,0.41848293
+Iran,1935,0.41848293
+Iran,1936,0.41848293
+Iran,1937,0.41848293
+Iran,1938,0.41848293
+Iran,1939,0.41848293
+Iran,1940,0.41848293
+Iran,1941,0.31804097
+Iran,1942,0.39515141
+Iran,1943,0.42410201
+Iran,1944,0.5250842
+Iran,1945,0.5250842
+Iran,1946,0.5250842
+Iran,1947,0.5250842
+Iran,1948,0.5250842
+Iran,1949,0.5250842
+Iran,1950,0.54849964
+Iran,1951,0.58775294
+Iran,1952,0.58775294
+Iran,1953,0.5327825
+Iran,1954,0.48845264
+Iran,1955,0.45548713
+Iran,1956,0.49720886
+Iran,1957,0.49720886
+Iran,1958,0.49720886
+Iran,1959,0.49720886
+Iran,1960,0.51351339
+Iran,1961,0.51351339
+Iran,1962,0.50577688
+Iran,1963,0.4673582
+Iran,1964,0.46091041
+Iran,1965,0.46091041
+Iran,1966,0.46091041
+Iran,1967,0.46091041
+Iran,1968,0.46091041
+Iran,1969,0.46091041
+Iran,1970,0.46091041
+Iran,1971,0.46091041
+Iran,1972,0.46091041
+Iran,1973,0.47529888
+Iran,1974,0.47529888
+Iran,1975,0.42085385
+Iran,1976,0.41843167
+Iran,1977,0.41843167
+Iran,1978,0.42414367
+Iran,1979,0.48104829
+Iran,1980,0.48574093
+Iran,1981,0.34632203
+Iran,1982,0.3160432
+Iran,1983,0.28556272
+Iran,1984,0.28556272
+Iran,1985,0.27880231
+Iran,1986,0.39613456
+Iran,1987,0.40297312
+Iran,1988,0.40297312
+Iran,1989,0.42914197
+Iran,1990,0.40795448
+Iran,1991,0.40795448
+Iran,1992,0.40795448
+Iran,1993,0.40795448
+Iran,1994,0.40795448
+Iran,1995,0.40795448
+Iran,1996,0.42458439
+Iran,1997,0.49442196
+Iran,1998,0.52640092
+Iran,1999,0.52640092
+Iran,2000,0.52640092
+Iran,2001,0.52640092
+Iran,2002,0.50211173
+Iran,2003,0.50211173
+Iran,2004,0.50211173
+Iran,2005,0.4813306
+Iran,2006,0.47535175
+Iran,2007,0.47535175
+Iran,2008,0.47535175
+Iran,2009,0.46636391
+Iran,2010,0.45355675
+Iran,2011,0.45355675
+Iran,2012,0.45355675
+Iran,2013,0.48145705
+Iran,2014,0.48145705
+Iran,2015,0.48145705
+Iran,2016,0.47711945
+Iran,2017,0.47561383
+Iran,2018,0.47344473
+Iran,2019,0.46402392
+Iran,2020,0.42667776
+Turkey,1789,0.22420339
+Turkey,1790,0.22420339
+Turkey,1791,0.22420339
+Turkey,1792,0.22420339
+Turkey,1793,0.22420339
+Turkey,1794,0.22420339
+Turkey,1795,0.22420339
+Turkey,1796,0.22420339
+Turkey,1797,0.22420339
+Turkey,1798,0.22420339
+Turkey,1799,0.22420339
+Turkey,1800,0.22420339
+Turkey,1801,0.22420339
+Turkey,1802,0.22420339
+Turkey,1803,0.22420339
+Turkey,1804,0.22420339
+Turkey,1805,0.22420339
+Turkey,1806,0.22420339
+Turkey,1807,0.22420339
+Turkey,1808,0.22420339
+Turkey,1809,0.22420339
+Turkey,1810,0.22420339
+Turkey,1811,0.22420339
+Turkey,1812,0.22420339
+Turkey,1813,0.22420339
+Turkey,1814,0.22420339
+Turkey,1815,0.22420339
+Turkey,1816,0.22420339
+Turkey,1817,0.22420339
+Turkey,1818,0.22420339
+Turkey,1819,0.22420339
+Turkey,1820,0.22420339
+Turkey,1821,0.22420339
+Turkey,1822,0.22420339
+Turkey,1823,0.22420339
+Turkey,1824,0.22420339
+Turkey,1825,0.22420339
+Turkey,1826,0.22420339
+Turkey,1827,0.22420339
+Turkey,1828,0.22420339
+Turkey,1829,0.22420339
+Turkey,1830,0.22420339
+Turkey,1831,0.22420339
+Turkey,1832,0.22420339
+Turkey,1833,0.22420339
+Turkey,1834,0.22420339
+Turkey,1835,0.22420339
+Turkey,1836,0.22420339
+Turkey,1837,0.22420339
+Turkey,1838,0.22420339
+Turkey,1839,0.22420339
+Turkey,1840,0.22420339
+Turkey,1841,0.22420339
+Turkey,1842,0.22420339
+Turkey,1843,0.22420339
+Turkey,1844,0.22420339
+Turkey,1845,0.22420339
+Turkey,1846,0.22420339
+Turkey,1847,0.22420339
+Turkey,1848,0.22420339
+Turkey,1849,0.22420339
+Turkey,1850,0.22420339
+Turkey,1851,0.22420339
+Turkey,1852,0.22420339
+Turkey,1853,0.22420339
+Turkey,1854,0.22420339
+Turkey,1855,0.22420339
+Turkey,1856,0.22420339
+Turkey,1857,0.22420339
+Turkey,1858,0.22420339
+Turkey,1859,0.22420339
+Turkey,1860,0.22420339
+Turkey,1861,0.22420339
+Turkey,1862,0.22420339
+Turkey,1863,0.22420339
+Turkey,1864,0.22420339
+Turkey,1865,0.22420339
+Turkey,1866,0.22420339
+Turkey,1867,0.22420339
+Turkey,1868,0.22420339
+Turkey,1869,0.22420339
+Turkey,1870,0.22420339
+Turkey,1871,0.22420339
+Turkey,1872,0.22420339
+Turkey,1873,0.22420339
+Turkey,1874,0.22420339
+Turkey,1875,0.22420339
+Turkey,1876,0.50389034
+Turkey,1877,0.2043637
+Turkey,1878,0.2043637
+Turkey,1879,0.21847413
+Turkey,1880,0.21847413
+Turkey,1881,0.21847413
+Turkey,1882,0.21847413
+Turkey,1883,0.21847413
+Turkey,1884,0.21847413
+Turkey,1885,0.21847413
+Turkey,1886,0.21847413
+Turkey,1887,0.21847413
+Turkey,1888,0.21847413
+Turkey,1889,0.21847413
+Turkey,1890,0.21847413
+Turkey,1891,0.21847413
+Turkey,1892,0.21847413
+Turkey,1893,0.21847413
+Turkey,1894,0.21847413
+Turkey,1895,0.21847413
+Turkey,1896,0.21847413
+Turkey,1897,0.21847413
+Turkey,1898,0.21847413
+Turkey,1899,0.21847413
+Turkey,1900,0.24056298
+Turkey,1901,0.24056298
+Turkey,1902,0.24056298
+Turkey,1903,0.24056298
+Turkey,1904,0.24056298
+Turkey,1905,0.24056298
+Turkey,1906,0.24056298
+Turkey,1907,0.24056298
+Turkey,1908,0.48349434
+Turkey,1909,0.60760403
+Turkey,1910,0.54601789
+Turkey,1911,0.52842057
+Turkey,1912,0.51033473
+Turkey,1913,0.46346936
+Turkey,1914,0.45061284
+Turkey,1915,0.46474823
+Turkey,1916,0.42903137
+Turkey,1917,0.42903137
+Turkey,1918,0.42903137
+Turkey,1919,0.44424361
+Turkey,1920,0.43115917
+Turkey,1921,0.44424361
+Turkey,1922,0.44424361
+Turkey,1923,0.52169847
+Turkey,1924,0.54186249
+Turkey,1925,0.51000637
+Turkey,1926,0.48932743
+Turkey,1927,0.48932743
+Turkey,1928,0.48932743
+Turkey,1929,0.48932743
+Turkey,1930,0.50989789
+Turkey,1931,0.48838747
+Turkey,1932,0.48838747
+Turkey,1933,0.48838747
+Turkey,1934,0.48838747
+Turkey,1935,0.48838747
+Turkey,1936,0.48838747
+Turkey,1937,0.48838747
+Turkey,1938,0.48838747
+Turkey,1939,0.48838747
+Turkey,1940,0.48542947
+Turkey,1941,0.48542947
+Turkey,1942,0.48542947
+Turkey,1943,0.48542947
+Turkey,1944,0.48542947
+Turkey,1945,0.48542947
+Turkey,1946,0.57693696
+Turkey,1947,0.58192593
+Turkey,1948,0.58192593
+Turkey,1949,0.54921484
+Turkey,1950,0.62584239
+Turkey,1951,0.62584239
+Turkey,1952,0.62584239
+Turkey,1953,0.62584239
+Turkey,1954,0.62584239
+Turkey,1955,0.62584239
+Turkey,1956,0.62584239
+Turkey,1957,0.62584239
+Turkey,1958,0.62584239
+Turkey,1959,0.62584239
+Turkey,1960,0.60265529
+Turkey,1961,0.54077417
+Turkey,1962,0.59205163
+Turkey,1963,0.59205163
+Turkey,1964,0.59205163
+Turkey,1965,0.72289592
+Turkey,1966,0.72289592
+Turkey,1967,0.72289592
+Turkey,1968,0.72289592
+Turkey,1969,0.72289592
+Turkey,1970,0.72289592
+Turkey,1971,0.71601826
+Turkey,1972,0.73472345
+Turkey,1973,0.73472345
+Turkey,1974,0.73472345
+Turkey,1975,0.73472345
+Turkey,1976,0.73472345
+Turkey,1977,0.73472345
+Turkey,1978,0.73472345
+Turkey,1979,0.73472345
+Turkey,1980,0.65556741
+Turkey,1981,0.57166255
+Turkey,1982,0.57166255
+Turkey,1983,0.65592176
+Turkey,1984,0.70492816
+Turkey,1985,0.70492816
+Turkey,1986,0.70492816
+Turkey,1987,0.70492816
+Turkey,1988,0.72018427
+Turkey,1989,0.72018427
+Turkey,1990,0.72018427
+Turkey,1991,0.72018427
+Turkey,1992,0.72018427
+Turkey,1993,0.72018427
+Turkey,1994,0.72018427
+Turkey,1995,0.72018427
+Turkey,1996,0.72018427
+Turkey,1997,0.68747324
+Turkey,1998,0.72018427
+Turkey,1999,0.72018427
+Turkey,2000,0.72018427
+Turkey,2001,0.72018427
+Turkey,2002,0.73121065
+Turkey,2003,0.73121065
+Turkey,2004,0.73121065
+Turkey,2005,0.73618269
+Turkey,2006,0.73618269
+Turkey,2007,0.75514191
+Turkey,2008,0.76542193
+Turkey,2009,0.76542193
+Turkey,2010,0.78460395
+Turkey,2011,0.78438556
+Turkey,2012,0.77765799
+Turkey,2013,0.7750411
+Turkey,2014,0.75343239
+Turkey,2015,0.74412566
+Turkey,2016,0.6885398
+Turkey,2017,0.68654394
+Turkey,2018,0.69467658
+Turkey,2019,0.66460168
+Turkey,2020,0.69100726
+Iraq,1920,0.478571
+Iraq,1921,0.47671726
+Iraq,1922,0.47671726
+Iraq,1923,0.47671726
+Iraq,1924,0.47671726
+Iraq,1925,0.51409513
+Iraq,1926,0.51409513
+Iraq,1927,0.51409513
+Iraq,1928,0.51409513
+Iraq,1929,0.51409513
+Iraq,1930,0.51409513
+Iraq,1931,0.51409513
+Iraq,1932,0.4761903
+Iraq,1933,0.45996559
+Iraq,1934,0.45996559
+Iraq,1935,0.45996559
+Iraq,1936,0.45996559
+Iraq,1937,0.45996559
+Iraq,1938,0.45996559
+Iraq,1939,0.45996559
+Iraq,1940,0.4647015
+Iraq,1941,0.4097963
+Iraq,1942,0.4097963
+Iraq,1943,0.4097963
+Iraq,1944,0.4097963
+Iraq,1945,0.4097963
+Iraq,1946,0.4097963
+Iraq,1947,0.43574378
+Iraq,1948,0.46916321
+Iraq,1949,0.46916321
+Iraq,1950,0.47956038
+Iraq,1951,0.47956038
+Iraq,1952,0.46963468
+Iraq,1953,0.46963468
+Iraq,1954,0.46963468
+Iraq,1955,0.47936499
+Iraq,1956,0.47936499
+Iraq,1957,0.46994418
+Iraq,1958,0.45753774
+Iraq,1959,0.37396577
+Iraq,1960,0.40090823
+Iraq,1961,0.40090823
+Iraq,1962,0.40090823
+Iraq,1963,0.31364176
+Iraq,1964,0.22963972
+Iraq,1965,0.24241808
+Iraq,1966,0.24241808
+Iraq,1967,0.24241808
+Iraq,1968,0.20815815
+Iraq,1969,0.23144843
+Iraq,1970,0.20731954
+Iraq,1971,0.20731954
+Iraq,1972,0.20731954
+Iraq,1973,0.20731954
+Iraq,1974,0.20731954
+Iraq,1975,0.20731954
+Iraq,1976,0.20731954
+Iraq,1977,0.20731954
+Iraq,1978,0.20731954
+Iraq,1979,0.24020803
+Iraq,1980,0.2587879
+Iraq,1981,0.2587879
+Iraq,1982,0.2587879
+Iraq,1983,0.2587879
+Iraq,1984,0.2587879
+Iraq,1985,0.2587879
+Iraq,1986,0.2587879
+Iraq,1987,0.2587879
+Iraq,1988,0.2587879
+Iraq,1989,0.2587879
+Iraq,1990,0.2587879
+Iraq,1991,0.2587879
+Iraq,1992,0.2587879
+Iraq,1993,0.2587879
+Iraq,1994,0.2587879
+Iraq,1995,0.2587879
+Iraq,1996,0.35221073
+Iraq,1997,0.35221073
+Iraq,1998,0.35221073
+Iraq,1999,0.35221073
+Iraq,2000,0.35221073
+Iraq,2001,0.35221073
+Iraq,2002,0.35221073
+Iraq,2003,0.65871477
+Iraq,2004,0.74290043
+Iraq,2005,0.72960138
+Iraq,2006,0.72960138
+Iraq,2007,0.72960138
+Iraq,2008,0.72960138
+Iraq,2009,0.72960138
+Iraq,2010,0.7217297
+Iraq,2011,0.7217297
+Iraq,2012,0.7217297
+Iraq,2013,0.69548821
+Iraq,2014,0.69548821
+Iraq,2015,0.69548821
+Iraq,2016,0.68708634
+Iraq,2017,0.68479955
+Iraq,2018,0.70340562
+Iraq,2019,0.65582132
+Iraq,2020,0.67151457
+Egypt,1789,0.24651381
+Egypt,1790,0.24651381
+Egypt,1791,0.24651381
+Egypt,1792,0.24651381
+Egypt,1793,0.24651381
+Egypt,1794,0.24651381
+Egypt,1795,0.24651381
+Egypt,1796,0.24651381
+Egypt,1797,0.24651381
+Egypt,1798,0.37735811
+Egypt,1799,0.37735811
+Egypt,1800,0.37735811
+Egypt,1801,0.37735811
+Egypt,1802,0.37735811
+Egypt,1803,0.37735811
+Egypt,1804,0.37735811
+Egypt,1805,0.24651381
+Egypt,1806,0.24651381
+Egypt,1807,0.24651381
+Egypt,1808,0.24651381
+Egypt,1809,0.24651381
+Egypt,1810,0.24651381
+Egypt,1811,0.24651381
+Egypt,1812,0.24651381
+Egypt,1813,0.24651381
+Egypt,1814,0.24651381
+Egypt,1815,0.24651381
+Egypt,1816,0.24651381
+Egypt,1817,0.24651381
+Egypt,1818,0.24651381
+Egypt,1819,0.24651381
+Egypt,1820,0.24651381
+Egypt,1821,0.24651381
+Egypt,1822,0.24651381
+Egypt,1823,0.24651381
+Egypt,1824,0.24651381
+Egypt,1825,0.24651381
+Egypt,1826,0.24651381
+Egypt,1827,0.24651381
+Egypt,1828,0.24651381
+Egypt,1829,0.24651381
+Egypt,1830,0.24651381
+Egypt,1831,0.24651381
+Egypt,1832,0.24651381
+Egypt,1833,0.24651381
+Egypt,1834,0.24651381
+Egypt,1835,0.24651381
+Egypt,1836,0.24651381
+Egypt,1837,0.24651381
+Egypt,1838,0.24651381
+Egypt,1839,0.24651381
+Egypt,1840,0.24651381
+Egypt,1841,0.24651381
+Egypt,1842,0.24651381
+Egypt,1843,0.24651381
+Egypt,1844,0.24651381
+Egypt,1845,0.24651381
+Egypt,1846,0.24651381
+Egypt,1847,0.24651381
+Egypt,1848,0.24651381
+Egypt,1849,0.24651381
+Egypt,1850,0.24651381
+Egypt,1851,0.24651381
+Egypt,1852,0.24651381
+Egypt,1853,0.24651381
+Egypt,1854,0.24651381
+Egypt,1855,0.24651381
+Egypt,1856,0.24651381
+Egypt,1857,0.37735811
+Egypt,1858,0.37735811
+Egypt,1859,0.37735811
+Egypt,1860,0.37735811
+Egypt,1861,0.37735811
+Egypt,1862,0.37735811
+Egypt,1863,0.37735811
+Egypt,1864,0.37735811
+Egypt,1865,0.37735811
+Egypt,1866,0.37735811
+Egypt,1867,0.37735811
+Egypt,1868,0.37735811
+Egypt,1869,0.37735811
+Egypt,1870,0.37735811
+Egypt,1871,0.37735811
+Egypt,1872,0.37735811
+Egypt,1873,0.37735811
+Egypt,1874,0.37735811
+Egypt,1875,0.37735811
+Egypt,1876,0.37735811
+Egypt,1877,0.37735811
+Egypt,1878,0.37735811
+Egypt,1879,0.37735811
+Egypt,1880,0.37735811
+Egypt,1881,0.37735811
+Egypt,1882,0.37735811
+Egypt,1883,0.37735811
+Egypt,1884,0.37735811
+Egypt,1885,0.37735811
+Egypt,1886,0.37735811
+Egypt,1887,0.37735811
+Egypt,1888,0.37735811
+Egypt,1889,0.37735811
+Egypt,1890,0.37735811
+Egypt,1891,0.37735811
+Egypt,1892,0.37735811
+Egypt,1893,0.37735811
+Egypt,1894,0.37735811
+Egypt,1895,0.37735811
+Egypt,1896,0.37735811
+Egypt,1897,0.37735811
+Egypt,1898,0.37735811
+Egypt,1899,0.37735811
+Egypt,1900,0.41338322
+Egypt,1901,0.41338322
+Egypt,1902,0.41338322
+Egypt,1903,0.41338322
+Egypt,1904,0.41338322
+Egypt,1905,0.41338322
+Egypt,1906,0.41338322
+Egypt,1907,0.44394183
+Egypt,1908,0.44394183
+Egypt,1909,0.44394183
+Egypt,1910,0.44394183
+Egypt,1911,0.44394183
+Egypt,1912,0.44394183
+Egypt,1913,0.44394183
+Egypt,1914,0.50936401
+Egypt,1915,0.50033706
+Egypt,1916,0.50033706
+Egypt,1917,0.43491492
+Egypt,1918,0.43491492
+Egypt,1919,0.43491492
+Egypt,1920,0.42837271
+Egypt,1921,0.42837271
+Egypt,1922,0.42837271
+Egypt,1923,0.42837271
+Egypt,1924,0.42837271
+Egypt,1925,0.42837271
+Egypt,1926,0.42837271
+Egypt,1927,0.42837271
+Egypt,1928,0.42837271
+Egypt,1929,0.42837271
+Egypt,1930,0.42837271
+Egypt,1931,0.42837271
+Egypt,1932,0.42837271
+Egypt,1933,0.42837271
+Egypt,1934,0.42837271
+Egypt,1935,0.42837271
+Egypt,1936,0.4152883
+Egypt,1937,0.34986615
+Egypt,1938,0.34986615
+Egypt,1939,0.34986615
+Egypt,1940,0.34986615
+Egypt,1941,0.34986615
+Egypt,1942,0.34986615
+Egypt,1943,0.34986615
+Egypt,1944,0.34986615
+Egypt,1945,0.34986615
+Egypt,1946,0.34986615
+Egypt,1947,0.34986615
+Egypt,1948,0.34986615
+Egypt,1949,0.34986615
+Egypt,1950,0.36780274
+Egypt,1951,0.36780274
+Egypt,1952,0.37474939
+Egypt,1953,0.18096381
+Egypt,1954,0.15479495
+Egypt,1955,0.1678794
+Egypt,1956,0.19404821
+Egypt,1957,0.32489252
+Egypt,1958,0.32489252
+Egypt,1959,0.32489252
+Egypt,1960,0.32489252
+Egypt,1961,0.32489252
+Egypt,1962,0.31180811
+Egypt,1963,0.31180811
+Egypt,1964,0.31180811
+Egypt,1965,0.31180811
+Egypt,1966,0.31180811
+Egypt,1967,0.32489252
+Egypt,1968,0.32489252
+Egypt,1969,0.32489252
+Egypt,1970,0.33778813
+Egypt,1971,0.35823295
+Egypt,1972,0.38507923
+Egypt,1973,0.38507923
+Egypt,1974,0.38507923
+Egypt,1975,0.38507923
+Egypt,1976,0.42009124
+Egypt,1977,0.42009124
+Egypt,1978,0.42009124
+Egypt,1979,0.42009124
+Egypt,1980,0.42009124
+Egypt,1981,0.42009124
+Egypt,1982,0.42009124
+Egypt,1983,0.42009124
+Egypt,1984,0.42009124
+Egypt,1985,0.42009124
+Egypt,1986,0.42009124
+Egypt,1987,0.42009124
+Egypt,1988,0.42009124
+Egypt,1989,0.42009124
+Egypt,1990,0.42009124
+Egypt,1991,0.42009124
+Egypt,1992,0.42009124
+Egypt,1993,0.45326808
+Egypt,1994,0.45326808
+Egypt,1995,0.45326808
+Egypt,1996,0.45326808
+Egypt,1997,0.45326808
+Egypt,1998,0.45326808
+Egypt,1999,0.45326808
+Egypt,2000,0.50608391
+Egypt,2001,0.50608391
+Egypt,2002,0.50608391
+Egypt,2003,0.50608391
+Egypt,2004,0.50608391
+Egypt,2005,0.49744818
+Egypt,2006,0.46686828
+Egypt,2007,0.46686828
+Egypt,2008,0.46686828
+Egypt,2009,0.46686828
+Egypt,2010,0.46084946
+Egypt,2011,0.52806121
+Egypt,2012,0.59152871
+Egypt,2013,0.39404812
+Egypt,2014,0.44299537
+Egypt,2015,0.43170491
+Egypt,2016,0.4229672
+Egypt,2017,0.42060235
+Egypt,2018,0.40683582
+Egypt,2019,0.40683582
+Egypt,2020,0.39557475
+Syria,1918,0.49170136
+Syria,1919,0.49170136
+Syria,1922,0.51655948
+Syria,1923,0.51655948
+Syria,1924,0.51655948
+Syria,1925,0.51655948
+Syria,1926,0.51655948
+Syria,1927,0.51655948
+Syria,1928,0.51655948
+Syria,1929,0.51655948
+Syria,1930,0.51655948
+Syria,1931,0.51655948
+Syria,1932,0.51655948
+Syria,1933,0.51655948
+Syria,1934,0.51655948
+Syria,1935,0.51655948
+Syria,1936,0.52964395
+Syria,1937,0.52964395
+Syria,1938,0.52964395
+Syria,1939,0.51655948
+Syria,1940,0.51655948
+Syria,1941,0.51341921
+Syria,1942,0.51341921
+Syria,1943,0.51341921
+Syria,1944,0.51341921
+Syria,1945,0.51341921
+Syria,1946,0.51743209
+Syria,1947,0.55696934
+Syria,1948,0.55696934
+Syria,1949,0.54074466
+Syria,1950,0.53806937
+Syria,1951,0.33871728
+Syria,1952,0.26259801
+Syria,1953,0.3934423
+Syria,1954,0.41796204
+Syria,1955,0.53052914
+Syria,1956,0.53052914
+Syria,1957,0.53052914
+Syria,1958,0.42910936
+Syria,1959,0.37677166
+Syria,1960,0.37677166
+Syria,1961,0.42957693
+Syria,1962,0.45694008
+Syria,1963,0.39151794
+Syria,1964,0.246117
+Syria,1965,0.246117
+Syria,1966,0.23563294
+Syria,1967,0.23563294
+Syria,1968,0.23563294
+Syria,1969,0.23563294
+Syria,1970,0.18304543
+Syria,1971,0.31388971
+Syria,1972,0.31388971
+Syria,1973,0.31388971
+Syria,1974,0.31388971
+Syria,1975,0.31388971
+Syria,1976,0.31388971
+Syria,1977,0.31388971
+Syria,1978,0.31388971
+Syria,1979,0.31388971
+Syria,1980,0.31388971
+Syria,1981,0.31388971
+Syria,1982,0.31388971
+Syria,1983,0.31388971
+Syria,1984,0.31388971
+Syria,1985,0.31388971
+Syria,1986,0.31388971
+Syria,1987,0.31388971
+Syria,1988,0.31388971
+Syria,1989,0.31388971
+Syria,1990,0.31388971
+Syria,1991,0.31388971
+Syria,1992,0.31388971
+Syria,1993,0.31388971
+Syria,1994,0.31388971
+Syria,1995,0.31388971
+Syria,1996,0.31388971
+Syria,1997,0.31388971
+Syria,1998,0.31388971
+Syria,1999,0.31388971
+Syria,2000,0.3221685
+Syria,2001,0.3221685
+Syria,2002,0.3221685
+Syria,2003,0.3221685
+Syria,2004,0.3221685
+Syria,2005,0.33525294
+Syria,2006,0.33525294
+Syria,2007,0.33525294
+Syria,2008,0.33525294
+Syria,2009,0.33525294
+Syria,2010,0.33525294
+Syria,2011,0.34276491
+Syria,2012,0.35081491
+Syria,2013,0.36523044
+Syria,2014,0.36523044
+Syria,2015,0.36523044
+Syria,2016,0.35580966
+Syria,2017,0.35580966
+Syria,2018,0.35580966
+Syria,2019,0.34490472
+Syria,2020,0.36112943
+Lebanon,1918,0.53816009
+Lebanon,1919,0.56432897
+Lebanon,1920,0.56432897
+Lebanon,1921,0.56432897
+Lebanon,1922,0.60161662
+Lebanon,1923,0.60161662
+Lebanon,1924,0.60161662
+Lebanon,1925,0.60161662
+Lebanon,1926,0.60337514
+Lebanon,1927,0.60337514
+Lebanon,1928,0.60337514
+Lebanon,1929,0.60337514
+Lebanon,1930,0.60337514
+Lebanon,1931,0.60337514
+Lebanon,1932,0.60337514
+Lebanon,1933,0.59029073
+Lebanon,1934,0.59029073
+Lebanon,1935,0.59029073
+Lebanon,1936,0.59029073
+Lebanon,1937,0.59029073
+Lebanon,1938,0.59029073
+Lebanon,1939,0.59029073
+Lebanon,1940,0.5684092
+Lebanon,1941,0.5684092
+Lebanon,1942,0.5684092
+Lebanon,1943,0.64299381
+Lebanon,1944,0.64299381
+Lebanon,1945,0.64299381
+Lebanon,1946,0.64299381
+Lebanon,1947,0.64299381
+Lebanon,1948,0.64299381
+Lebanon,1949,0.64299381
+Lebanon,1950,0.64299381
+Lebanon,1951,0.64299381
+Lebanon,1952,0.64299381
+Lebanon,1953,0.64299381
+Lebanon,1954,0.64299381
+Lebanon,1955,0.64299381
+Lebanon,1956,0.64299381
+Lebanon,1957,0.64299381
+Lebanon,1958,0.64299381
+Lebanon,1959,0.64299381
+Lebanon,1960,0.64299381
+Lebanon,1961,0.64299381
+Lebanon,1962,0.64299381
+Lebanon,1963,0.64299381
+Lebanon,1964,0.64299381
+Lebanon,1965,0.64299381
+Lebanon,1966,0.64299381
+Lebanon,1967,0.64299381
+Lebanon,1968,0.64299381
+Lebanon,1969,0.64299381
+Lebanon,1970,0.64299381
+Lebanon,1971,0.64299381
+Lebanon,1972,0.64299381
+Lebanon,1973,0.64299381
+Lebanon,1974,0.64299381
+Lebanon,1975,0.59737808
+Lebanon,1976,0.60836899
+Lebanon,1977,0.60836899
+Lebanon,1978,0.60836899
+Lebanon,1979,0.60836899
+Lebanon,1980,0.60836899
+Lebanon,1981,0.60836899
+Lebanon,1982,0.60836899
+Lebanon,1983,0.60836899
+Lebanon,1984,0.60836899
+Lebanon,1985,0.60836899
+Lebanon,1986,0.60836899
+Lebanon,1987,0.60836899
+Lebanon,1988,0.60836899
+Lebanon,1989,0.60836899
+Lebanon,1990,0.59633112
+Lebanon,1991,0.59633112
+Lebanon,1992,0.6022287
+Lebanon,1993,0.61288792
+Lebanon,1994,0.61499816
+Lebanon,1995,0.61499816
+Lebanon,1996,0.61499816
+Lebanon,1997,0.61499816
+Lebanon,1998,0.61499816
+Lebanon,1999,0.61499816
+Lebanon,2000,0.61499816
+Lebanon,2001,0.61499816
+Lebanon,2002,0.61499816
+Lebanon,2003,0.61499816
+Lebanon,2004,0.61499816
+Lebanon,2005,0.62980443
+Lebanon,2006,0.64950073
+Lebanon,2007,0.64950073
+Lebanon,2008,0.65325427
+Lebanon,2009,0.64784491
+Lebanon,2010,0.64736438
+Lebanon,2011,0.65220875
+Lebanon,2012,0.65220875
+Lebanon,2013,0.67147702
+Lebanon,2014,0.67514068
+Lebanon,2015,0.65839261
+Lebanon,2016,0.6768775
+Lebanon,2017,0.70136428
+Lebanon,2018,0.68347996
+Lebanon,2019,0.65335757
+Lebanon,2020,0.65152419
+Jordan,1922,0.55981356
+Jordan,1923,0.55981356
+Jordan,1924,0.55981356
+Jordan,1925,0.55981356
+Jordan,1926,0.55981356
+Jordan,1927,0.55981356
+Jordan,1928,0.55981356
+Jordan,1929,0.55981356
+Jordan,1930,0.55981356
+Jordan,1931,0.55981356
+Jordan,1932,0.57289797
+Jordan,1933,0.57289797
+Jordan,1934,0.57289797
+Jordan,1935,0.57289797
+Jordan,1936,0.57289797
+Jordan,1937,0.57289797
+Jordan,1938,0.57289797
+Jordan,1939,0.57289797
+Jordan,1940,0.57289797
+Jordan,1941,0.57289797
+Jordan,1942,0.57289797
+Jordan,1943,0.57289797
+Jordan,1944,0.57289797
+Jordan,1945,0.57289797
+Jordan,1946,0.44205368
+Jordan,1947,0.44205368
+Jordan,1948,0.44205368
+Jordan,1949,0.44205368
+Jordan,1950,0.42555252
+Jordan,1951,0.42555252
+Jordan,1952,0.59520084
+Jordan,1953,0.46435651
+Jordan,1954,0.47348678
+Jordan,1955,0.47348678
+Jordan,1956,0.47348678
+Jordan,1957,0.42535013
+Jordan,1958,0.42535013
+Jordan,1959,0.42535013
+Jordan,1960,0.42535013
+Jordan,1961,0.42535013
+Jordan,1962,0.42535013
+Jordan,1963,0.42535013
+Jordan,1964,0.42535013
+Jordan,1965,0.42535013
+Jordan,1966,0.42535013
+Jordan,1967,0.42535013
+Jordan,1968,0.42535013
+Jordan,1969,0.42535013
+Jordan,1970,0.42535013
+Jordan,1971,0.42535013
+Jordan,1972,0.42535013
+Jordan,1973,0.42535013
+Jordan,1974,0.42535013
+Jordan,1975,0.42535013
+Jordan,1976,0.42535013
+Jordan,1977,0.42535013
+Jordan,1978,0.42535013
+Jordan,1979,0.42535013
+Jordan,1980,0.42535013
+Jordan,1981,0.42535013
+Jordan,1982,0.42535013
+Jordan,1983,0.42535013
+Jordan,1984,0.42535013
+Jordan,1985,0.42535013
+Jordan,1986,0.42535013
+Jordan,1987,0.42535013
+Jordan,1988,0.42535013
+Jordan,1989,0.43089819
+Jordan,1990,0.44363746
+Jordan,1991,0.44363746
+Jordan,1992,0.49977538
+Jordan,1993,0.53380644
+Jordan,1994,0.53380644
+Jordan,1995,0.53380644
+Jordan,1996,0.53380644
+Jordan,1997,0.53380644
+Jordan,1998,0.53380644
+Jordan,1999,0.53380644
+Jordan,2000,0.53380644
+Jordan,2001,0.53380644
+Jordan,2002,0.53380644
+Jordan,2003,0.53380644
+Jordan,2004,0.53380644
+Jordan,2005,0.54872268
+Jordan,2006,0.54872268
+Jordan,2007,0.54872268
+Jordan,2008,0.54872268
+Jordan,2009,0.54872268
+Jordan,2010,0.55505705
+Jordan,2011,0.57388556
+Jordan,2012,0.57995784
+Jordan,2013,0.58995754
+Jordan,2014,0.58995754
+Jordan,2015,0.58995754
+Jordan,2016,0.5793615
+Jordan,2017,0.58140248
+Jordan,2018,0.58140248
+Jordan,2019,0.56521034
+Jordan,2020,0.53068513
+Israel,1948,0.81624675
+Israel,1949,0.81624675
+Israel,1950,0.81624675
+Israel,1951,0.81624675
+Israel,1952,0.81624675
+Israel,1953,0.81624675
+Israel,1954,0.81624675
+Israel,1955,0.81624675
+Israel,1956,0.81624675
+Israel,1957,0.83183873
+Israel,1958,0.83183873
+Israel,1959,0.83183873
+Israel,1960,0.83183873
+Israel,1961,0.86233121
+Israel,1962,0.86233121
+Israel,1963,0.86233121
+Israel,1964,0.86233121
+Israel,1965,0.86233121
+Israel,1966,0.86233121
+Israel,1967,0.86233121
+Israel,1968,0.86233121
+Israel,1969,0.88111597
+Israel,1970,0.88111597
+Israel,1971,0.88111597
+Israel,1972,0.88111597
+Israel,1973,0.88111597
+Israel,1974,0.88111597
+Israel,1975,0.88111597
+Israel,1976,0.88111597
+Israel,1977,0.88111597
+Israel,1978,0.90128881
+Israel,1979,0.90128881
+Israel,1980,0.90128881
+Israel,1981,0.90128881
+Israel,1982,0.90128881
+Israel,1983,0.90128881
+Israel,1984,0.90128881
+Israel,1985,0.90128881
+Israel,1986,0.90128881
+Israel,1987,0.90128881
+Israel,1988,0.90128881
+Israel,1989,0.90128881
+Israel,1990,0.90128881
+Israel,1991,0.90128881
+Israel,1992,0.90128881
+Israel,1993,0.90128881
+Israel,1994,0.90128881
+Israel,1995,0.90128881
+Israel,1996,0.90128881
+Israel,1997,0.90128881
+Israel,1998,0.90128881
+Israel,1999,0.90128881
+Israel,2000,0.90128881
+Israel,2001,0.90128881
+Israel,2002,0.90128881
+Israel,2003,0.90128881
+Israel,2004,0.90128881
+Israel,2005,0.87956864
+Israel,2006,0.87956864
+Israel,2007,0.87956864
+Israel,2008,0.87956864
+Israel,2009,0.87956864
+Israel,2010,0.87956864
+Israel,2011,0.87956864
+Israel,2012,0.87956864
+Israel,2013,0.87224138
+Israel,2014,0.87224138
+Israel,2015,0.87224138
+Israel,2016,0.87224138
+Israel,2017,0.85216516
+Israel,2018,0.83042079
+Israel,2019,0.87522709
+Israel,2020,0.84957594
+Saudi Arabia,1789,0.21620898
+Saudi Arabia,1790,0.21620898
+Saudi Arabia,1791,0.21620898
+Saudi Arabia,1792,0.21620898
+Saudi Arabia,1793,0.21620898
+Saudi Arabia,1794,0.21620898
+Saudi Arabia,1795,0.21620898
+Saudi Arabia,1796,0.21620898
+Saudi Arabia,1797,0.21620898
+Saudi Arabia,1798,0.21620898
+Saudi Arabia,1799,0.21620898
+Saudi Arabia,1800,0.21620898
+Saudi Arabia,1801,0.21620898
+Saudi Arabia,1802,0.21620898
+Saudi Arabia,1803,0.21620898
+Saudi Arabia,1804,0.21620898
+Saudi Arabia,1805,0.21620898
+Saudi Arabia,1806,0.21620898
+Saudi Arabia,1807,0.21620898
+Saudi Arabia,1808,0.21620898
+Saudi Arabia,1809,0.21620898
+Saudi Arabia,1810,0.21620898
+Saudi Arabia,1811,0.21620898
+Saudi Arabia,1812,0.21620898
+Saudi Arabia,1813,0.21620898
+Saudi Arabia,1814,0.21620898
+Saudi Arabia,1815,0.21620898
+Saudi Arabia,1816,0.21620898
+Saudi Arabia,1817,0.21620898
+Saudi Arabia,1818,0.21620898
+Saudi Arabia,1822,0.15117852
+Saudi Arabia,1823,0.15117852
+Saudi Arabia,1824,0.15117852
+Saudi Arabia,1825,0.15117852
+Saudi Arabia,1826,0.15117852
+Saudi Arabia,1827,0.15117852
+Saudi Arabia,1828,0.15117852
+Saudi Arabia,1829,0.15117852
+Saudi Arabia,1830,0.15117852
+Saudi Arabia,1831,0.15117852
+Saudi Arabia,1832,0.15117852
+Saudi Arabia,1833,0.15117852
+Saudi Arabia,1834,0.15117852
+Saudi Arabia,1835,0.15117852
+Saudi Arabia,1836,0.15117852
+Saudi Arabia,1837,0.15117852
+Saudi Arabia,1838,0.15117852
+Saudi Arabia,1839,0.15117852
+Saudi Arabia,1840,0.15117852
+Saudi Arabia,1841,0.15117852
+Saudi Arabia,1842,0.15117852
+Saudi Arabia,1843,0.15117852
+Saudi Arabia,1844,0.15117852
+Saudi Arabia,1845,0.15117852
+Saudi Arabia,1846,0.15117852
+Saudi Arabia,1847,0.15117852
+Saudi Arabia,1848,0.15117852
+Saudi Arabia,1849,0.15117852
+Saudi Arabia,1850,0.15117852
+Saudi Arabia,1851,0.15117852
+Saudi Arabia,1852,0.15117852
+Saudi Arabia,1853,0.15117852
+Saudi Arabia,1854,0.15117852
+Saudi Arabia,1855,0.15117852
+Saudi Arabia,1856,0.15117852
+Saudi Arabia,1857,0.15117852
+Saudi Arabia,1858,0.15117852
+Saudi Arabia,1859,0.15117852
+Saudi Arabia,1860,0.15117852
+Saudi Arabia,1861,0.15117852
+Saudi Arabia,1862,0.15117852
+Saudi Arabia,1863,0.15117852
+Saudi Arabia,1864,0.15117852
+Saudi Arabia,1865,0.15117852
+Saudi Arabia,1866,0.15117852
+Saudi Arabia,1867,0.15117852
+Saudi Arabia,1868,0.15117852
+Saudi Arabia,1869,0.15117852
+Saudi Arabia,1870,0.15117852
+Saudi Arabia,1871,0.15117852
+Saudi Arabia,1872,0.15117852
+Saudi Arabia,1873,0.15117852
+Saudi Arabia,1874,0.15117852
+Saudi Arabia,1875,0.15117852
+Saudi Arabia,1876,0.15117852
+Saudi Arabia,1877,0.15117852
+Saudi Arabia,1878,0.15117852
+Saudi Arabia,1879,0.15117852
+Saudi Arabia,1880,0.15117852
+Saudi Arabia,1881,0.15117852
+Saudi Arabia,1882,0.15117852
+Saudi Arabia,1883,0.15117852
+Saudi Arabia,1884,0.15117852
+Saudi Arabia,1885,0.15117852
+Saudi Arabia,1886,0.15117852
+Saudi Arabia,1887,0.15117852
+Saudi Arabia,1888,0.15117852
+Saudi Arabia,1889,0.15117852
+Saudi Arabia,1890,0.15117852
+Saudi Arabia,1891,0.15117852
+Saudi Arabia,1892,0.15117852
+Saudi Arabia,1893,0.15117852
+Saudi Arabia,1894,0.15117852
+Saudi Arabia,1895,0.15117852
+Saudi Arabia,1896,0.15117852
+Saudi Arabia,1897,0.15117852
+Saudi Arabia,1898,0.15117852
+Saudi Arabia,1899,0.15117852
+Saudi Arabia,1900,0.15117852
+Saudi Arabia,1901,0.15117852
+Saudi Arabia,1902,0.15117852
+Saudi Arabia,1903,0.15117852
+Saudi Arabia,1904,0.15117852
+Saudi Arabia,1905,0.15117852
+Saudi Arabia,1906,0.15117852
+Saudi Arabia,1907,0.15117852
+Saudi Arabia,1908,0.15117852
+Saudi Arabia,1909,0.15117852
+Saudi Arabia,1910,0.15117852
+Saudi Arabia,1911,0.15117852
+Saudi Arabia,1912,0.15117852
+Saudi Arabia,1913,0.15117852
+Saudi Arabia,1914,0.15117852
+Saudi Arabia,1915,0.15117852
+Saudi Arabia,1916,0.15117852
+Saudi Arabia,1917,0.15117852
+Saudi Arabia,1918,0.15117852
+Saudi Arabia,1919,0.15117852
+Saudi Arabia,1920,0.15117852
+Saudi Arabia,1921,0.15117852
+Saudi Arabia,1922,0.15117852
+Saudi Arabia,1923,0.15117852
+Saudi Arabia,1924,0.15117852
+Saudi Arabia,1925,0.15117852
+Saudi Arabia,1926,0.15117852
+Saudi Arabia,1927,0.15117852
+Saudi Arabia,1928,0.15117852
+Saudi Arabia,1929,0.15117852
+Saudi Arabia,1930,0.15117852
+Saudi Arabia,1931,0.15117852
+Saudi Arabia,1932,0.10747654
+Saudi Arabia,1933,0.085756391
+Saudi Arabia,1934,0.085756391
+Saudi Arabia,1935,0.085756391
+Saudi Arabia,1936,0.085756391
+Saudi Arabia,1937,0.085756391
+Saudi Arabia,1938,0.085756391
+Saudi Arabia,1939,0.085756391
+Saudi Arabia,1940,0.085756391
+Saudi Arabia,1941,0.085756391
+Saudi Arabia,1942,0.085756391
+Saudi Arabia,1943,0.085756391
+Saudi Arabia,1944,0.085756391
+Saudi Arabia,1945,0.085756391
+Saudi Arabia,1946,0.085756391
+Saudi Arabia,1947,0.085756391
+Saudi Arabia,1948,0.085756391
+Saudi Arabia,1949,0.085756391
+Saudi Arabia,1950,0.085756391
+Saudi Arabia,1951,0.085756391
+Saudi Arabia,1952,0.085756391
+Saudi Arabia,1953,0.098840803
+Saudi Arabia,1954,0.07267195
+Saudi Arabia,1955,0.07267195
+Saudi Arabia,1956,0.07267195
+Saudi Arabia,1957,0.07267195
+Saudi Arabia,1958,0.07267195
+Saudi Arabia,1959,0.07267195
+Saudi Arabia,1960,0.07267195
+Saudi Arabia,1961,0.07267195
+Saudi Arabia,1962,0.07267195
+Saudi Arabia,1963,0.07267195
+Saudi Arabia,1964,0.07267195
+Saudi Arabia,1965,0.07267195
+Saudi Arabia,1966,0.07267195
+Saudi Arabia,1967,0.07267195
+Saudi Arabia,1968,0.07267195
+Saudi Arabia,1969,0.07267195
+Saudi Arabia,1970,0.07267195
+Saudi Arabia,1971,0.07267195
+Saudi Arabia,1972,0.07267195
+Saudi Arabia,1973,0.07267195
+Saudi Arabia,1974,0.07267195
+Saudi Arabia,1975,0.07267195
+Saudi Arabia,1976,0.07267195
+Saudi Arabia,1977,0.07267195
+Saudi Arabia,1978,0.07267195
+Saudi Arabia,1979,0.07267195
+Saudi Arabia,1980,0.07267195
+Saudi Arabia,1981,0.07267195
+Saudi Arabia,1982,0.07267195
+Saudi Arabia,1983,0.07267195
+Saudi Arabia,1984,0.07267195
+Saudi Arabia,1985,0.07267195
+Saudi Arabia,1986,0.07267195
+Saudi Arabia,1987,0.07267195
+Saudi Arabia,1988,0.07267195
+Saudi Arabia,1989,0.07267195
+Saudi Arabia,1990,0.07267195
+Saudi Arabia,1991,0.07267195
+Saudi Arabia,1992,0.07267195
+Saudi Arabia,1993,0.07267195
+Saudi Arabia,1994,0.07267195
+Saudi Arabia,1995,0.07267195
+Saudi Arabia,1996,0.07267195
+Saudi Arabia,1997,0.07267195
+Saudi Arabia,1998,0.07267195
+Saudi Arabia,1999,0.07267195
+Saudi Arabia,2000,0.07267195
+Saudi Arabia,2001,0.07267195
+Saudi Arabia,2002,0.07267195
+Saudi Arabia,2003,0.07267195
+Saudi Arabia,2004,0.07267195
+Saudi Arabia,2005,0.14981674
+Saudi Arabia,2006,0.14981674
+Saudi Arabia,2007,0.14981674
+Saudi Arabia,2008,0.14981674
+Saudi Arabia,2009,0.14981674
+Saudi Arabia,2010,0.14981674
+Saudi Arabia,2011,0.14981674
+Saudi Arabia,2012,0.14981674
+Saudi Arabia,2013,0.15531221
+Saudi Arabia,2014,0.15531221
+Saudi Arabia,2015,0.15531221
+Saudi Arabia,2016,0.17729405
+Saudi Arabia,2017,0.17729405
+Saudi Arabia,2018,0.17729405
+Saudi Arabia,2019,0.17729405
+Saudi Arabia,2020,0.1345768
+Yemen,1918,0.17903253
+Yemen,1919,0.17903253
+Yemen,1920,0.17903253
+Yemen,1921,0.17903253
+Yemen,1922,0.17903253
+Yemen,1923,0.17903253
+Yemen,1924,0.17903253
+Yemen,1925,0.17903253
+Yemen,1926,0.17903253
+Yemen,1927,0.17903253
+Yemen,1928,0.17903253
+Yemen,1929,0.17903253
+Yemen,1930,0.17903253
+Yemen,1931,0.17903253
+Yemen,1932,0.17903253
+Yemen,1933,0.17903253
+Yemen,1934,0.17903253
+Yemen,1935,0.17903253
+Yemen,1936,0.17903253
+Yemen,1937,0.17903253
+Yemen,1938,0.17903253
+Yemen,1939,0.17903253
+Yemen,1940,0.17903253
+Yemen,1941,0.17903253
+Yemen,1942,0.17903253
+Yemen,1943,0.17903253
+Yemen,1944,0.17903253
+Yemen,1945,0.17903253
+Yemen,1946,0.17903253
+Yemen,1947,0.17903253
+Yemen,1948,0.17903253
+Yemen,1949,0.17903253
+Yemen,1950,0.17903253
+Yemen,1951,0.17903253
+Yemen,1952,0.17903253
+Yemen,1953,0.17903253
+Yemen,1954,0.17903253
+Yemen,1955,0.19122082
+Yemen,1956,0.20603022
+Yemen,1957,0.20603022
+Yemen,1958,0.20603022
+Yemen,1959,0.20603022
+Yemen,1960,0.20603022
+Yemen,1961,0.20603022
+Yemen,1962,0.099261284
+Yemen,1963,0.086937316
+Yemen,1964,0.12957442
+Yemen,1965,0.12957442
+Yemen,1966,0.12957442
+Yemen,1967,0.12957442
+Yemen,1968,0.12957442
+Yemen,1969,0.12957442
+Yemen,1970,0.12957442
+Yemen,1971,0.12957442
+Yemen,1972,0.12957442
+Yemen,1973,0.14215738
+Yemen,1974,0.13117661
+Yemen,1975,0.12838073
+Yemen,1976,0.12838073
+Yemen,1977,0.12838073
+Yemen,1978,0.25922504
+Yemen,1979,0.25922504
+Yemen,1980,0.20802557
+Yemen,1981,0.20802557
+Yemen,1982,0.2369355
+Yemen,1983,0.080229335
+Yemen,1984,0.21107365
+Yemen,1985,0.21107365
+Yemen,1986,0.21107365
+Yemen,1987,0.21107365
+Yemen,1988,0.22115566
+Yemen,1989,0.23162846
+Yemen,1789,0.22198012
+Yemen,1790,0.22198012
+Yemen,1791,0.22198012
+Yemen,1792,0.22198012
+Yemen,1793,0.22198012
+Yemen,1794,0.22198012
+Yemen,1795,0.22198012
+Yemen,1796,0.22198012
+Yemen,1797,0.22198012
+Yemen,1798,0.22198012
+Yemen,1799,0.22198012
+Yemen,1800,0.22198012
+Yemen,1801,0.22198012
+Yemen,1802,0.22198012
+Yemen,1803,0.22198012
+Yemen,1804,0.22198012
+Yemen,1805,0.22198012
+Yemen,1806,0.22198012
+Yemen,1807,0.22198012
+Yemen,1808,0.22198012
+Yemen,1809,0.22198012
+Yemen,1810,0.22198012
+Yemen,1811,0.22198012
+Yemen,1812,0.22198012
+Yemen,1813,0.22198012
+Yemen,1814,0.22198012
+Yemen,1815,0.22198012
+Yemen,1816,0.22198012
+Yemen,1817,0.22198012
+Yemen,1818,0.22198012
+Yemen,1819,0.22198012
+Yemen,1820,0.22198012
+Yemen,1821,0.22198012
+Yemen,1822,0.22198012
+Yemen,1823,0.22198012
+Yemen,1824,0.22198012
+Yemen,1825,0.22198012
+Yemen,1826,0.22198012
+Yemen,1827,0.22198012
+Yemen,1828,0.22198012
+Yemen,1829,0.22198012
+Yemen,1830,0.22198012
+Yemen,1831,0.22198012
+Yemen,1832,0.22198012
+Yemen,1833,0.22198012
+Yemen,1834,0.22198012
+Yemen,1835,0.22198012
+Yemen,1836,0.22198012
+Yemen,1837,0.22198012
+Yemen,1838,0.22198012
+Yemen,1839,0.22198012
+Yemen,1840,0.35282442
+Yemen,1841,0.35282442
+Yemen,1842,0.35282442
+Yemen,1843,0.35282442
+Yemen,1844,0.22198012
+Yemen,1845,0.22198012
+Yemen,1846,0.22198012
+Yemen,1847,0.22198012
+Yemen,1848,0.22198012
+Yemen,1849,0.22198012
+Yemen,1850,0.22198012
+Yemen,1990,0.43561918
+Yemen,1991,0.56049716
+Yemen,1992,0.56049716
+Yemen,1993,0.56049716
+Yemen,1994,0.56049716
+Yemen,1995,0.5315423
+Yemen,1996,0.5315423
+Yemen,1997,0.5539093
+Yemen,1998,0.56435013
+Yemen,1999,0.55875838
+Yemen,2000,0.55136287
+Yemen,2001,0.55136287
+Yemen,2002,0.55136287
+Yemen,2003,0.56529856
+Yemen,2004,0.57176405
+Yemen,2005,0.5539692
+Yemen,2006,0.55510503
+Yemen,2007,0.55790091
+Yemen,2008,0.55790091
+Yemen,2009,0.55790091
+Yemen,2010,0.55790091
+Yemen,2011,0.57360113
+Yemen,2012,0.57621646
+Yemen,2013,0.55996937
+Yemen,2014,0.54335958
+Yemen,2015,0.46393016
+Yemen,2016,0.48034099
+Yemen,2017,0.46331167
+Yemen,2018,0.45090225
+Yemen,2019,0.48361334
+Yemen,2020,0.48539966
+South Yemen,1900,0.22651015
+South Yemen,1901,0.22651015
+South Yemen,1902,0.22651015
+South Yemen,1903,0.22651015
+South Yemen,1904,0.22651015
+South Yemen,1905,0.22651015
+South Yemen,1906,0.22651015
+South Yemen,1907,0.22651015
+South Yemen,1908,0.22651015
+South Yemen,1909,0.22651015
+South Yemen,1910,0.22651015
+South Yemen,1911,0.22651015
+South Yemen,1912,0.22651015
+South Yemen,1913,0.22651015
+South Yemen,1914,0.22651015
+South Yemen,1915,0.22651015
+South Yemen,1916,0.22651015
+South Yemen,1917,0.22651015
+South Yemen,1918,0.22651015
+South Yemen,1919,0.22651015
+South Yemen,1920,0.22651015
+South Yemen,1921,0.22651015
+South Yemen,1922,0.22651015
+South Yemen,1923,0.22651015
+South Yemen,1924,0.22651015
+South Yemen,1925,0.22651015
+South Yemen,1926,0.22651015
+South Yemen,1927,0.22651015
+South Yemen,1928,0.22651015
+South Yemen,1929,0.22651015
+South Yemen,1930,0.22651015
+South Yemen,1931,0.22651015
+South Yemen,1932,0.22651015
+South Yemen,1933,0.22651015
+South Yemen,1934,0.22651015
+South Yemen,1935,0.22651015
+South Yemen,1936,0.22651015
+South Yemen,1937,0.22651015
+South Yemen,1938,0.22651015
+South Yemen,1939,0.22651015
+South Yemen,1940,0.22651015
+South Yemen,1941,0.22651015
+South Yemen,1942,0.22651015
+South Yemen,1943,0.22651015
+South Yemen,1944,0.22651015
+South Yemen,1945,0.22651015
+South Yemen,1946,0.22651015
+South Yemen,1947,0.22651015
+South Yemen,1948,0.22651015
+South Yemen,1949,0.22651015
+South Yemen,1950,0.38453948
+South Yemen,1951,0.38453948
+South Yemen,1952,0.38453948
+South Yemen,1953,0.38453948
+South Yemen,1954,0.38453948
+South Yemen,1955,0.47892746
+South Yemen,1956,0.51273561
+South Yemen,1957,0.51273561
+South Yemen,1958,0.51273561
+South Yemen,1959,0.5229739
+South Yemen,1960,0.47027314
+South Yemen,1961,0.47027314
+South Yemen,1962,0.47027314
+South Yemen,1963,0.47027314
+South Yemen,1964,0.45940959
+South Yemen,1965,0.45940959
+South Yemen,1966,0.37782168
+South Yemen,1967,0.37782168
+South Yemen,1968,0.25076246
+South Yemen,1969,0.25076246
+South Yemen,1970,0.28347352
+South Yemen,1971,0.28347352
+South Yemen,1972,0.28347352
+South Yemen,1973,0.28347352
+South Yemen,1974,0.28347352
+South Yemen,1975,0.28347352
+South Yemen,1976,0.28347352
+South Yemen,1977,0.28347352
+South Yemen,1978,0.37564451
+South Yemen,1979,0.15703836
+South Yemen,1980,0.15363088
+South Yemen,1981,0.15363088
+South Yemen,1982,0.15363088
+South Yemen,1983,0.15363088
+South Yemen,1984,0.15363088
+South Yemen,1985,0.15363088
+South Yemen,1986,0.15568411
+South Yemen,1987,0.16507649
+South Yemen,1988,0.16507649
+South Yemen,1989,0.16507649
+South Yemen,1990,0.20614089
+Kuwait,1789,0.10557897
+Kuwait,1790,0.10557897
+Kuwait,1791,0.10557897
+Kuwait,1792,0.10557897
+Kuwait,1793,0.10557897
+Kuwait,1794,0.10557897
+Kuwait,1795,0.10557897
+Kuwait,1796,0.10557897
+Kuwait,1797,0.10557897
+Kuwait,1798,0.10557897
+Kuwait,1799,0.10557897
+Kuwait,1800,0.10557897
+Kuwait,1801,0.10557897
+Kuwait,1802,0.10557897
+Kuwait,1803,0.10557897
+Kuwait,1804,0.10557897
+Kuwait,1805,0.10557897
+Kuwait,1806,0.10557897
+Kuwait,1807,0.10557897
+Kuwait,1808,0.10557897
+Kuwait,1809,0.10557897
+Kuwait,1810,0.10557897
+Kuwait,1811,0.10557897
+Kuwait,1812,0.10557897
+Kuwait,1813,0.10557897
+Kuwait,1814,0.10557897
+Kuwait,1815,0.10557897
+Kuwait,1816,0.10557897
+Kuwait,1817,0.10557897
+Kuwait,1818,0.10557897
+Kuwait,1819,0.10557897
+Kuwait,1820,0.10557897
+Kuwait,1821,0.10557897
+Kuwait,1822,0.10557897
+Kuwait,1823,0.10557897
+Kuwait,1824,0.10557897
+Kuwait,1825,0.10557897
+Kuwait,1826,0.10557897
+Kuwait,1827,0.10557897
+Kuwait,1828,0.10557897
+Kuwait,1829,0.10557897
+Kuwait,1830,0.10557897
+Kuwait,1831,0.10557897
+Kuwait,1832,0.10557897
+Kuwait,1833,0.10557897
+Kuwait,1834,0.10557897
+Kuwait,1835,0.10557897
+Kuwait,1836,0.10557897
+Kuwait,1837,0.10557897
+Kuwait,1838,0.10557897
+Kuwait,1839,0.10557897
+Kuwait,1840,0.10557897
+Kuwait,1841,0.10557897
+Kuwait,1842,0.10557897
+Kuwait,1843,0.10557897
+Kuwait,1844,0.10557897
+Kuwait,1845,0.10557897
+Kuwait,1846,0.10557897
+Kuwait,1847,0.10557897
+Kuwait,1848,0.10557897
+Kuwait,1849,0.10557897
+Kuwait,1850,0.10557897
+Kuwait,1851,0.10557897
+Kuwait,1852,0.10557897
+Kuwait,1853,0.10557897
+Kuwait,1854,0.10557897
+Kuwait,1855,0.10557897
+Kuwait,1856,0.10557897
+Kuwait,1857,0.10557897
+Kuwait,1858,0.10557897
+Kuwait,1859,0.10557897
+Kuwait,1860,0.10557897
+Kuwait,1861,0.10557897
+Kuwait,1862,0.10557897
+Kuwait,1863,0.10557897
+Kuwait,1864,0.10557897
+Kuwait,1865,0.10557897
+Kuwait,1866,0.10557897
+Kuwait,1867,0.10557897
+Kuwait,1868,0.10557897
+Kuwait,1869,0.10557897
+Kuwait,1870,0.10557897
+Kuwait,1871,0.10557897
+Kuwait,1872,0.10557897
+Kuwait,1873,0.10557897
+Kuwait,1874,0.10557897
+Kuwait,1875,0.10557897
+Kuwait,1876,0.10557897
+Kuwait,1877,0.10557897
+Kuwait,1878,0.10557897
+Kuwait,1879,0.10557897
+Kuwait,1880,0.10557897
+Kuwait,1881,0.10557897
+Kuwait,1882,0.10557897
+Kuwait,1883,0.10557897
+Kuwait,1884,0.10557897
+Kuwait,1885,0.10557897
+Kuwait,1886,0.10557897
+Kuwait,1887,0.10557897
+Kuwait,1888,0.10557897
+Kuwait,1889,0.10557897
+Kuwait,1890,0.10557897
+Kuwait,1891,0.10557897
+Kuwait,1892,0.10557897
+Kuwait,1893,0.10557897
+Kuwait,1894,0.10557897
+Kuwait,1895,0.10557897
+Kuwait,1896,0.10557897
+Kuwait,1897,0.10557897
+Kuwait,1898,0.10557897
+Kuwait,1899,0.10557897
+Kuwait,1900,0.20820406
+Kuwait,1901,0.20820406
+Kuwait,1902,0.20820406
+Kuwait,1903,0.20820406
+Kuwait,1904,0.20820406
+Kuwait,1905,0.20820406
+Kuwait,1906,0.20820406
+Kuwait,1907,0.20820406
+Kuwait,1908,0.20820406
+Kuwait,1909,0.20820406
+Kuwait,1910,0.20820406
+Kuwait,1911,0.20820406
+Kuwait,1912,0.20820406
+Kuwait,1913,0.20820406
+Kuwait,1914,0.20820406
+Kuwait,1915,0.20820406
+Kuwait,1916,0.20820406
+Kuwait,1917,0.20820406
+Kuwait,1918,0.20820406
+Kuwait,1919,0.20820406
+Kuwait,1920,0.20820406
+Kuwait,1921,0.20820406
+Kuwait,1922,0.20820406
+Kuwait,1923,0.20820406
+Kuwait,1924,0.20820406
+Kuwait,1925,0.20820406
+Kuwait,1926,0.20820406
+Kuwait,1927,0.20820406
+Kuwait,1928,0.20820406
+Kuwait,1929,0.20820406
+Kuwait,1930,0.19956835
+Kuwait,1931,0.19956835
+Kuwait,1932,0.19956835
+Kuwait,1933,0.19956835
+Kuwait,1934,0.19956835
+Kuwait,1935,0.19956835
+Kuwait,1936,0.19956835
+Kuwait,1937,0.23984639
+Kuwait,1938,0.25262475
+Kuwait,1939,0.22152065
+Kuwait,1940,0.22152065
+Kuwait,1941,0.22152065
+Kuwait,1942,0.22152065
+Kuwait,1943,0.22152065
+Kuwait,1944,0.22152065
+Kuwait,1945,0.22152065
+Kuwait,1946,0.22152065
+Kuwait,1947,0.22152065
+Kuwait,1948,0.22152065
+Kuwait,1949,0.22152065
+Kuwait,1950,0.22152065
+Kuwait,1951,0.22152065
+Kuwait,1952,0.22152065
+Kuwait,1953,0.22152065
+Kuwait,1954,0.22152065
+Kuwait,1955,0.22152065
+Kuwait,1956,0.22152065
+Kuwait,1957,0.22152065
+Kuwait,1958,0.22152065
+Kuwait,1959,0.22152065
+Kuwait,1960,0.22152065
+Kuwait,1961,0.26603749
+Kuwait,1962,0.29556891
+Kuwait,1963,0.29486996
+Kuwait,1964,0.29486996
+Kuwait,1965,0.29486996
+Kuwait,1966,0.29486996
+Kuwait,1967,0.26171261
+Kuwait,1968,0.27106133
+Kuwait,1969,0.27106133
+Kuwait,1970,0.28766185
+Kuwait,1971,0.28766185
+Kuwait,1972,0.28766185
+Kuwait,1973,0.28766185
+Kuwait,1974,0.28766185
+Kuwait,1975,0.28766185
+Kuwait,1976,0.25558683
+Kuwait,1977,0.25558683
+Kuwait,1978,0.25558683
+Kuwait,1979,0.25558683
+Kuwait,1980,0.2801818
+Kuwait,1981,0.28424588
+Kuwait,1982,0.28424588
+Kuwait,1983,0.28424588
+Kuwait,1984,0.28424588
+Kuwait,1985,0.28424588
+Kuwait,1986,0.25960723
+Kuwait,1987,0.25960723
+Kuwait,1988,0.25960723
+Kuwait,1989,0.25960723
+Kuwait,1990,0.37979224
+Kuwait,1991,0.25606871
+Kuwait,1992,0.28692102
+Kuwait,1993,0.28692102
+Kuwait,1994,0.28692102
+Kuwait,1995,0.28692102
+Kuwait,1996,0.28692102
+Kuwait,1997,0.28692102
+Kuwait,1998,0.28692102
+Kuwait,1999,0.28692102
+Kuwait,2000,0.28692102
+Kuwait,2001,0.28692102
+Kuwait,2002,0.28692102
+Kuwait,2003,0.28692102
+Kuwait,2004,0.28692102
+Kuwait,2005,0.27854699
+Kuwait,2006,0.27854699
+Kuwait,2007,0.27854699
+Kuwait,2008,0.27854699
+Kuwait,2009,0.27854699
+Kuwait,2010,0.27854699
+Kuwait,2011,0.27854699
+Kuwait,2012,0.27854699
+Kuwait,2013,0.27837226
+Kuwait,2014,0.27837226
+Kuwait,2015,0.27837226
+Kuwait,2016,0.27837226
+Kuwait,2017,0.28883982
+Kuwait,2018,0.29616708
+Kuwait,2019,0.30558789
+Kuwait,2020,0.28659996
+Bahrain,1900,0.19471741
+Bahrain,1901,0.19471741
+Bahrain,1902,0.19471741
+Bahrain,1903,0.19471741
+Bahrain,1904,0.19471741
+Bahrain,1905,0.19471741
+Bahrain,1906,0.19471741
+Bahrain,1907,0.19471741
+Bahrain,1908,0.19471741
+Bahrain,1909,0.19471741
+Bahrain,1910,0.19471741
+Bahrain,1911,0.19471741
+Bahrain,1912,0.19471741
+Bahrain,1913,0.19471741
+Bahrain,1914,0.19471741
+Bahrain,1915,0.19471741
+Bahrain,1916,0.19471741
+Bahrain,1917,0.19471741
+Bahrain,1918,0.19471741
+Bahrain,1919,0.19471741
+Bahrain,1920,0.19471741
+Bahrain,1921,0.19471741
+Bahrain,1922,0.19471741
+Bahrain,1923,0.19471741
+Bahrain,1924,0.19471741
+Bahrain,1925,0.19471741
+Bahrain,1926,0.19471741
+Bahrain,1927,0.19471741
+Bahrain,1928,0.19471741
+Bahrain,1929,0.19471741
+Bahrain,1930,0.19471741
+Bahrain,1931,0.19471741
+Bahrain,1932,0.19471741
+Bahrain,1933,0.19471741
+Bahrain,1934,0.19471741
+Bahrain,1935,0.19471741
+Bahrain,1936,0.19471741
+Bahrain,1937,0.19471741
+Bahrain,1938,0.19471741
+Bahrain,1939,0.19471741
+Bahrain,1940,0.19471741
+Bahrain,1941,0.19471741
+Bahrain,1942,0.19471741
+Bahrain,1943,0.19471741
+Bahrain,1944,0.19471741
+Bahrain,1945,0.19471741
+Bahrain,1946,0.19471741
+Bahrain,1947,0.19471741
+Bahrain,1948,0.19471741
+Bahrain,1949,0.19471741
+Bahrain,1950,0.19471741
+Bahrain,1951,0.19471741
+Bahrain,1952,0.19471741
+Bahrain,1953,0.19471741
+Bahrain,1954,0.19471741
+Bahrain,1955,0.19471741
+Bahrain,1956,0.19471741
+Bahrain,1957,0.19471741
+Bahrain,1958,0.19471741
+Bahrain,1959,0.19471741
+Bahrain,1960,0.19471741
+Bahrain,1961,0.19471741
+Bahrain,1962,0.19471741
+Bahrain,1963,0.19471741
+Bahrain,1964,0.19471741
+Bahrain,1965,0.19471741
+Bahrain,1966,0.19471741
+Bahrain,1967,0.19471741
+Bahrain,1968,0.19471741
+Bahrain,1969,0.19471741
+Bahrain,1970,0.19471741
+Bahrain,1971,0.3255617
+Bahrain,1972,0.3255617
+Bahrain,1973,0.3255617
+Bahrain,1974,0.3255617
+Bahrain,1975,0.3255617
+Bahrain,1976,0.3255617
+Bahrain,1977,0.3255617
+Bahrain,1978,0.3255617
+Bahrain,1979,0.3255617
+Bahrain,1980,0.3255617
+Bahrain,1981,0.3255617
+Bahrain,1982,0.3255617
+Bahrain,1983,0.3255617
+Bahrain,1984,0.3255617
+Bahrain,1985,0.3255617
+Bahrain,1986,0.3255617
+Bahrain,1987,0.3255617
+Bahrain,1988,0.3255617
+Bahrain,1989,0.3255617
+Bahrain,1990,0.3255617
+Bahrain,1991,0.3255617
+Bahrain,1992,0.3255617
+Bahrain,1993,0.3255617
+Bahrain,1994,0.3255617
+Bahrain,1995,0.3255617
+Bahrain,1996,0.3255617
+Bahrain,1997,0.3255617
+Bahrain,1998,0.3255617
+Bahrain,1999,0.3255617
+Bahrain,2000,0.38039544
+Bahrain,2001,0.31497329
+Bahrain,2002,0.48383424
+Bahrain,2003,0.48383424
+Bahrain,2004,0.48383424
+Bahrain,2005,0.46523017
+Bahrain,2006,0.46523017
+Bahrain,2007,0.46523017
+Bahrain,2008,0.46523017
+Bahrain,2009,0.46523017
+Bahrain,2010,0.46523017
+Bahrain,2011,0.43563697
+Bahrain,2012,0.43563697
+Bahrain,2013,0.43563697
+Bahrain,2014,0.43563697
+Bahrain,2015,0.39113182
+Bahrain,2016,0.37874049
+Bahrain,2017,0.37874049
+Bahrain,2018,0.35743225
+Bahrain,2019,0.35743225
+Bahrain,2020,0.35743225
+Qatar,1900,0.10639665
+Qatar,1901,0.10639665
+Qatar,1902,0.10639665
+Qatar,1903,0.10639665
+Qatar,1904,0.10639665
+Qatar,1905,0.10639665
+Qatar,1906,0.10639665
+Qatar,1907,0.10639665
+Qatar,1908,0.10639665
+Qatar,1909,0.10639665
+Qatar,1910,0.10639665
+Qatar,1911,0.10639665
+Qatar,1912,0.10639665
+Qatar,1913,0.062956326
+Qatar,1914,0.062956326
+Qatar,1915,0.062956326
+Qatar,1916,0.062956326
+Qatar,1917,0.062956326
+Qatar,1918,0.062956326
+Qatar,1919,0.062956326
+Qatar,1920,0.062956326
+Qatar,1921,0.062956326
+Qatar,1922,0.062956326
+Qatar,1923,0.062956326
+Qatar,1924,0.062956326
+Qatar,1925,0.062956326
+Qatar,1926,0.062956326
+Qatar,1927,0.062956326
+Qatar,1928,0.062956326
+Qatar,1929,0.062956326
+Qatar,1930,0.062956326
+Qatar,1931,0.062956326
+Qatar,1932,0.062956326
+Qatar,1933,0.062956326
+Qatar,1934,0.062956326
+Qatar,1935,0.062956326
+Qatar,1936,0.062956326
+Qatar,1937,0.062956326
+Qatar,1938,0.062956326
+Qatar,1939,0.062956326
+Qatar,1940,0.062956326
+Qatar,1941,0.062956326
+Qatar,1942,0.062956326
+Qatar,1943,0.062956326
+Qatar,1944,0.062956326
+Qatar,1945,0.062956326
+Qatar,1946,0.062956326
+Qatar,1947,0.062956326
+Qatar,1948,0.062956326
+Qatar,1949,0.17181881
+Qatar,1950,0.23724094
+Qatar,1951,0.23724094
+Qatar,1952,0.23724094
+Qatar,1953,0.23724094
+Qatar,1954,0.23724094
+Qatar,1955,0.23724094
+Qatar,1956,0.23724094
+Qatar,1957,0.23724094
+Qatar,1958,0.23724094
+Qatar,1959,0.23724094
+Qatar,1960,0.23724094
+Qatar,1961,0.23724094
+Qatar,1962,0.2177912
+Qatar,1963,0.2177912
+Qatar,1964,0.2177912
+Qatar,1965,0.2177912
+Qatar,1966,0.2177912
+Qatar,1967,0.2177912
+Qatar,1968,0.2177912
+Qatar,1969,0.2177912
+Qatar,1970,0.17435087
+Qatar,1971,0.17435087
+Qatar,1972,0.1306489
+Qatar,1973,0.1306489
+Qatar,1974,0.1306489
+Qatar,1975,0.1306489
+Qatar,1976,0.1306489
+Qatar,1977,0.1306489
+Qatar,1978,0.1306489
+Qatar,1979,0.1306489
+Qatar,1980,0.1306489
+Qatar,1981,0.1306489
+Qatar,1982,0.1306489
+Qatar,1983,0.1306489
+Qatar,1984,0.1306489
+Qatar,1985,0.1306489
+Qatar,1986,0.1306489
+Qatar,1987,0.1306489
+Qatar,1988,0.1306489
+Qatar,1989,0.1306489
+Qatar,1990,0.1306489
+Qatar,1991,0.1306489
+Qatar,1992,0.1306489
+Qatar,1993,0.1306489
+Qatar,1994,0.1306489
+Qatar,1995,0.1306489
+Qatar,1996,0.1306489
+Qatar,1997,0.1306489
+Qatar,1998,0.1306489
+Qatar,1999,0.1306489
+Qatar,2000,0.1306489
+Qatar,2001,0.1306489
+Qatar,2002,0.1306489
+Qatar,2003,0.1306489
+Qatar,2004,0.1306489
+Qatar,2005,0.18267839
+Qatar,2006,0.18267839
+Qatar,2007,0.18267839
+Qatar,2008,0.18267839
+Qatar,2009,0.18267839
+Qatar,2010,0.18267839
+Qatar,2011,0.18267839
+Qatar,2012,0.18267839
+Qatar,2013,0.10992894
+Qatar,2014,0.10992894
+Qatar,2015,0.10992894
+Qatar,2016,0.11725622
+Qatar,2017,0.12667702
+Qatar,2018,0.13897637
+Qatar,2019,0.13897637
+Qatar,2020,0.11725622
+United Arab Emirates,1971,0.1585151
+United Arab Emirates,1972,0.1585151
+United Arab Emirates,1973,0.1585151
+United Arab Emirates,1974,0.1585151
+United Arab Emirates,1975,0.1692443
+United Arab Emirates,1976,0.18023524
+United Arab Emirates,1977,0.18023524
+United Arab Emirates,1978,0.18023524
+United Arab Emirates,1979,0.18023524
+United Arab Emirates,1980,0.18023524
+United Arab Emirates,1981,0.18023524
+United Arab Emirates,1982,0.18023524
+United Arab Emirates,1983,0.18023524
+United Arab Emirates,1984,0.18023524
+United Arab Emirates,1985,0.18023524
+United Arab Emirates,1986,0.18023524
+United Arab Emirates,1987,0.18023524
+United Arab Emirates,1988,0.18023524
+United Arab Emirates,1989,0.18023524
+United Arab Emirates,1990,0.18023524
+United Arab Emirates,1991,0.18023524
+United Arab Emirates,1992,0.18023524
+United Arab Emirates,1993,0.18023524
+United Arab Emirates,1994,0.18023524
+United Arab Emirates,1995,0.18023524
+United Arab Emirates,1996,0.18023524
+United Arab Emirates,1997,0.18023524
+United Arab Emirates,1998,0.18023524
+United Arab Emirates,1999,0.18023524
+United Arab Emirates,2000,0.18023524
+United Arab Emirates,2001,0.18023524
+United Arab Emirates,2002,0.18023524
+United Arab Emirates,2003,0.18023524
+United Arab Emirates,2004,0.22393723
+United Arab Emirates,2005,0.21294631
+United Arab Emirates,2006,0.21294631
+United Arab Emirates,2007,0.21294631
+United Arab Emirates,2008,0.21294631
+United Arab Emirates,2009,0.21294631
+United Arab Emirates,2010,0.21294631
+United Arab Emirates,2011,0.21294631
+United Arab Emirates,2012,0.21294631
+United Arab Emirates,2013,0.21294631
+United Arab Emirates,2014,0.21294631
+United Arab Emirates,2015,0.21294631
+United Arab Emirates,2016,0.21294631
+United Arab Emirates,2017,0.21294631
+United Arab Emirates,2018,0.24565737
+United Arab Emirates,2019,0.2426632
+United Arab Emirates,2020,0.21294631
+Oman,1789,0
+Oman,1790,0
+Oman,1791,0
+Oman,1792,0
+Oman,1793,0
+Oman,1794,0
+Oman,1795,0
+Oman,1796,0
+Oman,1797,0
+Oman,1798,0
+Oman,1799,0
+Oman,1800,0
+Oman,1801,0
+Oman,1802,0
+Oman,1803,0
+Oman,1804,0
+Oman,1805,0
+Oman,1806,0
+Oman,1807,0
+Oman,1808,0
+Oman,1809,0
+Oman,1810,0
+Oman,1811,0
+Oman,1812,0
+Oman,1813,0
+Oman,1814,0
+Oman,1815,0
+Oman,1816,0
+Oman,1817,0
+Oman,1818,0
+Oman,1819,0
+Oman,1820,0
+Oman,1821,0
+Oman,1822,0
+Oman,1823,0
+Oman,1824,0
+Oman,1825,0
+Oman,1826,0
+Oman,1827,0
+Oman,1828,0
+Oman,1829,0
+Oman,1830,0
+Oman,1831,0
+Oman,1832,0
+Oman,1833,0
+Oman,1834,0
+Oman,1835,0
+Oman,1836,0
+Oman,1837,0
+Oman,1838,0
+Oman,1839,0
+Oman,1840,0
+Oman,1841,0
+Oman,1842,0
+Oman,1843,0
+Oman,1844,0
+Oman,1845,0
+Oman,1846,0
+Oman,1847,0
+Oman,1848,0
+Oman,1849,0
+Oman,1850,0
+Oman,1851,0
+Oman,1852,0
+Oman,1853,0
+Oman,1854,0
+Oman,1855,0
+Oman,1856,0
+Oman,1857,0
+Oman,1858,0
+Oman,1859,0
+Oman,1860,0
+Oman,1861,0
+Oman,1862,0
+Oman,1863,0
+Oman,1864,0
+Oman,1865,0
+Oman,1866,0
+Oman,1867,0
+Oman,1868,0
+Oman,1869,0
+Oman,1870,0
+Oman,1871,0
+Oman,1872,0
+Oman,1873,0
+Oman,1874,0
+Oman,1875,0
+Oman,1876,0
+Oman,1877,0
+Oman,1878,0
+Oman,1879,0
+Oman,1880,0
+Oman,1881,0
+Oman,1882,0
+Oman,1883,0
+Oman,1884,0
+Oman,1885,0
+Oman,1886,0
+Oman,1887,0
+Oman,1888,0
+Oman,1889,0
+Oman,1890,0
+Oman,1891,0
+Oman,1892,0
+Oman,1893,0
+Oman,1894,0
+Oman,1895,0
+Oman,1896,0
+Oman,1897,0
+Oman,1898,0
+Oman,1899,0
+Oman,1900,0.12677303
+Oman,1901,0.12677303
+Oman,1902,0.12677303
+Oman,1903,0.12677303
+Oman,1904,0.12677303
+Oman,1905,0.12677303
+Oman,1906,0.12677303
+Oman,1907,0.12677303
+Oman,1908,0.12677303
+Oman,1909,0.12677303
+Oman,1910,0.12677303
+Oman,1911,0.12677303
+Oman,1912,0.12677303
+Oman,1913,0.12677303
+Oman,1914,0.12677303
+Oman,1915,0.12677303
+Oman,1916,0.12677303
+Oman,1917,0.12677303
+Oman,1918,0.12677303
+Oman,1919,0.12677303
+Oman,1920,0.12677303
+Oman,1921,0.14299774
+Oman,1922,0.14299774
+Oman,1923,0.14299774
+Oman,1924,0.14299774
+Oman,1925,0.14299774
+Oman,1926,0.14299774
+Oman,1927,0.12677303
+Oman,1928,0.12677303
+Oman,1929,0.12677303
+Oman,1930,0.12677303
+Oman,1931,0.12677303
+Oman,1932,0.12677303
+Oman,1933,0.12677303
+Oman,1934,0.14299774
+Oman,1935,0.14299774
+Oman,1936,0.14299774
+Oman,1937,0.14299774
+Oman,1938,0.14299774
+Oman,1939,0.14299774
+Oman,1940,0.14299774
+Oman,1941,0.14299774
+Oman,1942,0.14299774
+Oman,1943,0.14299774
+Oman,1944,0.14299774
+Oman,1945,0.14299774
+Oman,1946,0.14299774
+Oman,1947,0.14299774
+Oman,1948,0.14299774
+Oman,1949,0.14299774
+Oman,1950,0.14299774
+Oman,1951,0.14299774
+Oman,1952,0.14299774
+Oman,1953,0.14299774
+Oman,1954,0.14299774
+Oman,1955,0.14299774
+Oman,1956,0.14299774
+Oman,1957,0.14299774
+Oman,1958,0.14299774
+Oman,1959,0.14299774
+Oman,1960,0.14299774
+Oman,1961,0.14299774
+Oman,1962,0.14299774
+Oman,1963,0.14299774
+Oman,1964,0.12677303
+Oman,1965,0.12677303
+Oman,1966,0.12677303
+Oman,1967,0.12677303
+Oman,1968,0.12677303
+Oman,1969,0.12677303
+Oman,1970,0.17972177
+Oman,1971,0.17972177
+Oman,1972,0.17972177
+Oman,1973,0.17972177
+Oman,1974,0.17972177
+Oman,1975,0.17972177
+Oman,1976,0.17972177
+Oman,1977,0.17972177
+Oman,1978,0.19594646
+Oman,1979,0.19594646
+Oman,1980,0.19594646
+Oman,1981,0.19594646
+Oman,1982,0.19594646
+Oman,1983,0.19594646
+Oman,1984,0.19594646
+Oman,1985,0.19594646
+Oman,1986,0.19594646
+Oman,1987,0.19594646
+Oman,1988,0.19594646
+Oman,1989,0.19594646
+Oman,1990,0.19594646
+Oman,1991,0.19594646
+Oman,1992,0.19594646
+Oman,1993,0.19594646
+Oman,1994,0.19594646
+Oman,1995,0.19594646
+Oman,1996,0.19594646
+Oman,1997,0.19594646
+Oman,1998,0.19594646
+Oman,1999,0.19594646
+Oman,2000,0.17017011
+Oman,2001,0.17017011
+Oman,2002,0.17017011
+Oman,2003,0.17017011
+Oman,2004,0.17017011
+Oman,2005,0.16127269
+Oman,2006,0.16127269
+Oman,2007,0.16127269
+Oman,2008,0.16127269
+Oman,2009,0.16127269
+Oman,2010,0.16127269
+Oman,2011,0.20312347
+Oman,2012,0.18846892
+Oman,2013,0.18846892
+Oman,2014,0.18846892
+Oman,2015,0.18846892
+Oman,2016,0.18846892
+Oman,2017,0.20521697
+Oman,2018,0.21751633
+Oman,2019,0.21751633
+Oman,2020,0.23504946
+Afghanistan,1789,0.19633472
+Afghanistan,1790,0.19633472
+Afghanistan,1791,0.19633472
+Afghanistan,1792,0.19633472
+Afghanistan,1793,0.19633472
+Afghanistan,1794,0.19633472
+Afghanistan,1795,0.19633472
+Afghanistan,1796,0.19633472
+Afghanistan,1797,0.19633472
+Afghanistan,1798,0.19633472
+Afghanistan,1799,0.19633472
+Afghanistan,1800,0.19633472
+Afghanistan,1801,0.19633472
+Afghanistan,1802,0.19633472
+Afghanistan,1803,0.19633472
+Afghanistan,1804,0.19633472
+Afghanistan,1805,0.19633472
+Afghanistan,1806,0.19633472
+Afghanistan,1807,0.19633472
+Afghanistan,1808,0.19633472
+Afghanistan,1809,0.19633472
+Afghanistan,1810,0.19633472
+Afghanistan,1811,0.19633472
+Afghanistan,1812,0.19633472
+Afghanistan,1813,0.19633472
+Afghanistan,1814,0.19633472
+Afghanistan,1815,0.19633472
+Afghanistan,1816,0.19633472
+Afghanistan,1817,0.19633472
+Afghanistan,1818,0.19633472
+Afghanistan,1819,0.19633472
+Afghanistan,1820,0.19633472
+Afghanistan,1821,0.19633472
+Afghanistan,1822,0.19633472
+Afghanistan,1823,0.19633472
+Afghanistan,1824,0.19633472
+Afghanistan,1825,0.19633472
+Afghanistan,1826,0.19633472
+Afghanistan,1827,0.19633472
+Afghanistan,1828,0.19633472
+Afghanistan,1829,0.19633472
+Afghanistan,1830,0.19633472
+Afghanistan,1831,0.19633472
+Afghanistan,1832,0.19633472
+Afghanistan,1833,0.19633472
+Afghanistan,1834,0.19633472
+Afghanistan,1835,0.19633472
+Afghanistan,1836,0.19633472
+Afghanistan,1837,0.19633472
+Afghanistan,1838,0.19633472
+Afghanistan,1839,0.32717901
+Afghanistan,1840,0.32717901
+Afghanistan,1841,0.32717901
+Afghanistan,1842,0.32717901
+Afghanistan,1843,0.32717901
+Afghanistan,1844,0.32717901
+Afghanistan,1845,0.32717901
+Afghanistan,1846,0.32717901
+Afghanistan,1847,0.32717901
+Afghanistan,1848,0.32717901
+Afghanistan,1849,0.32717901
+Afghanistan,1850,0.32717901
+Afghanistan,1851,0.32717901
+Afghanistan,1852,0.32717901
+Afghanistan,1853,0.32717901
+Afghanistan,1854,0.32717901
+Afghanistan,1855,0.32717901
+Afghanistan,1856,0.32717901
+Afghanistan,1857,0.32717901
+Afghanistan,1858,0.32717901
+Afghanistan,1859,0.32717901
+Afghanistan,1860,0.32717901
+Afghanistan,1861,0.32717901
+Afghanistan,1862,0.32717901
+Afghanistan,1863,0.19633472
+Afghanistan,1864,0.19633472
+Afghanistan,1865,0.19633472
+Afghanistan,1866,0.19633472
+Afghanistan,1867,0.19633472
+Afghanistan,1868,0.19633472
+Afghanistan,1869,0.19633472
+Afghanistan,1870,0.19633472
+Afghanistan,1871,0.19633472
+Afghanistan,1872,0.19633472
+Afghanistan,1873,0.19633472
+Afghanistan,1874,0.19633472
+Afghanistan,1875,0.19633472
+Afghanistan,1876,0.19633472
+Afghanistan,1877,0.19633472
+Afghanistan,1878,0.19633472
+Afghanistan,1879,0.19633472
+Afghanistan,1880,0.32717901
+Afghanistan,1881,0.32717901
+Afghanistan,1882,0.32717901
+Afghanistan,1883,0.32717901
+Afghanistan,1884,0.32717901
+Afghanistan,1885,0.32717901
+Afghanistan,1886,0.32717901
+Afghanistan,1887,0.32717901
+Afghanistan,1888,0.32717901
+Afghanistan,1889,0.32717901
+Afghanistan,1890,0.32717901
+Afghanistan,1891,0.32717901
+Afghanistan,1892,0.32717901
+Afghanistan,1893,0.32717901
+Afghanistan,1894,0.32717901
+Afghanistan,1895,0.32717901
+Afghanistan,1896,0.32717901
+Afghanistan,1897,0.32717901
+Afghanistan,1898,0.32717901
+Afghanistan,1899,0.32717901
+Afghanistan,1900,0.22001424
+Afghanistan,1901,0.22001424
+Afghanistan,1902,0.2053597
+Afghanistan,1903,0.2053597
+Afghanistan,1904,0.2053597
+Afghanistan,1905,0.2053597
+Afghanistan,1906,0.2053597
+Afghanistan,1907,0.2053597
+Afghanistan,1908,0.2053597
+Afghanistan,1909,0.2053597
+Afghanistan,1910,0.2053597
+Afghanistan,1911,0.2053597
+Afghanistan,1912,0.2053597
+Afghanistan,1913,0.2053597
+Afghanistan,1914,0.2053597
+Afghanistan,1915,0.2053597
+Afghanistan,1916,0.2053597
+Afghanistan,1917,0.2053597
+Afghanistan,1918,0.2053597
+Afghanistan,1919,0.2053597
+Afghanistan,1920,0.27493045
+Afghanistan,1921,0.27100512
+Afghanistan,1922,0.27100512
+Afghanistan,1923,0.27100512
+Afghanistan,1924,0.25216353
+Afghanistan,1925,0.25216353
+Afghanistan,1926,0.25216353
+Afghanistan,1927,0.25216353
+Afghanistan,1928,0.23358366
+Afghanistan,1929,0.28958502
+Afghanistan,1930,0.28958502
+Afghanistan,1931,0.28958502
+Afghanistan,1932,0.28958502
+Afghanistan,1933,0.22416288
+Afghanistan,1934,0.22416288
+Afghanistan,1935,0.22416288
+Afghanistan,1936,0.22416288
+Afghanistan,1937,0.22416288
+Afghanistan,1938,0.22416288
+Afghanistan,1939,0.22416288
+Afghanistan,1940,0.22416288
+Afghanistan,1941,0.22416288
+Afghanistan,1942,0.22416288
+Afghanistan,1943,0.22416288
+Afghanistan,1944,0.22416288
+Afghanistan,1945,0.22416288
+Afghanistan,1946,0.22416288
+Afghanistan,1947,0.22416288
+Afghanistan,1948,0.22416288
+Afghanistan,1949,0.22416288
+Afghanistan,1950,0.24233605
+Afghanistan,1951,0.24233605
+Afghanistan,1952,0.20926769
+Afghanistan,1953,0.20926769
+Afghanistan,1954,0.20926769
+Afghanistan,1955,0.20926769
+Afghanistan,1956,0.20926769
+Afghanistan,1957,0.20926769
+Afghanistan,1958,0.20926769
+Afghanistan,1959,0.20926769
+Afghanistan,1960,0.20926769
+Afghanistan,1961,0.20926769
+Afghanistan,1962,0.20926769
+Afghanistan,1963,0.2367392
+Afghanistan,1964,0.31501701
+Afghanistan,1965,0.33974493
+Afghanistan,1966,0.33974493
+Afghanistan,1967,0.33974493
+Afghanistan,1968,0.33974493
+Afghanistan,1969,0.33974493
+Afghanistan,1970,0.33974493
+Afghanistan,1971,0.33974493
+Afghanistan,1972,0.33073747
+Afghanistan,1973,0.38741824
+Afghanistan,1974,0.26760158
+Afghanistan,1975,0.26760158
+Afghanistan,1976,0.26760158
+Afghanistan,1977,0.23677275
+Afghanistan,1978,0.23974574
+Afghanistan,1979,0.36074251
+Afghanistan,1980,0.26731968
+Afghanistan,1981,0.2984606
+Afghanistan,1982,0.30447945
+Afghanistan,1983,0.30447945
+Afghanistan,1984,0.30447945
+Afghanistan,1985,0.30447945
+Afghanistan,1986,0.27647877
+Afghanistan,1987,0.29757887
+Afghanistan,1988,0.29757887
+Afghanistan,1989,0.23215672
+Afghanistan,1990,0.30051908
+Afghanistan,1991,0.2579301
+Afghanistan,1992,0.37293792
+Afghanistan,1993,0.42203787
+Afghanistan,1994,0.42203787
+Afghanistan,1995,0.42203787
+Afghanistan,1996,0.37337089
+Afghanistan,1997,0.30387694
+Afghanistan,1998,0.26017493
+Afghanistan,1999,0.26017493
+Afghanistan,2000,0.26017493
+Afghanistan,2001,0.44043186
+Afghanistan,2002,0.69240594
+Afghanistan,2003,0.69813639
+Afghanistan,2004,0.69839805
+Afghanistan,2005,0.70234329
+Afghanistan,2006,0.70234329
+Afghanistan,2007,0.70234329
+Afghanistan,2008,0.70234329
+Afghanistan,2009,0.70234329
+Afghanistan,2010,0.6901511
+Afghanistan,2011,0.6901511
+Afghanistan,2012,0.69956839
+Afghanistan,2013,0.67875195
+Afghanistan,2014,0.67875195
+Afghanistan,2015,0.67875195
+Afghanistan,2016,0.65922105
+Afghanistan,2017,0.64216125
+Afghanistan,2018,0.64601153
+Afghanistan,2019,0.64083803
+Afghanistan,2020,0.69570953
+Turkmenistan,1990,0.33617714
+Turkmenistan,1991,0.35789728
+Turkmenistan,1992,0.34676987
+Turkmenistan,1993,0.34676987
+Turkmenistan,1994,0.34676987
+Turkmenistan,1995,0.34676987
+Turkmenistan,1996,0.34676987
+Turkmenistan,1997,0.34676987
+Turkmenistan,1998,0.34676987
+Turkmenistan,1999,0.34676987
+Turkmenistan,2000,0.34676987
+Turkmenistan,2001,0.34676987
+Turkmenistan,2002,0.34676987
+Turkmenistan,2003,0.32478803
+Turkmenistan,2004,0.32478803
+Turkmenistan,2005,0.33577895
+Turkmenistan,2006,0.33577895
+Turkmenistan,2007,0.20607433
+Turkmenistan,2008,0.36989141
+Turkmenistan,2009,0.36989141
+Turkmenistan,2010,0.36989141
+Turkmenistan,2011,0.38503906
+Turkmenistan,2012,0.40940422
+Turkmenistan,2013,0.4078165
+Turkmenistan,2014,0.4078165
+Turkmenistan,2015,0.4078165
+Turkmenistan,2016,0.4078165
+Turkmenistan,2017,0.44482893
+Turkmenistan,2018,0.42310879
+Turkmenistan,2019,0.41866007
+Turkmenistan,2020,0.44482893
+Tajikistan,1990,0.47955799
+Tajikistan,1991,0.51318043
+Tajikistan,1992,0.60864305
+Tajikistan,1993,0.56542015
+Tajikistan,1994,0.49934193
+Tajikistan,1995,0.49934193
+Tajikistan,1996,0.49934193
+Tajikistan,1997,0.50598514
+Tajikistan,1998,0.50852203
+Tajikistan,1999,0.52294666
+Tajikistan,2000,0.5585565
+Tajikistan,2001,0.53424275
+Tajikistan,2002,0.53424275
+Tajikistan,2003,0.53424275
+Tajikistan,2004,0.53424275
+Tajikistan,2005,0.51101708
+Tajikistan,2006,0.49857298
+Tajikistan,2007,0.49626738
+Tajikistan,2008,0.50024408
+Tajikistan,2009,0.50024408
+Tajikistan,2010,0.47944146
+Tajikistan,2011,0.47944146
+Tajikistan,2012,0.47944146
+Tajikistan,2013,0.45280752
+Tajikistan,2014,0.45280752
+Tajikistan,2015,0.42729071
+Tajikistan,2016,0.40271109
+Tajikistan,2017,0.41124293
+Tajikistan,2018,0.42866457
+Tajikistan,2019,0.41978288
+Tajikistan,2020,0.41151655
+Kyrgyzstan,1990,0.36258397
+Kyrgyzstan,1991,0.49448228
+Kyrgyzstan,1992,0.54055542
+Kyrgyzstan,1993,0.52291328
+Kyrgyzstan,1994,0.52291328
+Kyrgyzstan,1995,0.53578335
+Kyrgyzstan,1996,0.53578335
+Kyrgyzstan,1997,0.53578335
+Kyrgyzstan,1998,0.54210997
+Kyrgyzstan,1999,0.54210997
+Kyrgyzstan,2000,0.57293671
+Kyrgyzstan,2001,0.57293671
+Kyrgyzstan,2002,0.57293671
+Kyrgyzstan,2003,0.57293671
+Kyrgyzstan,2004,0.57293671
+Kyrgyzstan,2005,0.62553585
+Kyrgyzstan,2006,0.62404168
+Kyrgyzstan,2007,0.6250968
+Kyrgyzstan,2008,0.6250968
+Kyrgyzstan,2009,0.6250968
+Kyrgyzstan,2010,0.68291223
+Kyrgyzstan,2011,0.68213648
+Kyrgyzstan,2012,0.6596939
+Kyrgyzstan,2013,0.68926644
+Kyrgyzstan,2014,0.68702507
+Kyrgyzstan,2015,0.68629247
+Kyrgyzstan,2016,0.66396672
+Kyrgyzstan,2017,0.68544859
+Kyrgyzstan,2018,0.68881041
+Kyrgyzstan,2019,0.66748005
+Kyrgyzstan,2020,0.65597451
+Uzbekistan,1789,0.24344452
+Uzbekistan,1790,0.24344452
+Uzbekistan,1791,0.24344452
+Uzbekistan,1792,0.24344452
+Uzbekistan,1793,0.24344452
+Uzbekistan,1794,0.24344452
+Uzbekistan,1795,0.24344452
+Uzbekistan,1796,0.24344452
+Uzbekistan,1797,0.24344452
+Uzbekistan,1798,0.24344452
+Uzbekistan,1799,0.24344452
+Uzbekistan,1800,0.24344452
+Uzbekistan,1801,0.24344452
+Uzbekistan,1802,0.24344452
+Uzbekistan,1803,0.24344452
+Uzbekistan,1804,0.24344452
+Uzbekistan,1805,0.24344452
+Uzbekistan,1806,0.24344452
+Uzbekistan,1807,0.24344452
+Uzbekistan,1808,0.24344452
+Uzbekistan,1809,0.24344452
+Uzbekistan,1810,0.24344452
+Uzbekistan,1811,0.24344452
+Uzbekistan,1812,0.24344452
+Uzbekistan,1813,0.24344452
+Uzbekistan,1814,0.24344452
+Uzbekistan,1815,0.24344452
+Uzbekistan,1816,0.24344452
+Uzbekistan,1817,0.24344452
+Uzbekistan,1818,0.24344452
+Uzbekistan,1819,0.24344452
+Uzbekistan,1820,0.24344452
+Uzbekistan,1821,0.24344452
+Uzbekistan,1822,0.24344452
+Uzbekistan,1823,0.24344452
+Uzbekistan,1824,0.24344452
+Uzbekistan,1825,0.24344452
+Uzbekistan,1826,0.24344452
+Uzbekistan,1827,0.24344452
+Uzbekistan,1828,0.24344452
+Uzbekistan,1829,0.24344452
+Uzbekistan,1830,0.24344452
+Uzbekistan,1831,0.24344452
+Uzbekistan,1832,0.24344452
+Uzbekistan,1833,0.24344452
+Uzbekistan,1834,0.24344452
+Uzbekistan,1835,0.24344452
+Uzbekistan,1836,0.24344452
+Uzbekistan,1837,0.24344452
+Uzbekistan,1838,0.24344452
+Uzbekistan,1839,0.24344452
+Uzbekistan,1840,0.24344452
+Uzbekistan,1841,0.24344452
+Uzbekistan,1842,0.24344452
+Uzbekistan,1843,0.24344452
+Uzbekistan,1844,0.24344452
+Uzbekistan,1845,0.24344452
+Uzbekistan,1846,0.24344452
+Uzbekistan,1847,0.24344452
+Uzbekistan,1848,0.24344452
+Uzbekistan,1849,0.24344452
+Uzbekistan,1850,0.24344452
+Uzbekistan,1851,0.24344452
+Uzbekistan,1852,0.24344452
+Uzbekistan,1853,0.24344452
+Uzbekistan,1854,0.24344452
+Uzbekistan,1855,0.24344452
+Uzbekistan,1856,0.24344452
+Uzbekistan,1857,0.24344452
+Uzbekistan,1858,0.24344452
+Uzbekistan,1859,0.24344452
+Uzbekistan,1860,0.24344452
+Uzbekistan,1861,0.24344452
+Uzbekistan,1862,0.24344452
+Uzbekistan,1863,0.24344452
+Uzbekistan,1864,0.24344452
+Uzbekistan,1865,0.24344452
+Uzbekistan,1866,0.24344452
+Uzbekistan,1867,0.24344452
+Uzbekistan,1868,0.24344452
+Uzbekistan,1869,0.24344452
+Uzbekistan,1870,0.24344452
+Uzbekistan,1871,0.24344452
+Uzbekistan,1872,0.24344452
+Uzbekistan,1873,0.24344452
+Uzbekistan,1874,0.24344452
+Uzbekistan,1875,0.24344452
+Uzbekistan,1876,0.24344452
+Uzbekistan,1877,0.24344452
+Uzbekistan,1878,0.24344452
+Uzbekistan,1879,0.24344452
+Uzbekistan,1880,0.24344452
+Uzbekistan,1881,0.24344452
+Uzbekistan,1882,0.24344452
+Uzbekistan,1883,0.24344452
+Uzbekistan,1884,0.24344452
+Uzbekistan,1885,0.24344452
+Uzbekistan,1886,0.24344452
+Uzbekistan,1887,0.24344452
+Uzbekistan,1888,0.24344452
+Uzbekistan,1889,0.24344452
+Uzbekistan,1890,0.24344452
+Uzbekistan,1891,0.24344452
+Uzbekistan,1892,0.24344452
+Uzbekistan,1893,0.24344452
+Uzbekistan,1894,0.24344452
+Uzbekistan,1895,0.24344452
+Uzbekistan,1896,0.24344452
+Uzbekistan,1897,0.24344452
+Uzbekistan,1898,0.24344452
+Uzbekistan,1899,0.24344452
+Uzbekistan,1900,0.24344452
+Uzbekistan,1901,0.24344452
+Uzbekistan,1902,0.24344452
+Uzbekistan,1903,0.24344452
+Uzbekistan,1904,0.24344452
+Uzbekistan,1905,0.24344452
+Uzbekistan,1906,0.24344452
+Uzbekistan,1907,0.24344452
+Uzbekistan,1908,0.24344452
+Uzbekistan,1909,0.24344452
+Uzbekistan,1910,0.24344452
+Uzbekistan,1911,0.24344452
+Uzbekistan,1912,0.24344452
+Uzbekistan,1913,0.24344452
+Uzbekistan,1914,0.24344452
+Uzbekistan,1915,0.24344452
+Uzbekistan,1916,0.24344452
+Uzbekistan,1917,0.24344452
+Uzbekistan,1918,0.24344452
+Uzbekistan,1919,0.24344452
+Uzbekistan,1920,0.24344452
+Uzbekistan,1990,0.29235104
+Uzbekistan,1991,0.49599218
+Uzbekistan,1992,0.4878085
+Uzbekistan,1993,0.46108866
+Uzbekistan,1994,0.43807176
+Uzbekistan,1995,0.43807176
+Uzbekistan,1996,0.43658647
+Uzbekistan,1997,0.43658647
+Uzbekistan,1998,0.43658647
+Uzbekistan,1999,0.43658647
+Uzbekistan,2000,0.43658647
+Uzbekistan,2001,0.43658647
+Uzbekistan,2002,0.43658647
+Uzbekistan,2003,0.43658647
+Uzbekistan,2004,0.43658647
+Uzbekistan,2005,0.43658647
+Uzbekistan,2006,0.4326787
+Uzbekistan,2007,0.4326787
+Uzbekistan,2008,0.43674147
+Uzbekistan,2009,0.43674147
+Uzbekistan,2010,0.43674147
+Uzbekistan,2011,0.43710983
+Uzbekistan,2012,0.43710983
+Uzbekistan,2013,0.4351438
+Uzbekistan,2014,0.4351438
+Uzbekistan,2015,0.4351438
+Uzbekistan,2016,0.44190422
+Uzbekistan,2017,0.47509649
+Uzbekistan,2018,0.4637267
+Uzbekistan,2019,0.44857657
+Uzbekistan,2020,0.46166101
+Kazakhstan,1990,0.44018623
+Kazakhstan,1991,0.5886333
+Kazakhstan,1992,0.62393242
+Kazakhstan,1993,0.61891323
+Kazakhstan,1994,0.59702981
+Kazakhstan,1995,0.58090985
+Kazakhstan,1996,0.58090985
+Kazakhstan,1997,0.58090985
+Kazakhstan,1998,0.56914753
+Kazakhstan,1999,0.56480992
+Kazakhstan,2000,0.56480992
+Kazakhstan,2001,0.56480992
+Kazakhstan,2002,0.56108624
+Kazakhstan,2003,0.55321246
+Kazakhstan,2004,0.55321246
+Kazakhstan,2005,0.55321246
+Kazakhstan,2006,0.55321246
+Kazakhstan,2007,0.55321246
+Kazakhstan,2008,0.55321246
+Kazakhstan,2009,0.55321246
+Kazakhstan,2010,0.54735583
+Kazakhstan,2011,0.53980953
+Kazakhstan,2012,0.53357798
+Kazakhstan,2013,0.53201324
+Kazakhstan,2014,0.53201324
+Kazakhstan,2015,0.53201324
+Kazakhstan,2016,0.54350251
+Kazakhstan,2017,0.52882481
+Kazakhstan,2018,0.50569272
+Kazakhstan,2019,0.46522394
+Kazakhstan,2020,0.44548005
+China,1789,0.25092193
+China,1790,0.25092193
+China,1791,0.25092193
+China,1792,0.25092193
+China,1793,0.25092193
+China,1794,0.25092193
+China,1795,0.25092193
+China,1796,0.25092193
+China,1797,0.25092193
+China,1798,0.25092193
+China,1799,0.25092193
+China,1800,0.25092193
+China,1801,0.25092193
+China,1802,0.25092193
+China,1803,0.25092193
+China,1804,0.25092193
+China,1805,0.25092193
+China,1806,0.25092193
+China,1807,0.25092193
+China,1808,0.25092193
+China,1809,0.25092193
+China,1810,0.25092193
+China,1811,0.25092193
+China,1812,0.25092193
+China,1813,0.25092193
+China,1814,0.25092193
+China,1815,0.25092193
+China,1816,0.25092193
+China,1817,0.25092193
+China,1818,0.25092193
+China,1819,0.25092193
+China,1820,0.25092193
+China,1821,0.25092193
+China,1822,0.25092193
+China,1823,0.25092193
+China,1824,0.25092193
+China,1825,0.25092193
+China,1826,0.25092193
+China,1827,0.25092193
+China,1828,0.25092193
+China,1829,0.25092193
+China,1830,0.25092193
+China,1831,0.25092193
+China,1832,0.25092193
+China,1833,0.25092193
+China,1834,0.25092193
+China,1835,0.25092193
+China,1836,0.25092193
+China,1837,0.25092193
+China,1838,0.25092193
+China,1839,0.25092193
+China,1840,0.25092193
+China,1841,0.25092193
+China,1842,0.25092193
+China,1843,0.25092193
+China,1844,0.25092193
+China,1845,0.25092193
+China,1846,0.25092193
+China,1847,0.25092193
+China,1848,0.25092193
+China,1849,0.25092193
+China,1850,0.25092193
+China,1851,0.25092193
+China,1852,0.25092193
+China,1853,0.25092193
+China,1854,0.25092193
+China,1855,0.25092193
+China,1856,0.25092193
+China,1857,0.25092193
+China,1858,0.25092193
+China,1859,0.25092193
+China,1860,0.25092193
+China,1861,0.25092193
+China,1862,0.25092193
+China,1863,0.25092193
+China,1864,0.25092193
+China,1865,0.25092193
+China,1866,0.25092193
+China,1867,0.25092193
+China,1868,0.25092193
+China,1869,0.25092193
+China,1870,0.25092193
+China,1871,0.25092193
+China,1872,0.25092193
+China,1873,0.25092193
+China,1874,0.25092193
+China,1875,0.38176623
+China,1876,0.38176623
+China,1877,0.38176623
+China,1878,0.38176623
+China,1879,0.38176623
+China,1880,0.38176623
+China,1881,0.38176623
+China,1882,0.38176623
+China,1883,0.38176623
+China,1884,0.38176623
+China,1885,0.38176623
+China,1886,0.38176623
+China,1887,0.38176623
+China,1888,0.38176623
+China,1889,0.25092193
+China,1890,0.25092193
+China,1891,0.25092193
+China,1892,0.25092193
+China,1893,0.25092193
+China,1894,0.25092193
+China,1895,0.25092193
+China,1896,0.25092193
+China,1897,0.25092193
+China,1898,0.25092193
+China,1899,0.25092193
+China,1900,0.19649069
+China,1901,0.19649069
+China,1902,0.19649069
+China,1903,0.19649069
+China,1904,0.19649069
+China,1905,0.19649069
+China,1906,0.19649069
+China,1907,0.19649069
+China,1908,0.19649069
+China,1909,0.19649069
+China,1910,0.19649069
+China,1911,0.25599885
+China,1912,0.35681829
+China,1913,0.41186371
+China,1914,0.39815313
+China,1915,0.39815313
+China,1916,0.52899742
+China,1917,0.52899742
+China,1918,0.52899742
+China,1919,0.52899742
+China,1920,0.52899742
+China,1921,0.52454871
+China,1922,0.39636925
+China,1923,0.52721357
+China,1924,0.39636925
+China,1925,0.39636925
+China,1926,0.40945369
+China,1927,0.36638701
+China,1928,0.36329988
+China,1929,0.35713416
+China,1930,0.35713416
+China,1931,0.35713416
+China,1932,0.35713416
+China,1933,0.35713416
+China,1934,0.35713416
+China,1935,0.35713416
+China,1936,0.35713416
+China,1937,0.3702186
+China,1938,0.38809869
+China,1939,0.40118313
+China,1940,0.40118313
+China,1941,0.40118313
+China,1942,0.40118313
+China,1943,0.40118313
+China,1944,0.40118313
+China,1945,0.40118313
+China,1946,0.39883846
+China,1947,0.39883846
+China,1948,0.4002364
+China,1949,0.38581157
+China,1950,0.30017713
+China,1951,0.30017713
+China,1952,0.30017713
+China,1953,0.29349321
+China,1954,0.29349321
+China,1955,0.29349321
+China,1956,0.29349321
+China,1957,0.29349321
+China,1958,0.29349321
+China,1959,0.17442493
+China,1960,0.17442493
+China,1961,0.17442493
+China,1962,0.17442493
+China,1963,0.17442493
+China,1964,0.17442493
+China,1965,0.17442493
+China,1966,0.18044378
+China,1967,0.17550728
+China,1968,0.17550728
+China,1969,0.17550728
+China,1970,0.17550728
+China,1971,0.17550728
+China,1972,0.17550728
+China,1973,0.17550728
+China,1974,0.17550728
+China,1975,0.17550728
+China,1976,0.17550728
+China,1977,0.17550728
+China,1978,0.17550728
+China,1979,0.16948847
+China,1980,0.1697599
+China,1981,0.17511353
+China,1982,0.17511353
+China,1983,0.16354664
+China,1984,0.16992472
+China,1985,0.16992472
+China,1986,0.16992472
+China,1987,0.16992472
+China,1988,0.16992472
+China,1989,0.16992472
+China,1990,0.16992472
+China,1991,0.16992472
+China,1992,0.16992472
+China,1993,0.18170072
+China,1994,0.16992472
+China,1995,0.17376903
+China,1996,0.17376903
+China,1997,0.17376903
+China,1998,0.17420591
+China,1999,0.17420591
+China,2000,0.18141402
+China,2001,0.18141402
+China,2002,0.1815014
+China,2003,0.1815014
+China,2004,0.1815014
+China,2005,0.18225136
+China,2006,0.18225136
+China,2007,0.18225136
+China,2008,0.18094081
+China,2009,0.18063501
+China,2010,0.18063501
+China,2011,0.18063501
+China,2012,0.18063501
+China,2013,0.16427584
+China,2014,0.16427584
+China,2015,0.16274513
+China,2016,0.16274513
+China,2017,0.18658462
+China,2018,0.18323095
+China,2019,0.15975407
+China,2020,0.1623853
+Mongolia,1911,0.19358967
+Mongolia,1912,0.19358967
+Mongolia,1913,0.19358967
+Mongolia,1914,0.19358967
+Mongolia,1915,0.19358967
+Mongolia,1916,0.19358967
+Mongolia,1917,0.19358967
+Mongolia,1918,0.19358967
+Mongolia,1919,0.28073198
+Mongolia,1920,0.28073198
+Mongolia,1921,0.30161628
+Mongolia,1922,0.23619413
+Mongolia,1923,0.23619413
+Mongolia,1924,0.19903435
+Mongolia,1925,0.13361222
+Mongolia,1926,0.13361222
+Mongolia,1927,0.13361222
+Mongolia,1928,0.13361222
+Mongolia,1929,0.13361222
+Mongolia,1930,0.13361222
+Mongolia,1931,0.13361222
+Mongolia,1932,0.13361222
+Mongolia,1933,0.13361222
+Mongolia,1934,0.13361222
+Mongolia,1935,0.13361222
+Mongolia,1936,0.13361222
+Mongolia,1937,0.13361222
+Mongolia,1938,0.13361222
+Mongolia,1939,0.13361222
+Mongolia,1940,0.13806093
+Mongolia,1941,0.13806093
+Mongolia,1942,0.13806093
+Mongolia,1943,0.13806093
+Mongolia,1944,0.13806093
+Mongolia,1945,0.13806093
+Mongolia,1946,0.13806093
+Mongolia,1947,0.13806093
+Mongolia,1948,0.13806093
+Mongolia,1949,0.13806093
+Mongolia,1950,0.13806093
+Mongolia,1951,0.13806093
+Mongolia,1952,0.13806093
+Mongolia,1953,0.13806093
+Mongolia,1954,0.11189204
+Mongolia,1955,0.11189204
+Mongolia,1956,0.11189204
+Mongolia,1957,0.11189204
+Mongolia,1958,0.13806093
+Mongolia,1959,0.13806093
+Mongolia,1960,0.14905183
+Mongolia,1961,0.16023533
+Mongolia,1962,0.16023533
+Mongolia,1963,0.16023533
+Mongolia,1964,0.16023533
+Mongolia,1965,0.16023533
+Mongolia,1966,0.16023533
+Mongolia,1967,0.16023533
+Mongolia,1968,0.16023533
+Mongolia,1969,0.16023533
+Mongolia,1970,0.16023533
+Mongolia,1971,0.16023533
+Mongolia,1972,0.16023533
+Mongolia,1973,0.16023533
+Mongolia,1974,0.16023533
+Mongolia,1975,0.16023533
+Mongolia,1976,0.16023533
+Mongolia,1977,0.16023533
+Mongolia,1978,0.16023533
+Mongolia,1979,0.16023533
+Mongolia,1980,0.16023533
+Mongolia,1981,0.16023533
+Mongolia,1982,0.16023533
+Mongolia,1983,0.16023533
+Mongolia,1984,0.14479572
+Mongolia,1985,0.14479572
+Mongolia,1986,0.14479572
+Mongolia,1987,0.14479572
+Mongolia,1988,0.14479572
+Mongolia,1989,0.16677755
+Mongolia,1990,0.5928123
+Mongolia,1991,0.66451335
+Mongolia,1992,0.73741484
+Mongolia,1993,0.76192248
+Mongolia,1994,0.76192248
+Mongolia,1995,0.76192248
+Mongolia,1996,0.75130689
+Mongolia,1997,0.75130689
+Mongolia,1998,0.75130689
+Mongolia,1999,0.75130689
+Mongolia,2000,0.75424016
+Mongolia,2001,0.74926001
+Mongolia,2002,0.74926001
+Mongolia,2003,0.74926001
+Mongolia,2004,0.75253642
+Mongolia,2005,0.76665664
+Mongolia,2006,0.79010016
+Mongolia,2007,0.79010016
+Mongolia,2008,0.79010016
+Mongolia,2009,0.79010016
+Mongolia,2010,0.79010016
+Mongolia,2011,0.7957356
+Mongolia,2012,0.78108102
+Mongolia,2013,0.7957356
+Mongolia,2014,0.7957356
+Mongolia,2015,0.81582749
+Mongolia,2016,0.82319194
+Mongolia,2017,0.8322348
+Mongolia,2018,0.82332295
+Mongolia,2019,0.82175285
+Mongolia,2020,0.8052665
+Taiwan,1900,0.37109441
+Taiwan,1901,0.37109441
+Taiwan,1902,0.37109441
+Taiwan,1903,0.37109441
+Taiwan,1904,0.37109441
+Taiwan,1905,0.37109441
+Taiwan,1906,0.37109441
+Taiwan,1907,0.37109441
+Taiwan,1908,0.37109441
+Taiwan,1909,0.37109441
+Taiwan,1910,0.37109441
+Taiwan,1911,0.37109441
+Taiwan,1912,0.37109441
+Taiwan,1913,0.37109441
+Taiwan,1914,0.37109441
+Taiwan,1915,0.37109441
+Taiwan,1916,0.37109441
+Taiwan,1917,0.37109441
+Taiwan,1918,0.37109441
+Taiwan,1919,0.37109441
+Taiwan,1920,0.37109441
+Taiwan,1921,0.37109441
+Taiwan,1922,0.37109441
+Taiwan,1923,0.37109441
+Taiwan,1924,0.37109441
+Taiwan,1925,0.37109441
+Taiwan,1926,0.37109441
+Taiwan,1927,0.37109441
+Taiwan,1928,0.37109441
+Taiwan,1929,0.37109441
+Taiwan,1930,0.37109441
+Taiwan,1931,0.37109441
+Taiwan,1932,0.37109441
+Taiwan,1933,0.37109441
+Taiwan,1934,0.37109441
+Taiwan,1935,0.37109441
+Taiwan,1936,0.37109441
+Taiwan,1937,0.37109441
+Taiwan,1938,0.37109441
+Taiwan,1939,0.37109441
+Taiwan,1940,0.37109441
+Taiwan,1941,0.37109441
+Taiwan,1942,0.37109441
+Taiwan,1943,0.37109441
+Taiwan,1944,0.37109441
+Taiwan,1945,0.2820988
+Taiwan,1946,0.24684213
+Taiwan,1947,0.24684213
+Taiwan,1948,0.24684213
+Taiwan,1949,0.31500563
+Taiwan,1950,0.3342903
+Taiwan,1951,0.3342903
+Taiwan,1952,0.3342903
+Taiwan,1953,0.3342903
+Taiwan,1954,0.3342903
+Taiwan,1955,0.3342903
+Taiwan,1956,0.3342903
+Taiwan,1957,0.3342903
+Taiwan,1958,0.3342903
+Taiwan,1959,0.3342903
+Taiwan,1960,0.3342903
+Taiwan,1961,0.3342903
+Taiwan,1962,0.3342903
+Taiwan,1963,0.3342903
+Taiwan,1964,0.3342903
+Taiwan,1965,0.3342903
+Taiwan,1966,0.3342903
+Taiwan,1967,0.3342903
+Taiwan,1968,0.3342903
+Taiwan,1969,0.3342903
+Taiwan,1970,0.3342903
+Taiwan,1971,0.3342903
+Taiwan,1972,0.3342903
+Taiwan,1973,0.3342903
+Taiwan,1974,0.3342903
+Taiwan,1975,0.39971244
+Taiwan,1976,0.39971244
+Taiwan,1977,0.39971244
+Taiwan,1978,0.3342903
+Taiwan,1979,0.34294003
+Taiwan,1980,0.36104664
+Taiwan,1981,0.36104664
+Taiwan,1982,0.36676946
+Taiwan,1983,0.36676946
+Taiwan,1984,0.36676946
+Taiwan,1985,0.36676946
+Taiwan,1986,0.43798193
+Taiwan,1987,0.53308266
+Taiwan,1988,0.56239277
+Taiwan,1989,0.68111962
+Taiwan,1990,0.61958545
+Taiwan,1991,0.61958545
+Taiwan,1992,0.62002236
+Taiwan,1993,0.64842957
+Taiwan,1994,0.64842957
+Taiwan,1995,0.64842957
+Taiwan,1996,0.74417454
+Taiwan,1997,0.77080512
+Taiwan,1998,0.79776031
+Taiwan,1999,0.80793905
+Taiwan,2000,0.81501609
+Taiwan,2001,0.81689459
+Taiwan,2002,0.81689459
+Taiwan,2003,0.81689459
+Taiwan,2004,0.81689459
+Taiwan,2005,0.81924981
+Taiwan,2006,0.81924981
+Taiwan,2007,0.81924981
+Taiwan,2008,0.81924981
+Taiwan,2009,0.849199
+Taiwan,2010,0.85666925
+Taiwan,2011,0.85666925
+Taiwan,2012,0.85666925
+Taiwan,2013,0.84177625
+Taiwan,2014,0.85291612
+Taiwan,2015,0.85291612
+Taiwan,2016,0.87323087
+Taiwan,2017,0.89547956
+Taiwan,2018,0.89260101
+Taiwan,2019,0.90699387
+Taiwan,2020,0.90542376
+South Korea,1789,0.15671363
+South Korea,1790,0.15671363
+South Korea,1791,0.15671363
+South Korea,1792,0.21782969
+South Korea,1793,0.21782969
+South Korea,1794,0.21782969
+South Korea,1795,0.21782969
+South Korea,1796,0.21782969
+South Korea,1797,0.21782969
+South Korea,1798,0.21782969
+South Korea,1799,0.21782969
+South Korea,1800,0.21782969
+South Korea,1801,0.21782969
+South Korea,1802,0.21782969
+South Korea,1803,0.21782969
+South Korea,1804,0.21782969
+South Korea,1805,0.21782969
+South Korea,1806,0.21782969
+South Korea,1807,0.21782969
+South Korea,1808,0.21782969
+South Korea,1809,0.21782969
+South Korea,1810,0.21782969
+South Korea,1811,0.21782969
+South Korea,1812,0.21782969
+South Korea,1813,0.21782969
+South Korea,1814,0.21782969
+South Korea,1815,0.21782969
+South Korea,1816,0.21782969
+South Korea,1817,0.21782969
+South Korea,1818,0.21782969
+South Korea,1819,0.21782969
+South Korea,1820,0.21782969
+South Korea,1821,0.21782969
+South Korea,1822,0.21782969
+South Korea,1823,0.21782969
+South Korea,1824,0.21782969
+South Korea,1825,0.21782969
+South Korea,1826,0.21782969
+South Korea,1827,0.21782969
+South Korea,1828,0.21782969
+South Korea,1829,0.21782969
+South Korea,1830,0.21782969
+South Korea,1831,0.21782969
+South Korea,1832,0.21782969
+South Korea,1833,0.21782969
+South Korea,1834,0.21782969
+South Korea,1835,0.21782969
+South Korea,1836,0.21782969
+South Korea,1837,0.21782969
+South Korea,1838,0.21782969
+South Korea,1839,0.21782969
+South Korea,1840,0.21782969
+South Korea,1841,0.21782969
+South Korea,1842,0.21782969
+South Korea,1843,0.21782969
+South Korea,1844,0.21782969
+South Korea,1845,0.21782969
+South Korea,1846,0.21782969
+South Korea,1847,0.21782969
+South Korea,1848,0.21782969
+South Korea,1849,0.21782969
+South Korea,1850,0.21782969
+South Korea,1851,0.21782969
+South Korea,1852,0.21782969
+South Korea,1853,0.21782969
+South Korea,1854,0.21782969
+South Korea,1855,0.21782969
+South Korea,1856,0.21782969
+South Korea,1857,0.21782969
+South Korea,1858,0.21782969
+South Korea,1859,0.21782969
+South Korea,1860,0.21782969
+South Korea,1861,0.21782969
+South Korea,1862,0.21782969
+South Korea,1863,0.21782969
+South Korea,1864,0.21782969
+South Korea,1865,0.21782969
+South Korea,1866,0.21782969
+South Korea,1867,0.21782969
+South Korea,1868,0.21782969
+South Korea,1869,0.21782969
+South Korea,1870,0.21782969
+South Korea,1871,0.21782969
+South Korea,1872,0.21782969
+South Korea,1873,0.21782969
+South Korea,1874,0.21782969
+South Korea,1875,0.21782969
+South Korea,1876,0.21782969
+South Korea,1877,0.21782969
+South Korea,1878,0.21782969
+South Korea,1879,0.21782969
+South Korea,1880,0.21782969
+South Korea,1881,0.21782969
+South Korea,1882,0.21782969
+South Korea,1883,0.21782969
+South Korea,1884,0.21782969
+South Korea,1885,0.21782969
+South Korea,1886,0.21782969
+South Korea,1887,0.21782969
+South Korea,1888,0.21782969
+South Korea,1889,0.21782969
+South Korea,1890,0.21782969
+South Korea,1891,0.21782969
+South Korea,1892,0.21782969
+South Korea,1893,0.21782969
+South Korea,1894,0.21782969
+South Korea,1895,0.21782969
+South Korea,1896,0.21782969
+South Korea,1897,0.21782969
+South Korea,1898,0.21782969
+South Korea,1899,0.21782969
+South Korea,1900,0.22553004
+South Korea,1901,0.22553004
+South Korea,1902,0.22553004
+South Korea,1903,0.22553004
+South Korea,1904,0.22553004
+South Korea,1905,0.22553004
+South Korea,1906,0.27786776
+South Korea,1907,0.27786776
+South Korea,1908,0.27786776
+South Korea,1909,0.27786776
+South Korea,1910,0.34014967
+South Korea,1911,0.34014967
+South Korea,1912,0.34014967
+South Korea,1913,0.34014967
+South Korea,1914,0.34014967
+South Korea,1915,0.34014967
+South Korea,1916,0.34014967
+South Korea,1917,0.34014967
+South Korea,1918,0.34014967
+South Korea,1919,0.34014967
+South Korea,1920,0.34014967
+South Korea,1921,0.33779445
+South Korea,1922,0.33779445
+South Korea,1923,0.33779445
+South Korea,1924,0.33779445
+South Korea,1925,0.33779445
+South Korea,1926,0.33779445
+South Korea,1927,0.33779445
+South Korea,1928,0.33779445
+South Korea,1929,0.33779445
+South Korea,1930,0.33779445
+South Korea,1931,0.33779445
+South Korea,1932,0.33779445
+South Korea,1933,0.33779445
+South Korea,1934,0.33779445
+South Korea,1935,0.33779445
+South Korea,1936,0.33779445
+South Korea,1937,0.33779445
+South Korea,1938,0.33779445
+South Korea,1939,0.33779445
+South Korea,1940,0.33779445
+South Korea,1941,0.33779445
+South Korea,1942,0.33779445
+South Korea,1943,0.33779445
+South Korea,1944,0.33779445
+South Korea,1945,0.50178272
+South Korea,1946,0.58172935
+South Korea,1947,0.59854829
+North Korea,1945,0.40129015
+North Korea,1946,0.48635048
+North Korea,1947,0.48635048
+North Korea,1948,0.34779316
+North Korea,1949,0.24311773
+North Korea,1950,0.24311773
+North Korea,1951,0.24311773
+North Korea,1952,0.24311773
+North Korea,1953,0.24311773
+North Korea,1954,0.24311773
+North Korea,1955,0.24311773
+North Korea,1956,0.24311773
+North Korea,1957,0.24311773
+North Korea,1958,0.22717251
+North Korea,1959,0.22717251
+North Korea,1960,0.23580824
+North Korea,1961,0.23580824
+North Korea,1962,0.23580824
+North Korea,1963,0.23580824
+North Korea,1964,0.23580824
+North Korea,1965,0.23580824
+North Korea,1966,0.23580824
+North Korea,1967,0.23580824
+North Korea,1968,0.23580824
+North Korea,1969,0.23580824
+North Korea,1970,0.23580824
+North Korea,1971,0.23580824
+North Korea,1972,0.25779009
+North Korea,1973,0.25779009
+North Korea,1974,0.25779009
+North Korea,1975,0.25779009
+North Korea,1976,0.25779009
+North Korea,1977,0.25779009
+North Korea,1978,0.25779009
+North Korea,1979,0.25779009
+North Korea,1980,0.25779009
+North Korea,1981,0.25779009
+North Korea,1982,0.25779009
+North Korea,1983,0.25779009
+North Korea,1984,0.25779009
+North Korea,1985,0.25779009
+North Korea,1986,0.25779009
+North Korea,1987,0.25779009
+North Korea,1988,0.25779009
+North Korea,1989,0.25779009
+North Korea,1990,0.25779009
+North Korea,1991,0.25779009
+North Korea,1992,0.22336587
+North Korea,1993,0.22336587
+North Korea,1994,0.22336587
+North Korea,1995,0.22336587
+North Korea,1996,0.22336587
+North Korea,1997,0.22336587
+North Korea,1998,0.22336587
+North Korea,1999,0.22336587
+North Korea,2000,0.22336587
+North Korea,2001,0.22336587
+North Korea,2002,0.22336587
+North Korea,2003,0.22336587
+North Korea,2004,0.22336587
+North Korea,2005,0.20949638
+North Korea,2006,0.20949638
+North Korea,2007,0.20949638
+North Korea,2008,0.20949638
+North Korea,2009,0.20949638
+North Korea,2010,0.20949638
+North Korea,2011,0.20949638
+North Korea,2012,0.20949638
+North Korea,2013,0.18908468
+North Korea,2014,0.18908468
+North Korea,2015,0.18908468
+North Korea,2016,0.18908468
+North Korea,2017,0.18908468
+North Korea,2018,0.18908468
+North Korea,2019,0.20766455
+North Korea,2020,0.18908468
+South Korea,1948,0.56789821
+South Korea,1949,0.55611372
+South Korea,1950,0.55611372
+South Korea,1951,0.55611372
+South Korea,1952,0.55611372
+South Korea,1953,0.55611372
+South Korea,1954,0.55611372
+South Korea,1955,0.55611372
+South Korea,1956,0.55611372
+South Korea,1957,0.55611372
+South Korea,1958,0.55611372
+South Korea,1959,0.55611372
+South Korea,1960,0.61719483
+South Korea,1961,0.48714694
+South Korea,1962,0.33929288
+South Korea,1963,0.52042878
+South Korea,1964,0.54305881
+South Korea,1965,0.54305881
+South Korea,1966,0.54305881
+South Korea,1967,0.54305881
+South Korea,1968,0.54305881
+South Korea,1969,0.54305881
+South Korea,1970,0.54305881
+South Korea,1971,0.54305881
+South Korea,1972,0.51295751
+South Korea,1973,0.51295751
+South Korea,1974,0.51295751
+South Korea,1975,0.51295751
+South Korea,1976,0.51295751
+South Korea,1977,0.51295751
+South Korea,1978,0.51295751
+South Korea,1979,0.51295751
+South Korea,1980,0.50922054
+South Korea,1981,0.50922054
+South Korea,1982,0.50922054
+South Korea,1983,0.50922054
+South Korea,1984,0.51316106
+South Korea,1985,0.56140554
+South Korea,1986,0.56140554
+South Korea,1987,0.62071204
+South Korea,1988,0.75893629
+South Korea,1989,0.75893629
+South Korea,1990,0.75893629
+South Korea,1991,0.75893629
+South Korea,1992,0.78065646
+South Korea,1993,0.85941404
+South Korea,1994,0.85941404
+South Korea,1995,0.85941404
+South Korea,1996,0.85941404
+South Korea,1997,0.85941404
+South Korea,1998,0.90882236
+South Korea,1999,0.90882236
+South Korea,2000,0.90882236
+South Korea,2001,0.90882236
+South Korea,2002,0.90882236
+South Korea,2003,0.90882236
+South Korea,2004,0.90882236
+South Korea,2005,0.90672886
+South Korea,2006,0.90672886
+South Korea,2007,0.90672886
+South Korea,2008,0.87405205
+South Korea,2009,0.87405205
+South Korea,2010,0.87405205
+South Korea,2011,0.87405205
+South Korea,2012,0.87405205
+South Korea,2013,0.87254936
+South Korea,2014,0.87254936
+South Korea,2015,0.87097919
+South Korea,2016,0.87097919
+South Korea,2017,0.91151941
+South Korea,2018,0.91151941
+South Korea,2019,0.91151941
+South Korea,2020,0.9099493
+Japan,1789,0.11712174
+Japan,1790,0.11712174
+Japan,1791,0.11712174
+Japan,1792,0.11712174
+Japan,1793,0.11712174
+Japan,1794,0.11712174
+Japan,1795,0.11712174
+Japan,1796,0.11712174
+Japan,1797,0.11712174
+Japan,1798,0.11712174
+Japan,1799,0.11712174
+Japan,1800,0.11712174
+Japan,1801,0.11712174
+Japan,1802,0.11712174
+Japan,1803,0.11712174
+Japan,1804,0.11712174
+Japan,1805,0.11712174
+Japan,1806,0.11712174
+Japan,1807,0.11712174
+Japan,1808,0.11712174
+Japan,1809,0.11712174
+Japan,1810,0.11712174
+Japan,1811,0.11712174
+Japan,1812,0.11712174
+Japan,1813,0.11712174
+Japan,1814,0.11712174
+Japan,1815,0.11712174
+Japan,1816,0.11712174
+Japan,1817,0.11712174
+Japan,1818,0.11712174
+Japan,1819,0.11712174
+Japan,1820,0.11712174
+Japan,1821,0.11712174
+Japan,1822,0.11712174
+Japan,1823,0.11712174
+Japan,1824,0.11712174
+Japan,1825,0.11712174
+Japan,1826,0.11712174
+Japan,1827,0.11712174
+Japan,1828,0.11712174
+Japan,1829,0.11712174
+Japan,1830,0.11712174
+Japan,1831,0.11712174
+Japan,1832,0.11712174
+Japan,1833,0.11712174
+Japan,1834,0.11712174
+Japan,1835,0.11712174
+Japan,1836,0.11712174
+Japan,1837,0.11712174
+Japan,1838,0.11712174
+Japan,1839,0.11712174
+Japan,1840,0.11712174
+Japan,1841,0.11712174
+Japan,1842,0.11712174
+Japan,1843,0.11712174
+Japan,1844,0.11712174
+Japan,1845,0.11712174
+Japan,1846,0.11712174
+Japan,1847,0.11712174
+Japan,1848,0.11712174
+Japan,1849,0.11712174
+Japan,1850,0.11712174
+Japan,1851,0.11712174
+Japan,1852,0.11712174
+Japan,1853,0.11712174
+Japan,1854,0.11712174
+Japan,1855,0.11712174
+Japan,1856,0.11712174
+Japan,1857,0.11712174
+Japan,1858,0.11712174
+Japan,1859,0.24796602
+Japan,1860,0.24796602
+Japan,1861,0.24796602
+Japan,1862,0.24796602
+Japan,1863,0.24796602
+Japan,1864,0.24796602
+Japan,1865,0.24796602
+Japan,1866,0.24796602
+Japan,1867,0.24796602
+Japan,1868,0.24796602
+Japan,1869,0.18254386
+Japan,1870,0.34469894
+Japan,1871,0.34469894
+Japan,1872,0.34469894
+Japan,1873,0.34469894
+Japan,1874,0.34469894
+Japan,1875,0.34469894
+Japan,1876,0.34469894
+Japan,1877,0.34469894
+Japan,1878,0.34469894
+Japan,1879,0.34469894
+Japan,1880,0.34469894
+Japan,1881,0.34469894
+Japan,1882,0.34469894
+Japan,1883,0.34469894
+Japan,1884,0.34469894
+Japan,1885,0.34469894
+Japan,1886,0.34469894
+Japan,1887,0.34469894
+Japan,1888,0.34469894
+Japan,1889,0.34469894
+Japan,1890,0.48095992
+Japan,1891,0.48095992
+Japan,1892,0.53136992
+Japan,1893,0.53136992
+Japan,1894,0.53136992
+Japan,1895,0.53136992
+Japan,1896,0.53136992
+Japan,1897,0.53136992
+Japan,1898,0.53136992
+Japan,1899,0.53136992
+Japan,1900,0.58619899
+Japan,1901,0.58619899
+Japan,1902,0.58619899
+Japan,1903,0.58619899
+Japan,1904,0.58619899
+Japan,1905,0.58619899
+Japan,1906,0.58619899
+Japan,1907,0.58619899
+Japan,1908,0.58619899
+Japan,1909,0.58619899
+Japan,1910,0.58619899
+Japan,1911,0.58619899
+Japan,1912,0.58619899
+Japan,1913,0.58619899
+Japan,1914,0.58619899
+Japan,1915,0.58619899
+Japan,1916,0.58619899
+Japan,1917,0.58619899
+Japan,1918,0.5770399
+Japan,1919,0.5770399
+Japan,1920,0.5770399
+Japan,1921,0.56945091
+Japan,1922,0.56945091
+Japan,1923,0.56945091
+Japan,1924,0.56945091
+Japan,1925,0.56945091
+Japan,1926,0.57179552
+Japan,1927,0.57179552
+Japan,1928,0.57179552
+Japan,1929,0.57179552
+Japan,1930,0.57179552
+Japan,1931,0.57179552
+Japan,1932,0.57179552
+Japan,1933,0.57179552
+Japan,1934,0.57179552
+Japan,1935,0.57179552
+Japan,1936,0.57179552
+Japan,1937,0.56677043
+Japan,1938,0.56677043
+Japan,1939,0.56677043
+Japan,1940,0.52519464
+Japan,1941,0.52132636
+Japan,1942,0.51636356
+Japan,1943,0.51636356
+Japan,1944,0.51636356
+Japan,1945,0.52841038
+Japan,1946,0.79331547
+Japan,1947,0.79331547
+Japan,1948,0.80078566
+Japan,1949,0.80078566
+Japan,1950,0.82686597
+Japan,1951,0.83726311
+Japan,1952,0.81946826
+Japan,1953,0.7849254
+Japan,1954,0.7849254
+Japan,1955,0.81263137
+Japan,1956,0.81263137
+Japan,1957,0.81263137
+Japan,1958,0.81263137
+Japan,1959,0.81263137
+Japan,1960,0.81263137
+Japan,1961,0.81263137
+Japan,1962,0.81263137
+Japan,1963,0.81263137
+Japan,1964,0.81263137
+Japan,1965,0.81263137
+Japan,1966,0.81263137
+Japan,1967,0.81263137
+Japan,1968,0.81263137
+Japan,1969,0.81263137
+Japan,1970,0.81263137
+Japan,1971,0.81263137
+Japan,1972,0.81263137
+Japan,1973,0.81263137
+Japan,1974,0.81263137
+Japan,1975,0.81263137
+Japan,1976,0.81263137
+Japan,1977,0.81263137
+Japan,1978,0.81263137
+Japan,1979,0.81263137
+Japan,1980,0.81263137
+Japan,1981,0.81263137
+Japan,1982,0.81263137
+Japan,1983,0.81263137
+Japan,1984,0.81263137
+Japan,1985,0.81263137
+Japan,1986,0.81263137
+Japan,1987,0.81263137
+Japan,1988,0.81263137
+Japan,1989,0.81263137
+Japan,1990,0.81263137
+Japan,1991,0.81263137
+Japan,1992,0.81263137
+Japan,1993,0.81263137
+Japan,1994,0.81263137
+Japan,1995,0.81263137
+Japan,1996,0.81263137
+Japan,1997,0.81263137
+Japan,1998,0.81263137
+Japan,1999,0.81263137
+Japan,2000,0.81263137
+Japan,2001,0.81263137
+Japan,2002,0.81263137
+Japan,2003,0.81263137
+Japan,2004,0.81263137
+Japan,2005,0.81760347
+Japan,2006,0.81760347
+Japan,2007,0.81760347
+Japan,2008,0.81760347
+Japan,2009,0.82429159
+Japan,2010,0.82429159
+Japan,2011,0.82429159
+Japan,2012,0.81735039
+Japan,2013,0.82049066
+Japan,2014,0.82049066
+Japan,2015,0.81447184
+Japan,2016,0.81447184
+Japan,2017,0.82546276
+Japan,2018,0.81237829
+Japan,2019,0.80089426
+Japan,2020,0.80089426
+India,1789,0.52932292
+India,1790,0.52932292
+India,1791,0.52932292
+India,1792,0.52932292
+India,1793,0.52932292
+India,1794,0.52932292
+India,1795,0.52932292
+India,1796,0.52932292
+India,1797,0.52932292
+India,1798,0.52932292
+India,1799,0.52932292
+India,1800,0.52932292
+India,1801,0.52932292
+India,1802,0.52932292
+India,1803,0.52932292
+India,1804,0.52932292
+India,1805,0.52932292
+India,1806,0.52932292
+India,1807,0.52932292
+India,1808,0.52932292
+India,1809,0.52932292
+India,1810,0.52932292
+India,1811,0.52932292
+India,1812,0.52932292
+India,1813,0.52932292
+India,1814,0.52932292
+India,1815,0.52932292
+India,1816,0.52932292
+India,1817,0.52932292
+India,1818,0.52932292
+India,1819,0.52932292
+India,1820,0.52932292
+India,1821,0.52932292
+India,1822,0.52932292
+India,1823,0.52932292
+India,1824,0.52932292
+India,1825,0.52932292
+India,1826,0.52932292
+India,1827,0.52932292
+India,1828,0.52932292
+India,1829,0.52932292
+India,1830,0.52932292
+India,1831,0.52932292
+India,1832,0.52932292
+India,1833,0.52932292
+India,1834,0.52932292
+India,1835,0.52932292
+India,1836,0.52932292
+India,1837,0.52932292
+India,1838,0.52932292
+India,1839,0.52932292
+India,1840,0.52932292
+India,1841,0.52932292
+India,1842,0.52932292
+India,1843,0.52932292
+India,1844,0.52932292
+India,1845,0.52932292
+India,1846,0.52932292
+India,1847,0.52932292
+India,1848,0.52932292
+India,1849,0.52932292
+India,1850,0.52932292
+India,1851,0.52932292
+India,1852,0.52932292
+India,1853,0.52932292
+India,1854,0.52932292
+India,1855,0.52932292
+India,1856,0.52932292
+India,1857,0.52932292
+India,1858,0.52932292
+India,1859,0.52932292
+India,1860,0.52932292
+India,1861,0.52932292
+India,1862,0.52932292
+India,1863,0.52932292
+India,1864,0.52932292
+India,1865,0.52932292
+India,1866,0.52932292
+India,1867,0.52932292
+India,1868,0.52932292
+India,1869,0.52932292
+India,1870,0.52932292
+India,1871,0.52932292
+India,1872,0.52932292
+India,1873,0.52932292
+India,1874,0.52932292
+India,1875,0.52932292
+India,1876,0.52932292
+India,1877,0.52932292
+India,1878,0.52932292
+India,1879,0.52932292
+India,1880,0.52932292
+India,1881,0.52932292
+India,1882,0.52932292
+India,1883,0.52932292
+India,1884,0.52932292
+India,1885,0.52932292
+India,1886,0.52932292
+India,1887,0.52932292
+India,1888,0.52932292
+India,1889,0.52932292
+India,1890,0.52932292
+India,1891,0.52932292
+India,1892,0.52932292
+India,1893,0.52932292
+India,1894,0.52932292
+India,1895,0.52932292
+India,1896,0.52932292
+India,1897,0.52932292
+India,1898,0.52932292
+India,1899,0.52932292
+India,1900,0.53345948
+India,1901,0.53345948
+India,1902,0.53345948
+India,1903,0.53345948
+India,1904,0.53345948
+India,1905,0.52345568
+India,1906,0.53054142
+India,1907,0.53054142
+India,1908,0.53054142
+India,1909,0.53054142
+India,1910,0.53054142
+India,1911,0.53054142
+India,1912,0.53054142
+India,1913,0.53054142
+India,1914,0.53054142
+India,1915,0.53054142
+India,1916,0.53054142
+India,1917,0.53054142
+India,1918,0.53054142
+India,1919,0.53054142
+India,1920,0.52740115
+India,1921,0.52740115
+India,1922,0.52740115
+India,1923,0.52740115
+India,1924,0.52740115
+India,1925,0.52740115
+India,1926,0.52740115
+India,1927,0.52740115
+India,1928,0.52740115
+India,1929,0.52740115
+India,1930,0.52740115
+India,1931,0.52740115
+India,1932,0.52740115
+India,1933,0.52740115
+India,1934,0.52740115
+India,1935,0.69235551
+India,1936,0.69235551
+India,1937,0.69235551
+India,1938,0.69235551
+India,1939,0.69235551
+India,1940,0.69235551
+India,1941,0.69235551
+India,1942,0.69235551
+India,1943,0.69235551
+India,1944,0.69235551
+India,1945,0.69235551
+India,1946,0.697851
+India,1947,0.71643198
+India,1948,0.80283624
+India,1949,0.80283624
+India,1950,0.85948575
+India,1951,0.85948575
+India,1952,0.85948575
+India,1953,0.85948575
+India,1954,0.85948575
+India,1955,0.85948575
+India,1956,0.85948575
+India,1957,0.85948575
+India,1958,0.85948575
+India,1959,0.85948575
+India,1960,0.85948575
+India,1961,0.85948575
+India,1962,0.85948575
+India,1963,0.85948575
+India,1964,0.85948575
+India,1965,0.85948575
+India,1966,0.85948575
+India,1967,0.85948575
+India,1968,0.85948575
+India,1969,0.85948575
+India,1970,0.85948575
+India,1971,0.85948575
+India,1972,0.85948575
+India,1973,0.85948575
+India,1974,0.85948575
+India,1975,0.74033064
+India,1976,0.72910345
+India,1977,0.74871826
+India,1978,0.86790842
+India,1979,0.86790842
+India,1980,0.86790842
+India,1981,0.86790842
+India,1982,0.86790842
+India,1983,0.86790842
+India,1984,0.86790842
+India,1985,0.86790842
+India,1986,0.86790842
+India,1987,0.86790842
+India,1988,0.86790842
+India,1989,0.86790842
+India,1990,0.90106571
+India,1991,0.90106571
+India,1992,0.90106571
+India,1993,0.90106571
+India,1994,0.90106571
+India,1995,0.90106571
+India,1996,0.90106571
+India,1997,0.90106571
+India,1998,0.90106571
+India,1999,0.90106571
+India,2000,0.90106571
+India,2001,0.90106571
+India,2002,0.90106571
+India,2003,0.90106571
+India,2004,0.90106571
+India,2005,0.88693458
+India,2006,0.88693458
+India,2007,0.88693458
+India,2008,0.88693458
+India,2009,0.88693458
+India,2010,0.88512731
+India,2011,0.88512731
+India,2012,0.88512731
+India,2013,0.89193124
+India,2014,0.86865914
+India,2015,0.83362335
+India,2016,0.83362335
+India,2017,0.8080312
+India,2018,0.79939091
+India,2019,0.7715922
+India,2020,0.71101421
+Bhutan,1900,0.4287129
+Bhutan,1901,0.4287129
+Bhutan,1902,0.4287129
+Bhutan,1903,0.4287129
+Bhutan,1904,0.4287129
+Bhutan,1905,0.4287129
+Bhutan,1906,0.4287129
+Bhutan,1907,0.29786861
+Bhutan,1908,0.29786861
+Bhutan,1909,0.29786861
+Bhutan,1910,0.29786861
+Bhutan,1911,0.29786861
+Bhutan,1912,0.29786861
+Bhutan,1913,0.29786861
+Bhutan,1914,0.29786861
+Bhutan,1915,0.29786861
+Bhutan,1916,0.29786861
+Bhutan,1917,0.29786861
+Bhutan,1918,0.29786861
+Bhutan,1919,0.29786861
+Bhutan,1920,0.29786861
+Bhutan,1921,0.29786861
+Bhutan,1922,0.29786861
+Bhutan,1923,0.29786861
+Bhutan,1924,0.29786861
+Bhutan,1925,0.29786861
+Bhutan,1926,0.29786861
+Bhutan,1927,0.29786861
+Bhutan,1928,0.29786861
+Bhutan,1929,0.29786861
+Bhutan,1930,0.29786861
+Bhutan,1931,0.29786861
+Bhutan,1932,0.29786861
+Bhutan,1933,0.29786861
+Bhutan,1934,0.29786861
+Bhutan,1935,0.29786861
+Bhutan,1936,0.29786861
+Bhutan,1937,0.29786861
+Bhutan,1938,0.29786861
+Bhutan,1939,0.29786861
+Bhutan,1940,0.29786861
+Bhutan,1941,0.29786861
+Bhutan,1942,0.29786861
+Bhutan,1943,0.29786861
+Bhutan,1944,0.29786861
+Bhutan,1945,0.29786861
+Bhutan,1946,0.29786861
+Bhutan,1947,0.29786861
+Bhutan,1948,0.29786861
+Bhutan,1949,0.29786861
+Bhutan,1950,0.29786861
+Bhutan,1951,0.29786861
+Bhutan,1952,0.29786861
+Bhutan,1953,0.29786861
+Bhutan,1954,0.29786861
+Bhutan,1955,0.29786861
+Bhutan,1956,0.29786861
+Bhutan,1957,0.29786861
+Bhutan,1958,0.29786861
+Bhutan,1959,0.29786861
+Bhutan,1960,0.29786861
+Bhutan,1961,0.29786861
+Bhutan,1962,0.29786861
+Bhutan,1963,0.29786861
+Bhutan,1964,0.29786861
+Bhutan,1965,0.29786861
+Bhutan,1966,0.29786861
+Bhutan,1967,0.29786861
+Bhutan,1968,0.29786861
+Bhutan,1969,0.29786861
+Bhutan,1970,0.29786861
+Bhutan,1971,0.29786861
+Bhutan,1972,0.29786861
+Bhutan,1973,0.29786861
+Bhutan,1974,0.29786861
+Bhutan,1975,0.29786861
+Bhutan,1976,0.29786861
+Bhutan,1977,0.29786861
+Bhutan,1978,0.29786861
+Bhutan,1979,0.29786861
+Bhutan,1980,0.29786861
+Bhutan,1981,0.29786861
+Bhutan,1982,0.29786861
+Bhutan,1983,0.29786861
+Bhutan,1984,0.29786861
+Bhutan,1985,0.29786861
+Bhutan,1986,0.29786861
+Bhutan,1987,0.29786861
+Bhutan,1988,0.29786861
+Bhutan,1989,0.29786861
+Bhutan,1990,0.29786861
+Bhutan,1991,0.29786861
+Bhutan,1992,0.29786861
+Bhutan,1993,0.29786861
+Bhutan,1994,0.29786861
+Bhutan,1995,0.29786861
+Bhutan,1996,0.29786861
+Bhutan,1997,0.29786861
+Bhutan,1998,0.36093557
+Bhutan,1999,0.34785113
+Bhutan,2000,0.34785113
+Bhutan,2001,0.34785113
+Bhutan,2002,0.34785113
+Bhutan,2003,0.34785113
+Bhutan,2004,0.34785113
+Bhutan,2005,0.35386997
+Bhutan,2006,0.35386997
+Bhutan,2007,0.56009257
+Bhutan,2008,0.74065733
+Bhutan,2009,0.75491184
+Bhutan,2010,0.75491184
+Bhutan,2011,0.75491184
+Bhutan,2012,0.76956642
+Bhutan,2013,0.75701916
+Bhutan,2014,0.75701916
+Bhutan,2015,0.75701916
+Bhutan,2016,0.75073862
+Bhutan,2017,0.75073862
+Bhutan,2018,0.75038689
+Bhutan,2019,0.75038689
+Bhutan,2020,0.73725659
+Pakistan,1947,0.51325721
+Pakistan,1948,0.50017273
+Pakistan,1949,0.48708832
+Pakistan,1950,0.49478868
+Pakistan,1951,0.49478868
+Pakistan,1952,0.46861982
+Pakistan,1953,0.48170424
+Pakistan,1954,0.48170424
+Pakistan,1955,0.48170424
+Pakistan,1956,0.48170424
+Pakistan,1957,0.48170424
+Pakistan,1958,0.26596555
+Pakistan,1959,0.28081885
+Pakistan,1960,0.25159326
+Pakistan,1961,0.25159326
+Pakistan,1962,0.25159326
+Pakistan,1963,0.26839659
+Pakistan,1964,0.26839659
+Pakistan,1965,0.26839659
+Pakistan,1966,0.26839659
+Pakistan,1967,0.26839659
+Pakistan,1968,0.26839659
+Pakistan,1969,0.26839659
+Pakistan,1970,0.40377831
+Pakistan,1971,0.50045788
+Pakistan,1972,0.52004635
+Pakistan,1973,0.53690898
+Pakistan,1974,0.53690898
+Pakistan,1975,0.53690898
+Pakistan,1976,0.53690898
+Pakistan,1977,0.5107401
+Pakistan,1978,0.29142603
+Pakistan,1979,0.31759489
+Pakistan,1980,0.2748704
+Pakistan,1981,0.2748704
+Pakistan,1982,0.2748704
+Pakistan,1983,0.2748704
+Pakistan,1984,0.2748704
+Pakistan,1985,0.32720813
+Pakistan,1986,0.352391
+Pakistan,1987,0.352391
+Pakistan,1988,0.48752075
+Pakistan,1989,0.59770763
+Pakistan,1990,0.62387651
+Pakistan,1991,0.62387651
+Pakistan,1992,0.62387651
+Pakistan,1993,0.62387651
+Pakistan,1994,0.62387651
+Pakistan,1995,0.62387651
+Pakistan,1996,0.62387651
+Pakistan,1997,0.62387651
+Pakistan,1998,0.58783817
+Pakistan,1999,0.51961291
+Pakistan,2000,0.4975538
+Pakistan,2001,0.44521609
+Pakistan,2002,0.54283446
+Pakistan,2003,0.58751345
+Pakistan,2004,0.58751345
+Pakistan,2005,0.57756931
+Pakistan,2006,0.57756931
+Pakistan,2007,0.57756931
+Pakistan,2008,0.62764406
+Pakistan,2009,0.65002799
+Pakistan,2010,0.69686258
+Pakistan,2011,0.70418984
+Pakistan,2012,0.68529391
+Pakistan,2013,0.71410495
+Pakistan,2014,0.74092215
+Pakistan,2015,0.72695267
+Pakistan,2016,0.72695267
+Pakistan,2017,0.70044208
+Pakistan,2018,0.66212732
+Pakistan,2019,0.63821679
+Pakistan,2020,0.61882401
+Bangladesh,1971,0.59640664
+Bangladesh,1972,0.64024144
+Bangladesh,1973,0.64024144
+Bangladesh,1974,0.64024144
+Bangladesh,1975,0.4261108
+Bangladesh,1976,0.34281072
+Bangladesh,1977,0.41547084
+Bangladesh,1978,0.61562282
+Bangladesh,1979,0.61562282
+Bangladesh,1980,0.61562282
+Bangladesh,1981,0.60304135
+Bangladesh,1982,0.56175011
+Bangladesh,1983,0.45262596
+Bangladesh,1984,0.45262596
+Bangladesh,1985,0.45262596
+Bangladesh,1986,0.58300024
+Bangladesh,1987,0.58300024
+Bangladesh,1988,0.58300024
+Bangladesh,1989,0.58300024
+Bangladesh,1990,0.59750384
+Bangladesh,1991,0.68412673
+Bangladesh,1992,0.6888023
+Bangladesh,1993,0.6888023
+Bangladesh,1994,0.6888023
+Bangladesh,1995,0.6888023
+Bangladesh,1996,0.69705886
+Bangladesh,1997,0.69491827
+Bangladesh,1998,0.69491827
+Bangladesh,1999,0.69491827
+Bangladesh,2000,0.69491827
+Bangladesh,2001,0.7097277
+Bangladesh,2002,0.64481097
+Bangladesh,2003,0.64481097
+Bangladesh,2004,0.64481097
+Bangladesh,2005,0.66626942
+Bangladesh,2006,0.66036874
+Bangladesh,2007,0.62957513
+Bangladesh,2008,0.62943661
+Bangladesh,2009,0.65020275
+Bangladesh,2010,0.64884847
+Bangladesh,2011,0.64263034
+Bangladesh,2012,0.64149451
+Bangladesh,2013,0.6098184
+Bangladesh,2014,0.59700513
+Bangladesh,2015,0.60336828
+Bangladesh,2016,0.61179954
+Bangladesh,2017,0.64256358
+Bangladesh,2018,0.55108601
+Bangladesh,2019,0.54217815
+Bangladesh,2020,0.53457093
+Burma/Myanmar,1789,0.17652594
+Burma/Myanmar,1790,0.17652594
+Burma/Myanmar,1791,0.17652594
+Burma/Myanmar,1792,0.17652594
+Burma/Myanmar,1793,0.17652594
+Burma/Myanmar,1794,0.17652594
+Burma/Myanmar,1795,0.17652594
+Burma/Myanmar,1796,0.17652594
+Burma/Myanmar,1797,0.17652594
+Burma/Myanmar,1798,0.17652594
+Burma/Myanmar,1799,0.17652594
+Burma/Myanmar,1800,0.17652594
+Burma/Myanmar,1801,0.17652594
+Burma/Myanmar,1802,0.17652594
+Burma/Myanmar,1803,0.17652594
+Burma/Myanmar,1804,0.17652594
+Burma/Myanmar,1805,0.17652594
+Burma/Myanmar,1806,0.17652594
+Burma/Myanmar,1807,0.17652594
+Burma/Myanmar,1808,0.17652594
+Burma/Myanmar,1809,0.17652594
+Burma/Myanmar,1810,0.17652594
+Burma/Myanmar,1811,0.17652594
+Burma/Myanmar,1812,0.17652594
+Burma/Myanmar,1813,0.17652594
+Burma/Myanmar,1814,0.17652594
+Burma/Myanmar,1815,0.17652594
+Burma/Myanmar,1816,0.17652594
+Burma/Myanmar,1817,0.17652594
+Burma/Myanmar,1818,0.17652594
+Burma/Myanmar,1819,0.17652594
+Burma/Myanmar,1820,0.17652594
+Burma/Myanmar,1821,0.17652594
+Burma/Myanmar,1822,0.17652594
+Burma/Myanmar,1823,0.17652594
+Burma/Myanmar,1824,0.17652594
+Burma/Myanmar,1825,0.17652594
+Burma/Myanmar,1826,0.17652594
+Burma/Myanmar,1827,0.17652594
+Burma/Myanmar,1828,0.17652594
+Burma/Myanmar,1829,0.17652594
+Burma/Myanmar,1830,0.17652594
+Burma/Myanmar,1831,0.17652594
+Burma/Myanmar,1832,0.17652594
+Burma/Myanmar,1833,0.17652594
+Burma/Myanmar,1834,0.17652594
+Burma/Myanmar,1835,0.17652594
+Burma/Myanmar,1836,0.17652594
+Burma/Myanmar,1837,0.17652594
+Burma/Myanmar,1838,0.17652594
+Burma/Myanmar,1839,0.17652594
+Burma/Myanmar,1840,0.17652594
+Burma/Myanmar,1841,0.17652594
+Burma/Myanmar,1842,0.17652594
+Burma/Myanmar,1843,0.17652594
+Burma/Myanmar,1844,0.17652594
+Burma/Myanmar,1845,0.17652594
+Burma/Myanmar,1846,0.17652594
+Burma/Myanmar,1847,0.17652594
+Burma/Myanmar,1848,0.17652594
+Burma/Myanmar,1849,0.17652594
+Burma/Myanmar,1850,0.17652594
+Burma/Myanmar,1851,0.17652594
+Burma/Myanmar,1852,0.17652594
+Burma/Myanmar,1853,0.17652594
+Burma/Myanmar,1854,0.17652594
+Burma/Myanmar,1855,0.17652594
+Burma/Myanmar,1856,0.17652594
+Burma/Myanmar,1857,0.17652594
+Burma/Myanmar,1858,0.17652594
+Burma/Myanmar,1859,0.17652594
+Burma/Myanmar,1860,0.17652594
+Burma/Myanmar,1861,0.17652594
+Burma/Myanmar,1862,0.17652594
+Burma/Myanmar,1863,0.17652594
+Burma/Myanmar,1864,0.17652594
+Burma/Myanmar,1865,0.17652594
+Burma/Myanmar,1866,0.17652594
+Burma/Myanmar,1867,0.17652594
+Burma/Myanmar,1868,0.17652594
+Burma/Myanmar,1869,0.17652594
+Burma/Myanmar,1870,0.17652594
+Burma/Myanmar,1871,0.17652594
+Burma/Myanmar,1872,0.17652594
+Burma/Myanmar,1873,0.17652594
+Burma/Myanmar,1874,0.17652594
+Burma/Myanmar,1875,0.17652594
+Burma/Myanmar,1876,0.17652594
+Burma/Myanmar,1877,0.17652594
+Burma/Myanmar,1878,0.17652594
+Burma/Myanmar,1879,0.17652594
+Burma/Myanmar,1880,0.17652594
+Burma/Myanmar,1881,0.17652594
+Burma/Myanmar,1882,0.17652594
+Burma/Myanmar,1883,0.17652594
+Burma/Myanmar,1884,0.17652594
+Burma/Myanmar,1885,0.17652594
+Burma/Myanmar,1886,0.42907524
+Burma/Myanmar,1887,0.42907524
+Burma/Myanmar,1888,0.42907524
+Burma/Myanmar,1889,0.42907524
+Burma/Myanmar,1890,0.42907524
+Burma/Myanmar,1891,0.42907524
+Burma/Myanmar,1892,0.42907524
+Burma/Myanmar,1893,0.42907524
+Burma/Myanmar,1894,0.42907524
+Burma/Myanmar,1895,0.42907524
+Burma/Myanmar,1896,0.42907524
+Burma/Myanmar,1897,0.42907524
+Burma/Myanmar,1898,0.42907524
+Burma/Myanmar,1899,0.42907524
+Burma/Myanmar,1900,0.47038823
+Burma/Myanmar,1901,0.47038823
+Burma/Myanmar,1902,0.47038823
+Burma/Myanmar,1903,0.47038823
+Burma/Myanmar,1904,0.47038823
+Burma/Myanmar,1905,0.47038823
+Burma/Myanmar,1906,0.47038823
+Burma/Myanmar,1907,0.47038823
+Burma/Myanmar,1908,0.47038823
+Burma/Myanmar,1909,0.47038823
+Burma/Myanmar,1910,0.47038823
+Burma/Myanmar,1911,0.47038823
+Burma/Myanmar,1912,0.47038823
+Burma/Myanmar,1913,0.47038823
+Burma/Myanmar,1914,0.47038823
+Burma/Myanmar,1915,0.47038823
+Burma/Myanmar,1916,0.47038823
+Burma/Myanmar,1917,0.47038823
+Burma/Myanmar,1918,0.47038823
+Burma/Myanmar,1919,0.47038823
+Burma/Myanmar,1920,0.4773294
+Burma/Myanmar,1921,0.4830825
+Burma/Myanmar,1922,0.61518943
+Burma/Myanmar,1923,0.61518943
+Burma/Myanmar,1924,0.61518943
+Burma/Myanmar,1925,0.61518943
+Burma/Myanmar,1926,0.61518943
+Burma/Myanmar,1927,0.61518943
+Burma/Myanmar,1928,0.61518943
+Burma/Myanmar,1929,0.61518943
+Burma/Myanmar,1930,0.61518943
+Burma/Myanmar,1931,0.61518943
+Burma/Myanmar,1932,0.61518943
+Burma/Myanmar,1933,0.61518943
+Burma/Myanmar,1934,0.61518943
+Burma/Myanmar,1935,0.62834877
+Burma/Myanmar,1936,0.62834877
+Burma/Myanmar,1937,0.62834877
+Burma/Myanmar,1938,0.62834877
+Burma/Myanmar,1939,0.62834877
+Burma/Myanmar,1940,0.62834877
+Burma/Myanmar,1941,0.62834877
+Burma/Myanmar,1942,0.60546416
+Burma/Myanmar,1943,0.55419058
+Burma/Myanmar,1944,0.55419058
+Burma/Myanmar,1945,0.60424602
+Burma/Myanmar,1946,0.6370157
+Burma/Myanmar,1947,0.65152049
+Burma/Myanmar,1948,0.60082948
+Burma/Myanmar,1949,0.60082948
+Burma/Myanmar,1950,0.60082948
+Burma/Myanmar,1951,0.60082948
+Burma/Myanmar,1952,0.60082948
+Burma/Myanmar,1953,0.60082948
+Burma/Myanmar,1954,0.60082948
+Burma/Myanmar,1955,0.60082948
+Burma/Myanmar,1956,0.60082948
+Burma/Myanmar,1957,0.60082948
+Burma/Myanmar,1958,0.55399436
+Burma/Myanmar,1959,0.55399436
+Burma/Myanmar,1960,0.57597619
+Burma/Myanmar,1961,0.5999307
+Burma/Myanmar,1962,0.34831405
+Burma/Myanmar,1963,0.25098622
+Burma/Myanmar,1964,0.12225544
+Burma/Myanmar,1965,0.12225544
+Burma/Myanmar,1966,0.12225544
+Burma/Myanmar,1967,0.12225544
+Burma/Myanmar,1968,0.12225544
+Burma/Myanmar,1969,0.12225544
+Burma/Myanmar,1970,0.12225544
+Burma/Myanmar,1971,0.12225544
+Burma/Myanmar,1972,0.12225544
+Burma/Myanmar,1973,0.12225544
+Burma/Myanmar,1974,0.099371254
+Burma/Myanmar,1975,0.12109143
+Burma/Myanmar,1976,0.12109143
+Burma/Myanmar,1977,0.12109143
+Burma/Myanmar,1978,0.12109143
+Burma/Myanmar,1979,0.12109143
+Burma/Myanmar,1980,0.12109143
+Burma/Myanmar,1981,0.12109143
+Burma/Myanmar,1982,0.12109143
+Burma/Myanmar,1983,0.12109143
+Burma/Myanmar,1984,0.12109143
+Burma/Myanmar,1985,0.12109143
+Burma/Myanmar,1986,0.12109143
+Burma/Myanmar,1987,0.12109143
+Burma/Myanmar,1988,0.3321099
+Burma/Myanmar,1989,0.4288561
+Burma/Myanmar,1990,0.47304183
+Burma/Myanmar,1991,0.46941593
+Burma/Myanmar,1992,0.33857164
+Burma/Myanmar,1993,0.33857164
+Burma/Myanmar,1994,0.33857164
+Burma/Myanmar,1995,0.33857164
+Burma/Myanmar,1996,0.33857164
+Burma/Myanmar,1997,0.3165898
+Burma/Myanmar,1998,0.3165898
+Burma/Myanmar,1999,0.3165898
+Burma/Myanmar,2000,0.3165898
+Burma/Myanmar,2001,0.3165898
+Burma/Myanmar,2002,0.3165898
+Burma/Myanmar,2003,0.3165898
+Burma/Myanmar,2004,0.3165898
+Burma/Myanmar,2005,0.32470214
+Burma/Myanmar,2006,0.32470214
+Burma/Myanmar,2007,0.32470214
+Burma/Myanmar,2008,0.32470214
+Burma/Myanmar,2009,0.32470214
+Burma/Myanmar,2010,0.38918921
+Burma/Myanmar,2011,0.53883779
+Burma/Myanmar,2012,0.55075908
+Burma/Myanmar,2013,0.62369615
+Burma/Myanmar,2014,0.62885106
+Burma/Myanmar,2015,0.64081621
+Burma/Myanmar,2016,0.65367109
+Burma/Myanmar,2017,0.60125041
+Burma/Myanmar,2018,0.60123289
+Burma/Myanmar,2019,0.6106934
+Burma/Myanmar,2020,0.62245578
+Sri Lanka,1900,0.58798367
+Sri Lanka,1901,0.58798367
+Sri Lanka,1902,0.58798367
+Sri Lanka,1903,0.58798367
+Sri Lanka,1904,0.58798367
+Sri Lanka,1905,0.58798367
+Sri Lanka,1906,0.58798367
+Sri Lanka,1907,0.58798367
+Sri Lanka,1908,0.58798367
+Sri Lanka,1909,0.58798367
+Sri Lanka,1910,0.58798367
+Sri Lanka,1911,0.58798367
+Sri Lanka,1912,0.58798367
+Sri Lanka,1913,0.58798367
+Sri Lanka,1914,0.58798367
+Sri Lanka,1915,0.58798367
+Sri Lanka,1916,0.58798367
+Sri Lanka,1917,0.58798367
+Sri Lanka,1918,0.58798367
+Sri Lanka,1919,0.58798367
+Sri Lanka,1920,0.64398175
+Sri Lanka,1921,0.65324312
+Sri Lanka,1922,0.65324312
+Sri Lanka,1923,0.65324312
+Sri Lanka,1924,0.65324312
+Sri Lanka,1925,0.65324312
+Sri Lanka,1926,0.65324312
+Sri Lanka,1927,0.65324312
+Sri Lanka,1928,0.65324312
+Sri Lanka,1929,0.65324312
+Sri Lanka,1930,0.65324312
+Sri Lanka,1931,0.69637239
+Sri Lanka,1932,0.69637239
+Sri Lanka,1933,0.69637239
+Sri Lanka,1934,0.69637239
+Sri Lanka,1935,0.69637239
+Sri Lanka,1936,0.69637239
+Sri Lanka,1937,0.69637239
+Sri Lanka,1938,0.69637239
+Sri Lanka,1939,0.69637239
+Sri Lanka,1940,0.67280865
+Sri Lanka,1941,0.67280865
+Sri Lanka,1942,0.67280865
+Sri Lanka,1943,0.67280865
+Sri Lanka,1944,0.67280865
+Sri Lanka,1945,0.67280865
+Sri Lanka,1946,0.69793546
+Sri Lanka,1947,0.79606873
+Sri Lanka,1948,0.76133078
+Sri Lanka,1949,0.76989311
+Sri Lanka,1950,0.76989311
+Sri Lanka,1951,0.76989311
+Sri Lanka,1952,0.76989311
+Sri Lanka,1953,0.76989311
+Sri Lanka,1954,0.76989311
+Sri Lanka,1955,0.78181928
+Sri Lanka,1956,0.78181928
+Sri Lanka,1957,0.78181928
+Sri Lanka,1958,0.78181928
+Sri Lanka,1959,0.78181928
+Sri Lanka,1960,0.78181928
+Sri Lanka,1961,0.78181928
+Sri Lanka,1962,0.78181928
+Sri Lanka,1963,0.78181928
+Sri Lanka,1964,0.78181928
+Sri Lanka,1965,0.78181928
+Sri Lanka,1966,0.78181928
+Sri Lanka,1967,0.78181928
+Sri Lanka,1968,0.78181928
+Sri Lanka,1969,0.78181928
+Sri Lanka,1970,0.78181928
+Sri Lanka,1971,0.78181928
+Sri Lanka,1972,0.78181928
+Sri Lanka,1973,0.78181928
+Sri Lanka,1974,0.78181928
+Sri Lanka,1975,0.78181928
+Sri Lanka,1976,0.78181928
+Sri Lanka,1977,0.78181928
+Sri Lanka,1978,0.7491082
+Sri Lanka,1979,0.7491082
+Sri Lanka,1980,0.7491082
+Sri Lanka,1981,0.7491082
+Sri Lanka,1982,0.74517649
+Sri Lanka,1983,0.7349382
+Sri Lanka,1984,0.7349382
+Sri Lanka,1985,0.7349382
+Sri Lanka,1986,0.7349382
+Sri Lanka,1987,0.7349382
+Sri Lanka,1988,0.7349382
+Sri Lanka,1989,0.7349382
+Sri Lanka,1990,0.7349382
+Sri Lanka,1991,0.7349382
+Sri Lanka,1992,0.7349382
+Sri Lanka,1993,0.7349382
+Sri Lanka,1994,0.74004942
+Sri Lanka,1995,0.74004942
+Sri Lanka,1996,0.74004942
+Sri Lanka,1997,0.74004942
+Sri Lanka,1998,0.74004942
+Sri Lanka,1999,0.74004942
+Sri Lanka,2000,0.74004942
+Sri Lanka,2001,0.74004942
+Sri Lanka,2002,0.73616141
+Sri Lanka,2003,0.73616141
+Sri Lanka,2004,0.73616141
+Sri Lanka,2005,0.76233023
+Sri Lanka,2006,0.7571252
+Sri Lanka,2007,0.7571252
+Sri Lanka,2008,0.75071096
+Sri Lanka,2009,0.75071096
+Sri Lanka,2010,0.7523607
+Sri Lanka,2011,0.7523607
+Sri Lanka,2012,0.7523607
+Sri Lanka,2013,0.78669369
+Sri Lanka,2014,0.78284937
+Sri Lanka,2015,0.82585174
+Sri Lanka,2016,0.83061916
+Sri Lanka,2017,0.81177759
+Sri Lanka,2018,0.80549705
+Sri Lanka,2019,0.82747889
+Sri Lanka,2020,0.7484085
+Maldives,1900,0.18839446
+Maldives,1901,0.18839446
+Maldives,1902,0.18839446
+Maldives,1903,0.18839446
+Maldives,1904,0.18839446
+Maldives,1905,0.18839446
+Maldives,1906,0.18839446
+Maldives,1907,0.18839446
+Maldives,1908,0.18839446
+Maldives,1909,0.18839446
+Maldives,1910,0.18839446
+Maldives,1911,0.18839446
+Maldives,1912,0.18839446
+Maldives,1913,0.18839446
+Maldives,1914,0.18839446
+Maldives,1915,0.18839446
+Maldives,1916,0.18839446
+Maldives,1917,0.18839446
+Maldives,1918,0.18839446
+Maldives,1919,0.18839446
+Maldives,1920,0.18839446
+Maldives,1921,0.18839446
+Maldives,1922,0.18839446
+Maldives,1923,0.18839446
+Maldives,1924,0.18839446
+Maldives,1925,0.18839446
+Maldives,1926,0.18839446
+Maldives,1927,0.18839446
+Maldives,1928,0.18839446
+Maldives,1929,0.18839446
+Maldives,1930,0.18839446
+Maldives,1931,0.18839446
+Maldives,1932,0.18839446
+Maldives,1933,0.18839446
+Maldives,1934,0.29306987
+Maldives,1935,0.29306987
+Maldives,1936,0.29306987
+Maldives,1937,0.29306987
+Maldives,1938,0.29306987
+Maldives,1939,0.29306987
+Maldives,1940,0.29306987
+Maldives,1941,0.29306987
+Maldives,1942,0.29306987
+Maldives,1943,0.29306987
+Maldives,1944,0.29306987
+Maldives,1945,0.29306987
+Maldives,1946,0.29306987
+Maldives,1947,0.29306987
+Maldives,1948,0.29306987
+Maldives,1949,0.29306987
+Maldives,1950,0.29306987
+Maldives,1951,0.29306987
+Maldives,1952,0.29306987
+Maldives,1953,0.29306987
+Maldives,1954,0.29306987
+Maldives,1955,0.29306987
+Maldives,1956,0.29306987
+Maldives,1957,0.29306987
+Maldives,1958,0.29306987
+Maldives,1959,0.29306987
+Maldives,1960,0.29306987
+Maldives,1961,0.29306987
+Maldives,1962,0.29306987
+Maldives,1963,0.29306987
+Maldives,1964,0.29306987
+Maldives,1965,0.29306987
+Maldives,1966,0.29306987
+Maldives,1967,0.29306987
+Maldives,1968,0.29306987
+Maldives,1969,0.29306987
+Maldives,1970,0.29306987
+Maldives,1971,0.29306987
+Maldives,1972,0.29306987
+Maldives,1973,0.29306987
+Maldives,1974,0.29306987
+Maldives,1975,0.29306987
+Maldives,1976,0.29306987
+Maldives,1977,0.29306987
+Maldives,1978,0.29306987
+Maldives,1979,0.29306987
+Maldives,1980,0.29306987
+Maldives,1981,0.29306987
+Maldives,1982,0.29306987
+Maldives,1983,0.29306987
+Maldives,1984,0.29306987
+Maldives,1985,0.29306987
+Maldives,1986,0.29306987
+Maldives,1987,0.29306987
+Maldives,1988,0.29306987
+Maldives,1989,0.29306987
+Maldives,1990,0.29306987
+Maldives,1991,0.29306987
+Maldives,1992,0.29306987
+Maldives,1993,0.29306987
+Maldives,1994,0.29306987
+Maldives,1995,0.29306987
+Maldives,1996,0.29306987
+Maldives,1997,0.29306987
+Maldives,1998,0.29306987
+Maldives,1999,0.29306987
+Maldives,2000,0.29306987
+Maldives,2001,0.29306987
+Maldives,2002,0.29306987
+Maldives,2003,0.29306987
+Maldives,2004,0.29306987
+Maldives,2005,0.54590553
+Maldives,2006,0.64507723
+Maldives,2007,0.62859088
+Maldives,2008,0.74644703
+Maldives,2009,0.75998956
+Maldives,2010,0.75199634
+Maldives,2011,0.75199634
+Maldives,2012,0.71856904
+Maldives,2013,0.69349468
+Maldives,2014,0.69349468
+Maldives,2015,0.6705001
+Maldives,2016,0.69254822
+Maldives,2017,0.67245656
+Maldives,2018,0.68404287
+Maldives,2019,0.79790235
+Maldives,2020,0.78623831
+Nepal,1789,0.002813569
+Nepal,1790,0.002813569
+Nepal,1791,0.002813569
+Nepal,1792,0.002813569
+Nepal,1793,0.002813569
+Nepal,1794,0.002813569
+Nepal,1795,0.002813569
+Nepal,1796,0.002813569
+Nepal,1797,0.002813569
+Nepal,1798,0.002813569
+Nepal,1799,0.26450217
+Nepal,1800,0.26450217
+Nepal,1801,0.26450217
+Nepal,1802,0.26450217
+Nepal,1803,0.26450217
+Nepal,1804,0.26450217
+Nepal,1805,0.13365789
+Nepal,1806,0.19908001
+Nepal,1807,0.19908001
+Nepal,1808,0.19908001
+Nepal,1809,0.19908001
+Nepal,1810,0.19908001
+Nepal,1811,0.19908001
+Nepal,1812,0.19908001
+Nepal,1813,0.19908001
+Nepal,1814,0.19908001
+Nepal,1815,0.19908001
+Nepal,1816,0.19908001
+Nepal,1817,0.19908001
+Nepal,1818,0.19908001
+Nepal,1819,0.19908001
+Nepal,1820,0.19908001
+Nepal,1821,0.19908001
+Nepal,1822,0.19908001
+Nepal,1823,0.19908001
+Nepal,1824,0.19908001
+Nepal,1825,0.19908001
+Nepal,1826,0.19908001
+Nepal,1827,0.19908001
+Nepal,1828,0.19908001
+Nepal,1829,0.19908001
+Nepal,1830,0.19908001
+Nepal,1831,0.19908001
+Nepal,1832,0.13365789
+Nepal,1833,0.13365789
+Nepal,1834,0.13365789
+Nepal,1835,0.13365789
+Nepal,1836,0.13365789
+Nepal,1837,0.13365789
+Nepal,1838,0.13365789
+Nepal,1839,0.13365789
+Nepal,1840,0.13365789
+Nepal,1841,0.13365789
+Nepal,1842,0.13365789
+Nepal,1843,0.19908001
+Nepal,1844,0.19908001
+Nepal,1845,0.19908001
+Nepal,1846,0.26450217
+Nepal,1847,0.26450217
+Nepal,1848,0.26450217
+Nepal,1849,0.26450217
+Nepal,1850,0.26450217
+Nepal,1851,0.26450217
+Nepal,1852,0.26450217
+Nepal,1853,0.26450217
+Nepal,1854,0.26450217
+Nepal,1855,0.26450217
+Nepal,1856,0.26450217
+Nepal,1857,0.26450217
+Nepal,1858,0.26450217
+Nepal,1859,0.26450217
+Nepal,1860,0.26450217
+Nepal,1861,0.26450217
+Nepal,1862,0.26450217
+Nepal,1863,0.26450217
+Nepal,1864,0.26450217
+Nepal,1865,0.26450217
+Nepal,1866,0.26450217
+Nepal,1867,0.26450217
+Nepal,1868,0.26450217
+Nepal,1869,0.26450217
+Nepal,1870,0.26450217
+Nepal,1871,0.26450217
+Nepal,1872,0.26450217
+Nepal,1873,0.26450217
+Nepal,1874,0.26450217
+Nepal,1875,0.26450217
+Nepal,1876,0.26450217
+Nepal,1877,0.13365789
+Nepal,1878,0.13365789
+Nepal,1879,0.13365789
+Nepal,1880,0.13365789
+Nepal,1881,0.13365789
+Nepal,1882,0.13365789
+Nepal,1883,0.13365789
+Nepal,1884,0.13365789
+Nepal,1885,0.26450217
+Nepal,1886,0.26450217
+Nepal,1887,0.26450217
+Nepal,1888,0.26450217
+Nepal,1889,0.26450217
+Nepal,1890,0.26450217
+Nepal,1891,0.26450217
+Nepal,1892,0.26450217
+Nepal,1893,0.26450217
+Nepal,1894,0.26450217
+Nepal,1895,0.26450217
+Nepal,1896,0.26450217
+Nepal,1897,0.26450217
+Nepal,1898,0.26450217
+Nepal,1899,0.26450217
+Nepal,1900,0.27677405
+Nepal,1901,0.27677405
+Nepal,1902,0.27677405
+Nepal,1903,0.27677405
+Nepal,1904,0.27677405
+Nepal,1905,0.27677405
+Nepal,1906,0.27677405
+Nepal,1907,0.27677405
+Nepal,1908,0.27677405
+Nepal,1909,0.27677405
+Nepal,1910,0.27677405
+Nepal,1911,0.27677405
+Nepal,1912,0.27677405
+Nepal,1913,0.27677405
+Nepal,1914,0.27677405
+Nepal,1915,0.27677405
+Nepal,1916,0.27677405
+Nepal,1917,0.27677405
+Nepal,1918,0.27677405
+Nepal,1919,0.27677405
+Nepal,1920,0.27127859
+Nepal,1921,0.27127859
+Nepal,1922,0.27127859
+Nepal,1923,0.27127859
+Nepal,1924,0.27127859
+Nepal,1925,0.27127859
+Nepal,1926,0.27127859
+Nepal,1927,0.27127859
+Nepal,1928,0.27127859
+Nepal,1929,0.27127859
+Nepal,1930,0.27127859
+Nepal,1931,0.27127859
+Nepal,1932,0.27127859
+Nepal,1933,0.27127859
+Nepal,1934,0.27127859
+Nepal,1935,0.27127859
+Nepal,1936,0.27127859
+Nepal,1937,0.27127859
+Nepal,1938,0.27127859
+Nepal,1939,0.27127859
+Nepal,1940,0.27127859
+Nepal,1941,0.27127859
+Nepal,1942,0.27127859
+Nepal,1943,0.27127859
+Nepal,1944,0.27127859
+Nepal,1945,0.27127859
+Nepal,1946,0.27127859
+Nepal,1947,0.27127859
+Nepal,1948,0.27127859
+Nepal,1949,0.27127859
+Nepal,1950,0.37299743
+Nepal,1951,0.58639634
+Nepal,1952,0.58639634
+Nepal,1953,0.58639634
+Nepal,1954,0.58639634
+Nepal,1955,0.58639634
+Nepal,1956,0.58639634
+Nepal,1957,0.58639634
+Nepal,1958,0.58639634
+Nepal,1959,0.64030421
+Nepal,1960,0.53405029
+Nepal,1961,0.36953294
+Nepal,1962,0.28331056
+Nepal,1963,0.28331056
+Nepal,1964,0.28331056
+Nepal,1965,0.28331056
+Nepal,1966,0.28331056
+Nepal,1967,0.28331056
+Nepal,1968,0.28331056
+Nepal,1969,0.28331056
+Nepal,1970,0.29639497
+Nepal,1971,0.29639497
+Nepal,1972,0.29639497
+Nepal,1973,0.29639497
+Nepal,1974,0.29639497
+Nepal,1975,0.29639497
+Nepal,1976,0.29639497
+Nepal,1977,0.29639497
+Nepal,1978,0.29639497
+Nepal,1979,0.29639497
+Nepal,1980,0.3020741
+Nepal,1981,0.3020741
+Nepal,1982,0.3020741
+Nepal,1983,0.3020741
+Nepal,1984,0.3020741
+Nepal,1985,0.3020741
+Nepal,1986,0.3020741
+Nepal,1987,0.3020741
+Nepal,1988,0.3020741
+Nepal,1989,0.3020741
+Nepal,1990,0.65942067
+Nepal,1991,0.79989785
+Nepal,1992,0.79989785
+Nepal,1993,0.79989785
+Nepal,1994,0.79989785
+Nepal,1995,0.79989785
+Nepal,1996,0.79989785
+Nepal,1997,0.79989785
+Nepal,1998,0.79989785
+Nepal,1999,0.79989785
+Nepal,2000,0.78386527
+Nepal,2001,0.78386527
+Nepal,2002,0.70821011
+Nepal,2003,0.6509003
+Nepal,2004,0.6509003
+Nepal,2005,0.63938606
+Nepal,2006,0.75793833
+Nepal,2007,0.80293012
+Nepal,2008,0.82140326
+Nepal,2009,0.82341278
+Nepal,2010,0.80448896
+Nepal,2011,0.80448896
+Nepal,2012,0.81338638
+Nepal,2013,0.82721639
+Nepal,2014,0.82052976
+Nepal,2015,0.82052976
+Nepal,2016,0.82654858
+Nepal,2017,0.84321165
+Nepal,2018,0.84443045
+Nepal,2019,0.84211379
+Nepal,2020,0.79196012
+Thailand,1789,0.1772684
+Thailand,1790,0.1772684
+Thailand,1791,0.1772684
+Thailand,1792,0.1772684
+Thailand,1793,0.1772684
+Thailand,1794,0.1772684
+Thailand,1795,0.1772684
+Thailand,1796,0.1772684
+Thailand,1797,0.1772684
+Thailand,1798,0.1772684
+Thailand,1799,0.1772684
+Thailand,1800,0.1772684
+Thailand,1801,0.1772684
+Thailand,1802,0.1772684
+Thailand,1803,0.1772684
+Thailand,1804,0.1772684
+Thailand,1805,0.1772684
+Thailand,1806,0.1772684
+Thailand,1807,0.1772684
+Thailand,1808,0.1772684
+Thailand,1809,0.1772684
+Thailand,1810,0.1772684
+Thailand,1811,0.1772684
+Thailand,1812,0.1772684
+Thailand,1813,0.1772684
+Thailand,1814,0.1772684
+Thailand,1815,0.1772684
+Thailand,1816,0.1772684
+Thailand,1817,0.1772684
+Thailand,1818,0.1772684
+Thailand,1819,0.1772684
+Thailand,1820,0.1772684
+Thailand,1821,0.1772684
+Thailand,1822,0.1772684
+Thailand,1823,0.1772684
+Thailand,1824,0.1772684
+Thailand,1825,0.1772684
+Thailand,1826,0.1772684
+Thailand,1827,0.1772684
+Thailand,1828,0.1772684
+Thailand,1829,0.1772684
+Thailand,1830,0.1772684
+Thailand,1831,0.1772684
+Thailand,1832,0.1772684
+Thailand,1833,0.1772684
+Thailand,1834,0.1772684
+Thailand,1835,0.1772684
+Thailand,1836,0.1772684
+Thailand,1837,0.1772684
+Thailand,1838,0.1772684
+Thailand,1839,0.1772684
+Thailand,1840,0.1772684
+Thailand,1841,0.1772684
+Thailand,1842,0.1772684
+Thailand,1843,0.1772684
+Thailand,1844,0.1772684
+Thailand,1845,0.1772684
+Thailand,1846,0.1772684
+Thailand,1847,0.1772684
+Thailand,1848,0.1772684
+Thailand,1849,0.1772684
+Thailand,1850,0.1772684
+Thailand,1851,0.1772684
+Thailand,1852,0.1772684
+Thailand,1853,0.1772684
+Thailand,1854,0.1772684
+Thailand,1855,0.1772684
+Thailand,1856,0.1772684
+Thailand,1857,0.1772684
+Thailand,1858,0.1772684
+Thailand,1859,0.1772684
+Thailand,1860,0.1772684
+Thailand,1861,0.1772684
+Thailand,1862,0.1772684
+Thailand,1863,0.1772684
+Thailand,1864,0.1772684
+Thailand,1865,0.1772684
+Thailand,1866,0.1772684
+Thailand,1867,0.1772684
+Thailand,1868,0.1772684
+Thailand,1869,0.1772684
+Thailand,1870,0.1772684
+Thailand,1871,0.1772684
+Thailand,1872,0.1772684
+Thailand,1873,0.1772684
+Thailand,1874,0.1772684
+Thailand,1875,0.1772684
+Thailand,1876,0.1772684
+Thailand,1877,0.1772684
+Thailand,1878,0.1772684
+Thailand,1879,0.1772684
+Thailand,1880,0.1772684
+Thailand,1881,0.1772684
+Thailand,1882,0.1772684
+Thailand,1883,0.1772684
+Thailand,1884,0.1772684
+Thailand,1885,0.1772684
+Thailand,1886,0.1772684
+Thailand,1887,0.1772684
+Thailand,1888,0.1772684
+Thailand,1889,0.1772684
+Thailand,1890,0.1772684
+Thailand,1891,0.1772684
+Thailand,1892,0.1772684
+Thailand,1893,0.1772684
+Thailand,1894,0.1772684
+Thailand,1895,0.1772684
+Thailand,1896,0.1772684
+Thailand,1897,0.30811271
+Thailand,1898,0.1772684
+Thailand,1899,0.1772684
+Thailand,1900,0.18335961
+Thailand,1901,0.18335961
+Thailand,1902,0.18335961
+Thailand,1903,0.18335961
+Thailand,1904,0.18335961
+Thailand,1905,0.18335961
+Thailand,1906,0.18335961
+Thailand,1907,0.18335961
+Thailand,1908,0.18335961
+Thailand,1909,0.18335961
+Thailand,1910,0.18335961
+Thailand,1911,0.18335961
+Thailand,1912,0.18335961
+Thailand,1913,0.18335961
+Thailand,1914,0.18335961
+Thailand,1915,0.18335961
+Thailand,1916,0.18335961
+Thailand,1917,0.18335961
+Thailand,1918,0.18335961
+Thailand,1919,0.18335961
+Thailand,1920,0.18335961
+Thailand,1921,0.17236868
+Thailand,1922,0.17236868
+Thailand,1923,0.17236868
+Thailand,1924,0.17236868
+Thailand,1925,0.17236868
+Thailand,1926,0.17236868
+Thailand,1927,0.17236868
+Thailand,1928,0.17236868
+Thailand,1929,0.17236868
+Thailand,1930,0.17236868
+Thailand,1931,0.17236868
+Thailand,1932,0.23360381
+Thailand,1933,0.37411192
+Thailand,1934,0.37411192
+Thailand,1935,0.37411192
+Thailand,1936,0.37411192
+Thailand,1937,0.37411192
+Thailand,1938,0.37411192
+Thailand,1939,0.37411192
+Thailand,1940,0.37411192
+Thailand,1941,0.3807551
+Thailand,1942,0.3807551
+Thailand,1943,0.3807551
+Thailand,1944,0.3807551
+Thailand,1945,0.41947383
+Thailand,1946,0.49395564
+Thailand,1947,0.45536828
+Thailand,1948,0.44032907
+Thailand,1949,0.44032907
+Thailand,1950,0.44032907
+Thailand,1951,0.43333879
+Thailand,1952,0.36303931
+Thailand,1953,0.36303931
+Thailand,1954,0.36303931
+Thailand,1955,0.43196332
+Thailand,1956,0.43196332
+Thailand,1957,0.44270346
+Thailand,1958,0.27753925
+Thailand,1959,0.40838355
+Thailand,1960,0.40838355
+Thailand,1961,0.40838355
+Thailand,1962,0.40838355
+Thailand,1963,0.27753925
+Thailand,1964,0.27753925
+Thailand,1965,0.27753925
+Thailand,1966,0.27753925
+Thailand,1967,0.27753925
+Thailand,1968,0.33003274
+Thailand,1969,0.33003274
+Thailand,1970,0.33003274
+Thailand,1971,0.32561696
+Thailand,1972,0.28007618
+Thailand,1973,0.46153319
+Thailand,1974,0.52537692
+Thailand,1975,0.52537692
+Thailand,1976,0.51310658
+Thailand,1977,0.43377581
+Thailand,1978,0.43377581
+Thailand,1979,0.43377581
+Thailand,1980,0.49175602
+Thailand,1981,0.52673042
+Thailand,1982,0.56424487
+Thailand,1983,0.56424487
+Thailand,1984,0.56424487
+Thailand,1985,0.56424487
+Thailand,1986,0.56424487
+Thailand,1987,0.56424487
+Thailand,1988,0.58127242
+Thailand,1989,0.58542991
+Thailand,1990,0.59244335
+Thailand,1991,0.39856699
+Thailand,1992,0.60415053
+Thailand,1993,0.64308101
+Thailand,1994,0.64308101
+Thailand,1995,0.64308101
+Thailand,1996,0.64308101
+Thailand,1997,0.73054922
+Thailand,1998,0.77718168
+Thailand,1999,0.77718168
+Thailand,2000,0.77320629
+Thailand,2001,0.77320629
+Thailand,2002,0.75368422
+Thailand,2003,0.74678195
+Thailand,2004,0.74678195
+Thailand,2005,0.73369747
+Thailand,2006,0.625925
+Thailand,2007,0.44323274
+Thailand,2008,0.63301194
+Thailand,2009,0.63250583
+Thailand,2010,0.63250583
+Thailand,2011,0.69859606
+Thailand,2012,0.70458102
+Thailand,2013,0.65793681
+Thailand,2014,0.4598068
+Thailand,2015,0.3676438
+Thailand,2016,0.36263731
+Thailand,2017,0.36762378
+Thailand,2018,0.42580482
+Thailand,2019,0.60495073
+Thailand,2020,0.55581069
+Cambodia,1900,0.49290642
+Cambodia,1901,0.49290642
+Cambodia,1902,0.49290642
+Cambodia,1903,0.49290642
+Cambodia,1904,0.49290642
+Cambodia,1905,0.49290642
+Cambodia,1906,0.49290642
+Cambodia,1907,0.49290642
+Cambodia,1908,0.49290642
+Cambodia,1909,0.49290642
+Cambodia,1910,0.49290642
+Cambodia,1911,0.49290642
+Cambodia,1912,0.49290642
+Cambodia,1913,0.49290642
+Cambodia,1914,0.49290642
+Cambodia,1915,0.49290642
+Cambodia,1916,0.49290642
+Cambodia,1917,0.49290642
+Cambodia,1918,0.49290642
+Cambodia,1919,0.49290642
+Cambodia,1920,0.49290642
+Cambodia,1921,0.49290642
+Cambodia,1922,0.49290642
+Cambodia,1923,0.49290642
+Cambodia,1924,0.49290642
+Cambodia,1925,0.49290642
+Cambodia,1926,0.49290642
+Cambodia,1927,0.49290642
+Cambodia,1928,0.49290642
+Cambodia,1929,0.49290642
+Cambodia,1930,0.49290642
+Cambodia,1931,0.49290642
+Cambodia,1932,0.49290642
+Cambodia,1933,0.49290642
+Cambodia,1934,0.49290642
+Cambodia,1935,0.49290642
+Cambodia,1936,0.49290642
+Cambodia,1937,0.49290642
+Cambodia,1938,0.49290642
+Cambodia,1939,0.49290642
+Cambodia,1940,0.49290642
+Cambodia,1941,0.49290642
+Cambodia,1942,0.49290642
+Cambodia,1943,0.49290642
+Cambodia,1944,0.49290642
+Cambodia,1945,0.49290642
+Cambodia,1946,0.52627468
+Cambodia,1947,0.52627468
+Cambodia,1948,0.52627468
+Cambodia,1949,0.52627468
+Cambodia,1950,0.43913236
+Cambodia,1951,0.43913236
+Cambodia,1952,0.43913236
+Cambodia,1953,0.42528406
+Cambodia,1954,0.54745525
+Cambodia,1955,0.56396842
+Cambodia,1956,0.54766387
+Cambodia,1957,0.54766387
+Cambodia,1958,0.54766387
+Cambodia,1959,0.54766387
+Cambodia,1960,0.54766387
+Cambodia,1961,0.54766387
+Cambodia,1962,0.54766387
+Cambodia,1963,0.54766387
+Cambodia,1964,0.54766387
+Cambodia,1965,0.54766387
+Cambodia,1966,0.54766387
+Cambodia,1967,0.54766387
+Cambodia,1968,0.54766387
+Cambodia,1969,0.54766387
+Cambodia,1970,0.33889577
+Cambodia,1971,0.39882246
+Cambodia,1972,0.39882246
+Cambodia,1973,0.39882246
+Cambodia,1974,0.39882246
+Cambodia,1975,0.29512966
+Cambodia,1976,0.18381523
+Cambodia,1977,0.18381523
+Cambodia,1978,0.18381523
+Cambodia,1979,0.21443282
+Cambodia,1980,0.21652633
+Cambodia,1981,0.12153337
+Cambodia,1982,0.12153337
+Cambodia,1983,0.12153337
+Cambodia,1984,0.12153337
+Cambodia,1985,0.12153337
+Cambodia,1986,0.12153337
+Cambodia,1987,0.12153337
+Cambodia,1988,0.12153337
+Cambodia,1989,0.12153337
+Cambodia,1990,0.17541912
+Cambodia,1991,0.17541912
+Cambodia,1992,0.35217136
+Cambodia,1993,0.69775951
+Cambodia,1994,0.57836449
+Cambodia,1995,0.57836449
+Cambodia,1996,0.57836449
+Cambodia,1997,0.57836449
+Cambodia,1998,0.5933935
+Cambodia,1999,0.57678556
+Cambodia,2000,0.5555107
+Cambodia,2001,0.5555107
+Cambodia,2002,0.5555107
+Cambodia,2003,0.5555107
+Cambodia,2004,0.5555107
+Cambodia,2005,0.59031528
+Cambodia,2006,0.59031528
+Cambodia,2007,0.59031528
+Cambodia,2008,0.59031528
+Cambodia,2009,0.59031528
+Cambodia,2010,0.5862903
+Cambodia,2011,0.5862903
+Cambodia,2012,0.57189745
+Cambodia,2013,0.59512204
+Cambodia,2014,0.59730631
+Cambodia,2015,0.59730631
+Cambodia,2016,0.58642864
+Cambodia,2017,0.54512519
+Cambodia,2018,0.52741551
+Cambodia,2019,0.4952299
+Cambodia,2020,0.47537628
+Laos,1900,0.31998149
+Laos,1901,0.31998149
+Laos,1902,0.31998149
+Laos,1903,0.31998149
+Laos,1904,0.31998149
+Laos,1905,0.31998149
+Laos,1906,0.31998149
+Laos,1907,0.31998149
+Laos,1908,0.31998149
+Laos,1909,0.31998149
+Laos,1910,0.31998149
+Laos,1911,0.31998149
+Laos,1912,0.31998149
+Laos,1913,0.31998149
+Laos,1914,0.31998149
+Laos,1915,0.31998149
+Laos,1916,0.31998149
+Laos,1917,0.31998149
+Laos,1918,0.31998149
+Laos,1919,0.31998149
+Laos,1920,0.31998149
+Laos,1921,0.31998149
+Laos,1922,0.31998149
+Laos,1923,0.31998149
+Laos,1924,0.31998149
+Laos,1925,0.31998149
+Laos,1926,0.31998149
+Laos,1927,0.31998149
+Laos,1928,0.31998149
+Laos,1929,0.31998149
+Laos,1930,0.30689704
+Laos,1931,0.30689704
+Laos,1932,0.30689704
+Laos,1933,0.30689704
+Laos,1934,0.30689704
+Laos,1935,0.30689704
+Laos,1936,0.30689704
+Laos,1937,0.30689704
+Laos,1938,0.30689704
+Laos,1939,0.30689704
+Laos,1940,0.30689704
+Laos,1941,0.30689704
+Laos,1942,0.30689704
+Laos,1943,0.30689704
+Laos,1944,0.30689704
+Laos,1945,0.29041067
+Laos,1946,0.50170785
+Laos,1947,0.51720232
+Laos,1948,0.51720232
+Laos,1949,0.51720232
+Laos,1950,0.51720232
+Laos,1951,0.52273357
+Laos,1952,0.52273357
+Laos,1953,0.53028929
+Laos,1954,0.53028929
+Laos,1955,0.54451352
+Laos,1956,0.54451352
+Laos,1957,0.54451352
+Laos,1958,0.50526023
+Laos,1959,0.48241153
+Laos,1960,0.35156724
+Laos,1961,0.45624265
+Laos,1962,0.5216648
+Laos,1963,0.5216648
+Laos,1964,0.53553736
+Laos,1965,0.53553736
+Laos,1966,0.53553736
+Laos,1967,0.53553736
+Laos,1968,0.53553736
+Laos,1969,0.53553736
+Laos,1970,0.53553736
+Laos,1971,0.53553736
+Laos,1972,0.51475
+Laos,1973,0.51475
+Laos,1974,0.51475
+Laos,1975,0.42190388
+Laos,1976,0.16679887
+Laos,1977,0.16679887
+Laos,1978,0.16679887
+Laos,1979,0.16679887
+Laos,1980,0.16679887
+Laos,1981,0.16679887
+Laos,1982,0.16679887
+Laos,1983,0.16679887
+Laos,1984,0.16679887
+Laos,1985,0.16679887
+Laos,1986,0.16679887
+Laos,1987,0.16679887
+Laos,1988,0.16679887
+Laos,1989,0.16679887
+Laos,1990,0.16679887
+Laos,1991,0.10137671
+Laos,1992,0.10137671
+Laos,1993,0.10137671
+Laos,1994,0.10137671
+Laos,1995,0.10137671
+Laos,1996,0.10137671
+Laos,1997,0.10137671
+Laos,1998,0.10137671
+Laos,1999,0.10137671
+Laos,2000,0.10137671
+Laos,2001,0.10137671
+Laos,2002,0.10137671
+Laos,2003,0.10137671
+Laos,2004,0.10137671
+Laos,2005,0.10137671
+Laos,2006,0.10137671
+Laos,2007,0.10137671
+Laos,2008,0.10137671
+Laos,2009,0.10137671
+Laos,2010,0.10137671
+Laos,2011,0.10137671
+Laos,2012,0.10137671
+Laos,2013,0.10137671
+Laos,2014,0.10137671
+Laos,2015,0.10137671
+Laos,2016,0.10137671
+Laos,2017,0.16679887
+Laos,2018,0.19893795
+Laos,2019,0.22269708
+Laos,2020,0.16693491
+Vietnam,1945,0.49653512
+Vietnam,1946,0.49653512
+Vietnam,1947,0.49335939
+Vietnam,1948,0.46525741
+Vietnam,1949,0.46525741
+Vietnam,1950,0.46525741
+Vietnam,1951,0.46525741
+Vietnam,1952,0.46525741
+Vietnam,1953,0.46525741
+Vietnam,1954,0.46525741
+Vietnam,1955,0.45528829
+Vietnam,1956,0.43177196
+Vietnam,1957,0.43177196
+Vietnam,1958,0.43177196
+Vietnam,1959,0.43177196
+Vietnam,1960,0.43180811
+Vietnam,1961,0.43180811
+Vietnam,1962,0.43180811
+Vietnam,1963,0.43180811
+Vietnam,1964,0.43180811
+Vietnam,1965,0.43180811
+Vietnam,1966,0.43180811
+Vietnam,1967,0.43180811
+Vietnam,1968,0.43180811
+Vietnam,1969,0.43180811
+Vietnam,1970,0.43180811
+Vietnam,1971,0.43180811
+Vietnam,1972,0.43180811
+Vietnam,1973,0.43180811
+Vietnam,1974,0.43180811
+Vietnam,1975,0.43180811
+Vietnam,1976,0.3403835
+Vietnam,1977,0.20953922
+Vietnam,1978,0.20953922
+Vietnam,1979,0.20953922
+Vietnam,1980,0.1939435
+Vietnam,1981,0.1939435
+Vietnam,1982,0.1939435
+Vietnam,1983,0.1939435
+Vietnam,1984,0.1939435
+Vietnam,1985,0.1939435
+Vietnam,1986,0.1939435
+Vietnam,1987,0.1939435
+Vietnam,1988,0.1939435
+Vietnam,1989,0.18507457
+Vietnam,1990,0.14281732
+Vietnam,1991,0.14281732
+Vietnam,1992,0.13793264
+Vietnam,1993,0.13793264
+Vietnam,1994,0.13793264
+Vietnam,1995,0.13793264
+Vietnam,1996,0.13793264
+Vietnam,1997,0.13793264
+Vietnam,1998,0.13793264
+Vietnam,1999,0.13793264
+Vietnam,2000,0.13793264
+Vietnam,2001,0.13793264
+Vietnam,2002,0.13793264
+Vietnam,2003,0.13793264
+Vietnam,2004,0.13793264
+Vietnam,2005,0.13139042
+Vietnam,2006,0.13139042
+Vietnam,2007,0.13139042
+Vietnam,2008,0.13139042
+Vietnam,2009,0.13139042
+Vietnam,2010,0.13139042
+Vietnam,2011,0.26223472
+Vietnam,2012,0.26223472
+Vietnam,2013,0.23838118
+Vietnam,2014,0.23838118
+Vietnam,2015,0.23838118
+Vietnam,2016,0.23838118
+Vietnam,2017,0.23908015
+Vietnam,2018,0.23908015
+Vietnam,2019,0.23318259
+Vietnam,2020,0.23875
+Republic of Vietnam,1802,0.028956464
+Republic of Vietnam,1803,0.028956464
+Republic of Vietnam,1804,0.028956464
+Republic of Vietnam,1805,0.028956464
+Republic of Vietnam,1806,0.028956464
+Republic of Vietnam,1807,0.028956464
+Republic of Vietnam,1808,0.028956464
+Republic of Vietnam,1809,0.028956464
+Republic of Vietnam,1810,0.028956464
+Republic of Vietnam,1811,0.028956464
+Republic of Vietnam,1812,0.028956464
+Republic of Vietnam,1813,0.028956464
+Republic of Vietnam,1814,0.028956464
+Republic of Vietnam,1815,0.028956464
+Republic of Vietnam,1816,0.028956464
+Republic of Vietnam,1817,0.028956464
+Republic of Vietnam,1818,0.028956464
+Republic of Vietnam,1819,0.028956464
+Republic of Vietnam,1820,0.028956464
+Republic of Vietnam,1821,0.028956464
+Republic of Vietnam,1822,0.028956464
+Republic of Vietnam,1823,0.028956464
+Republic of Vietnam,1824,0.028956464
+Republic of Vietnam,1825,0.028956464
+Republic of Vietnam,1826,0.028956464
+Republic of Vietnam,1827,0.028956464
+Republic of Vietnam,1828,0.028956464
+Republic of Vietnam,1829,0.028956464
+Republic of Vietnam,1830,0.028956464
+Republic of Vietnam,1831,0.028956464
+Republic of Vietnam,1832,0.028956464
+Republic of Vietnam,1833,0.028956464
+Republic of Vietnam,1834,0.028956464
+Republic of Vietnam,1835,0.028956464
+Republic of Vietnam,1836,0.028956464
+Republic of Vietnam,1837,0.028956464
+Republic of Vietnam,1838,0.028956464
+Republic of Vietnam,1839,0.028956464
+Republic of Vietnam,1840,0.028956464
+Republic of Vietnam,1841,0.028956464
+Republic of Vietnam,1842,0.028956464
+Republic of Vietnam,1843,0.028956464
+Republic of Vietnam,1844,0.028956464
+Republic of Vietnam,1845,0.028956464
+Republic of Vietnam,1846,0.028956464
+Republic of Vietnam,1847,0.028956464
+Republic of Vietnam,1848,0.028956464
+Republic of Vietnam,1849,0.028956464
+Republic of Vietnam,1850,0.028956464
+Republic of Vietnam,1851,0.028956464
+Republic of Vietnam,1852,0.028956464
+Republic of Vietnam,1853,0.028956464
+Republic of Vietnam,1854,0.028956464
+Republic of Vietnam,1855,0.028956464
+Republic of Vietnam,1856,0.028956464
+Republic of Vietnam,1857,0.028956464
+Republic of Vietnam,1858,0.028956464
+Republic of Vietnam,1859,0.028956464
+Republic of Vietnam,1860,0.028956464
+Republic of Vietnam,1861,0.028956464
+Republic of Vietnam,1862,0.028956464
+Republic of Vietnam,1863,0.028956464
+Republic of Vietnam,1864,0.028956464
+Republic of Vietnam,1865,0.028956464
+Republic of Vietnam,1866,0.028956464
+Republic of Vietnam,1867,0.028956464
+Republic of Vietnam,1868,0.028956464
+Republic of Vietnam,1869,0.028956464
+Republic of Vietnam,1870,0.028956464
+Republic of Vietnam,1871,0.028956464
+Republic of Vietnam,1872,0.028956464
+Republic of Vietnam,1873,0.028956464
+Republic of Vietnam,1874,0.028956464
+Republic of Vietnam,1875,0.028956464
+Republic of Vietnam,1876,0.028956464
+Republic of Vietnam,1877,0.028956464
+Republic of Vietnam,1878,0.028956464
+Republic of Vietnam,1879,0.028956464
+Republic of Vietnam,1880,0.028956464
+Republic of Vietnam,1881,0.028956464
+Republic of Vietnam,1882,0.028956464
+Republic of Vietnam,1883,0.028956464
+Republic of Vietnam,1884,0.028956464
+Republic of Vietnam,1885,0.028956464
+Republic of Vietnam,1886,0.29064503
+Republic of Vietnam,1887,0.29064503
+Republic of Vietnam,1888,0.29064503
+Republic of Vietnam,1889,0.29064503
+Republic of Vietnam,1890,0.29064503
+Republic of Vietnam,1891,0.29064503
+Republic of Vietnam,1892,0.29064503
+Republic of Vietnam,1893,0.29064503
+Republic of Vietnam,1894,0.29064503
+Republic of Vietnam,1895,0.29064503
+Republic of Vietnam,1896,0.29064503
+Republic of Vietnam,1897,0.29064503
+Republic of Vietnam,1898,0.29064503
+Republic of Vietnam,1899,0.29064503
+Republic of Vietnam,1900,0.29064503
+Republic of Vietnam,1901,0.29064503
+Republic of Vietnam,1902,0.46730024
+Republic of Vietnam,1903,0.46730024
+Republic of Vietnam,1904,0.46730024
+Republic of Vietnam,1905,0.46730024
+Republic of Vietnam,1906,0.46730024
+Republic of Vietnam,1907,0.46730024
+Republic of Vietnam,1908,0.46730024
+Republic of Vietnam,1909,0.46730024
+Republic of Vietnam,1910,0.46730024
+Republic of Vietnam,1911,0.46730024
+Republic of Vietnam,1912,0.46730024
+Republic of Vietnam,1913,0.46730024
+Republic of Vietnam,1914,0.59762383
+Republic of Vietnam,1915,0.59762383
+Republic of Vietnam,1916,0.59762383
+Republic of Vietnam,1917,0.59762383
+Republic of Vietnam,1918,0.59762383
+Republic of Vietnam,1919,0.59762383
+Republic of Vietnam,1920,0.59762383
+Republic of Vietnam,1921,0.59762383
+Republic of Vietnam,1922,0.59762383
+Republic of Vietnam,1923,0.59762383
+Republic of Vietnam,1924,0.59762383
+Republic of Vietnam,1925,0.59762383
+Republic of Vietnam,1926,0.59762383
+Republic of Vietnam,1927,0.59762383
+Republic of Vietnam,1928,0.59762383
+Republic of Vietnam,1929,0.59762383
+Republic of Vietnam,1930,0.59762383
+Republic of Vietnam,1931,0.59762383
+Republic of Vietnam,1932,0.59762383
+Republic of Vietnam,1933,0.59762383
+Republic of Vietnam,1934,0.59762383
+Republic of Vietnam,1935,0.59762383
+Republic of Vietnam,1936,0.59762383
+Republic of Vietnam,1937,0.59762383
+Republic of Vietnam,1938,0.59762383
+Republic of Vietnam,1939,0.59762383
+Republic of Vietnam,1940,0.59762383
+Republic of Vietnam,1941,0.59762383
+Republic of Vietnam,1942,0.59762383
+Republic of Vietnam,1943,0.59762383
+Republic of Vietnam,1944,0.59762383
+Republic of Vietnam,1945,0.59762383
+Republic of Vietnam,1946,0.54245937
+Republic of Vietnam,1947,0.54245937
+Republic of Vietnam,1948,0.54245937
+Republic of Vietnam,1949,0.54245937
+Republic of Vietnam,1950,0.58616138
+Republic of Vietnam,1951,0.58616138
+Republic of Vietnam,1952,0.58616138
+Republic of Vietnam,1953,0.58616138
+Republic of Vietnam,1954,0.58616138
+Republic of Vietnam,1955,0.5458771
+Republic of Vietnam,1956,0.5458771
+Republic of Vietnam,1957,0.5458771
+Republic of Vietnam,1958,0.5458771
+Republic of Vietnam,1959,0.5458771
+Republic of Vietnam,1960,0.5458771
+Republic of Vietnam,1961,0.5458771
+Republic of Vietnam,1962,0.5458771
+Republic of Vietnam,1963,0.5458771
+Republic of Vietnam,1964,0.41503277
+Republic of Vietnam,1965,0.41503277
+Republic of Vietnam,1966,0.41503277
+Republic of Vietnam,1967,0.5458771
+Republic of Vietnam,1968,0.5458771
+Republic of Vietnam,1969,0.5458771
+Republic of Vietnam,1970,0.5458771
+Republic of Vietnam,1971,0.5458771
+Republic of Vietnam,1972,0.5458771
+Republic of Vietnam,1973,0.5458771
+Republic of Vietnam,1974,0.5458771
+Republic of Vietnam,1975,0.5458771
+Malaysia,1900,0.5317378
+Malaysia,1901,0.5317378
+Malaysia,1902,0.5317378
+Malaysia,1903,0.5317378
+Malaysia,1904,0.5317378
+Malaysia,1905,0.5317378
+Malaysia,1906,0.5317378
+Malaysia,1907,0.5317378
+Malaysia,1908,0.5317378
+Malaysia,1909,0.5317378
+Malaysia,1910,0.5317378
+Malaysia,1911,0.5317378
+Malaysia,1912,0.5317378
+Malaysia,1913,0.5317378
+Malaysia,1914,0.5317378
+Malaysia,1915,0.5317378
+Malaysia,1916,0.5317378
+Malaysia,1917,0.5317378
+Malaysia,1918,0.5317378
+Malaysia,1919,0.5317378
+Malaysia,1920,0.5317378
+Malaysia,1921,0.5317378
+Malaysia,1922,0.5317378
+Malaysia,1923,0.5317378
+Malaysia,1924,0.5317378
+Malaysia,1925,0.5317378
+Malaysia,1926,0.5317378
+Malaysia,1927,0.5317378
+Malaysia,1928,0.5317378
+Malaysia,1929,0.5317378
+Malaysia,1930,0.5317378
+Malaysia,1931,0.5317378
+Malaysia,1932,0.5317378
+Malaysia,1933,0.5317378
+Malaysia,1934,0.5317378
+Malaysia,1935,0.5317378
+Malaysia,1936,0.5317378
+Malaysia,1937,0.5317378
+Malaysia,1938,0.5317378
+Malaysia,1939,0.5317378
+Malaysia,1940,0.5317378
+Malaysia,1941,0.5317378
+Malaysia,1942,0.44459549
+Malaysia,1943,0.44459549
+Malaysia,1944,0.44459549
+Malaysia,1945,0.44459549
+Malaysia,1946,0.48902667
+Malaysia,1947,0.57616895
+Malaysia,1948,0.58371091
+Malaysia,1949,0.58371091
+Malaysia,1950,0.58980703
+Malaysia,1951,0.58980703
+Malaysia,1952,0.58980703
+Malaysia,1953,0.58980703
+Malaysia,1954,0.58980703
+Malaysia,1955,0.59053588
+Malaysia,1956,0.59053588
+Malaysia,1957,0.6118722
+Malaysia,1958,0.58570337
+Malaysia,1959,0.58570337
+Malaysia,1960,0.58570337
+Malaysia,1961,0.58570337
+Malaysia,1962,0.57517511
+Malaysia,1963,0.57517511
+Malaysia,1964,0.57517511
+Malaysia,1965,0.57517511
+Malaysia,1966,0.57517511
+Malaysia,1967,0.58526647
+Malaysia,1968,0.55009842
+Malaysia,1969,0.55009842
+Malaysia,1970,0.55009842
+Malaysia,1971,0.55009842
+Malaysia,1972,0.55009842
+Malaysia,1973,0.55009842
+Malaysia,1974,0.55009842
+Malaysia,1975,0.55009842
+Malaysia,1976,0.55009842
+Malaysia,1977,0.55009842
+Malaysia,1978,0.55009842
+Malaysia,1979,0.55009842
+Malaysia,1980,0.55009842
+Malaysia,1981,0.53952652
+Malaysia,1982,0.53952652
+Malaysia,1983,0.53952652
+Malaysia,1984,0.53952652
+Malaysia,1985,0.53952652
+Malaysia,1986,0.53952652
+Malaysia,1987,0.53952652
+Malaysia,1988,0.53952652
+Malaysia,1989,0.53952652
+Malaysia,1990,0.53952652
+Malaysia,1991,0.53952652
+Malaysia,1992,0.53952652
+Malaysia,1993,0.53952652
+Malaysia,1994,0.53952652
+Malaysia,1995,0.53952652
+Malaysia,1996,0.53952652
+Malaysia,1997,0.53952652
+Malaysia,1998,0.53952652
+Malaysia,1999,0.53952652
+Malaysia,2000,0.53952652
+Malaysia,2001,0.53952652
+Malaysia,2002,0.53952652
+Malaysia,2003,0.53952652
+Malaysia,2004,0.53716749
+Malaysia,2005,0.53716749
+Malaysia,2006,0.53716749
+Malaysia,2007,0.53716749
+Malaysia,2008,0.53716749
+Malaysia,2009,0.53716749
+Malaysia,2010,0.53716749
+Malaysia,2011,0.53716749
+Malaysia,2012,0.53716749
+Malaysia,2013,0.53006226
+Malaysia,2014,0.53006226
+Malaysia,2015,0.53006226
+Malaysia,2016,0.53006226
+Malaysia,2017,0.55178243
+Malaysia,2018,0.61565548
+Malaysia,2019,0.6642338
+Malaysia,2020,0.63079053
+Singapore,1867,0.44287959
+Singapore,1868,0.44287959
+Singapore,1869,0.44287959
+Singapore,1870,0.44287959
+Singapore,1871,0.44287959
+Singapore,1872,0.44287959
+Singapore,1873,0.44287959
+Singapore,1874,0.44287959
+Singapore,1875,0.44287959
+Singapore,1876,0.44287959
+Singapore,1877,0.44287959
+Singapore,1878,0.44287959
+Singapore,1879,0.44287959
+Singapore,1880,0.44287959
+Singapore,1881,0.44287959
+Singapore,1882,0.44287959
+Singapore,1883,0.44287959
+Singapore,1884,0.44287959
+Singapore,1885,0.44287959
+Singapore,1886,0.44287959
+Singapore,1887,0.44287959
+Singapore,1888,0.44287959
+Singapore,1889,0.44287959
+Singapore,1890,0.44287959
+Singapore,1891,0.44287959
+Singapore,1892,0.44287959
+Singapore,1893,0.44287959
+Singapore,1894,0.44287959
+Singapore,1895,0.44287959
+Singapore,1896,0.44287959
+Singapore,1897,0.44287959
+Singapore,1898,0.44287959
+Singapore,1899,0.44287959
+Singapore,1900,0.54837608
+Singapore,1901,0.54837608
+Singapore,1902,0.54837608
+Singapore,1903,0.54837608
+Singapore,1904,0.54837608
+Singapore,1905,0.54837608
+Singapore,1906,0.54837608
+Singapore,1907,0.54837608
+Singapore,1908,0.54837608
+Singapore,1909,0.54837608
+Singapore,1910,0.54837608
+Singapore,1911,0.54837608
+Singapore,1912,0.54837608
+Singapore,1913,0.54837608
+Singapore,1914,0.54837608
+Singapore,1915,0.54837608
+Singapore,1916,0.54837608
+Singapore,1917,0.54837608
+Singapore,1918,0.54837608
+Singapore,1919,0.54837608
+Singapore,1920,0.54837608
+Singapore,1921,0.54183388
+Singapore,1922,0.54183388
+Singapore,1923,0.54183388
+Singapore,1924,0.54183388
+Singapore,1925,0.54183388
+Singapore,1926,0.54183388
+Singapore,1927,0.54183388
+Singapore,1928,0.54183388
+Singapore,1929,0.54183388
+Singapore,1930,0.54183388
+Singapore,1931,0.54183388
+Singapore,1932,0.54183388
+Singapore,1933,0.54183388
+Singapore,1934,0.54183388
+Singapore,1935,0.54183388
+Singapore,1936,0.54183388
+Singapore,1937,0.54183388
+Singapore,1938,0.54183388
+Singapore,1939,0.54183388
+Singapore,1940,0.54183388
+Singapore,1941,0.54183388
+Singapore,1942,0.48900068
+Singapore,1943,0.51072085
+Singapore,1944,0.51072085
+Singapore,1945,0.54343188
+Singapore,1946,0.59103566
+Singapore,1947,0.59103566
+Singapore,1948,0.59103566
+Singapore,1949,0.59103566
+Singapore,1950,0.59989291
+Singapore,1951,0.59989291
+Singapore,1952,0.59989291
+Singapore,1953,0.6000492
+Singapore,1954,0.6000492
+Singapore,1955,0.53462708
+Singapore,1956,0.53007835
+Singapore,1957,0.56278944
+Singapore,1958,0.53007835
+Singapore,1959,0.56278944
+Singapore,1960,0.56278944
+Singapore,1961,0.56278944
+Singapore,1962,0.56278944
+Singapore,1963,0.56278944
+Singapore,1964,0.56278944
+Singapore,1965,0.55624723
+Singapore,1966,0.53745091
+Singapore,1967,0.53745091
+Singapore,1968,0.53745091
+Singapore,1969,0.53745091
+Singapore,1970,0.53745091
+Singapore,1971,0.53745091
+Singapore,1972,0.53745091
+Singapore,1973,0.53745091
+Singapore,1974,0.53745091
+Singapore,1975,0.53745091
+Singapore,1976,0.53745091
+Singapore,1977,0.53745091
+Singapore,1978,0.53745091
+Singapore,1979,0.53745091
+Singapore,1980,0.53745091
+Singapore,1981,0.53745091
+Singapore,1982,0.53745091
+Singapore,1983,0.53745091
+Singapore,1984,0.53745091
+Singapore,1985,0.53745091
+Singapore,1986,0.53745091
+Singapore,1987,0.54784554
+Singapore,1988,0.54784554
+Singapore,1989,0.54784554
+Singapore,1990,0.53105527
+Singapore,1991,0.53105527
+Singapore,1992,0.53105527
+Singapore,1993,0.53105527
+Singapore,1994,0.53105527
+Singapore,1995,0.53105527
+Singapore,1996,0.53105527
+Singapore,1997,0.53105527
+Singapore,1998,0.53105527
+Singapore,1999,0.53105527
+Singapore,2000,0.53726858
+Singapore,2001,0.53726858
+Singapore,2002,0.53726858
+Singapore,2003,0.53726858
+Singapore,2004,0.56343746
+Singapore,2005,0.58097059
+Singapore,2006,0.58097059
+Singapore,2007,0.58097059
+Singapore,2008,0.58097059
+Singapore,2009,0.58097059
+Singapore,2010,0.58097059
+Singapore,2011,0.58097059
+Singapore,2012,0.58097059
+Singapore,2013,0.58097059
+Singapore,2014,0.58097059
+Singapore,2015,0.58097059
+Singapore,2016,0.56631607
+Singapore,2017,0.54050237
+Singapore,2018,0.55438411
+Singapore,2019,0.55883282
+Singapore,2020,0.56704569
+Philippines,1900,0.50969136
+Philippines,1901,0.50969136
+Philippines,1902,0.50969136
+Philippines,1903,0.50969136
+Philippines,1904,0.50969136
+Philippines,1905,0.50969136
+Philippines,1906,0.50969136
+Philippines,1907,0.56854731
+Philippines,1908,0.56854731
+Philippines,1909,0.56854731
+Philippines,1910,0.56854731
+Philippines,1911,0.56854731
+Philippines,1912,0.56854731
+Philippines,1913,0.56854731
+Philippines,1914,0.56854731
+Philippines,1915,0.56854731
+Philippines,1916,0.56854731
+Philippines,1917,0.56854731
+Philippines,1918,0.56854731
+Philippines,1919,0.56854731
+Philippines,1920,0.56854731
+Philippines,1921,0.56854731
+Philippines,1922,0.56854731
+Philippines,1923,0.56854731
+Philippines,1924,0.56854731
+Philippines,1925,0.56854731
+Philippines,1926,0.56854731
+Philippines,1927,0.56854731
+Philippines,1928,0.56854731
+Philippines,1929,0.56854731
+Philippines,1930,0.56854731
+Philippines,1931,0.56854731
+Philippines,1932,0.56854731
+Philippines,1933,0.56854731
+Philippines,1934,0.56854731
+Philippines,1935,0.56854731
+Philippines,1936,0.55912656
+Philippines,1937,0.55912656
+Philippines,1938,0.55912656
+Philippines,1939,0.55912656
+Philippines,1940,0.62172794
+Philippines,1941,0.56087399
+Philippines,1942,0.44390869
+Philippines,1943,0.42547265
+Philippines,1944,0.42547265
+Philippines,1945,0.46570703
+Philippines,1946,0.68915135
+Philippines,1947,0.67214161
+Philippines,1948,0.67214161
+Philippines,1949,0.67214161
+Philippines,1950,0.67214161
+Philippines,1951,0.67214161
+Philippines,1952,0.67214161
+Philippines,1953,0.67214161
+Philippines,1954,0.67214161
+Philippines,1955,0.67214161
+Philippines,1956,0.67214161
+Philippines,1957,0.67214161
+Philippines,1958,0.67214161
+Philippines,1959,0.67214161
+Philippines,1960,0.70046192
+Philippines,1961,0.70046192
+Philippines,1962,0.70046192
+Philippines,1963,0.70046192
+Philippines,1964,0.70046192
+Philippines,1965,0.69705445
+Philippines,1966,0.69705445
+Philippines,1967,0.69705445
+Philippines,1968,0.69705445
+Philippines,1969,0.69705445
+Philippines,1970,0.69705445
+Philippines,1971,0.7019769
+Philippines,1972,0.36707267
+Philippines,1973,0.19998609
+Philippines,1974,0.21292846
+Philippines,1975,0.21292846
+Philippines,1976,0.21292846
+Philippines,1977,0.34377277
+Philippines,1978,0.3732366
+Philippines,1979,0.43365189
+Philippines,1980,0.43365189
+Philippines,1981,0.4541862
+Philippines,1982,0.4672218
+Philippines,1983,0.4726446
+Philippines,1984,0.4726446
+Philippines,1985,0.48244175
+Philippines,1986,0.55699474
+Philippines,1987,0.70044136
+Philippines,1988,0.70044136
+Philippines,1989,0.70044136
+Philippines,1990,0.70044136
+Philippines,1991,0.70044136
+Philippines,1992,0.73786283
+Philippines,1993,0.72908205
+Philippines,1994,0.72908205
+Philippines,1995,0.72908205
+Philippines,1996,0.72908205
+Philippines,1997,0.72908205
+Philippines,1998,0.72908205
+Philippines,1999,0.72908205
+Philippines,2000,0.72908205
+Philippines,2001,0.70038062
+Philippines,2002,0.69553155
+Philippines,2003,0.69553155
+Philippines,2004,0.69417733
+Philippines,2005,0.68475652
+Philippines,2006,0.68475652
+Philippines,2007,0.68475652
+Philippines,2008,0.68475652
+Philippines,2009,0.68475652
+Philippines,2010,0.71389478
+Philippines,2011,0.71782649
+Philippines,2012,0.71782649
+Philippines,2013,0.72515374
+Philippines,2014,0.72515374
+Philippines,2015,0.73405117
+Philippines,2016,0.7469216
+Philippines,2017,0.72378337
+Philippines,2018,0.71514767
+Philippines,2019,0.70206326
+Philippines,2020,0.70206326
+Indonesia,1800,0.18383345
+Indonesia,1801,0.18383345
+Indonesia,1802,0.18383345
+Indonesia,1803,0.18383345
+Indonesia,1804,0.18383345
+Indonesia,1805,0.18383345
+Indonesia,1806,0.18383345
+Indonesia,1807,0.18383345
+Indonesia,1808,0.18383345
+Indonesia,1809,0.18383345
+Indonesia,1810,0.18383345
+Indonesia,1811,0.18383345
+Indonesia,1812,0.18383345
+Indonesia,1813,0.18383345
+Indonesia,1814,0.18383345
+Indonesia,1815,0.18383345
+Indonesia,1816,0.18383345
+Indonesia,1817,0.18383345
+Indonesia,1818,0.18383345
+Indonesia,1819,0.18383345
+Indonesia,1820,0.18383345
+Indonesia,1821,0.18383345
+Indonesia,1822,0.18383345
+Indonesia,1823,0.18383345
+Indonesia,1824,0.18383345
+Indonesia,1825,0.18383345
+Indonesia,1826,0.18383345
+Indonesia,1827,0.18383345
+Indonesia,1828,0.18383345
+Indonesia,1829,0.18383345
+Indonesia,1830,0.18383345
+Indonesia,1831,0.18383345
+Indonesia,1832,0.18383345
+Indonesia,1833,0.18383345
+Indonesia,1834,0.18383345
+Indonesia,1835,0.18383345
+Indonesia,1836,0.18383345
+Indonesia,1837,0.18383345
+Indonesia,1838,0.18383345
+Indonesia,1839,0.18383345
+Indonesia,1840,0.18383345
+Indonesia,1841,0.18383345
+Indonesia,1842,0.18383345
+Indonesia,1843,0.18383345
+Indonesia,1844,0.18383345
+Indonesia,1845,0.18383345
+Indonesia,1846,0.18383345
+Indonesia,1847,0.18383345
+Indonesia,1848,0.18383345
+Indonesia,1849,0.18383345
+Indonesia,1850,0.18383345
+Indonesia,1851,0.18383345
+Indonesia,1852,0.18383345
+Indonesia,1853,0.18383345
+Indonesia,1854,0.18383345
+Indonesia,1855,0.18383345
+Indonesia,1856,0.18383345
+Indonesia,1857,0.18383345
+Indonesia,1858,0.18383345
+Indonesia,1859,0.18383345
+Indonesia,1860,0.18383345
+Indonesia,1861,0.18383345
+Indonesia,1862,0.18383345
+Indonesia,1863,0.18383345
+Indonesia,1864,0.18383345
+Indonesia,1865,0.18383345
+Indonesia,1866,0.18383345
+Indonesia,1867,0.18383345
+Indonesia,1868,0.18383345
+Indonesia,1869,0.18383345
+Indonesia,1870,0.18383345
+Indonesia,1871,0.18383345
+Indonesia,1872,0.18383345
+Indonesia,1873,0.18383345
+Indonesia,1874,0.18383345
+Indonesia,1875,0.18383345
+Indonesia,1876,0.18383345
+Indonesia,1877,0.18383345
+Indonesia,1878,0.18383345
+Indonesia,1879,0.18383345
+Indonesia,1880,0.18383345
+Indonesia,1881,0.18383345
+Indonesia,1882,0.18383345
+Indonesia,1883,0.18383345
+Indonesia,1884,0.18383345
+Indonesia,1885,0.18383345
+Indonesia,1886,0.18383345
+Indonesia,1887,0.18383345
+Indonesia,1888,0.18383345
+Indonesia,1889,0.18383345
+Indonesia,1890,0.18383345
+Indonesia,1891,0.18383345
+Indonesia,1892,0.18383345
+Indonesia,1893,0.18383345
+Indonesia,1894,0.18383345
+Indonesia,1895,0.18383345
+Indonesia,1896,0.18383345
+Indonesia,1897,0.18383345
+Indonesia,1898,0.18383345
+Indonesia,1899,0.18383345
+Indonesia,1900,0.38535714
+Indonesia,1901,0.38535714
+Indonesia,1902,0.38535714
+Indonesia,1903,0.38535714
+Indonesia,1904,0.38535714
+Indonesia,1905,0.38535714
+Indonesia,1906,0.38535714
+Indonesia,1907,0.38535714
+Indonesia,1908,0.42623225
+Indonesia,1909,0.42623225
+Indonesia,1910,0.42623225
+Indonesia,1911,0.42623225
+Indonesia,1912,0.42623225
+Indonesia,1913,0.42623225
+Indonesia,1914,0.42623225
+Indonesia,1915,0.42623225
+Indonesia,1916,0.42623225
+Indonesia,1917,0.42623225
+Indonesia,1918,0.42623225
+Indonesia,1919,0.46583492
+Indonesia,1920,0.46583492
+Indonesia,1921,0.4613862
+Indonesia,1922,0.4613862
+Indonesia,1923,0.4613862
+Indonesia,1924,0.4613862
+Indonesia,1925,0.4613862
+Indonesia,1926,0.44876418
+Indonesia,1927,0.44876418
+Indonesia,1928,0.42312095
+Indonesia,1929,0.42312095
+Indonesia,1930,0.42312095
+Indonesia,1931,0.39322329
+Indonesia,1932,0.39322329
+Indonesia,1933,0.39322329
+Indonesia,1934,0.39322329
+Indonesia,1935,0.39322329
+Indonesia,1936,0.39322329
+Indonesia,1937,0.39322329
+Indonesia,1938,0.39322329
+Indonesia,1939,0.39322329
+Indonesia,1940,0.39322329
+Indonesia,1941,0.39322329
+Indonesia,1942,0.38765135
+Indonesia,1943,0.38765135
+Indonesia,1944,0.38765135
+Indonesia,1945,0.36437306
+Indonesia,1946,0.65559846
+Indonesia,1947,0.65559846
+Indonesia,1948,0.65559846
+Indonesia,1949,0.80080515
+Indonesia,1950,0.83311892
+Indonesia,1951,0.83311892
+Indonesia,1952,0.83311892
+Indonesia,1953,0.83311892
+Indonesia,1954,0.83311892
+Indonesia,1955,0.83311892
+Indonesia,1956,0.83311892
+Indonesia,1957,0.71962106
+Indonesia,1958,0.64711672
+Indonesia,1959,0.60156047
+Indonesia,1960,0.53916675
+Indonesia,1961,0.53298205
+Indonesia,1962,0.53298205
+Indonesia,1963,0.53298205
+Indonesia,1964,0.56359965
+Indonesia,1965,0.54711324
+Indonesia,1966,0.49549627
+Indonesia,1967,0.51086652
+Indonesia,1968,0.51267415
+Indonesia,1969,0.51267415
+Indonesia,1970,0.49375418
+Indonesia,1971,0.4780592
+Indonesia,1972,0.51077026
+Indonesia,1973,0.50227457
+Indonesia,1974,0.50140691
+Indonesia,1975,0.49691302
+Indonesia,1976,0.49691302
+Indonesia,1977,0.45975959
+Indonesia,1978,0.44892555
+Indonesia,1979,0.44892555
+Indonesia,1980,0.44892555
+Indonesia,1981,0.44892555
+Indonesia,1982,0.44892555
+Indonesia,1983,0.44892555
+Indonesia,1984,0.44892555
+Indonesia,1985,0.44892555
+Indonesia,1986,0.44892555
+Indonesia,1987,0.44892555
+Indonesia,1988,0.44892555
+Indonesia,1989,0.44892555
+Indonesia,1990,0.44411904
+Indonesia,1991,0.44411904
+Indonesia,1992,0.4383347
+Indonesia,1993,0.4383347
+Indonesia,1994,0.4383347
+Indonesia,1995,0.4383347
+Indonesia,1996,0.4383347
+Indonesia,1997,0.44463477
+Indonesia,1998,0.56830621
+Indonesia,1999,0.73361164
+Indonesia,2000,0.8293348
+Indonesia,2001,0.8293348
+Indonesia,2002,0.8293348
+Indonesia,2003,0.8293348
+Indonesia,2004,0.82504511
+Indonesia,2005,0.82596546
+Indonesia,2006,0.82596546
+Indonesia,2007,0.82596546
+Indonesia,2008,0.82440239
+Indonesia,2009,0.81894171
+Indonesia,2010,0.81639272
+Indonesia,2011,0.81639272
+Indonesia,2012,0.81639272
+Indonesia,2013,0.816131
+Indonesia,2014,0.81854188
+Indonesia,2015,0.77811229
+Indonesia,2016,0.77811229
+Indonesia,2017,0.78727138
+Indonesia,2018,0.77366358
+Indonesia,2019,0.73284692
+Indonesia,2020,0.75910562
+Timor-Leste,1900,0.45760986
+Timor-Leste,1901,0.45760986
+Timor-Leste,1902,0.45760986
+Timor-Leste,1903,0.45760986
+Timor-Leste,1904,0.45760986
+Timor-Leste,1905,0.45760986
+Timor-Leste,1906,0.45760986
+Timor-Leste,1907,0.45760986
+Timor-Leste,1908,0.45760986
+Timor-Leste,1909,0.45760986
+Timor-Leste,1910,0.45760986
+Timor-Leste,1911,0.45760986
+Timor-Leste,1912,0.45760986
+Timor-Leste,1913,0.45760986
+Timor-Leste,1914,0.45760986
+Timor-Leste,1915,0.45760986
+Timor-Leste,1916,0.45760986
+Timor-Leste,1917,0.45760986
+Timor-Leste,1918,0.45760986
+Timor-Leste,1919,0.45760986
+Timor-Leste,1920,0.45760986
+Timor-Leste,1921,0.45760986
+Timor-Leste,1922,0.45760986
+Timor-Leste,1923,0.45760986
+Timor-Leste,1924,0.45760986
+Timor-Leste,1925,0.45760986
+Timor-Leste,1926,0.45760986
+Timor-Leste,1927,0.45760986
+Timor-Leste,1928,0.45760986
+Timor-Leste,1929,0.45760986
+Timor-Leste,1930,0.45760986
+Timor-Leste,1931,0.45760986
+Timor-Leste,1932,0.45760986
+Timor-Leste,1933,0.45760986
+Timor-Leste,1934,0.45760986
+Timor-Leste,1935,0.45760986
+Timor-Leste,1936,0.45760986
+Timor-Leste,1937,0.45760986
+Timor-Leste,1938,0.45760986
+Timor-Leste,1939,0.45760986
+Timor-Leste,1940,0.45760986
+Timor-Leste,1941,0.45760986
+Timor-Leste,1942,0.45760986
+Timor-Leste,1943,0.45760986
+Timor-Leste,1944,0.45760986
+Timor-Leste,1945,0.45760986
+Timor-Leste,1946,0.45760986
+Timor-Leste,1947,0.45760986
+Timor-Leste,1948,0.45760986
+Timor-Leste,1949,0.45760986
+Timor-Leste,1950,0.45760986
+Timor-Leste,1951,0.45760986
+Timor-Leste,1952,0.45760986
+Timor-Leste,1953,0.45760986
+Timor-Leste,1954,0.45760986
+Timor-Leste,1955,0.45760986
+Timor-Leste,1956,0.45760986
+Timor-Leste,1957,0.45760986
+Timor-Leste,1958,0.45760986
+Timor-Leste,1959,0.45760986
+Timor-Leste,1960,0.45760986
+Timor-Leste,1961,0.45760986
+Timor-Leste,1962,0.45760986
+Timor-Leste,1963,0.45760986
+Timor-Leste,1964,0.45760986
+Timor-Leste,1965,0.45760986
+Timor-Leste,1966,0.45760986
+Timor-Leste,1967,0.45760986
+Timor-Leste,1968,0.45760986
+Timor-Leste,1969,0.45760986
+Timor-Leste,1970,0.45760986
+Timor-Leste,1971,0.45760986
+Timor-Leste,1972,0.45760986
+Timor-Leste,1973,0.45760986
+Timor-Leste,1974,0.32676557
+Timor-Leste,1975,0.37115765
+Timor-Leste,1976,0.31472969
+Timor-Leste,1977,0.31472969
+Timor-Leste,1978,0.31472969
+Timor-Leste,1979,0.31472969
+Timor-Leste,1980,0.31472969
+Timor-Leste,1981,0.31472969
+Timor-Leste,1982,0.31472969
+Timor-Leste,1983,0.31472969
+Timor-Leste,1984,0.31472969
+Timor-Leste,1985,0.31472969
+Timor-Leste,1986,0.31472969
+Timor-Leste,1987,0.31472969
+Timor-Leste,1988,0.31472969
+Timor-Leste,1989,0.31472969
+Timor-Leste,1990,0.31472969
+Timor-Leste,1991,0.31472969
+Timor-Leste,1992,0.31472969
+Timor-Leste,1993,0.31472969
+Timor-Leste,1994,0.31472969
+Timor-Leste,1995,0.31472969
+Timor-Leste,1996,0.31472969
+Timor-Leste,1997,0.31472969
+Timor-Leste,1998,0.44557399
+Timor-Leste,1999,0.44557399
+Timor-Leste,2000,0.5622595
+Timor-Leste,2001,0.43141523
+Timor-Leste,2002,0.68382686
+Timor-Leste,2003,0.73515737
+Timor-Leste,2004,0.73515737
+Timor-Leste,2005,0.74337023
+Timor-Leste,2006,0.74337023
+Timor-Leste,2007,0.7514084
+Timor-Leste,2008,0.74813199
+Timor-Leste,2009,0.75132102
+Timor-Leste,2010,0.75132102
+Timor-Leste,2011,0.75132102
+Timor-Leste,2012,0.75132102
+Timor-Leste,2013,0.74343991
+Timor-Leste,2014,0.74343991
+Timor-Leste,2015,0.72598112
+Timor-Leste,2016,0.72510141
+Timor-Leste,2017,0.75000495
+Timor-Leste,2018,0.74910116
+Timor-Leste,2019,0.73601669
+Timor-Leste,2020,0.73601669
+Australia,1789,0.85597813
+Australia,1790,0.85597813
+Australia,1791,0.85597813
+Australia,1792,0.85597813
+Australia,1793,0.85597813
+Australia,1794,0.85597813
+Australia,1795,0.85597813
+Australia,1796,0.85597813
+Australia,1797,0.85597813
+Australia,1798,0.85597813
+Australia,1799,0.85597813
+Australia,1800,0.85597813
+Australia,1801,0.85597813
+Australia,1802,0.85597813
+Australia,1803,0.85597813
+Australia,1804,0.85597813
+Australia,1805,0.85597813
+Australia,1806,0.85597813
+Australia,1807,0.85597813
+Australia,1808,0.85597813
+Australia,1809,0.85597813
+Australia,1810,0.85597813
+Australia,1811,0.85597813
+Australia,1812,0.85597813
+Australia,1813,0.85597813
+Australia,1814,0.85597813
+Australia,1815,0.85597813
+Australia,1816,0.85597813
+Australia,1817,0.85597813
+Australia,1818,0.85597813
+Australia,1819,0.85597813
+Australia,1820,0.85597813
+Australia,1821,0.85597813
+Australia,1822,0.85597813
+Australia,1823,0.85597813
+Australia,1824,0.85597813
+Australia,1825,0.85597813
+Australia,1826,0.85597813
+Australia,1827,0.85597813
+Australia,1828,0.85597813
+Australia,1829,0.85597813
+Australia,1830,0.85597813
+Australia,1831,0.85597813
+Australia,1832,0.85597813
+Australia,1833,0.85597813
+Australia,1834,0.85597813
+Australia,1835,0.85597813
+Australia,1836,0.85597813
+Australia,1837,0.85597813
+Australia,1838,0.85597813
+Australia,1839,0.85597813
+Australia,1840,0.85597813
+Australia,1841,0.85597813
+Australia,1842,0.85597813
+Australia,1843,0.85597813
+Australia,1844,0.85597813
+Australia,1845,0.85597813
+Australia,1846,0.85597813
+Australia,1847,0.85597813
+Australia,1848,0.85597813
+Australia,1849,0.85597813
+Australia,1850,0.85597813
+Australia,1851,0.85597813
+Australia,1852,0.85597813
+Australia,1853,0.85597813
+Australia,1854,0.85597813
+Australia,1855,0.85597813
+Australia,1856,0.92220539
+Australia,1857,0.92220539
+Australia,1858,0.92220539
+Australia,1859,0.92220539
+Australia,1860,0.92220539
+Australia,1861,0.92220539
+Australia,1862,0.92220539
+Australia,1863,0.92220539
+Australia,1864,0.92220539
+Australia,1865,0.92220539
+Australia,1866,0.92220539
+Australia,1867,0.92220539
+Australia,1868,0.92220539
+Australia,1869,0.92220539
+Australia,1870,0.92220539
+Australia,1871,0.92220539
+Australia,1872,0.92220539
+Australia,1873,0.92220539
+Australia,1874,0.92220539
+Australia,1875,0.92220539
+Australia,1876,0.92220539
+Australia,1877,0.92220539
+Australia,1878,0.92220539
+Australia,1879,0.92220539
+Australia,1880,0.92220539
+Australia,1881,0.92220539
+Australia,1882,0.92220539
+Australia,1883,0.92220539
+Australia,1884,0.92220539
+Australia,1885,0.92220539
+Australia,1886,0.92220539
+Australia,1887,0.92220539
+Australia,1888,0.92220539
+Australia,1889,0.92220539
+Australia,1890,0.92220539
+Australia,1891,0.92220539
+Australia,1892,0.92220539
+Australia,1893,0.92220539
+Australia,1894,0.92220539
+Australia,1895,0.92220539
+Australia,1896,0.92220539
+Australia,1897,0.92220539
+Australia,1898,0.92220539
+Australia,1899,0.92220539
+Australia,1900,0.92220539
+Australia,1901,0.85678327
+Australia,1902,0.85678327
+Australia,1903,0.86110812
+Australia,1904,0.86110812
+Australia,1905,0.86110812
+Australia,1906,0.86110812
+Australia,1907,0.86110812
+Australia,1908,0.86110812
+Australia,1909,0.86110812
+Australia,1910,0.86110812
+Australia,1911,0.86110812
+Australia,1912,0.86110812
+Australia,1913,0.86110812
+Australia,1914,0.8454771
+Australia,1915,0.8454771
+Australia,1916,0.8454771
+Australia,1917,0.8454771
+Australia,1918,0.8454771
+Australia,1919,0.86060011
+Australia,1920,0.86060011
+Australia,1921,0.8475157
+Australia,1922,0.8475157
+Australia,1923,0.8475157
+Australia,1924,0.8475157
+Australia,1925,0.8475157
+Australia,1926,0.8475157
+Australia,1927,0.8475157
+Australia,1928,0.8475157
+Australia,1929,0.8475157
+Australia,1930,0.8475157
+Australia,1931,0.8475157
+Australia,1932,0.8475157
+Australia,1933,0.8475157
+Australia,1934,0.8475157
+Australia,1935,0.8475157
+Australia,1936,0.8475157
+Australia,1937,0.8475157
+Australia,1938,0.8475157
+Australia,1939,0.82989168
+Australia,1940,0.82989168
+Australia,1941,0.82989168
+Australia,1942,0.82989168
+Australia,1943,0.82989168
+Australia,1944,0.82989168
+Australia,1945,0.82989168
+Australia,1946,0.84763288
+Australia,1947,0.84763288
+Australia,1948,0.84763288
+Australia,1949,0.84763288
+Australia,1950,0.84763288
+Australia,1951,0.84763288
+Australia,1952,0.84763288
+Australia,1953,0.84763288
+Australia,1954,0.84763288
+Australia,1955,0.84763288
+Australia,1956,0.84763288
+Australia,1957,0.84763288
+Australia,1958,0.84763288
+Australia,1959,0.84763288
+Australia,1960,0.84763288
+Australia,1961,0.84763288
+Australia,1962,0.84763288
+Australia,1963,0.84763288
+Australia,1964,0.84763288
+Australia,1965,0.84763288
+Australia,1966,0.84763288
+Australia,1967,0.84763288
+Australia,1968,0.84763288
+Australia,1969,0.84763288
+Australia,1970,0.84763288
+Australia,1971,0.84763288
+Australia,1972,0.84763288
+Australia,1973,0.84780765
+Australia,1974,0.84780765
+Australia,1975,0.84780765
+Australia,1976,0.84780765
+Australia,1977,0.84780765
+Australia,1978,0.84780765
+Australia,1979,0.84780765
+Australia,1980,0.84780765
+Australia,1981,0.84780765
+Australia,1982,0.84780765
+Australia,1983,0.84780765
+Australia,1984,0.89188635
+Australia,1985,0.89900714
+Australia,1986,0.89900714
+Australia,1987,0.89900714
+Australia,1988,0.89900714
+Australia,1989,0.89900714
+Australia,1990,0.89900714
+Australia,1991,0.89900714
+Australia,1992,0.89900714
+Australia,1993,0.89900714
+Australia,1994,0.89900714
+Australia,1995,0.89900714
+Australia,1996,0.89900714
+Australia,1997,0.89900714
+Australia,1998,0.89900714
+Australia,1999,0.89900714
+Australia,2000,0.89900714
+Australia,2001,0.89099622
+Australia,2002,0.89099622
+Australia,2003,0.89099622
+Australia,2004,0.89099622
+Australia,2005,0.93391311
+Australia,2006,0.93391311
+Australia,2007,0.93391311
+Australia,2008,0.93391311
+Australia,2009,0.93391311
+Australia,2010,0.93679172
+Australia,2011,0.93679172
+Australia,2012,0.93679172
+Australia,2013,0.93672329
+Australia,2014,0.93672329
+Australia,2015,0.95727104
+Australia,2016,0.95727104
+Australia,2017,0.94287813
+Australia,2018,0.95570093
+Australia,2019,0.97192562
+Australia,2020,0.97192562
+Papua New Guinea,1900,0.48877177
+Papua New Guinea,1901,0.48877177
+Papua New Guinea,1902,0.48877177
+Papua New Guinea,1903,0.48877177
+Papua New Guinea,1904,0.48877177
+Papua New Guinea,1905,0.48877177
+Papua New Guinea,1906,0.48877177
+Papua New Guinea,1907,0.48877177
+Papua New Guinea,1908,0.48877177
+Papua New Guinea,1909,0.48877177
+Papua New Guinea,1910,0.48877177
+Papua New Guinea,1911,0.48877177
+Papua New Guinea,1912,0.48877177
+Papua New Guinea,1913,0.48877177
+Papua New Guinea,1914,0.48877177
+Papua New Guinea,1915,0.48877177
+Papua New Guinea,1916,0.48877177
+Papua New Guinea,1917,0.48877177
+Papua New Guinea,1918,0.48877177
+Papua New Guinea,1919,0.48877177
+Papua New Guinea,1920,0.48877177
+Papua New Guinea,1921,0.48877177
+Papua New Guinea,1922,0.48877177
+Papua New Guinea,1923,0.48877177
+Papua New Guinea,1924,0.48877177
+Papua New Guinea,1925,0.48877177
+Papua New Guinea,1926,0.48877177
+Papua New Guinea,1927,0.48877177
+Papua New Guinea,1928,0.48877177
+Papua New Guinea,1929,0.48877177
+Papua New Guinea,1930,0.48877177
+Papua New Guinea,1931,0.48877177
+Papua New Guinea,1932,0.48877177
+Papua New Guinea,1933,0.48877177
+Papua New Guinea,1934,0.48877177
+Papua New Guinea,1935,0.48877177
+Papua New Guinea,1936,0.48877177
+Papua New Guinea,1937,0.48877177
+Papua New Guinea,1938,0.48877177
+Papua New Guinea,1939,0.48877177
+Papua New Guinea,1940,0.48877177
+Papua New Guinea,1941,0.48877177
+Papua New Guinea,1942,0.48877177
+Papua New Guinea,1943,0.48877177
+Papua New Guinea,1944,0.48877177
+Papua New Guinea,1945,0.48877177
+Papua New Guinea,1946,0.48877177
+Papua New Guinea,1947,0.48877177
+Papua New Guinea,1948,0.48877177
+Papua New Guinea,1949,0.48877177
+Papua New Guinea,1950,0.48877177
+Papua New Guinea,1951,0.48877177
+Papua New Guinea,1952,0.48877177
+Papua New Guinea,1953,0.48877177
+Papua New Guinea,1954,0.48877177
+Papua New Guinea,1955,0.48877177
+Papua New Guinea,1956,0.48877177
+Papua New Guinea,1957,0.48877177
+Papua New Guinea,1958,0.48877177
+Papua New Guinea,1959,0.48877177
+Papua New Guinea,1960,0.65393597
+Papua New Guinea,1961,0.65393597
+Papua New Guinea,1962,0.65393597
+Papua New Guinea,1963,0.65393597
+Papua New Guinea,1964,0.7470299
+Papua New Guinea,1965,0.7470299
+Papua New Guinea,1966,0.7470299
+Papua New Guinea,1967,0.7470299
+Papua New Guinea,1968,0.7470299
+Papua New Guinea,1969,0.7470299
+Papua New Guinea,1970,0.7470299
+Papua New Guinea,1971,0.7470299
+Papua New Guinea,1972,0.68160772
+Papua New Guinea,1973,0.68160772
+Papua New Guinea,1974,0.68160772
+Papua New Guinea,1975,0.72482753
+Papua New Guinea,1976,0.72482753
+Papua New Guinea,1977,0.72482753
+Papua New Guinea,1978,0.72482753
+Papua New Guinea,1979,0.72482753
+Papua New Guinea,1980,0.72482753
+Papua New Guinea,1981,0.72482753
+Papua New Guinea,1982,0.72482753
+Papua New Guinea,1983,0.72482753
+Papua New Guinea,1984,0.72482753
+Papua New Guinea,1985,0.72482753
+Papua New Guinea,1986,0.72482753
+Papua New Guinea,1987,0.72482753
+Papua New Guinea,1988,0.72482753
+Papua New Guinea,1989,0.72482753
+Papua New Guinea,1990,0.72482753
+Papua New Guinea,1991,0.72482753
+Papua New Guinea,1992,0.72482753
+Papua New Guinea,1993,0.72482753
+Papua New Guinea,1994,0.72482753
+Papua New Guinea,1995,0.72482753
+Papua New Guinea,1996,0.72482753
+Papua New Guinea,1997,0.72482753
+Papua New Guinea,1998,0.72482753
+Papua New Guinea,1999,0.72482753
+Papua New Guinea,2000,0.72482753
+Papua New Guinea,2001,0.72482753
+Papua New Guinea,2002,0.72482753
+Papua New Guinea,2003,0.72482753
+Papua New Guinea,2004,0.72482753
+Papua New Guinea,2005,0.73424828
+Papua New Guinea,2006,0.73424828
+Papua New Guinea,2007,0.73424828
+Papua New Guinea,2008,0.73424828
+Papua New Guinea,2009,0.73424828
+Papua New Guinea,2010,0.73800528
+Papua New Guinea,2011,0.73800528
+Papua New Guinea,2012,0.73800528
+Papua New Guinea,2013,0.73800528
+Papua New Guinea,2014,0.73800528
+Papua New Guinea,2015,0.74166888
+Papua New Guinea,2016,0.74166888
+Papua New Guinea,2017,0.74166888
+Papua New Guinea,2018,0.76129556
+Papua New Guinea,2019,0.76129556
+Papua New Guinea,2020,0.76129556
+New Zealand,1841,0.26168856
+New Zealand,1842,0.26168856
+New Zealand,1843,0.26168856
+New Zealand,1844,0.26168856
+New Zealand,1845,0.26168856
+New Zealand,1846,0.26168856
+New Zealand,1847,0.26168856
+New Zealand,1848,0.26168856
+New Zealand,1849,0.26168856
+New Zealand,1850,0.26168856
+New Zealand,1851,0.26168856
+New Zealand,1852,0.47205675
+New Zealand,1853,0.70999992
+New Zealand,1854,0.70999992
+New Zealand,1855,0.70999992
+New Zealand,1856,0.70999992
+New Zealand,1857,0.70999992
+New Zealand,1858,0.70999992
+New Zealand,1859,0.70999992
+New Zealand,1860,0.70999992
+New Zealand,1861,0.70999992
+New Zealand,1862,0.70999992
+New Zealand,1863,0.70999992
+New Zealand,1864,0.70999992
+New Zealand,1865,0.70999992
+New Zealand,1866,0.70999992
+New Zealand,1867,0.70999992
+New Zealand,1868,0.70999992
+New Zealand,1869,0.70999992
+New Zealand,1870,0.70999992
+New Zealand,1871,0.70999992
+New Zealand,1872,0.70999992
+New Zealand,1873,0.70999992
+New Zealand,1874,0.70999992
+New Zealand,1875,0.70999992
+New Zealand,1876,0.70999992
+New Zealand,1877,0.70999992
+New Zealand,1878,0.70999992
+New Zealand,1879,0.70999992
+New Zealand,1880,0.70999992
+New Zealand,1881,0.70999992
+New Zealand,1882,0.70999992
+New Zealand,1883,0.70999992
+New Zealand,1884,0.70999992
+New Zealand,1885,0.70999992
+New Zealand,1886,0.70999992
+New Zealand,1887,0.70999992
+New Zealand,1888,0.70999992
+New Zealand,1889,0.90933704
+New Zealand,1890,0.90933704
+New Zealand,1891,0.90933704
+New Zealand,1892,0.90933704
+New Zealand,1893,0.90933704
+New Zealand,1894,0.90933704
+New Zealand,1895,0.90933704
+New Zealand,1896,0.90933704
+New Zealand,1897,0.90933704
+New Zealand,1898,0.90933704
+New Zealand,1899,0.90933704
+New Zealand,1900,0.88761681
+New Zealand,1901,0.88761681
+New Zealand,1902,0.88761681
+New Zealand,1903,0.88761681
+New Zealand,1904,0.88761681
+New Zealand,1905,0.88761681
+New Zealand,1906,0.88761681
+New Zealand,1907,0.88761681
+New Zealand,1908,0.88761681
+New Zealand,1909,0.88761681
+New Zealand,1910,0.88761681
+New Zealand,1911,0.88761681
+New Zealand,1912,0.88761681
+New Zealand,1913,0.88761681
+New Zealand,1914,0.88761681
+New Zealand,1915,0.88761681
+New Zealand,1916,0.88761681
+New Zealand,1917,0.88761681
+New Zealand,1918,0.88761681
+New Zealand,1919,0.88761681
+New Zealand,1920,0.88316816
+New Zealand,1921,0.88316816
+New Zealand,1922,0.88316816
+New Zealand,1923,0.88316816
+New Zealand,1924,0.88316816
+New Zealand,1925,0.88316816
+New Zealand,1926,0.88316816
+New Zealand,1927,0.88316816
+New Zealand,1928,0.88316816
+New Zealand,1929,0.88316816
+New Zealand,1930,0.88316816
+New Zealand,1931,0.88316816
+New Zealand,1932,0.88316816
+New Zealand,1933,0.88316816
+New Zealand,1934,0.88316816
+New Zealand,1935,0.89692909
+New Zealand,1936,0.89692909
+New Zealand,1937,0.89692909
+New Zealand,1938,0.89692909
+New Zealand,1939,0.89692909
+New Zealand,1940,0.89692909
+New Zealand,1941,0.89692909
+New Zealand,1942,0.89692909
+New Zealand,1943,0.89692909
+New Zealand,1944,0.89692909
+New Zealand,1945,0.89692909
+New Zealand,1946,0.89692909
+New Zealand,1947,0.89692909
+New Zealand,1948,0.89692909
+New Zealand,1949,0.89692909
+New Zealand,1950,0.89692909
+New Zealand,1951,0.89692909
+New Zealand,1952,0.89692909
+New Zealand,1953,0.89692909
+New Zealand,1954,0.89692909
+New Zealand,1955,0.89692909
+New Zealand,1956,0.89692909
+New Zealand,1957,0.89692909
+New Zealand,1958,0.89692909
+New Zealand,1959,0.89692909
+New Zealand,1960,0.89692909
+New Zealand,1961,0.89692909
+New Zealand,1962,0.89692909
+New Zealand,1963,0.89692909
+New Zealand,1964,0.89692909
+New Zealand,1965,0.89692909
+New Zealand,1966,0.89692909
+New Zealand,1967,0.89692909
+New Zealand,1968,0.89692909
+New Zealand,1969,0.89692909
+New Zealand,1970,0.89692909
+New Zealand,1971,0.89692909
+New Zealand,1972,0.89692909
+New Zealand,1973,0.89692909
+New Zealand,1974,0.89692909
+New Zealand,1975,0.89692909
+New Zealand,1976,0.89692909
+New Zealand,1977,0.89692909
+New Zealand,1978,0.89692909
+New Zealand,1979,0.89692909
+New Zealand,1980,0.89692909
+New Zealand,1981,0.89692909
+New Zealand,1982,0.89692909
+New Zealand,1983,0.89692909
+New Zealand,1984,0.89692909
+New Zealand,1985,0.89692909
+New Zealand,1986,0.89692909
+New Zealand,1987,0.89692909
+New Zealand,1988,0.89692909
+New Zealand,1989,0.89692909
+New Zealand,1990,0.89692909
+New Zealand,1991,0.89692909
+New Zealand,1992,0.89692909
+New Zealand,1993,0.89692909
+New Zealand,1994,0.89692909
+New Zealand,1995,0.89692909
+New Zealand,1996,0.93144065
+New Zealand,1997,0.93144065
+New Zealand,1998,0.93144065
+New Zealand,1999,0.93144065
+New Zealand,2000,0.93144065
+New Zealand,2001,0.93144065
+New Zealand,2002,0.93144065
+New Zealand,2003,0.93144065
+New Zealand,2004,0.93144065
+New Zealand,2005,0.9099822
+New Zealand,2006,0.9099822
+New Zealand,2007,0.9099822
+New Zealand,2008,0.9099822
+New Zealand,2009,0.9099822
+New Zealand,2010,0.92078358
+New Zealand,2011,0.92078358
+New Zealand,2012,0.92078358
+New Zealand,2013,0.90979266
+New Zealand,2014,0.90979266
+New Zealand,2015,0.90979266
+New Zealand,2016,0.90979266
+New Zealand,2017,0.91921341
+New Zealand,2018,0.95349467
+New Zealand,2019,0.95349467
+New Zealand,2020,0.94904596
+Vanuatu,1900,0.3759934
+Vanuatu,1901,0.3759934
+Vanuatu,1902,0.3759934
+Vanuatu,1903,0.3759934
+Vanuatu,1904,0.3759934
+Vanuatu,1905,0.3759934
+Vanuatu,1906,0.3759934
+Vanuatu,1907,0.3759934
+Vanuatu,1908,0.3759934
+Vanuatu,1909,0.3759934
+Vanuatu,1910,0.3759934
+Vanuatu,1911,0.3759934
+Vanuatu,1912,0.3759934
+Vanuatu,1913,0.3759934
+Vanuatu,1914,0.3759934
+Vanuatu,1915,0.3759934
+Vanuatu,1916,0.3759934
+Vanuatu,1917,0.3759934
+Vanuatu,1918,0.3759934
+Vanuatu,1919,0.3759934
+Vanuatu,1920,0.3759934
+Vanuatu,1921,0.3759934
+Vanuatu,1922,0.3759934
+Vanuatu,1923,0.3759934
+Vanuatu,1924,0.3759934
+Vanuatu,1925,0.3759934
+Vanuatu,1926,0.3759934
+Vanuatu,1927,0.3759934
+Vanuatu,1928,0.3759934
+Vanuatu,1929,0.3759934
+Vanuatu,1930,0.3759934
+Vanuatu,1931,0.3759934
+Vanuatu,1932,0.3759934
+Vanuatu,1933,0.3759934
+Vanuatu,1934,0.3759934
+Vanuatu,1935,0.3759934
+Vanuatu,1936,0.3759934
+Vanuatu,1937,0.3759934
+Vanuatu,1938,0.3759934
+Vanuatu,1939,0.3759934
+Vanuatu,1940,0.3759934
+Vanuatu,1941,0.3759934
+Vanuatu,1942,0.3759934
+Vanuatu,1943,0.3759934
+Vanuatu,1944,0.3759934
+Vanuatu,1945,0.3759934
+Vanuatu,1946,0.3759934
+Vanuatu,1947,0.3759934
+Vanuatu,1948,0.3759934
+Vanuatu,1949,0.3759934
+Vanuatu,1950,0.3759934
+Vanuatu,1951,0.3759934
+Vanuatu,1952,0.3759934
+Vanuatu,1953,0.3759934
+Vanuatu,1954,0.3759934
+Vanuatu,1955,0.3759934
+Vanuatu,1956,0.3759934
+Vanuatu,1957,0.3759934
+Vanuatu,1958,0.3759934
+Vanuatu,1959,0.3759934
+Vanuatu,1960,0.3759934
+Vanuatu,1961,0.3759934
+Vanuatu,1962,0.3759934
+Vanuatu,1963,0.3759934
+Vanuatu,1964,0.3759934
+Vanuatu,1965,0.3759934
+Vanuatu,1966,0.3759934
+Vanuatu,1967,0.3759934
+Vanuatu,1968,0.3759934
+Vanuatu,1969,0.3759934
+Vanuatu,1970,0.72130364
+Vanuatu,1971,0.72130364
+Vanuatu,1972,0.72130364
+Vanuatu,1973,0.72130364
+Vanuatu,1974,0.72130364
+Vanuatu,1975,0.72130364
+Vanuatu,1976,0.72130364
+Vanuatu,1977,0.65588146
+Vanuatu,1978,0.65588146
+Vanuatu,1979,0.65588146
+Vanuatu,1980,0.76893967
+Vanuatu,1981,0.76893967
+Vanuatu,1982,0.76893967
+Vanuatu,1983,0.76893967
+Vanuatu,1984,0.76893967
+Vanuatu,1985,0.76893967
+Vanuatu,1986,0.76893967
+Vanuatu,1987,0.76893967
+Vanuatu,1988,0.76893967
+Vanuatu,1989,0.76893967
+Vanuatu,1990,0.76893967
+Vanuatu,1991,0.76893967
+Vanuatu,1992,0.76893967
+Vanuatu,1993,0.76893967
+Vanuatu,1994,0.76893967
+Vanuatu,1995,0.76893967
+Vanuatu,1996,0.76893967
+Vanuatu,1997,0.76893967
+Vanuatu,1998,0.76893967
+Vanuatu,1999,0.76893967
+Vanuatu,2000,0.76893967
+Vanuatu,2001,0.76893967
+Vanuatu,2002,0.76893967
+Vanuatu,2003,0.76893967
+Vanuatu,2004,0.76893967
+Vanuatu,2005,0.79065979
+Vanuatu,2006,0.79065979
+Vanuatu,2007,0.79065979
+Vanuatu,2008,0.79065979
+Vanuatu,2009,0.79065979
+Vanuatu,2010,0.77836043
+Vanuatu,2011,0.77836043
+Vanuatu,2012,0.77836043
+Vanuatu,2013,0.77836043
+Vanuatu,2014,0.77836043
+Vanuatu,2015,0.77836043
+Vanuatu,2016,0.77836043
+Vanuatu,2017,0.7899524
+Vanuatu,2018,0.81167257
+Vanuatu,2019,0.7899524
+Vanuatu,2020,0.75403082
+Solomon Islands,1900,0.4468596
+Solomon Islands,1901,0.4468596
+Solomon Islands,1902,0.4468596
+Solomon Islands,1903,0.4468596
+Solomon Islands,1904,0.4468596
+Solomon Islands,1905,0.4468596
+Solomon Islands,1906,0.4468596
+Solomon Islands,1907,0.4468596
+Solomon Islands,1908,0.4468596
+Solomon Islands,1909,0.4468596
+Solomon Islands,1910,0.4468596
+Solomon Islands,1911,0.4468596
+Solomon Islands,1912,0.4468596
+Solomon Islands,1913,0.4468596
+Solomon Islands,1914,0.4468596
+Solomon Islands,1915,0.4468596
+Solomon Islands,1916,0.4468596
+Solomon Islands,1917,0.4468596
+Solomon Islands,1918,0.4468596
+Solomon Islands,1919,0.4468596
+Solomon Islands,1920,0.4468596
+Solomon Islands,1921,0.4468596
+Solomon Islands,1922,0.4468596
+Solomon Islands,1923,0.4468596
+Solomon Islands,1924,0.4468596
+Solomon Islands,1925,0.4468596
+Solomon Islands,1926,0.4468596
+Solomon Islands,1927,0.4468596
+Solomon Islands,1928,0.4468596
+Solomon Islands,1929,0.4468596
+Solomon Islands,1930,0.4468596
+Solomon Islands,1931,0.4468596
+Solomon Islands,1932,0.4468596
+Solomon Islands,1933,0.4468596
+Solomon Islands,1934,0.4468596
+Solomon Islands,1935,0.4468596
+Solomon Islands,1936,0.4468596
+Solomon Islands,1937,0.4468596
+Solomon Islands,1938,0.4468596
+Solomon Islands,1939,0.4468596
+Solomon Islands,1940,0.4468596
+Solomon Islands,1941,0.4468596
+Solomon Islands,1942,0.4468596
+Solomon Islands,1943,0.4468596
+Solomon Islands,1944,0.4468596
+Solomon Islands,1945,0.4468596
+Solomon Islands,1946,0.4468596
+Solomon Islands,1947,0.4468596
+Solomon Islands,1948,0.4468596
+Solomon Islands,1949,0.4468596
+Solomon Islands,1950,0.4468596
+Solomon Islands,1951,0.4468596
+Solomon Islands,1952,0.4468596
+Solomon Islands,1953,0.4468596
+Solomon Islands,1954,0.4468596
+Solomon Islands,1955,0.4468596
+Solomon Islands,1956,0.4468596
+Solomon Islands,1957,0.4468596
+Solomon Islands,1958,0.4468596
+Solomon Islands,1959,0.4468596
+Solomon Islands,1960,0.48890263
+Solomon Islands,1961,0.48890263
+Solomon Islands,1962,0.48890263
+Solomon Islands,1963,0.48890263
+Solomon Islands,1964,0.58457398
+Solomon Islands,1965,0.70071244
+Solomon Islands,1966,0.70071244
+Solomon Islands,1967,0.70071244
+Solomon Islands,1968,0.70071244
+Solomon Islands,1969,0.70071244
+Solomon Islands,1970,0.70071244
+Solomon Islands,1971,0.70071244
+Solomon Islands,1972,0.70071244
+Solomon Islands,1973,0.70071244
+Solomon Islands,1974,0.70620787
+Solomon Islands,1975,0.70620787
+Solomon Islands,1976,0.72790837
+Solomon Islands,1977,0.72790837
+Solomon Islands,1978,0.73340386
+Solomon Islands,1979,0.74777639
+Solomon Islands,1980,0.74777639
+Solomon Islands,1981,0.74777639
+Solomon Islands,1982,0.74777639
+Solomon Islands,1983,0.74777639
+Solomon Islands,1984,0.74777639
+Solomon Islands,1985,0.74777639
+Solomon Islands,1986,0.74777639
+Solomon Islands,1987,0.74777639
+Solomon Islands,1988,0.74777639
+Solomon Islands,1989,0.74777639
+Solomon Islands,1990,0.74777639
+Solomon Islands,1991,0.74777639
+Solomon Islands,1992,0.74777639
+Solomon Islands,1993,0.74777639
+Solomon Islands,1994,0.74777639
+Solomon Islands,1995,0.74777639
+Solomon Islands,1996,0.74777639
+Solomon Islands,1997,0.74777639
+Solomon Islands,1998,0.74777639
+Solomon Islands,1999,0.74777639
+Solomon Islands,2000,0.74777639
+Solomon Islands,2001,0.74777639
+Solomon Islands,2002,0.74777639
+Solomon Islands,2003,0.74777639
+Solomon Islands,2004,0.74777639
+Solomon Islands,2005,0.70773804
+Solomon Islands,2006,0.70773804
+Solomon Islands,2007,0.70773804
+Solomon Islands,2008,0.70773804
+Solomon Islands,2009,0.70773804
+Solomon Islands,2010,0.70773804
+Solomon Islands,2011,0.70773804
+Solomon Islands,2012,0.70773804
+Solomon Islands,2013,0.71839732
+Solomon Islands,2014,0.73305184
+Solomon Islands,2015,0.70888215
+Solomon Islands,2016,0.70888215
+Solomon Islands,2017,0.74991667
+Solomon Islands,2018,0.74049586
+Solomon Islands,2019,0.78402281
+Solomon Islands,2020,0.78402281
+Fiji,1900,0.65122581
+Fiji,1901,0.65122581
+Fiji,1902,0.65122581
+Fiji,1903,0.65122581
+Fiji,1904,0.65122581
+Fiji,1905,0.65122581
+Fiji,1906,0.65122581
+Fiji,1907,0.65122581
+Fiji,1908,0.65122581
+Fiji,1909,0.65122581
+Fiji,1910,0.65122581
+Fiji,1911,0.65122581
+Fiji,1912,0.65122581
+Fiji,1913,0.65122581
+Fiji,1914,0.65122581
+Fiji,1915,0.65122581
+Fiji,1916,0.65122581
+Fiji,1917,0.65122581
+Fiji,1918,0.65122581
+Fiji,1919,0.65122581
+Fiji,1920,0.65122581
+Fiji,1921,0.65122581
+Fiji,1922,0.65122581
+Fiji,1923,0.65122581
+Fiji,1924,0.65122581
+Fiji,1925,0.65122581
+Fiji,1926,0.65122581
+Fiji,1927,0.65122581
+Fiji,1928,0.65122581
+Fiji,1929,0.65122581
+Fiji,1930,0.65122581
+Fiji,1931,0.65122581
+Fiji,1932,0.65122581
+Fiji,1933,0.65122581
+Fiji,1934,0.65122581
+Fiji,1935,0.65122581
+Fiji,1936,0.65122581
+Fiji,1937,0.65122581
+Fiji,1938,0.65122581
+Fiji,1939,0.65122581
+Fiji,1940,0.65122581
+Fiji,1941,0.65122581
+Fiji,1942,0.65122581
+Fiji,1943,0.65122581
+Fiji,1944,0.65122581
+Fiji,1945,0.65122581
+Fiji,1946,0.65122581
+Fiji,1947,0.65122581
+Fiji,1948,0.65122581
+Fiji,1949,0.65122581
+Fiji,1950,0.65122581
+Fiji,1951,0.65122581
+Fiji,1952,0.65122581
+Fiji,1953,0.65122581
+Fiji,1954,0.65122581
+Fiji,1955,0.65122581
+Fiji,1956,0.65122581
+Fiji,1957,0.65122581
+Fiji,1958,0.65122581
+Fiji,1959,0.65122581
+Fiji,1960,0.65122581
+Fiji,1961,0.65122581
+Fiji,1962,0.65122581
+Fiji,1963,0.65122581
+Fiji,1964,0.65122581
+Fiji,1965,0.65122581
+Fiji,1966,0.65122581
+Fiji,1967,0.65122581
+Fiji,1968,0.65122581
+Fiji,1969,0.65122581
+Fiji,1970,0.65122581
+Fiji,1971,0.65122581
+Fiji,1972,0.65122581
+Fiji,1973,0.65122581
+Fiji,1974,0.65122581
+Fiji,1975,0.65122581
+Fiji,1976,0.65122581
+Fiji,1977,0.65122581
+Fiji,1978,0.65122581
+Fiji,1979,0.65122581
+Fiji,1980,0.65122581
+Fiji,1981,0.65122581
+Fiji,1982,0.65122581
+Fiji,1983,0.65122581
+Fiji,1984,0.65122581
+Fiji,1985,0.65122581
+Fiji,1986,0.65122581
+Fiji,1987,0.52038151
+Fiji,1988,0.52038151
+Fiji,1989,0.52038151
+Fiji,1990,0.52038151
+Fiji,1991,0.52038151
+Fiji,1992,0.65122581
+Fiji,1993,0.65122581
+Fiji,1994,0.65122581
+Fiji,1995,0.65122581
+Fiji,1996,0.65122581
+Fiji,1997,0.65122581
+Fiji,1998,0.65122581
+Fiji,1999,0.65122581
+Fiji,2000,0.52038151
+Fiji,2001,0.52038151
+Fiji,2002,0.65122581
+Fiji,2003,0.65122581
+Fiji,2004,0.65122581
+Fiji,2005,0.64389849
+Fiji,2006,0.65302658
+Fiji,2007,0.55465704
+Fiji,2008,0.55472064
+Fiji,2009,0.53096151
+Fiji,2010,0.54456049
+Fiji,2011,0.54456049
+Fiji,2012,0.54670978
+Fiji,2013,0.54187638
+Fiji,2014,0.61393696
+Fiji,2015,0.6219961
+Fiji,2016,0.6549899
+Fiji,2017,0.64033538
+Fiji,2018,0.63579208
+Fiji,2019,0.64886373
+Fiji,2020,0.62988776`
+
+const w4 = csvToJson(w4csv)
