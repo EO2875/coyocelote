@@ -58,6 +58,7 @@
     left: 5px;
     display: flex;
     flex-direction: column-reverse;
+    z-index: 3000;
 }
 
 .color-legend-cont-number {
